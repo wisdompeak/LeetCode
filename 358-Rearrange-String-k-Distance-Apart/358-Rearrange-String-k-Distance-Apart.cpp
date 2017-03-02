@@ -3,9 +3,7 @@ class Solution {
 public:
 
     string rearrangeString(string s, int k) 
-
     {
-
         if (k==0) return s;
 
         unordered_map<char,int>Map;
