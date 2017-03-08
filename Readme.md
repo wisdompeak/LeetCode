@@ -2,8 +2,8 @@
 ####目前分类目录：
 #####双指针
 15.3Sum  (M)  
-11.Container-With-Most-Water	(M) 
-26.Remove Duplicates from Sorted Array (M)
+11.Container-With-Most-Water	(M)  
+26.Remove Duplicates from Sorted Array (M)  
 88.Merge Sorted Array (E)  
 141.Linked-List-Cycle (E)   
 
