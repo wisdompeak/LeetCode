@@ -23,5 +23,8 @@
 #####链表
 142.Linked List Cycle II
 
+#####动态规划
+487.Max Consecutive Ones II 
+
 #####其他
 42.Trapping-Rain-Water	
