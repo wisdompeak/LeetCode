@@ -20,5 +20,8 @@
 316.Remove Duplicate Letters  
 358.Rearrange-String-k-Distance-Apart
 
+#####链表
+142.Linked List Cycle II
+
 #####其他
 42.Trapping-Rain-Water	
