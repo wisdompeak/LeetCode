@@ -1,6 +1,7 @@
 ### LeetCode所有题解的代码和算法要点分析
 ####目前分类目录：
 #####双指针
+3.Longest Substring Without Repeating Character (M)  
 15.3Sum  (M)  
 11.Container-With-Most-Water	(M)  
 26.Remove Duplicates from Sorted Array (M)  
@@ -8,7 +9,6 @@
 141.Linked-List-Cycle (E+)   
 
 #####二分法
-3.Longest Substring Without Repeating Character (M)  
 4.Median-of-Two-Sorted-Arrays	(H)  
 26.Remove Duplicates from Sorted Array	(H-)
 #####BSF
