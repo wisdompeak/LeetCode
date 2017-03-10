@@ -3,6 +3,8 @@
 #####双指针
 3.Longest Substring Without Repeating Character (M)  
 15.3Sum  (M)  
+16.3Sum-Closet (E)  
+
 11.Container-With-Most-Water	(M)  
 26.Remove Duplicates from Sorted Array (M)  
 88.Merge Sorted Array (M)  
@@ -11,6 +13,7 @@
 #####二分法
 4.Median-of-Two-Sorted-Arrays	(H)  
 26.Remove Duplicates from Sorted Array	(H-)
+
 #####BSF
 407.Trapping-Rain-Water-II	
 
