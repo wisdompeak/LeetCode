@@ -8,6 +8,7 @@
 141.Linked-List-Cycle (E+)   
 
 #####二分法
+3.Longest Substring Without Repeating Character (M)  
 4.Median-of-Two-Sorted-Arrays	(H)  
 26.Remove Duplicates from Sorted Array	(H-)
 #####BSF
