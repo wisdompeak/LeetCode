@@ -5,6 +5,7 @@
 11.Container-With-Most-Water	(M)  
 15.3Sum  (M)  
 16.3Sum-Closet (M)   
+76.Minimum Window Substring
 259.3Sum-Smaller (M)   
 26.Remove Duplicates from Sorted Array (M)  
 88.Merge Sorted Array (M)  
