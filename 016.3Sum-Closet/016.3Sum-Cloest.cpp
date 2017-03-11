@@ -5,6 +5,8 @@ public:
 		sort(nums.begin(),nums.end());
 		int diff=INT_MAX;
 
+        int result=0;
+        
 		for (int a=0; a<nums.size(); a++)
 		{
 			int left=a+1;
@@ -24,17 +26,12 @@ public:
 				else
 					right--;
 			}
-
+			
+			// cout<<a<<" "<<result<<endl;			
 			while (a+1<nums.size() && nums[a+1]==nums[a])
 				a++;
-			a++;
-
 		}		
-
 		return result;             
-
     }
-
 };
-
 
