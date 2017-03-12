@@ -6,7 +6,7 @@
 15.3Sum  (M)  
 16.3Sum-Closet (M)   
 75.Sort-Colors (H)  
-76.Minimum Window Substring  
+76.Minimum Window Substring (M+)    
 259.3Sum-Smaller (M)   
 26.Remove Duplicates from Sorted Array (M)  
 80.Remove Duplicates from Sorted Array II (M)  
