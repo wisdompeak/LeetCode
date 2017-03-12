@@ -1,11 +1,12 @@
-### LeetCode所有题解的代码和算法要点分析
+### LeetCode中难题代码和算法要点分析
 ####目前分类目录：
 #####双指针
 3.Longest Substring Without Repeating Character (M)  
 11.Container-With-Most-Water	(M)  
 15.3Sum  (M)  
-16.3Sum-Closet (M)   
-75.Sort-Colors (H)  
+16.3Sum-Closet (M)  
+30.Substring-with-Concatenation-of-All-Words (H+)  
+75.Sort-Colors (H)    
 76.Minimum Window Substring (M+)    
 259.3Sum-Smaller (M)   
 26.Remove Duplicates from Sorted Array (M)  
