@@ -20,7 +20,7 @@
 
 #####BSF
 407.Trapping-Rain-Water-II	
-378.Kth-Smallest-Element-in-a-Sorted-Matrix  
+378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)  
 
 #####贪心法
 84.Largest-Rectangle-in-Histogram	
