@@ -40,7 +40,6 @@
                     }
 ```
   (b) 如果反而count--，说明当前新单词的出现次数过多了，同样需要让左指针不断前移并更新showTime和count，直到当前showTime[str]==Map[str]
-5.重复循环，让右指针前移一步，考虑下一个新元素。
 ```cpp
                     else if (showTime[temp]>Map[temp])
                     {
@@ -53,3 +52,4 @@
                             left+=M;
                         }
 ```
+5.重复循环，让右指针前移一步，考虑下一个新元素。
