@@ -18,7 +18,11 @@
 4.Median-of-Two-Sorted-Arrays	(H)  
 26.Remove Duplicates from Sorted Array	(H-)
 
-#####BSF
+#####DFS
+200.Number-of-Islands (M)  
+
+#####BFS
+200.Number-of-Islands (H-)
 407.Trapping-Rain-Water-II	
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)  
 
