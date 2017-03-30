@@ -1,5 +1,5 @@
-###18. 4Sum
-按照3sum的思路来做4sum，需要n*n*n*long的时间复杂度。
+### 18. 4Sum  
+按照3sum的思路来做4sum，需要n*n*n*log(n)的时间复杂度。
 需要注意必要的剪枝来减少计算量。比如第一层循环
 ```cpp
 for (int h1=0; h1<nums.size(); h1++)
