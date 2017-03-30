@@ -16,7 +16,8 @@
 
 ##### 二分法
 4.Median-of-Two-Sorted-Arrays	(H)  
-26.Remove Duplicates from Sorted Array	(H-)  
+26.Remove Duplicates from Sorted Array	(H-)    
+33.Search in Rotated Sorted Array.cpp  
 287.Find the Duplicate Number (H-)  
 
 ##### DFS
