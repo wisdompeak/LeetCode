@@ -18,6 +18,7 @@
 4.Median-of-Two-Sorted-Arrays	(H)  
 26.Remove Duplicates from Sorted Array	(H-)    
 33.Search in Rotated Sorted Array (M)  
+162.Find-Peak-Element (H)  
 287.Find the Duplicate Number (H-)    
 
 ##### DFS
