@@ -33,10 +33,11 @@
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H) 
 
 ##### 贪心法
-84.Largest-Rectangle-in-Histogram	
-85.Maximal-Rectangle	
+84.Largest-Rectangle-in-Histogram  	
+85.Maximal-Rectangle  
 221.Maximal-Square  
-316.Remove Duplicate Letters  
+300.Longest Increasing Subsequence  
+316.Remove Duplicate Letters   
 358.Rearrange-String-k-Distance-Apart
 
 ##### 链表
