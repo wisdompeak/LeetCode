@@ -35,7 +35,7 @@
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H) 
 
 ##### 贪心法
-84.Largest-Rectangle-in-Histogram  	
+84.Largest-Rectangle-in-Histogram  
 85.Maximal-Rectangle  
 221.Maximal-Square  
 300.Longest Increasing Subsequence  
