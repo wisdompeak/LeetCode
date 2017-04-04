@@ -1,4 +1,4 @@
-### LeetCode中难题代码和算法要点分析
+### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
 ##### 双指针
 3.Longest Substring Without Repeating Character (M)  
@@ -20,7 +20,8 @@
 33.Search in Rotated Sorted Array (M)    
 34.Search-for-a-Range (M)  
 162.Find-Peak-Element (H)  
-287.Find the Duplicate Number (H-)    
+275.H-index II (M)  
+287.Find the Duplicate Number (H-)  
 
 ##### DFS
 200.Number-of-Islands (M)  
