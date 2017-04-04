@@ -21,7 +21,8 @@
 34.Search-for-a-Range (M)  
 162.Find-Peak-Element (H)  
 275.H-index II (M)  
-287.Find the Duplicate Number (H-)  
+287.Find the Duplicate Number (H-)   
+363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
 
 ##### DFS
 200.Number-of-Islands (M)  
