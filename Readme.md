@@ -22,6 +22,7 @@
 162.Find-Peak-Element (H)  
 275.H-index II (M)  
 287.Find the Duplicate Number (H-)   
+302.Smallest-Rectangle-Enclosing-Black-Pixels (H-)  
 363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
 410.Split-Array-Largest-Sum (H)	  
 
