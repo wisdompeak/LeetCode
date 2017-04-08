@@ -24,7 +24,8 @@
 287.Find the Duplicate Number (H-)   
 302.Smallest-Rectangle-Enclosing-Black-Pixels (H-)  
 363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
-410.Split-Array-Largest-Sum (H)	  
+410.Split-Array-Largest-Sum (H)  
+475.Heaters (H-) 
 
 ##### DFS
 200.Number-of-Islands (M)  
