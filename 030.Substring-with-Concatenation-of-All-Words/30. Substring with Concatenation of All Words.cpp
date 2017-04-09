@@ -3,75 +3,67 @@ public:
     vector<int> findSubstring(string s, vector<string>& words) 
     {
         unordered_map<string,int>Map;
-        unordered_map<string,int>showTime;
-
-        int Target=0;
-        vector<int>result;
-        
+        int N=0;
         for (int i=0; i<words.size(); i++)
         {
             if (Map.find(words[i])==Map.end())
-                Target++;
+                N++;
             Map[words[i]]++;
         }
+        
         int M=words[0].size();
         
-        for (int begin=0; begin<M; begin++ )
-        {
-            int left=begin;
-            int right=left;
-      
-            for (auto it=showTime.begin(); it!=showTime.end(); it++)
-                it->second=0;             
-            int count=0;
         
-            while (right<s.size())
+        vector<int>results;
+        
+        for (int start=0; start<M; start++)
+        {
+            int i=start;
+            int j=start;
+            int count=0;
+            unordered_map<string,int>Map_temp;
+            
+            while (j<s.size() && i<=j)
             {
+                string ss = s.substr(j,M);
                 
-                string temp=s.substr(right,M);
-                right+=M;
-                
-                //cout<<left<<" "<<right<<endl;
-
-                if (Map.find(temp)==Map.end())
+                if (Map.find(ss)==Map.end())
                 {
-                    for (auto it=showTime.begin(); it!=showTime.end(); it++)
-                        it->second=0;    
+                    j+=M;
+                    i=j;
                     count=0;
-                    left=right;
+                    Map_temp.clear();
+                }
+                else if (Map_temp[ss]<Map[ss])
+                {
+                    j+=M;
+                    Map_temp[ss]++;
+                    if (Map_temp[ss]==Map[ss])
+                        count++;
+                    
+                    if (count==N)
+                    {
+                        results.push_back(i);
+                        string tt = s.substr(i,M);
+                        Map_temp[tt]--;
+                        count--;
+                        i+=M;
+                    }
                 }
                 else
                 {
-                    showTime[temp]++;
-
-                    if (showTime[temp]==Map[temp])
-                    {
-                        count++;
-                        if (count==Target)
-                        {
-                            result.push_back(left);
-                            string temp2=s.substr(left,M);
-                            showTime[temp2]--;
-                            count--;
-                            left+=M;
-                        }
-                    }
-                    else if (showTime[temp]>Map[temp])
-                    {
-                        while (left<=right && showTime[temp]!=Map[temp])
-                        {
-                            string temp2 = s.substr(left,M);
-                            showTime[temp2]--;
-                            if (showTime[temp2]==Map[temp2]-1)
-                                count--;
-                            left+=M;
-                        }
-                    }
+                    string tt = s.substr(i,M);
+                    Map_temp[tt]--;
+                    if (Map_temp[tt]==Map[tt]-1)
+                        count--;
+                    i+=M;
                 }
+                
             }
         }
         
-        return result;
+        return results;
+        
         
     }
 };
