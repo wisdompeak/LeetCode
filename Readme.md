@@ -8,11 +8,12 @@
 30.Substring-with-Concatenation-of-All-Words (H)  
 75.Sort-Colors (H)    
 76.Minimum Window Substring (M+)    
-259.3Sum-Smaller (M)   
 26.Remove Duplicates from Sorted Array (M)  
 80.Remove Duplicates from Sorted Array II (H)  
 88.Merge Sorted Array (M)  
 141.Linked-List-Cycle (E+)   
+259.3Sum-Smaller (M)   
+340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
 
 ##### 二分法
 4.Median-of-Two-Sorted-Arrays	(H)  
