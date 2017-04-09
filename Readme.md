@@ -5,13 +5,13 @@
 11.Container-With-Most-Water	(M)  
 15.3Sum  (M)  
 16.3Sum-Closet (M)  
-30.Substring-with-Concatenation-of-All-Words (H+)  
+30.Substring-with-Concatenation-of-All-Words (H)  
 75.Sort-Colors (H)    
 76.Minimum Window Substring (M+)    
 259.3Sum-Smaller (M)   
 26.Remove Duplicates from Sorted Array (M)  
-80.Remove Duplicates from Sorted Array II (M)  
-88.Merge Sorted Array (H)  
+80.Remove Duplicates from Sorted Array II (H)  
+88.Merge Sorted Array (M)  
 141.Linked-List-Cycle (E+)   
 
 ##### 二分法
