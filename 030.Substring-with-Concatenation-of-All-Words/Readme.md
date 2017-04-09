@@ -5,11 +5,15 @@
 ```cpp
         for (int start=0; start<M; start++ )
         {
-            int left=start;
-            int right=start;
+            int i=start;
+            int j=start;
             int count=0;
             unordered_map<string,int> showTime;
+            
+            while (j<s.size() && i<=j)
+            {
             ...
+            }
         }
 ```
 2.每次考察待右指针对应的子串，
@@ -47,7 +51,7 @@
                     }
                 }
 ```
-  (b) 待加入的新元素虽然在字典中，但会造成溢出，则不加入统计；同时左指针右移，退出最左边的元素。
+  (c) 待加入的新元素虽然在字典中，但会造成溢出，则不加入统计；同时左指针右移，退出最左边的元素。
 ```cpp
                 else
                 {
