@@ -1,55 +1,61 @@
-###30. Substring-with-Concatenation-of-All-Words  
+### 30. Substring-with-Concatenation-of-All-Words  
 典型的双指针算法题，常规思路：右指针一路前进，遇到不符合条件的情况就移动左指针直至消除负面条件，再接着移动右指针。  
 具体的实现比较复杂，需要注意这么几点：  
 1.增加一个外层循环，双指针的起始点可以从0~M, M是每个词的长度  
 ```cpp
-        for (int begin=0; begin<M; begin++ )
+        for (int start=0; start<M; start++ )
         {
-            int left=begin;
-            int right=left;
+            int left=start;
+            int right=start;
             int count=0;
-            showTime 映射要清零！
+            unordered_map<string,int> showTime;
             ...
         }
 ```
-2.左右指针的移动幅度都是M  
-3.当右指针加入的新元素不在字典中，记得要将count和showTime都清零！  
+2.每次考察待右指针对应的子串，
 ```cpp
-                if (Map.find(temp)==Map.end())
+                string ss = s.substr(j,M);
+```
+但不要着急移动右指针，进入如下的判断：
+
+(a).待加入的新元素不在字典中，记得要将count和showTime都清零！两个指针都移到右指针的下一个位置
+```cpp
+                if (Map.find(ss)==Map.end())
                 {
-                    for (auto it=showTime.begin(); it!=showTime.end(); it++)
-                        it->second=0;    
+                    j+=M;
+                    i=j;
                     count=0;
-                    left=right;
+                    showTime.clear();
                 }
 ```
-4.当右指针加入的新元素存在字典中，更新showTime和count。  
-  (a) 如果count++，考虑是否满足总条件count==Target，是的话就记录结果，左指针前移一步并更新showTime和count 
+(b).待加入的新元素在字典中，且没有溢出，则加入并更新统计。注意，加入之后如果已经满足条件，则记录并处理。
 ```cpp
-                    if (showTime[temp]==Map[temp])
-                    {
+                else if (Map_temp[ss]<Map[ss])
+                {
+                    j+=M;
+                    showTime[ss]++;
+                    if (showTime[ss]==Map[ss])
                         count++;
-                        if (count==Target)
-                        {
-                            result.push_back(left);
-                            string temp2=s.substr(left,M);
-                            showTime[temp2]--;
-                            count--;
-                            left+=M;
-                        }
-                    }
-```
-  (b) 如果反而count--，说明当前新单词的出现次数过多了，同样需要让左指针不断前移并更新showTime和count，直到当前showTime[str]==Map[str]
-```cpp
-                    else if (showTime[temp]>Map[temp])
+                    
+                    if (count==N)
                     {
-                        while (left<=right && showTime[temp]!=Map[temp])
-                        {
-                            string temp2 = s.substr(left,M);
-                            showTime[temp2]--;
-                            if (showTime[temp2]==Map[temp2]-1)
-                                count--;
-                            left+=M;
-                        }
+                        results.push_back(i);
+                        string tt = s.substr(i,M);
+                        showTime[tt]--;
+                        count--;
+                        i+=M;
+                    }
+                }
 ```
-5.重复循环，让右指针前移一步，考虑下一个新元素。
+  (b) 待加入的新元素虽然在字典中，但会造成溢出，则不加入统计；同时左指针右移，退出最左边的元素。
+```cpp
+                else
+                {
+                    string tt = s.substr(i,M);
+                    showTime[tt]--;
+                    if (showTime[tt]==Map[tt]-1)
+                        count--;
+                    i+=M;
+                }
+```
+5.重复循环。
