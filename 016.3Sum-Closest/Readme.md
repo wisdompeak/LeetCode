@@ -1,4 +1,6 @@
-###016. 3Sum-Closet  
+### 016. 3Sum-Closet  
+一定记得要先排序！
+
 在确定了第一个元素之后，第2、3个元素的指针该如何设计变动呢？
 ```cpp
 while (left<right)
