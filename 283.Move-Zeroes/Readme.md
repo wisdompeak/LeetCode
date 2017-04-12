@@ -9,7 +9,8 @@ int left=0;
 int right=0;
 ```
 a 当遇到 nums[right]==0时应该如何操作呢？既然非0的都已经扔到了左边，那么右指针遇到0就继续前进。
-b 当遇到 nums[right]！=0时应该如何操作呢？首先，把这个数扔到左边去
+
+b 当遇到 nums[right]！=0时应该如何操作呢？首先，把这个数扔到左边去:
 ```cpp
 swap(nums[left],nums[right])
 ```
