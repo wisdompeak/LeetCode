@@ -31,7 +31,8 @@
 483.Smallest-Good-Base (H-)  
 
 ##### Hash Table
-392.Is-Subsequence (M)  
+392.Is-Subsequence (M)  
+380.Insert-Delete-GetRandom-O(1)  (M+)
 
 ##### DFS
 200.Number-of-Islands (M)  
