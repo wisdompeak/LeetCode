@@ -30,6 +30,9 @@
 475.Heaters (H-)  
 483.Smallest-Good-Base (H-)  
 
+##### Hash Table
+392.Is-Subsequence (M)  
+
 ##### DFS
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
