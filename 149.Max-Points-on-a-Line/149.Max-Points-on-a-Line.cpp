@@ -40,9 +40,7 @@ public:
                 
                 for (auto a:Map)
                 {
-                    Point p;
-                    p.x = a.first.first;
-                    p.y = a.first.second;
+                    Point p(a.first.first,a.first.second);
                     
                     if ( (long long)(p.y-points[i].y)*(points[j].x-points[i].x) == (long long)(points[j].y-points[i].y)*(p.x-points[i].x) )
                     {
