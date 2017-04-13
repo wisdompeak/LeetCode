@@ -8,7 +8,7 @@
 30.Substring-with-Concatenation-of-All-Words (H)  
 75.Sort-Colors (H)    
 76.Minimum Window Substring (M+)    
-26.Remove Duplicates from Sorted Array (M)  
+26.Remove Duplicates from Sorted Array (H-)  
 80.Remove Duplicates from Sorted Array II (H)  
 88.Merge Sorted Array (M)  
 283.Move-Zeroes （M）    
@@ -18,7 +18,6 @@
 
 ##### 二分法
 4.Median-of-Two-Sorted-Arrays	(H)  
-26.Remove Duplicates from Sorted Array	(H-)    
 33.Search in Rotated Sorted Array (M)    
 34.Search-for-a-Range (M)  
 162.Find-Peak-Element (H)  
