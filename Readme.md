@@ -31,6 +31,7 @@
 483.Smallest-Good-Base (H-)  
 
 ##### Hash Table
+149.Max Points on a Line (H)     
 392.Is-Subsequence (M)  
 380.Insert-Delete-GetRandom-O(1)  (M+)
 
