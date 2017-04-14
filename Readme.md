@@ -4,8 +4,9 @@
 3.Longest Substring Without Repeating Character (M)  
 11.Container-With-Most-Water	(M)  
 15.3Sum  (M)  
-16.3Sum-Closet (M)  
-259.3Sum-Smaller (M)   
+16.3Sum-Closet (M)      
+18.4Sum (M)           
+259.3Sum-Smaller (M)       
 30.Substring-with-Concatenation-of-All-Words (H)  
 75.Sort-Colors (H)    
 76.Minimum Window Substring (M+)    
