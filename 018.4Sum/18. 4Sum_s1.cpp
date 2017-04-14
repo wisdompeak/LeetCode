@@ -4,50 +4,48 @@ public:
     {
         vector<vector<int>>results;
         if (nums.size()<4) return results;
+        
         sort(nums.begin(),nums.end());
         
-        for (int h1=0; h1<nums.size(); h1++)
+        for (int a=0; a<nums.size(); a++)
         {
-            if (nums[h1]*4>target) break;
+            if (nums[a]*4>target) break;
+            if (nums[a]+nums.back()*3<target) continue;
             
-            for (int h2=h1+1; h2<nums.size(); h2++)
+            if (a>0 && nums[a]==nums[a-1]) continue;
+            
+            for (int b=a+1; b<nums.size(); b++)
             {
-                if (nums[h1]+3*nums[h2]>target) break;
+                if (nums[a]+nums[b]*3>target) break;
+                if (nums[a]+nums[b]+nums.back()*2<target) continue;
                 
-                int left=h2+1;
-                if (nums[h1]+nums[h2]+2*nums[left]>target) break;
+                if (b>a+1 && nums[b]==nums[b-1]) continue;
                 
-                int right=nums.size()-1;
-                if (nums[h1]+nums[h2]+2*nums[right]<target) continue;
-                
+                int left = b+1;
+                int right = nums.size()-1;
+                if (nums[a]+nums[b]+nums[left]*2>target) break;
+                                
                 while (left<right)
                 {
-                    if (nums[h1]+nums[h2]+nums[left]+nums[right]==target)
+                    if (nums[a]+nums[b]+nums[left]+nums[right]==target)
                     {
-                        results.push_back({nums[h1],nums[h2],nums[left],nums[right]});
+                        vector<int>temp = {nums[a],nums[b],nums[left],nums[right]};
+                        results.push_back(temp);
                         left++;
                         right--;
+                        while (nums[left]==nums[left-1]) left++;
+                        while (nums[right]==nums[right+1]) right--;
                         
-                        while (left<right && nums[left]==nums[left-1])
-                            left++;
-                        while (left<right && nums[right]==nums[right+1])
-                            right--;
                     }
-                    else if (nums[h1]+nums[h2]+nums[left]+nums[right]>target)
+                    else if (nums[a]+nums[b]+nums[left]+nums[right]>target)
                         right--;
-                    else if (nums[h1]+nums[h2]+nums[left]+nums[right]<target)
+                    else if (nums[a]+nums[b]+nums[left]+nums[right]<target)
                         left++;
                 }
                 
-                while (h2+1<nums.size() && nums[h2+1]==nums[h2])
-                    h2++;
             }
             
-            while (h1+1<nums.size() && nums[h1+1]==nums[h1])
-                h1++;            
-            
         }
-        
         return results;
         
     }
