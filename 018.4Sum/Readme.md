@@ -19,11 +19,11 @@ for (int h2=0; h2<nums.size(); h2++)
 对于第三层循环
 ```cpp
 int left=h2+1;
-if (nums[h1]+nums[h2]+2*nums[left]>target) break;
 int right=nums.size()-1;
+if (nums[h1]+nums[h2]+2*nums[left]>target) break;
 if (nums[h1]+nums[h2]+2*nums[right]<target) continue;
 ```    
 对于h1(h2)避免重复元素的操作
 ```cpp
-while (h1+1<nums.size() && nums[h1+1]==nums[h1]) h1++;
+if (h1>0 && nums[h1]==nums[h1-1]) continue;
 ```
