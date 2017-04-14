@@ -5,6 +5,7 @@
 for (int h1=0; h1<nums.size(); h1++)
 {
    if (nums[h1]*4>target) break;
+   if (nums[h1]+nums.back()*3<target) continue;
 }
 ```  
 类似的第二层循环
@@ -12,6 +13,7 @@ for (int h1=0; h1<nums.size(); h1++)
 for (int h2=0; h2<nums.size(); h2++)
 {
    if (nums[h1]+3*nums[h2]>target) break;
+   if (nums[h1]+nums[h2]+nums.back()*2<target) continue;
 }
 ```    
 对于第三层循环
