@@ -26,10 +26,33 @@ auto pos=upper_bound(MyVector.begin(), MyVector.end(), val) ;
 ```cpp
 static bool cmp(long long a, long long b)  
 {         
-  return (a<=b);         
-}    
+  return (a<=b);
+}    
 pos=lower_bound(q.begin(),q.end(),val,cmp);
 ```
 分析：将val看做自定义比较函数中的a，满足条件的b都会摆在a的前面，然后返回值依然是b的位置。  
 例如：如果a<b，则插入的位置必定大于val（即第一个大于val的元素地址）；  
 同理，如果a<=b，则插入的位置必定大于等于val（即第一个大于等于val的元素地址）  
+
+#### 二分搜索法    
+常规的二分搜索，但是要注意选择好合适的框架。如果等号的情况不容易判断，那就从大于或小于的情况下手。
+
+对于下确界，可以分析出应该这么判断： 
+```cpp
+if (nums[mid]<target)
+  left = mid+1; // 不等于target的mid元素都可以排除
+else
+  right = mid;
+```
+于是，对于这种框架，显然二分方法用 mid = left+(right-left)/2;
+
+同理：对于上确界    
+```cpp
+mid = left + (right-left)/2 +1;
+if (nums[mid]>target)
+  right = mid-1; // 不等于target的mid元素都可以排除
+else
+  left = mid;
+```
+
+
