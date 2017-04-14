@@ -19,7 +19,8 @@
 ##### 二分法
 4.Median-of-Two-Sorted-Arrays	(H)  
 154.Find Minimum in Rotated Sorted Array II (H-)         
-33.Search in Rotated Sorted Array (M)    
+33.Search in Rotated Sorted Array (M)   
+81.Search-in-Rotated-Sorted-Array-II (M)      
 34.Search-for-a-Range (M)  
 162.Find-Peak-Element (H)  
 275.H-index II (M)  
