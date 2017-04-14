@@ -5,6 +5,7 @@
 11.Container-With-Most-Water	(M)  
 15.3Sum  (M)  
 16.3Sum-Closet (M)  
+259.3Sum-Smaller (M)   
 30.Substring-with-Concatenation-of-All-Words (H)  
 75.Sort-Colors (H)    
 76.Minimum Window Substring (M+)    
@@ -12,8 +13,7 @@
 80.Remove Duplicates from Sorted Array II (H)  
 88.Merge Sorted Array (M)  
 283.Move-Zeroes （M）    
-141.Linked-List-Cycle (E+)   
-259.3Sum-Smaller (M)   
+141.Linked-List-Cycle (E+)      
 340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
 
 ##### 二分法
