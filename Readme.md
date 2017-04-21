@@ -36,7 +36,8 @@
 049.Group-Anagrams (M)    
 149.Max Points on a Line (H)     
 392.Is-Subsequence (M)  
-380.Insert-Delete-GetRandom-O(1)  (M+)
+380.Insert-Delete-GetRandom-O(1)  (M+)    
+336.Palindrome-Pairs (H)    
 
 ##### DFS
 200.Number-of-Islands (M)  
