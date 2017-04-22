@@ -68,6 +68,9 @@
 ##### 动态规划
 487.Max Consecutive Ones II 
 
+#### Bit操作
+136.Single-Number (M)     
+
 ##### 其他
 42.Trapping-Rain-Water (M)  
 240.Search a 2D Matrix II (M)  
