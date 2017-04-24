@@ -1,13 +1,8 @@
-class Solution {
-public:
-    int maxSubArrayLen(vector<int>& nums, int k) 
-    {
-        unordered_map<int,vector<int>>Map;
-        int sum=0;
-        int result=INT_MIN;
-        
-        nums.insert(nums.begin(),0);
-        
+### 325.Maximum-Size-Subarray-Sum-Equals-k
+
+在遍历元素的过程中，建立累加和sum，并建立映射Map:sum->i。对于每个元素i，找和为k的子数组，就是寻找之前的累加和序列里是否出现过 sum-k，显然，直接从Map中就可以找到。
+
+```cpp
         for (int i=0; i<nums.size(); i++)
         {
             sum+=nums[i];
@@ -19,10 +14,4 @@ public:
                 result = max(result, i-Map[temp][0]);
             }
         }
-        
-        if (result==INT_MIN) result=0;
-        
-        return result;
-        
-    }
-};
+```
