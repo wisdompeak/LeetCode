@@ -40,7 +40,8 @@
 380.Insert-Delete-GetRandom-O(1)  (M+)        
 336.Palindrome-Pairs (H)    
 204.Count Primes (M)    
-274.H-Index (H)   
+274.H-Index (H)     
+325.Maximum-Size-Subarray-Sum-Equals-k (M)    
 
 ##### DFS
 200.Number-of-Islands (M)  
