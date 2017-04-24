@@ -1,6 +1,6 @@
 ### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
-##### 双指针
+##### Two Pointers
 3.Longest Substring Without Repeating Character (M)  
 11.Container-With-Most-Water	(M)  
 15.3Sum  (M)  
@@ -13,11 +13,11 @@
 26.Remove Duplicates from Sorted Array (H-)  
 80.Remove Duplicates from Sorted Array II (H)  
 88.Merge Sorted Array (M)  
-283.Move-Zeroes （M）    
+283.Move-Zeroes (M)      
 141.Linked-List-Cycle (E+)      
 340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
 
-##### 二分法
+##### Binary Search
 4.Median-of-Two-Sorted-Arrays	(H)  
 154.Find Minimum in Rotated Sorted Array II (H-)         
 33.Search in Rotated Sorted Array (M)   
@@ -53,7 +53,7 @@
 407.Trapping-Rain-Water-II  
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H) 
 
-##### 贪心法
+##### Greedy
 84.Largest-Rectangle-in-Histogram  
 85.Maximal-Rectangle  
 221.Maximal-Square  
@@ -61,21 +61,21 @@
 316.Remove Duplicate Letters   
 358.Rearrange-String-k-Distance-Apart
 
-##### 链表
+##### Linked List
 061.Rotate-List  
 142.Linked List Cycle II
 
-##### 动态规划
+##### Dynamic Programming
 487.Max Consecutive Ones II 
 
-#### Bit操作
+#### Bit Manipulation
 136.Single-Number (M)     
 
-##### 其他
+##### Others
 42.Trapping-Rain-Water (M)  
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 
-#### 树
+#### Tree
 270.Closest-Binary-Search-Tree-Value (M)     
 94.Binary Tree Inorder Traversal (H-)   
