@@ -68,7 +68,7 @@
 ##### Dynamic Programming
 487.Max Consecutive Ones II 
 
-#### Bit Manipulation
+##### Bit Manipulation
 136.Single-Number (M)     
 
 ##### Others
@@ -76,6 +76,6 @@
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 
-#### Tree
+##### Tree
 270.Closest-Binary-Search-Tree-Value (M)     
 94.Binary Tree Inorder Traversal (H-)   
