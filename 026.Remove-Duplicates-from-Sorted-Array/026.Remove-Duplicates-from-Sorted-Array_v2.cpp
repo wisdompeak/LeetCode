@@ -9,7 +9,7 @@ public:
         {
             if (j==0)
                 continue;
-            else if (nums[j]==nums[j-1])
+            else if (nums[j]==nums[i])
                 continue;
             else
             {
