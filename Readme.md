@@ -40,7 +40,7 @@
 380.Insert-Delete-GetRandom-O(1)  (M+)        
 336.Palindrome-Pairs (H)    
 204.Count Primes (M)    
-
+274.H-Index (H)   
 
 ##### DFS
 200.Number-of-Islands (M)  
