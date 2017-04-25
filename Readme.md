@@ -27,7 +27,6 @@
 275.H-index II (M)  
 287.Find the Duplicate Number (H-)   
 302.Smallest-Rectangle-Enclosing-Black-Pixels (H-)  
-363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
 410.Split-Array-Largest-Sum (H)  
 475.Heaters (H-)  
 483.Smallest-Good-Base (H-)  
@@ -42,6 +41,7 @@
 204.Count Primes (M)    
 274.H-Index (H)     
 325.Maximum-Size-Subarray-Sum-Equals-k (M)    
+363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
 
 ##### DFS
 200.Number-of-Islands (M)  
