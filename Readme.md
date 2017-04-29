@@ -43,6 +43,7 @@
 274.H-Index (H)     
 325.Maximum-Size-Subarray-Sum-Equals-k (M)    
 363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
+447.Number-of-Boomerangs (E+)    
 
 ##### DFS
 200.Number-of-Islands (M)  
