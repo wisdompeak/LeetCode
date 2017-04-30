@@ -42,6 +42,7 @@
 204.Count Primes (M)    
 274.H-Index (H)     
 325.Maximum-Size-Subarray-Sum-Equals-k (M)    
+355.Design Twitter (H)    
 363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
 447.Number-of-Boomerangs (E+)    
 
