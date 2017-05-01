@@ -38,6 +38,7 @@
 170.Two-Sum-III-Data-structure-design (M)   
 392.Is-Subsequence (M)    
 380.Insert-Delete-GetRandom-O(1)  (M+)    
+381.Insert-Delete-GetRandom-O-1-Duplicates-allowed (H-)   
 336.Palindrome-Pairs (H)    
 204.Count Primes (M)    
 274.H-Index (H)     
