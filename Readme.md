@@ -47,6 +47,7 @@
 363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
 409.Longest-Palindrome  (M)   
 447.Number-of-Boomerangs (E+)    
+358.Rearrange-String-k-Distance-Apart (H-)
 
 ##### DFS
 200.Number-of-Islands (M)  
