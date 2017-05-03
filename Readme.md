@@ -51,6 +51,7 @@
 438.Find-All-Anagrams-in-a-String (M)   
 525.Contiguous-Array (M)    
 356.Line-Reflection (H-)    
+535.Encode-and-Decode-TinyURL (M+)    
 
 ##### DFS
 200.Number-of-Islands (M)  
