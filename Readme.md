@@ -50,6 +50,7 @@
 358.Rearrange-String-k-Distance-Apart (H-)    
 438.Find-All-Anagrams-in-a-String (M)   
 525.Contiguous-Array (M)    
+356.Line-Reflection (H-)    
 
 ##### DFS
 200.Number-of-Islands (M)  
