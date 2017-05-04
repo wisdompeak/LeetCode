@@ -91,7 +91,8 @@
 ##### Tree
 270.Closest-Binary-Search-Tree-Value (M)     
 94.Binary Tree Inorder Traversal (H-)   
-173.Binary-Search-Tree-Iterator (M)   
+173.Binary-Search-Tree-Iterator (M)     
+110.Balanced-Binary-Tree  (M)   
 
 ##### String
 408.Valid-Word-Abbreviation (M)
