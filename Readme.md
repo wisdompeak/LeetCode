@@ -53,6 +53,13 @@
 356.Line-Reflection (H-)    
 535.Encode-and-Decode-TinyURL (M+)    
 
+##### Tree
+270.Closest-Binary-Search-Tree-Value (M)     
+94.Binary Tree Inorder Traversal (H-)   
+173.Binary-Search-Tree-Iterator (M)     
+110.Balanced-Binary-Tree  (M)   
+124.Binary-Tree-Maximum-Path-Sum (H-)   
+
 ##### DFS
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
@@ -88,11 +95,7 @@
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 
-##### Tree
-270.Closest-Binary-Search-Tree-Value (M)     
-94.Binary Tree Inorder Traversal (H-)   
-173.Binary-Search-Tree-Iterator (M)     
-110.Balanced-Binary-Tree  (M)   
+
 
 ##### String
 408.Valid-Word-Abbreviation (M)
