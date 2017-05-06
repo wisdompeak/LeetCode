@@ -62,6 +62,7 @@
 235/256.Lowest Common Ancestor of a Binary (Search) Tree (M+)     
 297.Serialize-and-Deserialize-Binary-Tree （H-）  
 105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal (H)   
+99.Recover-Binary-Search-Tree (H)   
 
 ##### DFS
 200.Number-of-Islands (M)  
