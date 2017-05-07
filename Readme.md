@@ -70,6 +70,7 @@
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
 410.Split-Array-Largest-Sum (H)	  
+282.Expression-Add-Operators (H)    
 
 ##### BFS
 133.Clone-Graph (M+)  
