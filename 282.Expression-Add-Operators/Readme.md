@@ -6,7 +6,7 @@
 ```cpp
 void DFS(string num, long long target, long long curRes, long long product, string expression)
 ```
-num表示剩余待处理的字符串，target表示目标数值（题目所给定），curRes是之前所构造字符串的数值，product是之前所以构造字符串里最后几项（疑似）乘法项的乘积。所以主程序最顶端调用 DFS(num,target,0,0,"");
+num表示剩余待处理的字符串，target表示目标数值（题目所给定），curRes是之前所构造字符串的估值，product是之前所以构造字符串里最后几项（疑似）乘法项的乘积。所以主程序最顶端调用 DFS(num,target,0,0,"");
 
 DFS的思想就是在待处理的字符串里遍历第一项的可能性：只要确定了第一项，剩余的字符串就扔给下一个DFS函数来处理。
 
@@ -18,7 +18,7 @@ DFS的思想就是在待处理的字符串里遍历第一项的可能性：只�
 
 添加的curString是减法项：更新后的字符串当前估值就是curRes-stoll(curString)；字符串末尾可以作为(未来的)乘法项的也就是curString，其估值就是-stoll(curString)；更新后的字符串 expression+'-'+curString
 
-添加的curString是乘法项：更新后的字符串当前估值就是curRes-product+product*stoll(curString)；可以看到这里函数参数里的product派上了用场，之前的字符串的末尾几项的估值product需要作为被乘数和curString乘起来。更新后的字符串末尾可以作为(未来的)乘法项的变成product*stoll(curString)；更新后的字符串 expression+'*'+curString
+添加的curString是乘法项：更新后的字符串当前估值就是curRes-product+product\*stoll(curString)；可以看到这里函数参数里的product派上了用场，之前的字符串的末尾几项的估值product需要作为被乘数和curString乘起来。更新后的字符串末尾可以作为(未来的)乘法项的变成product\*stoll(curString)；更新后的字符串 expression+'\*'+curString
 
 C++里字符串变长整形的函数是stoll，很好记 string to long long
 ```cpp
