@@ -18,8 +18,7 @@ public:
         }
         
         for (int i=1; i<=num.size(); i++)
-        {
-            
+        {            
             string curString=num.substr(0,i);
             string nextString=num.substr(i);
             if (curString.size()>1 && curString[0]=='0') return;
@@ -32,9 +31,6 @@ public:
                 DFS(nextString,target,curRes-stoll(curString),-stoll(curString),expression+'-'+curString);
                 DFS(nextString,target,curRes-product+product*stoll(curString),product*stoll(curString),expression+'*'+curString);
             }
-            
-            
-        }
-        
+        }        
     }
 };
