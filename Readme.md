@@ -90,7 +90,8 @@
 358.Rearrange-String-k-Distance-Apart
 
 ##### Linked List
-061.Rotate-List  
+061.Rotate-List     
+086.Partition-List (M)    
 142.Linked List Cycle II
 
 ##### Dynamic Programming
