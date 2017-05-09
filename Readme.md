@@ -1,7 +1,7 @@
 ### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
 ##### Two Pointers
-003.Longest Substring Without Repeating Character (M)  
+003.Longest Substring Without Repeating Character (E+)  
 011.Container-With-Most-Water	(M)  
 015.3Sum  (M)  
 016.3Sum-Closet (M)      
@@ -66,6 +66,7 @@
 99.Recover-Binary-Search-Tree (H)   
 114.Flatten-Binary-Tree-to-Linked-List (M+)   
 144.Binary-Tree-Preorder-Traversal (H-)   
+098.Validate-Binary-Search-Tree (M-)   
 
 ##### DFS
 200.Number-of-Islands (M)  
