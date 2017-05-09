@@ -62,7 +62,8 @@
 124.Binary-Tree-Maximum-Path-Sum (H-)   
 235/256.Lowest Common Ancestor of a Binary (Search) Tree (M+)     
 297.Serialize-and-Deserialize-Binary-Tree （H-）  
-105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal (H)   
+105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal (H)  
+106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal (M)      
 99.Recover-Binary-Search-Tree (H)   
 114.Flatten-Binary-Tree-to-Linked-List (M+)   
 144.Binary-Tree-Preorder-Traversal (H-)   
