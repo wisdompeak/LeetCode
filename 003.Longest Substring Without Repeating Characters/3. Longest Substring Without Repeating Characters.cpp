@@ -2,36 +2,28 @@ class Solution {
 public:
     int lengthOfLongestSubstring(string s) 
     {
-        if (s.size()<2) return s.size();
+        vector<int>Map(256,0);
+        int i=0;
+        int j=0;
+        int result=0;
         
-        vector<int>Map(128,0);
-        int left=0;
-        int right=0;
-        int Len=0;
-        
-        while (right<s.size())
+        while (j<s.size())
         {
-            //cout<<left<<right<<endl;
-            
-            Map[s[right]]++;
-            
-            if (Map[s[right]]==1)
+            if (Map[s[j]]==0)
             {
-                Len=max(Len,right-left+1);
+                Map[s[j]]=1;
+                j++;
             }
-            else if (Map[s[right]]>1)
+            else if (Map[s[j]]==1)
             {
-                while (left<right && Map[s[right]]>1)
-                {
-                    Map[s[left]]--;
-                    left++;
-                }
+                Map[s[i]]=0;
+                i++;
             }
             
-            right++;
+            result = max(result,j-i);
         }
         
-        return Len;
+        return result;
         
     }
 };
