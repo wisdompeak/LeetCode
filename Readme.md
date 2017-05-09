@@ -1,28 +1,28 @@
 ### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
 ##### Two Pointers
-3.Longest Substring Without Repeating Character (M)  
-11.Container-With-Most-Water	(M)  
-15.3Sum  (M)  
-16.3Sum-Closet (M)      
-18.4Sum (M)           
+003.Longest Substring Without Repeating Character (M)  
+011.Container-With-Most-Water	(M)  
+015.3Sum  (M)  
+016.3Sum-Closet (M)      
+018.4Sum (M)           
 259.3Sum-Smaller (M)       
-30.Substring-with-Concatenation-of-All-Words (H)  
-75.Sort-Colors (H)    
-76.Minimum Window Substring (M+)    
-26.Remove Duplicates from Sorted Array (H-)  
-80.Remove Duplicates from Sorted Array II (H)  
-88.Merge Sorted Array (M)  
+030.Substring-with-Concatenation-of-All-Words (H)  
+075.Sort-Colors (H)    
+076.Minimum Window Substring (M+)    
+026.Remove Duplicates from Sorted Array (H-)  
+080.Remove Duplicates from Sorted Array II (H)  
+088.Merge Sorted Array (M)  
 283.Move-Zeroes (M)      
 141.Linked-List-Cycle (E+)      
 340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
 
 ##### Binary Search
-4.Median-of-Two-Sorted-Arrays	(H)  
+004.Median-of-Two-Sorted-Arrays	(H)  
 154.Find Minimum in Rotated Sorted Array II (H-)         
-33.Search in Rotated Sorted Array (M)   
-81.Search-in-Rotated-Sorted-Array-II (M)      
-34.Search-for-a-Range (M)  
+033.Search in Rotated Sorted Array (M)   
+081.Search-in-Rotated-Sorted-Array-II (M)      
+034.Search-for-a-Range (M)  
 162.Find-Peak-Element (H)  
 275.H-index II (M)  
 287.Find the Duplicate Number (H-)   
@@ -82,8 +82,8 @@
 310.Minimum-Height-Trees (H)    
 
 ##### Greedy
-84.Largest-Rectangle-in-Histogram  
-85.Maximal-Rectangle  
+084.Largest-Rectangle-in-Histogram  
+085.Maximal-Rectangle  
 221.Maximal-Square  
 300.Longest Increasing Subsequence  
 316.Remove Duplicate Letters   
@@ -102,7 +102,7 @@
 136.Single-Number (M)     
 
 ##### Others
-42.Trapping-Rain-Water (M)  
+042.Trapping-Rain-Water (M)  
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 
