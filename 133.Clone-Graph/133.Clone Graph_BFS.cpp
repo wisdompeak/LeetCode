@@ -13,33 +13,30 @@ public:
         if (node==NULL) return NULL;
         
         unordered_map<UndirectedGraphNode*,UndirectedGraphNode*>Map;
-        UndirectedGraphNode* head=new UndirectedGraphNode(node->label);
-        Map[node]=head;
-        
         queue<UndirectedGraphNode*>q;
         q.push(node);
-
+        Map[node] = new UndirectedGraphNode(node->label);
+        
         while (!q.empty())
         {
-            UndirectedGraphNode* x=q.front();
+            UndirectedGraphNode* root = q.front();
             q.pop();
-
-            for (int i=0; i<x->neighbors.size(); i++)
+            for (int i=0; i<root->neighbors.size(); i++)
             {
-                //cout<<i<<endl;
-                
-                if (Map.find(x->neighbors[i])==Map.end())
+                if (Map.find(root->neighbors[i])==Map.end())
                 {
-                    UndirectedGraphNode* y = new UndirectedGraphNode(x->neighbors[i]->label);
-                    Map[x->neighbors[i]] = y;
-                    q.push(x->neighbors[i]);
+                    UndirectedGraphNode* temp = new UndirectedGraphNode(root->neighbors[i]->label);
+                    Map[root->neighbors[i]] = temp;
+                    Map[root]->neighbors.push_back(temp);
+                    q.push(root->neighbors[i]);
                 }
-                Map[x]->neighbors.push_back(Map[x->neighbors[i]]);
+                else
+                {
+                    Map[root]->neighbors.push_back(Map[root->neighbors[i]]);
+                }
             }
-        }
-        
-        return head;
-        
-        
+            
+        }        
+        return Map[node];
     }
 };
