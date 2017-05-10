@@ -54,9 +54,11 @@
 535.Encode-and-Decode-TinyURL (M+)    
 
 ##### Tree
-270.Closest-Binary-Search-Tree-Value (M)     
-094.Binary Tree Inorder Traversal (H-)   
+270.Closest-Binary-Search-Tree-Value (M)        
 095.Unique-Binary-Search-Trees-II (H)   
+094.Binary Tree Inorder Traversal (H-)    
+144.Binary-Tree-Preorder-Traversal (H-)   
+145.Binary-Tree-Postorder-Traversal	(H)   
 173.Binary-Search-Tree-Iterator (M)     
 110.Balanced-Binary-Tree  (M)   
 124.Binary-Tree-Maximum-Path-Sum (H-)   
@@ -65,8 +67,7 @@
 105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal (H)  
 106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal (M)    
 099.Recover-Binary-Search-Tree (H)   
-114.Flatten-Binary-Tree-to-Linked-List (M+)   
-144.Binary-Tree-Preorder-Traversal (H-)   
+114.Flatten-Binary-Tree-to-Linked-List (M+)  
 098.Validate-Binary-Search-Tree (M-)   
 
 ##### DFS
