@@ -78,6 +78,7 @@
 410.Split-Array-Largest-Sum (H)	  
 282.Expression-Add-Operators (H)  
 399.Evaluate-Division (H)   
+491.Increasing-Subsequences (M)   
 
 ##### BFS
 133.Clone-Graph (M+)  
