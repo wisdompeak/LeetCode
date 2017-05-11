@@ -72,6 +72,7 @@
 117.Populating Next Right Pointers in Each Node II (H)    
 156.Binary-Tree-Upside-Down (H)   
 285.Inorder-Successor-in-BST (M)    
+198.Binary-Tree-Longest-Consecutive Sequence (M)    
 
 ##### DFS
 200.Number-of-Islands (M)  
