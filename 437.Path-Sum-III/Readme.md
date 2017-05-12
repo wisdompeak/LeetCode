@@ -1,6 +1,6 @@
 ### 437.Path-Sum-III
 
-此题是112,113的follow up。不要path一定是从root到leaf。
+此题是112,113的follow up。不要求path一定是从root到leaf。
 
 在这种情况下，每个节点都有可能是path的起点。所以需要遍历树的所有节点，对每个节点都寻找pathSum(node,sum)。
 
