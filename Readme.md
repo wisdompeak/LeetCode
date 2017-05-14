@@ -75,6 +75,7 @@
 198.Binary-Tree-Longest-Consecutive Sequence (M)    
 450.Delete-Node-in-a-BST (H)    
 437.Path-Sum-III (H-)   
+255.Verify-Preorder-Sequence-in-Binary-Search-Tree (H)    
 
 ##### DFS
 200.Number-of-Islands (M)  
