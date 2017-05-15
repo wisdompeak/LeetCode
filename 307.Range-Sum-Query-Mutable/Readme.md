@@ -1,6 +1,6 @@
 ### 307.Range-Sum-Query-Mutable
 
-此题用到了一种比较不常见的数据结构 Binary Indexed Tree. 参考（http://www.cnblogs.com/grandyang/p/4985506.html）.总的来说，这种数据结构累加一部分，又留着一部分，是一种兼顾“查找元素本身”和“查找元素和”的中庸方法。
+此题用到了一种比较不常见的数据结构 Binary Indexed Tree. 参考(http://www.cnblogs.com/grandyang/p/4985506.html). 总的来说，这种数据结构累加一部分元素，又留着一部分元素，是一种兼顾“查找元素本身”和“查找元素和”的中庸方法。
 
 这种数据结构的特征是：元素的标号（index）从1开始。第i个元素的变化，之后影响到的依次以此是 i+= (i&-i)。举个列子：     
 第1个元素影响到：1,2,4,8,16，...      
