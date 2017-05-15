@@ -77,6 +77,7 @@
 437.Path-Sum-III (H-)   
 255.Verify-Preorder-Sequence-in-Binary-Search-Tree (H)    
 449.Serialize-and-Deserialize-BST (H)   
+307.Range-Sum-Query-Mutable (H)   
 
 ##### DFS
 200.Number-of-Islands (M)  
