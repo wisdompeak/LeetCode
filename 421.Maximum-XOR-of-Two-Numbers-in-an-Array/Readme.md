@@ -37,3 +37,16 @@ TreeNode* buildTree(vector<int>nums)
    return root;
 }
 ```
+回到这题本身，对于一个存于Trie中的整数 N，可以在这颗字典树里从试图寻找另一个与 N 逢位必反的整数 M ，这样找到的M一定是与N亦或之后得到最大值。
+```cpp
+    int findMaximumXOR(vector<int>& nums) 
+    {
+        TrieNode* root=buildTree(nums);
+        int result=0;
+        for (int i=0; i<nums.size(); i++)
+        {
+            result = max(result, oppositePath(root,nums[i]));
+        }
+        return result;
+    }
+```    
