@@ -77,7 +77,8 @@
 437.Path-Sum-III (H-)   
 255.Verify-Preorder-Sequence-in-Binary-Search-Tree (H)    
 449.Serialize-and-Deserialize-BST (H)   
-[333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/tree/master/333.Largest-BST-Subtree) (H) 
+[333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/tree/master/333.Largest-BST-Subtree) (H)    
+543.Diameter-of-Binary-Tree (M+)    
 
 ##### DFS
 200.Number-of-Islands (M)  
