@@ -102,6 +102,9 @@
 316.Remove Duplicate Letters   
 358.Rearrange-String-k-Distance-Apart
 
+##### Stack
+536.Construct-Binary-Tree-from-String (M)   
+
 ##### Linked List
 061.Rotate-List     
 086.Partition-List (M)    
