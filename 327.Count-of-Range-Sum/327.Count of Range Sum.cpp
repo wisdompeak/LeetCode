@@ -36,10 +36,7 @@ public:
         {
             auto pos1 = lower_bound(sums.begin()+mid+1,sums.begin()+end+1,sums[i]+Lower,cmp1);
             auto pos2 = lower_bound(sums.begin()+mid+1,sums.begin()+end+1,sums[i]+Upper,cmp2);   
-            count+=pos2-pos1;
-            
-            if (start==0 && end==3 && i==1)
-             cout<<pos1-(sums.begin()+mid+1)<<" "<<pos2-(sums.begin()+mid+1)<<endl;
+            count+=pos2-pos1;            
         }
         
         sort(sums.begin()+start,sums.begin()+end+1);
