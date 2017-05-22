@@ -30,7 +30,7 @@
 410.Split-Array-Largest-Sum (H)  
 475.Heaters (H-)  
 483.Smallest-Good-Base (H-)   
-[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals)
+[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
 ##### Hash Table
 049.Group-Anagrams (M)    
