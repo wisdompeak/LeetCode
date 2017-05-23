@@ -53,6 +53,7 @@
 525.Contiguous-Array (M)    
 356.Line-Reflection (H-)    
 535.Encode-and-Decode-TinyURL (M+)    
+594.Longest-Harmonious-Subsequence (M+)   
 
 ##### Tree
 270.Closest-Binary-Search-Tree-Value (M)        
