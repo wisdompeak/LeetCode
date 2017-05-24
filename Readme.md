@@ -117,7 +117,8 @@
 
 ##### Dynamic Programming
 487.Max Consecutive Ones II    
-410.Split-Array-Largest-Sum (H)  
+410.Split-Array-Largest-Sum (H)   
+376.Wiggle-Subsequence (H)    
 
 ##### Bit Manipulation
 136.Single-Number (M)     
