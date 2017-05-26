@@ -33,7 +33,7 @@
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
 ##### Hash Table
-049.Group-Anagrams (M)    
+049.Group-Anagrams (M+)    
 149.Max Points on a Line (H)     
 166.Fraction-to-Recurring-Decimal (M)   
 170.Two-Sum-III-Data-structure-design (M)   
@@ -56,7 +56,7 @@
 594.Longest-Harmonious-Subsequence (M+)   
 
 ##### Tree
-270.Closest-Binary-Search-Tree-Value (M)        
+270.Closest-Binary-Search-Tree-Value (M+)        
 095.Unique-Binary-Search-Trees-II (H)   
 094.Binary Tree Inorder Traversal (H-)    
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/144.Binary-Tree-Preorder-Traversal) (M+)   
