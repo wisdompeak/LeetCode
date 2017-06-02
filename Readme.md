@@ -84,6 +84,10 @@
 572.Subtree-of-Another-Tree (M)   
 549.Binary-Tree-Longest-Consecutive-Sequence-II (M)   
 
+#### Trie
+211.Add-and-Search-Word (H-)    
+421.Maximum XOR of Two Numbers in an Array (H)    
+
 ##### DFS
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
