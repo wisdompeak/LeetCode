@@ -7,15 +7,16 @@
 首选我们需要结合本题，构建多叉树这种数据类型。    
 显然，它需要有递归的树状结构：即每一个节点下面有若干个该相同数据结构的指针。其次，需要设计相应的节点构造函数，以便于进行初始化(复习一下C++面向对象的概念，构造函数的无参默认函数)。
 ```cpp
-class TrieNode
-{
-   TrieNode* next[2]; // two sub nodes
-   TrieNoe()    // constructor 
-   {
-      next[0] =NULL;
-      next[1] =NULL;
-   }
-}
+    class TrieNode
+    {
+        public:
+         TrieNode* next[2];
+         TrieNode()
+         {
+             next[0]=NULL;
+             next[1]=NULL;
+         }
+    };
 ```
 然后一项重要的工作就是用给定的一堆数据（比如数组）来构建这个字典树。
 ```cpp
