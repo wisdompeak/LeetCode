@@ -38,8 +38,6 @@
 166.Fraction-to-Recurring-Decimal (M)   
 170.Two-Sum-III-Data-structure-design (M)   
 [392.Is-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/392.Is-Subsequence) (M)   
-[380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/edit/master/380.Insert-Delete-GetRandom-O-1/)  (H-)   
-381.Insert-Delete-GetRandom-O-1-Duplicates-allowed (H-)   
 336.Palindrome-Pairs (H)    
 204.Count Primes (M)    
 274.H-Index (H)     
@@ -84,9 +82,10 @@
 549.Binary-Tree-Longest-Consecutive-Sequence-II (M)   
 
 #### Design
-[173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/173.Binary-Search-Tree-Iterator) (M)     
-[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/460.LFU-Cache) (H-)
-
+[173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/173.Binary-Search-Tree-Iterator) (M)   
+[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/460.LFU-Cache) (H-)    
+[380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/edit/master/380.Insert-Delete-GetRandom-O-1/)  (H-)   
+381.Insert-Delete-GetRandom-O-1-Duplicates-allowed (H-)   
 
 #### Trie
 211.Add-and-Search-Word (H-)    
