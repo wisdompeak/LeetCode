@@ -4,11 +4,10 @@ public:
     {
         if (citations.size()==0) return 0;
         
-        unordered_map<int,int>Map;
+        map<int,int>Map;
         for (int i=0; i<citations.size(); i++)
             Map[citations[i]]++;
         auto q = vector<pair<int,int>>(Map.begin(),Map.end());
-        sort(q.begin(),q.end());
         
         int sum=0;
         
