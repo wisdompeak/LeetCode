@@ -61,9 +61,8 @@
 094.Binary Tree Inorder Traversal (H-)    
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/144.Binary-Tree-Preorder-Traversal) (M+)   
 [145.Binary-Tree-Postorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/145.Binary-Tree-Postorder-Traversal) (H-)   
-[173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/173.Binary-Search-Tree-Iterator) (M)     
-110.Balanced-Binary-Tree  (M)   
-124.Binary-Tree-Maximum-Path-Sum (H-)   
+110.Balanced-Binary-Tree  (M+)   
+124.Binary-Tree-Maximum-Path-Sum (M+)   
 235/256.Lowest Common Ancestor of a Binary (Search) Tree (M+)     
 297.Serialize-and-Deserialize-Binary-Tree （H-）  
 105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal (H)  
@@ -83,6 +82,11 @@
 543.Diameter-of-Binary-Tree (M+)    
 572.Subtree-of-Another-Tree (M)   
 549.Binary-Tree-Longest-Consecutive-Sequence-II (M)   
+
+#### Design
+[173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/173.Binary-Search-Tree-Iterator) (M)     
+[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/460.LFU-Cache) (H-)
+
 
 #### Trie
 211.Add-and-Search-Word (H-)    
