@@ -38,7 +38,6 @@
 166.Fraction-to-Recurring-Decimal (M)   
 170.Two-Sum-III-Data-structure-design (M)   
 [392.Is-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/392.Is-Subsequence) (M)   
-336.Palindrome-Pairs (H)    
 204.Count Primes (M)    
 274.H-Index (H)     
 325.Maximum-Size-Subarray-Sum-Equals-k (M)    
@@ -143,6 +142,7 @@
 
 ##### String
 408.Valid-Word-Abbreviation (M)
+336.Palindrome-Pairs (H)    
 
 ##### Sort
 057.Insert-Interval (H)   
