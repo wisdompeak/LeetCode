@@ -13,40 +13,31 @@ public:
     {
         vector<TreeNode*>P;
         vector<TreeNode*>Q;
-        bool find;
-        find = DFS(root,p,P);
-        find = DFS(root,q,Q);
+        bool temp;
+        temp = DFS(root,p,P);
+        temp = DFS(root,q,Q);
         
+        TreeNode* result;
         int i=P.size()-1;
         int j=Q.size()-1;
-        while (i>=0 && j>=0)
+        while (i>=0 && j>=0 && P[i]==Q[j])
         {
-            if (P[i]==Q[j])
-            {
-                i--;
-                j--;
-            }
-            else
-                break;
+            result=P[i];
+            i--;
+            j--;
         }
-        
-        return P[i+1];
-        
+        return result;
     }
     
-    bool DFS(TreeNode* node, TreeNode* p, vector<TreeNode*>&P)
+    bool DFS(TreeNode* root, TreeNode* r, vector<TreeNode*>& R)
     {
-        if (node==NULL)
-            return false;
-        
-        
-        if (node==p || DFS(node->left, p, P) || DFS(node->right, p, P))
+        if (root==NULL) return false;
+        if (root==r || DFS(root->left,r,R) || DFS(root->right,r,R)) 
         {
-            P.push_back(node);
+            R.push_back(root);
             return true;
         }
         else
             return false;
-        
     }
 };
