@@ -18,11 +18,11 @@
 340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
 
 ##### Binary Search
-004.Median-of-Two-Sorted-Arrays	(H)  
-154.Find Minimum in Rotated Sorted Array II (H-)         
-033.Search in Rotated Sorted Array (M)   
-081.Search-in-Rotated-Sorted-Array-II (M)      
-034.Search-for-a-Range (M)  
+[004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/004.Median-of-Two-Sorted-Arrays)	(H)  
+[154.Find Minimum in Rotated Sorted Array II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/154.Find-Minimum-in-Rotated-Sorted-Array-II) (H-)         
+[033.Search in Rotated Sorted Array](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/033.Search-in-Rotated-Sorted-Array) (M)   
+[081.Search-in-Rotated-Sorted-Array-II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/081.Search-in-Rotated-Sorted-Array-II) (M)      
+[034.Search-for-a-Range](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/034.Search-for-a-Range) (M)  
 162.Find-Peak-Element (H)  
 275.H-index II (M)  
 287.Find the Duplicate Number (H-)   
