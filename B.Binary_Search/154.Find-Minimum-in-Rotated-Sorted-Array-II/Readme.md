@@ -1,21 +1,21 @@
 ### 154.Find-Minimum-in-Rotated-Sorted-Array-II
 
-常规思路：根据 nums[mid], nums[left], nums[right] 的大小判断三者的区间关系。
+解题思路：和153. Find Minimum in Rotated Sorted Array 一样，需要以nums[left]为基准， 分别比较nums[mid]和nums[right]，以判断三者所在的区间（左区间还是有区间）。
 
-当出现nums[left]==nums[mid]时，是无法定位mid所在的区间，技巧是：
+此题的特别之处是，当出现x==nums[left]时，无法定位x所在的区间是左还是右。解决技巧是：
 ```cpp
-if (nums[mid]==nums[left]) left++;
+while (left+1<right && nums[left]==nums[left+1]) left++;
 ```
-当出现nums[left]==nums[right]时，如何定位right所在的区间? 注意到先前已经处理了mid，故此刻nums[mid]!=nums[left]，所以right一定是在rotate之后的区间（否则此时left到right必然都相等），可以归并至nums[left]>=nums[right]一同解决。
+这样，当出现x==nums[left]时,x必定是在右区间，可以和x<nums[left]归并；x>nums[left]则说明x在左区间。
+
+所以分段讨论的方法如下：
 ```cpp
-            if (nums[left]==nums[mid])
-                left++;
-            else if (nums[left]<nums[mid] && nums[left]<nums[right])
-                right = mid;
-            else if (nums[left]<nums[mid] && nums[left]>=nums[right])                
-                left = mid+1;
-            else if (nums[left]>nums[mid] && nums[left]<nums[right])
-                continue;  // impossible
-            else if (nums[left]>nums[mid] && nums[left]>=nums[right])    
-                right = mid;
+            if (nums[left]<nums[mid] && nums[left]<nums[right])  // left,mid,right同在一个区间
+                right=mid;  // 可以直接 return nums[left]
+            else if (nums[left]<nums[mid] && nums[left]>=nums[right]) // left,mid在左区间，right在右区间
+                left=mid+1;
+            else if (nums[left]>=nums[mid] && nums[left]<nums[right]) // mid在右区间,right在左区间，不可能
+                continue;
+            else if (nums[left]>=nums[mid] && nums[left]>=nums[right]) // left在左区间，mid,right在右区间
+                right=mid;   
 ```
