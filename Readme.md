@@ -1,11 +1,11 @@
 ### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
 ##### Two Pointers
-003.Longest Substring Without Repeating Character (E+)  
+[003.Longest Substring Without Repeating Character](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
 011.Container-With-Most-Water	(M)  
-015.3Sum  (M)  
-016.3Sum-Closet (M)      
-018.4Sum (M)           
+[015.3Sum](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/015.3Sum)  (M)  
+[016.3Sum-Closet](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/016.3Sum-Closest) (M)      
+[018.4Sum](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/018.4Sum) (M)           
 259.3Sum-Smaller (M)       
 030.Substring-with-Concatenation-of-All-Words (H)     
 [075.Sort-Colors](https://github.com/wisdompeak/LeetCode/tree/master/075.Sort-Colors) (M+)    
@@ -15,7 +15,8 @@
 088.Merge Sorted Array (M)  
 283.Move-Zeroes (M)      
 141.Linked-List-Cycle (E+)      
-340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
+340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
+[532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)
 
 ##### Binary Search
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/004.Median-of-Two-Sorted-Arrays)	(H)  
