@@ -1,6 +1,6 @@
 ### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
-##### Two Pointers
+#### [Two Pointers](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers)
 [003.Longest Substring Without Repeating Character](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
 011.Container-With-Most-Water	(M)  
 [015.3Sum](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/015.3Sum)  (M)  
@@ -18,7 +18,7 @@
 340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)    
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)
 
-##### Binary Search
+#### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/004.Median-of-Two-Sorted-Arrays)	(H)  
 [154.Find Minimum in Rotated Sorted Array II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/154.Find-Minimum-in-Rotated-Sorted-Array-II) (H-)         
 [033.Search in Rotated Sorted Array](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/033.Search-in-Rotated-Sorted-Array) (M)   
@@ -33,7 +33,7 @@
 483.Smallest-Good-Base (H-)   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
-##### Hash Table
+#### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/049.Group-Anagrams) (M+)    
 [149.Max Points on a Line](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/149.Max-Points-on-a-Line) (H)     
 [166.Fraction-to-Recurring-Decimal](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/149.Max-Points-on-a-Line) (M)   
@@ -41,9 +41,8 @@
 [392.Is-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/392.Is-Subsequence) (M)   
 [204.Count Primes](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/204.Count-Primes) (M)    
 [274.H-Index](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/274.H-Index) (H)     
-325.Maximum-Size-Subarray-Sum-Equals-k (M)    
-355.Design Twitter (H)    
-363.Max-Sum-of-Rectangle-No-Larger-Than-K (H)  
+[325.Maximum-Size-Subarray-Sum-Equals-k](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/325.Maximum-Size-Subarray-Sum-Equals-k) (M)    
+[363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
 409.Longest-Palindrome  (M)   
 447.Number-of-Boomerangs (E+)    
 358.Rearrange-String-k-Distance-Apart (H-)    
@@ -53,7 +52,7 @@
 535.Encode-and-Decode-TinyURL (M+)    
 594.Longest-Harmonious-Subsequence (M+)   
 
-##### Tree
+#### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
 [095.Unique-Binary-Search-Trees-II](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/095.Unique-Binary-Search-Trees-II) (H)   
 [094.Binary Tree Inorder Traversal](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/094.Binary-Tree-Inorder-Traversal) (H-)    
@@ -62,9 +61,9 @@
 [110.Balanced-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/110.Balanced-Binary-Tree)  (M+)   
 [124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/124.Binary-Tree-Maximum-Path-Sum) (M+)   
 [256.Lowest Common Ancestor of a Binary Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/236.Lowest-Common-Ancestor-of-a-Binary-Tree) (H)     
-297.Serialize-and-Deserialize-Binary-Tree （H-）  
-105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal (H)  
-106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal (M)    
+[297.Serialize-and-Deserialize-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/297.Serialize-and-Deserialize-Binary-Tree) （H-）  
+[105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) (H-)  
+106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal (M+)    
 099.Recover-Binary-Search-Tree (H)   
 114.Flatten-Binary-Tree-to-Linked-List (M+)  
 098.Validate-Binary-Search-Tree (M-)   
@@ -81,11 +80,12 @@
 572.Subtree-of-Another-Tree (M)   
 549.Binary-Tree-Longest-Consecutive-Sequence-II (M)   
 
-#### Design
+#### [Design](https://github.com/wisdompeak/LeetCode/tree/master/E.Design)
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/173.Binary-Search-Tree-Iterator) (M)   
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/460.LFU-Cache) (H-)    
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/edit/master/380.Insert-Delete-GetRandom-O-1/)  (H-)   
 381.Insert-Delete-GetRandom-O-1-Duplicates-allowed (H-)   
+355.Design Twitter (H)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    
