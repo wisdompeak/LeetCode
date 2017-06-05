@@ -15,7 +15,7 @@
 088.Merge Sorted Array (M)  
 283.Move-Zeroes (M)      
 141.Linked-List-Cycle (E+)      
-340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)  
+340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)    
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)
 
 ##### Binary Search
