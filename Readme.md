@@ -91,7 +91,7 @@
 211.Add-and-Search-Word (H-)    
 421.Maximum XOR of Two Numbers in an Array (H)    
 
-##### DFS
+#### DFS
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
 410.Split-Array-Largest-Sum (H)	  
@@ -99,14 +99,14 @@
 399.Evaluate-Division (H)   
 491.Increasing-Subsequences (M)   
 
-##### BFS
+#### BFS
 133.Clone-Graph (M+)  
 200.Number-of-Islands (H-)  
 407.Trapping-Rain-Water-II  
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)    
 310.Minimum-Height-Trees (H)    
 
-##### Greedy
+#### Greedy
 084.Largest-Rectangle-in-Histogram  
 085.Maximal-Rectangle  
 221.Maximal-Square  
@@ -114,37 +114,38 @@
 316.Remove Duplicate Letters   
 358.Rearrange-String-k-Distance-Apart
 
-##### Stack
+#### Stack
 536.Construct-Binary-Tree-from-String (M)   
 155.Min-Stack (M)   
 255.Implement Stack using Queues (H-)   
 
-##### Linked List
+#### Linked List
 061.Rotate-List     
 086.Partition-List (M)    
 142.Linked List Cycle II
 
-##### Dynamic Programming
+#### Dynamic Programming
 487.Max Consecutive Ones II    
 410.Split-Array-Largest-Sum (H)   
 376.Wiggle-Subsequence (H)    
 
-##### Bit Manipulation
+#### Bit Manipulation
 136.Single-Number (M)     
 
-##### Others
+#### Others
 042.Trapping-Rain-Water (M)  
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 307.Range-Sum-Query-Mutable (H)   
 
-##### Divide and Conquer
+#### Divide and Conquer
 315.Count-of-Smaller-Numbers-After-Self
 
-##### String
+#### String
 408.Valid-Word-Abbreviation (M)
 336.Palindrome-Pairs (H)    
 
-##### Sort
+#### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 057.Insert-Interval (H)   
 164.Maximum-Gap (H)   
+581.shortest-unsorted-continuous-subarray(https://github.com/wisdompeak/LeetCode/tree/master/Sort/581.shortest-unsorted-continuous-subarray) (M+)   
