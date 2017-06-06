@@ -25,7 +25,7 @@
 [081.Search-in-Rotated-Sorted-Array-II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/081.Search-in-Rotated-Sorted-Array-II) (M)      
 [034.Search-for-a-Range](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/034.Search-for-a-Range) (M)  
 [162.Find-Peak-Element](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/162.Find-Peak-Element) (H-)  
-[275.H-index II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/275.H-Index-II) (M)  
+[275.H-index II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/275.H-Index-II) (H)  
 287.Find the Duplicate Number (H-)   
 302.Smallest-Rectangle-Enclosing-Black-Pixels (H-)  
 410.Split-Array-Largest-Sum (H)  
