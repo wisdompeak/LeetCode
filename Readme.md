@@ -16,7 +16,7 @@
 283.Move-Zeroes (M)      
 141.Linked-List-Cycle (E+)      
 340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)    
-[532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)
+[532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)   
 [360.Sort-Transformed-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/360.Sort-Transformed-Array) (M)
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search)
