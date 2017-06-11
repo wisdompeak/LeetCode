@@ -150,3 +150,4 @@
 057.Insert-Interval (H)   
 164.Maximum-Gap (H)   
 [581.shortest-unsorted-continuous-subarray](https://github.com/wisdompeak/LeetCode/tree/master/Sort/581.shortest-unsorted-continuous-subarray) (M+)   
+[041.First-Missing-Positive]https://github.com/wisdompeak/LeetCode/blob/master/Sort/041.First-Missing-Positive/Readme.md (H)
