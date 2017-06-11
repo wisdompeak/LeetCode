@@ -48,7 +48,7 @@
 [447.Number-of-Boomerangs](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/447.Number-of-Boomerangs) (E+)    
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/358.Rearrange-String-k-Distance-Apart) (H-)    
 [438.Find-All-Anagrams-in-a-String](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/438.Find-All-Anagrams-in-a-String) (H-)   
-525.Contiguous-Array (M)    
+[525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/525.Contiguous-Array) (M)    
 356.Line-Reflection (H-)    
 535.Encode-and-Decode-TinyURL (M+)    
 594.Longest-Harmonious-Subsequence (M+)   
