@@ -8,32 +8,31 @@
  * };
  */
 class Solution {
-    TreeNode* last;
+    TreeNode* lastRead=NULL;
+    TreeNode* result=NULL;
 public:
     TreeNode* inorderSuccessor(TreeNode* root, TreeNode* p) 
     {
-        last=NULL;
-        TreeNode* result = DFS(root,p);
+        bool flag = DFS(root,p);
         return result;
     }
     
-    TreeNode* DFS(TreeNode* root, TreeNode* p)
+    bool DFS(TreeNode* node, TreeNode* p)
     {
-        if (root==NULL) return NULL;
+        if (node==NULL) return false;
         
-        TreeNode* temp;
+        if (DFS(node->left,p)) return true;
         
-        temp = DFS(root->left,p);
-        if (temp!=NULL) return temp;
+        if (lastRead==p)
+        {
+            result=node;
+            return true;
+        }
+        lastRead=node;
         
-        if (last==p) 
-            return root;
-        else
-            last=root;
+        if (DFS(node->right,p)) return true;
         
-        temp = DFS(root->right,p);
-        if (temp!=NULL) return temp;
+        return false;
         
-        return NULL;        
     }
 };
