@@ -71,7 +71,7 @@
 [117.Populating Next Right Pointers in Each Node II](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/117.Populating-Next-Right-Pointers-in-Each-Node-II) (H)    
 [156.Binary-Tree-Upside-Down](https://github.com/wisdompeak/LeetCode/blob/master/D.Tree/156.Binary-Tree-Upside-Down) (H)   
 [285.Inorder-Successor-in-BST](https://github.com/wisdompeak/LeetCode/blob/master/D.Tree/285.Inorder-Successor-in-BST) (M)    
-[298.Binary-Tree-Longest-Consecutive Sequence](https://github.com/wisdompeak/LeetCode/blob/master/D.Tree/298.Binary-Tree-Longest-Consecutive%20Sequence) (M+)    
+[298.Binary-Tree-Longest-Consecutive Sequence](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/298.Binary-Tree-Longest-Consecutive-Sequence) (M+)    
 450.Delete-Node-in-a-BST (H)    
 437.Path-Sum-III (H-)   
 255.Verify-Preorder-Sequence-in-Binary-Search-Tree (H)    
