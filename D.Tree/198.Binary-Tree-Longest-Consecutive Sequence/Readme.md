@@ -1,4 +1,4 @@
-### 198.Binary-Tree-Longest-Consecutive Sequence
+### 298.Binary-Tree-Longest-Consecutive Sequence
 
 这是一道基本的用DFS递归的二叉树题。需要注意的细节是，对于左右子树的递归调用，需要在判断 root->val+1==root->left->val之前。
 
