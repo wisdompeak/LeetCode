@@ -87,6 +87,7 @@
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/edit/master/380.Insert-Delete-GetRandom-O-1/)  (H-)   
 381.Insert-Delete-GetRandom-O-1-Duplicates-allowed (H-)   
 355.Design Twitter (H)    
+[535.Encode-and-Decode-TinyURL](https://github.com/wisdompeak/LeetCode/tree/master/E.Design/535.Encode-and-Decode-TinyURL) (M)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    
