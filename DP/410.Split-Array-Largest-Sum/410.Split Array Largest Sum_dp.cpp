@@ -3,36 +3,26 @@ public:
     int splitArray(vector<int>& nums, int m) 
     {
         int n=nums.size();
-        auto dp=vector<vector<long>>(n+1,vector<long>(m+1,INT_MAX));
+        auto dp = vector<vector<int>>(n+1,vector<int>(m+1,0));
         
-        auto sum=vector<long>(n+1,0);
-        for (int i=1; i<=n; i++)
-            sum[i]=sum[i-1]+nums[i-1];
-        
-        dp[0][0]=0;
-        
+        int sum=0;
         for (int i=1; i<=n; i++)
         {
-            int MaxDivde = min(m,i);
-            
-            for (int k=1; k<=MaxDivde; k++)
-            {
-                if (k==1) 
-                {
-                    dp[i][k]=sum[i];
-                    continue;
-                }
-                    
-                for (int j=i-1; j>=k-1; j--)
-                {
-                    long partSum = sum[i]-sum[j];
-                    if (partSum > dp[i][k]) break;
-                    dp[i][k] = min(dp[i][k], max(partSum,dp[j][k-1]));
-                }
-            }
+            sum+=nums[i-1];
+            dp[i][1]=sum;
         }
         
-        return dp[n][m];
+        for (int i=1; i<=n; i++)
+         for (int k=2; k<=m; k++)
+         {
+             int temp = INT_MAX;
+             for (int j=k-1; j<=i-1; j++)
+             {
+                 temp = min(temp, max(dp[j][k-1],dp[i][1]-dp[j][1]));
+             }
+             dp[i][k]=temp;
+        }
         
+        return dp[n][m]; 
     }
 };
