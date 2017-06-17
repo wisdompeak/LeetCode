@@ -74,7 +74,7 @@
 [298.Binary-Tree-Longest-Consecutive Sequence](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/298.Binary-Tree-Longest-Consecutive-Sequence) (M+)    
 [450.Delete-Node-in-a-BST](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/450.Delete-Node-in-a-BST) (H)    
 [437.Path-Sum-III](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/437.Path-Sum-III) (H-)   
-255.Verify-Preorder-Sequence-in-Binary-Search-Tree (H)    
+[255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 449.Serialize-and-Deserialize-BST (H)   
 [333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/tree/master/C.Tree/333.Largest-BST-Subtree) (H)    
 543.Diameter-of-Binary-Tree (M+)    
@@ -119,7 +119,8 @@
 #### Stack
 536.Construct-Binary-Tree-from-String (M)   
 155.Min-Stack (M)   
-255.Implement Stack using Queues (H-)   
+225.Implement Stack using Queues (H-)   
+[255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Stack/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 
 #### Linked List
 061.Rotate-List     
