@@ -30,7 +30,7 @@
 [275.H-index II](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/275.H-Index-II) (H)  
 [287.Find the Duplicate Number](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/287.Find-the-Duplicate-Number) (H-)   
 [302.Smallest-Rectangle-Enclosing-Black-Pixels](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/302.Smallest-Rectangle-Enclosing-Black-Pixels) (M+)  
-410.Split-Array-Largest-Sum (H)  
+[410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)  
 475.Heaters (H-)  
 483.Smallest-Good-Base (H-)   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals) (H)   
@@ -128,8 +128,8 @@
 142.Linked List Cycle II
 
 #### Dynamic Programming
-487.Max Consecutive Ones II    
-410.Split-Array-Largest-Sum (H)   
+487.Max-Consecutive-Ones-II    
+410.[Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)   
 376.Wiggle-Subsequence (H)    
 
 #### Bit Manipulation
