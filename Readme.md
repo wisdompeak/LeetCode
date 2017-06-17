@@ -16,7 +16,7 @@
 088.Merge Sorted Array (M)  
 283.Move-Zeroes (M)      
 141.Linked-List-Cycle (E+)      
-340.Longest-Substring-with-At-Most-K-Distinct-Characters (H)    
+[340.Longest-Substring-with-At-Most-K-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/340.Longest-Substring-with-At-Most-K-Distinct-Characters) (H)    
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)   
 [360.Sort-Transformed-Array](https://github.com/wisdompeak/LeetCode/tree/master/A.Two_Pointers/360.Sort-Transformed-Array) (M)
 
@@ -89,6 +89,12 @@
 355.Design Twitter (H)    
 [535.Encode-and-Decode-TinyURL](https://github.com/wisdompeak/LeetCode/tree/master/E.Design/535.Encode-and-Decode-TinyURL) (M)    
 
+#### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
+536.Construct-Binary-Tree-from-String (M)   
+155.Min-Stack (M)   
+225.Implement Stack using Queues (H-)   
+[255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Stack/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
+
 #### Trie
 211.Add-and-Search-Word (H-)    
 421.Maximum XOR of Two Numbers in an Array (H)    
@@ -116,12 +122,6 @@
 316.Remove Duplicate Letters   
 358.Rearrange-String-k-Distance-Apart
 
-#### Stack
-536.Construct-Binary-Tree-from-String (M)   
-155.Min-Stack (M)   
-225.Implement Stack using Queues (H-)   
-[255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Stack/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
-
 #### Linked List
 061.Rotate-List     
 086.Partition-List (M)    
@@ -145,7 +145,7 @@
 315.Count-of-Smaller-Numbers-After-Self
 
 #### String
-408.Valid-Word-Abbreviation (M)
+408.Valid-Word-Abbreviation (M)   
 336.Palindrome-Pairs (H)    
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
