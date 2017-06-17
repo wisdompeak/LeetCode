@@ -75,7 +75,7 @@
 [450.Delete-Node-in-a-BST](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/450.Delete-Node-in-a-BST) (H)    
 [437.Path-Sum-III](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/437.Path-Sum-III) (H-)   
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
-449.Serialize-and-Deserialize-BST (H)   
+[449.Serialize-and-Deserialize-BST](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/449.Serialize-and-Deserialize-BST) (H)   
 [333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/tree/master/C.Tree/333.Largest-BST-Subtree) (H)    
 543.Diameter-of-Binary-Tree (M+)    
 572.Subtree-of-Another-Tree (M)   
@@ -127,9 +127,9 @@
 086.Partition-List (M)    
 142.Linked List Cycle II
 
-#### Dynamic Programming
+#### [Dynamic Programming](https://github.com/wisdompeak/LeetCode/tree/master/DP)
 487.Max-Consecutive-Ones-II    
-410.[Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)   
+[410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)   
 376.Wiggle-Subsequence (H)    
 
 #### Bit Manipulation
