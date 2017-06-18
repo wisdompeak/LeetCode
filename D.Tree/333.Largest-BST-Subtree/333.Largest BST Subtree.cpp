@@ -8,34 +8,45 @@
  * };
  */
 class Solution {
-    int result = INT_MIN;
+    int result=0;
+    
 public:
     int largestBSTSubtree(TreeNode* root) 
     {
-        if (root==NULL) return 0;
-        
-        int mmin,mmax;
-        int res = DFS(root,mmin,mmax);
+        int x = isBST(root);
         return result;
     }
     
-    int DFS(TreeNode* root, int& mmin, int& mmax)
+    int isBST(TreeNode* root) 
     {
         if (root==NULL) return 0;
-
-        int left_min=0, left_max=0, right_min=0, right_max=0;
         
-        int n1 = DFS(root->left, left_min, left_max);
-        int n2 = DFS(root->right, right_min, right_max);
+        int flag=1;
         
-       if ((n1==0 || n1>0 && left_max<root->val) && (n2==0 || n2>0 && right_min>root->val))
+        if (root->left!=NULL)
         {
-            mmin = n1==0 ? root->val:left_min;
-            mmax = n2==0 ? root->val:right_max;                
-            result = max(result,n1+n2+1);
-            return n1+n2+1;
+            TreeNode* node=root->left;
+            while (node->right!=NULL) node=node->right;
+            if (node->val>=root->val)
+                flag=0;
         }
-        else
-            return -1;
+        
+        if (root->right!=NULL)
+        {
+            TreeNode* node=root->right;
+            while (node->left!=NULL) node=node->left;
+            if (node->val<=root->val)
+                flag=0;
+        }        
+        
+        int leftNum = isBST(root->left);
+        int rightNum = isBST(root->right);
+        
+        if (flag==0 || leftNum==-1 || rightNum==-1) return -1;
+        
+        result=max(result,leftNum+rightNum+1);
+        
+        return leftNum+rightNum+1;
+        
     }
 };
