@@ -76,7 +76,7 @@
 [437.Path-Sum-III](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/437.Path-Sum-III) (H-)   
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 [449.Serialize-and-Deserialize-BST](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/449.Serialize-and-Deserialize-BST) (H)   
-[333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/tree/master/C.Tree/333.Largest-BST-Subtree) (H)    
+[333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/blob/master/D.Tree/333.Largest-BST-Subtree) (H)    
 543.Diameter-of-Binary-Tree (M+)    
 572.Subtree-of-Another-Tree (M)   
 549.Binary-Tree-Longest-Consecutive-Sequence-II (M)   
