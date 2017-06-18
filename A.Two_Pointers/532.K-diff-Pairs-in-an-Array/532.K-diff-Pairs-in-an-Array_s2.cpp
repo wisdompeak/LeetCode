@@ -17,14 +17,11 @@ public:
                     i++;
                 i++;    
             }
-            
-            if (nums[i]+k>=nums[j])
+            else if (nums[i]+k>=nums[j])
                 j++;
             else
                 i++;
         }
-
-        return count;
-        
+        return count;       
     }
 };
