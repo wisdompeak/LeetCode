@@ -120,7 +120,8 @@
 221.Maximal-Square  
 300.Longest Increasing Subsequence  
 316.Remove Duplicate Letters   
-358.Rearrange-String-k-Distance-Apart
+358.Rearrange-String-k-Distance-Apart   
+[045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/045.Jump-Game-II) (H)   
 
 #### Linked List
 061.Rotate-List     
