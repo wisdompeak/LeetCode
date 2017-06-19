@@ -31,7 +31,7 @@
 [287.Find the Duplicate Number](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/287.Find-the-Duplicate-Number) (H-)   
 [302.Smallest-Rectangle-Enclosing-Black-Pixels](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/302.Smallest-Rectangle-Enclosing-Black-Pixels) (M+)  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)  
-475.Heaters (H-)  
+[475.Heaters](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/475.Heaters) (H-)  
 483.Smallest-Good-Base (H-)   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
@@ -50,7 +50,7 @@
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/358.Rearrange-String-k-Distance-Apart) (H-)    
 [438.Find-All-Anagrams-in-a-String](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/438.Find-All-Anagrams-in-a-String) (H-)   
 [525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/525.Contiguous-Array) (M)    
-356.Line-Reflection (H-)    
+[356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/356.Line-Reflection) (H-)    
 594.Longest-Harmonious-Subsequence (M+)   
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree)
