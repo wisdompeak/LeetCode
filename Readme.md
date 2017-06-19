@@ -51,7 +51,7 @@
 [438.Find-All-Anagrams-in-a-String](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/438.Find-All-Anagrams-in-a-String) (H-)   
 [525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/525.Contiguous-Array) (M)    
 [356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/356.Line-Reflection) (H-)    
-594.Longest-Harmonious-Subsequence (M+)   
+[594.Longest-Harmonious-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/594.Longest-Harmonious-Subsequence) (M+)   
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
