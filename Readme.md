@@ -130,7 +130,8 @@
 #### [Dynamic Programming](https://github.com/wisdompeak/LeetCode/tree/master/DP)
 487.Max-Consecutive-Ones-II    
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)   
-376.Wiggle-Subsequence (H)    
+376.Wiggle-Subsequence (H)   
+[322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/DP/322.Coin-Change) (M)
 
 #### Bit Manipulation
 136.Single-Number (M)     
