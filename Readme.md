@@ -33,7 +33,7 @@
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)  
 [475.Heaters](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/475.Heaters) (H-)  
 483.Smallest-Good-Base (H-)   
-[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/352.Data-Stream-as-Disjoint-Intervals) (H)   
+[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/B.Binary_Search/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/C.Hash/049.Group-Anagrams) (M+)    
@@ -78,7 +78,7 @@
 [449.Serialize-and-Deserialize-BST](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/449.Serialize-and-Deserialize-BST) (H)   
 [333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/blob/master/D.Tree/333.Largest-BST-Subtree) (H)    
 [543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/543.Diameter-of-Binary-Tree) (M+)    
-572.Subtree-of-Another-Tree (M)   
+[572.Subtree-of-Another-Tree](https://github.com/wisdompeak/LeetCode/tree/master/D.Tree/572.Subtree-of-Another-Tree) (M)   
 549.Binary-Tree-Longest-Consecutive-Sequence-II (M)   
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/E.Design)
