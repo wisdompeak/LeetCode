@@ -94,6 +94,7 @@
 155.Min-Stack (M)   
 225.Implement Stack using Queues (H-)   
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
+341.Flatten-Nested-List-Iterator (M)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    
