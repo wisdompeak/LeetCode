@@ -120,19 +120,19 @@
 221.Maximal-Square  
 300.Longest Increasing Subsequence  
 316.Remove Duplicate Letters   
-358.Rearrange-String-k-Distance-Apart   
+358.Rearrange-String-k-Distance-Apart   
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/045.Jump-Game-II) (H)   
 
-#### Linked List
+#### [Linked_List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
-086.Partition-List (M)    
+[086.Partition-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/086.Partition-List) (M)    
 142.Linked List Cycle II
 
-#### [Dynamic Programming](https://github.com/wisdompeak/LeetCode/tree/master/DP)
+#### [Dynamic Programming](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming)
 487.Max-Consecutive-Ones-II    
-[410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/DP/410.Split-Array-Largest-Sum) (H)   
+[410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
 376.Wiggle-Subsequence (H)   
-[322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/DP/322.Coin-Change) (M)
+[322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)
 
 #### Bit Manipulation
 136.Single-Number (M)     
