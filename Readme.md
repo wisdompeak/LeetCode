@@ -96,6 +96,7 @@
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 341.Flatten-Nested-List-Iterator (M)    
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
+[456.132-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/Stack/456.132-Pattern) (H-)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    
