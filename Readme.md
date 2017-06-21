@@ -97,6 +97,7 @@
 341.Flatten-Nested-List-Iterator (M)    
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
 [456.132-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/Stack/456.132-Pattern) (H-)    
+[084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
 
 #### Trie
 211.Add-and-Search-Word (H-)    
