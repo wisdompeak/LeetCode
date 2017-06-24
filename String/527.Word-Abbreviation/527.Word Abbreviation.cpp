@@ -10,15 +10,20 @@ public:
         vector<string>results(dict.size());
         int abbrNum=0;
 
+        unordered_set<string>Set;
         for (int i=0; i<dict.size(); i++)
-        {
-            string abbr=getAbbr(dict[i],abbrNum);
-            Map[abbr].push_back(dict[i]);
-        }
+            Set.insert(dict[i]);
         
         while (1)
         {
-            unordered_set<string>Set;
+            Map.clear();
+            for (auto s:Set)
+            {
+                string abbr=getAbbr(s,abbrNum);
+                Map[abbr].push_back(s);
+            }
+            Set.clear();
+            
             for (auto a:Map)
             {
                 if (a.second.size()>1)
@@ -33,14 +38,7 @@ public:
             }
             
             if (Set.size()==0) break;
-            
-            Map.clear();
             abbrNum++;
-            for (auto s:Set)
-            {
-                string abbr=getAbbr(s,abbrNum);
-                Map[abbr].push_back(s);
-            }
         }
         
         return results;
