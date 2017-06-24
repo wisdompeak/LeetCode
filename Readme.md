@@ -146,7 +146,7 @@
 136.Single-Number (M)     
 
 #### Others
-042.Trapping-Rain-Water (M)  
+[042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 307.Range-Sum-Query-Mutable (H)   
