@@ -154,8 +154,9 @@
 #### Divide and Conquer
 315.Count-of-Smaller-Numbers-After-Self
 
-#### String
-408.Valid-Word-Abbreviation (M)   
+#### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
+[408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
+[527.Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/527.Word-Abbreviation) (M+)   
 336.Palindrome-Pairs (H)    
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
