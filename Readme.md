@@ -32,7 +32,7 @@
 [302.Smallest-Rectangle-Enclosing-Black-Pixels](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/302.Smallest-Rectangle-Enclosing-Black-Pixels) (M+)  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)  
 [475.Heaters](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/475.Heaters) (H-)  
-483.Smallest-Good-Base (H-)   
+[483.Smallest-Good-Base](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/483.Smallest-Good-Base/Readme.md) (H)   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
