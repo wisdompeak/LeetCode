@@ -90,6 +90,7 @@
 381.Insert-Delete-GetRandom-O-1-Duplicates-allowed (H-)   
 355.Design Twitter (H)    
 [535.Encode-and-Decode-TinyURL](https://github.com/wisdompeak/LeetCode/tree/master/Design/535.Encode-and-Decode-TinyURL) (M)    
+[631.Design-Excel-Sum-Formula](https://github.com/wisdompeak/LeetCode/tree/master/Design/631.Design-Excel-Sum-Formula) (H)    
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 536.Construct-Binary-Tree-from-String (M)   
