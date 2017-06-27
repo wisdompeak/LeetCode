@@ -152,12 +152,6 @@
 #### Bit Manipulation
 136.Single-Number (M)     
 
-#### Others
-[042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
-240.Search a 2D Matrix II (M)   
-311.Sparse-Matrix-Multiplication (M)  
-307.Range-Sum-Query-Mutable (H)   
-
 #### Divide and Conquer
 315.Count-of-Smaller-Numbers-After-Self
 
@@ -172,3 +166,10 @@
 [581.shortest-unsorted-continuous-subarray](https://github.com/wisdompeak/LeetCode/tree/master/Sort/581.shortest-unsorted-continuous-subarray) (M+)   
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Sort/041.First-Missing-Positive/Readme.md) (H)    
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Sort/442.Find-All-Duplicates-in-an-Array/Readme.md) (M+)  
+
+#### Others
+[042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
+240.Search a 2D Matrix II (M)   
+311.Sparse-Matrix-Multiplication (M)  
+307.Range-Sum-Query-Mutable (H)   
+593.Valid-Square (H)    
