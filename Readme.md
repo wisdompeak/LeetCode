@@ -98,7 +98,7 @@
 225.Implement Stack using Queues (H-)   
 [232.Implement-Queue-using-Stacks](https://github.com/wisdompeak/LeetCode/tree/master/Stack/232.Implement-Queue-using-Stacks) (H-)   
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
-341.Flatten-Nested-List-Iterator (M)    
+[341.Flatten-Nested-List-Iterator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/341.Flatten-Nested-List-Iterator/Readme.md) (M)   
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
 [456.132-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/Stack/456.132-Pattern) (H-)    
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
