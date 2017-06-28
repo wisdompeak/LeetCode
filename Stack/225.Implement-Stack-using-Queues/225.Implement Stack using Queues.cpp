@@ -10,18 +10,17 @@ public:
     void push(int x) 
     {
         q.push(x);
+        for (int i=0; i<q.size()-1; i++)
+        {
+            q.push(q.front());
+            q.pop();
+        }        
     }
     
     /** Removes the element on top of the stack and returns that element. */
     int pop() 
     {
-        int len=q.size();
-        for (int i=0; i<len-1; i++)
-        {
-            q.push(q.front());
-            q.pop();
-        }
-        int result= q.front();
+        int result=q.front();
         q.pop();
         return result;
     }
@@ -29,22 +28,13 @@ public:
     /** Get the top element. */
     int top() 
     {
-        int len=q.size();
-        for (int i=0; i<len-1; i++)
-        {
-            q.push(q.front());
-            q.pop();
-        }
-        int result=q.front();
-        q.push(q.front());
-        q.pop();        
-        return result;
+        return q.front();
     }
     
     /** Returns whether the stack is empty. */
     bool empty() 
     {
-        return (q.empty());
+        return q.empty();
     }
 };
 
