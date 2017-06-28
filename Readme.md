@@ -96,7 +96,7 @@
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 536.Construct-Binary-Tree-from-String (M)   
 [155.Min-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack/155.Min-Stack) (M)   
-225.Implement Stack using Queues (H-)   
+[225.Implement Stack using Queues](https://github.com/wisdompeak/LeetCode/tree/master/Stack/225.Implement-Stack-using-Queues) (H-)   
 [232.Implement-Queue-using-Stacks](https://github.com/wisdompeak/LeetCode/tree/master/Stack/232.Implement-Queue-using-Stacks) (H-)   
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 [341.Flatten-Nested-List-Iterator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/341.Flatten-Nested-List-Iterator/Readme.md) (M)   
