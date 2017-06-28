@@ -1,6 +1,6 @@
 ### 341.Flatten-Nested-List-Iterator
 
-仔细分析数据结构的定义。vector<NestedInteger>包含的是元素是NestedInteger类型. 当对元素做.getInteger()操作后得到的才是整形；做.getList()操作后得到的是vector<NestedInteger>类型。
+仔细分析数据结构的定义。vector\<NestedInteger\>包含的是元素是NestedInteger类型. 当对元素做.getInteger()操作后得到的才是整形；做.getList()操作后得到的是vector\<NestedInteger\>类型。
 
 设计一个stack\<NestedInteger\>Stack的堆栈。
 
