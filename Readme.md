@@ -83,6 +83,9 @@
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
 [545.Boundary-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/545.Boundary-of-Binary-Tree) (H-)     
 [272.Closest-Binary-Search-Tree-Value-II](https://github.com/wisdompeak/LeetCode/tree/master/Tree/272.Closest-Binary-Search-Tree-Value-II) (M+)   
+[310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)   
+[331.Verify-Preorder-Serialization-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/331.Verify-Preorder-Serialization-of-a-Binary-Tree) (H)   
+[226.Invert-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/226.Invert-Binary-Tree) (M)    
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H-)    
@@ -95,10 +98,11 @@
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 536.Construct-Binary-Tree-from-String (M)   
 [155.Min-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack/155.Min-Stack) (M)   
-225.Implement Stack using Queues (H-)   
+[225.Implement Stack using Queues](https://github.com/wisdompeak/LeetCode/tree/master/Stack/225.Implement-Stack-using-Queues) (H-)   
 [232.Implement-Queue-using-Stacks](https://github.com/wisdompeak/LeetCode/tree/master/Stack/232.Implement-Queue-using-Stacks) (H-)   
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 [341.Flatten-Nested-List-Iterator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/341.Flatten-Nested-List-Iterator/Readme.md) (M)   
+[385.Mini-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/385.Mini-Parser) (H)   
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
 [456.132-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/Stack/456.132-Pattern) (H-)    
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
@@ -107,6 +111,7 @@
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
 [316.Remove-Duplicate-Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)  
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
+[439.Ternary-Expression-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/439.Ternary-Expression-Parser) (H-)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    

@@ -4,15 +4,13 @@ public:
     {
         if (nums.size()<3) return false;
         
-        stack<int>Stack;
-        vector<int>Mins(nums.size(),0);
-        
-        Mins[0]=nums[0];
+        vector<int>prevMin(nums.size());
+        prevMin[0]=INT_MIN;
         for (int i=1; i<nums.size(); i++)
-            Mins[i]=min(Mins[i-1],nums[i]);
-            
-        int third=INT_MIN;    
+            prevMin[i]=min(prevMin[i-1],nums[i-1]);
         
+        stack<int>Stack;
+        int small=INT_MIN;
         for (int i=nums.size()-1; i>=0; i--)
         {
             if (Stack.empty() || nums[i]<=Stack.top())
@@ -21,12 +19,12 @@ public:
             {
                 while (!Stack.empty() && nums[i]>Stack.top())
                 {
-                    third=max(third,Stack.top());
+                    small=max(small,Stack.top());
                     Stack.pop();
                 }
-                if (i-1>=0 && Mins[i-1]<third) return true;
                 Stack.push(nums[i]);
             }
+            if (nums[i]<small) return true;
         }
         
         return false;
