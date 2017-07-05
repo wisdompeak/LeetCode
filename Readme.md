@@ -155,7 +155,8 @@
 376.Wiggle-Subsequence (H)   
 [322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
 [091.Decode-Ways](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/091.Decode-Ways) (M)     
-629.K-Inverse-Pairs-Array (H)   
+629.K-Inverse-Pairs-Array (H)     
+634.Find the Derangement-of-An-Array (H)    
 
 #### Bit Manipulation
 136.Single-Number (M)     
