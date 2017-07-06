@@ -116,6 +116,7 @@
 [496.Next-Greater-Element-I](https://github.com/wisdompeak/LeetCode/tree/master/Stack/496.Next-Greater-Element-I) (H-)    
 [503.Next-Greater-Element-II](https://github.com/wisdompeak/LeetCode/blob/master/Stack/503.Next-Greater-Element-II/503.Next%20Greater%20Element%20II.cpp) (M+)    
 [591.Tag-Validator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/591.Tag-Validator/) (H)    
+[221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    
@@ -160,6 +161,7 @@
 [091.Decode-Ways](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/091.Decode-Ways) (M)     
 629.K-Inverse-Pairs-Array (H)     
 634.Find the Derangement-of-An-Array (H)    
+[221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 
 #### Bit Manipulation
 136.Single-Number (M)     
