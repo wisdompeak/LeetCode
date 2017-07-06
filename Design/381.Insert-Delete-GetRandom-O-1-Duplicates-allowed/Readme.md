@@ -32,3 +32,6 @@
         }
     }
 ```
+上述代码中最容易出错的地方在于，if (Map[val].size()==0) Map.erase(val)这句话只能放在最后操作。这是因为val可能恰恰就是array.back()，过早地删去了val这个key，会导致后续Map[array.back()]非法，即 runtime error.
+
+一个比较保险的方式是，弃用if (Map.find(val)==Map.end())，使用 if (Map.count(val)==0).
