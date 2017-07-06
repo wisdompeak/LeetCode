@@ -4,39 +4,35 @@ public:
     {
         if (nums.size()==0) return false;
         
-        int left = 0;
-        int right = nums.size()-1;
+        int left=0;
+        int right=nums.size()-1;
         int mid;
         
         while (left<right)
-        {
-            mid = left+(right-left)/2;
-            if (nums[left]==target ||nums[mid]==target ||nums[right]==target)
-                return true;
-                
-            if (nums[left]==nums[mid])
+        {            
+            while (left+1<right && nums[left]==nums[left+1])
                 left++;
-            else if (nums[left]<nums[mid] && nums[left]<target)
+            mid=left+(right-left)/2;      
+            
+            if (nums[left]==target || nums[right]==target || nums[mid]==target) return true;
+            
+            if (nums[mid]>nums[left] && target>nums[left])
             {
-                if (nums[mid]<target)
-                    left = mid+1;
+                if (nums[mid]>target)
+                    right=mid-1;
                 else
-                    right = mid;
+                    left=mid+1;
             }
-            else if (nums[left]<nums[mid] && nums[left]>target)
+            else if (nums[mid]>nums[left] && target<=nums[left])
+                left=mid+1;
+            else if (nums[mid]<=nums[left] && target>nums[left])
+                right=mid-1;
+            else if (nums[mid]<=nums[left] && target<=nums[left])
             {
-                left = mid+1;
-            }
-            else if (nums[left]>nums[mid] && nums[left]<target)    
-            {
-                right = mid;
-            }
-            else if (nums[left]>nums[mid] && nums[left]>target)        
-            {
-                if (nums[mid]<target)
-                    left = mid+1;
+                if (nums[mid]>target)
+                    right=mid-1;
                 else
-                    right = mid;
+                    left=mid+1;
             }
         }
         
@@ -44,6 +40,5 @@ public:
             return true;
         else
             return false;
-        
     }
 };
