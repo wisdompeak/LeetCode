@@ -17,8 +17,7 @@ public:
             {
                 while (!Stack.empty() && Stack.top().first<nums[i])
                 {
-                    if (results[Stack.top().second]==-1)
-                        results[Stack.top().second]=nums[i];
+                    results[Stack.top().second]=nums[i];
                     Stack.pop();
                 }
                 Stack.push({nums[i],i});
