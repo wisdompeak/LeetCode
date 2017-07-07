@@ -1,87 +1,79 @@
 class Excel {
-    vector<vector<int>>table;
+    vector<vector<int>>Table;
     unordered_map<string,vector<string>>Map;
+    
 public:
     Excel(int H, char W) 
     {
-        table=vector<vector<int>>(H+1,vector<int>(W-'A',0));
+        Table = vector<vector<int>>(H+1,vector<int>(W-'A'+1,0));
     }
     
     void set(int r, char c, int v) 
     {
-        table[r][c-'A']=v;
         if (Map.find(to_string(r)+c)!=Map.end())
             Map.erase(to_string(r)+c);
+        Table[r][c-'A']=v;
     }
     
     int get(int r, char c) 
     {
-        //cout<<"get"<<r<<c<<endl;
-        
-        if (Map.find(to_string(r)+c)!=Map.end())
-            sum(r,c,Map[to_string(r)+c]);
-        return table[r][c-'A'];
+        if (Map.find(to_string(r)+c)==Map.end())
+            return Table[r][c-'A'];
+        else
+        {
+            Table[r][c-'A'] = sum(r,c,Map[to_string(r)+c]);
+            return Table[r][c-'A'];
+        }
+            
     }
     
     int sum(int r, char c, vector<string> strs) 
     {
-        cout<<"sum"<<r<<c<<endl;
-        
         Map[to_string(r)+c]=strs;
-        
         int sum=0;
-        
         for (int i=0; i<strs.size(); i++)
         {
-            string str=strs[i];
-            int flag=0;
-            for (int j=0; j<str.size(); j++)
-            {
-                if (str[j]==':')
-                {
-                    flag=1;
-                    break;
-                }
-            }
-            
+            int row1,row2;
+            char col1,col2;
+            bool flag = read(strs[i],row1,row2,col1,col2);
+                        
             if (flag==0)
-            {
-                int row;
-                char col;
-                
-                read(str,row,col);
-                sum+=get(row,col);
-                
-                if (r==3 && c=='C') cout<<sum<<endl;
-            }
+                sum+=get(row1,col1);
             else
-            {
-                int j=0;
-                while (str[j]!=':') j++;
-                string str1=str.substr(0,j);
-                string str2=str.substr(j+1);
-                
-                int row1, row2;
-                char col1, col2;
-                read(str1,row1,col1);
-                read(str2,row2,col2);
-                
-                
-                for (int a=row1; a<=row2; a++)
-                 for (int b=col1; b<=col2; b++)
-                    sum+=get(a,b);
-                 
-            }
+            {   for (int j=row1; j<=row2; j++)
+                 for (char k=col1; k<=col2; k++)
+                 {
+                     sum+=get(j,k);                     
+                 }
+            }            
         }
-        
-        table[r][c-'A']=sum;
+        Table[r][c-'A']=sum;
         return sum;
     }
     
-    void read(string str, int &row, char &col)
+    bool read(string str, int& row1, int& row2, char& col1, char& col2)
     {
-        col=str[0];
-        row=stoi(str.substr(1));
+        bool flag=false;
+        int i=0;
+        
+        while (i<str.size() && str[i]!=':') i++;
+        flag = (i!=str.size());
+        
+        if (flag==0)
+        {
+            col1=str[0];
+            row1=stoi(str.substr(1));
+        }
+        else
+        {
+            string str1=str.substr(0,i);
+            string str2=str.substr(i+1);
+            col1=str1[0];
+            row1=stoi(str1.substr(1));
+            col2=str2[0];
+            row2=stoi(str2.substr(1));
+        }        
+        return flag;        
     }
 };
 
