@@ -1,13 +1,16 @@
 ### 460.LFU-Cache
 
-本题用到了STL里的一个新的数据结构，list。list和vector的用法差不多，但其在内存中的存储并不是线性的，而是链表状的，所以它的插入、删除都很方便（因为已经被封装好了，我们不必实现链表插入、删除的细节），只要给出元素的iterator即可。
+本题用到了STL里的一个新的数据结构，list。list和vector的用法差不多，但其在内存中的存储并不是线性的，而是链表状的，所以它的插入、删除都很方便（因为已经被封装好了，我们不必实现链表插入、删除的细节）。
+
+删除list中一个元素，可以有这些操作：pop_front(), pop_back(), erase(iterator);     
+在list中加入一个元素，push_back(value), 其对应的iterator就是 --List.end()
 
 本题的数据结构需要如下三个：
 ```cpp
     int cap, minfreq;
     unordered_map<int,pair<int,int>>Map; // key -> value, freq;
     unordered_map<int,list<int>>freq; // freq -> keys
-    unordered_map<int,list<int>::iterator>iter; // key -> iterator
+    unordered_map<int,list<int>::iterator>iter; // key -> the iterator of key in freq
 ```
 Map记录了一个key所对应的value和操作频率；    
 freq记录了对应一个操作频率的key有哪些；   
