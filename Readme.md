@@ -90,7 +90,7 @@
 [226.Invert-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/226.Invert-Binary-Tree) (M)    
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
-[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H-)    
+[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (H-)   
 [381.Insert-Delete-GetRandom-O-1-Duplicates-allowed](https://github.com/wisdompeak/LeetCode/tree/master/Design/381.Insert-Delete-GetRandom-O-1-Duplicates-allowed) (H)   
 355.Design Twitter (H)    
