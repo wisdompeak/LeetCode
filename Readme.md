@@ -22,7 +22,6 @@
 [159.Longest-Substring-with-At-Most-Two-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/159.Longest-Substring-with-At-Most-Two-Distinct-Characters)(H-)    
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search)
-[004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/004.Median-of-Two-Sorted-Arrays)	(H)  
 [154.Find Minimum in Rotated Sorted Array II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/154.Find-Minimum-in-Rotated-Sorted-Array-II) (H-)         
 [033.Search in Rotated Sorted Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/033.Search-in-Rotated-Sorted-Array) (M)   
 [081.Search-in-Rotated-Sorted-Array-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/081.Search-in-Rotated-Sorted-Array-II) (M)      
@@ -49,7 +48,6 @@
 [363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
 [409.Longest-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Hash/409.Longest-Palindrome)  (M)   
 [447.Number-of-Boomerangs](https://github.com/wisdompeak/LeetCode/tree/master/Hash/447.Number-of-Boomerangs) (E+)    
-[358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Hash/358.Rearrange-String-k-Distance-Apart) (H-)    
 [438.Find-All-Anagrams-in-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/438.Find-All-Anagrams-in-a-String) (H-)   
 [525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/525.Contiguous-Array) (M)    
 [356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Hash/356.Line-Reflection) (H-)    
@@ -119,6 +117,11 @@
 [503.Next-Greater-Element-II](https://github.com/wisdompeak/LeetCode/blob/master/Stack/503.Next-Greater-Element-II/503.Next%20Greater%20Element%20II.cpp) (M+)    
 [591.Tag-Validator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/591.Tag-Validator/) (H)    
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
+
+#### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
+[004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
+[358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)    
+378.Kth-Smallest-Element-in-a-Sorted-Matrix   	
 
 #### Trie
 211.Add-and-Search-Word (H-)    
