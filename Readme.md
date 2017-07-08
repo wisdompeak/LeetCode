@@ -122,6 +122,7 @@
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)    
 378.Kth-Smallest-Element-in-a-Sorted-Matrix   	
+354.Russian-Doll-Envelopes	  
 
 #### Trie
 211.Add-and-Search-Word (H-)    
