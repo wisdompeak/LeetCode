@@ -11,8 +11,11 @@ class Solution {
 public:
     TreeNode* str2tree(string s) 
     {
+        if (s=="") return NULL;
+        
         stack<TreeNode*>Stack;
         TreeNode* current=NULL;
+        
         for (int i=0; i<s.size(); i++)
         {
             if (s[i]=='(')
@@ -22,33 +25,23 @@ public:
             }
             else if (s[i]==')')
             {
-                TreeNode* node=Stack.top();
-                Stack.pop();
-                if (node->left==NULL)
-                    node->left=current;
+                if (Stack.top()->left==NULL)
+                    Stack.top()->left=current;
                 else
-                    node->right=current;
-                current=node;
+                    Stack.top()->right=current;
+                current = Stack.top();
+                Stack.pop();
             }
             else
             {
-                int sign=1;
-                if (s[i]=='-')
-                {
-                    sign=-1;
+                int i0=i;
+                while (s[i]!='(' && s[i]!=')')
                     i++;
-                }
-                int num=0;
-                while (i<s.size() && s[i]>='0' && s[i]<='9')
-                {
-                    num = num*10+s[i]-'0';
-                    i++;
-                }
+                current = new TreeNode(stoi(s.substr(i0,i-i0)));
                 i--;
-                num = num*sign;
-                current = new TreeNode(num);
             }
         }
+        
         return current;
     }
 };
