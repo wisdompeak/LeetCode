@@ -121,7 +121,7 @@
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)    
-378.Kth-Smallest-Element-in-a-Sorted-Matrix   
+[378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (M)    
 354.Russian-Doll-Envelopes    
 [632.Smallest-Range](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/632.Smallest-Range) (M)    
 
