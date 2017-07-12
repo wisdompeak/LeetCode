@@ -193,4 +193,5 @@
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 307.Range-Sum-Query-Mutable (H)   
-593.Valid-Square (H)    
+593.Valid-Square (H)  
+[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
