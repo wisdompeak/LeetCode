@@ -41,7 +41,7 @@
 [149.Max Points on a Line](https://github.com/wisdompeak/LeetCode/tree/master/Hash/149.Max-Points-on-a-Line) (H)     
 [166.Fraction-to-Recurring-Decimal](https://github.com/wisdompeak/LeetCode/tree/master/Hash/149.Max-Points-on-a-Line) (M)   
 [170.Two-Sum-III-Data-structure-design](https://github.com/wisdompeak/LeetCode/tree/master/Hash/170.Two-Sum-III-Data-structure-design) (M)   
-[392.Is-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/392.Is-Subsequence) (M)   
+[392.Is-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/392.Is-Subsequence) (H-)   
 [204.Count Primes](https://github.com/wisdompeak/LeetCode/tree/master/Hash/204.Count-Primes) (M)    
 [274.H-Index](https://github.com/wisdompeak/LeetCode/tree/master/Hash/274.H-Index) (H)     
 [325.Maximum-Size-Subarray-Sum-Equals-k](https://github.com/wisdompeak/LeetCode/tree/master/Hash/325.Maximum-Size-Subarray-Sum-Equals-k) (M)    
