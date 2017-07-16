@@ -2,40 +2,35 @@ class Solution {
 public:
     double findMaxAverage(vector<int>& nums, int k) 
     {
-        int sum=0;
-        for (int i=0; i<k; i++)
-            sum+=nums[i];
-        double maxAvg=sum*1.0/k;
-        int len=k;                
-        
+        vector<int>CumSum(nums.size(),0);
+        CumSum[0]=nums[0];
+        for (int i=1; i<nums.size(); i++)
+            CumSum[i]=CumSum[i-1]+nums[i];
+                
+        vector<int>dp(nums.size(),0);  // record the length of the optimal subarray that ends in nums[i]
+        dp[k-1]=k;
+        double maxAvg=CumSum[k-1]*1.0/k;;
+    
         for (int i=k; i<nums.size(); i++)
         {
-            sum+=nums[i];
-            len++;
-            
-            double avg=sum*1.0/len;
-            
-            double tempSum=sum;
-            double tempAvg;
-            for (int j=i-len+1; j<=i-k; j++)
+            double avg = -INT_MIN;            
+            for (int j=i-dp[i-1]; j<=i-k+1; j++)
             {
-                tempSum-=nums[j];
-                tempAvg=tempSum*1.0/(i-j);
+                double tempSum=CumSum[i]-CumSum[j-1];
+                int div = i-j+1;
+                double tempAvg = tempSum/div;
                 
                 if (tempAvg>avg)
                 {
                     avg=tempAvg;
-                    sum=tempSum;
-                    len=i-j;
+                    dp[i]=i-j+1;
                 }
             }
             
-            if (avg>maxAvg)
-            {
-                maxAvg=avg;
-            }
+            maxAvg = max(maxAvg, (CumSum[i]-CumSum[i-dp[i]])*1.0/dp[i]);
         }
         
         return maxAvg;
+        
     }
 };
