@@ -125,6 +125,7 @@
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (M)    
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)    
 [632.Smallest-Range](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/632.Smallest-Range) (M)    
+642.Design-Search-Autocomplete-System (M+)    
 
 #### Trie
 211.Add-and-Search-Word (H-)    
