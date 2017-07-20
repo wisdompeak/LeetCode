@@ -128,7 +128,7 @@
 642.Design-Search-Autocomplete-System (M+)    
 
 
-#### [DFS]
+#### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
 051.N-Queens (H)    
 417.Pacific-Atlantic-Water-Flow (M)   
 
