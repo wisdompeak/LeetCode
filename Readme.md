@@ -126,7 +126,7 @@
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)    
 [632.Smallest-Range](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/632.Smallest-Range) (M)    
 642.Design-Search-Autocomplete-System (M+)    
-
+502.IPO （H）   
 
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
 051.N-Queens (H)    
