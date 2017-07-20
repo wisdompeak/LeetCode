@@ -127,6 +127,11 @@
 [632.Smallest-Range](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/632.Smallest-Range) (M)    
 642.Design-Search-Autocomplete-System (M+)    
 
+
+#### [DFS]
+051.N-Queens (H)    
+
+
 #### Trie
 211.Add-and-Search-Word (H-)    
 421.Maximum XOR of Two Numbers in an Array (H)    
