@@ -131,18 +131,17 @@
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
 051.N-Queens (H)    
 417.Pacific-Atlantic-Water-Flow (M)   
-
-#### Trie
-211.Add-and-Search-Word (H-)    
-421.Maximum XOR of Two Numbers in an Array (H)    
-
-#### DFS
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
 410.Split-Array-Largest-Sum (H)	  
 282.Expression-Add-Operators (H)  
 399.Evaluate-Division (H)   
 491.Increasing-Subsequences (M)   
+
+#### Trie
+211.Add-and-Search-Word (H-)    
+421.Maximum XOR of Two Numbers in an Array (H)    
+
 
 #### BFS
 133.Clone-Graph (M+)  
