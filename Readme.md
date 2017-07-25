@@ -191,7 +191,8 @@
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
 [527.Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/527.Word-Abbreviation) (M+)   
-[336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)    
+[336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)   
+647.Palindromic-Substrings (H-)    
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 057.Insert-Interval (H)   
