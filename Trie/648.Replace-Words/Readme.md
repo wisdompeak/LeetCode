@@ -4,7 +4,7 @@
 
 对于Trie类型的基本功操作包括：
 1. Trie类型的定义：包括两个成员变量，构造函数
-```
+```cpp
 class TrieNode
 {
   public:
@@ -20,7 +20,7 @@ class TrieNode
 };
 ```
 2. Trie的单词添加
-```
+```cpp
 void addWord(TrieNode* root, string word)
 {
     TrieNode* node=root;
@@ -35,7 +35,7 @@ void addWord(TrieNode* root, string word)
 }
 ```
 3. Trie的单词查找。在本题中，只要能追踪到叶子节点 isEnd==true 即说明找到词根
-```
+```cpp
 bool flag = DFS(root,word,0); // 递归调用
 
 bool DFS(TrieNode* root, string word, int k)
