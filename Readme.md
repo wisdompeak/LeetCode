@@ -181,6 +181,7 @@
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 644.Maximum-Average-Subarray-II (H)   
 576.Out-of-Boundary-Paths (H)   
+600.Non-negative-Integers-without-Consecutive-Ones (H)    
 
 #### Bit Manipulation
 136.Single-Number (M)     
