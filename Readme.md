@@ -53,7 +53,7 @@
 [356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Hash/356.Line-Reflection) (H-)    
 [594.Longest-Harmonious-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/594.Longest-Harmonious-Subsequence) (M+)   
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/532.K-diff-Pairs-in-an-Array) (E+)   
-[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/352.Data-Stream-as-Disjoint-Intervals) (H)   
+[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Hash/352.Data-Stream-as-Disjoint-Intervals) (H)   
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
