@@ -145,7 +145,7 @@
 208.Implement-Trie--Prefix-Tree (M+)    
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
 [421.Maximum XOR of Two Numbers in an Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
-648.Replace-Words (H)   
+[648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
 
 #### BFS
 133.Clone-Graph (M+)  
