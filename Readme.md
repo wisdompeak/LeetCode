@@ -142,7 +142,7 @@
 491.Increasing-Subsequences (M)   
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
-208.Implement-Trie--Prefix-Tree (M+)    
+[208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
 [421.Maximum XOR of Two Numbers in an Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
@@ -164,7 +164,7 @@
 358.Rearrange-String-k-Distance-Apart   
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/045.Jump-Game-II) (H)   
 
-#### [Linked_List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
+#### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
 [086.Partition-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/086.Partition-List) (M)   
 [142.Linked List Cycle II](https://github.com/wisdompeak/LeetCode/blob/master/Linked_List/142.Linked-List-Cycle-II/Readme.md) (M+)  
