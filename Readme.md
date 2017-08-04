@@ -140,7 +140,6 @@
 282.Expression-Add-Operators (H)  
 399.Evaluate-Division (H)   
 491.Increasing-Subsequences (M)   
-115.Distinct-Subsequences (H)   
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
@@ -184,6 +183,7 @@
 644.Maximum-Average-Subarray-II (H)   
 [576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming) (H)   
 600.Non-negative-Integers-without-Consecutive-Ones (H)    
+115.Distinct-Subsequences (H)   
 
 #### Bit Manipulation
 136.Single-Number (M)     
