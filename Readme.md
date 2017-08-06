@@ -155,7 +155,7 @@
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)    
 310.Minimum-Height-Trees (H)    
 
-#### Greedy
+#### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 084.Largest-Rectangle-in-Histogram  
 085.Maximal-Rectangle  
 221.Maximal-Square  
@@ -163,7 +163,7 @@
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes)    
 316.Remove Duplicate Letters    
 358.Rearrange-String-k-Distance-Apart   
-[045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/045.Jump-Game-II) (H)   
+[045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (H)   
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
