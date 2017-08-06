@@ -185,6 +185,7 @@
 [576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming) (H)   
 600.Non-negative-Integers-without-Consecutive-Ones (H)    
 115.Distinct-Subsequences (H)   
+656.Coin-Path (H)   
 
 #### Bit Manipulation
 136.Single-Number (M)     
