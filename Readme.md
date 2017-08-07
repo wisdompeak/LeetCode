@@ -129,7 +129,7 @@
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)    
 [632.Smallest-Range](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/632.Smallest-Range) (M)    
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
-502.IPO （H）   
+[502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Priority_Queue/502.IPO/) （H-）   
 621.Task-Scheduler （M+）   
 
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
