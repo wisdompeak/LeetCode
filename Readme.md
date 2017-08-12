@@ -188,7 +188,8 @@
 600.Non-negative-Integers-without-Consecutive-Ones (H)    
 115.Distinct-Subsequences (H)   
 656.Coin-Path (H-)   
-152.Maximum-Product-Subarray (M+)
+152.Maximum-Product-Subarray (M+)   
+474.Ones-and-Zeroes (H-)    
 
 #### Bit Manipulation
 136.Single-Number (M)     
