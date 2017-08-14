@@ -166,6 +166,7 @@
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (H)    
 229.Majority-Element-II (H)   
 659.Split-Array-into-Consecutive-Subsequences (H-)    
+484.Find-Permutation (H)    
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
