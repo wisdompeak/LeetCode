@@ -192,8 +192,9 @@
 152.Maximum-Product-Subarray (M+)   
 474.Ones-and-Zeroes (H-)    
 
-#### Bit Manipulation
+#### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)     
+371.Sum-of-Two-Integers (H)   
 
 #### Divide and Conquer
 315.Count-of-Smaller-Numbers-After-Self
