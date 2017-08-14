@@ -193,7 +193,7 @@
 474.Ones-and-Zeroes (H-)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
-136.Single-Number (M)     
+136.Single-Number (M)   
 371.Sum-of-Two-Integers (H)   
 
 #### Divide and Conquer
