@@ -1,41 +1,39 @@
 class Solution {
 public:
     int findIntegers(int num) 
-    {
-        if (num==0) return 1;
+    {        
+        if (num==0) return 0;
         if (num==1) return 2;
         
-        int n=0;
-        string str;
-        while (num>0)
-        {
-            n++;
-            str+=to_string(num&1);
-            num=num>>1;
-        }
-        reverse(str.begin(),str.end());
-        
-        vector<int>f(n+1);
-        
+        vector<int>f(33);
         f[0]=1;
         f[1]=2;
-        for (int i=2; i<=n; i++)
-            f[i]=f[i-1]+f[i-2];
+        for (int i=2; i<32; i++)        
+            f[i]=f[i-2]+f[i-1];        
         
-        int result=0;
-        for (int i=0; i<str.size(); i++)
+        vector<int>digits(32,0);
+        for (int i=0; i<32; i++)    
+            digits[i]=((num>>i)&1);   
+        
+        int count=0;
+        for (int i=31; i>=0; i--)
         {
-            if (str[i]=='1')
+            if (digits[i]==0) continue;
+            
+            // 第i位取0
+            count+=f[i-1+1];  
+            
+            // 第i位取1
+            if (i-1>=0 && digits[i-1]==1)
             {
-                result+=f[n-i-1];    
-                if (i+1<str.size() && str[i+1]=='1') 
-                    return result+f[n-i-2];
+                count+=f[i-2+1];
+                return count;
             }
         }
         
-        result++;
+        count++;
         
-        return result;
+        return count;
+        
     }
-    
 };
