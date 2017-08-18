@@ -1,6 +1,6 @@
 ### 028.Implement-strStr
 
-此题最知名的是o(n)复杂度的KMP算法。
+#### KMP算法
 
 维护两个指针i和j。对于每一个i，可以找到一个j：使得haystack里以i结尾的一个子串，等于needle里的0\~j组成的子串，且需要j最大。
 
@@ -32,3 +32,12 @@ for (int i=1; i<m; i++)  // i从1开始，因为必须prefix[0]=-1
    prefix[i]=j;
 }
 ```
+
+#### Sunday算法
+预处理needle构造一个shift数组。该数组记录了needle数组里的字符最后一次出现的位置距离结尾的位移。
+
+举个例子，最开始将haystack和needle左对齐，如果发现needle和haystack匹配不上，就考察haystack[n]的字符。
+
+1. 如果这个字符在shift里有记录，那么将needle整体右移相应的位移，这样使得haystack[n]和needle里最后一次出现的字符（这两个相同）对齐，再从needle首字符开始逐一判断匹配。
+
+2. 如果这个字符不存在needle里面，则shift里默认给n+1，即将整个needle右移至haystack[n]之后，再从needle首字符开始逐一判断匹配。
