@@ -34,10 +34,10 @@ for (int i=1; i<m; i++)  // i从1开始，因为必须prefix[0]=-1
 ```
 
 #### Sunday算法
-预处理needle构造一个shift数组。该数组记录了needle数组里的字符最后一次出现的位置距离结尾的位移。
+预处理needle构造一个shift数组。该数组记录了needle里的字符最后一次出现的位置距离needle结尾的位移。
 
-举个例子，最开始将haystack和needle左对齐，如果发现needle和haystack匹配不上，就考察haystack[n]的字符。
+举个例子，最开始将haystack和needle左对齐，如果发现needle和haystack匹配不上，就考察haystack[n]的字符（即needle长度n之后的第一个字符）。
 
-1. 如果这个字符在shift里有记录，那么将needle整体右移相应的位移，这样使得haystack[n]和needle里最后一次出现的字符（这两个相同）对齐，再从needle首字符开始逐一判断匹配。
+1. 如果这个字符在shift里有记录，那么将needle整体右移相应的位移，这样使得haystack[n]和needle里最后一次出现的字符（这两个字符相同）对齐，再从needle首字符开始逐一判断匹配。
 
 2. 如果这个字符不存在needle里面，则shift里默认给n+1，即将整个needle右移至haystack[n]之后，再从needle首字符开始逐一判断匹配。
