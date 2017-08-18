@@ -207,7 +207,7 @@
 [336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)   
 647.Palindromic-Substrings (H-)   
 556.Next Greater Element III (H-)   
-028.Implement-strStr (H)    
+[028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 057.Insert-Interval (H)   
