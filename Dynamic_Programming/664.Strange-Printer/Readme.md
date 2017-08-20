@@ -35,5 +35,7 @@ for (int i=0; i<n; i++)
              }
          }
         return dp[0][n-1];         
-```       
-初始条件是：dp[i][j]==1 when i==j; dp[i][j]==0 when i>j; 
+```
+初始条件是：
+1. dp[i][j]==1 when i==j，即len的长度为1; 
+2. dp[i][j]==0 when i>j; C语言里如果用int[][]来定义二维数组的话，元素默认值都是0.
