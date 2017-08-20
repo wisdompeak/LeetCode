@@ -88,7 +88,7 @@
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)   
 [331.Verify-Preorder-Serialization-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/331.Verify-Preorder-Serialization-of-a-Binary-Tree) (H)   
 [226.Invert-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/226.Invert-Binary-Tree) (M)    
-655.Print-Binary-Tree (H)
+[655.Print-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/655.Print-Binary-Tree) (M+)
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
