@@ -190,7 +190,7 @@
 [576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming) (H)   
 600.Non-negative-Integers-without-Consecutive-Ones (H)    
 115.Distinct-Subsequences (H)   
-656.Coin-Path (H-)   
+[656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
 152.Maximum-Product-Subarray (M+)   
 474.Ones-and-Zeroes (H-)      
 664.Strange-Printer (H)   
