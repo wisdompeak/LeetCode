@@ -198,6 +198,7 @@
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)   
 371.Sum-of-Two-Integers (H)   
+318.Maximum-Product-of-Word-Lengths (M+)    
 
 #### Divide and Conquer
 315.Count-of-Smaller-Numbers-After-Self
