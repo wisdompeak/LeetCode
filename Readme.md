@@ -167,7 +167,7 @@
 229.Majority-Element-II (H)   
 659.Split-Array-into-Consecutive-Subsequences (H-)    
 484.Find-Permutation (H)    
-386.Lexicographical-Numbers (H)   
+[386.Lexicographical-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/386.Lexicographical-Numbers) (H)   
 452.Minimum-Number-of-Arrows-to-Burst-Balloons (M+)   
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
