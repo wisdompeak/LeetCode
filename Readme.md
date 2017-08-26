@@ -143,6 +143,7 @@
 282.Expression-Add-Operators (H)  
 399.Evaluate-Division (H)   
 491.Increasing-Subsequences (M)   
+638.Shopping-Offers (H-)    
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
