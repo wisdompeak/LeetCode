@@ -2,68 +2,52 @@ class Solution {
 public:
     vector<int> findSubstring(string s, vector<string>& words) 
     {
-        unordered_map<string,int>Map;
-        int N=0;
+        int N=words[0].size();
+        int COUNT=words.size();
+        unordered_map<string,int>Table;
         for (int i=0; i<words.size(); i++)
-        {
-            if (Map.find(words[i])==Map.end())
-                N++;
-            Map[words[i]]++;
-        }
-        
-        int M=words[0].size();
-        
-        
+            Table[words[i]]++;
+                
         vector<int>results;
-        
-        for (int start=0; start<M; start++)
+        for (int start=0; start<N; start++)
         {
             int i=start;
-            int j=start;
+            int j=i;
             int count=0;
-            unordered_map<string,int>Map_temp;
-            
-            while (j<s.size() && i<=j)
+            unordered_map<string,int>Map;
+
+            while (j<s.size())
             {
-                string ss = s.substr(j,M);
-                
-                if (Map.find(ss)==Map.end())
+                if (Table.find(s.substr(j,N))==Table.end())
                 {
-                    j+=M;
-                    i=j;
+                    Map.clear();
                     count=0;
-                    Map_temp.clear();
+                    j+=N;
+                    i=j;
                 }
-                else if (Map_temp[ss]<Map[ss])
+                else if (Map[s.substr(j,N)]<Table[s.substr(j,N)])
                 {
-                    j+=M;
-                    Map_temp[ss]++;
-                    if (Map_temp[ss]==Map[ss])
-                        count++;
-                    
-                    if (count==N)
-                    {
-                        results.push_back(i);
-                        string tt = s.substr(i,M);
-                        Map_temp[tt]--;
-                        count--;
-                        i+=M;
-                    }
+                    Map[s.substr(j,N)]++;
+                    count++;
+                    j+=N;
                 }
-                else
+                else if (Map[s.substr(j,N)]==Table[s.substr(j,N)])
                 {
-                    string tt = s.substr(i,M);
-                    Map_temp[tt]--;
-                    if (Map_temp[tt]==Map[tt]-1)
-                        count--;
-                    i+=M;
+                    Map[s.substr(i,N)]--;
+                    i+=N;
+                    count--;
                 }
                 
+                if (count==COUNT)
+                {
+                    results.push_back(i);
+                    Map[s.substr(i,N)]--;
+                    i+=N;
+                    count--;                    
+                }                                     
             }
         }
         
         return results;
-        
-        
     }
 };
