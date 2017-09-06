@@ -174,6 +174,7 @@
 452.Minimum-Number-of-Arrows-to-Burst-Balloons (M+)   
 624.Maximum-Distance-in-Arrays (M)    
 630.Course-Schedule-III (H)   
+672.Bulb-Switcher-II (H)    
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
