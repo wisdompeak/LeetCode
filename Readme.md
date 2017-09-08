@@ -209,6 +209,7 @@
 136.Single-Number (M)   
 371.Sum-of-Two-Integers (H)   
 318.Maximum-Product-of-Word-Lengths (M+)    
+342.Power-of-Four (H)   
 
 #### Divide and Conquer
 315.Count-of-Smaller-Numbers-After-Self
