@@ -23,6 +23,7 @@ set<int>::iterator mid = prev(Set.end(),k);  //从Set.end()开始前移k个
             if (nums[i-k]<=*mid) mid++; //判断语句中必须加入==的情况，因为极有可能下一步删除的就是mid迭代器，那样的话mid就失效了，必须提前处理
                 
             Set.erase(Set.lower_bound(nums[i-k])); //注意，如果有多个相同key的元素，删除的是第一个。           
-        }
-```        
+        }
+```
+
 每次内循环之后，mid的定义不变（最中间或者最中间靠右的迭代器）。
