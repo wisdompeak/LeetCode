@@ -201,7 +201,7 @@
 [656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
 152.Maximum-Product-Subarray (M+)   
 474.Ones-and-Zeroes (H-)      
-664.Strange-Printer (H)   
+[664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 651.4-Keys-Keyboard (M+)    
 097.Interleaving-String (H-)    
 072.Edit-Distance (H-)    
