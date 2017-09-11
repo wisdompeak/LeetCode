@@ -91,6 +91,7 @@
 [226.Invert-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/226.Invert-Binary-Tree) (M)    
 [655.Print-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/655.Print-Binary-Tree) (M+)   
 501.Find-Mode-in-Binary-Search-Tree (M+)    
+662.Maximum-Width-of-Binary-Tree (H-)   
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
