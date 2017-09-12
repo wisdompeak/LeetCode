@@ -224,6 +224,7 @@
 [556.Next Greater Element III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (H-)   
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
 616.Add-Bold-Tag-in-String (M)    
+467.Unique-Substrings-in-Wraparound-String (H-)   
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 057.Insert-Interval (H)   
