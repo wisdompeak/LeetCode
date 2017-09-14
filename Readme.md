@@ -177,6 +177,7 @@
 624.Maximum-Distance-in-Arrays (M)    
 630.Course-Schedule-III (H)   
 672.Bulb-Switcher-II (H)    
+665.Non-decreasing-Array (H-)   
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
