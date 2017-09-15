@@ -236,7 +236,7 @@
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Sort/041.First-Missing-Positive/Readme.md) (H)    
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Sort/442.Find-All-Duplicates-in-an-Array/Readme.md) (M+)  
 
-#### Others
+#### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
@@ -244,3 +244,4 @@
 593.Valid-Square (H)  
 [060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
 168.Excel-Sheet-Column-Title (H)    
+453.Minimum-Moves-to-Equal-Array-Elements (M)   
