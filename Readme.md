@@ -148,19 +148,20 @@
 491.Increasing-Subsequences (M)   
 638.Shopping-Offers (H-)    
 
+#### [BFS](https://github.com/wisdompeak/LeetCode/tree/master/BFS)
+133.Clone-Graph (M+)  
+[200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)  
+407.Trapping-Rain-Water-II  
+378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)    
+310.Minimum-Height-Trees (H)    
+637.Average-of-Levels-in-Binary-Tree (M)   
+
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
 [421.Maximum XOR of Two Numbers in an Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
-
-#### [BFS](https://github.com/wisdompeak/LeetCode/tree/master/BFS)
-133.Clone-Graph (M+)  
-200.[Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)  
-407.Trapping-Rain-Water-II  
-378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)    
-310.Minimum-Height-Trees (H)    
-637.Average-of-Levels-in-Binary-Tree (M)    
+ 
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 084.Largest-Rectangle-in-Histogram  
@@ -242,7 +243,7 @@
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
 307.Range-Sum-Query-Mutable (H)   
-593.Valid-Square (H)  
+[593.Valid-Square](https://github.com/wisdompeak/LeetCode/tree/master/Others/593.Valid-Square) (H)  
 [060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
