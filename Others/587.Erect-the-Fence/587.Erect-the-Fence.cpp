@@ -36,7 +36,8 @@ public:
         Hull_lower.resize(k);
         
         vector<Point>Hull_upper(points.size());
-        Hull_upper[0]=Hull_lower[Hull_lower.size()-1];
+        //Hull_upper[0]=Hull_lower[Hull_lower.size()-1];
+        Hull_upper[0]=points.back();
         k=1;
         for (int i=points.size()-1; i>=0; i--)
         {            
@@ -64,8 +65,7 @@ public:
                     results.push_back(Hull[i]);
             }
         }
-        return results;
-        
+        return results;        
     }
     
     long long crossProduct(const Point &O, const Point &A, const Point &B) 
