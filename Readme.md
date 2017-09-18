@@ -252,3 +252,4 @@
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
 046.Permutations.cpp  (H-)    
+587.Erect-the-Fence.cpp (H)   
