@@ -182,7 +182,7 @@
 624.Maximum-Distance-in-Arrays (M)    
 630.Course-Schedule-III (H)   
 672.Bulb-Switcher-II (H)    
-665.Non-decreasing-Array (H-)   
+[665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H-)   
 670.Maximum-Swap (M+)   
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
