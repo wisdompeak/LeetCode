@@ -214,6 +214,7 @@
 097.Interleaving-String (H-)    
 072.Edit-Distance (H-)    
 583.Delete-Operation-for-Two-Strings (H)    
+673.Number-of-Longest-Increasing-Subsequence (M+)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)   
