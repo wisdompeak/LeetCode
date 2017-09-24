@@ -156,6 +156,7 @@
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)    
 310.Minimum-Height-Trees (H)    
 637.Average-of-Levels-in-Binary-Tree (M)   
+675.Cut-Off-Trees-for-Golf-Event (M)    
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
