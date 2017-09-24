@@ -162,8 +162,8 @@
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
 [421.Maximum XOR of Two Numbers in an Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
-588.Design-In-Memory-File-System (H-)  
-677.Map-Sum-Pairs-My-SubmissionsBack-to-Contest (M)  
+[588.Design-In-Memory-File-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/588.Design-In-Memory-File-System) (H-)  
+677.Map-Sum-Pairs (M)  
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 084.Largest-Rectangle-in-Histogram  
@@ -252,4 +252,4 @@
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
 046.Permutations.cpp  (H-)    
-587.Erect-the-Fence.cpp (H)   
+[587.Erect-the-Fence.cpp](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
