@@ -256,3 +256,4 @@
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
 046.Permutations.cpp  (H-)    
 [587.Erect-the-Fence.cpp](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
+087.Scramble-String (H)   
