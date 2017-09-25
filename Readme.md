@@ -165,6 +165,7 @@
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
 [588.Design-In-Memory-File-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/588.Design-In-Memory-File-System) (H-)  
 677.Map-Sum-Pairs (M)  
+676.Implement-Magic-Dictionary (H-)   
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 084.Largest-Rectangle-in-Histogram  
