@@ -245,6 +245,10 @@
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Sort/041.First-Missing-Positive/Readme.md) (H)    
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Sort/442.Find-All-Duplicates-in-an-Array/Readme.md) (M+)  
 
+#### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
+547.Friend-Circles (M)    
+684.Redundant-Connection (M)    
+
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 240.Search a 2D Matrix II (M)   
