@@ -38,3 +38,7 @@ void explore(grid, visited, i)
 }
 ```
 
+#### Union Find
+将坐标(i,j)转化为标量值的index=i\*N+j。
+
+每遍历到一个点，查看其邻接的四个点，依次尝试做Union。每个聚类集合，其共有的Father用最小的横纵坐标来表述。
