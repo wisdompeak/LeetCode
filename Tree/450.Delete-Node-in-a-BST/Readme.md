@@ -19,7 +19,7 @@ else if (root->val==key)
 {
 	if (root->right==NULL)
         	return root->left;				
-		else
+	else
     	{
         	TreeNode* node=root->right;
          	while (node->left!=NULL)
