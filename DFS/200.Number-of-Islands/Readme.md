@@ -1,5 +1,5 @@
-###200.Number-of-Islands
-####BFS的模板
+### 200.Number-of-Islands
+#### BFS的模板
 ```cpp
 for (int i=0; i<N; i++)  // 遍历所有元素
 {
@@ -15,7 +15,7 @@ for (int i=0; i<N; i++)  // 遍历所有元素
 }
 ```
 
-####DFS的模板
+#### DFS的模板
 ```cpp
 for (int i=0; i<N; i++)  // 遍历所有元素
 {
