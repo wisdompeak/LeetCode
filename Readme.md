@@ -247,10 +247,11 @@
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 547.Friend-Circles (M)    
-684.Redundant-Connection (M)    
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)    
 130.Surrounded-Regions (H-)   
 128.Longest-Consecutive-Sequence (H-)   
+684.Redundant-Connection (M)    
+685.Redundant-Connection-II (H)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
