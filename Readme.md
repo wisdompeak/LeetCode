@@ -250,6 +250,7 @@
 684.Redundant-Connection (M)    
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)    
 130.Surrounded-Regions (H-)   
+128.Longest-Consecutive-Sequence (H-)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
