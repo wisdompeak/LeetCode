@@ -148,6 +148,7 @@
 399.Evaluate-Division (H)   
 491.Increasing-Subsequences (M)   
 638.Shopping-Offers (H-)    
+679.24-Game (H)   
 
 #### [BFS](https://github.com/wisdompeak/LeetCode/tree/master/BFS)
 133.Clone-Graph (M+)  
