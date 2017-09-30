@@ -206,7 +206,7 @@
 634.Find the Derangement-of-An-Array (H)    
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 [644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
-[576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming) (H)   
+[576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/576.Out-of-Boundary-Paths) (H)   
 [600.Non-negative-Integers-without-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/600.Non-negative-Integers-without-Consecutive-Ones) (H)    
 115.Distinct-Subsequences (H)   
 [656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
