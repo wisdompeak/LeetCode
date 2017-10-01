@@ -165,7 +165,7 @@
 [421.Maximum XOR of Two Numbers in an Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
 [588.Design-In-Memory-File-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/588.Design-In-Memory-File-System) (H-)  
-677.Map-Sum-Pairs (M)  
+[677.Map-Sum-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Trie/677.Map-Sum-Pairs) (M)  
 676.Implement-Magic-Dictionary (H-)   
 212.Word-Search-II (H-)   
 
