@@ -251,7 +251,8 @@
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 547.Friend-Circles (M)    
-[200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)    
+[200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)    
+[305.Number-of-Islands-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/305.Number-of-Islands-II) (H)   
 [130.Surrounded-Regions](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/130.Surrounded-Regions) (H-)   
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
 684.Redundant-Connection (M)    
