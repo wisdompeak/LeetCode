@@ -250,12 +250,12 @@
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Sort/442.Find-All-Duplicates-in-an-Array/Readme.md) (M+)  
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
-547.Friend-Circles (M)    
-[200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)    
-[305.Number-of-Islands-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/305.Number-of-Islands-II) (H)   
+[547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
+[200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)    
+[305.Number-of-Islands-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/305.Number-of-Islands-II) (H)    
 [130.Surrounded-Regions](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/130.Surrounded-Regions) (H-)   
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
-684.Redundant-Connection (M)    
+[684.Redundant-Connection](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/684.Redundant-Connection) (M)    
 685.Redundant-Connection-II (H)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
