@@ -176,8 +176,8 @@
 085.Maximal-Rectangle  
 221.Maximal-Square  
 300.Longest Increasing Subsequence    
-[354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes)    
-[316.Remove Duplicate Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)    
+[354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes)    
+[316.Remove Duplicate Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)   
 358.Rearrange-String-k-Distance-Apart   
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (H)    
 229.Majority-Element-II (H)   
@@ -191,6 +191,7 @@
 [665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H-)   
 670.Maximum-Swap (M+)   
 678.Valid-Parenthesis-String (H)    
+321.Create-Maximum-Number (H)   
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
