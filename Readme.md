@@ -276,3 +276,4 @@
 087.Scramble-String (H)   
 458.Poor-Pigs (H)   
 391.Perfect-Rectangle (H)   
+390.Elimination-Game (H)    
