@@ -262,6 +262,10 @@
 [684.Redundant-Connection](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/684.Redundant-Connection) (M)    
 685.Redundant-Connection-II (H)   
 
+#### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
+390.Elimination-Game (H)    
+395.Longest Substring with At Least K Repeating Characters (H)    
+
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 240.Search a 2D Matrix II (M)   
@@ -276,4 +280,3 @@
 087.Scramble-String (H)   
 458.Poor-Pigs (H)   
 391.Perfect-Rectangle (H)   
-390.Elimination-Game (H)    
