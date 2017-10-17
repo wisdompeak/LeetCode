@@ -15,62 +15,46 @@ class Solution {
         else
             return a.x<b.x;
     }
+    static bool eqn(Point a, Point b)
+    {
+        
+        return (a.x==b.x)&&(a.y==b.y);
+    }    
+        
 public:
     vector<Point> outerTrees(vector<Point>& points) 
-    {                
-        if (points.size()<=3) return points;
-        
+    {
         sort(points.begin(),points.end(),cmp);
-        int k;
-
-        vector<Point>Hull_lower(points.size());        
-        Hull_lower.push_back(points[0]);
-        k=0;
-        for (int i=0; i<points.size(); i++)
-        {            
-            while (k>=2 && crossProduct(Hull_lower[k-2],Hull_lower[k-1],points[i])<0)
-                k--;
-            Hull_lower[k]=points[i];
-            k++;
-        }
-        Hull_lower.resize(k);
         
-        vector<Point>Hull_upper(points.size());
-        //Hull_upper[0]=Hull_lower[Hull_lower.size()-1];
-        Hull_upper[0]=points.back();
-        k=1;
-        for (int i=points.size()-1; i>=0; i--)
-        {            
-            while (k>=2 && crossProduct(Hull_upper[k-2],Hull_upper[k-1],points[i])<0)
-                k--;
-            Hull_upper[k]=points[i];
-            k++;
-        }
-        Hull_upper.resize(k);        
-        
-        vector<Point>Hull(Hull_lower.begin(),Hull_lower.end());
-        for (int i=1; i<Hull_upper.size(); i++)
-            Hull.push_back(Hull_upper[i]);
-        
-        sort(Hull.begin(), Hull.end(), cmp);
-        
-        vector<Point>results;
-        for (int i=0; i<Hull.size(); i++)
+        vector<Point>down;
+        down.push_back(points[0]);
+        for (int i=1; i<points.size(); i++)
         {
-            if (i==0)
-                results.push_back(Hull[i]);
-            else
-            {
-                if (Hull[i].x!=results.back().x || Hull[i].y!=results.back().y )
-                    results.push_back(Hull[i]);
-            }
+            while (down.size()>=2 && crossProduct(down[down.size()-2],down.back(),points[i])<0)
+                down.pop_back();
+            down.push_back(points[i]);
         }
+        
+        vector<Point>up;
+        up.push_back(points.back());
+        for (int i=points.size()-1; i>=0; i--)
+        {
+            while (up.size()>=2 && crossProduct(up[up.size()-2],up.back(),points[i])<0)
+                up.pop_back();
+            up.push_back(points[i]);
+        }
+        
+        vector<Point>results(down.begin(),down.end());
+        for (int i=0; i<up.size();i++)
+            results.push_back(up[i]);
+        
+        sort(results.begin(),results.end(),cmp);
+        results.erase(unique(results.begin(),results.end(),eqn),results.end());
         return results;        
     }
     
-    long long crossProduct(const Point &O, const Point &A, const Point &B) 
+    long long crossProduct(Point A, Point B, Point C)
     {
-        return (long long)(A.x - O.x) * (long long)(B.y - O.y) - (long long)(A.y - O.y) * (long long)(B.x - O.x);
-    }    
-    
+        return (long long)(B.x - A.x) * (long long)(C.y - B.y) - (long long)(B.y - A.y) * (long long)(C.x - B.x);
+    }
 };
