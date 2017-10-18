@@ -220,7 +220,7 @@
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 651.4-Keys-Keyboard (M+)    
 097.Interleaving-String (H-)    
-072.Edit-Distance (H-)    
+[072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 583.Delete-Operation-for-Two-Strings (H)    
 673.Number-of-Longest-Increasing-Subsequence (M+)    
 691.Stickers-to-Spell-Word (H)    
