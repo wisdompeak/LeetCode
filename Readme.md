@@ -150,6 +150,7 @@
 491.Increasing-Subsequences (M)   
 638.Shopping-Offers (H-)    
 679.24-Game (H)   
+698.Partition-to-K-Equal-Sum-Subsets (H)    
 
 #### [BFS](https://github.com/wisdompeak/LeetCode/tree/master/BFS)
 133.Clone-Graph (M+)  
