@@ -11,7 +11,7 @@ auto ptrj = Map.upper_bound(right);
 ```
 注意得到的两个边界迭代器的意义。ptri表示处于left或其靠右的第一个迭代器。ptrj表示在right靠右的第一个迭代器。
 
-根据题意，处于[ptri,ptrj)的那些hash元素都将被取代（抹平），换成这个新square的信息。这个新square叠加上去后的高度等于这些hash元素的最大值加上新square自身的高度。但是注意，以上对于 ptri->left==left时成立；但是对ptri->left>left时，我们必须把ptri之前的那个元素也考虑上，即 prev(ptri,1)。
+根据题意，处于[ptri,ptrj)的那些hash元素都将被取代（抹平），换成这个新square的信息。这个新square叠加上去后的高度等于这些hash元素的最大值加上新square自身的高度。但是注意，以上对于 ```ptri->first == left```时成立；但是对```ptri->first > left```时，我们必须把ptri之前的那个元素也考虑上，即 prev(ptri,1)。
 ```cpp
 auto ptr= ptri->left==left? ptri:prev(ptri,1);
 int maxH=0;
