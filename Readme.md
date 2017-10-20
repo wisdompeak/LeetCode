@@ -282,3 +282,4 @@
 087.Scramble-String (H)   
 458.Poor-Pigs (H)   
 391.Perfect-Rectangle (H)   
+382.Linked-List-Random-Node (H)   
