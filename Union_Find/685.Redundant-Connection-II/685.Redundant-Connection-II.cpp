@@ -29,7 +29,7 @@ public:
             int u=edges[i][0];
             int v=edges[i][1];
             
-            if (v==findSet(u))
+            if (findSet(v)==findSet(u))
             {
                 if (candA.size()==0)
                     return edges[i];
