@@ -225,6 +225,7 @@
 583.Delete-Operation-for-Two-Strings (H)    
 673.Number-of-Longest-Increasing-Subsequence (M+)    
 691.Stickers-to-Spell-Word (H)    
+714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)   
