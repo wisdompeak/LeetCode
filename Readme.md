@@ -202,9 +202,7 @@
 092.Reverse Linked List II (H)    
 
 #### [Dynamic Programming](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming)
-487.Max-Consecutive-Ones-II    
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
-376.Wiggle-Subsequence (H)   
 [322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
 [091.Decode-Ways](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/091.Decode-Ways) (M)     
 [639.Decode-Ways-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/639.Decode-Ways-II) (H)    
@@ -225,6 +223,8 @@
 583.Delete-Operation-for-Two-Strings (H)    
 673.Number-of-Longest-Increasing-Subsequence (M+)    
 691.Stickers-to-Spell-Word (H)    
+[376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
+[487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (M)   
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
