@@ -218,14 +218,17 @@
 474.Ones-and-Zeroes (H-)      
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 651.4-Keys-Keyboard (M+)    
-097.Interleaving-String (H-)    
-[072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 583.Delete-Operation-for-Two-Strings (H)    
 673.Number-of-Longest-Increasing-Subsequence (M+)    
 691.Stickers-to-Spell-Word (H)    
+/////   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (M)   
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
+/////   
+[097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
+[072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
+712. Minimum ASCII Delete Sum for Two Strings (H-)   
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)   
