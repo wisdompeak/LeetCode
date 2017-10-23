@@ -7,13 +7,7 @@ public:
     }
     
     void addRange(int left, int right) 
-    {
-        if (Map.size()==0)
-        {
-            Map[left]=right;
-            return;
-        }
-        
+    {       
         auto pos1 = Map.lower_bound(left);
         int leftboundary=left;
         if (pos1!=Map.begin() && prev(pos1,1)->second>=left)
