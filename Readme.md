@@ -54,10 +54,11 @@
 [356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Hash/356.Line-Reflection) (H-)    
 [594.Longest-Harmonious-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/594.Longest-Harmonious-Subsequence) (M+)   
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/532.K-diff-Pairs-in-an-Array) (E+)   
+/** Ordered_container  **/   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Hash/352.Data-Stream-as-Disjoint-Intervals) (H)   
 480.Sliding-Window-Median (H)   
-////    
-699.Falling-Squares  (H)    
+699.Falling-Squares (H)    
+715.Range-Module.cpp (H)    
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
@@ -223,11 +224,11 @@
 583.Delete-Operation-for-Two-Strings (H)    
 673.Number-of-Longest-Increasing-Subsequence (M+)    
 691.Stickers-to-Spell-Word (H)    
-/////   
+/** dual status **/   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (M)   
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
-/////   
+/** two string converging **/   
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
 [072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 712. Minimum ASCII Delete Sum for Two Strings (H-)   
