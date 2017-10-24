@@ -33,7 +33,7 @@ set<int>::iterator pos = prev(Set.end(),k);  //从Set.end()开始前移k个
                     // 如果X左边是个重复元素，则无需改动；如果X左边不是重复元素，则X会被删除，指针需左移
                     pos--;                
             }
-            else    // OOXO
+            else    // 当k为偶数时，Set内的排列为 OOXO，X为pos指针
             {
                 if (nums[i]<*pos)
                     pos--;
