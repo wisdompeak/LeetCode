@@ -97,6 +97,8 @@
 501.Find-Mode-in-Binary-Search-Tree (M+)    
 662.Maximum-Width-of-Binary-Tree (H-)   
 652.Find-Duplicate-Subtrees (M)   
+* ``Segment Tree``    
+307.Range-Sum-Query-Mutable (M+)   
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
@@ -279,7 +281,6 @@
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 240.Search a 2D Matrix II (M)   
 311.Sparse-Matrix-Multiplication (M)  
-307.Range-Sum-Query-Mutable (H)   
 [593.Valid-Square](https://github.com/wisdompeak/LeetCode/tree/master/Others/593.Valid-Square) (H)  
 [060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
 168.Excel-Sheet-Column-Title (H)    
