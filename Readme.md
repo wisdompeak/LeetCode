@@ -226,7 +226,7 @@
 691.Stickers-to-Spell-Word (H)    
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
-[487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (M)   
+[487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
 * ``two string converging``   
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
