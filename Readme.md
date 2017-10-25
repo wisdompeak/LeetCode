@@ -233,7 +233,7 @@
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
 552.Student-Attendance-Record-II (H)    	
-* ``two string converging``   
+* ``two string converging``   
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
 [072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 712.Minimum ASCII Delete Sum for Two Strings (H-)   
