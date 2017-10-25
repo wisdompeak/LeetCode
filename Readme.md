@@ -244,8 +244,9 @@
 318.Maximum-Product-of-Word-Lengths (M+)    
 342.Power-of-Four (H)   
 
-#### Divide and Conquer
-315.Count-of-Smaller-Numbers-After-Self
+#### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide-Conquer)
+315.Count-of-Smaller-Numbers-After-Self   
+493.Reverse-Pairs (M+)    
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
