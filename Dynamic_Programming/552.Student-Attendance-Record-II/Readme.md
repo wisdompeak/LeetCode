@@ -18,7 +18,7 @@ a1l0  =  a1l0+a1l1+a1l2+a0l0+a0l1+a0l2 // 注意，如果遇到一个A，同样�
 
 另外，注意需要用临时变量把所有的旧状态保存下来，再来更新状态。
 
-类似的DP题目还有：
+类似的DP题目还有：    
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee    
 487.Max Consecutive Ones II   
 376.Wiggle Subsequence    
