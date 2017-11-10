@@ -36,6 +36,8 @@
 [483.Smallest-Good-Base](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/483.Smallest-Good-Base/Readme.md) (H)   
 [029.Divide-Two-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/029.Divide-Two-Integers) (M+)    
 668.Kth-Smallest-Number-in-Multiplication-Table (H-)    
+719.Find-K-th-Smallest-Pair-Distance (H-)   
+
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
