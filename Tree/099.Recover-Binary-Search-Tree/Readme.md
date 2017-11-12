@@ -10,7 +10,7 @@ TreeNode* CurMax=new TreeNode(INT_MIN);
 ```
 在遍历过程中，CurMax永远存储的是上一次访问的节点，理论上是一个不断增大的值。
 
-如果第一次出现当前访问的节点 node->val < CurMax->val，说明遇到了第一个尖峰，那么根据之前的分析，first=CurMax 即为第一个掉包元素。怎么判断这是第一个尖峰呢？只需要看first==NULL就行。之后，CurMax需要重置为正常的node。
+如果第一次出现当前访问的节点 node->val < CurMax->val，说明遇到了第一个尖峰，那么根据之前的分析，first=CurMax 即为第一个掉包元素。怎么判断这是第一个尖峰呢？只需要看first==NULL就行。别忘了，这一回合后的CurMax应该设置为node。
 
 如果第二次出现当前访问的节点 node->val < CurMax->val，说明遇到了第二个尖峰，那么根据之前的分析，second=node，即为第二个掉包元素。
 
