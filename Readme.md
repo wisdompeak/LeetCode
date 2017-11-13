@@ -269,6 +269,7 @@
 564.Find-the-Closest-Palindrome (H)   
 388.Longest-Absolute-File-Path (H)    
 006.ZigZag-Conversion (M+)    
+722.Remove-Comments (H)   
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 057.Insert-Interval (H)   
