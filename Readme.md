@@ -204,7 +204,7 @@
 [672.Bulb-Switcher-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/672.Bulb-Switcher-II) (H)    
 [665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H-)   
 670.Maximum-Swap (M+)   
-678.Valid-Parenthesis-String (H)    
+[678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H)    
 321.Create-Maximum-Number (H)   
 135.Candy (M+)    
 
