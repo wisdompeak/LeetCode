@@ -160,7 +160,8 @@
 491.Increasing-Subsequences (M)   
 679.24-Game (H)   
 698.Partition-to-K-Equal-Sum-Subsets (H)    
-* ``memorization``    
+037.Sudoku-Solver (H-)    
+* ``memorization``    
 464.Can-I-Win (H)    
 638.Shopping-Offers (H-)    
 
