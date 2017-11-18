@@ -8,4 +8,4 @@
 
 当把所有的i都遍历一遍之后，就完成了“力所能及”的排序，意思就是nums里面所有处于1\~N之间的数，都已经在它规定的位置上了。如前所述，此时从头到尾再遍历一遍nums，找到的第一个nums[i]!=i的数，就是原先nums里面1~N之间所缺失的数。 
 
-和本题非常相似的一道题，就是 645. Set Mismatch，也用到了array indexing.
+和本题非常相似的还有两道题，就是 645. Set Mismatch，442.Find All Duplicates in an Array，也用到了array indexing.
