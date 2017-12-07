@@ -11,11 +11,11 @@ class Solution {
 public:
     vector<int> postorderTraversal(TreeNode* root) 
     {
-        unordered_map<TreeNode*,int>Map;
-        stack<TreeNode*>Stack;
         vector<int>results;
+        stack<TreeNode*>Stack;
+        unordered_set<TreeNode*>Set;
         
-        while(root!=NULL || !Stack.empty())
+        while (!Stack.empty() || root!=NULL)
         {
             if (root!=NULL)
             {
@@ -25,10 +25,10 @@ public:
             else
             {
                 root=Stack.top();
-                if (Map.find(root)==Map.end())
+                if (Set.find(root)==Set.end())
                 {
-                    Map[root]=1;
-                    root=root->right;
+                    Set.insert(root);
+                    root = root->right;
                 }
                 else
                 {
