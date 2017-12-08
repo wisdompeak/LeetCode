@@ -1,6 +1,6 @@
 ### 403.Frog-Jump
 
-比较直观的想法就是DFS搜索，层层递归下去。设计递归函数 bool DFS(pos,jump)表示当青蛙以jump的跨度跳到pos的石头上时，它能否跳到最后。显然，如果此刻的pos不是最后一块石头的话，那么就继续考察 DFS(pos+jump-1,jump-1),DFS(pos+jump,jump),DFS(pos+jump+1,jump+1)即可。
+比较直观的想法就是DFS搜索，层层递归下去。设计递归函数 bool DFS(pos,jump)表示当青蛙以jump的跨度跳到pos的石头上时，它能否跳到最后。显然，如果此刻的pos不是最后一块石头的话，那么就继续考察 DFS(pos+jump-1,jump-1), DFS(pos+jump,jump), DFS(pos+jump+1,jump+1)即可。
 
 需要注意的细节：1. 如果pos不是石头的位置，直接返回false，2. 下一步的跨度不能小于等于0，否则就死循环。
 
