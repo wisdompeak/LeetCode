@@ -316,3 +316,4 @@
 382.Linked-List-Random-Node (H)   
 645.Set Mismatch (H)    
 423.Reconstruct-Original-Digits-from-English (H-)   
+335.Self-Crossing (H)   
