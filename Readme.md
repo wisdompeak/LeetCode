@@ -241,7 +241,8 @@
 583.Delete-Operation-for-Two-Strings (H)    
 [673.Number-of-Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/673.Number-of-Longest-Increasing-Subsequence) (M+)    
 691.Stickers-to-Spell-Word (H)    
-* ``dual status``   
+368.Largest-Divisible-Subset (M+)   
+* ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
 714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee (H)    
