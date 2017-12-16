@@ -103,7 +103,7 @@
 652.Find-Duplicate-Subtrees (M)   
 687.Longest-Univalue-Path (M+)    
 742.Closest-Leaf-in-a-Binary-Tree (H)   
-* ``Segment Tree``    
+* ``Segment Tree``    
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Tree/307.Range-Sum-Query-Mutable/) (M)   
 
 
@@ -166,7 +166,7 @@
 698.Partition-to-K-Equal-Sum-Subsets (H)    
 037.Sudoku-Solver (H-)    
 * ``memorization``    
-464.Can-I-Win (H)    
+[464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)    
 638.Shopping-Offers (H-)    
 403.Frog-Jump (M+)    
 
