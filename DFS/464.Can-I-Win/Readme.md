@@ -1,6 +1,6 @@
 ### 464.Can-I-Win
 
-本题最直接的想法就是DFS，开辟一个全局变量used数组来标记已经使用过的数组。大致的代码如下：
+本题最关键的一点是想到要用递归。如果列举自己的所有决策，对手都是mustWin==true，那么自己的mustWin就是false；反之，自己的某一个决策能够使得对手的mustWin==false，那么就是自己mustWin就是true。想到这一点的话，大致的代码如下：
 ```cpp
 for (int i=1; i<=maxChoosableInteger; i++)
 {
