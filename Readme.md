@@ -102,8 +102,9 @@
 662.Maximum-Width-of-Binary-Tree (H-)   
 652.Find-Duplicate-Subtrees (M)   
 687.Longest-Univalue-Path (M+)    
-* ``Segment Tree``    
-[307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Tree/307.Range-Sum-Query-Mutable/) (M)   
+742.Closest-Leaf-in-a-Binary-Tree (H)   
+* ``Segment Tree``    
+[307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Tree/307.Range-Sum-Query-Mutable/) (M)   
 
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
