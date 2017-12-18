@@ -190,6 +190,7 @@
 [677.Map-Sum-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Trie/677.Map-Sum-Pairs) (M)  
 676.Implement-Magic-Dictionary (H-)   
 212.Word-Search-II (H-)   
+745.Prefix-and-Suffix-Search (H)    
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 084.Largest-Rectangle-in-Histogram  
