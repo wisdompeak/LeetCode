@@ -1,4 +1,5 @@
 class Solution {
+    int K;
 public:
     bool canPartitionKSubsets(vector<int>& nums, int k)
     {
@@ -10,32 +11,32 @@ public:
         if (SUM%k!=0) return false;
         int sum=SUM/k;
 
-        vector<int>sets(k,0);
         sort(nums.begin(),nums.end());
         reverse(nums.begin(),nums.end());
         vector<int>visited(nums.size(),0);
-        return DFS(nums,sets,0,visited,sum,0);
+        K=k;
+        
+        return DFS(nums,0,0,0,sum,visited);
     }
 
-    bool DFS(vector<int>&nums, vector<int>&sets, int curSet, vector<int>&visited, int sum, int curNum)
+    bool DFS(vector<int>& nums, int curPos, int curGroup, int curSum, int SUM, vector<int>&visited)
     {
-        if (curSet==sets.size()) return true;
-        if (sets[curSet]==sum) return DFS(nums,sets,curSet+1,visited,sum,0);
-
-        for (int i=curNum; i<nums.size(); i++)
+        if (curGroup==K) return true;
+        if (curSum==SUM) return DFS(nums,0,curGroup+1,0,SUM,visited);
+        if (curSum>SUM) return false;
+        if (curPos==nums.size()) return false;
+        
+        for (int i=curPos; i<nums.size(); i++)
         {
-          if (visited[i]==1) continue;
-
-          if (sets[curSet]+nums[i]<=sum)
-          {
-             visited[i]=1;
-             sets[curSet]+=nums[i];
-             if (DFS(nums,sets,curSet,visited,sum,i+1)) return true;
-             sets[curSet]-=nums[i];
-             visited[i]=0;
-          }
+            if (visited[i]==1)
+                continue;
+            if (curPos!=i && visited[i-1]==0 && nums[i]==nums[i-1])
+                continue;
+            visited[i]=1;
+            if (DFS(nums,i+1,curGroup,curSum+nums[i],SUM,visited))
+                return true;
+            visited[i]=0;
         }
-
         return false;
     }
 };
