@@ -24,6 +24,6 @@
 if (curPos!=i && nums[i]==nums[i-1] && visited[i-1]==0)
     continue;
 ```
-这是因为若nums[i-1]已经被搜索过的话，相同的nums[i]就不可能再次被搜索成功。
+这是因为若nums[i-1]已经被搜索过并且失败后回溯的话，相同的nums[i]就不需要再次被搜索了，注定是失败的。
 
 本题的一个变形就是 473. Matchsticks to Square
