@@ -6,7 +6,7 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         i=0
-        p=[0]*k
+        p=[0]*k                     # pay attention to this
         results=[]
         while (i>=0):
             p[i]=p[i]+1            
