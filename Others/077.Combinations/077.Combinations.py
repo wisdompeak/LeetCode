@@ -13,7 +13,7 @@ class Solution(object):
             if (p[i]>n):
                 i-=1;
             elif (i==k-1):
-                results.append(p[:])
+                results.append(p[:])  # pay attention to this
             else: 
                 i+=1
                 p[i]=p[i-1]
