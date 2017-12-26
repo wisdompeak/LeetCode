@@ -246,6 +246,7 @@
 [673.Number-of-Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/673.Number-of-Longest-Increasing-Subsequence) (M+)    
 691.Stickers-to-Spell-Word (H)    
 368.Largest-Divisible-Subset (M+)   
+518.Coin-Change-2 (H-)    
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
@@ -321,3 +322,4 @@
 645.Set Mismatch (H)    
 423.Reconstruct-Original-Digits-from-English (H-)   
 335.Self-Crossing (H)   
+077.Combinations (H)    
