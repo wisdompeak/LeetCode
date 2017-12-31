@@ -247,6 +247,7 @@
 691.Stickers-to-Spell-Word (H)    
 368.Largest-Divisible-Subset (M+)   
 518.Coin-Change-2 (H-)    
+375.Guess Number Higher or Lower II (H)   
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
