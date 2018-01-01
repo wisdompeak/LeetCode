@@ -201,7 +201,7 @@
 [316.Remove Duplicate Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)   
 358.Rearrange-String-k-Distance-Apart   
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (H)    
-229.Majority-Element-II (H)   
+[229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)   
 659.Split-Array-into-Consecutive-Subsequences (H-)    
 484.Find-Permutation (H)    
 [386.Lexicographical-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/386.Lexicographical-Numbers) (H)   
