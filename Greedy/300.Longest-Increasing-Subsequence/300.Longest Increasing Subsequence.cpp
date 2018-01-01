@@ -3,23 +3,14 @@ public:
     int lengthOfLIS(vector<int>& nums) 
     {
         vector<int>q;
-        
-        for (int i=0; i<nums.size(); i++)
+        for (auto x:nums)
         {
-            if (q.empty()) 
-                q.push_back(nums[i]);
+            auto pos=lower_bound(q.begin(),q.end(),x);
+            if (pos==q.end())
+                q.push_back(x);
             else
-            {
-                auto pos = lower_bound(q.begin(),q.end(),nums[i]);
-                if (pos!=q.end())
-                    q[pos-q.begin()]=nums[i];
-                else
-                    q.push_back(nums[i]);
-            }
-                
+                *pos=x;            
         }
-        
-        return q.size();
-        
+        return q.size();               
     }
 };
