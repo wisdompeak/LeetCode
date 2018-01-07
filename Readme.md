@@ -61,7 +61,7 @@
 [480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Hash/480.Sliding-Window-Median) (H)    
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Hash/218.The-Skyline-Problem) (H)   
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Hash/699.Falling-Squares) (H)   
-715.Range-Module.cpp (H)    
+[715.Range-Module.cpp](https://github.com/wisdompeak/LeetCode/tree/master/Hash/715.Range-Module) (H)    
 
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
