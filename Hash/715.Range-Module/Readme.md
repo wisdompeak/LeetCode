@@ -14,12 +14,12 @@
 代码如下：
 ```cpp
 int leftBound = left;
-int pos1=Map.lower_bound(left);
+auto pos1=Map.lower_bound(left);
 if (pos1!=Map.begin() && prev(pos1,1)->second >= left)  //左边界部分重合
     leftBound = prev(pos1,1)->first;
     
 int rightBound = right;
-int pos2=Map.upper_bound(right);
+auto pos2=Map.upper_bound(right);
 if (pos2!=Map.begin() && prev(pos2,1)->first <= right)  //右边界部分重合
     rightBound = max(right, prev(pos2,1)->second);
     
