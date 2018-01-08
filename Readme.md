@@ -306,6 +306,7 @@
 390.Elimination-Game (H)    
 395.Longest Substring with At Least K Repeating Characters (H)    
 397.Integer-Replacement (H-)    
+761.Special-Binary-String (H)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
