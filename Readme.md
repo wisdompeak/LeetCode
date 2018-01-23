@@ -328,4 +328,5 @@
 423.Reconstruct-Original-Digits-from-English (H-)   
 335.Self-Crossing (H)   
 077.Combinations (H)    
-479.Largest-Palindrome-Product (M+)
+479.Largest-Palindrome-Product (M+)   
+048.Rotate-Image (M+)    
