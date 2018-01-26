@@ -283,7 +283,7 @@
 [467.Unique-Substrings-in-Wraparound-String](https://github.com/wisdompeak/LeetCode/tree/master/String/467.Unique-Substrings-in-Wraparound-String) (H-)   
 564.Find-the-Closest-Palindrome (H)   
 388.Longest-Absolute-File-Path (H)    
-006.ZigZag-Conversion (M+)    
+[006.ZigZag-Conversion](https://github.com/wisdompeak/LeetCode/tree/master/String/006.ZigZag-Conversion) (M+)    
 722.Remove-Comments (H)   
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
@@ -330,4 +330,3 @@
 077.Combinations (H)    
 479.Largest-Palindrome-Product (M+)   
 048.Rotate-Image (M+)    
-006.ZigZag-Conversion (M+)    
