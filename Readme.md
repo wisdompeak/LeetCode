@@ -252,6 +252,7 @@
 368.Largest-Divisible-Subset (M+)   
 518.Coin-Change-2 (H-)    
 375.Guess Number Higher or Lower II (H)   
+740.Delete-and-Earn (H)   
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
@@ -262,7 +263,6 @@
 [072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 712.Minimum ASCII Delete Sum for Two Strings (H-)   
 727.Minimum-Window-Subsequence (H)    
-740.Delete-and-Earn (H)   
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)   
