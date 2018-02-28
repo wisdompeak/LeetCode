@@ -166,6 +166,7 @@
 679.24-Game (H)   
 698.Partition-to-K-Equal-Sum-Subsets (H)    
 037.Sudoku-Solver (H-)    
+488.Zuma-Game (H-)    
 * ``memorization``    
 [464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)    
 638.Shopping-Offers (H-)    
