@@ -254,6 +254,7 @@
 518.Coin-Change-2 (H-)    
 375.Guess Number Higher or Lower II (H)   
 740.Delete-and-Earn (H)   
+494.Target-Sum (H-)   
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
