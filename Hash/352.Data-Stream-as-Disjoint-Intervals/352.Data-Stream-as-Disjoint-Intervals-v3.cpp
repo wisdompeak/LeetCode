@@ -8,89 +8,44 @@
  * };
  */
 class SummaryRanges {
-    map<int,int>Map;
 public:
+    map<int,int>Map;
+    
     /** Initialize your data structure here. */
     SummaryRanges() 
     {
-        Map.clear();
+        Map[-2]=-2;
     }
     
     void addNum(int val) 
     {
-        if (Map.size()==0)
-        {
-            Map[val]=val;
-            return;
-        }            
+        auto pos = Map.lower_bound(val);        
+
+        if (pos!=Map.end() && pos->first==val) return;                        
+        if (prev(pos,1)->second>=val) return;  // if val is already within an interval                                        
         
-        auto pos=Map.lower_bound(val);
+        if (prev(pos,1)->second==val-1)
+            prev(pos,1)->second=val;   // if val is at the right boundary of the previous interval
+        else        
+            Map[val]=val;               // if val is not connected to the previous interval, create a new one
+                
+        pos = Map.upper_bound(val);        
+        if (pos!=Map.end() && pos->first==prev(pos,1)->second+1) // if the new interval is conneted to the next interval
+        {
+            prev(pos,1)->second = pos->second;
+            Map.erase(pos);
+        }         
         
-        if (pos==Map.begin())
-        {
-            if (val+1 == pos->first)
-            {
-                int left=pos->first;
-                int right=pos->second;
-                Map.erase(left);
-                Map[val]=right;
-            }
-            else if (val+1<pos->first)
-                Map[val]=val;            
-        }
-        else if (pos==Map.end())
-        {
-            auto pos1=prev(pos,1);
-            int left=pos1->first;
-            int right=pos1->second;
-            if (right+1==val)
-                Map[left]=val;
-            else if (right+1<val)
-                Map[val]=val;            
-        }
-        else
-        {
-            int flag1=0,flag2=0;
-            
-            auto pos1=prev(pos,1);
-            int left=pos1->first;
-            int right=pos1->second;
-            if (right>=val)
-                return;
-            else if (right+1==val)
-            {
-                Map[left]=val;
-                flag1=1;
-            }
-            
-            auto pos2=pos;
-            left=pos2->first;
-            right=pos2->second;
-            if (left==val)
-                return;
-            else if (left==val+1)
-            {
-                Map.erase(left);
-                Map[val]=right;
-                flag2=1;
-            }
-            
-            if (flag1 && flag2)
-            {
-                auto pos = Map.lower_bound(val);
-                prev(pos,1)->second=pos->second;
-                Map.erase(pos);
-            }
-            else if (!flag1 && !flag2)
-                Map[val]=val; 
-        }
     }
     
     vector<Interval> getIntervals() 
     {
         vector<Interval>results;
-        for (auto a:Map)        
-            results.push_back(Interval(a.first,a.second));
+        for (auto a:Map)
+        {
+            if (a.first!=-2)
+                results.push_back(Interval(a.first,a.second));
+        }
         return results;
     }
 };
