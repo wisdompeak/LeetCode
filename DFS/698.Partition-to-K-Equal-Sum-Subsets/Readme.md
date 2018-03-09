@@ -5,7 +5,7 @@
 设计如下的递归函数：```DFS(nums, curPos, curGroup, curSum, SUM, visited)```.
 注意边界条件的转换：
 ```cpp
-        if (curGroup==4) return true;
+        if (curGroup==k) return true;
         if (curSum==SUM) return DFS(nums,0,curGroup+1,0,SUM,visited);
         if (curSum>SUM) return false;
         if (curPos==nums.size()) return false;
