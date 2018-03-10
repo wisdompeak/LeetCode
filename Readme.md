@@ -163,7 +163,7 @@
 282.Expression-Add-Operators (H)  
 399.Evaluate-Division (H)   
 491.Increasing-Subsequences (M)   
-679.24-Game (H)   
+679.24-Game (H)   
 [698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-)    
 037.Sudoku-Solver (H-)    
 488.Zuma-Game (H-)    
