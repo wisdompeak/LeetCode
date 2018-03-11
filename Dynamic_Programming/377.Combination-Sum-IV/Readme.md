@@ -15,4 +15,14 @@
         return self.result
                 
 ```
-但结果发现会超时。此时显然应该想到，可以调整为DP算法。用dp[i]表示加和为i的组合的数目，这也是DP中常见的思想，当然前提是target不是非常大，否则dp数组会很占空间。
+但结果发现会超时。此时应该立刻想到，是否可以调整为DP算法。用dp[i]表示加和为i的组合的数目，考察与其他dp[j]的传递关系，这也是DP中常见的思想。
+```py
+    def combinationSum4(self, nums, target):
+        dp = [1]+[0]*target
+        for i in range(1,target+1):
+            for j in range(len(nums)):
+                if i-nums[j]>=0:
+                    dp[i]+=dp[i-nums[j]]
+        return dp[target]
+```
+当然DP算法的前提是target不是非常大，否则dp数组会很占空间。
