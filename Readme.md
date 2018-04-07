@@ -209,6 +209,7 @@
 659.Split-Array-into-Consecutive-Subsequences (H-)    
 484.Find-Permutation (H)    
 [386.Lexicographical-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/386.Lexicographical-Numbers) (H)   
+440.K-th-Smallest-in-Lexicographical-Order (H)    
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
 624.Maximum-Distance-in-Arrays (M)    
 630.Course-Schedule-III (H)   
