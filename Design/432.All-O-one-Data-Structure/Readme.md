@@ -1,4 +1,4 @@
-###　432.All-O-one-Data-Structure
+### 432.All-O-one-Data-Structure
 
 此题和[146.LRU](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache)和[460.LFU](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache)的解法非常相似．这类问题的关键点就是，如果用o(1)的时间复杂度对val进行实时的排序．方法是用两个数据结构
 ```cpp
