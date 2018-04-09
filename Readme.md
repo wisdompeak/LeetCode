@@ -111,6 +111,7 @@
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
+432.All-O-one-Data-Structure (H)    
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (H-)   
 [381.Insert-Delete-GetRandom-O-1-Duplicates-allowed](https://github.com/wisdompeak/LeetCode/tree/master/Design/381.Insert-Delete-GetRandom-O-1-Duplicates-allowed) (H)   
 [355.Design Twitter](https://github.com/wisdompeak/LeetCode/tree/master/Design/355.Design-Twitter) (H)    
@@ -119,6 +120,7 @@
 [146.LRU-Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache) (H-)   
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 716.Max-Stack (M+)    
+
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 [536.Construct-Binary-Tree-from-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/536.Construct-Binary-Tree-from-String) (M)   
