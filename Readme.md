@@ -261,9 +261,10 @@
 518.Coin-Change-2 (H-)    
 375.Guess Number Higher or Lower II (H)   
 740.Delete-and-Earn (H)   
-494.Target-Sum (H-)   
-[516.Longest-Palindromic-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/516.Longest-Palindromic-Subsequence) (H)   
+494.Target-Sum (H-)   
+[516.Longest-Palindromic-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/516.Longest-Palindromic-Subsequence) (H)   
 805.Split-Array-With-Same-Average (H)   
+813.Largest-Sum-of-Averages (M)   
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
