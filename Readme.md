@@ -350,3 +350,4 @@
 782.Transform-to-Chessboard (H+)    
 466.Count-The-Repetitions (H)   
 810.Chalkboard-XOR-Game (H)   
+420.Strong-Password-Checker (H)   
