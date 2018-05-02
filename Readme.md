@@ -277,6 +277,7 @@
 [072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 712.Minimum ASCII Delete Sum for Two Strings (H-)   
 727.Minimum-Window-Subsequence (H)    
+818.Race-Car (H)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 136.Single-Number (M)   
