@@ -335,7 +335,7 @@
 [593.Valid-Square](https://github.com/wisdompeak/LeetCode/tree/master/Others/593.Valid-Square) (H)  
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
-046.Permutations (H-)    
+[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
 [047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
 [060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
 [587.Erect-the-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
