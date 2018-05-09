@@ -4,21 +4,15 @@ class Solution:
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        if len(nums)==0: return []
-        results = [[nums[0]]]
+        def insert(P,k):
+            result = []
+            for p in P:
+                for i in range(len(p)+1):                    
+                    result.append(p[:i]+[k]+p[i:])
+                    if i<len(p) and p[i]==k: break
+            return result
         
-        for n in nums[1:]:
-            
-            new_results = []            
-            for seq in results:                
-                for i in range(0,len(seq)):                    
-                    new_results.append(seq[0:i]+[n]+seq[i:])                
-                    if n==seq[i]: break
-                    if (i==len(seq)-1):                
-                        new_results.append(seq+[n])
-            results = new_results
-            print(results)
-            
-        return results;
-        
-        
+        P = [[]]
+        for k in nums:
+            P = insert(P,k)
+        return P
