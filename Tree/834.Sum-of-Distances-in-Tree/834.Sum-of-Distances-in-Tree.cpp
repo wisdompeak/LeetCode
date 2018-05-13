@@ -1,9 +1,15 @@
 class Solution {
+    unordered_map<int,unordered_set<int>>Children;
+    vector<int>SubLeaves;
+    vector<int>results;
+    
 public:
     vector<int> sumOfDistancesInTree(int N, vector<vector<int>>& edges) 
     {
-        unordered_map<int,unordered_set<int>>Map;
-        unordered_map<int,unordered_set<int>>Children;
+        SubLeaves.assign(N,0);
+        results.assign(N,0);
+        
+        unordered_map<int,unordered_set<int>>Map;        
         for (int i=0; i<edges.size(); i++)
         {
             Map[edges[i][0]].insert(edges[i][1]);
@@ -23,21 +29,18 @@ public:
                 q.push(child);
             }                        
         }
-        
-        vector<int>SubLeaves(N);
+                
         int root = 0;
-        int temp = DFS1(root,Children,SubLeaves);
+        int temp = DFS1(root);        
+        int AllSum = DFS2(root);        
         
-        int AllSum = DFS2(root,Children,SubLeaves);
-        
-        vector<int>results(N);
         results[0] = AllSum;
-        DFS3(root,Children,SubLeaves,results);
+        DFS3(root);
         
         return results;
     }
     
-    int DFS1(int x, unordered_map<int,unordered_set<int>>&Children, vector<int>&SubLeaves)
+    int DFS1(int x)
     {
         if (Children[x].size()==0)
         {
@@ -46,26 +49,26 @@ public:
         }
         int sum = 1;
         for (auto a: Children[x])        
-            sum+=DFS1(a,Children,SubLeaves);                    
+            sum+=DFS1(a);                    
         SubLeaves[x]=sum;   
         return sum;
     }
         
-    int DFS2(int x, unordered_map<int,unordered_set<int>>&Children, vector<int>&SubLeaves)
+    int DFS2(int x)
     {
         if (Children[x].size()==0) return 0;        
         int sum = 0;
         for (auto a: Children[x])        
-            sum+=DFS2(a,Children,SubLeaves)+SubLeaves[a];        
+            sum+=DFS2(a)+SubLeaves[a];        
         return sum;
     }
     
-    void DFS3(int x, unordered_map<int,unordered_set<int>>&Children, vector<int>&SubLeaves, vector<int>&results)
+    void DFS3(int x)
     {        
         for (auto a: Children[x])
         {
             results[a] = results[x] - SubLeaves[a] + results.size()-SubLeaves[a];
-            DFS3(a,Children,SubLeaves,results);
+            DFS3(a);
         }
     }
 
