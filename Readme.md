@@ -270,6 +270,7 @@
 813.Largest-Sum-of-Averages (M)   
 818.Race-Car (H)    
 377.Combination-Sum-IV (H)    
+139.Word-Break (M+)   
 * ``dual status``   
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
