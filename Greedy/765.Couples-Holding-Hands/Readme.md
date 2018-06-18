@@ -10,7 +10,7 @@
 ```cpp
 while (flag==0)
 {
-  // 此时序列是```03....61....42....```,partner是3,curPos是1
+  // 此时序列是```03....61....42....```,partner是1,curPos是1
   
   swap(row[curPos],row[Pos[partner]]);  // 交换3和1,得到```01....63....42....```
   
