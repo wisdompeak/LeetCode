@@ -362,3 +362,4 @@
 214.Shortest-Palindrome (H)     
 808.Soup-Servings (H)   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
+794.Valid-Tic-Tac-Toe-State (M+)    
