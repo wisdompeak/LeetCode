@@ -21,15 +21,17 @@ public:
     {
         if (root==NULL) return;
         
-        GoThrough(root->left,sum);
-        count+= pathSumNum(root,sum);        
+        GoThrough(root->left,sum);        
         GoThrough(root->right,sum);
+        count+= pathSumNum(root,sum);        
     }
     
     int pathSumNum(TreeNode* node, int sum)
     {
         if (node==NULL) return 0;
-        if (node->val==sum) return 1+pathSumNum(node->left,0)+pathSumNum(node->right,0);
-        return pathSumNum(node->left,sum-node->val)+pathSumNum(node->right,sum-node->val);
+        if (node->val==sum) 
+            return 1+pathSumNum(node->left,0)+pathSumNum(node->right,0);
+        else
+            return pathSumNum(node->left,sum-node->val)+pathSumNum(node->right,sum-node->val);
     }
 };
