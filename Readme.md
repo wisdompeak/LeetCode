@@ -203,7 +203,7 @@
 745.Prefix-and-Suffix-Search (H)    
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
-084.Largest-Rectangle-in-Histogram  
+[084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
 085.Maximal-Rectangle  
 221.Maximal-Square  
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
