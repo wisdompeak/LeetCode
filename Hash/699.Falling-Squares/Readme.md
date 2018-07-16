@@ -1,5 +1,7 @@
 ### 699.Falling-Squares
 
+#### 解法1：使用Hash容器
+
 此题考查了对Hash结构（比如说Map和Set）的迭代器的操作。
 
 设置一个有序hash表，map<int,int>Map，其中的key表示在横轴上某个x的位置，value表示从这个x开始往右直至遇到下一个邻接x位置之间的高度（这个高度在这两个位置之间必须是平整的）。在不断读入positions的过程中，来更新这个Map。
@@ -31,4 +33,10 @@ Map[left]= maxH+h;
 ```
 特别注意：对于新sqaure的右边界，同样也可能会引入新生成的边界。比如，当新square比较小，那么Map[right+1]应该是之前 prev(ptrj,1)对应的数值。这个数值必须在对Map做迭代器删改之前保留下来。
 
+#### 解法2：使用线段树
 
+相比于 715.Range Module 使用了标准的线段树模型，此题只需要对标准模型进行很小的改动即可适用。
+
+也即是每个线段的tracked不再是一个二值的状态，而是代表了```[begin,end)```区间里最大高度。每次处理一个正方形(x,y,d)，首先用```getTracking(x,y)```得到该区间内的最大高度maxH，然后在该相同的区间内```setTracking(x,y,maxH+d)```即可。整颗线段树的维护非常直观。
+
+线段树模型的具体改动之处是：之前```return tracked = leftTracked && rightTracked```，改为 ```return tracked = max(leftTracked,rightTracked)```即可。
