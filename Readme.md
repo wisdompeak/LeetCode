@@ -60,8 +60,8 @@
 * ``Ordered_container``   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Hash/352.Data-Stream-as-Disjoint-Intervals) (H)    
 [480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Hash/480.Sliding-Window-Median) (H)    
-[218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Hash/218.The-Skyline-Problem) (H)   
-[699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Hash/699.Falling-Squares) (H)   
+[218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H)   
+[699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)   
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Hash/715.Range-Module) (H)    
 295.Find-Median-from-Data-Stream  (H)   
 [363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
@@ -109,10 +109,11 @@
 834.Sum-of-Distances-in-Tree (H)    
 
 
-#### [Segment Tree]
-[307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Tree/307.Range-Sum-Query-Mutable/) (M)   
-[715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Hash/715.Range-Module) (H)    
-[699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Hash/699.Falling-Squares) (H)    
+#### [Segment Tree](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/)
+[307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
+[218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H)   
+[699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)    
+[715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
