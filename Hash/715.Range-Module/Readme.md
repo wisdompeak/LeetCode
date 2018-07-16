@@ -1,6 +1,6 @@
 ### 715.Range-Module
 
-考察了对于Ordered container的操作。
+#### 解法1：使用有序map
 
 对于这种interval类型的题目，我们选用ordered_map，将左边界作为key，右边界作为val，则所有的interval都按左边界从小到大排序。
 
@@ -57,3 +57,23 @@ if (flag1) Map[temp1]=left;
 if (flag2) Map[right]=temp2;
 ```
 特别注意，对于迭代器的修改操作，得安排在删除操作之后进行。
+
+
+#### 解法2：使用线段树
+
+此题适合标准的线段树模型和数据结构。
+
+在segTree类中，需要有如下成员变量
+```
+int begin, end;
+bool tracked;
+segTree* left;
+setTree* right;
+```
+
+需要定义三个方法：
+```
+1. void remove(setTree* & node)
+2. bool setTracking(int a, int b, bool tracking)
+3. bool setTracking(int a, int b)
+```
