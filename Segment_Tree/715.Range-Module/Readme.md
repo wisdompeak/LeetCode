@@ -77,3 +77,56 @@ setTree* right;
 2. bool setTracking(int a, int b, bool tracking)
 3. bool setTracking(int a, int b)
 ```
+```cpp
+        void remove(SegTree* &node)
+        {
+            if (!node) return;
+            remove(node->left);
+            remove(node->right);
+            delete node;
+            node = NULL;
+        }
+        
+        bool setTracking(int a, int b, bool tracking)
+        {
+            if (a<=begin && end<=b)     //如果该区间被包括在了[a,b]内,则整体标记
+            {
+                remove(left);
+                remove(right);
+                return tracked = tracking;
+            }
+            int mid = (end-begin)/2+begin;  //如果该区间和[a,b]只是部分相交,则需要往下搜索
+            if (!left)      //如果没有子区间,则需要立即创建.注意子区间的tracked可以完全继承自该区间的tracked
+            {
+                left = new SegTree(begin,mid,tracked);
+                right = new SegTree(mid,end,tracked);
+            }
+            bool leftTracked, rightTracked;
+            if (a<mid)            
+                leftTracked = left->setTracking(a,b,tracking);
+            else
+                leftTracked = left->tracked;
+            if (b>mid)
+                rightTracked = right->setTracking(a,b,tracking);
+            else
+                rightTracked = right->tracked;
+            return tracked = leftTracked && rightTracked; // 父区间的tracked,永远来自两个子区间tracked的"与"
+        }
+        
+        bool getTracking(int a, int b)
+        {            
+            if (!left && !right) return tracked;
+            if (a<=begin && end<=b) return tracked;            
+            int mid = (end-begin)/2+begin;
+            bool leftTracked, rightTracked;
+            if (a<mid)
+                leftTracked = left->getTracking(a,b);
+            else
+                leftTracked = true;
+            if (b>mid)
+                rightTracked = right->getTracking(a,b);
+            else
+                rightTracked = true;
+            return leftTracked && rightTracked;                
+        }
+```        
