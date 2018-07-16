@@ -107,7 +107,9 @@
 [687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
 742.Closest-Leaf-in-a-Binary-Tree (H)   
 834.Sum-of-Distances-in-Tree (H)    
-* ``Segment Tree``    
+
+
+#### [Segment Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Tree/307.Range-Sum-Query-Mutable/) (M)   
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Hash/715.Range-Module) (H)    
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Hash/699.Falling-Squares) (H)    
