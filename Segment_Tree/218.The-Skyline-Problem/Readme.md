@@ -48,3 +48,4 @@
             return tracked = max(leftTracked, rightTracked);            
         }
 ```
+注意,本题其实不需要设计getTracking(x,y)
