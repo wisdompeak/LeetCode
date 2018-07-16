@@ -1,5 +1,7 @@
 ### 218.The-Skyline-Problem
 
+#### 解法1:有序容器
+
 此题需要设置一个multiSet记录所有的当前下降沿的高度，则*prev(Set.end(),1)就是这个Set里的最大值。
 
 首先，将所有的edges放入一个数组，按时间顺序排序，然后顺次遍历考虑：如果是上升沿，则在Set里加入对应高度（即添加一个下降沿）；如果是下降沿，则需要在Set里删除对应的高度（即退出当前的下降沿）。
@@ -9,3 +11,40 @@
 所以每次查看一个edges，我们都要比较当前的高度（用cur记录）和Set里的最大值进行比较：一旦不同，就用Set里的最大值去加入results，同时也要更新cur。
 
 有一个细节需要注意，在生成edges数组时，如果某一个位置同时有上升沿也有下降沿，如意要先考察上升沿，再考察下降沿。也就是要先加入一个下降沿，再退出可能的下降沿。否则类似[[0,2,3],[2,5,3]]的测试例子就会有问题。
+
+#### 解法2:线段树
+
+此题类似 699. Falling Squares 的方法,采用改造的线段树模型.同样,这里每个区间的tracked表示该区间内的maxHeight.
+
+在设计setTracking(x,y,d)函数时,目标是对区间(x,y)内的高度进行更新.注意,只是对其中那些原有的tracked<d的区间进行更新.
+```cpp
+        int setTracking(int a, int b, int tracking)
+        {            
+            if (a<=begin && end<=b && tracking>tracked)  //该区间整体小于目标值,整体更新
+            {
+                remove(left);
+                remove(right);
+                return tracked = tracking;                
+            }
+            if (a<=begin && end<=b && tracking<=tracked && left==NULL) //该区间整体大于目标值,整体不更新
+            {
+                return tracked;
+            }            
+            int mid = (end-begin)/2+begin;    // 其余操作和 Falling Square 完全一样
+            if (!left)
+            {
+                left = new SegTree(begin,mid,tracked);
+                right = new SegTree(mid,end,tracked);
+            }
+            int leftTracked, rightTracked;
+            if (a<mid)            
+                leftTracked = left->setTracking(a,b,tracking);
+            else
+                leftTracked = left->tracked;
+            if (b>mid)
+                rightTracked = right->setTracking(a,b,tracking);
+            else
+                rightTracked = right->tracked;
+            return tracked = max(leftTracked, rightTracked);            
+        }
+```
