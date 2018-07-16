@@ -110,6 +110,7 @@
 * ``Segment Tree``    
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Tree/307.Range-Sum-Query-Mutable/) (M)   
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Hash/715.Range-Module) (H)    
+[699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Hash/699.Falling-Squares) (H)    
 
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
