@@ -1,84 +1,98 @@
 class NumArray {
-    class SegmentTreeNode 
+    
+    class SegTree
     {
         public:
-        int start, end, sum;
-        SegmentTreeNode* left;
-        SegmentTreeNode* right;
-        SegmentTreeNode(int a, int b):start(a),end(b),sum(0),left(NULL),right(NULL){}
+        int status, begin, end;
+        SegTree* left;
+        SegTree* right;
+        SegTree(int a, int b, int T)
+        {
+            begin = a;
+            end = b;
+            status = T;
+            left = NULL;
+            right = NULL;
+        }
+        
+        int buildTree(int a, int b, vector<int>&nums)
+        {                       
+            if (b==a+1)            
+                return status = nums[a];            
+            if (a>=end || b<=begin)
+                return status = 0;
+            else if (b!=a+1)
+            {
+                int mid = (end-begin)/2+begin;
+                left = new SegTree(a,mid,0);
+                right = new SegTree(mid,b,0);
+                left->buildTree(a,mid,nums);
+                right->buildTree(mid,b,nums);                
+                return status = left->status+right->status;
+            }
+        }
+                        
+        int setStatus(int a, int val)
+        {
+            if (begin==a && end==a+1)            
+                return status = val;
+            
+            int mid = (end-begin)/2+begin;
+            int leftStatus,rightStatus;
+            if (a<mid)
+                leftStatus = left->setStatus(a,val);
+            else
+                leftStatus = left->status;
+            if (a>=mid)
+                rightStatus = right->setStatus(a,val);
+            else 
+                rightStatus = right->status;
+            
+            return status = leftStatus+rightStatus;            
+        }
+        
+        int getStatus(int a, int b)
+        {
+            if (a<=begin && end<=b)            
+                return status;            
+                
+            if (a>=end || b<=begin)
+                return 0;
+            
+            int mid = (end-begin)/2+begin;
+            int leftStatus,rightStatus;
+            if (a<mid)
+                leftStatus = left->getStatus(a,b);
+            else
+                leftStatus = 0;
+            if (b>mid)
+                rightStatus = right->getStatus(a,b);
+            else 
+                rightStatus = 0;
+            
+            return leftStatus+rightStatus;  
+        }
     };
-    SegmentTreeNode* root;
+    
     
 public:
+    SegTree* root;
+        
     NumArray(vector<int> nums) 
     {
-        int n = nums.size();
-        root = buildTree(nums,0,n-1);
+        root = new SegTree(0,nums.size(),0);        
+        root->buildTree(0,nums.size(),nums);
     }
     
     void update(int i, int val) 
     {
-        modifyTree(i,val,root);
+        root->setStatus(i,val);
     }
     
     int sumRange(int i, int j) 
     {
-        return queryTree(i, j, root);
+        return root->getStatus(i,j+1);
     }
-    
-    SegmentTreeNode* buildTree(vector<int> &nums, int start, int end) 
-    {
-        if(start > end) return NULL;
-        
-        SegmentTreeNode* root = new SegmentTreeNode(start,end);
-        
-        if(start == end) 
-        {
-            root->sum = nums[start];
-            return root;
-        }        
-        int mid = start + (end - start) / 2;
-        root->left = buildTree(nums,start,mid);
-        root->right = buildTree(nums,mid+1,end);
-        root->sum = root->left->sum + root->right->sum;
-        return root;
-    }
-    
-    void modifyTree(int i, int val, SegmentTreeNode* root) 
-    {
-        if(root == NULL) return;
-        
-        if (root->start == i && root->end == i) 
-        {            
-            root->sum = val;
-            return;
-        }
-        if (root->start > i || root->end < i)
-            return;
-        
-        int mid = (root->start + root->end) / 2;
-        if (i > mid) 
-            modifyTree(i,val,root->right);        
-        else 
-            modifyTree(i,val,root->left);        
-        root->sum = root->left->sum + root->right->sum;        
-    }    
-    
-    int queryTree(int i, int j, SegmentTreeNode* root) 
-    {
-        if(root == NULL) return 0;
-        if (i<root->start || j>root->end) return 0;    
-        if(root->start == i && root->end == j) 
-            return root->sum;
-        
-        int mid = (root->start + root->end) / 2;
-        if (i > mid) 
-            return queryTree(i,j,root->right);
-        else if(j <= mid) 
-            return queryTree(i,j,root->left);
-        else
-            return queryTree(i,mid,root->left) + queryTree(mid+1,j,root->right);
-    }    
 };
 
 /**
