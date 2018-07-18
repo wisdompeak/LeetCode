@@ -18,34 +18,29 @@
 
 在设计setTracking(x,y,d)函数时,目标是对区间(x,y)内的高度进行更新.注意,只是对其中那些原有的tracked<d的区间进行更新.
 ```cpp
-        int setTracking(int a, int b, int tracking)
-        {            
-            if (a<=begin && end<=b && tracking>tracked)  //该区间整体小于目标值,整体更新
+        int setStatus(int a, int b, int s)
+        {
+            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回原先的状态
+                return status;                        
+            if (a<=begin && end<=b && status<=s)            // 2. [a,b]包括了整个区间，并且该区间的status<s,则将该区间抹平
             {
                 remove(left);
                 remove(right);
-                return tracked = tracking;                
-            }
-            if (a<=begin && end<=b && tracking<=tracked && left==NULL) //该区间整体大于目标值,整体不更新
+                return status = s;
+            }         
+            if (a<=begin && end<=b && status>s && !left)    // 3. [a,b]包括了整个区间，并且该区间的status>s,且无子树，则整体不更新
             {
-                return tracked;
+                return status;
+            }         
+            if (!left)                         // 4. 其他情况，需考虑其子树
+            {
+                int mid = (end-begin)/2+begin;
+                left = new SegTree(begin,mid,status);
+                right = new SegTree(mid,end,status);
             }            
-            int mid = (end-begin)/2+begin;    // 其余操作和 Falling Square 完全一样
-            if (!left)
-            {
-                left = new SegTree(begin,mid,tracked);
-                right = new SegTree(mid,end,tracked);
-            }
-            int leftTracked, rightTracked;
-            if (a<mid)            
-                leftTracked = left->setTracking(a,b,tracking);
-            else
-                leftTracked = left->tracked;
-            if (b>mid)
-                rightTracked = right->setTracking(a,b,tracking);
-            else
-                rightTracked = right->tracked;
-            return tracked = max(leftTracked, rightTracked);            
-        }
+            int leftStatus = left->setStatus(a,b,s);
+            int rightStatus = right->setStatus(a,b,s);
+            return status = max(leftStatus,rightStatus);
+}
 ```
 注意,本题其实不需要设计getTracking(x,y)
