@@ -87,7 +87,7 @@ setTree* right;
             node = NULL;
         }
         
-                int setStatus(int a, int b, int s)
+        int setStatus(int a, int b, int s)
         {
             if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回原先的状态
                 return status;                        
