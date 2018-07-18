@@ -2,15 +2,14 @@ class Solution {
     class SegTree
     {
         public:
-        int begin, end;
+        int begin, end, status;
         SegTree* left;
         SegTree* right;
-        int tracked;
         SegTree(int a, int b, int T)
         {
             begin = a;
             end = b;            
-            tracked = T;
+            status = T;
             left = NULL;
             right = NULL;
         }                
@@ -24,51 +23,29 @@ class Solution {
             node = NULL;
         }
         
-        int setTracking(int a, int b, int tracking)
-        {            
-            if (a<=begin && end<=b && tracking>tracked)
+        int setStatus(int a, int b, int s)
+        {
+            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回原先的状态
+                return status;                        
+            if (a<=begin && end<=b && status<=s)            // 2. [a,b]包括了整个区间，并且该区间的status<s,则将该区间抹平
             {
                 remove(left);
                 remove(right);
-                return tracked = tracking;                
-            }
-            if (a<=begin && end<=b && tracking<=tracked && left==NULL)
+                return status = s;
+            }         
+            if (a<=begin && end<=b && status>s && !left)    // 3. [a,b]包括了整个区间，并且该区间的status>s,且无子树，则整体不更新
             {
-                return tracked;
+                return status;
+            }         
+            if (!left)                         // 4. 其他情况，需考虑其子树
+            {
+                int mid = (end-begin)/2+begin;
+                left = new SegTree(begin,mid,status);
+                right = new SegTree(mid,end,status);
             }            
-            int mid = (end-begin)/2+begin;
-            if (!left)
-            {
-                left = new SegTree(begin,mid,tracked);
-                right = new SegTree(mid,end,tracked);
-            }
-            int leftTracked, rightTracked;
-            if (a<mid)            
-                leftTracked = left->setTracking(a,b,tracking);
-            else
-                leftTracked = left->tracked;
-            if (b>mid)
-                rightTracked = right->setTracking(a,b,tracking);
-            else
-                rightTracked = right->tracked;
-            return tracked = max(leftTracked, rightTracked);            
-        }
-        
-        int getTracking(int a, int b)
-        {   
-            if (left == NULL) return tracked;
-            if (a<=begin && end<=b) return tracked;
-            int mid = (end-begin)/2+begin;
-            int leftStatus, rightStatus;
-            if (a<mid)
-                leftStatus = left->getTracking(a,b);
-            else
-                leftStatus = 0;
-            if (b>mid)
-                rightStatus = right->getTracking(a,b);
-            else
-                rightStatus = 0;
-            return max(leftStatus,rightStatus);
+            int leftStatus = left->setStatus(a,b,s);
+            int rightStatus = right->setStatus(a,b,s);
+            return status = max(leftStatus,rightStatus);
         }
         
     };
@@ -82,7 +59,7 @@ public:
         
         SegTree root = SegTree(0,INT_MAX,0);
         for (int i=0; i<buildings.size(); i++)
-            root.setTracking(buildings[i][0],buildings[i][1],buildings[i][2]);        
+            root.setStatus(buildings[i][0],buildings[i][1],buildings[i][2]);        
         
         SegTree* node = &root;
         DFS(node);
@@ -106,12 +83,12 @@ public:
         }
         else
         {
-            if (Set.size()==0 && node->tracked==0)
+            if (Set.size()==0 && node->status==0)
                 return;
-            else if (Set.size()>0 && node->tracked==Set.back().second)
+            else if (Set.size()>0 && node->status==Set.back().second)
                 return;
             else
-                Set.push_back({node->begin,node->tracked});                
+                Set.push_back({node->begin,node->status});                
         }
     }
 };
