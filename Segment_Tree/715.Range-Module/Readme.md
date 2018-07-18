@@ -87,46 +87,38 @@ setTree* right;
             node = NULL;
         }
         
-        bool setTracking(int a, int b, bool tracking)
+                int setStatus(int a, int b, int s)
         {
-            if (a<=begin && end<=b)     //如果该区间被包括在了[a,b]内,则整体标记
+            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回原先的状态
+                return status;                        
+            if (a<=begin && end<=b)            // 2. [a,b]包括了整个区间，将该区间抹平
             {
                 remove(left);
                 remove(right);
-                return tracked = tracking;
-            }
-            int mid = (end-begin)/2+begin;  //如果该区间和[a,b]只是部分相交,则需要往下搜索
-            if (!left)      //如果没有子区间,则需要立即创建.注意子区间的tracked可以完全继承自该区间的tracked
+                return status = s;
+            }         
+            if (!left)                         // 3. [a,b]与该区间相交，需考虑其子树
             {
-                left = new SegTree(begin,mid,tracked);
-                right = new SegTree(mid,end,tracked);
-            }
-            bool leftTracked, rightTracked;
-            if (a<mid)            
-                leftTracked = left->setTracking(a,b,tracking);
-            else
-                leftTracked = left->tracked;
-            if (b>mid)
-                rightTracked = right->setTracking(a,b,tracking);
-            else
-                rightTracked = right->tracked;
-            return tracked = leftTracked && rightTracked; // 父区间的tracked,永远来自两个子区间tracked的"与"
+                int mid = (end-begin)/2+begin;
+                left = new SegTree(begin,mid,status);
+                right = new SegTree(mid,end,status);
+            }            
+            int leftStatus = left->setStatus(a,b,s);
+            int rightStatus = right->setStatus(a,b,s);
+            return status = leftStatus && rightStatus;
         }
-        
-        bool getTracking(int a, int b)
-        {            
-            if (!left && !right) return tracked;
-            if (a<=begin && end<=b) return tracked;            
-            int mid = (end-begin)/2+begin;
-            bool leftTracked, rightTracked;
-            if (a<mid)
-                leftTracked = left->getTracking(a,b);
-            else
-                leftTracked = true;
-            if (b>mid)
-                rightTracked = right->getTracking(a,b);
-            else
-                rightTracked = true;
-            return leftTracked && rightTracked;                
+                
+        int getStatus(int a, int b)
+        {
+            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回一个不影响结果的状态
+                return true;            
+            if (a<=begin && end<=b)            // 2. [a,b]包括了整个区间，返回该区间的状态
+                return status;                        
+            if (!left)                         // 3. [a,b]与该区间相交，但又没有子树，返回整个区间状态
+                return status;
+            int mid = (end-begin)/2+begin;      // 4. [a,b]与该区间相交，需要考虑其子树
+            int leftStatus = left->getStatus(a,b);
+            int rightStatus = right->getStatus(a,b);
+            return leftStatus && rightStatus;            
         }
 ```        
