@@ -323,12 +323,12 @@
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
 
 #### [Meeting Room Series]
-252.Meeting-Rooms   
-253.Meeting-Rooms-II    
-056.Merge-Intervals   
-057.Insert-Intervals    
-732.My-Calendar-III (H-)    
-759.Employee-Free-Time (H)    
+252.Meeting-Rooms (M)  
+253.Meeting-Rooms-II (M)    
+056.Merge-Intervals (M)   
+057.Insert-Intervals (M)    
+732.My-Calendar-III (M)    
+759.Employee-Free-Time (M+)    
 
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
