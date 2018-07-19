@@ -321,6 +321,7 @@
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Sort/442.Find-All-Duplicates-in-an-Array) (M+)  
 731.My-Calendar-II (M+)   
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
+[435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/435.Non-overlapping-Intervals) (M+)   
 
 #### [Meeting Room Series]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
