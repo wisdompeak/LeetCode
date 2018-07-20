@@ -300,7 +300,7 @@
 318.Maximum-Product-of-Word-Lengths (M+)    
 342.Power-of-Four (H)   
 
-#### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide-Conquer)
+#### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer)
 315.Count-of-Smaller-Numbers-After-Self   
 493.Reverse-Pairs (M+)    
 
