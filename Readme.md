@@ -236,7 +236,9 @@
 517.Super-Washing-Machines (H)    
 757.Set-Intersection-Size-At-Least-Two （H）  
 765.Couples-Holding-Hands (H-)    
-[739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures)　（Ｍ＋）   
+[739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures) (M+)   
+[857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers)    
+
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
