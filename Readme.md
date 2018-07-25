@@ -164,7 +164,6 @@
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Priority_Queue/502.IPO/) （H-）   
 [621.Task-Scheduler](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/621.Task-Scheduler) (M+)   
-[253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/253.Meeting-Rooms-II) (H)    
 
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
 051.N-Queens (H)    
@@ -331,7 +330,7 @@
 
 #### [Meeting Room Series]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
-253.Meeting-Rooms-II (M)    
+[253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Sort/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/056.Merge-Intervals) (M)   
 057.Insert-Intervals (M)    
 [732.My-Calendar-III](https://github.com/wisdompeak/LeetCode/tree/master/Sort/732.My-Calendar-III) (M)    
