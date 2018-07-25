@@ -114,6 +114,7 @@
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H)   
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
+370.Range-Addition (M+)   
 
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
