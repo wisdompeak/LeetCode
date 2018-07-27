@@ -356,6 +356,8 @@
 397.Integer-Replacement (H-)    
 [761.Special-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/761.Special-Binary-String) (H)   
 779.K-th-Symbol-in-Grammar (M)    
+[241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (H-)    
+
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
