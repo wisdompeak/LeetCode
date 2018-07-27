@@ -131,6 +131,7 @@
 
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
+[032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
 [536.Construct-Binary-Tree-from-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/536.Construct-Binary-Tree-from-String) (M)   
 [155.Min-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack/155.Min-Stack) (M)   
 [225.Implement Stack using Queues](https://github.com/wisdompeak/LeetCode/tree/master/Stack/225.Implement-Stack-using-Queues) (H-)   
@@ -154,6 +155,8 @@
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 636.Exclusive-Time-of-Functions (H-)    
 726.Number-of-Atoms (M+)    
+
+
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
