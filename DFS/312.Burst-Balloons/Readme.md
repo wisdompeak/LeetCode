@@ -4,8 +4,8 @@
 
 令score[left,right]表示我们想消除[left,right]中所有元素能够得到的分数.消除所有元素的话,肯定有最后一枪:假设最后一枪是k,那么在打灭k之前,一定已经打灭了[left,k-1]和[k+1,right],这两部分的得分可以提前算出来,即score[left,k-1]和score[k+1,right].另外,最后打的K也会得分,分数是什么?注意,应该是nums[left-1]*nums[k]*nums[right+1],即涉及到[left,right]两端外的这两个元素.
 
-所以总的递推关系:cpp
-```
+所以总的递推关系:
+```cpp
 for k = left,...,right
   score(left,right) = max(score(left,k-1)+nums[left-1]*nums[k]*nums[right+1]+score(k+1,right)) 
 ```
