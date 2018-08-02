@@ -234,7 +234,7 @@
 670.Maximum-Swap (M+)   
 [678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H)    
 321.Create-Maximum-Number (H)   
-135.Candy (M+)    
+[135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
 649.Dota2-Senate (H)    
 330.Patching-Array (H)   
 650.2-Keys-Keyboard (M+)    
