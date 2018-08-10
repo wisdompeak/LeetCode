@@ -24,7 +24,7 @@ for(k=0;k<n;k++)
 事实上,每一次转机的机会,都可以有更新e[i][j]一次.那么K次转机的机会,只要更新e[i][j]K次即可.所以最外层的循环次数是K就行.在每次循环中,每张机票(a,b,cost)能够带来多少行程上的改进,可以用DP的思想: ```dp[src][b] = min(dp[src][b],dp[src][a]+cpst)```
 
 所以最终的代码很简单
-```cpp
+```py
 dp_new = dp
 for k in range(K+1):
   for (a,b,cost) in flight:
