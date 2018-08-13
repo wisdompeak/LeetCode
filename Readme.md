@@ -356,7 +356,7 @@
 721.Accounts-Merge (M+)   
 
 #### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
-390.Elimination-Game (H)    
+[390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
 395.Longest Substring with At Least K Repeating Characters (H)    
 397.Integer-Replacement (H-)    
 [761.Special-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/761.Special-Binary-String) (H)   
