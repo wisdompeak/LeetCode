@@ -1,124 +1,91 @@
 /**
- * Definition for a binary tree node.
- * struct TreeNode {
+ * Definition of TreeNode:
+ * class TreeNode {
+ * public:
  *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
+ *     TreeNode *left, *right;
+ *     TreeNode(int val) {
+ *         this->val = val;
+ *         this->left = this->right = NULL;
+ *     }
+ * }
  */
-class Codec {
-public:
 
-    // Encodes a tree to a single string.
-    string serialize(TreeNode* root) 
-    {
+
+class Solution {
+public:
+    /**
+     * This method will be invoked first, you should design your own algorithm 
+     * to serialize a binary tree which denote by a root node to a string which
+     * can be easily deserialized by your own "deserialize" method later.
+     */
+    
+    string serialize(TreeNode * root) 
+    {        
         queue<TreeNode*>q;
         q.push(root);
         string result;
+        
         while (!q.empty())
         {
-            TreeNode *node=q.front();
+            TreeNode* node = q.front();
             q.pop();
+            
             if (node==NULL)
-                result+='#';
+            {
+                result+="@#";
+            }
             else
             {
-                result+=to_string(node->val);
+                result+= to_string(node->val)+"#";
                 q.push(node->left);
                 q.push(node->right);
             }
-            result+=',';
-        }
-        cout<<result<<endl;
+        }        
         return result;
-        
     }
 
-    // Decodes your encoded data to tree.
-    TreeNode* deserialize(string data) 
+    /**
+     * This method will be invoked second, the argument data is what exactly
+     * you serialized at method "serialize", that means the data is not given by
+     * system, it's given by your own serialize method. So the format of data is
+     * designed by yourself, and deserialize it here as you serialize it in 
+     * "serialize" method.
+     */
+    TreeNode * deserialize(string &data) 
     {
-
-        vector<string>q;
+        vector<TreeNode*>q;
         
-        int i=0;
-        int j=0;
-        while (i<data.size())
+        for (int i=0; i<data.size(); i++)
         {
-            if (data[i]==',')
+            if (data[i]=='@')
             {
+                q.push_back(NULL);
                 i++;
-                continue;
             }
             else
             {
-                string temp;
-                while (data[i]!=',')
-                {
-                    temp+=data[i];
+                int i0 = i;
+                while (data[i]!='#')
                     i++;
-                }
-                q.push_back(temp);
+                int num = stoi(data.substr(i0,i-i0));
+                TreeNode* node = new TreeNode(num);
+                q.push_back(node);
             }
         }
         
-        for (int i=0; i<q.size(); i++)
-            cout<<q[i]<<" ";
-        cout<<endl;
-            
-        TreeNode* root;;
-        vector<TreeNode*>nodeArray(q.size());
-        
-        if (q[0]=="#")
-            nodeArray[0]= NULL;
-        else
-            nodeArray[0]= new TreeNode(stoi(q[0],nullptr,10));
-        
-        i=0;
-        j=1;
-        while (i<q.size())
+        int i = 0;
+        int j = 1;        
+        while (j<q.size())
         {
-            if (q[i]=="#")
+            if (q[i]!=NULL)
             {
-                i++;
-                continue;
-            }
-            else
-            {
-                if (q[j]=="#")
-                {
-                    nodeArray[j] = NULL;
-                }
-                else
-                {
-                    int val;
-                    val = stoi(q[j],nullptr,10);
-                    nodeArray[j] = new TreeNode(val);
-                }
-                nodeArray[i]->left = nodeArray[j];
-                j++;
-                
-                if (q[j]=="#")
-                {
-                    nodeArray[j] = NULL;
-                }
-                else
-                {
-                    int val;
-                    val = stoi(q[j],nullptr,10);
-                    nodeArray[j] = new TreeNode(val);
-                }
-                nodeArray[i]->right = nodeArray[j];
-                j++;
-                
-                i++;
-            }
-        }
-        
-        return nodeArray[0];
+                q[i]->left = q[j];
+                q[i]->right = q[j+1];
+                j+=2;
+            }            
+            i++;
+        }        
+        return q[0];
     }
 };
-
-// Your Codec object will be instantiated and called as such:
-// Codec codec;
-// codec.deserialize(codec.serialize(root));
