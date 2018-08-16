@@ -11,15 +11,13 @@
  * }
  */
 
-
 class Solution {
 public:
     /**
      * This method will be invoked first, you should design your own algorithm 
      * to serialize a binary tree which denote by a root node to a string which
      * can be easily deserialized by your own "deserialize" method later.
-     */
-    
+     */    
     string serialize(TreeNode * root) 
     {        
         queue<TreeNode*>q;
@@ -54,8 +52,7 @@ public:
      */
     TreeNode * deserialize(string &data) 
     {
-        vector<TreeNode*>q;
-        
+        vector<TreeNode*>q;        
         for (int i=0; i<data.size(); i++)
         {
             if (data[i]=='@')
