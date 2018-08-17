@@ -23,6 +23,7 @@
 [611.Valid-Triangle-Number](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/611.Valid-Triangle-Number)	(M+)   
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search)
+[004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)    
 [154.Find Minimum in Rotated Sorted Array II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/154.Find-Minimum-in-Rotated-Sorted-Array-II) (H-)         
 [033.Search in Rotated Sorted Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/033.Search-in-Rotated-Sorted-Array) (M)   
 [081.Search-in-Rotated-Sorted-Array-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/081.Search-in-Rotated-Sorted-Array-II) (M)      
