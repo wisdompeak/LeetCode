@@ -242,6 +242,7 @@
 649.Dota2-Senate (H)    
 330.Patching-Array (H)   
 650.2-Keys-Keyboard (M+)    
+683.K-Empty-Slots　(H)   
 517.Super-Washing-Machines (H)    
 757.Set-Intersection-Size-At-Least-Two （H）  
 765.Couples-Holding-Hands (H-)    
