@@ -21,3 +21,4 @@
 for (int j=2; j<=N; j++)        
     if (p[j]=='*') dp[0][j]=dp[0][j-2];        
 ```
+与此题类似的还有044.Wildcard Matching，其边界条件也很类似，需要特别小心．
