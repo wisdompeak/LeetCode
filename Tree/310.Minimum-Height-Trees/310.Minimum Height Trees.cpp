@@ -2,38 +2,52 @@ class Solution {
 public:
     vector<int> findMinHeightTrees(int n, vector<pair<int, int>>& edges) 
     {
-        unordered_map<int,unordered_set<int>>graph;
-        for (int i=0; i<edges.size(); i++)
+        if (n==1) return {0};
+        if (n==2) return {0,1};
+        
+        unordered_map<int,int>Degree;
+        unordered_map<int,vector<int>>Up;
+        
+        for (auto edge:edges)
         {
-            graph[edges[i].first].insert(edges[i].second);
-            graph[edges[i].second].insert(edges[i].first);
+            Degree[edge.first]++;
+            Degree[edge.second]++;
+            Up[edge.second].push_back(edge.first);
+            Up[edge.first].push_back(edge.second);
         }
         
-        unordered_set<int>candidates;
-        for (int i=0; i<n; i++)
-            candidates.insert(i);
+        queue<int>q;
+        for (auto a:outDegree)
+            if (a.second==1) q.push(a.first);
         
-        while (candidates.size()>2)
+        int count = 0;
+        while (!q.empty())
         {
-            vector<int>temp;
-            
-            for (auto a:candidates)
+            int k = q.size();
+            for (int i=0; i<k; i++)
             {
-                if (graph[a].size()==1)
-                    temp.push_back(a);
+                int node = q.front();
+                q.pop();
+                count++;
+
+                for (auto upNode: Up[node])
+                {
+                    Degree[upNode]--;
+                    if (Degree[upNode]==1)
+                        q.push(upNode);
+                }
             }
-            for (auto a:temp)
+                       
+            if (count+q.size()==n)
             {
-                candidates.erase(a);
-                for (auto b:graph[a])
-                    graph[b].erase(a);
+                vector<int>results;
+                while (!q.empty())
+                {
+                    results.push_back(q.front());
+                    q.pop();
+                }
+                return results;
             }
         }
-        
-        vector<int>results;
-        for (auto a:candidates) results.push_back(a);
-        
-        return results;
-        
     }
 };
