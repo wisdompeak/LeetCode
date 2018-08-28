@@ -242,7 +242,7 @@
 321.Create-Maximum-Number (H)   
 [135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
 649.Dota2-Senate (H)    
-330.Patching-Array (H)   
+[330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 650.2-Keys-Keyboard (M+)    
 683.K-Empty-Slots　(H)   
 517.Super-Washing-Machines (H)    
