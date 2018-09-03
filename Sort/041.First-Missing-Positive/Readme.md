@@ -13,6 +13,6 @@
 287.Find the Duplicate Number
 442.Find-All-Duplicates-in-an-Array 
 448.Find-All-Numbers-Disappeared-in-an-Array 
-645. Set Mismatch，
+645.Set Mismatch，
 ```
 也用到了array indexing.
