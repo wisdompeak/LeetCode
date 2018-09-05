@@ -16,6 +16,7 @@
 [088.Merge Sorted Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/088.Merge-Sorted-Array) (M)  
 [283.Move-Zeroes](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/283.Move-Zeroes) (M)      
 [141.Linked-List-Cycle](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/141.Linked-List-Cycle) (E+)      
+[287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/blob/master/Linked_List/142.Linked-List-Cycle-II/) (H)    
 [340.Longest-Substring-with-At-Most-K-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/340.Longest-Substring-with-At-Most-K-Distinct-Characters) (H)    
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)   
 [360.Sort-Transformed-Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/360.Sort-Transformed-Array) (M)    
@@ -257,7 +258,7 @@
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
 [086.Partition-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/086.Partition-List) (M)   
-[142.Linked List Cycle II](https://github.com/wisdompeak/LeetCode/blob/master/Linked_List/142.Linked-List-Cycle-II/Readme.md) (M+)  
+[142.Linked List Cycle II](https://github.com/wisdompeak/LeetCode/blob/master/Linked_List/142.Linked-List-Cycle-II/) (M+)  
 [109.Convert-Sorted-List-to-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/109.Convert-Sorted-List-to-Binary-Search-Tree) (M)   
 092.Reverse-Linked-List-II (H)    
 143.Reorder-List (H)    
