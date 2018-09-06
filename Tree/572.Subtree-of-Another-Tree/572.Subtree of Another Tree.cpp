@@ -11,16 +11,18 @@ class Solution {
 public:
     bool isSubtree(TreeNode* s, TreeNode* t) 
     {
-        if (sameTree(s,t)) return true;
-        return s->left!=NULL && isSubtree(s->left,t)||s->right!=NULL && isSubtree(s->right,t);
+        if (s==NULL||t==NULL)
+            return (s==t);
+        if (isSame(s,t))
+            return true;
+        else
+            return isSubtree(s->left,t) || isSubtree(s->right,t);
     }
     
-    bool sameTree(TreeNode*s, TreeNode* t)
+    bool isSame(TreeNode* a, TreeNode* b)
     {
-        if (s==NULL || t==NULL) return (s==t);
-        if (s->val==t->val)
-            return sameTree(s->left,t->left)&&sameTree(s->right,t->right);
-        else
-            return false;
+        if (a==NULL || b==NULL) return a==b;
+        if (a->val!=b->val) return false;
+        return isSame(a->left,b->left) && isSame(a->right,b->right);
     }
 };
