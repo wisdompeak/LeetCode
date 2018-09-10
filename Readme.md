@@ -344,6 +344,7 @@
 164.Maximum-Gap (H)   
 [581.shortest-unsorted-continuous-subarray](https://github.com/wisdompeak/LeetCode/tree/master/Sort/581.shortest-unsorted-continuous-subarray) (M+)   
 215.Kth-Largest-Element-in-an-Array (M)   
+[275.H-Index-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/275.H-Index-II) (M+)    
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Sort/442.Find-All-Duplicates-in-an-Array) (M+)  
 448.Find-All-Numbers-Disappeared-in-an-Array (M+)   
 [731.My-Calendar-II](https://github.com/wisdompeak/LeetCode/tree/master/Sort/731.My-Calendar-II) (M+)   
