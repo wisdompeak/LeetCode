@@ -2,51 +2,39 @@ class Solution {
 public:
     string minWindow(string s, string t) 
     {
-        vector<int>Table(256,0);
-        for (int i=0; i<t.size(); i++)
-            Table[t[i]]++;
-        int COUNT=t.size();
-            
-        vector<int>Map(256,0);
-
-        int i=0;
-        int j=0;
-        int count=0;
-        
         string result;
-        int len=INT_MAX;
+        int len = INT_MAX;
+        
+        unordered_map<char,int>Table;        
+        for (auto ch: t)        
+            Table[ch]++;        
+        int COUNT = Table.size();
+        
+        unordered_map<char,int>Map;
+        int i = 0;
+        int count = 0;
         
         for (int j=0; j<s.size(); j++)
-        {
-            if (Table[s[j]]==0)
-                Map[s[j]]++;
-            else 
+        {        
+            Map[s[j]]++;
+            if (Map[s[j]]==Table[s[j]])
+                count++;
+            
+            while (count==COUNT)
             {
-                Map[s[j]]++;
-                if (Map[s[j]]<=Table[s[j]])
-                    count++;
-                
-                if (count==COUNT)
+                if (j-i+1<len)
                 {
-                    while (i<j && Map[s[i]]>Table[s[i]])
-                    {
-                        Map[s[i]]--;
-                        i++;
-                    }
-                    if (len>j-i+1)
-                    {
-                        cout<<i<<" "<<j<<endl;
-                        len=j-i+1;
-                        result = s.substr(i,len);
-                    }
-                    Map[s[i]]--;
-                    i++;
-                    count--;
+                    len = j-i+1;
+                    result = s.substr(i,j-i+1);
                 }
+                
+                Map[s[i]]--;
+                if (Map[s[i]]<Table[s[i]])
+                    count--;
+                i++;                
             }
         }
-        
+            
         return result;
-        
     }
 };
