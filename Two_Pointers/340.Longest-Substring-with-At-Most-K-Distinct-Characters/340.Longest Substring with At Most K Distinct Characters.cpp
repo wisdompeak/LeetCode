@@ -2,42 +2,25 @@ class Solution {
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) 
     {
-        if (k==0) return 0;
+        unordered_map<char,int>Map;
+        int len = 0;
         
         int i=0;
-        int j=0;
-        vector<int>Map(256,0);
-        int count=0;
-        int result = 0;
-        
-        while (j<s.size())
+        for (int j=0; j<s.size(); j++)
         {
-            //cout<<i<<j<<endl;
+            Map[s[j]]++;
             
-            if (Map[s[j]]>0)
-            {
-                Map[s[j]]++;
-                if (count<=k)
-                    result = max(result,j-i+1);
-                j++;
-            }
-            else if (Map[s[j]]==0 && count<k)
-            {
-                Map[s[j]]++;
-                count++;
-                result = max(result,j-i+1);
-                j++;
-            }
-            else if (Map[s[j]]==0 && count==k)
+            if (Map.size()<=k)
+                len = max(len,j-i+1);
+            else while (Map.size()>k)
             {
                 Map[s[i]]--;
-                if (Map[s[i]]==0) count--;
+                if (Map[s[i]]==0)
+                    Map.erase(s[i]);
                 i++;
             }
-
         }
         
-        return result;
-        
+        return len;
     }
 };
