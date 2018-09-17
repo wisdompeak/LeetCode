@@ -2,23 +2,23 @@ class Solution {
 public:
     int characterReplacement(string s, int k) 
     {
-        int i = 0;
-        unordered_map<char,int>Map;
-        int maxNum = 0;
+        vector<int>Count(26,0);        
+        int i = 0;        
         int result = 0;
         
         for (int j=0; j<s.size(); j++)
         {
-            Map[s[j]]++;
-            maxNum = max(maxNum, Map[s[j]]);
+            Count[s[j]-'A']++;
+            int majorityNum = *max_element(Count.begin(),Count.end());
             
-            if (j-i+1 - maxNum <= k)
-                result = max(result,j-i+1);
-            else 
+            if (j-i+1-majorityNum <=k)
+                result = max(result, j-i+1);
+            else
             {
-                Map[s[i]]--;
-                i++;    
-            }                
+                Count[s[i]-'A']--;
+                i++;
+            }
+            
         }
         return result;
     }
