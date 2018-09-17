@@ -377,7 +377,7 @@
 
 #### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
 [390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
-395.Longest Substring with At Least K Repeating Characters (H)    
+[395.Longest-Substring-with-At-Least-K-Repeating-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/395.Longest-Substring-with-At-Least-K-Repeating-Characters) (H)    
 397.Integer-Replacement (H-)    
 [761.Special-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/761.Special-Binary-String) (H)   
 779.K-th-Symbol-in-Grammar (M)    
