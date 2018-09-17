@@ -2,11 +2,22 @@
 
 请多练，条件判断要考虑全面，做到bug free  
 
-1，Map[s[j]]>0 该怎么办？  
-要更新Map[s[j]]；更新result；j++；
-
-2，Map[s[j]]==0 && count<k 该怎么办？  
-要更新Map[s[j]]；更新result；j++；count++;
-
-3，Map[s[j]]==0 && count==k 该怎么办？  
-要更新Map[s[i]]；更新count；i--；
+基本的模板是：
+```
+int i = 0;
+for (int j=0; j<s.size(); j++)
+{
+  Map[s[j]]++;
+  
+  if (满足条件）
+  {
+    记录和更新答案；
+  }
+  else (不满足条件，需要移动左指针)
+  {
+    Map[s[i]]--;
+    处理Map；
+    i++;
+  }  
+}
+```
