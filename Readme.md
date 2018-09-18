@@ -61,7 +61,7 @@
 [356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Hash/356.Line-Reflection) (H-)    
 [594.Longest-Harmonious-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/594.Longest-Harmonious-Subsequence) (M+)   
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/532.K-diff-Pairs-in-an-Array) (E+)   
-424.Longest-Repeating-Character-Replacement （M）   
+[424.Longest-Repeating-Character-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Hash/424.Longest-Repeating-Character-Replacement) （H）   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H)    
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
 * ``Ordered_container``   
