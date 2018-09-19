@@ -334,6 +334,7 @@
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
+[418.Sentence-Screen-Fitting](https://github.com/wisdompeak/LeetCode/tree/master/String/418.Sentence-Screen-Fitting) (M+)   
 [527.Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/527.Word-Abbreviation) (M+)   
 [336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)   
 [647.Palindromic-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/String/647.Palindromic-Substrings) (M+)   
