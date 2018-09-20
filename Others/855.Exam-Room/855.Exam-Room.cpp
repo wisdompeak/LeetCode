@@ -1,10 +1,10 @@
 class ExamRoom {
-    vector<int>L;
     int N;
+    vector<int>L;
 public:
     ExamRoom(int N) 
     {
-        this->N = N;
+        this->N = N;        
     }
     
     int seat() 
@@ -14,27 +14,31 @@ public:
             L.push_back(0);
             return 0;
         }
-        int maxGap = 0;
+        
+        int maxGap = -1;
         int pos;
-        for (int i=1; i<L.size(); i++)
+        
+        if (L[0]!=0)
         {
-            if ((L[i]-L[i-1])/2>maxGap)
+            pos = 0;
+            maxGap = L[0]-1;
+        }
+        for (int i=0; i<L.size()-1; i++)
+        {
+            if (L[i+1]!=L[i]+1 && (L[i+1]-L[i]-2)/2 > maxGap)
             {
-                maxGap = (L[i]-L[i-1])/2;
-                pos = (L[i]+L[i-1])/2;
+                maxGap = (L[i+1]-L[i]-2)/2 ;
+                pos = L[i]+maxGap+1;
             }
-        }        
-        if (N-1-L.back()>maxGap)
+        }
+        if (L.back()!=N-1 && N-1-L.back()-1>maxGap)
         {
-            maxGap = N-1-L.back();
+            maxGap = N-1-L.back()-1;
             pos = N-1;
         }
-        if (L[0]>=maxGap)
-        {
-            maxGap = L[0]-1;
-            pos = 0;
-        }
-        L.insert(lower_bound(L.begin(),L.end(),pos),pos);
+        
+        L.insert(lower_bound(L.begin(),L.end(),pos), pos);
+
         return pos;
     }
     
