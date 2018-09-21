@@ -1,31 +1,47 @@
 class Solution {
+    int maxChoosableInteger;
+    int desiredTotal;
     unordered_map<int,bool>Map;
 public:
     bool canIWin(int maxChoosableInteger, int desiredTotal) 
     {
-        if (desiredTotal<=maxChoosableInteger) return true;
-        if ((1+maxChoosableInteger)*maxChoosableInteger/2<desiredTotal) return false;
+        if (desiredTotal==0) return true;
+        if (desiredTotal > (1+maxChoosableInteger)*maxChoosableInteger/2)
+            return false;
         
-        int status=0;
-        return DFS(maxChoosableInteger, desiredTotal, status);
+        this->maxChoosableInteger = maxChoosableInteger;
+        this->desiredTotal = desiredTotal;        
+        return DFS(0);
     }
     
-    bool DFS(int& maxChoosableInteger, int desiredTotal, int status) 
+    bool DFS(int status)
     {
-        if (desiredTotal<=0) return false;
         if (Map.find(status)!=Map.end()) return Map[status];
+        
+        int sum = 0;
+        for (int i=1; i<=maxChoosableInteger; i++)
+        {
+            if (((status>>i)&1)==1)
+                sum+=(i);
+        }        
+        if (sum>=desiredTotal) 
+        {
+            Map[status] = false;
+            return false;
+        }
         
         for (int i=1; i<=maxChoosableInteger; i++)
         {
             if (((status>>i)&1)==1) continue;
-            if (DFS(maxChoosableInteger,desiredTotal-i, status|(1<<i)))
-                Map[status]=false;
-            else
+            int newStatus = status | (1<<i);
+            if (DFS(newStatus)==false)
             {
-                Map[status]=true;
-                return true;
+                Map[status] = true;
+                return true;            
             }
         }
+        
+        Map[status] = false;
         return false;
     }
 };
