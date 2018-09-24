@@ -406,7 +406,7 @@
 087.Scramble-String (H)   
 458.Poor-Pigs (H)   
 391.Perfect-Rectangle (H)   
-382.Linked-List-Random-Node (H)   
+[382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Others/382.Linked-List-Random-Node) (H)   
 645.Set-Mismatch (H)    
 423.Reconstruct-Original-Digits-from-English (H-)   
 335.Self-Crossing (H)   
