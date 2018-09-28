@@ -2,62 +2,64 @@ class WordFilter {
     class TrieNode
     {
         public:
-            TrieNode* next[27];
-            bool isEnd;
-            int weight;
+        bool isEnd;
+        TrieNode* next[27];
+        vector<int>ids;
         TrieNode()
         {
+            isEnd = false;
             for (int i=0; i<27; i++)
-                next[i]=NULL;
-            weight=-1;
+                next[i] = NULL;
         }
-    };    
+        
+    };
     TrieNode* root;
+    
 public:
+    
+    void buildTree(TrieNode* root, string S, int id)
+    {
+        TrieNode* node = root;
+        for (char ch:S)
+        {
+            if (node->next[ch-'a']==NULL)
+                node->next[ch-'a'] = new TrieNode();
+            node = node->next[ch-'a'];
+            node->ids.push_back(id);
+        }
+    }    
+    
     WordFilter(vector<string> words) 
     {
-        root = new TrieNode();        
+        root = new TrieNode();
         for (int i=0; i<words.size(); i++)
         {
-            for (int j=0; j<words[i].size(); j++)
+            string word = words[i];
+            string rWord;
+            for (int j=0; j<word.size(); j++)
             {
-                string suf=words[i].substr(j);                                    
-                reverse(suf.begin(),suf.end());
-                insert(root,suf+"{"+words[i],i);
+                rWord = word.substr(j);
+                reverse(rWord.begin(),rWord.end());
+                buildTree(root, rWord+"{"+word,i);
             }
-            insert(root,"{"+words[i],i);
+            buildTree(root, "{"+word,i);
         }
     }
     
     int f(string prefix, string suffix) 
     {
         reverse(suffix.begin(),suffix.end());
-        string s = suffix+"{"+prefix;
-        
+        string S = suffix+"{"+prefix;
         TrieNode* node = root;
-        for (int i=0; i<s.size(); i++)
+        for (char ch:S)
         {
-            char ch=s[i];
             if (node->next[ch-'a']==NULL)
                 return -1;
-            node=node->next[ch-'a'];
-        }        
-        return node->weight;
-    }
-    
-    void insert(TrieNode* root, string word, int weight) 
-    {
-        TrieNode* node=root;
-        for (int i=0; i<word.size(); i++)
-        {
-            char ch=word[i];
-            if (node->next[ch-'a']==NULL)
-                node->next[ch-'a']=new TrieNode();
-            node=node->next[ch-'a'];
-            if (node->weight<weight)
-                node->weight=weight;
+            else
+                node = node->next[ch-'a'];
         }
-    }    
+        return node->ids.back();
+    }
 };
 
 /**
