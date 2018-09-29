@@ -211,6 +211,7 @@
 407.Trapping-Rain-Water-II  
 378.Kth-Smallest-Element-in-a-Sorted-Matrix (H)    
 310.Minimum-Height-Trees (H)    
+529.Minesweeper (M+)    
 637.Average-of-Levels-in-Binary-Tree (M)   
 675.Cut-Off-Trees-for-Golf-Event (M)    
 694.Number-of-Distinct-Islands (M+)   
