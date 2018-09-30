@@ -18,3 +18,31 @@
 技巧：
 1. 把数字转化为字符串 to_string(num) 会自动处理负号
 1. 把字符串转化为数字 stoi(str) 也会自动处理负号
+
+
+#### 解法2：
+编码可以用inorder遍历的方法递归得到，代码非常简洁：
+```cpp
+    string serialize(TreeNode* root) 
+    {
+        if (root==NULL) return "#";
+        return to_string(root->val)+","+serialize(root->left)+","+serialize(root->right);        
+    }
+```
+得到的一定是唯一的序列字符串。
+
+解码的时候首先将各个节点通过逗号的间隔抽取出来。重建的时候也是要设计递归。
+```cpp
+    TreeNode* DFS(vector<string>&q, int a)
+    {
+        if (q[a]=="#") return NULL;
+        TreeNode* root = new TreeNode(stoi(q[a]));
+        TreeNode* left = DFS(q,a+1);
+        int leftSize = getSize(left);
+        TreeNode* right = DFS(q,a+1+leftSize);        
+        root->left = left;
+        root->right = right;
+        return root;
+    }
+```
+需要额外一个getSize函数来计算这个子树共有多少个元素。
