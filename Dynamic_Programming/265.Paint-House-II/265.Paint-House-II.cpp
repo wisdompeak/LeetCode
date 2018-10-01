@@ -7,45 +7,34 @@ public:
         int K = costs[0].size();
                 
         auto dp = vector<vector<int>>(N,vector<int>(K,0));
-        
-        int Min1Color=-1, Min2Color=-1;
+        int minColor1 = -1;
+        int minColor2 = -1;
         
         for (int i=0; i<N; i++)
         {
-            int Min1 = INT_MAX, Min2 = INT_MAX;
-            int NewMin1Color, NewMin2Color;
-         
+            int min1 = INT_MAX, min2 = INT_MAX;
+            int newMinColor1, newMinColor2;
+            
             for (int j=0; j<K; j++)
             {
-                if (i==0)
-                {
-                    dp[i][j] = costs[0][j];
-                }
+                if (j==minColor1)                
+                    dp[i][j] = (i==0)? costs[i][j] : dp[i-1][minColor2]+costs[i][j];
                 else
+                    dp[i][j] = (i==0)? costs[i][j] : dp[i-1][minColor1]+costs[i][j];
+                
+                if (dp[i][j]<min1)
                 {
-                    if (j==Min1Color)
-                        dp[i][j] = dp[i-1][Min2Color]+costs[i][j];
-                    else
-                        dp[i][j] = dp[i-1][Min1Color]+costs[i][j];
+                    min2 = min1; newMinColor2 = newMinColor1;
+                    min1 = dp[i][j]; newMinColor1 = j;                    
                 }
-            
-                if (dp[i][j]<Min1)
+                else if (dp[i][j]<min2)
                 {
-                    Min2 = Min1;
-                    NewMin2Color = NewMin1Color;
-                    Min1 = dp[i][j];
-                    NewMin1Color = j;
-                }
-                else if (dp[i][j]<Min2)
-                {
-                    Min2 = dp[i][j];
-                    NewMin2Color = j;
+                    min2 = dp[i][j]; newMinColor2 = j;
                 }
             }
-            
-            Min1Color = NewMin1Color;
-            Min2Color = NewMin2Color;            
-        }        
-        return dp[N-1][Min1Color];
+            minColor1 = newMinColor1;
+            minColor2 = newMinColor2;
+        }
+        return dp[N-1][minColor1];        
     }
 };
