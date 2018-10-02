@@ -193,6 +193,7 @@
 037.Sudoku-Solver (H-)    
 488.Zuma-Game (H-)    
 332.Reconstruct-Itinerary (H)   
+425.Word-Squares (H-)  
 465.Optimal-Account-Balancing (H)   
 * ``memorization``    
 [464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)   
