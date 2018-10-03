@@ -289,7 +289,7 @@
 [600.Non-negative-Integers-without-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/600.Non-negative-Integers-without-Consecutive-Ones) (H)    
 115.Distinct-Subsequences (H)   
 [656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
-152.Maximum-Product-Subarray (M+)   
+[152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H-)    
 474.Ones-and-Zeroes (H-)      
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
