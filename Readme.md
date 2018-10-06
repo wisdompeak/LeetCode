@@ -192,7 +192,7 @@
 [698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-)    
 037.Sudoku-Solver (H-)    
 488.Zuma-Game (H-)    
-332.Reconstruct-Itinerary (H)   
+[332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
 425.Word-Squares (H-)  
 465.Optimal-Account-Balancing (H)   
 * ``memorization``    
