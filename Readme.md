@@ -431,6 +431,7 @@
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
 794.Valid-Tic-Tac-Toe-State (M+)    
 855.Exam-Room (M+)    
+918.Maximum-Sum-Circular-Subarray (H-)    
 
 #### [Random Pick Series]
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Others/382.Linked-List-Random-Node) (H)   
