@@ -3,7 +3,7 @@ public:
     int maxSubarraySumCircular(vector<int>& A) 
     {
         int globalMax = INT_MIN;    // cannot be 0-element
-        int globalMin = 0;          // can be 0-elelment
+        int globalMin = 0;          // can be 0-elelment, but cannot cantain all elements
         int N = A.size();
         vector<int>LocalMin(N);
         vector<int>LocalMax(N);
@@ -21,7 +21,7 @@ public:
             globalMin = min(globalMin,LocalMin[i]);
         }
         
-        if (Sum==globalMin)     // in this case, the subarray has no elements
+        if (Sum==globalMin)     // in this case, the minimum subarray contain all elements, which is invalid
             return globalMax;
         else
             return max(globalMax,Sum-globalMin);
