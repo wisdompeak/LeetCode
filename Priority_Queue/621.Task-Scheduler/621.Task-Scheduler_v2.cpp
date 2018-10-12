@@ -6,16 +6,17 @@ public:
         for (auto ch: tasks)
             Map[ch]++;
         
-        vector<int>q;
-        for (auto a:Map) q.push_back(a.second);        
-        sort(q.begin(),q.end());        
+        int maxFreq = 0;
+        for (auto a:Map)
+            maxFreq = max(maxFreq, a.second);
         
-        int maxFreq = q.back();
-        int idle = (maxFreq-1)*(n+1);
-        
-        for (int i = q.size()-1; i>=0; i--)
-            idle -= min(q[i], maxFreq-1);
-                
-        return tasks.size()+max(0,idle);
+        int result = (maxFreq-1)*(n+1);
+        int count = 0;
+        for (auto a:Map)
+        {
+            if (a.second == maxFreq)
+                count++;
+        }
+        return max(result+count, (int)tasks.size());
     }
 };
