@@ -10,40 +10,23 @@
         for (auto a:Map)
             q.push({a.second,a.first});
 ```            
-每次取q中的前K个元素（每个元素代表不同的字符）加入临时数组temp；取完后将这些temp里的元素的个数减一后再放回q中；直至q中的元素（不同字符种类）少于K个。
+每次取q中的前K个元素（每个元素代表不同的字符）加入临时数组temp；取完后将这些temp里的元素的个数减一后再放回q中。直至某一回合，如果pq的字符种类个数小于K，但是该轮结束后temp非空，说明我们还需要往result里加字符，这样就会违法K个相邻字符不能有相同字符的规则，返回空。
 ```cpp
-        while (q.size()>=k)
+        while (!pq.empty())
         {
+            int n = min(k, (int)pq.size());
             vector<pair<int,char>>temp;
             
-            for (int i=0; i<k; i++)
+            for (int i=0; i<n; i++)
             {
-                result+=q.top().second;
-                temp.push_back(q.top());
-                temp.back().first--;
-                q.pop();
+                int num = pq.top().first;
+                int ch = pq.top().second;
+                pq.pop();
+                result+=ch;
+                num--;
+                if (num!=0) temp.push_back({num,ch});
             }
-            for (int i=0; i<k; i++)
-            {
-                if (temp[i].first>0)
-                    q.push(temp[i]);
-            }
+            if (n<k && temp.size()>0) return "";
+            for (auto a:temp) pq.push(a);
         }
 ```
-这时候查看，如果q中还有字符、并且字符的频次大于1的话，说明此时再取K个字符的话必定会造成重复。
-```
-        if (q.empty()) return result;  //已经恰取完，OK
-        
-        if (q.top().first>1)  //q中还有字符、并且字符的频次大于1的话，失败
-        {
-            result="";
-            return result;
-        }
-        
-        while (!q.empty())  //q中还有字符、并且字符的频次等于1，可以放心地加入result
-        {
-            result+=q.top().second;
-            q.pop();
-        }
-        return result;
-```        
