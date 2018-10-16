@@ -3,48 +3,29 @@ public:
     string rearrangeString(string s, int k) 
     {
         if (k==0) return s;
-        
         unordered_map<char,int>Map;
-        for (int i=0; i<s.size(); i++)
-            Map[s[i]]++;
+        for (auto ch:s) Map[ch]++;
+        priority_queue<pair<int,char>>pq;
+        for (auto a:Map) pq.push({a.second,a.first});
         
-        priority_queue<pair<int,char>>q;
-        for (auto a:Map)
-            q.push({a.second,a.first});
-            
         string result;
-        while (q.size()>=k)
+        while (!pq.empty())
         {
+            int n = min(k, (int)pq.size());
             vector<pair<int,char>>temp;
             
-            for (int i=0; i<k; i++)
+            for (int i=0; i<n; i++)
             {
-                result+=q.top().second;
-                temp.push_back(q.top());
-                temp.back().first--;
-                q.pop();
+                int num = pq.top().first;
+                int ch = pq.top().second;
+                pq.pop();
+                result+=ch;
+                num--;
+                if (num!=0) temp.push_back({num,ch});
             }
-            for (int i=0; i<k; i++)
-            {
-                if (temp[i].first>0)
-                    q.push(temp[i]);
-            }
-        }
-        
-        if (q.empty()) return result;
-        
-        if (q.top().first>1) 
-        {
-            result="";
-            return result;
-        }
-        
-        while (!q.empty())
-        {
-            result+=q.top().second;
-            q.pop();
+            if (n<k && temp.size()>0) return "";
+            for (auto a:temp) pq.push(a);
         }
         return result;
-        
     }
 };
