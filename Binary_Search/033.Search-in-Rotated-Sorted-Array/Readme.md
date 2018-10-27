@@ -41,3 +41,30 @@
                 left=mid+1;
         }
 ```        
+
+#### 解法3
+有一个更巧妙的解法。普通的二分搜索，需要比较nums[mid]和target的值。本题中，因为nums[mid]和target可能不会再同一个单调区间，所以他们的比较对于指导[left,right]的update没有帮助。那么如果遇到这种情况，该怎么办呢？
+
+我们发现，如果我们能判断出target在左边的单调区间，而nums[mid]在右边的单调区间，那么我们就认为nums[mid]为INT_MAX就可以了。这样就会引导[left,right]往左边压缩。如果我们能判断出target在右边的单调区间，而nums[mid]在左边的单调区间，那么我们就认为nums[mid]为INT_MIN就可以了。这样就会引导[left,right]往右边压缩。这样，常规的二分搜索就能迅速定位target了。
+
+```cpp
+while (left<=right)
+        {
+            int mid = (right-left)/2+left;
+            int val;
+            if (nums[mid]<nums[0] == target<nums[0])    //判断是否在同一个单调区间
+                val = nums[mid];
+            else if (target<nums[0])
+                val = INT_MIN;
+            else
+                val = INT_MAX;
+            
+            if (val==target)
+                return mid;
+            else if (val<target)
+                left = mid+1;
+            else
+                right = mid-1;                
+        }        
+        return -1;
+```        
