@@ -427,7 +427,7 @@
 [466.Count-The-Repetitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/466.Count-The-Repetitions) (H)   
 810.Chalkboard-XOR-Game (H)   
 420.Strong-Password-Checker (H)   
-214.Shortest-Palindrome (H)     
+[214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 808.Soup-Servings (H)   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
 794.Valid-Tic-Tac-Toe-State (M+)    
