@@ -20,3 +20,14 @@ for (int i=0; i<A.size(); i++)
     Map[count]++;
 }
 ```
+最终的结果是：
+```cpp
+int count = 0;
+int result = 0;
+for (int i=0; i<A.size(); i++)
+{
+    count+=A[i];
+    result+=Map[count-S];
+}
+return result;
+```
