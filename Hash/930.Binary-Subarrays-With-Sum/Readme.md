@@ -13,21 +13,13 @@
 构造这个预处理字典的代码是：
 ```cpp
 int count = 0;
+int result = 0;
 Map[0] = 1;
 for (int i=0; i<A.size(); i++)
 {
     count+=A[i];
+    result+=Map[count-S]; //注意，先做这一步操作．
     Map[count]++;
-}
-```
-最终的结果是：
-```cpp
-int count = 0;
-int result = 0;
-for (int i=0; i<A.size(); i++)
-{
-    count+=A[i];
-    result+=Map[count-S];
 }
 return result;
 ```
