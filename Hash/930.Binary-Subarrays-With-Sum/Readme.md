@@ -9,17 +9,3 @@
 我们用Map[k]表示，数组Ａ前缀恰好有k个１的位置，其之后会紧跟着有多少个0．
 
 假设遍历到j位置，累计有count个1，那么我们需要定位到前缀累计有count-S个１的位置，其之后有多少个紧跟着的0，比如说有M个，就说明起点i有多少M+1个方案．这里注意，如果没有紧跟着的0,也算是一种方案．
-
-构造这个预处理字典的代码是：
-```cpp
-int count = 0;
-int result = 0;
-Map[0] = 1;
-for (int i=0; i<A.size(); i++)
-{
-    count+=A[i];
-    result+=Map[count-S]; //注意，先做这一步操作．
-    Map[count]++;
-}
-return result;
-```
