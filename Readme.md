@@ -344,6 +344,7 @@
 493.Reverse-Pairs (M+)    
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
+[005.Longest-Palindromic-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/005.Longest-Palindromic-Substring) (H)  
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
 411.Minimum-Unique-Word-Abbreviation (H)  
 [418.Sentence-Screen-Fitting](https://github.com/wisdompeak/LeetCode/tree/master/String/418.Sentence-Screen-Fitting) (M+)   
