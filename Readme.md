@@ -291,7 +291,6 @@
 [644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
 [576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/576.Out-of-Boundary-Paths) (H)   
 [600.Non-negative-Integers-without-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/600.Non-negative-Integers-without-Consecutive-Ones) (H)    
-115.Distinct-Subsequences (H)   
 [656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H-)    
@@ -329,6 +328,7 @@
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
 [072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
+[115.Distinct-Subsequences](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/115.Distinct-Subsequences/) (H-)   
 712.Minimum ASCII Delete Sum for Two Strings (H-)   
 [727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/727.Minimum-Window-Subsequence) (H-)    
 
