@@ -3,32 +3,30 @@ public:
     int bagOfTokensScore(vector<int>& tokens, int P) 
     {
         sort(tokens.begin(),tokens.end());
-        int i = 0;        
-        int j = 0;
-        int k = tokens.size()-1;
-        int score = 0;
+        int i = 0;
+        int j = tokens.size()-1;
+        int points = 0;
         int result = 0;
         
-        do
+        while (i<=j)
         {
-            while (j<=k && P>=tokens[j])
+            if (P>=tokens[i])
             {
-                score+=1;
-                P-=tokens[j];                
-                j+=1;
-            }
-            result = max(result,score);
-            
-            if (i<j)
-            {
-                score-=1;
-                P+=tokens[k];
+                P-=tokens[i];
                 i++;
-                k--;                
-            }  
-            
-        }while (i<j || (j<=k && P>=tokens[j]));
-            
-        return result;        
+                points++;
+                result = max(result,points);
+            }
+            else if (points>0)
+            {
+                points--;
+                P+=tokens[j];
+                j--;
+            }
+            else
+                break;
+        }
+        
+        return result;
     }
 };
