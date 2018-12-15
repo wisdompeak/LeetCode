@@ -395,6 +395,7 @@
 [684.Redundant-Connection](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/684.Redundant-Connection) (M)    
 [685.Redundant-Connection-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/685.Redundant-Connection-II) (H)   
 721.Accounts-Merge (M+)   
+952.Largest-Component-Size-by-Common-Factor (H)   
 
 #### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
 [390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
