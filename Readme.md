@@ -421,7 +421,6 @@
 [077.Combinations](https://github.com/wisdompeak/LeetCode/blob/master/Others/077.Combinations) (H-)    
 [587.Erect-the-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
 087.Scramble-String (H)   
-458.Poor-Pigs (H)   
 391.Perfect-Rectangle (H)   
 645.Set-Mismatch (H)    
 423.Reconstruct-Original-Digits-from-English (H-)   
@@ -447,4 +446,5 @@
 710.Random-Pick-with-Blacklist (M+)    
 
 #### [Math]
-754.Reach-a-Number
+[754.Reach-a-Number](https://github.com/wisdompeak/LeetCode/tree/master/Others/754.Reach-a-Number)  (H)   
+458.Poor-Pigs (H)   
