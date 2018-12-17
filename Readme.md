@@ -445,3 +445,6 @@
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Others/382.Linked-List-Random-Node) (H)   
 519.Random-Flip-Matrix (H-)   
 710.Random-Pick-with-Blacklist (M+)    
+
+#### [Math]
+754.Reach-a-Number
