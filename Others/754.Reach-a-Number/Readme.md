@@ -1,4 +1,4 @@
-###　754.Reach-a-Number
+### 754.Reach-a-Number
 
 此题在数学方法上有巧妙的思路．
 
