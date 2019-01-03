@@ -411,6 +411,7 @@
 [241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (H-)    
 [877.Stone-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/877.Stone-Game) (M+)    
 932.Beautiful-Array (H-)    
+964.Least-Operators-to-Express-Number (H)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
