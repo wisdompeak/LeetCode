@@ -110,6 +110,7 @@
 [226.Invert-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/226.Invert-Binary-Tree) (M)    
 [655.Print-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/655.Print-Binary-Tree) (M+)   
 501.Find-Mode-in-Binary-Search-Tree (M+)    
+558.Quad-Tree-Intersection (M+)   
 662.Maximum-Width-of-Binary-Tree (H-)   
 652.Find-Duplicate-Subtrees (M)   
 [687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
