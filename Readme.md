@@ -453,6 +453,7 @@
 519.Random-Flip-Matrix (H-)   
 710.Random-Pick-with-Blacklist (M+)    
 
-#### [Math]
-[754.Reach-a-Number](https://github.com/wisdompeak/LeetCode/tree/master/Others/754.Reach-a-Number)  (H)   
+#### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 458.Poor-Pigs (H)   
+[754.Reach-a-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/754.Reach-a-Number)  (H)   
+[829.Consecutive-Numbers-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Math/829.Consecutive-Numbers-Sum) (M)    
