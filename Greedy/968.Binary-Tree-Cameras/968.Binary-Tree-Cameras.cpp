@@ -31,13 +31,10 @@ public:
             result++;
             return 1;
         }
-        if (left==1 || right==1)
-        {
-            return 2;
-        }
         if (left==2 && right==2)
         {
             return 0;
         }
+        return 2;
     }
 };
