@@ -271,6 +271,7 @@
 [739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures) (M+)   
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers) (H)    
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
+936.Stamping-The-Sequence (H)   
 948.Bag-of-Tokens (H-)    
 968.Binary-Tree-Cameras (H)   
 
