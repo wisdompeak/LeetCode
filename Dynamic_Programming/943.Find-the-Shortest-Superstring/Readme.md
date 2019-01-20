@@ -23,11 +23,12 @@ dp[set5] = min{dp[set4][1]+graph[1][5], dp[set4][2]+graph[2][5], ... , dp[set4][
 for (int mask=0; mask<2^N; mask++)
   for (int bit=0; bit<N; bit++)
   {      
-        pmask = mask删去bit节点；
+        pmask = mask删去bit节点;
         for (int i=0; i<N; i++)
         {
-          dp[mask][bit] = min_{i}(dp[pmask][i]+graph[i][bit])
-          where bit is contained in mask, and i is contained in pmask;
+          dp[mask][bit] = min_{i}(dp[pmask][i]+graph[i][bit]);
+          (where bit is contained in mask, and i is contained in pmask)
+          update parent[mask][bit] if necessary;
         }
   }
 ```
