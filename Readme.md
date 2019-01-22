@@ -458,6 +458,7 @@
 [829.Consecutive-Numbers-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Math/829.Consecutive-Numbers-Sum) (M)    
 
 #### [Random Pick Series]
-[382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Others/382.Linked-List-Random-Node) (H)   
+[382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
+470.Implement-Rand10()-Using-Rand7() (M+)   
 519.Random-Flip-Matrix (H-)   
 710.Random-Pick-with-Blacklist (M+)    
