@@ -420,6 +420,7 @@
 964.Least-Operators-to-Express-Number (H)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
+[007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 [048.Rotate-Image](https://github.com/wisdompeak/LeetCode/tree/master/Others/048.Rotate-Image) (M+)    
 158.Read-N-Characters-Given-Read4-II-Call-multiple-times　(H)    
