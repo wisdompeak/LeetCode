@@ -452,7 +452,8 @@
 855.Exam-Room (M+)    
 918.Maximum-Sum-Circular-Subarray (H-)    
 
-#### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
+#### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
+[343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (M)    
 458.Poor-Pigs (H)   
 [754.Reach-a-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/754.Reach-a-Number)  (H)   
 [829.Consecutive-Numbers-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Math/829.Consecutive-Numbers-Sum) (M)    
