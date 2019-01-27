@@ -49,9 +49,9 @@ nums的前5个元素之和，需要累加的的tree元素：5,4
 #### Segment Tree
 除了Binary Indexed Tree，此题的另外一种解法是采用数据结构“线段树”。线段树的本质是一棵二叉树，每一个节点代表着一个区间。子节点区间都是父节点区间的二分子集。线段树适合的题型有非常鲜明的特点，即一个大区间的问题可以分解为若干小区间来求解并归并。比如一个大区间的sum，等于两个子区间sum的和；再比如，一个大区间的max，等于两个子区间max的最大值。构建线段树的时间复杂度、空间复杂度都是o(2n)，查询、更新（单个元素）是o(logn)，总和性能还不错。
 
-线段树的模板比较长，常见的操作包括buildTree，modifyTree和queryTree。但思路非常清晰简洁，如果写熟练了，并不比TrieNode模板慢。需要注意的是，在本题里，最底层的子树一定会是```start==end```，这种结构比较特殊，反而降低了难度。更general的线段树会更难写一些。
+线段树的模板比较长，常见的操作包括buildTree，modifyTree和queryTree。但思路非常清晰简洁，如果写熟练了，并不比TrieNode模板慢。需要注意的是，在本题里，最底层的子树一定会是```start==end```，这种结构比较特殊，反而降低了难度。更general的线段树,会涉及到setStatus,getStatus,remove等操作,更难写一些。
 
-首先，我们来设计线段树的结构。和二叉树类似有左子树和右子树（默认是NULL），但关于自身节点的属性有三个，其中```sum```表示了该线段的性质（在本题中表示这个区间内元素的和），有点像二叉树里的val；同时还有着两个```start,end```表示了该线段的起点和终点（在本题中就是数组的index区间），这对遍历整颗树非常关键。
+首先，我们来设计线段树的结构。和二叉树类似有左子树和右子树（默认是NULL），但关于自身节点的属性有三个:其中```start,end```表示了"线段"的起点和终点（在本题中就是数组的index区间,我们这里规定是一个左闭右开的区间），这对遍历整颗树非常关键。```sum```表示了该线段的属性（在本题中用作表示这个区间内元素的和），有点像二叉树里常规的val属性
 ```cpp
 class SegmentTree
 {
@@ -62,7 +62,49 @@ class SegmentTree
     SegmentTree(int a, int b):start(a),end(b),left(NULL),right(NULL){}
 };
 ```
-接下来，我们怎么来构建整棵树？本题中我们已经有了所有的数据（完整的数组），想构建的是一棵近乎平衡的二叉树，用不断二分的思想不断向下递归即可。
+接下来，我们怎么来构建整棵树？本题中,我们已经有了所有的数据（完整的数组），想构建的是一棵近乎平衡的二叉树，显然用不断二分的思想不断向下递归即可。
 ```cpp
-void buildTree(SegmentTree* node, int a, int b, vector<int>&nu)
+SegmentTree buildTree(SegmentTree* node, int a, int b, vector<int>&nums)
+{    
+    node = new SegmentTree(a,b);
+    if (a!=b)
+    {
+        node->left = buildTree(a,(a+b)/2);
+        node->right = buildTree((a+b)/2,b);
+    }
+    node->sum = node->left->sum + node->right->sum;
+    return node;    
+}
 ```
+题目中的update,指的是修改这整颗树的某一个叶子节点,注意这个update会前一发动全身,所以它上级的节点的sum都会需要变动.我们怎么写这段程序呢?当然是根据线段的范围作为指引,一路朝叶子节点递归下去,返回的时候再次修改sum.
+```cpp
+void modifyTree(SegmentTree* node, int pos, int val)
+{
+    if (pos==node->start && node->start==node->end) //说明找到的是叶子节点
+    {
+        node->sum = val;
+        return;
+    }
+    int mid = root->start + (root->end-root->start)/2;
+    if (i<=mid)
+        modifyTree(root->left,i,val);
+    else
+        modifyTree(root->right,i,val);
+    root->sum = root->left->sum+root->right->sum;
+}
+```
+题目中的sumRange,自然就是求区间和,明显也是根据左右子树的线段范围进行递归.
+```cpp
+    int queryTree(SegmentTreeNode* root, int a, int b)
+    {
+        if (root->start==a && root->end==b) 
+            return root->sum;
+        
+        int mid = root->start+(root->end-root->start)/2;
+        if (b<=mid)
+            return queryTree(root->left, a, b);
+        else if (a>mid)
+            return queryTree(root->right, a, b);
+        else
+            return queryTree(root->left,a,mid)+queryTree(root->right,mid+1,b);
+    }
