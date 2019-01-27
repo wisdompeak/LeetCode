@@ -49,4 +49,20 @@ nums的前5个元素之和，需要累加的的tree元素：5,4
 #### Segment Tree
 除了Binary Indexed Tree，此题的另外一种解法是采用数据结构“线段树”。线段树的本质是一棵二叉树，每一个节点代表着一个区间。子节点区间都是父节点区间的二分子集。线段树适合的题型有非常鲜明的特点，即一个大区间的问题可以分解为若干小区间来求解并归并。比如一个大区间的sum，等于两个子区间sum的和；再比如，一个大区间的max，等于两个子区间max的最大值。构建线段树的时间复杂度、空间复杂度都是o(2n)，查询、更新（单个元素）是o(logn)，总和性能还不错。
 
-线段树的模板比较长，常见的操作包括buildTree，modifyTree和queryTree。但思路非常清晰简洁，如果写熟练了，并不比TrieNode模板慢。
+线段树的模板比较长，常见的操作包括buildTree，modifyTree和queryTree。但思路非常清晰简洁，如果写熟练了，并不比TrieNode模板慢。需要注意的是，在本题里，最底层的子树一定会是```start==end```，这种结构比较特殊，反而降低了难度。更general的线段树会更难写一些。
+
+首先，我们来设计线段树的结构。和二叉树类似有左子树和右子树（默认是NULL），但关于自身节点的属性有三个，其中```sum```表示了该线段的性质（在本题中表示这个区间内元素的和），有点像二叉树里的val；同时还有着两个```start,end```表示了该线段的起点和终点（在本题中就是数组的index区间），这对遍历整颗树非常关键。
+```cpp
+class SegmentTree
+{
+    SegmentTree* left;
+    SegmentTree* right;
+    int sum;
+    int start,end;
+    SegmentTree(int a, int b):start(a),end(b),left(NULL),right(NULL){}
+};
+```
+接下来，我们怎么来构建整棵树？本题中我们已经有了所有的数据（完整的数组），想构建的是一棵近乎平衡的二叉树，用不断二分的思想不断向下递归即可。
+```cpp
+void buildTree(SegmentTree* node, int a, int b, vector<int>&nu)
+```
