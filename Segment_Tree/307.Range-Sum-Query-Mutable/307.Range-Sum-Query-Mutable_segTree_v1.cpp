@@ -1,97 +1,71 @@
 class NumArray {
-    
-    class SegTree
+    class SegmentTreeNode
     {
         public:
-        int status, begin, end;
-        SegTree* left;
-        SegTree* right;
-        SegTree(int a, int b, int T)
-        {
-            begin = a;
-            end = b;
-            status = T;
-            left = NULL;
-            right = NULL;
-        }
-        
-        int buildTree(int a, int b, vector<int>&nums)
-        {                       
-            if (b==a+1)            
-                return status = nums[a];            
-            if (a>=end || b<=begin)
-                return status = 0;
-            else if (b!=a+1)
-            {
-                int mid = (end-begin)/2+begin;
-                left = new SegTree(a,mid,0);
-                right = new SegTree(mid,b,0);
-                left->buildTree(a,mid,nums);
-                right->buildTree(mid,b,nums);                
-                return status = left->status+right->status;
-            }
-        }
-                        
-        int setStatus(int a, int val)
-        {
-            if (begin==a && end==a+1)            
-                return status = val;
-            
-            int mid = (end-begin)/2+begin;
-            int leftStatus,rightStatus;
-            if (a<mid)
-                leftStatus = left->setStatus(a,val);
-            else
-                leftStatus = left->status;
-            if (a>=mid)
-                rightStatus = right->setStatus(a,val);
-            else 
-                rightStatus = right->status;
-            
-            return status = leftStatus+rightStatus;            
-        }
-        
-        int getStatus(int a, int b)
-        {
-            if (a<=begin && end<=b)            
-                return status;            
-                
-            if (a>=end || b<=begin)
-                return 0;
-            
-            int mid = (end-begin)/2+begin;
-            int leftStatus,rightStatus;
-            if (a<mid)
-                leftStatus = left->getStatus(a,b);
-            else
-                leftStatus = 0;
-            if (b>mid)
-                rightStatus = right->getStatus(a,b);
-            else 
-                rightStatus = 0;
-            
-            return leftStatus+rightStatus;  
-        }
+        SegmentTreeNode* left;
+        SegmentTreeNode* right;
+        int start, end, sum;
+        SegmentTreeNode(int a, int b):start(a),end(b),sum(0),left(NULL),right(NULL){}
     };
-    
-    
+    SegmentTreeNode* root;
 public:
-    SegTree* root;
-        
     NumArray(vector<int> nums) 
     {
-        root = new SegTree(0,nums.size(),0);        
-        root->buildTree(0,nums.size(),nums);
+        int n=nums.size();
+        root = buildTree(nums, 0, n-1);        
     }
     
     void update(int i, int val) 
     {
-        root->setStatus(i,val);
+        modifyTree(root, i, val);
     }
     
     int sumRange(int i, int j) 
     {
-        return root->getStatus(i,j+1);
+        return queryTree(root, i, j);
+    }
+    
+    SegmentTreeNode* buildTree(vector<int>&nums, int a, int b)
+    {    
+        if (a>b) return NULL; //这个很关键,因为不断地二分过程中会造成这种情况
+        SegmentTreeNode* node = new SegmentTreeNode(a,b);
+        if (a==b)
+        {
+            node->sum = nums[a];
+            return node;
+        }    
+        node->left = buildTree(nums,a,(a+b)/2);
+        node->right = buildTree(nums,(a+b)/2+1,b);
+        node->sum = node->left->sum + node->right->sum;
+        return node;    
+    }
+    
+    void modifyTree(SegmentTreeNode* root, int i, int val)
+    {
+        if (root->start==i && root->end==i)
+        {
+            root->sum = val;
+            return;
+        }
+        int mid = root->start + (root->end-root->start)/2;
+        if (i<=mid)
+            modifyTree(root->left,i,val);
+        else
+            modifyTree(root->right,i,val);
+        root->sum = root->left->sum+root->right->sum;
+    }
+    
+    int queryTree(SegmentTreeNode* root, int a, int b)
+    {
+        if (root->start==a && root->end==b) return root->sum;
+        
+        int mid = root->start+(root->end-root->start)/2;
+        if (b<=mid)
+            return queryTree(root->left, a, b);
+        else if (a>mid)
+            return queryTree(root->right, a, b);
+        else
+            return queryTree(root->left,a,mid)+queryTree(root->right,mid+1,b);
     }
 };
 
