@@ -66,6 +66,7 @@ class SegmentTree
 ```cpp
 SegmentTree buildTree(SegmentTree* node, int a, int b, vector<int>&nums)
 {    
+    if (a>b) return NULL; //这个很关键,因为不断地二分过程中会造成这种情况
     node = new SegmentTree(a,b);
     if (a!=b)
     {
