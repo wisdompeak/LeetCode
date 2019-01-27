@@ -51,7 +51,7 @@ nums的前5个元素之和，需要累加的的tree元素：5,4
 
 线段树的模板比较长，常见的操作包括buildTree，modifyTree和queryTree。但思路非常清晰简洁，如果写熟练了，并不比TrieNode模板慢。需要注意的是，在本题里，最底层的子树一定会是```start==end```，这种结构比较特殊，反而降低了难度。更general的线段树,会涉及到setStatus,getStatus,remove等操作,更难写一些。
 
-首先，我们来设计线段树的结构。和二叉树类似有左子树和右子树（默认是NULL），但关于自身节点的属性有三个:其中```start,end```表示了"线段"的起点和终点（在本题中就是数组的index区间,我们这里规定是一个左闭右开的区间），这对遍历整颗树非常关键。```sum```表示了该线段的属性（在本题中用作表示这个区间内元素的和），有点像二叉树里常规的val属性
+首先，我们来设计线段树的结构。和二叉树类似有左子树和右子树（默认是NULL），但关于自身节点的属性有三个:其中```start,end```表示了"线段"的起点和终点（在本题中就是数组的index区间,我们这里规定是一个左闭右也闭的区间），这对遍历整颗树非常关键。```sum```表示了该线段的属性（在本题中用作表示这个区间内元素的和），有点像二叉树里常规的val属性
 ```cpp
 class SegmentTree
 {
@@ -62,17 +62,19 @@ class SegmentTree
     SegmentTree(int a, int b):start(a),end(b),left(NULL),right(NULL){}
 };
 ```
-接下来，我们怎么来构建整棵树？本题中,我们已经有了所有的数据（完整的数组），想构建的是一棵近乎平衡的二叉树，显然用不断二分的思想不断向下递归即可。
+接下来，我们怎么来构建整棵树？本题中,我们已经有了所有的数据（完整的数组），想构建的是一棵近乎平衡的二叉树，显然用二分的思想不断向下递归即可。注意,如果是动态地去构建这棵树,写起来会更复杂一些.
 ```cpp
-SegmentTree buildTree(SegmentTree* node, int a, int b, vector<int>&nums)
+SegmentTree* buildTree(vector<int>&nums, int a, int b)
 {    
     if (a>b) return NULL; //这个很关键,因为不断地二分过程中会造成这种情况
     node = new SegmentTree(a,b);
-    if (a!=b)
+    if (a==b)
     {
-        node->left = buildTree(a,(a+b)/2);
-        node->right = buildTree((a+b)/2,b);
-    }
+        node->sum = nums[a];
+        return node;
+    }    
+    node->left = buildTree(a,(a+b)/2);
+    node->right = buildTree((a+b)/2+1,b);
     node->sum = node->left->sum + node->right->sum;
     return node;    
 }
