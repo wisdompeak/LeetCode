@@ -123,7 +123,7 @@
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H)   
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
-370.Range-Addition (M+)   
+[370.Range-Addition](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/370.Range-Addition) (M+)   
 
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
@@ -394,7 +394,6 @@
 057.Insert-Intervals (M)    
 [732.My-Calendar-III](https://github.com/wisdompeak/LeetCode/tree/master/Sort/732.My-Calendar-III) (M)    
 759.Employee-Free-Time (M+)    
-370.Range-Addition (M+)   
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 [547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
