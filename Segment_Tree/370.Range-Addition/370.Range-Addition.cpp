@@ -2,20 +2,18 @@ class Solution {
 public:
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) 
     {
-        vector<int>q(length+1,0);
-        for (int i=0; i<updates.size(); i++)
+        vector<int>diff(length+1,0);
+        for (auto x:updates)
         {
-            q[updates[i][0]]+=updates[i][2];
-            q[updates[i][1]+1]-=updates[i][2];
+            diff[x[0]]+=x[2];
+            diff[x[1]+1]-=x[2];
         }
-        
-        vector<int>results(length,0);        
-        results[0] = q[0];
-        int count = q[0];
-        for (int i=1; i<length; i++)
+        vector<int>results;
+        int cur = 0;
+        for (int i=0; i<length; i++)
         {
-            count += q[i];
-            results[i] = count;
+            cur+=diff[i];
+            results.push_back(cur);
         }
         return results;
     }
