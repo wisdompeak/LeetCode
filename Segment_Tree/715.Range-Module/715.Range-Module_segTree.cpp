@@ -18,34 +18,35 @@ class RangeModule {
             return;
         }
         
-        bool setStatus(int a, int b, bool T)
+        void setStatus(int a, int b, bool T)
         {
             if (a<=start && b>=end) // bottom condition 1: [a,b)>[start,end)
             {
                 remove(left);
                 remove(right);
-                return status = T;
+                status = T;
+                return;
             }
             if (a>=end || b<=start) // bottom condition 2: [a,b) do not intersect with [start,end)
-                return status;
+                return;
             int mid = start+(end-start)/2;
             if (left==NULL)         // no children? create them!
             {
                 left = new SegTree(start,mid,status);
                 right = new SegTree(mid,end,status);
             }
-            bool L = left->setStatus(a,b,T);
-            bool R = right->setStatus(a,b,T);
-            return status = L&&R;
+            left->setStatus(a,b,T);
+            right->setStatus(a,b,T);
+            status =left->status && right->status;
         }        
         
         bool getStatus(int a, int b)
         {            
             if (a<=start && b>=end)   // bottom condition 1: [a,b)>[start,end)
                 return status;
-            if (a>=end || b<=start)   // bottom condition 2: [a,b) do not intersect with [start,end)
+            if (a>=end || b<=start)     // bottom condition 2: [a,b) do not intersect with [start,end)
                 return true;
-            if (left==NULL)           // bottom condition 3: [a,b) intersect with [start,end)
+            if (left==NULL)
                 return status;
             int mid = start+(end-start)/2;
             bool L = left->getStatus(a,b);
