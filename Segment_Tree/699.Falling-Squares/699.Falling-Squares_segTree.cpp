@@ -2,78 +2,70 @@ class Solution {
     class SegTree
     {
         public:
-        int begin, end, status;
+        int start,end,status;
         SegTree* left;
         SegTree* right;
-        SegTree(int a, int b, int T)
-        {
-            begin = a;
-            end = b;            
-            status = T;
-            left = NULL;
-            right = NULL;
-        }                
+        SegTree(int a,int b,int s):start(a),end(b),status(s),left(NULL),right(NULL){}
         
         void remove(SegTree* &node)
         {
-            if (!node) return;
+            if (node==NULL) return;
             remove(node->left);
             remove(node->right);
             delete node;
-            node = NULL;
+            node=NULL;
+            return;
         }
         
-        int setStatus(int a, int b, int s)
+        void setStatus(int a, int b, int s)
         {
-            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回原先的状态
-                return status;                        
-            if (a<=begin && end<=b)            // 2. [a,b]包括了整个区间，将该区间抹平
+            if (a<=start && b>=end)
             {
                 remove(left);
                 remove(right);
-                return status = s;
-            }         
-            if (!left)                         // 3. [a,b]与该区间相交，需考虑其子树
+                status = s;
+                return;
+            }
+            if (a>=end || b<=start)
+                return;
+            if (left==NULL)
             {
-                int mid = (end-begin)/2+begin;
-                left = new SegTree(begin,mid,status);
+                int mid = (end-start)/2+start;
+                left = new SegTree(start,mid,status);
                 right = new SegTree(mid,end,status);
-            }            
-            int leftStatus = left->setStatus(a,b,s);
-            int rightStatus = right->setStatus(a,b,s);
-            return status = max(leftStatus,rightStatus);
-        }
-                
-        int getStatus(int a, int b)
-        {
-            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回一个不影响结果的状态
-                return 0;            
-            if (a<=begin && end<=b)            // 2. [a,b]包括了整个区间，返回该区间的状态
-                return status;                        
-            if (!left)                         // 3. [a,b]与该区间相交，但又没有子树，返回整个区间状态
-                return status;
-            int mid = (end-begin)/2+begin;      // 4. [a,b]与该区间相交，需要考虑其子树
-            int leftStatus = left->getStatus(a,b);
-            int rightStatus = right->getStatus(a,b);
-            return max(leftStatus,rightStatus);            
+            }
+            left->setStatus(a,b,s);
+            right->setStatus(a,b,s);
+            status = max(left->status,right->status);
+            return;
         }
         
+        int getStatus(int a, int b)
+        {
+            if (a<=start && b>=end)
+                return status;
+            if (a>=end || b<=start)
+                return 0;
+            if (left==NULL)
+                return status;
+            int L = left->getStatus(a,b);
+            int R = right->getStatus(a,b);
+            return max(L,R);            
+        }        
     };
-    
 public:
     vector<int> fallingSquares(vector<pair<int, int>>& positions) 
     {
         SegTree root = SegTree(0,1e9,0);
-        int curMaxH = 0;
-        vector<int>results;
-        for (int i=0; i<positions.size(); i++)
+        vector<int>result;
+        int curMax = 0;
+        for (auto p:positions)
         {
-            int maxH;
-            maxH = root.getStatus(positions[i].first,positions[i].first+positions[i].second);
-            root.setStatus(positions[i].first,positions[i].first+positions[i].second, positions[i].second+maxH);
-            curMaxH = max(curMaxH, positions[i].second+maxH);
-            results.push_back(curMaxH);
+            int cur = root.getStatus(p.first,p.first+p.second);
+            curMax = max(curMax, cur+p.second);
+            root.setStatus(p.first,p.first+p.second, cur+p.second);            
+            result.push_back(curMax);                    
         }
-        return results;
+        return result;
     }
 };
