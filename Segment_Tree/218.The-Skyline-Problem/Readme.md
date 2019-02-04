@@ -14,25 +14,33 @@
 
 #### 解法2:线段树
 
-此题类似 699. Falling Squares 的方法,采用改造的线段树模型.同样,这里每个区间的tracked表示该区间内的maxHeight.
+此题类似 699. Falling Squares 的方法,采用改造的线段树模型.同样,这里每个区间的status表示该区间内的maxHeight.
 
-在设计setTracking(x,y,d)函数时,目标是对区间(x,y)内的高度进行更新.注意,只是对其中那些原有的tracked<d的区间进行更新.
+在设计```setStatus(a,b,s)```函数时,目标是对区间```[a,b)```内的高度进行更新（也就是小于s的部分拉高至s，大于s的部分不变）。我们在具体遍历到某个节点时，注意只是对```[start,end)```其中那些```status<s```的子区间进行更新。所以我们需要必要的分情况讨论。
+
 ```cpp
         int setStatus(int a, int b, int s)
         {
-            if (begin>=b || end<=a)            // 1. [a,b]与这个区间不相交，返回原先的状态
+                // 边界条件1. [a,b]与该节点的线段区间[start,end)不相交，返回原先的状态
+            if (begin>=b || end<=a)                     
                 return status;                        
-            if (a<=begin && end<=b && status<=s)            // 2. [a,b]包括了整个区间，并且该区间的status<s,则将该区间抹平
+                
+                // 边界条件2. [a,b]包括了该节点的整个线段区间[start,end)，并且该区间的status<s，说明整体都要被更新为更大的值s，所以其内部全部抹平。
+            if (a<=begin && end<=b && status<=s)        
             {
                 remove(left);
                 remove(right);
                 return status = s;
             }         
-            if (a<=begin && end<=b && status>s && !left)    // 3. [a,b]包括了整个区间，并且该区间的status>s,且无子树，则整体不更新
+            
+                // 边界条件3. [a,b]包括了该节点的整个线段区间[start,end)，但该区间的status>s 且无子树，这说明该节点的线段区域整体都比s还高，我们什么都不用做。
+            if (a<=begin && end<=b && status>s && !left)    
             {
                 return status;
             }         
-            if (!left)                         // 4. 其他情况，需考虑其子树
+            
+                // 其他所有情况，我们需递归考虑其子树
+            if (!left)                         
             {
                 int mid = (end-begin)/2+begin;
                 left = new SegTree(begin,mid,status);
