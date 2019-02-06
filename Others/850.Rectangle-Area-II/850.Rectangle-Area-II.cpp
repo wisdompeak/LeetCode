@@ -4,13 +4,14 @@ public:
     {
         set<int>SetX;
         set<int>SetY;
-        for (auto coordinate: rectangles)
+        for (auto point: rectangles)
         {
-            SetX.insert(coordinate[0]);
-            SetX.insert(coordinate[2]);
-            SetY.insert(coordinate[1]);
-            SetY.insert(coordinate[3]);
+            SetX.insert(point[0]);
+            SetX.insert(point[2]);
+            SetY.insert(point[1]);
+            SetY.insert(point[3]);
         }
+        
         vector<int>X(SetX.begin(),SetX.end());
         vector<int>Y(SetY.begin(),SetY.end());
         
@@ -18,27 +19,26 @@ public:
         int N = Y.size();
         auto points = vector<vector<bool>>(M,vector<bool>(N,0));
         
-        for (int k=0; k<rectangles.size(); k++)
+        for (auto p: rectangles)
         {
-            int idx_X_0 = lower_bound(X.begin(),X.end(),rectangles[k][0]) - X.begin();
-            int idx_Y_0 = lower_bound(Y.begin(),Y.end(),rectangles[k][1]) - Y.begin();
-            int idx_X_1 = lower_bound(X.begin(),X.end(),rectangles[k][2]) - X.begin();
-            int idx_Y_1 = lower_bound(Y.begin(),Y.end(),rectangles[k][3]) - Y.begin();
-            for (int i=idx_X_0+1; i<=idx_X_1; i++)
-                for (int j=idx_Y_0+1; j<=idx_Y_1; j++)
-                    points[i][j] = 1;
+            int x0 = lower_bound(X.begin(),X.end(),p[0])-X.begin();
+            int x1 = lower_bound(X.begin(),X.end(),p[2])-X.begin();
+            int y0 = lower_bound(Y.begin(),Y.end(),p[1])-Y.begin();
+            int y1 = lower_bound(Y.begin(),Y.end(),p[3])-Y.begin();
+            for (int i = x0; i<x1; i++)
+             for (int j = y0; j<y1; j++)
+               points[i][j]=1;
         }
         
-        long long  MOD = 1e9+7;
-        long long sum = 0;
-        for (int i=1; i<M; i++)
-            for (int j=1; j<N; j++)
-            {
-                if (points[i][j])
-                    sum = (sum + (long long)(X[i]-X[i-1])*(long long)(Y[j]-Y[j-1])) % MOD;
-                
-            }
-                
-        return sum;
+        long long result = 0;
+        int Mod = 1e9+7;
+        for (int i=0; i<M-1; i++)
+          for (int j=0; j<N-1; j++)
+          {
+             if (points[i][j]==0) continue;
+             result += (long long)(X[i+1]-X[i]) * (long long)(Y[j+1]-Y[j]);            
+             result = result%Mod;
+          }
+        return result;
     }
 };
