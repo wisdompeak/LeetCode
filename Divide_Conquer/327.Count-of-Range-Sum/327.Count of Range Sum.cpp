@@ -1,44 +1,37 @@
 class Solution {
-    int count=0;
-    int Lower;
-    int Upper;
-    static bool cmp1(long a, long b)
-    {
-        return a<b;
-    }
-    static bool cmp2(long a, long b)
-    {
-        return a<=b;
-    }    
+    int result;
 public:
-    long countRangeSum(vector<int>& nums, int lower, int upper) 
+    int countRangeSum(vector<int>& nums, int lower, int upper) 
     {
-        Lower=lower;
-        Upper=upper;
-        nums.insert(nums.begin(),0);
-        vector<long>sums(nums.size(),0);
-        for (int i=1; i<sums.size(); i++)
-            sums[i] = sums[i-1]+nums[i];
-        
-        DivideConque(sums,0,sums.size()-1);
-        return count;
+        if (nums.size()==0) return 0;
+        result = 0;
+        vector<long>Nums(nums.size());
+        Nums[0]=nums[0];
+        for (int i=1; i<nums.size(); i++)
+            Nums[i]=Nums[i-1]+nums[i];
+        DivideConque(Nums,0,Nums.size()-1,lower,upper);
+        return result;
     }
     
-    void DivideConque(vector<long>&sums, int start, int end)
+    void DivideConque(vector<long>& nums, int start, int end, int lower, int upper)
     {
-        if (start==end) return;
-        
-        int mid=start+(end-start)/2;
-        DivideConque(sums,start,mid);
-        DivideConque(sums,mid+1,end);
+        if (start==end) 
+        {
+            if (nums[start]>=lower && nums[end]<=upper)
+                result+=1;
+            return;
+        }
+        int mid = start+(end-start)/2;
+        DivideConque(nums,start,mid,lower,upper);
+        DivideConque(nums,mid+1,end,lower,upper);
         
         for (int i=start; i<=mid; i++)
         {
-            auto pos1 = lower_bound(sums.begin()+mid+1,sums.begin()+end+1,sums[i]+Lower,cmp1);
-            auto pos2 = lower_bound(sums.begin()+mid+1,sums.begin()+end+1,sums[i]+Upper,cmp2);   
-            count+=pos2-pos1;            
+            auto p1 = lower_bound(nums.begin()+mid+1,nums.begin()+end+1,nums[i]+lower);
+            auto p2 = upper_bound(nums.begin()+mid+1,nums.begin()+end+1,nums[i]+upper);
+            result+=p2-p1;            
         }
         
-        sort(sums.begin()+start,sums.begin()+end+1);
+        sort(nums.begin()+start,nums.begin()+end+1);
     }
 };
