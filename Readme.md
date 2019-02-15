@@ -354,7 +354,7 @@
 
 #### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer)
 [315.Count-of-Smaller-Numbers-After-Self](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self) (H-)    
-327.Count-of-Range-Sum (H-)      
+[327.Count-of-Range-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/327.Count-of-Range-Sum) (H-)
 493.Reverse-Pairs (M+)    
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
