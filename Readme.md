@@ -276,6 +276,7 @@
 936.Stamping-The-Sequence (H)   
 948.Bag-of-Tokens (H-)    
 968.Binary-Tree-Cameras (H)   
+995.Minimum-Number-of-K-Consecutive-Bit-Flips (H-)    
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
