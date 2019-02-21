@@ -347,7 +347,7 @@
 [727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/727.Minimum-Window-Subsequence) (H-)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
-136.Single-Number (M)   
+[136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [260.Single-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/260.Single-Number-III) (H)    
 371.Sum-of-Two-Integers (H)   
 318.Maximum-Product-of-Word-Lengths (M+)    
