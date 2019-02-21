@@ -35,7 +35,7 @@ public:
         }
         
         int result = INT_MAX;
-        for (int i=366; i<=366+7; i++)
+        for (int i=366; i<=366+30; i++)
             result = min(result,dp[i]);
         return result;
     }
