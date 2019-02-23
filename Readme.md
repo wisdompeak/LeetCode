@@ -191,17 +191,17 @@
 282.Expression-Add-Operators (H)  
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)    
 [399.Evaluate-Division](https://github.com/wisdompeak/LeetCode/tree/master/DFS/399.Evaluate-Division) (H)   
-473.Matchsticks-to-Square (M+)    
 491.Increasing-Subsequences (M)   
 679.24-Game (H)   
-[698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-)    
 037.Sudoku-Solver (H-)    
 488.Zuma-Game (H-)    
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
 425.Word-Squares (H-)  
 465.Optimal-Account-Balancing (H)   
 959.Regions-Cut-By-Slashes (M)    
-
+* ``NP search``    
+[473.Matchsticks-to-Square](https://github.com/wisdompeak/LeetCode/tree/master/DFS/473.Matchsticks-to-Square) (M+)    
+[698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-) 
 * ``memorization``    
 [464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)   
 472.Concatenated-Words (M)    
