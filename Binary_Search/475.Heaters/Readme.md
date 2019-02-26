@@ -4,8 +4,6 @@
 
 寻找it的方法用lower_bound函数。
 ```cpp
-auto it = lower_bound(heaters.begin(),heaters.end(),pos,cmp);
+auto it = lower_bound(heaters.begin(),heaters.end(),pos);
 ```
-注意需要自定义比较函数cmp，return (a<b)。
-
 特别注意当it==heaters.begin()或it==heaters.end()时的特例。说明houses[i]在所有heaters的一边，所以只需要计算单边的半径距离。
