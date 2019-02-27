@@ -18,8 +18,8 @@ public:
             slow = i;
             while (advanceBy(1, slow, nums, dir)>=0)
             {
-                int tmp = slow;
-                nums[tmp] = 0;
+                int tmp = advanceBy(1, slow, nums, dir);
+                nums[slow] = 0;
                 slow = tmp;
             }
         }
@@ -38,6 +38,4 @@ public:
         }
         return j;
     }
-
-
 };
