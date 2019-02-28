@@ -202,6 +202,7 @@
 * ``NP search``    
 [473.Matchsticks-to-Square](https://github.com/wisdompeak/LeetCode/tree/master/DFS/473.Matchsticks-to-Square) (M+)    
 [698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-) 
+996.Number-of-Squareful-Arrays (H)    
 * ``memorization``    
 [464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)   
 472.Concatenated-Words (M)    
