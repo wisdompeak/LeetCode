@@ -183,7 +183,7 @@
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
-051.N-Queens (H)    
+[051.N-Queens](https://github.com/wisdompeak/LeetCode/tree/master/DFS/051.N-Queens) (H)    
 417.Pacific-Atlantic-Water-Flow (M)   
 200.Number-of-Islands (M)  
 133.Clone-Graph (M+)  
