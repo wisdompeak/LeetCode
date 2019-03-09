@@ -1,32 +1,35 @@
-/**
- * Definition for undirected graph.
- * struct UndirectedGraphNode {
- *     int label;
- *     vector<UndirectedGraphNode *> neighbors;
- *     UndirectedGraphNode(int x) : label(x) {};
- * };
- */
-class Solution {
-    unordered_map<UndirectedGraphNode*,UndirectedGraphNode*>Map;
+/*
+// Definition for a Node.
+class Node {
 public:
-    UndirectedGraphNode *cloneGraph(UndirectedGraphNode *node) 
+    int val;
+    vector<Node*> neighbors;
+
+    Node() {}
+
+    Node(int _val, vector<Node*> _neighbors) {
+        val = _val;
+        neighbors = _neighbors;
+    }
+};
+*/
+class Solution {
+    unordered_map<Node*,Node*>Map;
+public:
+    Node* cloneGraph(Node* oldNode) 
     {
-        if (node==NULL) return NULL;
+        if (Map.find(oldNode)!=Map.end())
+            return Map[oldNode];
+            
+        Node* newNode = new Node(oldNode->val);
+        Map[oldNode] = newNode;
         
-        UndirectedGraphNode* root=new UndirectedGraphNode(node->label);
-        Map[node]=root;
-        for (int i=0; i<node->neighbors.size(); i++)
+        for (int i=0; i<oldNode->neighbors.size(); i++)
         {
-            if (Map.find(node->neighbors[i])==Map.end())
-            {
-                root->neighbors.push_back(cloneGraph(node->neighbors[i]));
-            }
-            else
-            {
-                root->neighbors.push_back(Map[node->neighbors[i]]);
-            }
+            newNode->neighbors.push_back(cloneGraph(oldNode->neighbors[i]));
         }
         
-        return root;
+        return newNode;
     }
+    
 };
