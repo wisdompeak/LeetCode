@@ -2,35 +2,17 @@ class Solution {
 public:
     vector<int> findAnagrams(string s, string p) 
     {
-        vector<int>Map(128,0);
-        vector<int>Table(128,0);
+        vector<int>P(255,0);
+        vector<int>S(255,0);
+        for (char ch:p) P[ch]++;
         
-        int N=p.size();
-
-        for (int i=0; i<N; i++)
-            Map[p[i]]++;
-        
-        for (int i=0; i<N; i++)
-            Table[s[i]]++;
-
-        vector<int>result;
-        if (s.size()<p.size()) return result;
-        
-        int i=N;
-        while (i<s.size())
+        vector<int>results;
+        for (int i=0; i<s.size(); i++)
         {
-
-            if (Table==Map)
-                result.push_back(i-N);
-            
-            Table[s[i-N]]--;
-            Table[s[i]]++;
-            i++;
+            S[s[i]]++;
+            if (i>=p.size()) S[s[i-p.size()]]--;            
+            if (S==P) results.push_back(i-p.size()+1);
         }
-        
-        if (Table==Map)
-            result.push_back(i-N);
-        
-        return result;
+        return results;
     }
 };
