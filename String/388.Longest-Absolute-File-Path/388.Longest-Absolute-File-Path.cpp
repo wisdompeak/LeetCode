@@ -1,73 +1,40 @@
 class Solution {
-    static bool cmp(string a, string b)
-    {
-        return a.size()>b.size();
-    }
 public:
     int lengthLongestPath(string input) 
     {
-                
-        vector<string>temp;
-        int i=0;    
-                
-        while (i<input.size())
+        vector<string>files;
+        for (int i=0; i<input.size(); i++)
         {
             int i0=i;
             while (i<input.size() && input[i]!='\n')
                 i++;
-            temp.push_back(input.substr(i0,i-i0));
-            i=i+1;
+            files.push_back(input.substr(i0,i-i0));
         }
+                
+        vector<string>dir;
+        int result = 0;
         
-        vector<string>files;
-        
-        vector<vector<string>>dirs;
-        for (int i=0; i<temp.size(); i++)
+        for (string str:files)
         {
-            string str=temp[i];
-            int j=0;
-            int count=0;
-            while (j<str.size() && str[j]=='\t')
-            {
-                count++;
-                j++;
-            }
-            str = str.substr(j);
-            if (dirs.size()<count+1)
-                dirs.push_back({str});
-            else
-                dirs[count].push_back(str);
+            int k=0;
+            while (k<str.size() && str[k]=='\t')
+                k++;
+                  
+            if (dir.size()<=k) dir.resize(k+1);      
+            dir[k] = str.substr(k);
                         
-            bool flag=0;
-            for (int j=0; j<str.size(); j++)
+            if (dir[k].find(".")!=-1)
             {
-                if (str[j]=='.')
-                {
-                    flag=1;
-                    break;
-                }
+                int count = 0;
+                for (int i=0; i<=k; i++)
+                    count+=dir[i].size();
+                count+=k;
+                
+                result = max(count,result);
             }
-            
-            if (flag==1)
-            {
-                string filename;
-                for (int j=0; j<=count; j++)
-                {
-                    filename+=dirs[j].back();
-                    filename+='/';
-                }
-                filename.pop_back();    
-                files.push_back(filename);
-            }                
         }
         
-        if (files.size()==0)
-            return 0;
-        else
-        {
-            sort(files.begin(),files.end(),cmp);
-            return files[0].size();
-        }
+        return result;
         
     }
 };
