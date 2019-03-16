@@ -186,7 +186,7 @@
 [051.N-Queens](https://github.com/wisdompeak/LeetCode/tree/master/DFS/051.N-Queens) (H)    
 [417.Pacific-Atlantic-Water-Flow](https://github.com/wisdompeak/LeetCode/tree/master/DFS/417.Pacific-Atlantic-Water-Flow) (M)   
 200.Number-of-Islands (M)  
-282.Expression-Add-Operators (H)  
+[282.Expression-Add-Operators](https://github.com/wisdompeak/LeetCode/tree/master/DFS/282.Expression-Add-Operators) (H)  
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)    
 [399.Evaluate-Division](https://github.com/wisdompeak/LeetCode/tree/master/DFS/399.Evaluate-Division) (H-)   
 037.Sudoku-Solver (H-)    
