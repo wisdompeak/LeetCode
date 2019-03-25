@@ -194,7 +194,7 @@
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
 425.Word-Squares (H-)  
 465.Optimal-Account-Balancing (H)   
-959.Regions-Cut-By-Slashes (M)    
+[959.Regions-Cut-By-Slashes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/959.Regions-Cut-By-Slashes) (M+)    
 * ``search in an array``    
 [473.Matchsticks-to-Square](https://github.com/wisdompeak/LeetCode/tree/master/DFS/473.Matchsticks-to-Square) (M+)    
 [491.Increasing-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/DFS/491.Increasing-Subsequences) (M)   
