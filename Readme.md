@@ -463,7 +463,7 @@
 458.Poor-Pigs (H)   
 [754.Reach-a-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/754.Reach-a-Number)  (H)   
 [829.Consecutive-Numbers-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Math/829.Consecutive-Numbers-Sum) (M)    
-1015.Numbers-With-Repeated-Digits (H-)    
+1012.Numbers-With-Repeated-Digits (H-)    
 
 #### [Random Pick Series]
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
