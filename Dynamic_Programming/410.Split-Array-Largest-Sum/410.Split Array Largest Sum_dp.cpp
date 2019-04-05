@@ -2,27 +2,24 @@ class Solution {
 public:
     int splitArray(vector<int>& nums, int m) 
     {
-        int n=nums.size();
-        auto dp = vector<vector<int>>(n+1,vector<int>(m+1,0));
+        int N = nums.size();
+        auto dp = vector<vector<long>>(N+1,vector<long>(m+1));
+        nums.insert(nums.begin(),0);
         
-        int sum=0;
-        for (int i=1; i<=n; i++)
-        {
-            sum+=nums[i-1];
-            dp[i][1]=sum;
-        }
+        for (int i=1; i<=N; i++)
+            dp[i][1] = dp[i-1][1]+nums[i];
         
-        for (int i=1; i<=n; i++)
-         for (int k=2; k<=m; k++)
-         {
-             int temp = INT_MAX;
-             for (int j=k-1; j<=i-1; j++)
-             {
-                 temp = min(temp, max(dp[j][k-1],dp[i][1]-dp[j][1]));
-             }
-             dp[i][k]=temp;
-        }
+        for (int i=1; i<=N; i++)
+            for (int k=2; k<=min(m,i); k++)
+            {
+                dp[i][k] = INT_MAX;
+                for (int j=1; j<=i-1; j++)
+                {
+                    long temp = max(dp[j][k-1],dp[i][1]-dp[j][1]);
+                    dp[i][k] = min(dp[i][k], temp);
+                }
+            }
         
-        return dp[n][m]; 
+        return dp[N][m];
     }
 };
