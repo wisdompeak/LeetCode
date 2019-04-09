@@ -391,6 +391,7 @@
 [731.My-Calendar-II](https://github.com/wisdompeak/LeetCode/tree/master/Sort/731.My-Calendar-II) (M+)   
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Sort/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/435.Non-overlapping-Intervals) (M+)   
+1024.Video-Stitching (M+)    
 
 #### [Meeting Room Series]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
