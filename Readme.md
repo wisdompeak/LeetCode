@@ -166,6 +166,7 @@
 636.Exclusive-Time-of-Functions (H-)    
 726.Number-of-Atoms (M+)    
 [739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures)  (H-)    
+946.Validate-Stack-Sequences （H-）   
 962.Maximum-Width-Ramp (H)    
 
 
