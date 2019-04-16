@@ -1,3 +1,8 @@
+#### My YouTube Channel: [LeetCode Daily Live Coding and Interpretation](https://docs.google.com/spreadsheets/d/1kBGyRsSdbGDu7DzjQcC-UkZjZERdrP8-_QyVGXHSrB8/edit#gid=0)
+
+#### My LeetCode Daily problem & Contest Group: [See rules and score board here](https://wisdompeak.github.io/lc-score-board/)
+(If you are interested to join, ping me guan.huifeng@gmail.com)
+
 ### LeetCode难题代码和算法要点分析
 #### 目前分类目录：
 #### [Two Pointers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers)
