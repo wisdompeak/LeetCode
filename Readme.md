@@ -461,7 +461,7 @@
 420.Strong-Password-Checker (H)   
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
-794.Valid-Tic-Tac-Toe-State (M+)    
+[794.Valid-Tic-Tac-Toe-State](https://github.com/wisdompeak/LeetCode/tree/master/Others/794.Valid-Tic-Tac-Toe-State) (M+)    
 798.Smallest-Rotation-with-Highest-Score (H)    
 825.Friends-Of-Appropriate-Ages (M+)    
 [835.Image-Overlap](https://github.com/wisdompeak/LeetCode/tree/master/Others/835.Image-Overlap) (H)    
