@@ -339,6 +339,7 @@
 943.Find-the-Shortest-Superstring (H+)    
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
 1000.Minimum-Cost-to-Merge-Stones (H)   
+1027.Longest-Arithmetic-Sequence (M+)   
 * ``dual status``   
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
