@@ -1,26 +1,26 @@
 class Solution {
 public:
     int numberOfArithmeticSlices(vector<int>& A) 
-    {        
-        int N=A.size();
-        vector<unordered_map<int,int>>counts(N);
-        int result=0;
-        int temp=0;
+    {
+        int N = A.size();
+        auto dp = vector<unordered_map<long,int>>(N);
+        int result = 0;
         
         for (int i=0; i<N; i++)
         {
             for (int j=0; j<i; j++)
-            {                
-                if((long)A[i] - (long)A[j] > INT_MAX || (long)A[i] - (long)A[j] < INT_MIN) continue;
-                int diff = A[j]-A[i];
-                counts[i][diff]+=1;
-                if (counts[j].find(diff)!=counts[j].end())
+            {
+                long diff = long(A[i])-long(A[j]);
+                                
+                dp[i][diff] += 1;
+                
+                if (dp[j].find(diff)!=dp[j].end())                
                 {
-                    counts[i][diff]+=counts[j][diff];
-                    result+=counts[j][diff];
-                }                    
-            }            
-        }        
+                    dp[i][diff] += dp[j][diff];
+                    result+=dp[j][diff];
+                }
+            }
+        }
         return result;
     }
 };
