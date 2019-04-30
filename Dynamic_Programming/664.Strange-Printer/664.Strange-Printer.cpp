@@ -1,25 +1,29 @@
 class Solution {
 public:
     int strangePrinter(string s) 
-    {
-        int dp[110][110];
-        int n = s.length();
-        if (n == 0) return 0;
+    {        
+        int N = s.size();
+        if (N==0) return 0;
         
-        for (int i = 0; i < n; ++i) 
-            dp[i][i] = 1;        
-
-        for (int len=2; len<=n; len++)
-         for (int i=0; i<=n-len; i++)
-         {
-             dp[i][i+len-1]=dp[i][i+len-2]+1;
-             for (int k=i; k<i+len-1; k++)
-             {
-                 if (s[k]==s[i+len-1])
-                     dp[i][i+len-1]=min(dp[i][i+len-1], dp[i][k]+dp[k+1][i+len-2]);
-             }
-         }
-        
-        return dp[0][n-1];
+        auto dp = vector<vector<int>>(N,vector<int>(N));
+        for (int i=0; i<N; i++)
+            dp[i][i] = 1;
+                
+        for (int len=2; len<=N; len++)
+            for (int i=0; i<=N-len; i++)
+            {
+                int j = i+len-1;
+                dp[i][j] = 1+dp[i+1][j];
+                
+                for (int k=i+1; k<=j; k++)
+                {
+                    if (s[k]==s[i])
+                    {
+                        dp[i][j] = min(dp[i][j], dp[i][k-1] + ((k+1>j)?0:dp[k+1][j]));
+                    }                        
+                }    
+                
+            }        
+        return dp[0][N-1];
     }
 };
