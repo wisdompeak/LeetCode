@@ -352,7 +352,7 @@
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
 [072.Edit-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/072.Edit-Distance) (H-)    
 [115.Distinct-Subsequences](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/115.Distinct-Subsequences/) (H-)   
-583.Delete-Operation-for-Two-Strings (H-)    
+[583.Delete-Operation-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/583.Delete-Operation-for-Two-Strings) (M+)    
 [712.Minimum-ASCII-Delete-Sum-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/712.Minimum-ASCII-Delete-Sum-for-Two-Strings) (M+)   
 [727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/727.Minimum-Window-Subsequence) (H-)    
 
