@@ -49,7 +49,7 @@ OOOOXXXXO
 
 所以，处理min move的逻辑是：
 ```
-for i =0; i<n; i++
+for i =0; i<n; i++   // 大框架是遍历窗口的左端的位置
 {
   找到j，使得stones[j]-stones[i]+1>=n.
   if stones[j]-stones[i]+1==n
