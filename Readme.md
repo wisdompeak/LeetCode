@@ -282,6 +282,7 @@
 948.Bag-of-Tokens (H-)    
 968.Binary-Tree-Cameras (H)   
 995.Minimum-Number-of-K-Consecutive-Bit-Flips (H-)    
+[1040.Moving-Stones-Until-Consecutive-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1040.Moving-Stones-Until-Consecutive-II) (H)    
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
