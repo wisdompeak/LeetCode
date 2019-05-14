@@ -20,8 +20,8 @@ public:
             int gap;
             if (stones[j]-stones[i]+1==n)
                 gap = n-(j-i+1);
-            else if (n-(j-i)==1)
-                gap = n-(j-i)+1;
+            else if (j-i==n-1)
+                gap = 2;
             else
                 gap = n-(j-i);
             
