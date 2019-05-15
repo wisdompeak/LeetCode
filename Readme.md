@@ -316,7 +316,6 @@
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 651.4-Keys-Keyboard (M+)    
 [673.Number-of-Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/673.Number-of-Longest-Increasing-Subsequence) (M+)    
-691.Stickers-to-Spell-Word (H)    
 [740.Delete-and-Earn](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/740.Delete-and-Earn) (H)   
 [494.Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/494.Target-Sum) (M+)   
 [516.Longest-Palindromic-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/516.Longest-Palindromic-Subsequence) (H)   
@@ -332,7 +331,6 @@
 [920.Number-of-Music-Playlists](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/920.Number-of-Music-Playlists) (H)   
 [935.Knight-Dialer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/935.Knight-Dialer) (M)   
 940.Distinct-Subsequences-II (H)    
-943.Find-the-Shortest-Superstring (H+)    
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
 1000.Minimum-Cost-to-Merge-Stones (H)   
 1027.Longest-Arithmetic-Sequence (M+)   
@@ -361,6 +359,9 @@
 [712.Minimum-ASCII-Delete-Sum-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/712.Minimum-ASCII-Delete-Sum-for-Two-Strings) (M+)   
 [727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/727.Minimum-Window-Subsequence) (H-)    
 [1035.Uncrossed-Lines](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1035.Uncrossed-Lines) (M)   
+* ``状态压缩DP``   
+[691.Stickers-to-Spell-Word](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/691.Stickers-to-Spell-Word) (H)    
+943.Find-the-Shortest-Superstring (H+)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
