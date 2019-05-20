@@ -317,7 +317,7 @@
 651.4-Keys-Keyboard (M+)    
 [673.Number-of-Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/673.Number-of-Longest-Increasing-Subsequence) (M+)    
 [494.Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/494.Target-Sum) (M+)   
-813.Largest-Sum-of-Averages (M)   
+[813.Largest-Sum-of-Averages](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/813.Largest-Sum-of-Averages) (H-)   
 [818.Race-Car](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/818.Race-Car) (H)    
 377.Combination-Sum-IV (H)    
 139.Word-Break (M+)   
