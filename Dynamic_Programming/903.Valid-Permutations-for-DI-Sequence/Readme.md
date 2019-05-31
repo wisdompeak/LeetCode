@@ -6,7 +6,7 @@ S = "#"+S;
 N = S.size();
 auto dp = vector<vector<int>>(N+1,vector<int>(N+1,0));
 ```
-这里dp[i][j]表示第i位上（以1为起点）的数值为j的方案数目。这里，j的取值范围是1~i。相当于1~i的一个permuatation。
+这里dp[i][j]表示第i位上（以1为起点）的数值为j的方案数目。这里，j的取值范围是1\~i。相当于1\~i的一个permuatation。
 
 我们考虑在往第i位上填数时，显然应该受到S[i-1]的影响。
 
