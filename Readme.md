@@ -70,7 +70,9 @@
 [424.Longest-Repeating-Character-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Hash/424.Longest-Repeating-Character-Replacement) （H）   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H)    
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
-930.Binary-Subarrays-With-Sum (H)
+930.Binary-Subarrays-With-Sum (H)   
+982.Triples-with-Bitwise-AND-Equal-To-Zero (M+) (TBD)   
+
 * ``Ordered_container``   
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Hash/352.Data-Stream-as-Disjoint-Intervals) (H)    
 [480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Hash/480.Sliding-Window-Median) (H)    
