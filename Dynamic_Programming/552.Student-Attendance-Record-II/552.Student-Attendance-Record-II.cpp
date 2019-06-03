@@ -2,26 +2,26 @@ class Solution {
 public:
     int checkRecord(int n) 
     {
-        long long a0l0=1,a0l1=1,a0l2=0,a1l0=1,a1l1=0,a1l2=0;
-        long long M=1e9+7;
+        vector<long>dp00(n+1,0);
+        vector<long>dp01(n+1,0);
+        vector<long>dp02(n+1,0);
+        vector<long>dp10(n+1,0);
+        vector<long>dp11(n+1,0);
+        vector<long>dp12(n+1,0);
         
-        for (int i=1; i<n; i++)
+        dp00[0] = 1;
+        long M = 1e9+7;
+        
+        for (int i=1; i<=n; i++)
         {
-            long long a0l0_temp=a0l0;
-            long long a0l1_temp=a0l1;
-            long long a0l2_temp=a0l2;
-            long long a1l0_temp=a1l0;
-            long long a1l1_temp=a1l1;
-            long long a1l2_temp=a1l2;
-            
-            a0l0=(a0l0_temp+a0l1_temp+a0l2_temp)%M;
-            a0l1=a0l0_temp;
-            a0l2=a0l1_temp;
-            a1l0=(a0l0_temp+a0l1_temp+a0l2_temp+a1l0_temp+a1l1_temp+a1l2_temp)%M;
-            a1l1=a1l0_temp;
-            a1l2=a1l1_temp;            
+            dp00[i] = (dp00[i-1] + dp01[i-1] + dp02[i-1])%M;
+            dp01[i] = dp00[i-1];
+            dp02[i] = dp01[i-1];
+            dp10[i] = (dp00[i-1] +  dp01[i-1] + dp02[i-1] + dp10[i-1] + dp11[i-1] + dp12[i-1])%M;
+            dp11[i] = dp10[i-1];
+            dp12[i] = dp11[i-1];
         }
         
-        return (a0l0+a0l1+a0l2+a1l0+a1l1+a1l2)%M;
+        return (dp00[n]+dp01[n]+dp02[n]+dp10[n]+dp11[n]+dp12[n])%M ;
     }
 };
