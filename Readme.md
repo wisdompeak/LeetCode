@@ -30,6 +30,7 @@
 [611.Valid-Triangle-Number](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/611.Valid-Triangle-Number)	(M+)   
 713.Subarray-Product-Less-Than-K (M+)   
 992.Subarrays-with-K-Different-Integers (H-)    
+1052.Grumpy-Bookstore-Owner (M+)    
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays) (H)   
