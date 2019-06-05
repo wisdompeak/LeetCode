@@ -83,6 +83,7 @@
 295.Find-Median-from-Data-Stream  (H)   
 [363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
 [862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
+[975.Odd-Even-Jump](https://github.com/wisdompeak/LeetCode/tree/master/Hash/975.Odd-Even-Jump) (H-)    
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
