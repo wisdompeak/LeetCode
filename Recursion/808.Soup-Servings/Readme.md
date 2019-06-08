@@ -10,9 +10,9 @@
 ```cpp
 double DFS(int A,int B)
 {
-  if (A<=0 && B>0) return 1;
-  if (A<=0 && B<=0) return 0.5;
-  if (A>0 && B<=0) return 0;
+  if (A<=0 && B>0) return 1;    // 边界条件：A先倒完
+  if (A<=0 && B<=0) return 0.5; // 边界条件：AB同时倒完
+  if (A>0 && B<=0) return 0;    // 边界条件：B先倒完
   return 0.25*(DFS(A-100,B)+DFS(A-75,B-25)+DFS(A-50,B-50)+DFS(A-25,B-75));
 }
 ```
