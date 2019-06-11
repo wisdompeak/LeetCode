@@ -1,6 +1,6 @@
 ### 787.Cheapest-Flights-Within-K-Stops
 
-此题是DP和Dijskra算法思想的结合.复习一下传统的Dijskra算法,需要三重循环:
+Floy算法的本质就是DP。复习一下传统的Floy算法,需要三重循环:
 ```cpp
 for(k=0;k<n;k++)
   for(i=0;i<n;i++)
