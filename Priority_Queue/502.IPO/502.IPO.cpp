@@ -1,40 +1,32 @@
 class Solution {
-    struct cmp
-    {
-        bool operator()(pair<int,int>a,pair<int,int>b)
-        {
-            return a.second<b.second;
-        }        
-    };
 public:
     int findMaximizedCapital(int k, int W, vector<int>& Profits, vector<int>& Capital) 
-    {        
-        vector<pair<int,int>>Proj;
+    {
+        vector<pair<int,int>>proj;
         for (int i=0; i<Profits.size(); i++)
-            Proj.push_back({Capital[i],Profits[i]});
-        sort(Proj.begin(),Proj.end());
+            proj.push_back({Capital[i],Profits[i]});
+        sort(proj.begin(),proj.end());
         
-        priority_queue<pair<int,int>,vector<pair<int,int>>,cmp>pq;
+        priority_queue<int>pq;
         
-        int count=0;
+        int count = 0;
         int i=0;
         while (count<k)
         {
-            while (i<Proj.size() && W>=Proj[i].first)
+            while (i<proj.size() && proj[i].first<=W)
             {
-                pq.push(Proj[i]);
+                pq.push(proj[i].second);
                 i++;
             }
             if (pq.size()!=0)
             {
-                W+=pq.top().second;
+                W+=pq.top();
                 count++;
-                pq.pop();            
+                pq.pop();
             }
             else
                 break;
-        }
-        
+        }        
         return W;
     }
 };
