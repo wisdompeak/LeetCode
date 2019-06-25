@@ -2,18 +2,7 @@ class Solution {
 public:
     vector<string> braceExpansionII(string expression) 
     {
-        string S;
-        for (int i=0; i<expression.size(); i++)
-        {
-            if (isalpha(expression[i]))
-            {
-                S.push_back('{');
-                S.push_back(expression[i]);
-                S.push_back('}');
-            }
-            else
-                S.push_back(expression[i]);                
-        }
+        string S = expression;
                 
         auto resultSet =  dfs(S,0,S.size()-1);
         
