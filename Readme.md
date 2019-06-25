@@ -76,9 +76,9 @@
 930.Binary-Subarrays-With-Sum (H)   
 982.Triples-with-Bitwise-AND-Equal-To-Zero (M+) (TBD)   
 
-* ``Ordered_container``   
-[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Hash/352.Data-Stream-as-Disjoint-Intervals) (H)    
-[480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Hash/480.Sliding-Window-Median) (H)    
+#### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
+[352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/352.Data-Stream-as-Disjoint-Intervals) (H)    
+[480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Heap/480.Sliding-Window-Median) (H)    
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H)   
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)   
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
