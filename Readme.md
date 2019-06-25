@@ -179,7 +179,7 @@
 [739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures)  (H-)    
 946.Validate-Stack-Sequences （H-）   
 962.Maximum-Width-Ramp (H)    
-
+[1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
