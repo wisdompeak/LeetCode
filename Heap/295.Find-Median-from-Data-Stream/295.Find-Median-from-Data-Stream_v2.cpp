@@ -1,12 +1,12 @@
 class MedianFinder {
-    multiset<int>Set;
-    multiset<int>::iterator it;
-    double result;
-    
 public:
     /** initialize your data structure here. */
-    MedianFinder() 
-    {
+    double result;
+    multiset<int>Set;
+    multiset<int>::iterator iter;
+    
+    MedianFinder() {
+        
     }
     
     void addNum(int num) 
@@ -15,48 +15,34 @@ public:
         
         if (Set.size()==1)
         {
-            it = Set.begin();
-            result = *it;
+            iter = Set.begin();
+            result = *iter;
             return;
         }
         
-        int N = Set.size();
-        
-        if (N%2==1)
+        if (Set.size()%2==1)    // OOXOOO
         {
-            if (num>=*it)
-            {
-                it = next(it,1);
-                result = *it;
-            }
-            else
-                result = *it;
+            if (num>=*iter)
+                iter = next(iter,1);
+            result = *iter;
         }
-        else
+        else    // OOXOO
         {
-            if (num>=*it)
-            {
-                auto it2 = next(it,1);
-                result = (*it+*it2)*1.0/2;
-            }
-            else
-            {
-                auto it2 = it;
-                it = prev(it,1);
-                result = (*it+*it2)*1.0/2;
-            }
-        }
+            if (num<*iter)
+                iter = prev(iter,1);
+            result = *iter*0.5 + *next(iter,1)*0.5;                
+        }        
     }
     
     double findMedian() 
-    {        
+    {
         return result;
     }
 };
 
 /**
  * Your MedianFinder object will be instantiated and called as such:
- * MedianFinder obj = new MedianFinder();
- * obj.addNum(num);
- * double param_2 = obj.findMedian();
+ * MedianFinder* obj = new MedianFinder();
+ * obj->addNum(num);
+ * double param_2 = obj->findMedian();
  */
