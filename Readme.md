@@ -53,6 +53,7 @@
 719.Find-K-th-Smallest-Pair-Distance (H-)   
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 786.K-th-Smallest-Prime-Fraction (M+)   
+1102.Path-With-Maximum-Minimum-Value (H-)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
