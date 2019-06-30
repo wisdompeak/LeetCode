@@ -21,8 +21,6 @@ public:
                 dp[i] = min(dp[i], dp[j-1]+height);
                 j--;
             }
-            
-            cout<<i<<" "<<dp[i]<<endl;
         }
         return dp[N];
     }
