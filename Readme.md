@@ -181,7 +181,7 @@
 726.Number-of-Atoms (M+)    
 772.Basic-Calculator-III (H-)   
 [1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
-1106.Parsing-A-Boolean-Expression
+1106.Parsing-A-Boolean-Expression (H-)    
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
