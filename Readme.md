@@ -137,6 +137,8 @@
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 
+#### [Binary_Index_Tree]
+[307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
