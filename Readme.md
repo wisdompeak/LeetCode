@@ -78,13 +78,14 @@
 982.Triples-with-Bitwise-AND-Equal-To-Zero (M+) (TBD)   
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
+[295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
+[363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Heap/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/352.Data-Stream-as-Disjoint-Intervals) (H)    
 [480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Heap/480.Sliding-Window-Median) (H)    
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H)   
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)   
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
-[295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
-[363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Heap/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
+[729.My-Calendar-I](https://github.com/wisdompeak/LeetCode/tree/master/Heap/729.My-Calendar-I) (M)    
 [975.Odd-Even-Jump](https://github.com/wisdompeak/LeetCode/tree/master/Heap/975.Odd-Even-Jump) (H-)    
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
