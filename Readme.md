@@ -289,6 +289,7 @@
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers) (H)    
 [862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
+[910.Smallest-Range-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/910.Smallest-Range-II) (M+)   
 936.Stamping-The-Sequence (H)   
 948.Bag-of-Tokens (H-)    
 968.Binary-Tree-Cameras (H)   
