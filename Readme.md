@@ -432,7 +432,7 @@
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/435.Non-overlapping-Intervals) (M+)   
 [1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1024.Video-Stitching) (M+)    
 
-#### [Meeting Room Series]
+#### [Sweep Line]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Sort/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/056.Merge-Intervals) (M)   
