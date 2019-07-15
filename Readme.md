@@ -298,6 +298,7 @@
 [1040.Moving-Stones-Until-Consecutive-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1040.Moving-Stones-Until-Consecutive-II) (H)    
 [1054.Distant-Barcodes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1054.Distant-Barcodes) (M+)    
 1121.Divide Array Into Increasing Sequences (TBD)   
+1124.Longest Well-Performing Interval (TBD)   
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
