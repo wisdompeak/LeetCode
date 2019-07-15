@@ -388,6 +388,7 @@
 * ``状态压缩DP``   
 [691.Stickers-to-Spell-Word](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/691.Stickers-to-Spell-Word) (H)    
 943.Find-the-Shortest-Superstring (H+)    
+1125.Smallest Sufficient Team (TBD)   
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
