@@ -440,7 +440,7 @@
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Sort/253.Meeting-Rooms-II) (M+)    
 [056.Merge-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/056.Merge-Intervals) (M)   
-057.Insert-Intervals (M)    
+[057.Insert-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/057.Insert-Interval) (M)    
 [732.My-Calendar-III](https://github.com/wisdompeak/LeetCode/tree/master/Sort/732.My-Calendar-III) (M)    
 759.Employee-Free-Time (M+)    
 
