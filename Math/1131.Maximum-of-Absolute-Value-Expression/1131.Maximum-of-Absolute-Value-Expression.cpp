@@ -12,13 +12,17 @@ public:
         }
         
         int ans = 0, mi, mx, t;
-        for (int s=0; s<(1<<3); s++) {
+        for (int s=0; s<(1<<3); s++) 
+        {
             mi = INT_MAX, mx = INT_MIN;
-            for (int i=0; i<N; i++) {
+            for (int i=0; i<N; i++) 
+            {
                 t = 0;
                 for (int j=0; j<3; j++)
-                    if ((1<<j) & s) t += a[i][j];
-                    else t -= a[i][j];
+                    if ((1<<j) & s) 
+                        t += a[i][j];
+                    else 
+                        t -= a[i][j];
                 mi = min(mi, t);
                 mx = max(mx, t);
             }
