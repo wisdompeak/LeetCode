@@ -50,4 +50,4 @@ max over (i,j)  {(ai+bi)−(aj+bj)}
 =   max {ak+bk} for any k
   - min {ak+bk} for any k
 ```
-于是，整个算法就是：k个维度的坐标(x1,...,xk)，就有2^k种状态。对于每一种状态(s1,..,sk)，（其中每种状态的分量都是+1或者-1）我们遍历所有元素，计算 sum(xi\*si)里面的最大值和最小值，得到maxDiff = max(xi\*si)-min(xi\*si)。最终答案就是在所有状态对应的maxDiff中再取最大值。
+于是，整个算法就是：k个维度的坐标(x1,...,xk)，就有2^k种状态。对于每一种状态(s1,..,sk)，（其中每种状态的分量都是+1或者-1）我们遍历所有元素i，计算 sum(xi\*si)里面的最大值mx和最小值mn，得到maxDiff = mx-mn。最终答案就是在所有状态对应的maxDiff中再取最大值。
