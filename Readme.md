@@ -186,6 +186,7 @@
 772.Basic-Calculator-III (H-)   
 [1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
 1106.Parsing-A-Boolean-Expression (H-)    
+[1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
