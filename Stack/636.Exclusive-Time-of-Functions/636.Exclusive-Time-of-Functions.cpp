@@ -3,51 +3,33 @@ public:
     vector<int> exclusiveTime(int n, vector<string>& logs) 
     {
         stack<pair<int,int>>Stack;
-        unordered_map<int,int>Map;
-        
-        for (int i=0; i<logs.size(); i++)
-        {
-            string s=logs[i];
-            int j=0;
-            while (s[j]!=':')
-                j++;
-            int id=stoi(s.substr(0,j));
-            j++;
-            
-            int flag;
-            if (s[j]=='s')
-                flag=0;
-            else
-                flag=1;
-            
-            j=s.size()-1;
-            while (s[j]!=':')
-                j--;
-            int time=stoi(s.substr(j+1));
-            if (flag==1)
-                time++;
-                        
-            if (flag==0)
-            {
-                Stack.push({id,time});
-            }
-            else
-            {
-                int t=time-Stack.top().second;
-                Map[id]+=t;
-                Stack.pop();
-                if (!Stack.empty())
-                {                    
-                    Map[Stack.top().first]-=t;
-                }
-            }
-        }
-        
         vector<int>results(n,0);
-        for (auto a:Map)
+        
+        for (auto s: logs)
         {
-            results[a.first]=a.second;
+            int pos1 = s.find(":",0);
+            int pos2 = s.find(":",pos1+1);
+            int id = stoi(s.substr(0,pos1));
+            bool flag = s.substr(pos1+1,pos2-pos1-1)=="start"? true:false;
+            int timeStamp = stoi(s.substr(pos2+1));
+            
+            if (flag)
+                Stack.push({id,timeStamp});
+            else
+            {
+                int start = Stack.top().second;
+                int duration = timeStamp - start + 1;
+                results[id] += duration;
+                Stack.pop();
+                
+                if (!Stack.empty())
+                {
+                    int prevId = Stack.top().first;
+                    results[prevId] -= duration;
+                }
+            }            
         }
+        
         return results;
     }
 };
