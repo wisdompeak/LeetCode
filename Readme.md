@@ -472,7 +472,7 @@
 932.Beautiful-Array (H-)    
 964.Least-Operators-to-Express-Number (H)   
 
-* ``Min-Max Strategy``
+* ``Min-Max Strategy``    
 1140.Stone-Game-II     
 
 
