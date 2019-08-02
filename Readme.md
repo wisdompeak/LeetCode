@@ -472,6 +472,10 @@
 932.Beautiful-Array (H-)    
 964.Least-Operators-to-Express-Number (H)   
 
+* ``Min-Max Strategy``
+1140.Stone-Game-II     
+
+
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
