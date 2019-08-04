@@ -7,15 +7,8 @@ public:
         int result = 0;
         
         for (int i=0; i<nums.size();i++)
-        {
-            if (q.size()==0)
-            {
-                q.push_back(nums[i]);
-                idx.push_back(i);
-                continue;
-            }
-            
-            if (q.size()>0 && nums[i]<q.back())
+        {           
+            if (q.size()==0 || q.size()>0 && nums[i]<q.back())
             {
                 q.push_back(nums[i]);
                 idx.push_back(i);
