@@ -176,7 +176,7 @@
 [636.Exclusive-Time-of-Functions](https://github.com/wisdompeak/LeetCode/tree/master/Stack/636.Exclusive-Time-of-Functions) (H-)    
 [739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures)  (H-)    
 [946.Validate-Stack-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Stack/946.Validate-Stack-Sequences)（H-）   
-962.Maximum-Width-Ramp (H)    
+[962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 * ``parse expression``    
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
