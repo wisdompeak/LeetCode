@@ -2,43 +2,53 @@ class Solution {
 public:
     int calculate(string s) 
     {
-        stack<int>nums;
-        stack<int>sign;
-        s.insert(s.begin(),'+');
+        string S = "+";        
         
-        int curResult=0;
+        for (auto ch : s)
+        {
+            if (ch==' ') continue;
+            S.push_back(ch);
+            if (ch=='(')
+                S.push_back('+');
+        }
+        s = S;
+        // cout<<s<<endl;
+        
+        stack<int>nums;
+        stack<int>signs;
+        int sum = 0;
+        int sign = 0;
+        
         for (int i=0; i<s.size(); i++)
         {
-            if (s[i]=='(')
+            char ch = s[i];
+            if (ch=='+' || ch=='-')
             {
-                nums.push(curResult);
-                curResult=0;
-                sign.push(1);
+                sign = ch=='+'? 1:-1;
             }
-            else if (s[i]==')')
+            else if (isdigit(ch))
             {
-                curResult*=sign.top();
-                sign.pop();
-                curResult+=nums.top();
-                nums.pop();
-            }
-            else if (s[i]=='+')
-                sign.push(1);
-            else if (s[i]=='-')
-                sign.push(-1);
-            else if (s[i]>='0' && s[i]<='9')
-            {
-                int i0=i;
-                while (i<s.size() && s[i]>='0' && s[i]<='9')
+                int i0 = i;
+                while (i<s.size() && isdigit(s[i]))
                     i++;
                 int num = stoi(s.substr(i0,i-i0));
-                curResult+=sign.top()*num;
-                sign.pop();
+                sum += sign*num;
                 i--;
             }
+            else if (ch=='(')
+            {
+                nums.push(sum);
+                signs.push(sign);
+                sum = 0;
+            }
+            else if (ch==')')
+            {
+                sum = signs.top()*sum;
+                signs.pop();
+                sum = nums.top() + sum;
+                nums.pop();
+            }
         }
-        
-        return curResult;
-        
+        return sum;        
     }
 };
