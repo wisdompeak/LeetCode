@@ -186,7 +186,7 @@
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
 [385.Mini-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/385.Mini-Parser) (H)   
 [439.Ternary-Expression-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/439.Ternary-Expression-Parser) (H-)    
-726.Number-of-Atoms (M+)    
+[726.Number-of-Atoms](https://github.com/wisdompeak/LeetCode/tree/master/Stack/726.Number-of-Atoms) (M+)    
 772.Basic-Calculator-III (H-)   
 [1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
 1106.Parsing-A-Boolean-Expression (H-)    
