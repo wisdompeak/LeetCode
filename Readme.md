@@ -428,6 +428,7 @@
 [467.Unique-Substrings-in-Wraparound-String](https://github.com/wisdompeak/LeetCode/tree/master/String/467.Unique-Substrings-in-Wraparound-String) (H-)   
 [564.Find-the-Closest-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/String/564.Find-the-Closest-Palindrome) (H)   
 722.Remove-Comments (H)   
+[736.Parse-Lisp-Expression](https://github.com/wisdompeak/LeetCode/tree/master/String/736.Parse-Lisp-Expression) (H-)   
 844.Backspace-String-Compare (M+)   
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
