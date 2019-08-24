@@ -89,10 +89,10 @@ void modifyTree(SegmentTree* node, int pos, int val)
         return;
     }
     int mid = root->start + (root->end-root->start)/2;
-    if (i<=mid)
-        modifyTree(root->left,i,val);
+    if (pos<=mid)
+        modifyTree(root->left,pos,val);
     else
-        modifyTree(root->right,i,val);
+        modifyTree(root->right,pos,val);
     root->sum = root->left->sum+root->right->sum;
 }
 ```
