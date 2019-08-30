@@ -14,3 +14,9 @@
 
 于是你分支去DFS，进入不同的平行时空，再考察下一个层级下的第一个引爆点...因此类推，依然是一个常规的DFS。但是效率会大大提高。
 
+======================================================
+
+注意下面这个case，OJ给的标准答案是错误的。
+
+https://leetcode.com/problems/zuma-game/discuss/254300/Right-answer-for-this-questions
+
