@@ -16,7 +16,7 @@
 
 ======================================================
 
-注意下面这个case，OJ给的标准答案是错误的。
+注意下面这个case，OJ给的标准答案是错误的。很不幸，这里的解答也都是错误的。这个case太NB了，我服气，
 
 https://leetcode.com/problems/zuma-game/discuss/254300/Right-answer-for-this-questions
 
