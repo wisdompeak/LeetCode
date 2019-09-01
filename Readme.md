@@ -239,7 +239,6 @@
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)  
 269.Alien-Dictionary (H)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H-)      
-310.Minimum-Height-Trees (H)    
 529.Minesweeper (M+)    
 637.Average-of-Levels-in-Binary-Tree (M)   
 675.Cut-Off-Trees-for-Golf-Event (M)    
@@ -249,7 +248,8 @@
 847.Shortest-Path-Visiting-All-Nodes (H)  
 [913.Cat-and-Mouse](https://github.com/wisdompeak/LeetCode/tree/master/BFS/913.Cat-and-Mouse) (H+)    
 * ``拓扑排序``   
-1136.Parallel-Courses (TBD)
+310.Minimum-Height-Trees (H)    
+1136.Parallel-Courses (TBD)   
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
@@ -364,6 +364,7 @@
 [1043.Partition-Array-for-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1043.Partition-Array-for-Maximum-Sum)(M+)    
 1049.Last-Stone-Weight-II (H-)    
 1105.Filling-Bookcase-Shelves (H-)    
+514. Freedom Trail (TBD)    
 * ``背包型``  
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
