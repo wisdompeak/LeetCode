@@ -248,7 +248,7 @@
 847.Shortest-Path-Visiting-All-Nodes (H)  
 [913.Cat-and-Mouse](https://github.com/wisdompeak/LeetCode/tree/master/BFS/913.Cat-and-Mouse) (H+)    
 * ``拓扑排序``   
-310.Minimum-Height-Trees (H)    
+[310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)    
 1136.Parallel-Courses (TBD)   
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
