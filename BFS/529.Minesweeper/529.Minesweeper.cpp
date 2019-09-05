@@ -4,49 +4,59 @@ public:
     {
         int M = board.size();
         int N = board[0].size();
+        
         if (board[click[0]][click[1]]=='M')
         {
             board[click[0]][click[1]] = 'X';
             return board;
         }
         
-        auto dir = vector<pair<int,int>>({{1,0},{1,1},{0,1},{-1,1},{-1,0},{-1,-1},{0,-1},{1,-1}});
-        set<pair<int,int>>visited;
+        auto visited = vector<vector<int>>(M,vector<int>(N,0));
+        auto dir = vector<pair<int,int>>({{1,0},{1,-1},{0,-1},{-1,-1},{-1,0},{-1,1},{0,1},{1,1}});
         
         queue<pair<int,int>>q;
         q.push({click[0],click[1]});
-        visited.insert({click[0],click[1]});
+        visited[click[0]][click[1]] = 1;
         
         while (!q.empty())
         {
-            int i = q.front().first;
-            int j = q.front().second;
+            int x0 = q.front().first;
+            int y0 = q.front().second;
             q.pop();
             
-            vector<pair<int,int>>next;
             int count = 0;
+            vector<pair<int,int>>next;
+            
             for (int k=0; k<8; k++)
             {
-                int x = i+dir[k].first;
-                int y = j+dir[k].second;
-                if (x<0||x>=M||y<0||y>=N) continue;
-                if (board[x][y]!='E' && board[x][y]!='M') continue;
-                                
-                if (board[x][y]=='M') count++;
-                else if (visited.find({x,y})==visited.end())
-                    next.push_back({x,y});
+                int x = x0+dir[k].first;
+                int y = y0+dir[k].second;
+                
+                if (x<0||x>=M||y<0||y>=N)
+                    continue;
+                
+                if (board[x][y]=='M')
+                    count++;
+                else
+                {
+                    if (visited[x][y]==0)
+                        next.push_back({x,y});
+                }
+                    
             }
             
-            if (count>0)            
-                board[i][j]=count+'0';                            
-            else
+            if (count==0)
             {
-                board[i][j]='B';
-                for (auto p:next)
+                board[x0][y0] = 'B';
+                for (auto p: next)
                 {
                     q.push(p);
-                    visited.insert(p);
-                }                    
+                    visited[p.first][p.second] = 1;
+                }  
+            }
+            else
+            {
+                board[x0][y0] = '0'+count;
             }
         }
         
