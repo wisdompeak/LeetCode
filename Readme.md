@@ -240,7 +240,7 @@
 269.Alien-Dictionary (H)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H-)      
 [529.Minesweeper](https://github.com/wisdompeak/LeetCode/tree/master/BFS/529.Minesweeper) (M+)    
-637.Average-of-Levels-in-Binary-Tree (M)   
+[637.Average-of-Levels-in-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/BFS/637.Average-of-Levels-in-Binary-Tree) (M)   
 675.Cut-Off-Trees-for-Golf-Event (M)    
 694.Number-of-Distinct-Islands (M+)   
 743.Network-Delay-Time (H)    
