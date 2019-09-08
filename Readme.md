@@ -243,7 +243,7 @@
 [637.Average-of-Levels-in-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/BFS/637.Average-of-Levels-in-Binary-Tree) (M)   
 [675.Cut-Off-Trees-for-Golf-Event](https://github.com/wisdompeak/LeetCode/tree/master/BFS/675.Cut-Off-Trees-for-Golf-Event) (M)    
 694.Number-of-Distinct-Islands (M+)   
-743.Network-Delay-Time (H)    
+[743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H)    
 [815.Bus-Routes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/815.Bus-Routes) (M+)    
 847.Shortest-Path-Visiting-All-Nodes (H)  
 [913.Cat-and-Mouse](https://github.com/wisdompeak/LeetCode/tree/master/BFS/913.Cat-and-Mouse) (H+)    
