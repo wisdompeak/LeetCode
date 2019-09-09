@@ -4,38 +4,51 @@ public:
     {
         if (S==T) return 0;
         
-        unordered_map<int,vector<int>>stop2routes;
-        for (int i=0; i<routes.size(); i++)        
-            for (int j=0; j<routes[i].size(); j++)
-                stop2routes[routes[i][j]].push_back(i);
+        unordered_map<int,vector<int>>stop2bus;
+        for (int i=0; i<routes.size(); i++)
+        {
+            for (auto j: routes[i])
+                stop2bus[j].push_back(i);
+        }
         
-        queue<pair<int,int>>q;
-        unordered_set<int>visitedStops;
-        unordered_set<int>visitedRoutes;
-        q.push({S,0});
+        unordered_set<int>visitedStop;
+        unordered_set<int>visitedBus;
+        
+        queue<int>q;
+        q.push(S);
+        visitedStop.insert(S);
+        int step = -1;
         
         while (!q.empty())
         {
-            int curStop = q.front().first;
-            int step = q.front().second;
-            q.pop();
+            step += 1;
             
-            for (int route: stop2routes[curStop])
-            {                
-                if (visitedRoutes.find(route)!=visitedRoutes.end())
-                    continue;
-                visitedRoutes.insert(route);
+            int len = q.size();
+            while (len--)
+            {
+                int curStop = q.front();
+                q.pop();
                 
-                for (int nextStop: routes[route])
+                for (auto bus: stop2bus[curStop])
                 {
-                    if (nextStop==T) return step+1;
-                    if (visitedStops.find(nextStop)!=visitedStops.end())
+                    if (visitedBus.find(bus)!=visitedBus.end())
                         continue;
-                    visitedStops.insert(nextStop);
-                    q.push({nextStop,step+1});
+                    visitedBus.insert(bus);                        
+                    
+                    for (auto nextStop: routes[bus])
+                    {
+                        if (visitedStop.find(nextStop)!=visitedStop.end())
+                            continue;
+                        if (nextStop==T)
+                            return step+1;
+                        
+                        q.push(nextStop);
+                        visitedStop.insert(nextStop);
+                    }
                 }
-            }            
+            }
         }
+        
         return -1;
     }
 };
