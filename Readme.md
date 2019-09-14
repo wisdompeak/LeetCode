@@ -220,6 +220,7 @@
 465.Optimal-Account-Balancing (H)   
 [959.Regions-Cut-By-Slashes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/959.Regions-Cut-By-Slashes) (M+)    
 * ``search in an array``    
+[301.Remove-Invalid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/DFS/301.Remove-Invalid-Parentheses) (H)   
 [473.Matchsticks-to-Square](https://github.com/wisdompeak/LeetCode/tree/master/DFS/473.Matchsticks-to-Square) (M+)    
 [491.Increasing-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/DFS/491.Increasing-Subsequences) (M)   
 [698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-)    
