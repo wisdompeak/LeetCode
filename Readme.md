@@ -159,6 +159,7 @@
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 716.Max-Stack (M+)    
 [895.Maximum-Frequency-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/895.Maximum-Frequency-Stack) (H)    
+1172.Dinner-Plate-Stacks (TBD)    
 
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
