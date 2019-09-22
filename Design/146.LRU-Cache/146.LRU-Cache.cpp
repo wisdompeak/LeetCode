@@ -1,58 +1,54 @@
 class LRUCache {
-    unordered_map<int,int>Map;
+    unordered_map<int,int>key2val;
     list<int>List;
-    unordered_map<int,list<int>::iterator>iter;
+    unordered_map<int, list<int>::iterator>key2iter;    
     int cap;
     
 public:
-    LRUCache(int capacity) 
-    {
-        cap=capacity;
+    LRUCache(int capacity) {
+        cap = capacity;
     }
     
     int get(int key) 
     {
-        if (Map.find(key)==Map.end()) return -1;
-        
-        List.erase(iter[key]);
+        if (key2val.find(key)==key2val.end())
+            return -1;
+        auto iter = key2iter[key];
+        List.erase(iter);
         List.push_back(key);
-        iter[key]=--List.end();        
-        return Map[key];
+        key2iter[key] = --List.end();
+        return key2val[key];
     }
     
     void put(int key, int value) 
     {
-        if (cap<=0) return;
         if (get(key)!=-1)
         {
-            Map[key]=value;
+            key2val[key] = value;
             return;
         }
         
-        if (List.size()<cap)
+        if (key2val.size()==cap)
         {
-            List.push_back(key);
-            iter[key]=--List.end();
-            Map[key]=value;
+            int keyDel = *List.begin();
+            key2val.erase(keyDel);
+            key2iter.erase(keyDel);
+            List.erase(List.begin());
         }
-        else
-        {
-            int minKey = List.front();
-            iter.erase(minKey);
-            List.pop_front();
-            Map.erase(minKey);
-            
-            List.push_back(key);
-            iter[key]=--List.end();
-            Map[key]=value;
-        }
-        
+        key2val[key] = value;
+        List.push_back(key);
+        key2iter[key] = --List.end();        
     }
 };
 
 /**
  * Your LRUCache object will be instantiated and called as such:
- * LRUCache obj = new LRUCache(capacity);
- * int param_1 = obj.get(key);
- * obj.put(key,value);
+ * LRUCache* obj = new LRUCache(capacity);
+ * int param_1 = obj->get(key);
+ * obj->put(key,value);
  */
+
+
+
+
+//key1, key3, ..., key_n, key2, 
