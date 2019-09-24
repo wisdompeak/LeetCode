@@ -1,7 +1,7 @@
 class AllOne {
     list<int>List; // ordered sequence of values
     unordered_map<string,int>key2val;   // key->val
-    unordered_map<int,unordered_set<string>>val2keys;  //val->set of keys
+    unordered_map<int,unordered_set<string>>val2set;  //val->set of keys
     unordered_map<int,list<int>::iterator>val2iter; //val-> iterator in list
     
 public:
@@ -18,16 +18,16 @@ public:
         
         key2val[key] = val+1;
         
-        val2keys[val+1].insert(key);
-        if (val>0) val2keys[val].erase(key);
+        val2set[val+1].insert(key);
+        if (val>0) val2set[val].erase(key);
             
-        if (val2keys[val+1].size()==1)
+        if (val2set[val+1].size()==1)
         {
             List.insert(next(val2iter[val]), val+1);
             val2iter[val+1] = next(val2iter[val]);
         }
             
-        if (val>0 && val2keys[val].size()==0)
+        if (val>0 && val2set[val].size()==0)
         {
             List.erase(val2iter[val]);
         }
@@ -44,16 +44,16 @@ public:
         
         key2val[key] = val-1;
         
-        if (val-1>0) val2keys[val-1].insert(key);
-        val2keys[val].erase(key);
+        if (val-1>0) val2set[val-1].insert(key);
+        val2set[val].erase(key);
             
-        if (val-1>0 && val2keys[val-1].size()==1)
+        if (val-1>0 && val2set[val-1].size()==1)
         {
             List.insert(val2iter[val], val-1);
             val2iter[val-1] = prev(val2iter[val]);
         }
             
-        if (val2keys[val].size()==0)
+        if (val2set[val].size()==0)
         {
             List.erase(val2iter[val]);
         }
@@ -65,7 +65,7 @@ public:
         if (List.size()==1)
             return "";
         else
-            return *(val2keys[List.back()].begin());
+            return *(val2set[List.back()].begin());
     }
     
     /** Returns one of the keys with Minimal value. */
@@ -74,7 +74,7 @@ public:
         if (List.size()==1)
             return "";
         else
-            return *(val2keys[*(++List.begin())].begin());;
+            return *(val2set[*(++List.begin())].begin());;
     }
 };
 
