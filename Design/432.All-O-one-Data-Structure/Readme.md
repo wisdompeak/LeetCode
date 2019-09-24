@@ -14,7 +14,7 @@ unordered_map<int,list<int>iterator>val2iter;
 解决了以上的问题之后，剩下的数据结构就不难设计:
 ```cpp
 unordered_map<string,int>key2val;   // key->val
-unordered_map<int,unordered_set<string>>val2keys;  //val->set of keys
+unordered_map<int,unordered_set<string>>val2set;  //val->set of keys
 ```
 我们需要一个Hash表val2set，来存储从val到对应的key的集合。于是inc(key)的操作，就是将key从value对应的集合中删除，再把key加入value+1对应的集合中。对于dec(key)的操作同理。
 
