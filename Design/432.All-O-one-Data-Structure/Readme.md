@@ -2,7 +2,7 @@
 
 此题和[146.LRU](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache)和[460.LFU](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache)的解法非常相似．我们需要一个数据结构存储着所有的val，并且这个val是实时有序的（方便我们最快找到最大和最小的val），还要求所有的插入和删除都是o(1)。
 
-解决方案还是链表（list<int>）。设计如下的数据结构
+解决方案还是链表(list<int>)。设计如下的数据结构
 ```cpp
 list<int>List;
 unordered_map<int,list<int>iterator>val2iter;
