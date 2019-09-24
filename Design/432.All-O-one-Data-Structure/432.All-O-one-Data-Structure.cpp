@@ -1,104 +1,89 @@
 class AllOne {
-    
-    unordered_map<string,int>Str2Num;
-    unordered_map<int,set<string>>Num2Strs;
-    unordered_map<int,list<int>::iterator>Num2Iter;
-    list<int>ListNum;
+    list<int>List; // ordered sequence of values
+    unordered_map<string,int>key2val;   // key->val
+    unordered_map<int,unordered_set<string>>val2keys;  //val->set of keys
+    unordered_map<int,list<int>::iterator>val2iter; //val-> iterator in list
     
 public:
     /** Initialize your data structure here. */
-    AllOne() 
-    {
-        Str2Num.clear();
-        Num2Strs.clear();
-        Num2Iter.clear();
-        ListNum.clear();     
-        
-        ListNum.push_back(0);
-        Num2Iter[0] = ListNum.begin();
+    AllOne() {
+        List.push_back(0);
+        val2iter[0] = List.begin();
     }
     
     /** Inserts a new key <Key> with value 1. Or increments an existing key by 1. */
     void inc(string key) 
     {
-        int val = Str2Num[key];
-                
-        Str2Num[key]++;
+        int val = key2val[key];
         
-        Num2Strs[val+1].insert(key);
-        if (val!=0) Num2Strs[val].erase(key);
+        key2val[key] = val+1;
         
-        if (Num2Strs[val+1].size()==1)
+        val2keys[val+1].insert(key);
+        if (val>0) val2keys[val].erase(key);
+            
+        if (val2keys[val+1].size()==1)
         {
-            auto it = Num2Iter[val];
-            ListNum.insert(next(it),val+1);
-            Num2Iter[val+1] = next(it);
+            List.insert(next(val2iter[val]), val+1);
+            val2iter[val+1] = next(val2iter[val]);
+        }
+            
+        if (val>0 && val2keys[val].size()==0)
+        {
+            List.erase(val2iter[val]);
         }
         
-        if (val!=0 && Num2Strs[val].size()==0)
-        {
-            auto it = Num2Iter[val];
-            ListNum.erase(it);
-            Num2Iter.erase(val);
-        }
-        
+        //cout<<"OK"<<endl;
+            
     }
     
     /** Decrements an existing key by 1. If Key's value is 1, remove it from the data structure. */
     void dec(string key) 
     {
-        if (Str2Num.find(key)==Str2Num.end())
-            return;
+        int val = key2val[key];
+        if (val==0) return;
         
-        int val = Str2Num[key];
+        key2val[key] = val-1;
         
-        Str2Num[key]--;
-        
-        if (val-1!=0) Num2Strs[val-1].insert(key);
-        Num2Strs[val].erase(key);
-        
-        if (val-1!=0 && Num2Strs[val-1].size()==1)
+        if (val-1>0) val2keys[val-1].insert(key);
+        val2keys[val].erase(key);
+            
+        if (val-1>0 && val2keys[val-1].size()==1)
         {
-            auto it = Num2Iter[val];
-            ListNum.insert(it,val-1);
-            Num2Iter[val-1]=prev(it);
+            List.insert(val2iter[val], val-1);
+            val2iter[val-1] = prev(val2iter[val]);
         }
-        
-        if (Num2Strs[val].size()==0)
+            
+        if (val2keys[val].size()==0)
         {
-            auto it = Num2Iter[val];
-            ListNum.erase(it);
-            Num2Iter.erase(val);
+            List.erase(val2iter[val]);
         }
     }
     
     /** Returns one of the keys with maximal value. */
     string getMaxKey() 
     {
-        if (ListNum.size()==1)
+        if (List.size()==1)
             return "";
-        
-        int val = ListNum.back();        
-        return *(Num2Strs[val].begin());
-        
+        else
+            return *(val2keys[List.back()].begin());
     }
     
     /** Returns one of the keys with Minimal value. */
     string getMinKey() 
     {
-        if (ListNum.size()==1)
+        if (List.size()==1)
             return "";
-        
-        int val = *(++ListNum.begin());
-        return *(Num2Strs[val].begin());
+        else
+            return *(val2keys[*(++List.begin())].begin());;
     }
 };
 
 /**
  * Your AllOne object will be instantiated and called as such:
- * AllOne obj = new AllOne();
- * obj.inc(key);
- * obj.dec(key);
- * string param_3 = obj.getMaxKey();
- * string param_4 = obj.getMinKey();
+ * AllOne* obj = new AllOne();
+ * obj->inc(key);
+ * obj->dec(key);
+ * string param_3 = obj->getMaxKey();
+ * string param_4 = obj->getMinKey();
  */
+
