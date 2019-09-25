@@ -150,7 +150,7 @@
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [146.LRU-Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache) (H-)   
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
-432.All-O-one-Data-Structure (H)    
+[432.All-O-one-Data-Structure](https://github.com/wisdompeak/LeetCode/tree/master/Design/432.All-O-one-Data-Structure) (H)    
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (H-)   
 [381.Insert-Delete-GetRandom-O-1-Duplicates-allowed](https://github.com/wisdompeak/LeetCode/tree/master/Design/381.Insert-Delete-GetRandom-O-1-Duplicates-allowed) (H)   
 [355.Design Twitter](https://github.com/wisdompeak/LeetCode/tree/master/Design/355.Design-Twitter) (H)    
