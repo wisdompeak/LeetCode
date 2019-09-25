@@ -1,6 +1,6 @@
 class RandomizedCollection {
-    vector<int>array;
-    unordered_map<int,vector<int>>Map;
+    vector<int>nums;
+    unordered_map<int,unordered_set<int>>val2pos;
 public:
     /** Initialize your data structure here. */
     RandomizedCollection() {
@@ -10,58 +10,57 @@ public:
     /** Inserts a value to the collection. Returns true if the collection did not already contain the specified element. */
     bool insert(int val) 
     {
-        if (Map.find(val)==Map.end())
-        {
-            Map[val].push_back(array.size());
-            array.push_back(val);
-            return true;
-        }
-        else
-        {
-            Map[val].push_back(array.size());
-            array.push_back(val);
-            return false;        
-        }
+        int flag = val2pos.find(val)==val2pos.end();
+        
+        nums.push_back(val);
+        val2pos[val].insert(nums.size()-1);
+        
+        return flag;
     }
     
     /** Removes a value from the collection. Returns true if the collection contained the specified element. */
     bool remove(int val) 
     {
-        if (Map.find(val)==Map.end())
-            return false;
+        int flag = val2pos.find(val)!=val2pos.end();
+        if (flag==false) return false;
+        
+        int pos = *(val2pos[val].begin());
+        int val2 = nums.back();
+        
+        if (val2==val)
+        {
+            nums.pop_back();
+        }
         else
         {
-            int pos = Map[val].back();
-            array[pos]=array.back();
-            for (int i=0; i<Map[array.back()].size(); i++)
-            {
-                if (Map[array.back()][i]==array.size()-1)
-                {
-                    Map[array.back()][i] = pos;
-                    break;
-                }
-            }
-            array.pop_back();
-            Map[val].pop_back();
-            if (Map[val].size()==0)
-                Map.erase(val);
-            return true;
+            int pos2 = nums.size()-1;
+            nums[pos] = val2;
+            nums.pop_back();
+            val2pos[val2].erase(pos2);
+            val2pos[val2].insert(pos);
         }
+        
+        val2pos[val].erase(pos);
+        if (val2pos[val].size()==0)
+            val2pos.erase(val);
+        
+        return flag;
         
     }
     
     /** Get a random element from the collection. */
     int getRandom() 
     {
-        int pos = rand()% array.size();
-        return array[pos];
+        int idx = rand()%nums.size();
+        return nums[idx];
     }
 };
 
 /**
  * Your RandomizedCollection object will be instantiated and called as such:
- * RandomizedCollection obj = new RandomizedCollection();
- * bool param_1 = obj.insert(val);
- * bool param_2 = obj.remove(val);
- * int param_3 = obj.getRandom();
+ * RandomizedCollection* obj = new RandomizedCollection();
+ * bool param_1 = obj->insert(val);
+ * bool param_2 = obj->remove(val);
+ * int param_3 = obj->getRandom();
  */
+
