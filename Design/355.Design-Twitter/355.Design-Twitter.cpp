@@ -21,7 +21,7 @@ public:
     /** Retrieve the 10 most recent tweet ids in the user's news feed. Each item in the news feed must be posted by users who the user followed or by the user herself. Tweets must be ordered from most recent to least recent. */
     vector<int> getNewsFeed(int userId) 
     {
-        map<int,int>news;
+        set<pair<int,int>>news;
         for (auto i:friends[userId])
         {
             for (int j=tweets[i].size()-1; j>=0; j--)
