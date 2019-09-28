@@ -154,7 +154,7 @@
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (M+)   
 [381.Insert-Delete-GetRandom-O-1-Duplicates-allowed](https://github.com/wisdompeak/LeetCode/tree/master/Design/381.Insert-Delete-GetRandom-O-1-Duplicates-allowed) (H-)   
 [716.Max-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/716.Max-Stack) (M+)    
-[355.Design Twitter](https://github.com/wisdompeak/LeetCode/tree/master/Design/355.Design-Twitter) (H)    
+[355.Design-Twitter](https://github.com/wisdompeak/LeetCode/tree/master/Design/355.Design-Twitter) (H)    
 [535.Encode-and-Decode-TinyURL](https://github.com/wisdompeak/LeetCode/tree/master/Design/535.Encode-and-Decode-TinyURL) (M)    
 [631.Design-Excel-Sum-Formula](https://github.com/wisdompeak/LeetCode/tree/master/Design/631.Design-Excel-Sum-Formula) (H)    
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
@@ -475,9 +475,11 @@
 [685.Redundant-Connection-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/685.Redundant-Connection-II) (H)   
 721.Accounts-Merge (M+)   
 [785.Is-Graph-Bipartite](https://github.com/wisdompeak/LeetCode/tree/master/BFS/785.Is-Graph-Bipartite) (M+)    
+947.Most-Stones-Removed-with-Same-Row-or-Column (TBD)    
 952.Largest-Component-Size-by-Common-Factor (H)   
 1101.The-Earliest-Moment-When-Everyone-Become-Friends (M+)  
 1202.Smallest-String-With-Swaps (TBD)   
+
 * ``MST``    
 [1135.Connecting-Cities-With-Minimum-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1135.Connecting-Cities-With-Minimum-Cost)　(M+)   
 [1168.Optimize-Water-Distribution-in-a-Village](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1168.Optimize-Water-Distribution-in-a-Village) (H-)   
