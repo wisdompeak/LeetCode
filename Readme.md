@@ -476,7 +476,7 @@
 [685.Redundant-Connection-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/685.Redundant-Connection-II) (H)   
 [721.Accounts-Merge](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/721.Accounts-Merge) (M+)   
 [785.Is-Graph-Bipartite](https://github.com/wisdompeak/LeetCode/tree/master/BFS/785.Is-Graph-Bipartite) (M+)    
-[947.Most-Stones-Removed-with-Same-Row-or-Column](947.Most-Stones-Removed-with-Same-Row-or-Column) (M+)    
+[947.Most-Stones-Removed-with-Same-Row-or-Column](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/947.Most-Stones-Removed-with-Same-Row-or-Column) (M+)    
 952.Largest-Component-Size-by-Common-Factor (H)   
 1101.The-Earliest-Moment-When-Everyone-Become-Friends (M+)  
 1202.Smallest-String-With-Swaps (TBD)   
