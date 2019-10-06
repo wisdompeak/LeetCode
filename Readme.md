@@ -386,6 +386,7 @@
 [730.Count-Different-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/730.Count-Different-Palindromic-Subsequences) (H)  
 1039.Minimum-Score-Triangulation-of-Polygon (H)   
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
+1216.Valid-Palindrome-III (TBD)   
 * ``双状态型``   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M)   
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
@@ -475,7 +476,7 @@
 [685.Redundant-Connection-II](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/685.Redundant-Connection-II) (H)   
 [721.Accounts-Merge](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/721.Accounts-Merge) (M+)   
 [785.Is-Graph-Bipartite](https://github.com/wisdompeak/LeetCode/tree/master/BFS/785.Is-Graph-Bipartite) (M+)    
-947.Most-Stones-Removed-with-Same-Row-or-Column (TBD)    
+[947.Most-Stones-Removed-with-Same-Row-or-Column](947.Most-Stones-Removed-with-Same-Row-or-Column) (M+)    
 952.Largest-Component-Size-by-Common-Factor (H)   
 1101.The-Earliest-Moment-When-Everyone-Become-Friends (M+)  
 1202.Smallest-String-With-Swaps (TBD)   
