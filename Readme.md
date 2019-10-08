@@ -479,7 +479,8 @@
 [947.Most-Stones-Removed-with-Same-Row-or-Column](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/947.Most-Stones-Removed-with-Same-Row-or-Column) (M+)    
 [952.Largest-Component-Size-by-Common-Factor](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/952.Largest-Component-Size-by-Common-Factor) (H)   
 1101.The-Earliest-Moment-When-Everyone-Become-Friends (M+)  
-1202.Smallest-String-With-Swaps (TBD)   
+[1202.Smallest-String-With-Swaps](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1202.Smallest-String-With-Swaps) (M+)   
+[924.Minimize-Malware-Spread](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/924.Minimize-Malware-Spread) (H-)   
 
 * ``MST``    
 [1135.Connecting-Cities-With-Minimum-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1135.Connecting-Cities-With-Minimum-Cost)　(M+)   
