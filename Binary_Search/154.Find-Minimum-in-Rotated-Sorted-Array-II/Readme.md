@@ -39,4 +39,4 @@ while (left+1<right && nums[left]==nums[left+1]) left++;
 
 第二种情况，可以轻易判断出mid和right在同一个区间。考虑到我们始终往右区间收敛，所以可以判定此时mid在右区间。
 
-第三种情况，有一个非常tricky的技巧。既然无法判定mid是否在左区间还是右区间，但是因为nums[mid]和nums[right]一样，那么去掉nums[right]并不影响结果。去掉nums[right]（将右边界左移一位）反而可以进一步帮助分析mid所属的位置。
+第三种情况，有一个非常tricky的技巧。既然无法判定mid是否在左区间还是右区间，但是因为nums[mid]和nums[right]一样，那么去掉nums[right]并不影响结果。去掉nums[right]（将右边界左移一位）反而可以进一步帮助分析mid所属的位置：如果下一步出现nums[mid]和nums[right]不一样，那就依照之前的逻辑很好处理；否则就继续移动right，同样没有影响。
