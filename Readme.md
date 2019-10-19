@@ -56,6 +56,7 @@
 1102.Path-With-Maximum-Minimum-Value (H-)   
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H-)    
 1201.Ugly-Number-III (TBD)    
+1231.Divide-Chocolate (TBD)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
