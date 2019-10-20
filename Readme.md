@@ -31,6 +31,7 @@
 713.Subarray-Product-Less-Than-K (M+)   
 992.Subarrays-with-K-Different-Integers (H-)    
 1052.Grumpy-Bookstore-Owner (M+)    
+1234.Replace-the-Substring-for-Balanced-String (H-)   
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays) (H)   
