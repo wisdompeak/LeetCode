@@ -8,4 +8,6 @@
 用BFS的方法进行搜索。每次弹出一个PQ里最小的元素，然后新加入该元素相邻（右边和下边）的两个元素。最先弹出的k个元素就是答案。
 
 #### 解法2：binary search + sorted matrix property
-用binary search的方法先确定按从小到大顺序第k个元素是多少，另它为x。然后打印出matrix里面所有小于等于x的元素。注意，这样的元素可能会超过k个，也可能会小于k个。最终只要输出k个。
+此题和378. Kth Smallest Element in a Sorted Matrix非常相似。
+
+用binary search的方法先确定按从小到大顺序第k个元素是多少，令它为x。然后打印出matrix里面所有小于等于x的元素。注意，这样的元素可能会超过k个，也可能会小于k个。最终只要输出k个。
