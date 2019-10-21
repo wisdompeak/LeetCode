@@ -42,7 +42,6 @@
 [162.Find-Peak-Element](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/162.Find-Peak-Element) (H-)  
 [275.H-index II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/275.H-Index-II) (H)  
 [302.Smallest-Rectangle-Enclosing-Black-Pixels](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/302.Smallest-Rectangle-Enclosing-Black-Pixels) (M+)  
-[378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (H-)   
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)  
 [475.Heaters](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/475.Heaters) (H-)  
 [483.Smallest-Good-Base](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/483.Smallest-Good-Base/Readme.md) (H)   
@@ -58,6 +57,7 @@
 1231.Divide-Chocolate (TBD)   
 * ``Binary Search by Value``  
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
+[378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (H-)   
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
