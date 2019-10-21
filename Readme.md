@@ -41,7 +41,6 @@
 [034.Search-for-a-Range](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/034.Search-for-a-Range) (M)  
 [162.Find-Peak-Element](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/162.Find-Peak-Element) (H-)  
 [275.H-index II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/275.H-Index-II) (H)  
-[287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
 [302.Smallest-Rectangle-Enclosing-Black-Pixels](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/302.Smallest-Rectangle-Enclosing-Black-Pixels) (M+)  
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H-)   
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (H-)   
@@ -58,6 +57,9 @@
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H-)    
 1201.Ugly-Number-III (TBD)    
 1231.Divide-Chocolate (TBD)   
+* ``Binary Search by Value``  
+[287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
+
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
