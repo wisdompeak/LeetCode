@@ -2,51 +2,38 @@ class Solution {
 public:
     int splitArray(vector<int>& nums, int m) 
     {
-        int left=INT_MIN;
-        int right = 0;
-        for (int i=0; i<nums.size(); i++)
-        {
-            left = max(left,nums[i]);
-            right += nums[i];
-        }
-        
-        int mid;
+        long left = 0, right = INT_MAX;
         
         while (left<right)
         {
-            mid = left+(right-left)/2;
-            
-            if (ItWorks(nums,m,mid))
+            int mid = left+(right-left)/2;
+            if (checkOK(nums, m, mid))
                 right = mid;
             else
                 left = mid+1;
         }
         
         return left;
-        
     }
     
-    bool ItWorks(vector<int>& nums, int m, int k)
+    bool checkOK(vector<int>& nums, int m, long val)
     {
-        int sum=0;
-        int count=1;
-        
+        int count = 0;
         for (int i=0; i<nums.size(); i++)
         {
-            if (nums[i]>k) return false;
+            if (nums[i] > val) return false;
             
-            sum+=nums[i];
-            if (sum>k)
+            int j = i;
+            long sum = 0;
+            while (j<nums.size() && sum+(long)nums[j]<=val)
             {
-                sum=nums[i];
-                count++;
+                sum += (long)nums[j];
+                j++;
             }
-            
-            if (count>m) return false;
+            count++;
+            i = j-1;
         }
         
-        return true;
-        
+        return count <= m;
     }
-    
 };
