@@ -44,7 +44,7 @@
 [302.Smallest-Rectangle-Enclosing-Black-Pixels](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/302.Smallest-Rectangle-Enclosing-Black-Pixels) (M+)  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)  
 [475.Heaters](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/475.Heaters) (H-)  
-[483.Smallest-Good-Base](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/483.Smallest-Good-Base/Readme.md) (H)   
+[483.Smallest-Good-Base](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/483.Smallest-Good-Base) (H)   
 [029.Divide-Two-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/029.Divide-Two-Integers) (M+)    
 [644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
 [668.Kth-Smallest-Number-in-Multiplication-Table](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/668.Kth-Smallest-Number-in-Multiplication-Table) (H-)    
