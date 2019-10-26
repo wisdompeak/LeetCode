@@ -463,6 +463,7 @@
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Sort/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/435.Non-overlapping-Intervals) (M+)   
 [1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1024.Video-Stitching) (M+)    
+[1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
 
 #### [Sweep Line]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
