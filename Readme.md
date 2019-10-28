@@ -58,7 +58,7 @@
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)   
 [668.Kth-Smallest-Number-in-Multiplication-Table](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/668.Kth-Smallest-Number-in-Multiplication-Table) (H-)    
 [719.Find-K-th-Smallest-Pair-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/719.Find-K-th-Smallest-Pair-Distance) (H-)   
-786.K-th-Smallest-Prime-Fraction (M+)   
+[786.K-th-Smallest-Prime-Fraction](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/786.K-th%20Smallest-Prime-Fraction) (H-)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
