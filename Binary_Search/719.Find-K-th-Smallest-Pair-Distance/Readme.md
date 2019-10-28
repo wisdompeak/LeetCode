@@ -13,3 +13,11 @@ for (int i=0; i<nums.size(); i++)
 }
 ```
 用upper_bound()是 nlog(n)的复杂度。当然也可以通过双指针来做，就是o(n)的复杂度。
+
+PS:对于求Kth smallest的题目，用binary search by value的方法往往能有奇效。相似的题目有：
+```
+668	Kth-Smallest-Number-in-Multiplication-Table
+373	Find K Pairs with Smallest Sums
+81	Search in Rotated Sorted Array II
+4	Median of Two Sorted Arrays
+```
