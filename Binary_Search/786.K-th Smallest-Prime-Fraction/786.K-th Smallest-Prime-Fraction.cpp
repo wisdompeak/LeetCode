@@ -1,49 +1,47 @@
 class Solution {
 public:
-    vector<int> kthSmallestPrimeFraction(vector<int>& A, int K) 
+    vector<int> kthSmallestPrimeFraction(vector<int>& nums, int K) 
     {
-        double left=A[0]*1.0/A.back();
-        double right = 0;
-        for (int i=1; i<A.size(); i++)
-            right = max(right,A[i-1]*1.0/A[i]);
+        double left = 0;
+        double right = 1;
         double mid;
         
-        while (left<right)
+        while (left < right)
         {
-            mid = left+(right-left)/2.0;
-            int count=0;
+            mid = (left+right)/2;
             
-            for (int i=0; i<A.size(); i++)
+            int count = 0;
+            for (int i=0; i<nums.size(); i++)
             {
-                auto pos = lower_bound(A.begin(),A.end(),A[i]*1.0/mid);
-                count+= A.end()-pos;
+                auto pos = lower_bound(nums.begin(),nums.end(), nums[i]*1.0/mid);
+                count += nums.end()-pos;
             }
             
-            if (count==K)
-                break;
-            else if (count<K)
-                left = mid;
-            else
+            if (count < K)
+                left = mid; // next time, mid >left
+            else if (count > K)
                 right = mid;
+            else
+                break; 
         }
-                
-        double diff=1;
-        int p,q;
-        for (int i=0; i<A.size(); i++)
+        
+        cout<<mid<<endl;
+        
+        vector<int>ret;
+        double ans = 0;
+        
+        for (int i=0; i<nums.size(); i++)
         {
-            auto pos = lower_bound(A.begin(),A.end(),A[i]*1.0/mid);        
-            if (pos>A.begin()+i && pos!=A.end())
+            auto pos = lower_bound(nums.begin(), nums.end(), nums[i]*1.0/mid);
+            int j = pos-nums.begin();
+            if (pos!=nums.end() && nums[i]*1.0/nums[j] > ans)
             {
-                int x = *pos;
-                if (diff > mid-A[i]*1.0/x )
-                {
-                    diff = mid-A[i]*1.0/x;
-                    p = A[i];
-                    q = x;
-                }
+                ans = nums[i]*1.0/nums[j];
+                ret = {nums[i], nums[j]};
             }
         }
         
-        return {p,q};
+        return ret;
+        
     }
 };
