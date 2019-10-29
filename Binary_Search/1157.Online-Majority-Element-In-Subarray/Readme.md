@@ -11,15 +11,15 @@
 
 这个思想非常ｄｉａｏ，来自Boyer–Moore majority vote algorithm，可以联系```169.Majority Element```来理解．基本思想就是，如果一个属于majority的元素，与任何一个不属于majority的元素，两者同时消去，那么不影响数组剩下的元素里原本属于majority的元素的地位．
 
-假设区间d，下面二分了两个子区间d1和d2．如果在d1区间中的majority是val1,因为根据majority的定义，在d1的区间中val1必然必然比其他非val1元素的总个数还要多，记为count1.同理，在另一个子区间中我们可以定义val2和count2.显然，我们根据count1和count2的比较，就可以知道val1和val2谁是在区间d上的majority：
+假设区间d，下面二分了两个子区间d1和d2．如果在d1区间中的majority是val1,因为根据majority的定义，在d1的区间中val1必然必然比其他非val1元素的总个数还要多，记为count1. 同理，在另一个子区间中我们可以定义val2和count2. 显然，我们根据count1和count2的比较，就可以知道val1和val2谁是在区间d上的majority：
 
-（１）如果count1>count2，则val1是majority，并且val1在ｄ上比其他元素的总频次还要高出count1-count2，因此记录```count=count1-count2```. 
+(1) 如果count1>count2，则val1是majority，并且val1在ｄ上比其他元素的总频次还要高出count1-count2，因此记录```count=count1-count2```. 
 
-(2)反之说明val2是majority,并且val2在ｄ上比其他元素的总频次还要高出count2-count1,```count=count2-count1```. 
+(2) 反之说明val2是majority,并且val2在ｄ上比其他元素的总频次还要高出count2-count1,```count=count2-count1```. 
 
-(3)如果val1==val2，则更说明val1就是ｄ上的majority，并且它在频次上的优势会更大，变成```count=count2+count1```.
+(3) 如果val1==val2，则更说明val1就是ｄ上的majority，并且它在频次上的优势会更大，变成```count=count2+count1```.
 
-（４）而如果val1!=val2，但是count1==count2，那就是说明在区间ｄ上并没有唯一的majority（记住majority的定义就是大于50%），因此对于该节点我们就置```val=0```, ```count=0```.
+(4) 而如果val1!=val2，但是count1==count2，那就是说明在区间ｄ上并没有唯一的majority（记住majority的定义就是大于50%），因此对于该节点我们就置```val=0```, ```count=0```.
 
 通过上面递归的思想，我们就可以建立起一棵完全二叉树．每个节点代表的一个区间，并且记录了这个区间里的majority（如果存在的话）的值val，并且val的频次要比非val的频次多count个．
 
