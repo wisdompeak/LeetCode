@@ -571,7 +571,9 @@
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
 [470.Implement-Rand10()-Using-Rand7()](https://github.com/wisdompeak/LeetCode/tree/master/Math/470.Implement-Rand10--Using-Rand7) (M+)   
 478.Generate-Random-Point-in-a-Circle (M+)    
+[497.Random-Point-in-Non-overlapping-Rectangles](https://github.com/wisdompeak/LeetCode/tree/master/Math/497.Random-Point-in-Non-overlapping-Rectangles) (M+)   
 519.Random-Flip-Matrix (H-)   
 710.Random-Pick-with-Blacklist (M+)    
+
 
 
