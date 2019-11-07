@@ -59,6 +59,7 @@
 [719.Find-K-th-Smallest-Pair-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/719.Find-K-th-Smallest-Pair-Distance) (H-)   
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 [786.K-th-Smallest-Prime-Fraction](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/786.K-th%20Smallest-Prime-Fraction) (H-)   
+[793.Preimage-Size-of-Factorial-Zeroes-Function](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/793.Preimage-Size-of-Factorial-Zeroes-Function) (H-)    
 [1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
