@@ -47,6 +47,7 @@
 [483.Smallest-Good-Base](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/483.Smallest-Good-Base) (H)   
 [029.Divide-Two-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/029.Divide-Two-Integers) (M+)    
 [644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
+[658.Find-K-Closest-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/658.Find-K-Closest-Elements) (H)   
 1102.Path-With-Maximum-Minimum-Value (H-)   
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H-)    
 1201.Ugly-Number-III (TBD)    
