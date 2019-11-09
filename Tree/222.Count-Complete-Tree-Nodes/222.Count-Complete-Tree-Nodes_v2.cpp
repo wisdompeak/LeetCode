@@ -11,7 +11,6 @@ class Solution {
 public:
     int countNodes(TreeNode* root) 
     {
-        if (root==NULL) return 0;
         int h = 0;
         TreeNode* node = root;
         while (node!=NULL)
@@ -19,7 +18,7 @@ public:
             h++;
             node = node->left;            
         }
-        int low = 1;
+        int low = (1<<(h-1));
         int hi = (1<<h)-1;
         
         while (low<hi)
