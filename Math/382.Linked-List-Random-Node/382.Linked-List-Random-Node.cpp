@@ -7,44 +7,30 @@
  * };
  */
 class Solution {
-    ListNode* root;
 public:
+    ListNode* node;
     /** @param head The linked list's head.
         Note that the head is guaranteed to be not null, so it contains at least one node. */
-    Solution(ListNode* head) 
-    {
-        root=head;
+    Solution(ListNode* head) {
+        node = head;
     }
     
     /** Returns a random node's value. */
     int getRandom() 
     {
-        ListNode* h=root;
-        int count=0;
-        int result;
+        ListNode* h = node;
+        int k = 0;
+        int x = 0;
         
         while (h!=NULL)
         {
-            if (count==0)
-            {
-                count++;
-                result=h->val;
-            }                
-            else
-            {
-                count++;
-                int k = rand()%count;
-                if (k==0)
-                    result = h->val;
-            }
-            h=h->next;
+            k++;
+            int r = rand()%k;
+            if (r==0)
+                x = h->val;
+            h = h->next;
         }
-        return result;
+        
+        return x;
     }
 };
-
-/**
- * Your Solution object will be instantiated and called as such:
- * Solution obj = new Solution(head);
- * int param_1 = obj.getRandom();
- */
