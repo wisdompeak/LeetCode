@@ -8,6 +8,6 @@
 #### 解法2：
 有一个比较骚气的binary search的解法，虽然时间效率不是很高，但是角度很新颖。
 
-我们二分搜索一个位置pos，查看从[0,pos]的区间里面有多少个白名单的数。这个数目就等于```pos+1-区间里黑名单的数目```。那么对于给定的区间[0,pos]如何计算有多少在黑名单里呢？同样我们先将黑名单排序，然后查看pos在黑名单的位置。我们需要找到blacklist.upper_bound(pos)的位置iter，显然从blacklist.begin()到prev(iter,1)都是小于等于pos的黑名单成员，因此这个[0,pos]区间内黑名单的数目就是iter-blacklist.begin().
+我们二分搜索一个位置pos，计算count等于[0,pos]的区间里面有多少个合法的数。然后不断缩小规模，直至找到最小的一个位置，使得count恰好等于k（k就是随机数，表示我们需要取第k个合法的数）。最终二分搜索收敛后的这个位置就是答案。
 
-
+然后我们考虑count怎么写。count其实就是pos+1-[0,pos]里面有多少个黑名单的数。那么对于给定的区间[0,pos]。如何计算有多少在黑名单里呢？同样我们先将黑名单排序，然后查看pos在黑名单的位置。更具体的，我们需要找到的是blacklist.upper_bound(pos)的迭代器iter（即第一个大于pos的位置），显然从blacklist.begin()到prev(iter,1)都是小于等于pos的黑名单成员，因此这个[0,pos]区间内黑名单的数目就是iter-blacklist.begin().
