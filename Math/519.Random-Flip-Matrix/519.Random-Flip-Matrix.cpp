@@ -1,45 +1,38 @@
 class Solution {
-    int M,N;
+    int m,n;
+    int count;
     unordered_map<int,int>Map;
-    int count;    
 public:
-    Solution(int n_rows, int n_cols) 
-    {
-        M = n_rows;
-        N = n_cols;
+    Solution(int n_rows, int n_cols) {
+        m = n_rows;
+        n = n_cols;
         count = 0;
     }
     
     vector<int> flip() 
     {
-        int result;        
-        int k = rand()%(M*N-count);
+        int k = rand()%(m*n-count);
+        int ret;
         
-        if (Map.find(k)==Map.end())
-            result = k;
-        else
-            result = Map[k];
-        
-        int MAX = M*N-1-count;
-        if (Map.find(MAX)==Map.end())
-            Map[k] = MAX;
-        else
-            Map[k] = Map[MAX];
-    
         count++;
-        return {result/N, result%N};
+        
+        if (Map.find(k)!=Map.end())
+            ret = Map[k];
+        else
+            ret = k;
+        
+        if (Map.find(m*n-count)!=Map.end())
+            Map[k] = Map[m*n-count];
+        else
+            Map[k] = m*n-count;
+        
+        return {ret/n,ret%n};
+        
     }
     
     void reset() 
     {
         Map.clear();
-        count= 0 ;        
+        count = 0;
     }
 };
-
-/**
- * Your Solution object will be instantiated and called as such:
- * Solution obj = new Solution(n_rows, n_cols);
- * vector<int> param_1 = obj.flip();
- * obj.reset();
- */
