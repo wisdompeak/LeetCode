@@ -578,7 +578,7 @@
 [470.Implement-Rand10()-Using-Rand7()](https://github.com/wisdompeak/LeetCode/tree/master/Math/470.Implement-Rand10--Using-Rand7) (M+)   
 [478.Generate-Random-Point-in-a-Circle](https://github.com/wisdompeak/LeetCode/tree/master/Math/478.Generate-Random-Point-in-a-Circle) (H-)    
 [497.Random-Point-in-Non-overlapping-Rectangles](https://github.com/wisdompeak/LeetCode/tree/master/Math/497.Random-Point-in-Non-overlapping-Rectangles) (M+)   
-519.Random-Flip-Matrix (H-)   
+[519.Random-Flip-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Math/519.Random-Flip-Matrix) (H-)   
 [528.Random-Pick-with-Weight](https://github.com/wisdompeak/LeetCode/tree/master/Math/528.Random-Pick-with-Weight) (H-)   
 [710.Random-Pick-with-Blacklist](https://github.com/wisdompeak/LeetCode/tree/master/Math/710.Random-Pick-with-Blacklist) (M+)    
 
