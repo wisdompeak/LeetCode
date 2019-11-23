@@ -570,7 +570,7 @@
 [878.Nth-Magical-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/878.Nth-Magical-Number) (M+)    
 [963.Minimum-Area-Rectangle-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/963.Minimum-Area-Rectangle-II) (H-)   
 1012.Numbers-With-Repeated-Digits (H-)    
-1131.Maximum-of-Absolute-Value-Expression (H-)    
+[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H-)    
 [1191.K-Concatenation-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Others/1191.K-Concatenation-Maximum-Sum) (H-)   
 
 #### [Random Pick Series]
