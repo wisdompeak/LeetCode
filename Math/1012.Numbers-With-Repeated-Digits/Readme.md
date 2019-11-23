@@ -1,4 +1,4 @@
-### 1015.Numbers-With-Repeated-Digits
+### 1012.Numbers-With-Repeated-Digits
 
 此题本质就是求不大于N的、没有重复数字的数。简单的想法，可以用无脑的DFS，结果会超时。
 
