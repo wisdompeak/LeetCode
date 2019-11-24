@@ -283,7 +283,7 @@
 676.Implement-Magic-Dictionary (H-)   
 212.Word-Search-II (H-)  
 [745.Prefix-and-Suffix-Search](https://github.com/wisdompeak/LeetCode/tree/master/Trie/745.Prefix-and-Suffix-Search) (H-)    
-1268.Search-Suggestions-System (H-)   
+[1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
@@ -474,6 +474,7 @@
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/435.Non-overlapping-Intervals) (M+)   
 [1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1024.Video-Stitching) (M+)    
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
+[1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
 
 #### [Sweep Line]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
