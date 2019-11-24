@@ -388,6 +388,7 @@
 1105.Filling-Bookcase-Shelves (H-)    
 514.Freedom-Trail (TBD)    
 1259.Handshakes-That-Don't-Cross (TBD)   
+1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
 * ``背包型``  
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
