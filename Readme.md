@@ -586,6 +586,6 @@
 [519.Random-Flip-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Math/519.Random-Flip-Matrix) (H-)   
 [528.Random-Pick-with-Weight](https://github.com/wisdompeak/LeetCode/tree/master/Math/528.Random-Pick-with-Weight) (H-)   
 [710.Random-Pick-with-Blacklist](https://github.com/wisdompeak/LeetCode/tree/master/Math/710.Random-Pick-with-Blacklist) (M+)    
-
+[1227.Airplane-Seat-Assignment-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Math/1227.Airplane-Seat-Assignment-Probability) (M+)   
 
 
