@@ -577,6 +577,7 @@
 [963.Minimum-Area-Rectangle-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/963.Minimum-Area-Rectangle-II) (H-)   
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 [1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H-)    
+[1250.Check-If-It-Is-a-Good-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/1250.Check-If-It-Is-a-Good-Array) (M+)   
 
 #### [Random Pick Series]
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
