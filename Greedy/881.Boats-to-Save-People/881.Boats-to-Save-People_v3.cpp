@@ -7,23 +7,21 @@ public:
             p[w]++;
         
         int count = 0;
+        int x = limit;
         int y = 1;
-        for (int x = limit; x>0; x--)
+        
+        while (x>0)
         {
-            for (int i = p[x]; i>0; i--)
-            {
-                count++;
-                p[x]--;
-                                
-                while (y+x<=limit && p[y]==0) y++;
-                if (y+x<=limit && p[y]>0)
-                {
-                    p[y]--;                
-                    if (x==y) i--;
-                }
-                
-            }
+            while (x>0 && p[x]==0)
+                x--;
+            if (x==0) break;
+            count++;
+            p[x]--;
+            
+            while (y+x<=limit && p[y]==0) y++;
+            if (y+x<=limit && p[y]>0) p[y]--;
         }
+                
         return count;
     }
 };
