@@ -564,7 +564,7 @@
 855.Exam-Room (M+)    
 918.Maximum-Sum-Circular-Subarray (H-)    
 1067.Digit-Count-in-Range (H)   
-1109.Corporate-Flight-Bookings (M)    
+[1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
 1183.Maximum-Number-of-Ones (H)   
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
