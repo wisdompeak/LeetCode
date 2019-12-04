@@ -18,8 +18,10 @@ public:
             count++;
             p[x]--;
             
-            while (y+x<=limit && p[y]==0) y++;
-            if (y+x<=limit && p[y]>0) p[y]--;
+            while (y+x<=limit && p[y]==0) 
+                y++;
+            if (y+x<=limit && p[y]>0) 
+                p[y]--;
         }
                 
         return count;
