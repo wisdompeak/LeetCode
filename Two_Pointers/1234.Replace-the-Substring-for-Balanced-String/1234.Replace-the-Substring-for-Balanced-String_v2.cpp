@@ -2,35 +2,36 @@ class Solution {
 public:
     int balancedString(string s) 
     {
-        unordered_map<int,int>sum;
+        unordered_map<char,int>sum;
         for (auto ch:s)
             sum[ch]++;
-        
         int x = s.size()/4;
-                        
         int ret = s.size();
-        int j = -1;
+        int j = 0;
+
         for (int i=0; i<s.size(); i++)
         {
-            while (!checkOK(sum,x) && j+1<s.size())
+            sum[s[i]]--;
+            while (check(sum,x))
             {
-                j++;            
-                sum[s[j]]--;                
+                ret = min(ret, i-j+1);   
+                if (j<=i)             
+                {
+                    sum[s[j]]++;
+                    j++;
+                }
+                else
+                    break;
             }
-            
-            if (checkOK(sum,x))
-                ret = min(ret, j-i+1);
-            sum[s[i]]++;
         }
-        
+
         return ret;
     }
-    
-    bool checkOK(unordered_map<int,int>sum, int x)
+
+    bool check(unordered_map<char,int>&sum, int x)
     {
         for (auto t: sum)
             if (t.second>x) return false;
         return true;
     }
-    
 };
