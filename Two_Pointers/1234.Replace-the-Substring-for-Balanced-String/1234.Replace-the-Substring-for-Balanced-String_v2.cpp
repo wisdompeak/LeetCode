@@ -5,33 +5,30 @@ public:
         unordered_map<char,int>sum;
         for (auto ch:s)
             sum[ch]++;
-        int x = s.size()/4;
+        
+        int th = s.size()/4;
+        int j = 0; //left pointer
         int ret = s.size();
-        int j = 0;
-
-        for (int i=0; i<s.size(); i++)
+        
+        for (int i=0; i<s.size(); i++)  // right pointer
         {
             sum[s[i]]--;
-            while (check(sum,x))
+            while (checkOK(sum, th))
             {
-                ret = min(ret, i-j+1);   
-                if (j<=i)             
-                {
-                    sum[s[j]]++;
-                    j++;
-                }
-                else
-                    break;
+                ret = min(ret, i-j+1);
+                if (ret==0) return 0;
+                
+                sum[s[j]]++;
+                j++;
             }
         }
-
         return ret;
     }
-
-    bool check(unordered_map<char,int>&sum, int x)
+    
+    bool checkOK(unordered_map<char,int>& sum, int th)
     {
         for (auto t: sum)
-            if (t.second>x) return false;
+            if (t.second>th) return false;
         return true;
     }
 };
