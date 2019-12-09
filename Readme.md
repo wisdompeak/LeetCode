@@ -524,7 +524,7 @@
 [880.Decoded-String-at-Index](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/880.Decoded-String-at-Index) (H-)    
 932.Beautiful-Array (H-)    
 964.Least-Operators-to-Express-Number (H)   
-
+[1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
 * ``Min-Max Strategy``    
 1140.Stone-Game-II     
 
