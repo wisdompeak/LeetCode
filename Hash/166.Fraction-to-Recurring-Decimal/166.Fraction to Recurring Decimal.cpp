@@ -2,54 +2,47 @@ class Solution {
 public:
     string fractionToDecimal(int numerator, int denominator) 
     {
-        if (numerator==0) return "0";
+        long A = numerator;
+        long B = denominator;
         
-        long long A=(long long)numerator;
-        long long B=(long long)denominator;
+        if (A==0) return "0";
         
-        int sign=1;
-        if (A<0) 
+        int sign = 1;
+        if (A<0)
         {
-            sign*=-1;
-            A=-A;
+            sign *= -1;
+            A = abs(A);
         }
-        if (B<0) 
+        if (B<0)
         {
-            sign*=-1;
-            B=-B;
-        }        
+            sign *= -1;
+            B = abs(B);
+        }
         
-        string result="";
-        if (sign==-1) result="-";
-        result+=to_string(A/B);
+        string ret;
+        if (sign==-1) ret = "-";
         
-        long long t = A%B;
+        ret += to_string(A/B);
         
-        if (t==0) return result;
+        if (A%B==0) return ret;
+        else ret+=".";
         
-        result+='.';
+        long C = A%B;
         
-        unordered_set<int>Set;
         unordered_map<int,int>Map;
         
-        while (t!=0 && Set.find(t)==Set.end())
+        while (C!=0 && Map.find(C)==Map.end())
         {
-            Set.insert(t);
-            Map[t]=result.size();
-            
-            result.push_back((t*10/B)+'0');
-            t=t*10%B;
+            Map[C] = ret.size();
+            ret.push_back('0'+C*10/B);
+            C = C*10%B;
         }
         
-        if (t==0) return result;
+        if (C==0) return ret;
         
-        int pos=Map[t];
-        result.insert(result.begin()+pos,'(');
-        result.push_back(')');
+        ret.insert(ret.begin()+Map[C], '(');
+        ret.push_back(')');
         
-        cout<<result<<" "<<sign<<endl;
-        
-        return result;
-        
+        return ret;
     }
 };
