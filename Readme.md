@@ -571,6 +571,7 @@
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
 [296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
+[335.Self-Crossing](https://github.com/wisdompeak/LeetCode/tree/master/Math/335.Self-Crossing) (H)    
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (M)    
 458.Poor-Pigs (H)   
 [672.Bulb-Switcher-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/672.Bulb-Switcher-II) (H)    
