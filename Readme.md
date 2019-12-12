@@ -569,6 +569,7 @@
 1183.Maximum-Number-of-Ones (H)   
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
+[233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
 [296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (M)    
 458.Poor-Pigs (H)   
