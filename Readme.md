@@ -513,6 +513,7 @@
 #### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
 [133.Clone-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/133.Clone-Graph) (M+)  
 [241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (H-)    
+[365.Water-and-Jug-Problem]](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
 [390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
 [395.Longest-Substring-with-At-Least-K-Repeating-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/395.Longest-Substring-with-At-Least-K-Repeating-Characters) (H)    
 [397.Integer-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/397.Integer-Replacement) (M+)    
