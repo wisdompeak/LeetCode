@@ -519,6 +519,7 @@
 [679.24-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/679.24-Game) (H)   
 [761.Special-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/761.Special-Binary-String) (H)   
 779.K-th-Symbol-in-Grammar (M)    
+[780.Reaching-Points](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/780.Reaching-Points) (H-)    
 [808.Soup-Servings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/808.Soup-Servings) (H)   
 [877.Stone-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/877.Stone-Game) (M+)    
 [880.Decoded-String-at-Index](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/880.Decoded-String-at-Index) (H-)    
