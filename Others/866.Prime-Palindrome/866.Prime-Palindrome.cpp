@@ -2,11 +2,7 @@ class Solution {
 public:
     int primePalindrome(int N) 
     {
-        if (N<=2) return 2;
-        if (N<=3) return 3;
-        if (N<=5) return 5;
-        if (N<=7) return 7;
-        if (N<=11) return 11;
+        if (N>7 && N<=11) return 11;
         
         string M = to_string(N);
         int n = M.size()/2;
@@ -29,6 +25,7 @@ public:
     
     bool isPrime(int k)
     {
+        if (k==1) return false;
         if (k%2==0) return k==2;
         for (int i=3; i*i<=k; i+=2)
         {
