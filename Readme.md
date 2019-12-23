@@ -565,6 +565,7 @@
 [835.Image-Overlap](https://github.com/wisdompeak/LeetCode/tree/master/Others/835.Image-Overlap) (H)    
 855.Exam-Room (M+)    
 [858.Mirror-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Others/858.Mirror-Reflection) (H)    
+[866.Prime-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Others/866.Prime-Palindrome) (H-)   
 918.Maximum-Sum-Circular-Subarray (H-)    
 1067.Digit-Count-in-Range (H)   
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
