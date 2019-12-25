@@ -1,5 +1,7 @@
 ### 1073.Adding-Two-Negabinary-Numbers
 
+本题可以认为是[1017.Convert-to-Base--2](https://github.com/wisdompeak/LeetCode/tree/master/Math/1017.Convert-to-Base--2)的follow up.
+
 此题的目的是希望实现类似于K进制的大数加法。“大数加法”是说，两个加数特别大、装不进内存的时候，就以数组的形式储存，我们需要逐位相加来实现最终的结果。
 
 本题的第一步可以先实现一个普通的K进制大数相加的算法。然后将其中的进制K，改成-2进制即可，即：
