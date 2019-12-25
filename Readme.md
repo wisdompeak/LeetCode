@@ -570,6 +570,7 @@
 1067.Digit-Count-in-Range (H)   
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
 1183.Maximum-Number-of-Ones (H)   
+1272.Remove-Interval (TBD)    
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
