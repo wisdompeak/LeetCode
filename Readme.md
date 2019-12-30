@@ -238,6 +238,7 @@
 [491.Increasing-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/DFS/491.Increasing-Subsequences) (M)   
 [698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-)    
 996.Number-of-Squareful-Arrays (H)    
+1307.Verbal-Arithmetic-Puzzle (TBD)   
 * ``memorization``    
 [464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)   
 472.Concatenated-Words (M)    
@@ -268,6 +269,7 @@
 [1036.Escape-a-Large-Maze](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1036.Escape-a-Large-Maze) (H)  
 1245.Tree-Diameter (TBD)    
 1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location (H)   
+1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination (TBD)
 * ``拓扑排序``   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)    
