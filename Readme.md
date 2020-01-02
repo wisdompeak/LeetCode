@@ -526,7 +526,7 @@
 [877.Stone-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/877.Stone-Game) (M+)    
 [880.Decoded-String-at-Index](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/880.Decoded-String-at-Index) (H-)    
 932.Beautiful-Array (H-)    
-964.Least-Operators-to-Express-Number (H)   
+[964.Least-Operators-to-Express-Number](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/964.Least-Operators-to-Express-Number) (H)   
 [991.Broken-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/991.Broken-Calculator) (M)   
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
 * ``Min-Max Strategy``    
@@ -589,6 +589,7 @@
 [878.Nth-Magical-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/878.Nth-Magical-Number) (M+)    
 [883.Projection-Area-of-3D-Shapes](https://github.com/wisdompeak/LeetCode/tree/master/Math/883.Projection-Area-of-3D-Shapes) (E+)   
 [963.Minimum-Area-Rectangle-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/963.Minimum-Area-Rectangle-II) (H-)   
+[964.Least-Operators-to-Express-Number](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/964.Least-Operators-to-Express-Number) (H)   
 [972.Equal-Rational-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/972.Equal-Rational-Numbers) (H)    
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 [1017.Convert-to-Base--2](https://github.com/wisdompeak/LeetCode/tree/master/Math/1017.Convert-to-Base--2) (M+)  
