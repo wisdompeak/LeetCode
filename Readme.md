@@ -570,6 +570,7 @@
 [858.Mirror-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Others/858.Mirror-Reflection) (H)    
 [866.Prime-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Others/866.Prime-Palindrome) (H-)   
 918.Maximum-Sum-Circular-Subarray (H-)    
+[906.Super-Palindromes](https://github.com/wisdompeak/LeetCode/tree/master/Others/906.Super-Palindromes) (H-)   
 [927.Three-Equal-Parts](https://github.com/wisdompeak/LeetCode/tree/master/Others/927.Three-Equal-Parts) (M)    
 1067.Digit-Count-in-Range (H)   
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
