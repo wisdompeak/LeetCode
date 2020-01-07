@@ -589,6 +589,7 @@
 [829.Consecutive-Numbers-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Math/829.Consecutive-Numbers-Sum) (M)    
 [878.Nth-Magical-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/878.Nth-Magical-Number) (M+)    
 [883.Projection-Area-of-3D-Shapes](https://github.com/wisdompeak/LeetCode/tree/master/Math/883.Projection-Area-of-3D-Shapes) (E+)   
+[899.Orderly-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Math/899.Orderly-Queue) (M)    
 [963.Minimum-Area-Rectangle-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/963.Minimum-Area-Rectangle-II) (H-)   
 [964.Least-Operators-to-Express-Number](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/964.Least-Operators-to-Express-Number) (H)   
 [972.Equal-Rational-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/972.Equal-Rational-Numbers) (H)    
