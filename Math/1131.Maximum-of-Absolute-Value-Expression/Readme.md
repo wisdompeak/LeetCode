@@ -29,7 +29,7 @@ max {
 ```
 那么对于任意的i，j，我们有
 ```
-|ai−aj|+|bi−bj|= max over (i,j){
+max |ai−aj|+|bi−bj|= max over (i,j){
   max {
       (ai+bi)−(aj+bj)，
       (ai−bi)−(aj−bj)，
