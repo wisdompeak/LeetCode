@@ -529,6 +529,7 @@
 932.Beautiful-Array (H-)    
 [964.Least-Operators-to-Express-Number](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/964.Least-Operators-to-Express-Number) (H)   
 [991.Broken-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/991.Broken-Calculator) (M)   
+[1088.Confusing-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1088.Confusing-Number-II) (H)   
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
 * ``Min-Max Strategy``    
 1140.Stone-Game-II     
