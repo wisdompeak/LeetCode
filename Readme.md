@@ -560,7 +560,7 @@
 689.Maximum-Sum-of-3-Non-Overlapping-Subarrays (M+)   
 782.Transform-to-Chessboard (H+)    
 [466.Count-The-Repetitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/466.Count-The-Repetitions) (H)   
-810.Chalkboard-XOR-Game (H)   
+[810.Chalkboard-XOR-Game](https://github.com/wisdompeak/LeetCode/tree/master/Others/810.Chalkboard-XOR-Game) (H)   
 420.Strong-Password-Checker (H)   
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
