@@ -558,7 +558,7 @@
 335.Self-Crossing (H)   
 479.Largest-Palindrome-Product (M+)   
 689.Maximum-Sum-of-3-Non-Overlapping-Subarrays (M+)   
-782.Transform-to-Chessboard (H+)    
+[782.Transform-to-Chessboard](https://github.com/wisdompeak/LeetCode/tree/master/Others/782.Transform-to-Chessboard) (H+)    
 [466.Count-The-Repetitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/466.Count-The-Repetitions) (H)   
 [810.Chalkboard-XOR-Game](https://github.com/wisdompeak/LeetCode/tree/master/Others/810.Chalkboard-XOR-Game) (H)   
 420.Strong-Password-Checker (H)   
