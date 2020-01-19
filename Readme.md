@@ -397,6 +397,8 @@
 514.Freedom-Trail (TBD)    
 1259.Handshakes-That-Don't-Cross (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
+1316.Distinct-Echo-Substrings (TBD)   
+1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers (TBD)    
 * ``背包型``  
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
@@ -480,6 +482,7 @@
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Sort/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/435.Non-overlapping-Intervals) (M+)   
 [1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1024.Video-Stitching) (M+)    
+1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden (TBD)   
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
 
@@ -564,6 +567,7 @@
 420.Strong-Password-Checker (H)   
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
+[775.Global-and-Local-Inversions](https://github.com/wisdompeak/LeetCode/tree/master/Others/775.Global-and-Local-Inversions) (M)    
 [794.Valid-Tic-Tac-Toe-State](https://github.com/wisdompeak/LeetCode/tree/master/Others/794.Valid-Tic-Tac-Toe-State) (M+)    
 798.Smallest-Rotation-with-Highest-Score (H)    
 825.Friends-Of-Appropriate-Ages (M+)    
