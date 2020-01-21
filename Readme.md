@@ -317,7 +317,7 @@
 [330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/650.2-Keys-Keyboard) (M+)    
 [683.K-Empty-Slots](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/683.K-Empty-Slots)　(H)   
-517.Super-Washing-Machines (H)    
+[517.Super-Washing-Machines](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/517.Super-Washing-Machines) (H)    
 757.Set-Intersection-Size-At-Least-Two （H）  
 [739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures) (M+)   
 826.Most-Profit-Assigning-Work (M)    
