@@ -16,7 +16,7 @@ public:
                 if (!(i==0 || (i>0 && s[i-1]=='e'))) 
                     return false;
             }
-            else if (s[i]!='e' && s[i]!='.' && !isdigit(s[i]) ) // If illeagle char
+            else if (s[i]!='e' && s[i]!='.' && !isdigit(s[i]) ) // No illeagle characters.
                 return false;
             else
                 t.push_back(s[i]);
