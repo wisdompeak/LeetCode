@@ -6,9 +6,9 @@ public:
         while (s.size()>0 && s.back()==' ') s.pop_back();
         while (s.size()>0 && s[0]==' ') s.erase(s.begin());
         if (s=="") return false;
-        
-        // Filter out signs. Leave only dot, e, or digits.
-        string t;        
+
+        int countE = 0;     
+        string t;   
         for (int i=0; i<s.size(); i++)
         {
             if (s[i]=='+'||s[i]=='-') // If it is a sign, it has to be at the head or right after "e"
@@ -16,34 +16,31 @@ public:
                 if (!(i==0 || (i>0 && s[i-1]=='e'))) 
                     return false;
             }
-            else if (s[i]!='e' && s[i]!='.' && !isdigit(s[i]) ) // No illeagle characters.
-                return false;
             else
+            {
+                if (s[i]=='e') countE++;
                 t.push_back(s[i]);
-        }
-        
-        if (t=="." || t=="e") return false;
-        
-        int countE = 0;
+            } 
+        }        
+        if (countE==0) return isOK(t,1);
+        if (countE>1) return false;
+
+        int k = 0;
+        while (t[k]!='e') k++;
+        return isOK(t.substr(0,k),1) && isOK(t.substr(k+1),0);
+    }
+
+    bool isOK(string s, int k)
+    {
+        if (s=="" || s==".") return false;
         int countDot = 0;
-        for (int i=0; i<t.size(); i++)
+        for (int i=0; i<s.size(); i++)
         {
-            if (t[i]=='e') // Locate "e". The substrings before "e" and after "e" must be isNumber.
-            {
-                if (countE!=0) return false;
-                if (i==0 || i==t.size()-1) return false;
-                if (!isNumber(t.substr(0,i))) return false;
-                countE++;
-                
-            }
-            else if (t[i]=='.')
-            {
-                if (countDot!=0) return false; // Never two dots. And the only dot must appear before "e".
-                if (countE!=0) return false;   // Never two "e"s
-                countDot++;
-            }
+            if (s[i]=='.')
+                countDot++;            
+            else if (!isdigit(s[i]))
+                return false;
         }
-            
-        return true;
+        return countDot<=k;
     }
 };
