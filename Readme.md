@@ -511,6 +511,7 @@
 [952.Largest-Component-Size-by-Common-Factor](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/952.Largest-Component-Size-by-Common-Factor) (H)   
 1101.The-Earliest-Moment-When-Everyone-Become-Friends (M+)  
 [1202.Smallest-String-With-Swaps](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1202.Smallest-String-With-Swaps) (M+)   
+1319.Number-of-Operations-to-Make-Network-Connected (TBD)   
 
 * ``MST``    
 [1135.Connecting-Cities-With-Minimum-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1135.Connecting-Cities-With-Minimum-Cost)　(M+)   
@@ -613,6 +614,7 @@
 [1015.Smallest-Integer-Divisible-by-K](https://github.com/wisdompeak/LeetCode/tree/master/Math/1015.Smallest-Integer-Divisible-by-K) (M+)   
 [1103.Distribute-Candies-to-People](https://github.com/wisdompeak/LeetCode/tree/master/Math/1103.Distribute-Candies-to-People) (M+)   
 [1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H-)    
+1330.Reverse-Subarray-To-Maximize-Array-Value (TBD)   
 [1250.Check-If-It-Is-a-Good-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/1250.Check-If-It-Is-a-Good-Array) (M+)   
 
 #### [Random Pick Series]
