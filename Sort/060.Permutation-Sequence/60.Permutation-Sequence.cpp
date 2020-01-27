@@ -2,27 +2,32 @@ class Solution {
 public:
     string getPermutation(int n, int k) 
     {
-        string nums;
-        for (int i=1; i<=9; i++)
-            nums+=to_string(i);
-        string result;
+        vector<int>digits;
+        for (int i=1; i<=n; i++)
+            digits.push_back(i);
         
-        k=k-1;
+        k--;
         
+        string ret;
         while (n>0)
         {
-            int N=1;
-            for (int i=1; i<=n-1; i++)
-                N=N*i;
+            int a = k/ fact(n-1);
+            ret.push_back('0'+digits[a]);
             
-            int a=k/N;
-            result+=nums[a];
+            k -= a * fact(n-1);
+            n -= 1;
             
-            k=k-a*N;
-            n--;            
-            nums.erase(a,1);
+            digits.erase(digits.begin()+a);
         }
         
-        return result;
+        return ret;
+    }
+    
+    int fact(int k)
+    {
+        int ret = 1;
+        for (int i=1; i<=k; i++)
+            ret *= i;
+        return ret;
     }
 };
