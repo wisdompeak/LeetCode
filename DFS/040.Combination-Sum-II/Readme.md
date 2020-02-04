@@ -10,6 +10,8 @@ for (int i=idx; i<candidates.size(); i++)
 {
   if (i>idx && candidates[i]==candidates[i-1])
     continue;
+  
+  // do you recursion here
 }
 ```
 这段代码的语境是，在这一轮中，我们需要在candidates[idx:end]中间选取一个数加入comb。如果我们选中了candidates[i]，那么说明candidates[i-1]就没有被选中。此时如果发现```candidates[i]==candidates[i-1]```，则意味着相同的元素我们“跳着”选取了，这是上面指定的规则所不允许的，就可以终止。
