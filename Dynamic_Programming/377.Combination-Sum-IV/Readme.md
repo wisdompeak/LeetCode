@@ -1,28 +1,15 @@
 ### 377.Combination-Sum-IV
 
-此题直观上明显适合DFS算法。
-```py
-    def combinationSum4(self, nums, target):
-        self.result = 0        
-        def DFS(Target):
-            if (Target<0): return
-            if (Target==0): 
-                self.result+=1
-                return      
-            for i in range(len(nums)):
-                DFS(Target-nums[i])                        
-        DFS(target)
-        return self.result
-                
+此题直观上可以用DFS（也就是递归）来实现对所有的comb的完整遍历，然后统计总数。但结果发现会超时。
+
+此时应该立刻想到，这种求总数的题目，很大概率是可以用DP算法来实现的。用dp[i]表示总和为i的组合的数目，我们想一下怎么建立起它与其他dp[j]的传递关系。这里的突破口就是：在这些总和为i的组合里，最后一个数字可能是什么。假设最后一个数是x（x是nums中的一个元素），那么dp[i-x]就是总和为i-x的组合的数目，对于这些组合，直接再附上x就满足总和为i的条件。因此传递关系是：
+```cpp
+dp[i] = 0;
+for (int x: nums)
+    if (i>=x) dp[i]+=dp[i-x];
 ```
-但结果发现会超时。此时应该立刻想到，是否可以调整为DP算法。用dp[i]表示加和为i的组合的数目，考察与其他dp[j]的传递关系，这也是DP中常见的思想。
-```py
-    def combinationSum4(self, nums, target):
-        dp = [1]+[0]*target
-        for i in range(1,target+1):
-            for j in range(len(nums)):
-                if i-nums[j]>=0:
-                    dp[i]+=dp[i-nums[j]]
-        return dp[target]
-```
-当然DP算法的前提是target不是非常大，否则dp数组会很占空间。
+对于所有```i=1,2,..,target```，算出每个数对应的dp值。最终的答案就是dp[target]。
+
+需要注意到，这种DP算法的前提是target不能非常大，否则dp数组会很占空间。
+
+另外，对于C++程序可能会遇到个别dp[i]的值非常大，计算的时候会整形溢出而报错。我们可以设计```vector<unsigned int>dp```，这是因为对于无符号的整形，其溢出后的操作是C++定义好的行为，可以避免程序终止。当然，这只是一种hack的技巧，我们使用它是因为题目保证dp[target]一定返回的是整形，我们猜测最终结果不会依赖于这些溢出的dp值。
