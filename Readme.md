@@ -554,10 +554,6 @@
 [593.Valid-Square](https://github.com/wisdompeak/LeetCode/tree/master/Others/593.Valid-Square) (H)  
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
-[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
-[047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
-[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
-[077.Combinations](https://github.com/wisdompeak/LeetCode/blob/master/Others/077.Combinations) (H-)    
 [587.Erect-the-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
 087.Scramble-String (H)   
 391.Perfect-Rectangle (H)   
@@ -587,6 +583,13 @@
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
 1183.Maximum-Number-of-Ones (H)   
 1272.Remove-Interval (TBD)    
+
+#### [Combinatorics]
+[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
+[047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
+[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
+[077.Combinations](https://github.com/wisdompeak/LeetCode/blob/master/Others/077.Combinations) (H-)    
+[1286.Iterator-for-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Others/1286.Iterator-for-Combination) (M+) 
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+)   
