@@ -23,8 +23,7 @@ public:
         else
             delta = 60*60*24;
         
-        auto iter = Map[tweetName].lower_bound(startTime);
-                
+        auto iter = Map[tweetName].lower_bound(startTime);                
         
         while (startTime <= endTime)
         {            
