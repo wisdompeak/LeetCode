@@ -6,15 +6,15 @@
 
 因为我们要记录所有的区间，所以我的建议是：从startTime开始，以delta为间隔，不停地往后爬。
 ```cpp
+// 目标：考察[startTime, startTime+delta)区间内有几个元素
 while (startTime <= endTime)
-{
-  // 考察[startTime, startTime+delta)区间内有几个元素
+{  
   if (*iter落在这个区间里）
   {
     count++;
     iter++;
   }
-  else 
+  else // 这个区间里不可能再有其他元素了，就close这个区间，开启下一个
   {
     rets.push_back(count);
     startTime+=delta;
@@ -24,7 +24,7 @@ while (startTime <= endTime)
 }
 ```
 
-但是要特别注意，*iter有可能虽然落在了区间里但是在endTime之外。所以第一个if语句要写成：
+但是要特别注意，\*iter有可能虽然落在了区间里但是在endTime之外。所以第一个if语句要写成：
 ```cpp 
 if (iter!=Map[tweetName].end() && *iter < startTime+delta && *iter<=endTime)
 ```
