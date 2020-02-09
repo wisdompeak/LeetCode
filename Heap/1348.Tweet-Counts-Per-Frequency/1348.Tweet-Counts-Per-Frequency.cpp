@@ -27,16 +27,8 @@ public:
                 
         
         while (startTime <= endTime)
-        {
-            if (iter==Map[tweetName].end() || *iter>endTime)
-            {
-                rets.push_back(count);
-                count = 0;
-                startTime += delta;
-                continue;
-            }
-            
-            if (*iter < startTime+delta)
+        {            
+            if (iter!=Map[tweetName].end() && *iter < startTime+delta && *iter<=endTime)
             {
                 count++;
                 iter = next(iter,1);
