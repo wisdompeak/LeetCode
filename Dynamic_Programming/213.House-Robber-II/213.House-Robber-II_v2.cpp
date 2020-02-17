@@ -3,8 +3,9 @@ class Solution {
 public:
     int rob(vector<int>& nums) 
     {
-        if (nums.size()==0) return 0;
-        return max(nums[0]+DFS(2,nums.size()-2,nums), DFS(1,nums.size()-1,nums));
+        int n = nums.size();
+        if (n==0) return 0;
+        return max(nums[0]+DFS(2,n-2,nums), DFS(1,n-1,nums));
     }
     
     int DFS(int i, int j, vector<int>&nums)
