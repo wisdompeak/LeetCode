@@ -416,6 +416,7 @@
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
 1216.Valid-Palindrome-III (TBD)   
 1246.Palindrome-Removal (TBD)   
+1335.Minimum-Difficulty-of-a-Job-Schedule (TBD)   
 * ``双状态型``   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M)   
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
