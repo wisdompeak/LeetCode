@@ -340,6 +340,7 @@
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
+1353.Maximum-Number-of-Events-That-Can-Be-Attended  (TBD)   
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
@@ -585,6 +586,8 @@
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
 1183.Maximum-Number-of-Ones (H)   
 1272.Remove-Interval (TBD)    
+1352.Product-of-the-Last-K-Numbers (TBD)    
+1354.Construct-Target-Array-With-Multiple-Sums (TBD)    
 
 #### [Combinatorics]
 [046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
