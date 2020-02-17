@@ -640,6 +640,7 @@
 1067.Digit-Count-in-Range (H)   
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
 1183.Maximum-Number-of-Ones (H)   
+[1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)    
 1272.Remove-Interval (TBD)    
 1352.Product-of-the-Last-K-Numbers (TBD)    
 1354.Construct-Target-Array-With-Multiple-Sums (TBD) 
