@@ -20,8 +20,48 @@
 
 当然，对于区间型的递归，我们需要记忆化来减少时间复杂度。
 
+#### Follow-up
 记忆化搜索虽然看上去不如第一种解法精妙，但是写法灵活，可以处理更多的问题。比如说有一个变种题：如果你打劫了第k家，那么第k-1和k+1家都不能被打劫，所有的人家同样是围城一个loop。问最多能打劫多少钱？
 
-这样的题用双状态DP就没法做。但是用记忆化搜索就很方便：
+此题和LC213相同的地方是，无论如何都不可能取到两个相邻的元素。不同的地方是多了一个条件：无论如何都不能取超过n/3个元素。所以此题的本质是：取任意n/3个互不相邻的数，求最大的和。
 
-最顶层的答案是：```max( nums[0]+DFS(2,n-2), DFS(1,n-1) )```
+这样的题用双状态DP就没法做。但是用记忆化搜索就很方便。参考代码：
+```cpp
+class Solution {
+    map<vector<int>,int>Map;
+public:
+    int rob(vector<int>& nums) 
+    {
+        if (nums.size()==0) return 0;
+        int n = nums.size();
+        return max(nums[0]+DFS(2,n-2,n/3-1,nums), DFS(1,n-1,n/3,nums));
+    }
+    
+    int DFS(int i, int j, int k, vector<int>&nums)
+    {
+        if (k==0)
+            return 0;
+        
+        if (k==1)
+        {
+            int mx = -1;
+            for (int t=i; t<=j; t++)
+                mx = max(mx, nums[t]);
+            Map[{i,j,k}] = mx;
+            return mx;
+            
+        }
+        
+        if (j-i+1<k*2-1) return INT_MIN;
+        
+        if (Map.find({i,j,k})!=Map.end())
+            return Map[{i,j,k}];
+        
+        int ret = max(nums[i]+DFS(i+2,j,k-1,nums), DFS(i+1,j,k,nums));
+        
+        Map[{i,j,k}] = ret;
+        
+        return ret;
+    }
+};
+```
