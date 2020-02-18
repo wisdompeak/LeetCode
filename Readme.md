@@ -548,14 +548,14 @@
 * ``Min-Max Strategy``    
 1140.Stone-Game-II     
 
-#### [Graph]
+#### Graph
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
 [753.Cracking-the-Safe](https://github.com/wisdompeak/LeetCode/tree/master/Hash/753.Cracking-the-Safe) (H)   
 [787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/787.Cheapest-Flights-Within-K-Stops) (H-)    
 [1192.Critical-Connections-in-a-Network](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1192.Critical-Connections-in-a-Network) (H)   
 1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance (TBD)    
 
-#### [Combinatorics]
+#### Combinatorics
 [046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
 [047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
 [060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
