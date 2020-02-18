@@ -358,7 +358,6 @@
 [708.Insert-into-a-Cyclic-Sorted-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/708.Insert-into-a-Cyclic-Sorted-List) (H-)    
 
 #### [Dynamic Programming](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming)
-[174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
 [264.Ugly-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/264.Ugly-Number-II) (M+)   
 265.Paint-House-II (H)    
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
@@ -408,6 +407,11 @@
 1316.Distinct-Echo-Substrings (TBD)   
 1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers (TBD)    
 1344.Jump-Game-V (TBD)  
+* ``走迷宫型``   
+[174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
+[741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
+1289.Minimum-Falling-Path-Sum-II (TBD)    
+1301.Number-of-Paths-with-Max-Score (TBD)   
 * ``背包型``  
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
@@ -423,10 +427,6 @@
 1246.Palindrome-Removal (TBD)   
 1278.Palindrome-Partitioning-III (TBD)    
 1335.Minimum-Difficulty-of-a-Job-Schedule (TBD)   
-* ``走迷宫型``   
-[741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
-1289.Minimum-Falling-Path-Sum-II (TBD)    
-1301.Number-of-Paths-with-Max-Score (TBD)   
 * ``双状态型``   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M)   
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
