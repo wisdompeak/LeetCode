@@ -221,8 +221,6 @@
 [621.Task-Scheduler](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/621.Task-Scheduler) (H-)   
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 1066.Campus-Bikes-II (H)    
-* ``Queue``    
-1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
 
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
 [037.Sudoku-Solver](https://github.com/wisdompeak/LeetCode/tree/master/DFS/037.Sudoku-Solver) (H-)    
@@ -275,7 +273,8 @@
 [1036.Escape-a-Large-Maze](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1036.Escape-a-Large-Maze) (H)  
 1245.Tree-Diameter (TBD)    
 1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location (H)   
-1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination (TBD)
+1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination (TBD)   
+1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
 * ``拓扑排序``   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)    
