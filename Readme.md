@@ -383,7 +383,6 @@
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
 [132.Palindrome-Partitioning-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/132.Palindrome-Partitioning-II) (H-)    
 [139.Word-Break](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/139.Word-Break) (M+)    
-[741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
 837.New-21-Game (H-)    
 [879.Profitable-Schemes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/879.Profitable-Schemes) (M+)    
 [887.Super-Egg-Drop](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/887.Super-Egg-Drop) (H)   
@@ -417,6 +416,9 @@
 1216.Valid-Palindrome-III (TBD)   
 1246.Palindrome-Removal (TBD)   
 1335.Minimum-Difficulty-of-a-Job-Schedule (TBD)   
+* ``走迷宫型``   
+[741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
+1301.Number-of-Paths-with-Max-Score (TBD)   
 * ``双状态型``   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M)   
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
