@@ -401,6 +401,7 @@
 1049.Last-Stone-Weight-II (H-)    
 1105.Filling-Bookcase-Shelves (H-)    
 514.Freedom-Trail (TBD)    
+1223.Dice-Roll-Simulation (TBD)   
 1259.Handshakes-That-Don't-Cross (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
 1316.Distinct-Echo-Substrings (TBD)   
