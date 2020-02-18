@@ -25,6 +25,8 @@
 
 此题和LC213相同的地方是，无论如何都不可能取到两个相邻的元素。不同的地方是多了一个条件：无论如何都不能取超过n/3个元素。所以此题的本质是：取任意n/3个互不相邻的数，求最大的和。
 
+当然，我们需要验证一下，是不是任意的n/3个互不相邻的元素集合，都可以按照题目中的取数规则来实现。事实上是可以的。例如```1000101010000```，有13个元素。其中1代表我们打算取的数。我们永远先取较为外层的数（随之删去左右相邻的两个零）：原序列可以得到```0010101000```，接下来```0101000```，接下来```1000```，最后```0```.
+
 这样的题用双状态DP就没法做。但是用记忆化搜索就很方便。参考代码：
 ```cpp
 class Solution {
@@ -42,20 +44,19 @@ public:
         if (k==0)
             return 0;
         
+        if (j-i+1<k*2-1) return INT_MIN;
+        
+        if (Map.find({i,j,k})!=Map.end())
+            return Map[{i,j,k}];
+            
         if (k==1)
         {
             int mx = -1;
             for (int t=i; t<=j; t++)
                 mx = max(mx, nums[t]);
             Map[{i,j,k}] = mx;
-            return mx;
-            
-        }
-        
-        if (j-i+1<k*2-1) return INT_MIN;
-        
-        if (Map.find({i,j,k})!=Map.end())
-            return Map[{i,j,k}];
+            return mx;            
+        }            
         
         int ret = max(nums[i]+DFS(i+2,j,k-1,nums), DFS(i+1,j,k,nums));
         
