@@ -24,7 +24,7 @@ public:
     }
     
     
-    
+    //LTE solution: DFS(0,N,K,W)
     double DFS(int cur, int N, int K, int W)
     {
         if (cur>=K)
