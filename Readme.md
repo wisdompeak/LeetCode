@@ -381,7 +381,7 @@
 [818.Race-Car](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/818.Race-Car) (H)    
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
 [132.Palindrome-Partitioning-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/132.Palindrome-Partitioning-II) (H-)    
-837.New-21-Game (H-)    
+[837.New-21-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/837.New-21-Game) (H-)    
 [879.Profitable-Schemes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/879.Profitable-Schemes) (M+)    
 [887.Super-Egg-Drop](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/887.Super-Egg-Drop) (H)   
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
