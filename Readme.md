@@ -566,13 +566,6 @@
 [1192.Critical-Connections-in-a-Network](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1192.Critical-Connections-in-a-Network) (H)   
 1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance (TBD)    
 
-#### Combinatorics
-[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
-[047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
-[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
-[077.Combinations](https://github.com/wisdompeak/LeetCode/blob/master/Others/077.Combinations) (H-)    
-[1286.Iterator-for-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Others/1286.Iterator-for-Combination) (M+) 
-
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+)   
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
@@ -604,7 +597,7 @@
 1330.Reverse-Subarray-To-Maximize-Array-Value (TBD)   
 [1250.Check-If-It-Is-a-Good-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/1250.Check-If-It-Is-a-Good-Array) (M+)   
 
-#### [Random Pick Series]
+#### [Random Pick Topic]
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
 [470.Implement-Rand10()-Using-Rand7()](https://github.com/wisdompeak/LeetCode/tree/master/Math/470.Implement-Rand10--Using-Rand7) (M+)   
 [478.Generate-Random-Point-in-a-Circle](https://github.com/wisdompeak/LeetCode/tree/master/Math/478.Generate-Random-Point-in-a-Circle) (H-)    
@@ -613,6 +606,14 @@
 [528.Random-Pick-with-Weight](https://github.com/wisdompeak/LeetCode/tree/master/Math/528.Random-Pick-with-Weight) (H-)   
 [710.Random-Pick-with-Blacklist](https://github.com/wisdompeak/LeetCode/tree/master/Math/710.Random-Pick-with-Blacklist) (M+)    
 [1227.Airplane-Seat-Assignment-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Math/1227.Airplane-Seat-Assignment-Probability) (M+)   
+
+#### [Combinatorics Topic]
+[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
+[047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
+[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
+[077.Combinations](https://github.com/wisdompeak/LeetCode/blob/master/Others/077.Combinations) (H-)    
+[1286.Iterator-for-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Others/1286.Iterator-for-Combination) (M+) 
+[1359.Count-All-Valid-Pickup-and-Delivery-Options](https://github.com/wisdompeak/LeetCode/tree/master/Math/1359.Count-All-Valid-Pickup-and-Delivery-Options) (M+)   
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
