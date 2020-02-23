@@ -661,3 +661,5 @@
 1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix (TBD)    
 1352.Product-of-the-Last-K-Numbers (TBD)    
 1354.Construct-Target-Array-With-Multiple-Sums (TBD) 
+1262.Greatest-Sum-Divisible-by-Three (TBD)    
+1363.Largest-Multiple-of-Three (TBD)    
