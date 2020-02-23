@@ -400,6 +400,7 @@
 * ``走迷宫型``   
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
 [741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
+931.Minimum-Falling-Path-Sum (TBD)    
 1289.Minimum-Falling-Path-Sum-II (TBD)    
 1301.Number-of-Paths-with-Max-Score (TBD)   
 * ``背包型``  
