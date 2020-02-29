@@ -361,8 +361,6 @@
 [264.Ugly-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/264.Ugly-Number-II) (M+)   
 [265.Paint-House-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/265.Paint-House-II) (H)    
 [139.Word-Break](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/139.Word-Break) (M+)    
-[322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
-[518.Coin-Change-2](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/518.Coin-Change-2) (H-)    
 [091.Decode-Ways](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/091.Decode-Ways) (M)     
 [639.Decode-Ways-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/639.Decode-Ways-II) (H)    
 [629.K-Inverse-Pairs-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/629.K-Inverse-Pairs-Array) (H)   
@@ -403,6 +401,8 @@
 [1289.Minimum-Falling-Path-Sum-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1289.Minimum-Falling-Path-Sum-II) (M+)    
 [1301.Number-of-Paths-with-Max-Score](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1301.Number-of-Paths-with-Max-Score) (M+)   
 * ``背包型``  
+[322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
+[518.Coin-Change-2](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/518.Coin-Change-2) (H-)    
 [474.Ones-and-Zeroes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/474.Ones-and-Zeroes) (H-)      
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
