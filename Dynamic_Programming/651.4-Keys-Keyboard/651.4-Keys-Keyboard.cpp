@@ -11,11 +11,10 @@ public:
         
         for (int i=3; i<=N; i++)
         {            
-            for (int j=0; j<=i-1; j++)
-            {
-                dp[i] = max(dp[i], dp[j]+i-j);
-                if (i-j>=2)
-                    dp[i] = max(dp[i], dp[j]*(i-j-2+1));
+            dp[i] = dp[i-1]+1;
+            for (int j=0; j<=i-2; j++)
+            {                                
+                dp[i] = max(dp[i], dp[i-j-2]*(j+1));
             }
         }
         return dp[N];        
