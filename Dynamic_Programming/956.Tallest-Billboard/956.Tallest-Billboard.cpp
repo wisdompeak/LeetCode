@@ -7,7 +7,7 @@ public:
         vector<int>dp(B*2+1,-1);
         dp[B] = 0;
         
-        for (int i=0; i<N; i++)
+        for (auto x: rods)
         {
             auto dp_temp = dp;
             for (int diff=-B; diff<B; diff++)
@@ -15,8 +15,8 @@ public:
                 int j = diff+B;
                 if (dp_temp[j]==-1) continue;
                                 
-                if (diff+rods[i]<B) dp[j+rods[i]] = max(dp[j+rods[i]],dp_temp[j]+rods[i]);
-                if (diff-rods[i]>=-B) dp[j-rods[i]] = max(dp[j-rods[i]],dp_temp[j]);
+                if (diff+x<B) dp[j+x] = max(dp[j+x],dp_temp[j]+rods[i]);
+                if (diff-x>=-B) dp[j-x] = max(dp[j-x],dp_temp[j]);
             }            
         }
         return dp[B];
