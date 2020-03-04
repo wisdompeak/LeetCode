@@ -389,6 +389,7 @@
 1027.Longest-Arithmetic-Sequence (M+)   
 1049.Last-Stone-Weight-II (H-)    
 514.Freedom-Trail (TBD)    
+546.Remove-Boxes (H+)   
 1223.Dice-Roll-Simulation (TBD)   
 1259.Handshakes-That-Don't-Cross (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
