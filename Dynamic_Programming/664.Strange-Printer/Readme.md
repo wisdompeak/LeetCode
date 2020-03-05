@@ -24,7 +24,7 @@ dp[i][j] = min { dp[i][k-1] + dp[k+1][j] }  for s[k]==s[i]
                 for (int k=i+1; k<=j; k++)
                 {
                     if (s[k]==s[i])                    
-                        dp[i][j] = min(dp[i][j], dp[i][k-1] + ((k+1>j)?0:dp[k+1][j]));                              
+                        dp[i][j] = min(dp[i][j], dp[i][k-1] + ((k+1>j)?0:dp[k+1][j]));
                 }                    
             }      
 ```
