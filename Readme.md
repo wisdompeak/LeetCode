@@ -373,7 +373,6 @@
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H-)    
 [673.Number-of-Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/673.Number-of-Longest-Increasing-Subsequence) (M+)    
-[494.Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/494.Target-Sum) (M+)   
 801.Minimum-Swaps-To-Make-Sequences-Increasing (TBD)    
 [818.Race-Car](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/818.Race-Car) (H)    
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
@@ -391,7 +390,6 @@
 514.Freedom-Trail (TBD)    
 546.Remove-Boxes (H+)   
 1223.Dice-Roll-Simulation (TBD)   
-1259.Handshakes-That-Don't-Cross (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
 1316.Distinct-Echo-Substrings (TBD)   
 1344.Jump-Game-V (TBD)  
@@ -406,6 +404,7 @@
 [322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
 [518.Coin-Change-2](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/518.Coin-Change-2) (H-)    
 [474.Ones-and-Zeroes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/474.Ones-and-Zeroes) (H-)      
+[494.Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/494.Target-Sum) (M+)   
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
 * ``键盘型``  
@@ -458,6 +457,8 @@
 943.Find-the-Shortest-Superstring (H+)    
 1125.Smallest-Sufficient-Team (TBD)   
 1349.Maximum-Students-Taking-Exam (H)
+* ``卡特兰数``   
+1259.Handshakes-That-Don't-Cross (TBD)   
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
