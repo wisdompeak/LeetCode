@@ -411,7 +411,6 @@
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
-[664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 [935.Knight-Dialer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/935.Knight-Dialer) (M)   
 1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers (TBD)    
 * ``区间型``   
@@ -421,6 +420,7 @@
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
 [516.Longest-Palindromic-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/516.Longest-Palindromic-Subsequence) (H-)   
 [644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
+[664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 [730.Count-Different-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/730.Count-Different-Palindromic-Subsequences) (H)  
 [813.Largest-Sum-of-Averages](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/813.Largest-Sum-of-Averages) (H)   
 1039.Minimum-Score-Triangulation-of-Polygon (H)   
