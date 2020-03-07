@@ -527,6 +527,7 @@
 [721.Accounts-Merge](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/721.Accounts-Merge) (M+)   
 [765.Couples-Holding-Hands](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/765.Couples-Holding-Hands) (H-)    
 [785.Is-Graph-Bipartite](https://github.com/wisdompeak/LeetCode/tree/master/BFS/785.Is-Graph-Bipartite) (M+)    
+803.Bricks-Falling-When-Hit (TBD)   
 [924.Minimize-Malware-Spread](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/924.Minimize-Malware-Spread) (H-)   
 [947.Most-Stones-Removed-with-Same-Row-or-Column](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/947.Most-Stones-Removed-with-Same-Row-or-Column) (M+)    
 [952.Largest-Component-Size-by-Common-Factor](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/952.Largest-Component-Size-by-Common-Factor) (H)   
