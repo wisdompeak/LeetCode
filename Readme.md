@@ -412,7 +412,7 @@
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
 [935.Knight-Dialer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/935.Knight-Dialer) (M)   
-1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers (TBD)    
+[1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers) (H)    
 * ``区间型``   
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
