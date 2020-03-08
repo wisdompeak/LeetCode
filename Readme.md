@@ -390,6 +390,8 @@
 1049.Last-Stone-Weight-II (H-)    
 514.Freedom-Trail (TBD)    
 546.Remove-Boxes (H+)   
+1186. Maximum Subarray Sum with One Deletion (TBD)    
+1187. Make Array Strictly Increasing (TBD)    
 1223.Dice-Roll-Simulation (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
 1316.Distinct-Echo-Substrings (TBD)   
