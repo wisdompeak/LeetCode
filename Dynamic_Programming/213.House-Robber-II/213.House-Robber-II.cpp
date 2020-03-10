@@ -2,33 +2,30 @@ class Solution {
 public:
     int rob(vector<int>& nums) 
     {
-        if (nums.size()==0) return 0;
-        if (nums.size()==1) return nums[0];
+        int n = nums.size();
+        if (n==0) return 0;
+        if (n==1) return nums[0];
         
-        int Rob = 0;
-        int noRob = nums[0];        
-        for (int i=2; i<nums.size()-1; i++)
+        int ret = 0;
+        
+        int rob = nums[1], norob = 0;        
+        for (int i=2; i<n; i++)
         {
-            int noRob_temp = noRob;
-            int Rob_temp = Rob;
-            
-            Rob = noRob_temp + nums[i];
-            noRob = max(Rob_temp,noRob_temp);
+            int rob_tmp = rob, norob_tmp = norob;
+            rob = norob_tmp + nums[i];
+            norob = max(rob_tmp, norob_tmp);            
         }
-        int result1 = max(Rob,noRob);
+        ret = max(rob, norob);
         
-        Rob = nums[1];
-        noRob = 0;
-        for (int i=2; i<nums.size(); i++)
+        rob = nums[0], norob =0;
+        for (int i=1; i<n-1; i++)
         {
-            int noRob_temp = noRob;
-            int Rob_temp = Rob;
-            
-            Rob = noRob_temp + nums[i];
-            noRob = max(Rob_temp,noRob_temp);
+            int rob_tmp = rob, norob_tmp = norob;
+            rob = norob_tmp + nums[i];
+            norob = max(rob_tmp, norob_tmp);   
         }
-        int result2 = max(Rob,noRob);
+        ret = max(ret, max(rob, norob));
+        return ret;
         
-        return max(result1,result2);
     }
 };
