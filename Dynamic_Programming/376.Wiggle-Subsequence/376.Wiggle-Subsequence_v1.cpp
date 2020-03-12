@@ -14,11 +14,9 @@ public:
             else if (nums[i]-nums[i-1]<0)
                 dir = -1;
             else   
-                dir = 0;
-
-            if (dir==0)
                 dir = dir_pre;
-            else if (dir!=dir_pre)
+
+            if (dir!=dir_pre)
                 ret++;
         }
 
