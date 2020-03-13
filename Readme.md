@@ -438,7 +438,7 @@
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
 [376.Wiggle-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/376.Wiggle-Subsequence) (H-)   
 [487.Max-Consecutive-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/487.Max-Consecutive-Ones-II) (H-)   
-123.Best-Time-to-Buy-and-Sell-Stock-III (H-)    
+[123.Best-Time-to-Buy-and-Sell-Stock-III](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/123.Best-Time-to-Buy-and-Sell-Stock-III) (M+)    
 [188.Best-Time-to-Buy-and-Sell-Stock-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/188.Best-Time-to-Buy-and-Sell-Stock-IV) (H-)    
 [309.Best-Time-to-Buy-and-Sell-Stock-with-Cooldown](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/309.Best-Time-to-Buy-and-Sell-Stock-with-Cooldown) (H-)    
 [714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee) (H-)    
