@@ -30,6 +30,7 @@
 [611.Valid-Triangle-Number](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/611.Valid-Triangle-Number)	(M+)   
 713.Subarray-Product-Less-Than-K (M+)   
 992.Subarrays-with-K-Different-Integers (H-)    
+1004.Max-Consecutive-Ones-III (TBD)   
 1052.Grumpy-Bookstore-Owner (M+)    
 [1234.Replace-the-Substring-for-Balanced-String](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1234.Replace-the-Substring-for-Balanced-String) (H-)   
 
