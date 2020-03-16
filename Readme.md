@@ -380,7 +380,6 @@
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
 [132.Palindrome-Partitioning-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/132.Palindrome-Partitioning-II) (H-)    
 [837.New-21-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/837.New-21-Game) (H-)    
-[879.Profitable-Schemes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/879.Profitable-Schemes) (M+)    
 [887.Super-Egg-Drop](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/887.Super-Egg-Drop) (H)   
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [920.Number-of-Music-Playlists](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/920.Number-of-Music-Playlists) (H)   
@@ -409,6 +408,7 @@
 [474.Ones-and-Zeroes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/474.Ones-and-Zeroes) (H-)      
 [494.Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/494.Target-Sum) (M+)   
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
+[879.Profitable-Schemes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/879.Profitable-Schemes) (M+)    
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/650.2-Keys-Keyboard) (M+)   
@@ -425,7 +425,6 @@
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 [730.Count-Different-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/730.Count-Different-Palindromic-Subsequences) (H)  
 [813.Largest-Sum-of-Averages](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/813.Largest-Sum-of-Averages) (H)   
-1039.Minimum-Score-Triangulation-of-Polygon (H)   
 [1043.Partition-Array-for-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1043.Partition-Array-for-Maximum-Sum)(M+)    
 1105.Filling-Bookcase-Shelves (H-)    
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
@@ -463,6 +462,7 @@
 1125.Smallest-Sufficient-Team (TBD)   
 1349.Maximum-Students-Taking-Exam (H)
 * ``卡特兰数``   
+1039.Minimum-Score-Triangulation-of-Polygon (H)   
 1259.Handshakes-That-Don't-Cross (TBD)   
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
