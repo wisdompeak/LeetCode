@@ -2,9 +2,9 @@ class Solution {
 public:
     int deleteAndEarn(vector<int>& nums) 
     {
-        vector<int>arr(1e5+1,0);
-        for (int i=0; i<nums.size(); i++)
-            arr[nums[i]]++;
+        vector<int>gain(1e5+1,0);
+        for (int x:nums)
+            gain[x]+=x;
             
         int p = 0;  // robbed the last one
         int q = 0;  // did not rob the last one
@@ -12,7 +12,7 @@ public:
         {
             int p_tmp = p;
             int q_tmp = q;
-            p = q_tmp+i*arr[i];
+            p = q_tmp + gain[i];
             q = max(q_tmp,p_tmp);
         }
         
