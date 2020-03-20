@@ -444,7 +444,7 @@
 [714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee) (M+)    
 [740.Delete-and-Earn](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/740.Delete-and-Earn) (H-)   
 [552.Student-Attendance-Record-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/552.Student-Attendance-Record-II) (H)    
-1186.Maximum-Subarray-Sum-with-One-Deletion (TBD)    
+[1186.Maximum-Subarray-Sum-with-One-Deletion](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1186.Maximum-Subarray-Sum-with-One-Deletion) (H-)    
 * ``双序列型``   
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
