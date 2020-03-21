@@ -9,3 +9,6 @@ sold = max(sold, hold+prices[i])
 sold_cd = sold
 ```
 注意所有等号右边的状态变量应该是上一轮的，所以会需要在更新前先缓存一下。
+
+
+[Leetcode Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)

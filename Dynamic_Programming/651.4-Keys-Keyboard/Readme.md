@@ -11,3 +11,6 @@
 3.最后一步操作是ctrl-A或者ctrl-C，这些都是不可能的，无法使得dp[i]最大化。
 
 所以最终的答案就是1和2两种情况中（第2种情况还需要一层循环）最大的值。
+
+
+[Leetcode Link](https://leetcode.com/problems/4-keys-keyboard)

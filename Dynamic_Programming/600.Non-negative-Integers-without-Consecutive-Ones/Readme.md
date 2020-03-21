@@ -15,3 +15,6 @@ dp[i]=dp[i-1]+dp[i-2]
 但是，如果看到第i+1位出现了这种情况：\***11xxxxxxxxx，即第i+1位和第i位一样都是1。注意到，第i+1位是不能取1的（否则连续两个1），所以第i+1位只能取0，这样则有dp[n-i-1]种组合符合要求。但特别注意，num在第i+1位之后的数字我们其实就不用查看了，因为第i+1位已经锁定为0了，这样的01组合一定小于等于num。此时就要退出循环。
 
 注意一个细节：如果num从头到尾都没有任何连续的1出现，那么最后就要把result++，因为虽然一路都是把当前位的取值等同于digits[i]，但最后并没有包含num本身。
+
+
+[Leetcode Link](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones)

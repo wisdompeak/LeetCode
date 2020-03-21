@@ -28,3 +28,6 @@ while (startTime <= endTime)
 ```cpp 
 if (iter!=Map[tweetName].end() && *iter < startTime+delta && *iter<=endTime)
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/tweet-counts-per-frequency)

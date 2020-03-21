@@ -39,3 +39,6 @@ for (int mask=0; mask<2^N; mask++)
 以上的dp存储的只是最短路径的长度。那么怎么回溯构建整个路径呢？我们只需要给每个状态[mask][bit]再添加一个parent的记录，即k=parent[mask][bit]表示的是：最优的dp[mask][bit]是通过dp[pmask][k]+graph[k][bit]得到的。于是我们就能够往上回溯一步了，下一步就递归来考察状态{pmask,k}。于是顺着parent的记录，我们最终能够到达全集合set0的状态.
 
 
+
+
+[Leetcode Link](https://leetcode.com/problems/find-the-shortest-superstring)

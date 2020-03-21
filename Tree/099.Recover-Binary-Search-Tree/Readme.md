@@ -15,3 +15,6 @@ TreeNode* CurMax=new TreeNode(INT_MIN);
 如果第二次出现当前访问的节点 node->val < CurMax->val，说明遇到了第二个尖峰，那么根据之前的分析，second=node，即为第二个掉包元素。
 
 这里还有一个关键点：如果整个树的两个掉包元素是相邻的，那么整个遍历只会找到一个尖峰。所以这里未雨绸缪的技巧是，在处理第一个尖峰时，同时把第二个掉包元素也设置 second==node. 后续如果找到了第二个尖峰，则second会被覆盖。
+
+
+[Leetcode Link](https://leetcode.com/problems/recover-binary-search-tree)

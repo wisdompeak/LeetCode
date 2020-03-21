@@ -12,3 +12,6 @@ sold2 = max(sold2, buy2+p)
 注意等号右边的变量都是前一天的状态. 另外需要考虑初始状态:buy1=-inf, sold1=0, buy2=-inf, sold2=0
 
 跟这一题类似的题目有:376,487,714,552
+
+
+[Leetcode Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)

@@ -30,3 +30,6 @@
             for (auto a:temp) pq.push(a);
         }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/rearrange-string-k-distance-apart)

@@ -11,3 +11,6 @@
 auto iter = upper_bound(tasks.begin(),tasks.end(),make_pair(x,INT_MAX));
 ```
 这里的第三个参数一定要用make_pair来生成，不能用{x,INT_MAX}，否则编译器不能自动正确地转化。
+
+
+[Leetcode Link](https://leetcode.com/problems/most-profit-assigning-work)

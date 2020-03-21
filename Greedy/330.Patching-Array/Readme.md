@@ -9,3 +9,6 @@
 如此循环重复上述的过程，不断提升miss，直至miss>n. 注意这个过程中nums可以提前用完。
 
 另外，值得注意的是，miss的初始值是1，而不是0. 因为没有任何nums提供时，我们首先试图要填补的就是1.
+
+
+[Leetcode Link](https://leetcode.com/problems/patching-array)

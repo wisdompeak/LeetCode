@@ -32,3 +32,6 @@ return dp[n-1][no];
 
 本题最有意思的一点是，k可以很大，远大于prices的天数。这样的话，题目就等效于无限次的操作，这样就可以用 122. Best Time to Buy and Sell Stock II
 里面的技巧来解，时间复杂度反而从o(n*k)降到了o(n).
+
+
+[Leetcode Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)

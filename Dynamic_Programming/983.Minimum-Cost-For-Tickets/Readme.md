@@ -17,3 +17,6 @@
 最后，我们如何从dp里找最终的答案呢？根据上面的定义，车票真正的“实际失效期”一定是在365天之后！（因为最后一张车票一定管到你全年结束，包括你年末不上班）
 所以我们在dp[366]到dp[365+30]这些日子找最小值即可。
 
+
+
+[Leetcode Link](https://leetcode.com/problems/minimum-cost-for-tickets)

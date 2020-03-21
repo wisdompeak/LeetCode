@@ -9,3 +9,6 @@
 注意，需要提前根据inorder建立Hash表，这样从preorder里确定root后，就可以立即查找到其在inorder里的位置。
 
 举个例子，DFS(vector<int>& preorder, int a, int b, vector<int>& inorder, int m, int n)，那么根节点在先序遍历中就一定是 preorder[a]，那么在中序遍历中的位置就一定是 pos = Map[preorder[a]]。所以inorder序列里, m到pos-1是左子树，pos+1到n是右子树。可知左子树的数目是N = pos-m。在preorder序列里，左子树从a+1开始，到a+N为止；显然，右子树从a+N+1开始，到b为止。
+
+
+[Leetcode Link](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal)

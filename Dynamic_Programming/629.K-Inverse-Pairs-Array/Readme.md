@@ -32,3 +32,6 @@ dp[i][j] = dp[i-1][j]+dp[i][j-1]-dp[i-1][j-i]
 需要注意的是，上述关系式仅当j>=i时才有dp[i-1][j-i]。否则，最后一项省略。
 
 另外，dp的边界条件是d[i][0]=1，表示没有任何inverse pair的排列只有一种，那就是从小到大顺序排列。
+
+
+[Leetcode Link](https://leetcode.com/problems/k-inverse-pairs-array)

@@ -21,3 +21,6 @@ for (int i=0; i<N; i++)
 //以上是第numRows-1行
 ```
 需要注意的是，以上对s的访问可能会有越界的风险（主要是针对最后一个周期），需要提前判断一下。
+
+
+[Leetcode Link](https://leetcode.com/problems/zigzag-conversion)

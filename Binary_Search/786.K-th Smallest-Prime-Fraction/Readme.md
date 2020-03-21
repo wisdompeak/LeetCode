@@ -9,3 +9,6 @@
 于是二分夹逼的思路就呼之欲出了。根据```left```,```right```，得到```mid```，试探小于等于```mid```的分数的个数，并以此相应更新```left```和```right```。最后得到的```mid```，表示小于等于```mid```的分数个数恰好为```K```。
 
 有了这个```mid```，再遍历一遍```nums```的所有元素作为分子，找到对应的临界分母。取出所有“分子/分母”里最接近mid的那个就是最终答案。
+
+
+[Leetcode Link](https://leetcode.com/problems/k-th-smallest-prime-fraction)

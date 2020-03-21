@@ -58,3 +58,6 @@ total * num = sum * n  (1)
 dp[sum] |= dp[sum-a]
 ```
 我们在有了dp[sum]之后，就可以知道对应的有哪些num了，逐个判断一下那个num和sum满足表达式(1)，就可以返回true。更高效的方法根据sum和表达式(1)，直接求出对应的num（而且必须是整数），然后查看dp[sum]里面对应那一位bit是否为1.
+
+
+[Leetcode Link](https://leetcode.com/problems/split-array-with-same-average)

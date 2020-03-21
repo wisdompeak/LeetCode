@@ -19,3 +19,6 @@
 这些容器有多少个位置呢？注意到，这些容器都是均匀填充的，即任意两个容器之间的个数不会相差大于１（把idle也算上），所以无非就是两种情况，一种就是这些容器（至少部分容器）还没有填充满n个，所以我们需要的位置依然是整个矩阵的大小加上落单的个数```(maxFreq-1)*n+count```．另外一种就是这些容器都已经填充满n个了，说明没有任何需要用idle来占位的情况，那么我们需要的位置的个数就是字符的个数```tasks.size()```
 
 与本题类似的题目还有：767. Reorganize String，1054. Distant Barcodes
+
+
+[Leetcode Link](https://leetcode.com/problems/task-scheduler)

@@ -30,3 +30,6 @@ dp[i][0]表示从s1里取前i个，是否能与s3的前i个组成交叉子串。
 同理可以设置dp[0][j]。
 
 注意到这两个小问题又都要涉及到边界条件dp[0][0]。这个条件需要dp[0][0]=1.
+
+
+[Leetcode Link](https://leetcode.com/problems/interleaving-string)

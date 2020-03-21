@@ -8,3 +8,6 @@ LeftMost[i]是指i左边的最大高度。RightMost[i]的定义同理。
 ```cpp
 LeftMost[i]=max(LeftMost[i-1],height[i-1]);
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/trapping-rain-water)

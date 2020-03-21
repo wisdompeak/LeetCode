@@ -19,3 +19,6 @@ unordered_map<int,unordered_set<string>>val2set;  //val->set of keys
 我们需要一个Hash表val2set，来存储从val到对应的key的集合。于是inc(key)的操作，就是将key从value对应的集合中删除，再把key加入value+1对应的集合中。对于dec(key)的操作同理。
 
 本题的一个细节之处是，对于val==0的处理。我们可以在list中加入一个dummy head，也就是```val0=0```来方便操作。但是要注意避免任何对于val2set[0]的删除操作（因为在初始化时，我们不可能在这个集合中加入无限多的元素，所以干脆永远保持val2set[0]是空的）。
+
+
+[Leetcode Link](https://leetcode.com/problems/all-o-one-data-structure)

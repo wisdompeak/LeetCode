@@ -22,3 +22,6 @@ long long sum=1;
 for (int i=1; i<m-1; i++)
   sum = sum*k+1;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/smallest-good-base)

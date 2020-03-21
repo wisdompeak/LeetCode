@@ -24,3 +24,6 @@ for j= 0 to i-1
 我们通过i,j,查找之前是否存在一个索引k使得```A[i]*2=A[k]+A[j]```.如果找到的话那就说明```DP[i][j]+=DP[k][i]+1```。其中```DP[k][i]+1```的意思是：以i,j为结尾的等差数列，大部分可以由以k,i为结尾的等差数列延长而来（多加上一个A[i]而已），但还多出来的一个就是仅含有k,i,j三个元素的等差数列。另外，这里为什么是```+=```而不是```=```，那是因为这样的k可能会有好几个(对应相同的A[k]值).
 
 想通过A[k]值找到k,需要提前处理,用到一个一对应多的hash表unordered_map<int,vector<int>>Map.
+
+
+[Leetcode Link](https://leetcode.com/problems/arithmetic-slices-ii-subsequence)

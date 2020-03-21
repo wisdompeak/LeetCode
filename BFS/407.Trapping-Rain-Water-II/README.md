@@ -24,3 +24,6 @@ priority_queue< pair<int,int>, vector<pair<int,int>>, cmp> SeaShore
 每次从SeaShore里弹出一个最矮的堤坝，标记此时的海平面level，以此开始内部的BFS，定义为flood吧。将所有为访问过的、低于level的元素加入Q队列并计算存水量；将所有不低于level的元素加入SeaShore队列，表明新的海岸线生成。搜索到flood空为止。  
 
 注意无论是加入flood队列还是SeaShore队列，都要标记已经访问过，以后不需要再加入任何队列。
+
+
+[Leetcode Link](https://leetcode.com/problems/trapping-rain-water-ii)

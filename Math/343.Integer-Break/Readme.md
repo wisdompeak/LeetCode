@@ -9,3 +9,6 @@
 1. n能被3整除，则结果就是pow(3,n/3)
 2. n被3除余2，则结果就是pow(3,n/3)\*2
 3. n被3除余1，稍微有些变化，因为pow(3,n/3)\*1并不合算，我们就退一步，写成pow(3,n/3-1)\*4会得到更大的结果。
+
+
+[Leetcode Link](https://leetcode.com/problems/integer-break)

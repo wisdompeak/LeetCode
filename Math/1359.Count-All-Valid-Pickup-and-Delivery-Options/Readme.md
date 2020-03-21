@@ -7,3 +7,6 @@
 以此类推，最后一单的下单和递送位置其实都是没有选择余地的。
 
 所以综上，答案应该是```A(n,n)*(2n-1)*(2n-3)*...*1```
+
+
+[Leetcode Link](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options)

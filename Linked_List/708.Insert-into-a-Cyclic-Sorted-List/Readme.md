@@ -16,3 +16,6 @@ Node* NewHead = h;
 while (h->next!=NewHead && !(h->val<=insertVal && h->next->val>=insertVal))
     h = h->next;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/insert-into-a-cyclic-sorted-list)

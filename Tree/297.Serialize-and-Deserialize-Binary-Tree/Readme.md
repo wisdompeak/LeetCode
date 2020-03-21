@@ -46,3 +46,6 @@
     }
 ```
 需要额外一个getSize函数来计算这个子树共有多少个元素。
+
+
+[Leetcode Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)

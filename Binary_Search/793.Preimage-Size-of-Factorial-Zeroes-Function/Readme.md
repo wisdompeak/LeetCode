@@ -5,3 +5,6 @@
 如何写f(x)呢？考虑将x!按顺序每5个分一组，就会有一个因数含有一个5；将x!按顺序每25个分一组，就会有一个因数含有两个5；将x!按顺序每125个分一组，就会有一个因数含有三个5。以此类推，可以知道```f(x) = x/5 + x/25 + x/125 + ...```
 
 因为K可以达到1e9，因此由上面的公式可知，二分搜索的上限应该设置为5e9，需要用到long类型。
+
+
+[Leetcode Link](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function)

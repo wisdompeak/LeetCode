@@ -51,3 +51,6 @@ TreeNode* buildTree(vector<int>nums)
         return result;
     }
 ```    
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array)

@@ -21,3 +21,6 @@ leftNum和rightNum有任何一个为-1，都表明root都不是BST。
 此外，判断root为BST的第三个条件，等价于这样的操作：将左子树的右下节点与根节点比较、右子树的左下节点与根节点比较。设计一个while语句就可以迅速定位所需要的边界节点。
 
 以上三个条件都判断后，如果root不是BST，返回-1；如果是BST，返回leftNum+rightNum+1.
+
+
+[Leetcode Link](https://leetcode.com/problems/largest-bst-subtree)

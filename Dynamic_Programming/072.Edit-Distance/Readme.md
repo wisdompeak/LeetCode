@@ -20,3 +20,6 @@ for (int i=1; i<=n1; i++)
 输出的结果是dp[n1][n2].
 
 现在考虑边界条件。发现当i=1, j=1时，上述递推关系式中需要用dp[i][0] (for all i), dp[0][j] (for all j). 因此我们特别考虑一下他们。很明显dp[i][0]表示子串A有i位，子串B有零位，显然只需要在子串添加i个相应的字符即可匹配字符串A，所以dp[i][0]=i。同理，dp[0][j]=j。更特殊一点，dp[0][0]=0.
+
+
+[Leetcode Link](https://leetcode.com/problems/edit-distance)

@@ -9,3 +9,6 @@
 f(n) = (n/2+1-f(n/2)) *2 
 ```
 边界条件是 n==1时，f(1)=1.
+
+
+[Leetcode Link](https://leetcode.com/problems/elimination-game)

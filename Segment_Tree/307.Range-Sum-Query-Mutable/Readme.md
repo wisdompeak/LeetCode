@@ -111,3 +111,6 @@ void modifyTree(SegmentTree* node, int pos, int val)
         else
             return queryTree(root->left,a,mid)+queryTree(root->right,mid+1,b);
     }
+
+
+[Leetcode Link](https://leetcode.com/problems/range-sum-query-mutable)

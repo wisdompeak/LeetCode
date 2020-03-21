@@ -20,3 +20,6 @@
 
 https://leetcode.com/problems/zuma-game/discuss/254300/Right-answer-for-this-questions
 
+
+
+[Leetcode Link](https://leetcode.com/problems/zuma-game)

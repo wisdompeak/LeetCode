@@ -5,3 +5,6 @@
 接下来，我们知道，如果将M个不相连的局域网都互通，那么需要M-1条线。
 
 所以总体的算法是：用Union Find的方法来数一下有M个局域网；再计算每个局域网里有多少冗余的传输线并相加。如果所有冗余的传输线数目K>=M-1的话，那么就可以把所有的计算机都连接起来。
+
+
+[Leetcode Link](https://leetcode.com/problems/number-of-operations-to-make-network-connected)

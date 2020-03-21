@@ -9,3 +9,6 @@
 第三，取反．这样求跨越终端的maximum subarray，相当于求total sum - minimum subarray.
 
 本题需要注意，因为我们求maximum subarray至少包含一个元素，所以在计算minimum subarray时，它不能包含所有的元素，但是它允许包含０个元素．所以在globalMin的初始值可以是0而不是INT_MAX．
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-sum-circular-subarray)

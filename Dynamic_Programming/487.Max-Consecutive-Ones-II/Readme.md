@@ -7,3 +7,6 @@
 如果nums[i]==0，那么count1要置零；count2怎么办呢？事实上count2=count1+1既可。
 
 一路上追踪最大曾出现过的count2就是最后的答案。
+
+
+[Leetcode Link](https://leetcode.com/problems/max-consecutive-ones-ii)

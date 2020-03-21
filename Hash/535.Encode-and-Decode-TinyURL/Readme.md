@@ -23,3 +23,6 @@ for (int i=0; i<6; i++)
         else
             longUrl = shortUrl;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/encode-and-decode-tinyurl)

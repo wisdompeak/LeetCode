@@ -19,3 +19,6 @@ for (int col=0; col<n; col++)
 }
 ```
 之所以称之为回溯算法，是因为对于每一行row，可能有若干个候选位置col，需要平行地探索。所以对每个col进行DFS后，都需要重置Q_pos[row]的数值，顾名思义就是重新来一遍。
+
+
+[Leetcode Link](https://leetcode.com/problems/n-queens)

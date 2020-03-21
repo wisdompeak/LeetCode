@@ -25,3 +25,6 @@ if (S[i]=='D')
     dp[i][j] += dp[i-1][k];
 ```
 最终的答案是dp[N][j]，将j从0到N遍历一遍，收集这个全排列最后一位的所有可能性，取和即可。
+
+
+[Leetcode Link](https://leetcode.com/problems/valid-permutations-for-di-sequence)

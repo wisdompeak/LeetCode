@@ -11,3 +11,6 @@
 最后，将hull_lower和hull_upper归并至一处，去除掉重复的点，就是所求凸多边形的边界点。
 
 注：向量a=(x1,y1),b=(x2,y2)，则叉乘axb=(x1y2-y1x2)表示一个朝向z方向的向量。如果为正，则说明从a到b转过了一个逆时针的角度；如果为负，则说明从a到b转过了一个顺时针的角度。这可以用右手螺旋定则来记忆。
+
+
+[Leetcode Link](https://leetcode.com/problems/erect-the-fence)

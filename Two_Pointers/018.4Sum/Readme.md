@@ -27,3 +27,6 @@ if (nums[h1]+nums[h2]+2*nums[right]<target) continue;
 ```cpp
 if (h1>0 && nums[h1]==nums[h1-1]) continue;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/4sum)

@@ -5,3 +5,6 @@
 对于x-z平面上的总投影也是如此处理。计算每个col[j]，表示第j列上的的最大值。再把所有col[j]相加。
 
 对于x-y平面上的总投影，处理起来更为简单，就是计算grid[i][j]有多少个非零元素即可。
+
+
+[Leetcode Link](https://leetcode.com/problems/projection-area-of-3d-shapes)

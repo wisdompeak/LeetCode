@@ -9,3 +9,6 @@
 对于n，如果想喷涂和n-1不一样的颜色，那么diff(n)就要更新为[diff(n-1)+same(n-1)]*(k-1)，其中k-1表示颜色的选择种类．
 
 上述的递归公式显示，我们只要不断更新两个状态变量same和diff即可．最后的答案就是两者之和．
+
+
+[Leetcode Link](https://leetcode.com/problems/paint-fence)

@@ -25,3 +25,6 @@ Stack.pop();
 Stack.top().add(temp);
 ```
 特别注意的是，上述语句的前提条件是 Stack.size()>1
+
+
+[Leetcode Link](https://leetcode.com/problems/mini-parser)

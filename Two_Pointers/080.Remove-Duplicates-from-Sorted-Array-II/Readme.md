@@ -13,3 +13,6 @@ else
 }
 ```
 分析：因为所有合格的元素都已经移到了左指针上，所以每次考察右指针的新元素时，需要和左指针进行比较。
+
+
+[Leetcode Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii)

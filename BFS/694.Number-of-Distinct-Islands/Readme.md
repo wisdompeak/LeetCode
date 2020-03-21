@@ -5,3 +5,6 @@
 注意每遍历一个点，都需要用*号隔开。
 
 最后这个path字符串就代表了唯一一种岛屿的形状。
+
+
+[Leetcode Link](https://leetcode.com/problems/number-of-distinct-islands)

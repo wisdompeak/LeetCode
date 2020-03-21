@@ -47,3 +47,6 @@ else if (s[i-1]=='1')   // 对应11~19
 else if (s[i-1]=='2')   // 对应21~26
   k+=k2*6;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/decode-ways-ii)

@@ -5,3 +5,6 @@
 按照边的权重顺序（从小到大）将边加入生成树中，但是若加入该边会与生成树形成环则不加入该边。直到树中含有V-1条边为止。这些边组成的就是该图的最小生成树。
 
 Kruskal算法的时间复杂度为 ElogE。 
+
+
+[Leetcode Link](https://leetcode.com/problems/connecting-cities-with-minimum-cost)

@@ -17,3 +17,6 @@ count(M) = M/a+M/b+M/c-M/lcm(a,b)-M/lcm(a,c)-M/lcm(b,c)+M/lcm(lcm(a,b),c);
         return gcd(b, a%b);
     }
 ```    
+
+
+[Leetcode Link](https://leetcode.com/problems/ugly-number-iii)

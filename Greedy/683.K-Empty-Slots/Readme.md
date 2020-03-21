@@ -9,3 +9,6 @@
 那么如何找到这样一个窗口呢？我们尝试让它滑动起来．令left=0,right=left+k+1,然后逐个考察其中的```ｉ```是否符合条件．如果遇到不符合条件的，说明days[i]要比两边的都要早，成为了一个＂钉子户＂,所有小于i的left都不可能符合要求了．那么显然，我们的策略就是让这个钉子户作为新的left，进行下一次的搜索．
 
 注意,一旦找到一个合适的区间,那么输出的答案应该是max(days[left],days[right]),因为只有两边的花都开了,这个区间才成立.
+
+
+[Leetcode Link](https://leetcode.com/problems/k-empty-slots)

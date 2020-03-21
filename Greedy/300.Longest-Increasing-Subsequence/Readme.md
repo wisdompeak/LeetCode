@@ -6,3 +6,6 @@
 如此遍历结束之后，q.size()就是最长子序列的长度。
 
 对于C++，用lower_bound(q.begin(),q.end(),val)返回的就是第一个大于或等于val的元素的迭代器（或者说是地址）。
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-increasing-subsequence)

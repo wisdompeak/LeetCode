@@ -11,3 +11,6 @@
 我们循环利用上述的算法，不断往后推进，可以得到任意n位数的格雷码！
 
 LC 1238. Circular Permutation in Binary Representation 和本题一模一样。
+
+
+[Leetcode Link](https://leetcode.com/problems/gray-code)

@@ -46,3 +46,6 @@ class SegTree
 
 ```
 将整棵线段树更新之后，本题求它所代表的所有区间内的每个元素值。我们只要用DFS的方法去遍历，读取所有底层节点的区间的status就行了。
+
+
+[Leetcode Link](https://leetcode.com/problems/range-addition)

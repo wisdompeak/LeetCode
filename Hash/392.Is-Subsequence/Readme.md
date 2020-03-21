@@ -24,3 +24,6 @@ for (int i=0; i<s.size()-1; i++)
 }
 return true;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/is-subsequence)

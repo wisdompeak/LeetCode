@@ -22,3 +22,6 @@ while (!q.empty())
 要保证一个for循环完整地执行完．
 
 4.要找到回溯的路径，就需要保存所有单词的prev．因为可能有多条最短路径都经过str，那么str的ｐｒｅｖ需要是一个集合．最后回溯的方法用DFS.
+
+
+[Leetcode Link](https://leetcode.com/problems/word-ladder-ii)

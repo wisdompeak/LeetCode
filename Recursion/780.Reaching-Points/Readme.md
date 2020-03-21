@@ -16,3 +16,6 @@
   else if (tx<ty) return reachingPoints(sx,sy,tx,ty%tx);
   else return false;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/reaching-points)

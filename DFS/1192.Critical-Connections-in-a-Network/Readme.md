@@ -11,3 +11,6 @@
 令v是u的一个子节点，且有```low[v]>dfn[u]```，这说明什么呢？说明从v出发最终无法绕道u的前面去。因此(v,u)就是割边。如果消除了这条边，v及其子树就是一个孤岛，无法与u或u的祖先相通。同理，如果```low[v]>=dfn[u]```，说明u是一个割点，如果消除了这个点，那么v及其子树也是一个孤岛。
 
 本题中我们还设置了一个parent，其实是为了标记dfs过程中的搜索顺序。因为无向图```for auto v: next[u]```的遍历过程中，v可能是u的父节点，这种情况下v其实不能作为从u开始dfs的下一个目的地（否则就是走回头路了），所以得排除。
+
+
+[Leetcode Link](https://leetcode.com/problems/critical-connections-in-a-network)

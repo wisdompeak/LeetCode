@@ -10,3 +10,6 @@
 所以我们的问题就转换为：设计一种sideLength为边长的正方形的图案，使得里面的1元素的个数是maxOnes；并且将这个pattern移动到右边和下方的“边角料”区域时，这些“边角料”区域内能被1覆盖的面积越大越好。
 
 解决方案其实很简单：将所有的边角料区域映射都到一个```side*side```的正方形区域内。然后在这个正方形区域内找出被映射次数最多的前maxOnes个格子。对于每一个正方形，我们都将这些格子都标记为1，就能得到了最优的图案。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-number-of-ones)

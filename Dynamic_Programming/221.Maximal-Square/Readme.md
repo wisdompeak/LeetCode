@@ -34,3 +34,6 @@ else
 可以这么理解上述的动态转移方程。假设matrix[i][j]==1，那么对于右下角为（i,j）的可能的最大正方形，主要取决于dp[i-1][j-1]有多大，其次还要考虑第i行和第j列分别有多少1与（i,j）连着。所以，这个最大正方形，其下边长由min(dp[i-1][j-1],dp[i][j-1])决定，有边长由min(dp[i-1][j-1],dp[i-1][j])决定。
 
 最后注意，输出的面积应该是最长边长的平方。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximal-square)

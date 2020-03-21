@@ -9,3 +9,6 @@ dp[i,j,k] = dp[i-1,j,k-1] +  dp[i+1,j,k-1] + dp[i,j-1,k-1] + dp[i,j+1,k-1];
 dp[i,j,k] = 1;
 ```
 输出结果就是dp[i0,j0,N]。当然，不必开那么多二维数组，只要两个就行了。
+
+
+[Leetcode Link](https://leetcode.com/problems/out-of-boundary-paths)

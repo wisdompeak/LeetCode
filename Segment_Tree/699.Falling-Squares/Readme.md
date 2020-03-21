@@ -40,3 +40,6 @@ Map[left]= maxH+h;
 也即是每个线段的status不再是一个二值的状态，而是代表了```[begin,end)```区间里最大高度。每次处理一个正方形(x,y,d)，首先用```getStatus(x,y)```得到该区间内的最大高度maxH，然后在该相同的区间内```setStatus(x,y,maxH+d)```即可。整颗线段树的维护非常直观。
 
 相比与715，线段树模型的改动之处是：715题的setStatus里，```status = left->status && right->status```，现在改为 ```stuats = max(left->status, right->status)```即可。
+
+
+[Leetcode Link](https://leetcode.com/problems/falling-squares)

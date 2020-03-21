@@ -11,3 +11,6 @@ y_right_top = min(y1_right_top, y2_right_top)
 ```
 
 特别注意要检查 ```x_left_bottom < x_right_top```和 ```y_left_bottom < y_right_top```，才能说明有真正意义的相交矩形。
+
+
+[Leetcode Link](https://leetcode.com/problems/rectangle-area)

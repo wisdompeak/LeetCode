@@ -24,3 +24,6 @@ largest[i][j] = max(largest[i][i],largest[i+1][j])
 首先，如果一个元素的左边没有比它更大的数，但它仍有可能被（右边更大的数）消去，那么我们就定义```a=INT_MAX```.对于右边的情况同样处理。
 
 其次，以上的算法中严格要求了所有的元素都能比较（分出大小）。如果两个元素的数值相等，我们必须额外定义一个区分大小的原则。最简单的方法就是，数值相等的元素，右边的更大。如果我们不这样处理，会遇到这样的情况：```xxxx A1 A2 xxx```，当A1与A2相等时，如果我们考虑A1可以被A2消去，且考虑A2可以被A1消去，那么会有两次cost的相加。但事实上A1与A2的碰撞只应该计算一次cost。
+
+
+[Leetcode Link](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values)

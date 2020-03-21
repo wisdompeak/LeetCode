@@ -27,3 +27,6 @@ if (curPos!=i && nums[i]==nums[i-1] && visited[i-1]==0)
 这是因为若nums[i-1]已经被搜索过并且失败后回溯的话，相同的nums[i]就不需要再次被搜索了，注定是失败的。注意，```visited[i-1]==0```保证了nums[i-1]一定是在同级的搜索中已经尝试过的，缺少了这个判定条件则会误剪这个分支。
 
 与本题非常相似的题目有： 473. Matchsticks to Square, 416. Partition Equal Subset Sum, 996. Number of Squareful Arrays    
+
+
+[Leetcode Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)

@@ -8,3 +8,6 @@
 ```
 dp[i] = min {dp[j-1] + max(books[j][1]，...,books[i][1]) }  for j = i, i-1, ...
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/filling-bookcase-shelves)

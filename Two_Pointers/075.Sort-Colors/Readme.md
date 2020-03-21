@@ -16,3 +16,6 @@ if (nums[mid]==0)
 }
 ```
 因为left和mid初始位置相同，他们之间出现异步只是因为1号球的出现。所以这两个指针之间间隔的永远只会是1号球，所以当left和mid交换时，left指针传给mid的一定会是1号球而不是0号球。
+
+
+[Leetcode Link](https://leetcode.com/problems/sort-colors)

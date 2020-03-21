@@ -7,3 +7,6 @@
 设计了以上的数据结构，操作就很容易了。对于popMax()，我们直接在Map的尾元素得到当前链表的最大值 x=(--Map.end())->first。然后auto it = Map[x].back()就是当前链表最顶端的最大值的地址。直接在list中删除即可 List.erase(it)。
 
 特别注意，popMax(x)和pop(x)操之后，可能Map[x]的元素个数就是0了，此时一定要将Map删除这个key！
+
+
+[Leetcode Link](https://leetcode.com/problems/max-stack)

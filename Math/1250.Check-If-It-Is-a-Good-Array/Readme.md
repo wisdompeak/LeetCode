@@ -9,3 +9,6 @@
 因此，在整个数组array里面，只要存在两个数互质，那么必然可以找到一个subarray（只要包括它们就行）满足题意。
 
 要判断一个数组里面是否有两个互质，只要顺序取最大公约数（gcd)，这个gcd肯定会越算越小，直至为1的话，那就说明经过的数字里面必然有两个是互质的。（这是因为取最大公约数的操作是有交换律性质的）
+
+
+[Leetcode Link](https://leetcode.com/problems/check-if-it-is-a-good-array)

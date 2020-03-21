@@ -14,3 +14,6 @@ root->left=invert(root->left);
 root->right=invert(root->right);
 ```
 注意代码第一行，作用是把整个根节点的左右子树都整体对换了。
+
+
+[Leetcode Link](https://leetcode.com/problems/invert-binary-tree)

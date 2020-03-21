@@ -9,3 +9,6 @@
 非常巧妙的思维，本题即是在这个数组里找到长度为3的increasing subsequence即可！
 
 用一个数组来记录当前的递增序列，长度达到3即可停下来。时间最差是nlog(3)，空间是o(3)。
+
+
+[Leetcode Link](https://leetcode.com/problems/increasing-triplet-subsequence)

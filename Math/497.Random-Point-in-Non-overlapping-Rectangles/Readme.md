@@ -7,3 +7,6 @@
 接下来我们需要判定k号点是在哪个矩形里。我们只需要利用前缀和的思想，提前准备好一个数组q，其中q[i]表示前i个矩形所覆盖的点的个数，例如[4,10,11]。于是我们在q里面找第一个大于等于k的元素位置，就是k号点所在的矩形的编号i。
 
 有了这个矩形编号i，我们就可以知道k号点在第i个矩形内的相对编号k'，继而通过矩形的宽/高得到其内部第k'个点的行/列位置。
+
+
+[Leetcode Link](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles)

@@ -12,3 +12,6 @@ for (int i=0; i<n; i++)
   sum -= A[i]*pow(2,n-1-i);
 }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/sum-of-subsequence-widths)

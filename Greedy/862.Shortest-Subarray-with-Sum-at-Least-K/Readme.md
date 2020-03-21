@@ -30,3 +30,6 @@
 接下来，我们需要将presum[i]的信息加入这个队列．我们的策略是不断在后端弹出元素，直到```presum[q.back()]<presum[i]```，即保证这个队列对应的presum依然是递增的．这个比较好理解，和解法１的道理一样．因为当前的i是最靠后，那么所有队里中已有的presum大于presum[i]的元素都是没有意义的，完全可以被i取代（即依然保证at least K同时能使subarray更短）．
 
 所以每次处理一个presum[i]时，遵循上述两个步骤，就能保证队列存储的是一个递增的index序列，而且对应的presum也是递增的．
+
+
+[Leetcode Link](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k)

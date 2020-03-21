@@ -16,3 +16,6 @@
         }
 ```        
 因为我们在收缩范围的时候，永远是将可行解放在闭区间[left,right]内，不可行解排除在闭区间外.所以当left和right收敛的时候，一定是一个可行解，直接返回left即可．
+
+
+[Leetcode Link](https://leetcode.com/problems/path-with-maximum-minimum-value)

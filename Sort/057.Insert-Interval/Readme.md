@@ -17,3 +17,6 @@
 #### 解法2：priority_queue
 将所有intervals都放入一个priority_queue里，使其能按照start从小到大自动排序。    
 每次取出栈顶元素，如果它与栈顶的第二个元素不重合，则将其加入结果数组；如果栈顶元素与栈顶的第二个元素区间重合，则将二者融合之后再次扔进这个priority_queue里。如此循环直至队列空。
+
+
+[Leetcode Link](https://leetcode.com/problems/insert-interval)

@@ -13,3 +13,6 @@
 f(child) = f(parent)+(除child子树之外所有节点的数目)-(child子树的节点数目)
 ```
 可见，所有的f都可以自上而下通过递归得到。
+
+
+[Leetcode Link](https://leetcode.com/problems/sum-of-distances-in-tree)

@@ -20,3 +20,6 @@ int FindKthNumberBeginWith(prefix,k)
     }
 }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)

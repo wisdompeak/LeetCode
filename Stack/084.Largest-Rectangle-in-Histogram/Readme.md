@@ -27,3 +27,6 @@ result = max(result, height[s.top()] * (i-s.top());
 其他的技巧：  
 ----------
 在height数组末添加元素0，是为了保证最后强制回溯。在height数组首端添加元素0，是为了便于处理s.pop()之后栈为空的特殊情况；这样处理后永远不会栈空。
+
+
+[Leetcode Link](https://leetcode.com/problems/largest-rectangle-in-histogram)

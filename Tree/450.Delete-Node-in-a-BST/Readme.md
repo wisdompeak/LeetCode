@@ -30,3 +30,6 @@ else if (root->val==key)
     	}
 }
 ```                
+
+
+[Leetcode Link](https://leetcode.com/problems/delete-node-in-a-bst)

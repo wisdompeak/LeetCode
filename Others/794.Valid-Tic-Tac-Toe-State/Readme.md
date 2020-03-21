@@ -9,3 +9,6 @@
 类似的,当X的数目与O的数目相等时,说明最后一步是O落子,那么X不可能此时在盘面上获胜.故如果发现win('X')就返回false
 
 至于其他情况,不管两边棋子怎么摆放,都是可能的.
+
+
+[Leetcode Link](https://leetcode.com/problems/valid-tic-tac-toe-state)

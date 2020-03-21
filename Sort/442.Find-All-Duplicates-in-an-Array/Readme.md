@@ -13,3 +13,6 @@
 还有一种比较花哨的解法。对于数值x，我们如何不通过extra space来记录它是否出现过呢？方法是将nums[x]上的数字变成负数来进行标记，注意我们并不关心nums[x]是多少。只关心nums[x]是负数时表示x曾经出现过，反之表示x还没出现过。
 
 所以我们依次遍历数组里的每个数字abs(x)，注意我们关心数值时必须看的是abs(x)，因为x的符号可能被encode了其他含义（如上所说）。如果nums[abs[x]]<0，表示abs(x)曾经出现过，加入我们的答案中。反之，说明abs(x)第一次出现，所以我们将nums[abs(x)]标记为负数，以此留下这个标记。
+
+
+[Leetcode Link](https://leetcode.com/problems/find-all-duplicates-in-an-array)

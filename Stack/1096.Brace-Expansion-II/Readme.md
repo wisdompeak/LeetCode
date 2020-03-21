@@ -18,3 +18,6 @@
 4. 遇到任何其他字母，就将cur的值置为这个字符串。
 
 需要注意的是，我们最好对所有的字母提前包裹上"{}"，这样会带来处理上的便利。比如"{a,b}c{d,e}f"，因为c不包裹大括号的话，就无法判断它与前面是否是点乘的关系进而无法使之前的cur入栈。
+
+
+[Leetcode Link](https://leetcode.com/problems/brace-expansion-ii)

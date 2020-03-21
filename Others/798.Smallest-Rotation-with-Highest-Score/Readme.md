@@ -22,3 +22,6 @@ change[i+1] += 1;
 就可以处理所有A[i]，计算相应在何时会导致分数的跳变（加1或者减1）。
 
 最后只要在change里面找到最大值对应的index即可（也就是对应ratate了多少次）。
+
+
+[Leetcode Link](https://leetcode.com/problems/smallest-rotation-with-highest-score)

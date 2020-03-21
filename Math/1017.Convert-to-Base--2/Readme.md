@@ -7,3 +7,6 @@
 但是，当除数是负数的时候，不同语言的运算规则会不一样。在C++/Java里面，整数的除法都是向零取整。比如说5/(-3)，结果商是-1，余数是-2.这个余数因为是负数，是无法用来作为进制转换结果的。解决方案是：将商加上一，余数加上abs(K)。这样就转变成了向下取整的结果，余数也变成了正数。在这个例子中，结果商就是-1，余数是1.
 
 事实上，在wiki里面已经明确写明了negative base calculation的方法：https://en.wikipedia.org/wiki/Negative_base#Calculation
+
+
+[Leetcode Link](https://leetcode.com/problems/convert-to-base--2)

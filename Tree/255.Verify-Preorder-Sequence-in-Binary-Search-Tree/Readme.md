@@ -17,3 +17,6 @@ bool DFS(vector<int>& preorder, int start, int end)。
 于是本题转化为：如何在遍历preorder的过程中，不断更新a<b，使得a不断得以抬升（当前所有a<b的pair中最大的a），一旦出现后续的c<a即可宣告false
 
 怎么维护一个最新（尽量大）的a<b呢？那就是用栈来维护一个递减的序列。一旦遍历的过程中出现了 preOrder[i]>Stack.top()，那就说明出现了递增序列，需要不断退栈直至保证栈本身仍然是递减的。在退栈的过程中，就不断遇到a<b的情况，借机可以抬高a。
+
+
+[Leetcode Link](https://leetcode.com/problems/verify-preorder-sequence-in-binary-search-tree)

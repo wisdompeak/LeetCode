@@ -32,3 +32,6 @@ for (int i=k; i<nums.size(); i++)
 但是我们如何知道是否存在一个子数组，其平均值大于mid呢？如果我们将这个数组整体都减去mid，那么任务就等价于找到一个平均值大于零的子数组，也就是是说，找到一个和为正数的子数组。
 
 如何确认一个数组里有一段子数组的和为正数呢？我们只要遍历一遍前缀和，发现curSum[i]>preMin即说明存在。这里的preMin就是在i之前的最小的前缀和。可见只要o(n)的搜索就可以完成判断。总体的时间长度就是o(NlogK)，其中K是nums最大最小值之差。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-average-subarray-ii)

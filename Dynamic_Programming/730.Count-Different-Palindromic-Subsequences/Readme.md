@@ -25,3 +25,6 @@ for (int k=0; k<4; k++)
 以上的语句再加上最外层对于i,j的大循环，即是完整的代码。最终的答案是dp[0][N-1]。
 
 本题其实也可以通过定义dp[i][j][k]三维状态数组来实现这个算法，最终输出是```sum{k=0,1,2,3} dp[0][N-1][k]```。但是空间上可能无法通过。
+
+
+[Leetcode Link](https://leetcode.com/problems/count-different-palindromic-subsequences)

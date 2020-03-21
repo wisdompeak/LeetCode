@@ -28,3 +28,6 @@ XXX(a1)
 XXX(a3)
 ```
 这是因为```XXX(a1)```本质是和```XXXYYY(a2)```重合的！就最终的subsequence的样子而言，前者就是后者的一部分。我们计算dp[i]时，减去的dp[j-1]，去掉了形如```XXXYYY(a2)```的重复，其实也就已经去掉了形如```XXX(a1)```的重复。所以我们不需要考虑其他在j之前的任何S[k]==S[i]的case。
+
+
+[Leetcode Link](https://leetcode.com/problems/distinct-subsequences-ii)

@@ -5,3 +5,6 @@
 我们的想法是预处理一遍words，利用o(n)的时间将其字母信息存储下来，当穷举两两组合时所需要的判定时间减少。
 
 一个比较简单的想法是，因为小写字母只有26个，可以用一个32位的int每一个bit来代表一个字母出现与否。这样只用一个int就能编码一个word所包含的字母信息了。两个word是否含有有相同的字母，则让两个对应code进行与操作，如果结果不是0，说明有一个bit不是零，代表了这个字母在两个word里都出现过。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-product-of-word-lengths)

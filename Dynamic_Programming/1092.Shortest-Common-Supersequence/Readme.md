@@ -8,3 +8,6 @@
 3. 如果dp[i][j]之前的状态是dp[i][j-1],那么就是在dp[i][j-1]的基础上加上str2[j]
 
 这样一直回退到```i==0 && j==0```
+
+
+[Leetcode Link](https://leetcode.com/problems/shortest-common-supersequence)

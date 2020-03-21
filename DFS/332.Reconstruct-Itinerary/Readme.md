@@ -31,3 +31,6 @@
 另外，注意到我们填充path的顺序其实是按照从后往前来的，所以最终要将path逆序返回。
 
 另外，在同一层级的搜索中，我们依然是会优先考察字典序小的目的地。所以，对于A的下家，其实我们是按字母倒序尝试。
+
+
+[Leetcode Link](https://leetcode.com/problems/reconstruct-itinerary)

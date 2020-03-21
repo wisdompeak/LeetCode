@@ -38,3 +38,6 @@
     }
 ```
 特别注意：如果val就是nums末尾的元素（即```val==val2```)，那么直接弹出nums的末尾元素即可。这种情况不应该和其他gengeral的情况混淆在一起处理，容易出错。
+
+
+[Leetcode Link](https://leetcode.com/problems/insert-delete-getrandom-o-1-duplicates-allowed)

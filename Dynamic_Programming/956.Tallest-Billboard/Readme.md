@@ -25,3 +25,6 @@ dp[diff] = max{ Left | s.t Left-Right = diff}
 需要注意的是，以上的更新只有在left存在的情况下进行。也就是说，需要保证dp[diff]=left有意义。初始化时，只有dp[0]=0,表示初始状态下高度差为0的方案就是left=0,right=0; 其他所有的dp[diff]都标记为-1，表示目前非法。
 
 另外，需要注意，diff的范围是[-5000,5000]，但是dp[diff]数组的index不能是负数。我们在处理下标时需要一个偏移量5000。
+
+
+[Leetcode Link](https://leetcode.com/problems/tallest-billboard)

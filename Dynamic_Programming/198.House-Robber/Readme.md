@@ -8,3 +8,6 @@ rob[k] = norob[k-1];  // 想要打劫第k间房子，必须基于第k-1间房子
 norob[k] = max(rob[k-1],norob[k-1])+nums[k]; // 不打劫第k间房子的最大收益，显然对应了rob[k-1],norob[k-1]之间较大的值。
 ```
 对于初始状态，我们可以直接考虑第0间房子是否打劫及其收益。这样状态转移方程可以从第1间房子开始适用。
+
+
+[Leetcode Link](https://leetcode.com/problems/house-robber)

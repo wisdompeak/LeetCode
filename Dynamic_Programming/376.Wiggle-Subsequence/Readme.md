@@ -31,3 +31,6 @@
 每查看一个数字，尝试更新两个变量p和q。当nums[i]比nums[i-1]大时，意味着q对应的序列之后又出现了一个上升段，说明可以更新p，即p=q+1。当nums[i]比nums[i-1]小时，意味着p对应的序列之后又出现了一个下降段，说明可以更新q，即p=q+1
 
 因为无法确定最长wiggle序列的最后一段是上升还是下降，因此最后的答案是在p和q之间选最大值。
+
+
+[Leetcode Link](https://leetcode.com/problems/wiggle-subsequence)

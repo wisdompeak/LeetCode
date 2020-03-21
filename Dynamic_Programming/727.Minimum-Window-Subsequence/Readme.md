@@ -20,3 +20,6 @@ for (int i=1; i<=N; i++)
 另外可以看出 dp[i][0] (i=1,2,...,N, j=0)也是需要提前设置初始值。显然，长度不为0的T子串不是任何空字串的subsequence，故这些值应该是inf.
 
 最后在所有dp[N][j]中找到第一个最小值k，那么 S.substr(j-k+1,k)就是答案。
+
+
+[Leetcode Link](https://leetcode.com/problems/minimum-window-subsequence)

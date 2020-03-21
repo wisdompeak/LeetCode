@@ -19,3 +19,6 @@
 不断二分尝试这个d，计算为了使得每个老加油站之间的新间距变为d，需要新加入多少新加油站。如果新加油站总数超过了K，说明这个d太小；否则可以继续尝试减小d，
 
 最后知道二分的搜索精度小于1e-6.
+
+
+[Leetcode Link](https://leetcode.com/problems/minimize-max-distance-to-gas-station)

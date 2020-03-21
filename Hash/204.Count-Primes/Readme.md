@@ -13,3 +13,6 @@ for (x=2; x<=sqrt(n); x++)
 然后检查从2到n-1里仍然标记为true的元素数目。    
 
 注意，x的判断范围是从2到sqrt(n)即可，不需要遍历到n。
+
+
+[Leetcode Link](https://leetcode.com/problems/count-primes)

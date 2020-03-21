@@ -35,3 +35,6 @@ set<Interval,cmp>Set;
 #### 方法3
 使用有序的Map，key是左边界，val是右边界。总体思路和方法1差不多，需要完备考虑各种插入的情况。
 
+
+
+[Leetcode Link](https://leetcode.com/problems/data-stream-as-disjoint-intervals)

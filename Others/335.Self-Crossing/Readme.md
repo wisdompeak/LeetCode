@@ -22,3 +22,6 @@ if (x[i]>x[i-2]-x[i-4])
 i++;
 ```
 以上这步操作其实框定了螺旋收缩的范围。需要仔细体会。
+
+
+[Leetcode Link](https://leetcode.com/problems/self-crossing)

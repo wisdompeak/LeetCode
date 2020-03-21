@@ -31,3 +31,6 @@ dp[i][j] = min { dp[i][k-1] + dp[k+1][j] }  for s[k]==s[i]
 初始条件是：
 1. dp[i][j]==1 when i==j，即len的长度为1; 
 2. dp[i][j]==0 when i>j; C语言里如果用int[][]来定义二维数组的话，元素默认值都是0.
+
+
+[Leetcode Link](https://leetcode.com/problems/strange-printer)

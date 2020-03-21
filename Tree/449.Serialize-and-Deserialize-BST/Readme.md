@@ -24,3 +24,6 @@
 ```
 每次DFS都推进一位（curIdx）。如果preorder[curIdx]不合当前上下限的，就不理会，继续往后面的元素找；如果符合当前上下限，那么说明preorder[curIdx]本身就适合当一个根节点，其左右子树必定在之后的元素里，于是推进一位递归调用DFS，只要合理更新上下限即可。
 
+
+
+[Leetcode Link](https://leetcode.com/problems/serialize-and-deserialize-bst)

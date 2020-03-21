@@ -7,3 +7,6 @@
 dp[i] = max{ dp[j-1], Max_element over A[j,..i] * (i-j+1)},   for j=i, i-1, ... , i-K+1
 ```
 另外需要注意一下，j不可能小于0。
+
+
+[Leetcode Link](https://leetcode.com/problems/partition-array-for-maximum-sum)

@@ -19,3 +19,6 @@ for (int i=idx; i<candidates.size(); i++)
 当然有一个特例，如果i选中的就是candidates[idx]，那是可以豁免的。这是因为上一轮我们选中的就是candidates[idx-1]。这样即使```candidates[i]==candidates[i-1]```，其实恰好说明我们就是顺着连续选取地这个元素。
 
 这个处理技巧在DFS的题目中会经常遇到，需要能够熟练掌握。
+
+
+[Leetcode Link](https://leetcode.com/problems/combination-sum-ii)

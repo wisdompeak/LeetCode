@@ -4,3 +4,6 @@
 
 第二部：DFS遍历所有节点，遇到每个节点时，都可以算出它的longest consecutive sequence长度 IS[node]+DS[node]-1，不断更新最终结果。
 
+
+
+[Leetcode Link](https://leetcode.com/problems/binary-tree-longest-consecutive-sequence-ii)

@@ -7,3 +7,6 @@
 另外，遍历底部叶子节点，需要注意仅有根节点的情况，这时不算有叶子节点。
 
 最终结果就是：根 + 左边界（弹出最后一个）+ 所有叶子节点（不包括根）+ 右边界的反序（弹出最后一个）。
+
+
+[Leetcode Link](https://leetcode.com/problems/boundary-of-binary-tree)

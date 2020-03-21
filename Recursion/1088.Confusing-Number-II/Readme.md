@@ -22,3 +22,6 @@
 至于len等于N的长度的情况，我们依然可以采用DFS（也就是递归）的笨办法。最终version 2的时间复杂度能够beat 50%.
 
 当然，还可以有更多的优化，基本思路就是参照902：DFS只贴着N的大小走，如果选取某一位的digit比N对应的那位要小，则摆脱了必须小于N的约束，剩下的digit的组合数目就可以用数学表达式来写。不过感觉有些复杂，我就没有继续深入研究下去。
+
+
+[Leetcode Link](https://leetcode.com/problems/confusing-number-ii)

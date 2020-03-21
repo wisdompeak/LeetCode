@@ -7,3 +7,6 @@
 于是这道题就变得和 962. Maximum Width Ramp 一样了，可以用单调栈的技巧在o(n)时间解决。
 
 事实上，这道题抽象起来就是求：任意数组A里最宽的一对pair(i,j)，使得 A[i]<A[j]（或者A[i]>A[j]），我们可以称之为“farthest greater element”。这和之前常做到的“next greater element”是恰好相反的题意。这两题都是可以用单调性完美地解决的。
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-well-performing-interval)

@@ -9,3 +9,6 @@
 3. 如果```x-arr[left] == arr[left+k]-x```，说明arr[left]和arr[left+k]并列。根据规则，第k个closest只能算一个，所以那个不合格的元素只能给arr[left+k]，因此后续的处理就同2.
 
 因为此题一定有解，所以收敛后的位置就一定是最终理想的k-size滑窗的起始点。
+
+
+[Leetcode Link](https://leetcode.com/problems/find-k-closest-elements)

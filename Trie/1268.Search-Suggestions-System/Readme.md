@@ -9,3 +9,6 @@
 有一种非常取巧的方法，那就是将所有product按照字典排序。然后查找searchWord在里面的位置（用lower_bound定位），得到的就是字典序恰好大于等于searchWord的那个单词。我们查看以这个单词开始的连续三个单词，是否与searchWord共享指定书目的前缀，是的话就相应收入囊中。
 
 这种方法可以不必理会products中是否存在重复。但是第一步排序的过程其实比较耗时，不过题目给出了```1 <= Σ products[i].length <= 2 * 10^4```，这就是暗示了字符串排序的复杂度是可以接受的。
+
+
+[Leetcode Link](https://leetcode.com/problems/search-suggestions-system)

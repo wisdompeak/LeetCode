@@ -10,3 +10,6 @@ for (k=left, k<=right; k++)
   score(left,right) = max(score(left,k-1)+nums[left-1]*nums[k]*nums[right+1]+score(k+1,right));
 ```
 这种关系可以由上往下通过递归实现,也可以由下而上写成动态规划的形式. 单纯递归的话可能会有重复的函数调用,采用记忆化存在dp数组的话就和动态规划完全一样了.
+
+
+[Leetcode Link](https://leetcode.com/problems/burst-balloons)

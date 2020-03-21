@@ -22,3 +22,6 @@ for k = 0,1,2,...,n-1
 dp[target] = n+1+1+(2^(n+1)-1-target)
 ```
 最后dp[target]取上述几种讨论的最小值．
+
+
+[Leetcode Link](https://leetcode.com/problems/race-car)

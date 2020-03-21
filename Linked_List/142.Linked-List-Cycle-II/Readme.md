@@ -11,3 +11,6 @@
 因为慢指针目前已经比整数圈多走了p步，结合这个数学式子，这说明如果慢指针再走m步的话，又会凑成整数圈，即到了环的入口。怎么确定m呢？只要另开一个指针从head开始与慢指针一齐走，它们相遇的地方就是环的入口。
 
 本题的算法还有一个非常巧妙的应用：287. Find the Duplicate Number
+
+
+[Leetcode Link](https://leetcode.com/problems/linked-list-cycle-ii)

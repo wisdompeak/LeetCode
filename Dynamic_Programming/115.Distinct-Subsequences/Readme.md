@@ -13,3 +13,6 @@
 递推关系有了，那么边界条件呢？无非就是```dp[0][j]```和```dp[i][0]```的情况。显然，前者仍算是一种子序列，所以赋值为1，后者赋值为0.
 
 
+
+
+[Leetcode Link](https://leetcode.com/problems/distinct-subsequences)

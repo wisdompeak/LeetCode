@@ -31,3 +31,6 @@
 
 我设置了这个映射所需要保留的两个信息．第一个```PairPos[y][x]```表示出现```s2[y]==s1[x]```这个映射时的```i```，即对应的S1的index；第二个```PairCount[y][x]```表示出现```s2[y]==s1[x]```这个映射时总共计数了多少个s2．于是，当我们发现这个映射第二次出现时，说明这个＂循环片段＂的长度就是```p=i-PairPos[y][x]```，在这个循环长度里出现了```t=count-PairCount[y][x]```个s2．此后，我们对于i的推进，就以＂循环片段＂的长度为p单位，而count的增长也就以t为单位．
 
+
+
+[Leetcode Link](https://leetcode.com/problems/count-the-repetitions)

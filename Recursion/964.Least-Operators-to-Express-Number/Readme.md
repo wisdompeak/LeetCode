@@ -46,3 +46,6 @@ g[i] = min(f[i+1]+(a[i]+1)*s, g[i+1]+abs(a[i]+1-x)*s);
 最终的输出结果是f[0]，因为g[0]还需要后续的操作才能满足target，但是当前已经是最低位了。
 
 这种方法的时间复杂度是log(N)，只需要从高到低one pass每一位的两种选择即可。
+
+
+[Leetcode Link](https://leetcode.com/problems/least-operators-to-express-number)

@@ -11,3 +11,6 @@
 使用multiset容器和相应的迭代器的操作,非常简单明了.不断更新处于正中间或者中间偏左的那个迭代器位置即可.
 
 注意,multiset里有相同的元素加入时,新元素的迭代器位置在旧元素迭代器位置的后面.
+
+
+[Leetcode Link](https://leetcode.com/problems/find-median-from-data-stream)

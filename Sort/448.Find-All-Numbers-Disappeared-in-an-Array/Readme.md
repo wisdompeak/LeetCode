@@ -15,3 +15,6 @@
         }
 ```        
 此题本质上和 442. Find All Duplicates in an Array 一模一样，只不过最终输出的内容是index而不是元素的值。
+
+
+[Leetcode Link](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array)

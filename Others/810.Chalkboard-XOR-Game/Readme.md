@@ -9,3 +9,6 @@
 于是有意思的事情来了．如果n是偶数，Alice有不输的策略；轮到Bob的时候，n就是奇数；如果他侥幸能存活那一轮，再轮到Alice的时候，她面对的依然是n是偶数的情况，又有了不输的策略．这个轮回最多一直持续到Bob只剩下一个数可选，也就必输了．
 
 所以，如果数列的总个数是偶数的话，对于先手（Alice)必赢．反之，Bob面对的总是偶数的情况，他就能必赢．
+
+
+[Leetcode Link](https://leetcode.com/problems/chalkboard-xor-game)

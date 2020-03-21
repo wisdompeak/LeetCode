@@ -9,3 +9,6 @@
 扫完一轮之后，接下来的关键点是：更新senate为s，但count不清零，重复上述的步骤。这是因为上一轮末的count其实反映了队尾存留的R的数目（或者D），他们能可以封禁残存的位于队首的D（或者R）。
 
 最后循环直到新生成的s的长度不再变化，说明此时的s里面全部都是R或者D了。
+
+
+[Leetcode Link](https://leetcode.com/problems/dota2-senate)

@@ -4,3 +4,6 @@
   if (nums[left]+nums[right]<sum)
      count+=right-left;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/3sum-smaller)

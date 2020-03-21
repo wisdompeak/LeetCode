@@ -15,3 +15,6 @@ for (int subset=mask; subset!=0; subset=(subset-1)&mask)
 if (zeroSum(subset)) DFS(mask-subset, groupCount+1);
 ```
 递归的结束条件是mask变成了零，说明了所有的zero-sum subsequence已经遍历完了．
+
+
+[Leetcode Link](https://leetcode.com/problems/optimal-account-balancing)

@@ -11,3 +11,6 @@ if (i>=1 && A[i]==A[i-1] && visited.find(i-1)==visited.end()) continue;
 所以，在本题中为了保证Map[cur]的所有候选元素是顺序的，我们需要预先将A进行排序。
 
 此外，另外一个细节就是如何判断一个数是否是平方数？正确的做法是```if (sqrt(x)==(int)sqrt(x))```
+
+
+[Leetcode Link](https://leetcode.com/problems/number-of-squareful-arrays)

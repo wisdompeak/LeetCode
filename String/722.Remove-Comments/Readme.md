@@ -17,3 +17,6 @@
 4. comment off && 普通字符？将字符加入s
 5. comment on && 普通字符？忽略该字符
 6. 到了行结束，&& comment off：那么就可以将s加入result，清空s
+
+
+[Leetcode Link](https://leetcode.com/problems/remove-comments)

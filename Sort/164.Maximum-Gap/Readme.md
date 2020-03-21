@@ -11,3 +11,6 @@
 由于同一个桶内的元素之间的差值至多为len - 1，因此最终答案不会从同一个桶中选择。
 
 对于每一个非空的桶p，找出下一个非空的桶q，则q.min - p.max可能就是备选答案。返回所有这些可能值中的最大值。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-gap)
