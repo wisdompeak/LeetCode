@@ -24,3 +24,6 @@ for (int i=0; i<nums.size(); i++)
 ```cpp
 result = {nums[i],i+1};
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/set-mismatch)

@@ -38,3 +38,6 @@ swap(nums[left],nums[right])
 
 类似的题目：
  75.Sort-Colors
+
+
+[Leetcode Link](https://leetcode.com/problems/move-zeroes)

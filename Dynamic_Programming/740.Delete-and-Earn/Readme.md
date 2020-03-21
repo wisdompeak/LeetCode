@@ -21,3 +21,6 @@ dp[k] = max(dp[k-2]+gain[k], dp[k-1])
 p'= q + gain[k];
 q'= max(p,q);
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/delete-and-earn)

@@ -13,3 +13,6 @@
 跳出之后根据```(getNextTwo(fast,nums,dir)!=-1 and getNext(slow,nums,dir)!=-1)```判断是否真的loop达成。
 
 如果loop没达成，则让慢指针再跑一遍，从起点到它的dead end一路都标记为0，以后这些元素就不用访问。这额外的一遍访问会增加一倍o(n)的时间，不会改变整体时间的数量级。
+
+
+[Leetcode Link](https://leetcode.com/problems/circular-array-loop)

@@ -15,3 +15,6 @@
 那么如果写这个```smallerOrEqual(x)```呢？这个思路其实和 240. Search a 2D Matrix II 非常相似．对于这种行列都排序的矩阵，我们可以从左下角（其实右上角也可以）出发，遇到```matrix[i][j]<=x```，说明从(i,j)之上的整列都```smallerOrEqual(x)```，于是就可以往右移动一列．　否则的话，我们就往上移动一行．　这样直至我们走出这个矩阵，走过的路径就自动将矩阵划分为了左上和右下两个部分，就是以smallerOrEqual(x)为分界的．
 
 这个性质非常好用，请大家多多练习．（从左下角出发或者从右上角出发）．
+
+
+[Leetcode Link](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix)

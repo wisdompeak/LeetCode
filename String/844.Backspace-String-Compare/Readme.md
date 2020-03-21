@@ -14,3 +14,6 @@ while (count>0 || i>=0 && S[i]=='#')
 }  
 ```
 当快指针停止时，就可以赋值给慢指针，并将两个指针同时减一．
+
+
+[Leetcode Link](https://leetcode.com/problems/backspace-string-compare)

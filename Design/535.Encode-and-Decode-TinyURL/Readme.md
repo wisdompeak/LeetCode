@@ -7,3 +7,6 @@ for (int i=0; i<6; i++)
   shortUrl+=dict[rand()%62];
 ```
 将longUrl和shortUrl的配对放入两个哈希表中，用于查验短链接的生成是否重复、以及解码。
+
+
+[Leetcode Link](https://leetcode.com/problems/encode-and-decode-tinyurl)

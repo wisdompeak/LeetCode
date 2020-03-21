@@ -65,3 +65,6 @@
             result = max(result,x.second);
         return result;
 ```        
+
+
+[Leetcode Link](https://leetcode.com/problems/largest-component-size-by-common-factor)

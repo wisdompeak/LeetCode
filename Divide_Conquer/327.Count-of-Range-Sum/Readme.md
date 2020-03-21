@@ -9,3 +9,6 @@
 对于本题：在每一轮，序列start~end对半分为两部分，左序列区间从start到mid，右序列区间从mid+1到end。两个部分各自递归调用分治排序的函数后，都变得有序。此时，对于左序列的任意nums[i]，都可以轻易在有序的右序列中用lower_bound找到sums[i]+lower和sums[i]+upper的位置（或者亲自写二分查找的代码），这两者之间的元素都是符合要求的，将其数目加入总和中。
 
 本题的另一个训练点就是对C++的STL里lower_bound的考察。如何写自定义比较函数是关键。我们需要在右序列中找到下限的位置，希望找到的位置在原序列中是大于等于sums[i]+lower的，所以自定义函数里要写a<b。另一方面，我们需要在右序列中找到上限的位置，希望找到的位置在原序列中是大于sums[i]+upper的，所以自定义函数里要写a<=b。最终pos2-pos1表示原序列里处于[sums[i]+lower,sums[i]+upper]闭区间的个数。
+
+
+[Leetcode Link](https://leetcode.com/problems/count-of-range-sum)

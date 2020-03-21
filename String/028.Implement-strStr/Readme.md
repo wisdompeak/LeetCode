@@ -41,3 +41,6 @@ for (int i=1; i<m; i++)  // i从1开始，因为必须prefix[0]=-1
 1. 如果这个字符在shift里有记录，那么将needle整体右移相应的位移，这样使得haystack[n]和needle里最后一次出现的字符（这两个字符相同）对齐，再从needle首字符开始逐一判断匹配。
 
 2. 如果这个字符不存在needle里面，则shift里默认给n+1，即将整个needle右移至haystack[n]之后，再从needle首字符开始逐一判断匹配。
+
+
+[Leetcode Link](https://leetcode.com/problems/implement-strstr)

@@ -21,3 +21,6 @@ return MyBest>=sum-MyBest ? 1:2;
 然后，我在本轮的最终决策是上述两只之间的较大值。
 
 此题的递归处理有点绕，保持清晰的思路就能写出简介的代码。
+
+
+[Leetcode Link](https://leetcode.com/problems/stone-game)

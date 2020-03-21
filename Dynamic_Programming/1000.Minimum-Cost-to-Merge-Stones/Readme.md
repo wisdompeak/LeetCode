@@ -32,3 +32,6 @@ return dp[0][N-1][1];
 初始值的设计是考虑len==1时的dp[i][j][k]，这种情况下显然k只能也是1，所以dp[i][i][1] = 0;
 
 另外，在上面的更新dp[i][j][1]时，要考虑所有加项必须是有意义的，比如dp[i][m][1]和dp[m+1][j][k-1]不能是无意义的INF。
+
+
+[Leetcode Link](https://leetcode.com/problems/minimum-cost-to-merge-stones)

@@ -5,3 +5,6 @@
 每次进来一个人，我们线性扫描现有人的位置，查找最大的间隔。另外，头和尾的间隔需要另行考虑。确定最大间隔，就能确定插入的位置，直接用数组的insert命令即可。
 
 在人离开的时候，也是直接用lower_bound确定位置的迭代器，再删除迭代器即可。
+
+
+[Leetcode Link](https://leetcode.com/problems/exam-room)

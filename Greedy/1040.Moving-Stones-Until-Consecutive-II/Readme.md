@@ -63,3 +63,6 @@ for i =0; i<n; i++   // 大框架是遍历窗口的左端的位置
       说明是一般的情况，所以我们只要搬运```n-(这个长度为n的窗口里的石头数)```次，即```n-(j-i)```
 }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/moving-stones-until-consecutive-ii)

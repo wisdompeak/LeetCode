@@ -23,3 +23,6 @@ dp10[i]  =  dp10[i-1]+dp11[i-1]+dp12[i-1]+dp00[i-1]+dp01[i-1]+dp02[i-1] // 前�
 487.Max Consecutive Ones II   
 376.Wiggle Subsequence    
 只不过用两个状态变量就够了.
+
+
+[Leetcode Link](https://leetcode.com/problems/student-attendance-record-ii)

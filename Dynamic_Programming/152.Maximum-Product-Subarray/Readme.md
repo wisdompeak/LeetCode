@@ -6,3 +6,6 @@
             curMin = min(min(preMin*nums[i],preMax*nums[i]),nums[i]);            
 ```
 特别需要注意的是，返回的结果不是最后的curMax,而是遍历每个回合的curMax中的最大值。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-product-subarray)

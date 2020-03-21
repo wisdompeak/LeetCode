@@ -9,3 +9,6 @@
 2. 仅当```curStr.size()==0 || s[i]==curStr.back()```时，不允许“不选用”s[i]，即只可以用第一种方案。Otherwise，允许“不选用”s[i]，即保持当前的curStr。
 
 这个规则的言下之意是，如果最终生成的字符串含有若干个相同的字符，那么这些相同字符在s中的位置也必须是连续的（当然中间允许穿插若干其他的字符）。举个例子，如果s中有四个连续的左括号（忽略中间任何非左括号的字符），最终它们只保留下来两个左括号，那么一定是```XXOO```的形式，而不能是```OOXX,OXOX,OXXO,XOOX,XOXO```这五种形式。这样就避免了六种DFS搜索形式对应同一个最终结果的复杂局面。
+
+
+[Leetcode Link](https://leetcode.com/problems/remove-invalid-parentheses)

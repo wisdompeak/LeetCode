@@ -9,3 +9,6 @@
 我们用Map[k]表示，数组Ａ前缀恰好有k个１的位置，其之后会紧跟着有多少个0．
 
 假设遍历到j位置，累计有count个1，那么我们需要定位到前缀累计有count-S个１的位置，其之后有多少个紧跟着的0，比如说有M个，就说明起点i有多少M+1个方案．这里注意，如果没有紧跟着的0,也算是一种方案．
+
+
+[Leetcode Link](https://leetcode.com/problems/binary-subarrays-with-sum)

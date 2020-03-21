@@ -21,3 +21,6 @@
     inner loop;
     while (nums[a]==nums[a+1]) a++;
  }
+
+
+[Leetcode Link](https://leetcode.com/problems/3sum)

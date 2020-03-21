@@ -21,3 +21,6 @@ for (int j=0; j<s.size(); j++)
   }  
 }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)

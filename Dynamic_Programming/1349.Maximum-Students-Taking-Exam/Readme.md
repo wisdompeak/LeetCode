@@ -5,3 +5,6 @@
 所以我们设计dp[i][s]表示将第i行安排成状态s时，前i行最多能安排多少人。s是一个8bit的整型数字就足以代表每一个行的策略（每个bit表示该位置是否坐人），范围就是[0,255]。对于dp[i][s]，我们只需要遍历所有的dp[i-1][t]（表示第i-1行安排成状态t的策略），查看s本身是否合法，以及策略s能否接在策略t后面。都满足的话，那么dp[i][s]及可以更新为dp[i-1][t]+count(s)，其中count(s)表示第i行安排策略s所对应的该行的人数。
 
 输出的答案是你在生成所有dp[i][s]过程中最大的那个。注意，不一定是dp[M-1][s]中最大的那个。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-students-taking-exam)

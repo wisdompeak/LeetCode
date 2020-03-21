@@ -11,3 +11,6 @@
 ```x^(x&(x-1))```：　表示只保留 the rightmost set bit
 
 ```log2(x^(x&(x-1)))```：　表示the rightmost set bit的位置
+
+
+[Leetcode Link](https://leetcode.com/problems/single-number-iii)

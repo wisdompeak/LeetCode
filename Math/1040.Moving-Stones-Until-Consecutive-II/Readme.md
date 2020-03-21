@@ -27,3 +27,6 @@ max {stones[n-1]-stones[1]+1-(n-1), stones[n-1]-stones[1]+1-(n-1)}
 
 
 
+
+
+[Leetcode Link](https://leetcode.com/problems/moving-stones-until-consecutive-ii)

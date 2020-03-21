@@ -7,3 +7,6 @@
 auto it = lower_bound(heaters.begin(),heaters.end(),pos);
 ```
 特别注意当```it==heaters.begin()```或```it==heaters.end()```时的特例。说明houses[i]在所有heaters的一边，所以只需要计算单边的半径距离。
+
+
+[Leetcode Link](https://leetcode.com/problems/heaters)

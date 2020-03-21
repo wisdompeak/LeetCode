@@ -6,3 +6,6 @@
 
 有了以上两点证明,那么我们就只要找到最大的```i```,使得```s[0:i]==r[len(s)-i:]```即可.
 
+
+
+[Leetcode Link](https://leetcode.com/problems/shortest-palindrome)

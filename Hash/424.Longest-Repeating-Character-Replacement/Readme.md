@@ -15,3 +15,6 @@
 ２．为什么左指针移动只需要一步？
 
 因为我们求最长的窗口，左指针的移动不用太大．事实上，只要移动左指针一步，那么整个窗口还是有机会通过移动右指针找到下一个可能的窗口．参看上面的那个公式．
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-repeating-character-replacement)

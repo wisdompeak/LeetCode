@@ -11,3 +11,6 @@ dp[k][n] = min_i {max(dp[k-1][i-1],dp[k][n-i])+1}  for i =1,2,...,n (+1是因为
 dp[k][m] = dp[k-1][m-1]+dp[k][m-1]+1
 ```
 这个思想是,我们设x=dp[k-1][m-1],那么我们在第x+1层扔一个鸡蛋:如果碎了,我们就用(k-1,m-1)的策略,能测量的楼层仍然是x.如果没碎,我们就能在x+1层之上,用(k,m-1)的策略,再检测x2 = dp[k][m-1]层楼.所以总的来说,高度在x1+1+x2之内的楼层,我们必然都可以通过(k,m)来实现检测.
+
+
+[Leetcode Link](https://leetcode.com/problems/super-egg-drop)

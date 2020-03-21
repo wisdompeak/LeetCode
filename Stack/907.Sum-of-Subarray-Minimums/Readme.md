@@ -7,3 +7,6 @@
 但是需要特别注意的是，如果一个subarray里面有多个相同的最小值，那么这个subarray的最小值到底归属于谁呢？为了避免重复计算，我们需要做额外规定以做区分。比如认为如果有若干个相同的数，则最左边的那个才是最小值。这样的话，类似[3,4,4,3,4,4,3]这样的subarray，只会在考察第一个3的时候被计入，而在考察其他的3的时候不会被计入。
 
 所以本题确切的说，是求每个元素的next smaller element，以及previous smaller or equal element. 另外，特别注意：如果一个数没有next smaller element，那么意味着它的左边界是可以到n；如果一个数没有prev smaller/equal element，那么意味着它的左边界是可以到-1.
+
+
+[Leetcode Link](https://leetcode.com/problems/sum-of-subarray-minimums)

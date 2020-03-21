@@ -12,3 +12,6 @@
 
 #### Follow Up:
 如果用若干个一维数组代替这个N\*N的二维数组，速度会有更大的提升。
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-palindromic-subsequence)

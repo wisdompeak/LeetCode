@@ -7,3 +7,6 @@
 所以，本题转化为求[1,LCM)范围内的第t个魔法数r。而最终的答案就是 p*LCM+r.
 
 怎么求[1,LCM)范围内的第t个魔法数r？简单的枚举就行了，依次检查A和B各自的倍数（即A*i和B*j），选取较小的那个就是next magic number。直至找到第t个为止。
+
+
+[Leetcode Link](https://leetcode.com/problems/nth-magical-number)

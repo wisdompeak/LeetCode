@@ -7,3 +7,6 @@
 任何正负号，只可能出现在合法的数（无论整数或小数）的第一个字符的位置。
 
 可能需要单独判断的corner cases是：只有小数点或空或“e”的字符串都不是合法的数。
+
+
+[Leetcode Link](https://leetcode.com/problems/valid-number)

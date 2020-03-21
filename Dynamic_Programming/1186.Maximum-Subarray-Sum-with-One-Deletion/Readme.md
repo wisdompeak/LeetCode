@@ -15,3 +15,6 @@ dp[i][1] = max(dp[i-1][0], dp[i-1][1] + arr[i]);
 ```
 其中第一条和常规的kadane算法没有差别。第二条是分两种情况讨论，考虑这个被删除的数是否是arr[i]。如果被删的是arr[i]，那么问题就转化为求以元素i-1结尾的常规的最大subarray sum；如果被删的不是arr[i]，那么说明被删的数是存在于对应dp[i-1][1]（即必须删去某个元素）的最大subarray里。
 
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion)

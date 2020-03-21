@@ -14,3 +14,6 @@ for (int i=0; i<N/2; i++)
 
 #### 解法2 
 有一个更容易记忆的方法，分两步走。对于形如 [A,B;D,C]的方针，我们先上下翻转，得到[D,C;A,B]。然后我们对这个方针求转置，得到的是[D',A';C',B']，而这个恰好就是原方阵顺时针旋转90度的结果。
+
+
+[Leetcode Link](https://leetcode.com/problems/rotate-image)

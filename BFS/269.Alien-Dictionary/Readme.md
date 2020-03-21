@@ -18,3 +18,6 @@ while (!q.emtpy())
    }
 }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/alien-dictionary)

@@ -12,3 +12,6 @@ void DFS(vector<int>& nums, int start, vector<int>curRes)
 3. 重复。究竟什么情况会造成重复呢？假设i在遍历过程中先选择了a，加入了队列并以此进行深度搜索，穷尽了之后所有可能的答案；然后回溯到这一轮，i又选择了b，恰好nums[a]==nums[b]，那么以nums[b]为首的所有可能的答案，必然是之前以nums[a]为首的答案的子集，也就是说一定已经被之前探索a进行DFS时穷尽过了，如果再探索b得到的一定都是之前的重复答案。显然，我们应该在这个for循环的轮回里设置一个集合，凡是已经出现过的数字，都不用再基于它进行DFS了。
 
 最后要注意的一个细节就是，不必搜索到nums的结尾再确定一个可行解加入results。只要curRes新增了一个元素，都满足题意，可以立即加入results.
+
+
+[Leetcode Link](https://leetcode.com/problems/increasing-subsequences)

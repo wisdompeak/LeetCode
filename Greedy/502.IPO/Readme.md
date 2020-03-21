@@ -5,3 +5,6 @@
 W更新后，之后再把capital小于当前W的项目入列。以此类推可以得到所需要的K个项目。
 
 需要注意的细节是：如果没有符合条件的K个项目，该什么时候判断退出？（答案是在pq为空的时候）
+
+
+[Leetcode Link](https://leetcode.com/problems/ipo)

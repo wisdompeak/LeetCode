@@ -11,3 +11,6 @@
 因为每个回合都会将count++，所以序号最高的0格子（确切的说是序号最高的key）也会不断下降。所以对于任意抽取的k，要么k是从来没有取走的格子，要么你总能找到Map[k]。
 
 
+
+
+[Leetcode Link](https://leetcode.com/problems/random-flip-matrix)

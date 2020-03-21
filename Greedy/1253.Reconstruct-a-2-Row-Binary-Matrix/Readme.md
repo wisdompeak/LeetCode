@@ -7,3 +7,6 @@
 如果采用了上述的保守的贪心策略，但最终还是遇到了colsum==2且lower为0的情况，那么说明了这个题就没有解，直接返回空就行了。
 
 另外，本题有两个细节要注意。（1）当upper>=lower时，仍要检查upper是否大于0才可以给上一行赋值1. 反之同理。（2）当colsum全部走过一遍之后，仍需要保证此时upper==0 && lower==0 才能说明有解，也就是说初始状态下需要满足sum(colsum)==upper+lower。
+
+
+[Leetcode Link](https://leetcode.com/problems/reconstruct-a-2-row-binary-matrix)

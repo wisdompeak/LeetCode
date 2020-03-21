@@ -9,3 +9,6 @@
 2. Map[s[j]]==0 && count<2，说明s[j]可以被合法收录，故可继续往后遍历j。
 3. Map[s[j]]==0 && count==2，说明i\~j已经包含两种字符了，故需要不断退s[i]直至count<2。注意此时仍要收录s[j]。
 在每种情况下，i~j都是包含两种字符的合法子串，故都要update一下result。
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters)

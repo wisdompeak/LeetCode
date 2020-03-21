@@ -7,3 +7,6 @@
 为了避免重复，保证前指针i跳过重复的元素。
 
 另外注意的一个细节就是，每确定一个指针i，都要重新定位j=i+1.
+
+
+[Leetcode Link](https://leetcode.com/problems/k-diff-pairs-in-an-array)

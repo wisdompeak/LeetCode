@@ -16,3 +16,6 @@
 645.Set Mismatch，
 ```
 也用到了array indexing.
+
+
+[Leetcode Link](https://leetcode.com/problems/first-missing-positive)

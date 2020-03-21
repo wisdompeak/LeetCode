@@ -7,3 +7,6 @@
 接下来，如果遇到非递增的字符，则大致方向就是退栈--处理掉一些栈顶元素，使得新加入的仍能保持递增。但需要注意，如果待退栈处理的字符在后面还有出现的机会，就放心退栈，扔到后面去考虑；如果后面已经没有再出现的机会，则保留这个栈顶元素同时结束退栈。所以需要一个Hash表来实时记录每个字符剩下来还会出现几次，也就是说每遍历一个字符，就把Map[s[i]]--.
 
 本题和1081. Smallest Subsequence of Distinct Characters一模一样。
+
+
+[Leetcode Link](https://leetcode.com/problems/remove-duplicate-letters)

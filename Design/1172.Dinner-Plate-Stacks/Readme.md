@@ -11,3 +11,6 @@
 对于pop()，其实就是```popAtStack(rightNotEmpty)```。
 
 特别注意，rightNotEmpty允许为-1，表示当前所有的盘子都为空。
+
+
+[Leetcode Link](https://leetcode.com/problems/dinner-plate-stacks)

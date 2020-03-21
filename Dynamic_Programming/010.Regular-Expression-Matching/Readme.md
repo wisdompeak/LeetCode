@@ -43,3 +43,6 @@
 3. 当i==1时，dp[i-1][j]的第一个下表未定义。所以我们需要考虑dp[0][j]的情况。这对于p来说只可能是非常特殊的一类字符，即类似"a\*b\*c\*"这类的，并且这里的星号都代表重复零次。其他任何p的表达式都不可能被parse成为一个空字符串。所以我们只要对这一类特殊情况做判断就行。
 
 与此题类似的还有044.Wildcard Matching，其边界条件也很类似，需要特别小心．
+
+
+[Leetcode Link](https://leetcode.com/problems/regular-expression-matching)

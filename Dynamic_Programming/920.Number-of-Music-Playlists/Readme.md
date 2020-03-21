@@ -20,3 +20,6 @@ if (N>j-1)
 那么边界条件是什么呢？其实非常简单，就是dp[1][1]=N. 只有一个播放位置,并且只能放一首歌,自然有N种选择.
 
 回过头来看一看上面的方程,发现确实很巧妙,任何不符合逻辑的dp[i][j]都不会被赋值。
+
+
+[Leetcode Link](https://leetcode.com/problems/number-of-music-playlists)

@@ -9,3 +9,6 @@
 从上可知，我们可以提前做一次整棵树的DFS_find_closest_leaf搜索，记录下所有节点对应的 Dist_to_Leaf[node]，顺带把ClosetLeaf[node]也记录下来，因为结果需要输出的是这个叶子节点的val。然后再过一遍DFS_find_k，对于经过的每一个节点，我们都可以算出如上所述的路径长度。然后再在全局变量中取最小。
 
 注意：慎用INT_MAX，因为在你不知情的情况下很可能会对INT_MAX做了运算，而INT_MAX+1反而成了最小值。
+
+
+[Leetcode Link](https://leetcode.com/problems/closest-leaf-in-a-binary-tree)

@@ -21,3 +21,6 @@
 之前提到，如果计算斜率 k = (y1-y0)/(x1-x0)作为key的话，会因为精度不足而产生错误。
 
 一个巧妙的解决方法是，因为x0,y0,x1,y1都是整数，可以令 a=y1-y0, b=x1-x0, 那么一对tuple值 (a/gcd(a,b), b/gcd(a,b))则可以代表一条直线斜率的特征，成为可以信赖的key放入字典内统计该直线上的点的数目.
+
+
+[Leetcode Link](https://leetcode.com/problems/max-points-on-a-line)

@@ -7,3 +7,6 @@
 如果左节点、当前节点、右节点的数值相等，说明可以形成一个完整的uniValuePath，用Ｌ＋Ｒ＋１来刷新全局的longest变量。
 
 那么考虑DFS(node)自己的返回值是什么呢？显然是１，或Ｌ＋１（如果根与左节点相同），或Ｒ＋１（如果根与右节点相同）
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-univalue-path)

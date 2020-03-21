@@ -19,3 +19,6 @@
 因此```dp[l][r][k]```的最优解就是以上方案中的最大值。
 
 最后的结果是输出```dp[0][N-1][0]```
+
+
+[Leetcode Link](https://leetcode.com/problems/remove-boxes)

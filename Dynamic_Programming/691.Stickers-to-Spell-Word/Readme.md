@@ -7,3 +7,6 @@
 所以，dp的大循环就是 ```for (i=0; i<n; i++)```. 对于该状态i，我们尝试每一个sticker[k]，计算状态i经过sticker[k]的帮助后得到的状态j（注意已经分析过j肯定是大于i的），那么dp[j]就可以得到更新```dp[j]=min(dp[j], dp[i]+1) if dp[j]!=-1```
 
 所有的状态i都遍历过之后，答案的输出就是 dp[N-1]
+
+
+[Leetcode Link](https://leetcode.com/problems/stickers-to-spell-word)

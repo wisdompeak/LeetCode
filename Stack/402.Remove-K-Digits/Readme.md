@@ -8,3 +8,6 @@
 1. 需要一个计数器count来记录退栈的数目。只有当count<k时，才进行退栈操作（即模拟删除）。
 2. 都把所有元素都遍历结束后，如果发现仍然count<k，那么就把Stack末尾的弹出，直至count==k
 3. 需要去除结果里的前导零。
+
+
+[Leetcode Link](https://leetcode.com/problems/remove-k-digits)

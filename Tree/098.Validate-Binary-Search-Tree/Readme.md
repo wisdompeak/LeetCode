@@ -14,3 +14,6 @@ BST的性质就是进行先序遍历的话，必然是第一个递增序列。
 在判断第一个条件时，可以根据这个性质：左子树的最大值应该就是左子树最右下角的节点；右子树的最小值应该就是右子树最左下角的节点。
 
 因此很容易写出递归判断的表达式。
+
+
+[Leetcode Link](https://leetcode.com/problems/validate-binary-search-tree)

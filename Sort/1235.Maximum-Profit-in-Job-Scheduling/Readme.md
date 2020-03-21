@@ -9,3 +9,6 @@
 于是我们的算法就呼之欲出了。对于当前的区间i，我们在dp数组（或者有序的map）里面考察在startTime[i]时刻之前的最大收益val。假设通过二分法我们得到了它，于是我们就有机会添加```dp[endTime[i]] = val+profit[i]```，但这仅当```t+profit[i]```大于当前dp最后一个时刻的存储值时才操作。
 
 有了这样一个在时间和收益上都是递增的序列dp，我们就可以不断追加```dp[endTime[i]]```的记录，来创建更新的时刻的最大收益。
+
+
+[Leetcode Link](https://leetcode.com/problems/maximum-profit-in-job-scheduling)

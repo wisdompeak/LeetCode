@@ -54,3 +54,6 @@
 注意,因为本题不要求动态地查询区间，所以不需要设计getStatus(x,y)。当全部setStatus操作结束之后，用DFS将所有区间都抽取出来就行。
 
 另外，本题中setStatus并不会合并相邻的高度相同的区间，所以通过DFS抽取后的区间集合仍然要在做合并的处理。
+
+
+[Leetcode Link](https://leetcode.com/problems/the-skyline-problem)

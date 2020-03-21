@@ -48,3 +48,6 @@
 我们发现，如果我们能判断出target在左边的单调区间，而nums[mid]在右边的单调区间，那么我们就直接将搜索范围移向左区间就行，方法就是```right=mid-1```。如果我们能判断出target在右边的单调区间，而nums[mid]在左边的单调区间，那么我们就直接将搜索范围移向右区间就行，方法就是```left=mid+1```。这样，常规的二分搜索就能迅速定位target了。
 
 于是本题的关键就是判断nums[mid]和target它们各自在哪个区间？方法非常amazing，就是将它们各自与nums[0]比较大小的结果就行了！
+
+
+[Leetcode Link](https://leetcode.com/problems/search-in-rotated-sorted-array)

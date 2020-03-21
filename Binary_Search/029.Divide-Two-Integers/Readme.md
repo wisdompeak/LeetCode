@@ -23,3 +23,6 @@
 1. 注意可能的负号。提前将被除数和除数取绝对值，符号最后留给商。
 2. 对于整形取绝对值，常设的陷阱就是对于INT_MIN，取反之后就会溢出。为了处理起来简单，把变量统统转换为long long类型。
 3. Overflow的意思就是结果>INT_MAX
+
+
+[Leetcode Link](https://leetcode.com/problems/divide-two-integers)

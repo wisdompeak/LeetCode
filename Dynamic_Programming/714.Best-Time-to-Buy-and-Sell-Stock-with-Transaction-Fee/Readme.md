@@ -13,3 +13,6 @@ hold = max(hold_tmp, sold_tmp-prices[i])      // hold的两种选择：保持原
 2. ```hold = -math.inf```初始状态下怎么可能hold任何股票呢？解决的技巧是将hold设置为最小值，那么下一步无论更新sold还是hold，都不会考虑之前的hold_tmp状态。
 
 类似的题目还有：376.Wiggle-Subsequence，487.Max-Consecutive-Ones-II
+
+
+[Leetcode Link](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee)

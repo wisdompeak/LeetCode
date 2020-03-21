@@ -9,3 +9,6 @@
 因为我们不能肯定最后一座房子会刷什么颜色，所以最后的答案是在```dp[N-1][k](k=0,1,2,...,K-1)```挑选最小值。
 
 此题和```1289. Minimum Falling Path Sum II```本质一模一样。
+
+
+[Leetcode Link](https://leetcode.com/problems/paint-house-ii)

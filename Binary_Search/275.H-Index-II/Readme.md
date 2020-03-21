@@ -15,3 +15,6 @@
 最简洁的方法是：
 
 从后面往前找，每找到一篇，说明有N-i篇论文，其最小的引用数是citations[i]。如果N-i<=citations[i]，说明我们仍然可以有机会增多文章数目（代表了H index），代价是再往前走减小文章引用数。找到满足条件的最小的i，得到最大的N-i，这样答案就是 H = N-i;
+
+
+[Leetcode Link](https://leetcode.com/problems/h-index-ii)

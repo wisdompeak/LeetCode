@@ -13,3 +13,6 @@ P.S. 特别注意,如果题目中说的是\*不能作为空号而只能用作左
 最关键的一点，在遍历结束后，这个范围需要满足什么条件？lower不能大于零。大于零说明必然有至少一个永不可能匹配的括号，需要返回false。如果lower等于0，不管upper如何，都可以返回true。
 
 类似的题有[lintcode 1475.Minimum-Legal-Bracket-Sequence](https://github.com/wisdompeak/LintCode/tree/master/Greedy/1475.Minimum-Legal-Bracket-Sequence)
+
+
+[Leetcode Link](https://leetcode.com/problems/valid-parenthesis-string)

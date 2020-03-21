@@ -9,3 +9,6 @@
 有人会问，那么在左序列中（从nums[start]到nums[mid]），肯定也有一些数小于nums[i]并且位于它右边呀。为什么不考虑呢？其实这部分在之前对于start~mid区间调用分治排序的函数处理过了。请仔细体会。
 
 最后注意，本题需要三个数组，nums, sortedNums, count。原来的数据存在nums, 归并排序后的数组存在sortedNums, count[i]对应的是nums[i]的 number of smaller elements to the right.
+
+
+[Leetcode Link](https://leetcode.com/problems/count-of-smaller-numbers-after-self)

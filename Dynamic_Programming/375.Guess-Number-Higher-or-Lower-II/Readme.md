@@ -24,3 +24,6 @@ for (len = 1; len<=n; len++)
 以上是主体的架构。接下来需要考虑边界条件。从主体架构中可以看出，当len<3的时候，就会出现依赖于dp[i][j], i>j的情况。所以len应该从3开始。
 
 通过简单的考虑可知：i==j时，dp[i][j]值为零。 i==j-1时，dp[i][j]的值应该取i，即较小的那个数。
+
+
+[Leetcode Link](https://leetcode.com/problems/guess-number-higher-or-lower-ii)

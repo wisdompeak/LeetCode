@@ -24,3 +24,6 @@
                 result[i][j]+=A[i][k]*B[k][j];
          }
 ```         
+
+
+[Leetcode Link](https://leetcode.com/problems/sparse-matrix-multiplication)

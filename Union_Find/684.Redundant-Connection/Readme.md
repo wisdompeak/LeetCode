@@ -35,3 +35,6 @@ void Union (int x, int y)
    else 
       Union(x,y);
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/redundant-connection)

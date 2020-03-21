@@ -13,3 +13,6 @@ for (int x: nums)
 需要注意到，这种DP算法的前提是target不能非常大，否则dp数组会很占空间。
 
 另外，对于C++程序可能会遇到个别dp[i]的值非常大，计算的时候会整形溢出而报错。我们可以设计```vector<unsigned int>dp```，这是因为对于无符号的整形，其溢出后的操作是C++定义好的行为，可以避免程序终止。当然，这只是一种hack的技巧，我们使用它是因为题目保证dp[target]一定返回的是整形，我们猜测最终结果不会依赖于这些溢出的dp值。
+
+
+[Leetcode Link](https://leetcode.com/problems/combination-sum-iv)

@@ -22,3 +22,6 @@
 
 1. 如果delta是正号，说明```Min_old = Min_new```，然后推出```x = delta+Min_old```.
 2. 如果delta是负号，说明```x = Min_new```，然后推出```Min_old = x-delta```.
+
+
+[Leetcode Link](https://leetcode.com/problems/min-stack)

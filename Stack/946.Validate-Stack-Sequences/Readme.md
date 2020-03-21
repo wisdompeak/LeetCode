@@ -15,3 +15,6 @@
 根据我们上述的算法，当查看到pushed里面的B时，发现恰好与poped中的E相同，根据规则需要将B和E进行相消。但实际上的操作里面，D与E才是相消关系。所以这种算法合理吗？
 
 答案是合理的。因为尽管我们将B和E进行了错误的对消，但是必然存在D和I也可以在后续得到对消。不信我们试一试，此时栈操作的顺序（根据我们的算法理解）变相成了 +A +B -E +C +D +F -G -H -I -J，尽管提前做了出栈的操作-E，但总的pushed = ABCDF, poped = EGHIJ 依然不变。就是这么神奇。
+
+
+[Leetcode Link](https://leetcode.com/problems/validate-stack-sequences)

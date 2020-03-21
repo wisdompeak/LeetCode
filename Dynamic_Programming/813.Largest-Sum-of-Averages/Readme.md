@@ -17,3 +17,6 @@ for (k=2; k<K; k++)
   }
 ```
 边界条件不难看出是k==1时的情况,即需要计算所有的dp[i][1],也就是累加和.
+
+
+[Leetcode Link](https://leetcode.com/problems/largest-sum-of-averages)

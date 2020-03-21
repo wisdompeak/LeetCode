@@ -21,3 +21,6 @@ PS:对于求Kth smallest的题目，用binary search by value的方法往往能�
 81	Search in Rotated Sorted Array II
 4	Median of Two Sorted Arrays
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/find-k-th-smallest-pair-distance)

@@ -10,3 +10,6 @@
 
 在本题里，最优点坐标的X可以直接判定是所有persons横坐标的中位数，Y就是所有persons纵坐标的中位数。知道了（X，Y）就可以直接计算所有人到该点的曼哈顿距离。
 
+
+
+[Leetcode Link](https://leetcode.com/problems/best-meeting-point)

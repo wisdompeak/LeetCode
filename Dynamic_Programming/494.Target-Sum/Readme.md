@@ -12,3 +12,6 @@ for i = 0 to N-1
    }
 ```
 唯一需要考虑的问题是，s可能是负数，而s作为数组的index不能为负。解决方法就是给s加上一个SUM的偏移，将```[-SUM,SUM]```的区间平移至```[0,SUM*2]```作为DP数组的第二个维度的index
+
+
+[Leetcode Link](https://leetcode.com/problems/target-sum)

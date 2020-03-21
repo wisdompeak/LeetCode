@@ -25,3 +25,6 @@ dp[i][j] =   dp[i-1][j-1]                   (if word1[i]==word2[j])
 最后的结果就是 ```dp[m][n]```
 
 需要注意设置边界条件```dp[0][j]```和```dp[i][0]```.
+
+
+[Leetcode Link](https://leetcode.com/problems/delete-operation-for-two-strings)

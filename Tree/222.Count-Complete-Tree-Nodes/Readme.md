@@ -13,3 +13,6 @@
 如何判断是否一棵满二叉树呢？只要递归计算它的左深度和有深度，查看两者是否相等就行了。
 
 这个总算法复杂度是logN\*logN。可以这么考虑：每次计算满二叉树的高度需要o(logN)，不停二分递归处理非满二叉树又需要o(logN)次。
+
+
+[Leetcode Link](https://leetcode.com/problems/count-complete-tree-nodes)

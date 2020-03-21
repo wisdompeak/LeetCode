@@ -25,3 +25,6 @@ unordered_map<int,vector<pair<int,int>>>Tweets; // 记录每个用户发推的gl
             }
         }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/design-twitter)

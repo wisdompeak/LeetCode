@@ -21,3 +21,6 @@
 2. 尽可能地合并元素，使得任何子区段的和都不超过k，并在遍历的过程中记录这些子区段的数目，超过m的话就说明不可行。
 
 此题和 ```1011. Capacity To Ship Packages Within D Days``` 几乎一模一样。
+
+
+[Leetcode Link](https://leetcode.com/problems/split-array-largest-sum)

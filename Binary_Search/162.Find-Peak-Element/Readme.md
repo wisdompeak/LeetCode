@@ -12,3 +12,6 @@
             else  // 要么右侧方向增大，要么mid本身就是极大点
                 left = mid+1;
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/find-peak-element)

@@ -18,3 +18,6 @@
 
 这样，我们就可以顺序地探索往P[i]，并找到其中的最大值maxLen，和对应的i的索引maxCenter。注意P的构建是基于t的，那么如何返回基于s的那个回文串呢？其实很巧妙，输出的就是:
 ```s.substr((maxCenter-maxLen/2),maxLen)```
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-palindromic-substring)

@@ -9,3 +9,6 @@
 注意，遍历完之后，最后剩下的两个容器里有可能都是答案，需要单独验证。
 
 显然，本题可以扩展到定义大于 N/4, N/5 ... 的majority element。只要设置更多的容器即可。
+
+
+[Leetcode Link](https://leetcode.com/problems/majority-element-ii)

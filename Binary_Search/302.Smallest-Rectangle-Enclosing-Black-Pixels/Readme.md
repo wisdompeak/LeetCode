@@ -38,3 +38,6 @@
 整个时间复杂度 o(4*N*logN)
 
 对比：宽度遍历完整的1矩阵，o(N*N)
+
+
+[Leetcode Link](https://leetcode.com/problems/smallest-rectangle-enclosing-black-pixels)

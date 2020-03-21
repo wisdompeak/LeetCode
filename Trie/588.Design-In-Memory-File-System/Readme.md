@@ -12,3 +12,6 @@ class TrieNode
 };
 ```
 这样的话，从上到下的转移可以通过```node = node->Map[str]```来实现。
+
+
+[Leetcode Link](https://leetcode.com/problems/design-in-memory-file-system)

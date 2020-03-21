@@ -9,3 +9,6 @@
 需要注意的细节：
 1. 有些offer是不合算的，可以提前从special里排除掉；
 2. 对于一个needs的需求，如果没有任何offer可以适用，则可以直接根据price计算出这个状态的策略。
+
+
+[Leetcode Link](https://leetcode.com/problems/shopping-offers)

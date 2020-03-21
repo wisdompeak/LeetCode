@@ -13,3 +13,6 @@ visited是标记每个数字是否被访问过.因为是整体就是深度搜索
 另外，一个常用的节省时间的技巧是将nums按照从大到小排序，这样能更容易遇到不合条件的情况，及早剪枝，避免过深的探索。
 
 LC上有一道几乎一模一样的题目：698. Partition to K Equal Sum Subsets
+
+
+[Leetcode Link](https://leetcode.com/problems/matchsticks-to-square)

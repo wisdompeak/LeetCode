@@ -24,3 +24,6 @@ solution 2: 在内存开辟新的节点
   }
 ```
 这样就不需要手工在q结尾赋值NULL，因为新开辟的节点已经自动给next赋值NULL。
+
+
+[Leetcode Link](https://leetcode.com/problems/partition-list)

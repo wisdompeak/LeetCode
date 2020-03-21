@@ -18,3 +18,6 @@ a定义了数组A的首元素位置，m定义了数组A的长度。类似数组B
 程序写起来更容易。
 
 Update: 因为priority_queue默认是大顶堆，优先出列大数，所以可以从两个顺序数组从后往前遍历，从高往低取第K个元素。
+
+
+[Leetcode Link](https://leetcode.com/problems/median-of-two-sorted-arrays)

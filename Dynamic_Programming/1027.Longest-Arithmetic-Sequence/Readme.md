@@ -7,3 +7,6 @@
 特别注意，如果dp[j][diff]==0，说明nums[j]之前并没有任何元素与nums[j]构成公差为diff的数列，所以这种情况下dp[i][diff]就应该是2（即nums[i],nums[j]组成一个等差数列）而不是1.
 
 本题可以有一个follow up：如果给出的数组是一个集合而不是给定顺序的数组，那么答案会是多少？这样的解法就完全不同了。可以参见 https://github.com/wisdompeak/LintCode/tree/master/Two_Pointers/1488.Longest-Sequence
+
+
+[Leetcode Link](https://leetcode.com/problems/longest-arithmetic-sequence)

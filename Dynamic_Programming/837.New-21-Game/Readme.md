@@ -31,3 +31,6 @@ f(x) = f(x-1)/W + f(x-2)/W +...+ f(x-W)/W
 x-1<K
 x-W-1>=0
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/new-21-game)

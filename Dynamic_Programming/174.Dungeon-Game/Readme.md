@@ -13,3 +13,6 @@ dp[i][j] = min( dp[i][j+1]-dungeon[i][j+1], dp[i+1][j]-dungeon[i+1][j] );
 dp[i][j] = max(dp[i][j], 1); 
 ```
 从这个动态转移方程的表达式可以看出，这是个从右下角往左上角计算的过程。初始状态是```dp[m-1][n-1]=1```。最终得到的```d[0][0]```的意义是：survive from ```(0,0)```之后需要存留多少血才能走到终点。因此我们还需要再额外处理一次(0,0)位置的损血代价。
+
+
+[Leetcode Link](https://leetcode.com/problems/dungeon-game)

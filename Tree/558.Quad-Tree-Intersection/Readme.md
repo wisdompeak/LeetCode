@@ -7,3 +7,6 @@
 四分树恰恰有这么一个特殊的性质，那就是如果A->isLeaf的话，那么就隐含着意味着A相当于有着val和它自身相同的四个分支！所以，我们可以用DFS(A,B->left)这种形式继续递归下去，递归的底层是直到遇到两个参数都是isLeaf为止。
 
 本题还有需要注意的一点是，上述的例子中，假设C=DFS(A,B)，我们把已经是leaf的A“隐式地”添加了四个分支，以方便和B继续递归下去。如果这四个分支反馈的val都是相同的，那么根据四分树的定义C是不能有分支的，所以我们需要check这四个子递归的结果，如果这四个分支都是相同的val，那么我们需要标记C为isLeaf即没有分支。
+
+
+[Leetcode Link](https://leetcode.com/problems/quad-tree-intersection)

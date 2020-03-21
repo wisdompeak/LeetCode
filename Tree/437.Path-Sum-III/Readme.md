@@ -25,3 +25,6 @@
 注意,这个DFS需要回溯.即向下递归时需要想Hash表中添加```Map[curSum]+=1```,而向上返回时需要删除这个记录即```Map[curSum]-=1```
 
 此外,需要注意的边界条件是:在最初始需要设置```Map[0]=1```,即什么都不拿的话也算target==1的一种方法.上述的DFS依赖于这个边界条件.
+
+
+[Leetcode Link](https://leetcode.com/problems/path-sum-iii)

@@ -12,3 +12,6 @@
 3. 如果[a,b]没有覆盖S，那么S就要加上什么呢，是[a,b]的最后两个点即可，同理也是用贪心的策略。
 
 综上，我们其实只要每次关注集合S里的最靠右边的两个点即可，不断与下一个interval考察相对关系，更新S。
+
+
+[Leetcode Link](https://leetcode.com/problems/set-intersection-size-at-least-two)

@@ -11,3 +11,6 @@
 此题和378. Kth Smallest Element in a Sorted Matrix非常相似。
 
 用binary search的方法先确定按从小到大顺序第k个元素是多少，令它为x。然后打印出matrix里面所有小于等于x的元素。注意，这样的元素可能会超过k个，也可能会小于k个。最终只要输出k个。
+
+
+[Leetcode Link](https://leetcode.com/problems/find-k-pairs-with-smallest-sums)

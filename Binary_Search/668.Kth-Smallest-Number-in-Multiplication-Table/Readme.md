@@ -11,3 +11,6 @@
 但注意有一个问题需要考虑，最终左右指针相遇得到这个数x一定会是出现在乘法表里的吗？表面上看不出来，但答案是肯定的。这是因为满足“乘法表里小于等于x的元素个数不少于k的”，这样的x可能会有很多，但最小的那个一定是出现在乘法表里的。
 
 PS: 本题本质上和 ```378. Kth Smallest Element in a Sorted Matrix```一模一样。
+
+
+[Leetcode Link](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table)

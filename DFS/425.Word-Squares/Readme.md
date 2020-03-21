@@ -10,3 +10,6 @@ for (int i=0; i<k; i++)
 注意，我们这里每次递归只填充行．列没有必要填充，因为行确定了，相应的列就确定了．所有的已知信息可以从行里面读取．
 
 有了prefix，再结合之前的映射库，我们可以找到所有的候选word用于填充第k行．填好之后就可以递归调用build(k+1)了．非常简明．
+
+
+[Leetcode Link](https://leetcode.com/problems/word-squares)

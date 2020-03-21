@@ -45,3 +45,6 @@ AC的解法是构建一个集合，遍历字符串数组的过程中，将每个
             Set.insert(t);
         }
 ```
+
+
+[Leetcode Link](https://leetcode.com/problems/palindrome-pairs)
