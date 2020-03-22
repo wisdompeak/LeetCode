@@ -16,7 +16,7 @@ max( helper(0, n-2, n/3), helper(1,n-1,n/3) )
 f[t][i]: the maximum gain by the t-th round if we take i slices, AND for the t-th slice we do take it.
 g[t][i]: the maximum gain by the t-th round if we take i slices, AND for the t-th slice we do NOT take it.
 ```
-显然我们容易对照house robber系列写出状态转移方程：
+显然我们容易对照House Robber系列写出状态转移方程：
 ```
 f[t][i] = g[t-1][i-1]+slices[t];
 g[t][i] = max(f[t-1][i], g[t-1][i]);
