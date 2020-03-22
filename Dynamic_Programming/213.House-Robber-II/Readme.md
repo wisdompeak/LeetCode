@@ -19,51 +19,6 @@
 当然，我们也可以用区间型的二维dp来实现上面的算法。
 
 #### Follow-up
-记忆化搜索虽然看上去不如第一种解法精妙，但是写法灵活，可以处理更多的问题。比如说有一个变种题：有一个数组表示一个环。如果你取了某个数，那么其两边的数会自动隐去。问这样操作直至所有的数都取完，最多能打劫多少钱？
-
-此题和LC213相同的地方是，无论如何都不可能取到两个相邻的元素。不同的地方是多了一个条件：无论如何都不能取超过n/3个元素。所以此题的本质是：取任意n/3个互不相邻的数，求最大的和。
-
-当然，我们需要验证一下，是不是任意的n/3个互不相邻的元素集合，都可以按照题目中的取数规则来实现。事实上是可以的。例如```1000101010000```，有13个元素。其中1代表我们打算取的数。我们永远先取较为外层的数（随之删去左右相邻的两个零）：原序列可以得到```0010101000```，接下来```0101000```，接下来```1000```，最后```0```.
-
-可见这道题和House Robber II本质上一模一样。记忆化搜索的参考代码如下：
-```cpp
-class Solution {
-    map<vector<int>,int>Map;
-public:
-    int rob(vector<int>& nums) 
-    {
-        if (nums.size()==0) return 0;
-        int n = nums.size();
-        return max(nums[0]+DFS(2,n-2,n/3-1,nums), DFS(1,n-1,n/3,nums));
-    }
-    
-    int DFS(int i, int j, int k, vector<int>&nums)
-    {
-        if (k==0)
-            return 0;
-        
-        if (j-i+1<k*2-1) return INT_MIN;
-        
-        if (Map.find({i,j,k})!=Map.end())
-            return Map[{i,j,k}];
-            
-        if (k==1)
-        {
-            int mx = -1;
-            for (int t=i; t<=j; t++)
-                mx = max(mx, nums[t]);
-            Map[{i,j,k}] = mx;
-            return mx;            
-        }            
-        
-        int ret = max(nums[i]+DFS(i+2,j,k-1,nums), DFS(i+1,j,k,nums));
-        
-        Map[{i,j,k}] = ret;
-        
-        return ret;
-    }
-};
-```
-
+此题有一个更难一点的follow up，参见```1388.Pizza-With-3n-Slices```.
 
 [Leetcode Link](https://leetcode.com/problems/house-robber-ii)
