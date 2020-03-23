@@ -490,6 +490,7 @@
 [647.Palindromic-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/String/647.Palindromic-Substrings) (M+)   
 [556.Next Greater Element III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (H-)   
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
+[1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 616.Add-Bold-Tag-in-String (M)    
 [467.Unique-Substrings-in-Wraparound-String](https://github.com/wisdompeak/LeetCode/tree/master/String/467.Unique-Substrings-in-Wraparound-String) (H-)   
 [564.Find-the-Closest-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/String/564.Find-the-Closest-Palindrome) (H)   
