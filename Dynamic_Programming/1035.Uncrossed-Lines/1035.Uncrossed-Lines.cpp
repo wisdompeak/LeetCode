@@ -8,6 +8,7 @@ public:
         A.insert(A.begin(),0);
         B.insert(B.begin(),0);
         
+        dp[0][0] = 0;
         for (int i=1; i<=m; i++)
             for (int j=1; j<=n; j++)
             {
