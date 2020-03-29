@@ -27,7 +27,7 @@ public:
                 i--;
                 j--;
             }
-            else if (dp[i-1][j] < dp[i][j])
+            else if (dp[i][j] == dp[i-1][j])
             {
                 ret.push_back(str2[j]);
                 j--;
