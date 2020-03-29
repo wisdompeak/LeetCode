@@ -29,13 +29,13 @@ public:
             }
             else if (dp[i][j] == dp[i-1][j])
             {
-                ret.push_back(str2[j]);
-                j--;
+                ret.push_back(str1[i]);
+                i--;
             }
             else
             {
-                ret.push_back(str1[i]);
-                i--;
+                ret.push_back(str2[j]);
+                j--;
             }
         }
         
@@ -53,4 +53,3 @@ public:
         return ret;
     }
 };
-
