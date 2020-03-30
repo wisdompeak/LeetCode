@@ -2,30 +2,22 @@ class Solution {
 public:
     int minInsertions(string s) 
     {
-        int m = s.size();
-        s = "#"+s;
-        auto dp = vector<vector<int>>(m+2,vector<int>(m+2,0));
+        int m = s.size();        
+        auto dp = vector<vector<int>>(m,vector<int>(m,0));
 
-        dp[0][m+1] = 0;
-        for (int j=1; j<=m; j++)
-            dp[0][j] = m+1-j;
-        for (int i=1; i<=m; i++)
-            dp[i][m+1] = i;
+        for (int i=0; i<m; i++)
+            dp[i][i] = 0;
 
-        for (int i=1; i<=m; i++)
-            for (int j=m; j>=i+1; j--)
+        for (int len = 2; len <=m; len++)
+            for (int i=0; i+len-1<m; i++)
             {
+                int j = i+len-1;
                 if (s[i]==s[j])
-                    dp[i][j] = dp[i-1][j+1];
+                    dp[i][j] = dp[i+1][j-1];
                 else
-                    dp[i][j] = min(dp[i][j+1]+1, dp[i-1][j]+1);
+                    dp[i][j] = min(dp[i][j-1]+1, dp[i+1][j]+1);
             }
-        int ret = INT_MAX;
-        for (int i=1; i<=m; i++)        
-            ret = min(ret, dp[i-1][i+1]);
-        for (int i=1; i<m; i++)        
-            ret = min(ret, dp[i][i+1]);
+        return dp[0][m-1];
         
-        return ret;
     }
 };
