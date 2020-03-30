@@ -19,11 +19,10 @@ public:
             for (int j=1; j<=n; j++)
             {
                 if (s[i]==t[j])
-                    dp[i][j] = dp[i-1][j-1];
+                    dp[i][j] = dp[i-1][j-1]+1;
                 else
-                    dp[i][j] = min(min(dp[i-1][j]+1, dp[i][j-1]+1), dp[i-1][j-1]+2);
-                //cout<<i<<" "<<j<<" "<<dp[i][j]<<endl;
+                    dp[i][j] = min(dp[i-1][j]+1, dp[i][j-1]+1);
             }
-        return dp[n][n]/2;
+        return dp[n][n] - n;
     }
 };
