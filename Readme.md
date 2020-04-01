@@ -435,6 +435,7 @@
 [1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers) (H)    
 * ``区间型 I``   
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
+[644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
 [813.Largest-Sum-of-Averages](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/813.Largest-Sum-of-Averages) (H-)   
 [1278.Palindrome-Partitioning-III](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1278.Palindrome-Partitioning-III) (H)   
 1335.Minimum-Difficulty-of-a-Job-Schedule (TBD)   
@@ -442,7 +443,6 @@
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)   
 [375.Guess-Number-Higher-or-Lower-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/375.Guess-Number-Higher-or-Lower-II) (H)   
 [516.Longest-Palindromic-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/516.Longest-Palindromic-Subsequence) (H-)   
-[644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 [730.Count-Different-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/730.Count-Different-Palindromic-Subsequences) (H)  
 [1043.Partition-Array-for-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1043.Partition-Array-for-Maximum-Sum)(M+)    
