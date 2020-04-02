@@ -14,7 +14,6 @@ public:
                 int mx = jobDifficulty[i];
                 for (int j=i; j>=k; j--)
                 {
-                    if (j-1<k-1) continue;
                     mx = max(mx, jobDifficulty[j]);
                     dp[i][k] = min(dp[i][k], dp[j-1][k-1]+mx);
                 }
