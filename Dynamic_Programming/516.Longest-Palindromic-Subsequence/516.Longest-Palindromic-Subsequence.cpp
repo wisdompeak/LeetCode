@@ -3,17 +3,23 @@ public:
     int longestPalindromeSubseq(string s) 
     {
         int N = s.size();
-        auto dp = vector<vector<int>>(N,vector<int>(N,0));        
+        s = "#" + s;
+        auto dp = vector<vector<int>>(N+1,vector<int>(N+1,0));
         
         for (int len=1; len<=N; len++)
-            for (int i=0; i<=N-len; i++)
+            for (int i=1; i+len-1<=N; i++)
             {
-                int j = i+len-1;
                 if (len==1)
-                    dp[i][j] = 1;
+                {
+                    dp[i][i] = 1;
+                    continue;
+                }
+                int j = i+len-1;
+                if (s[i]==s[j])
+                    dp[i][j] = dp[i+1][j-1]+2;
                 else
-                    dp[i][j] = (s[i]==s[j])? dp[i+1][j-1]+2:max(dp[i][j-1],dp[i+1][j]);
+                    dp[i][j] = max(dp[i][j-1], dp[i+1][j]);
             }
-        return dp[0][N-1];
+        return dp[1][N];
     }
 };
