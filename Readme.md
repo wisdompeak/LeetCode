@@ -436,7 +436,6 @@
 [1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1320.Minimum-Distance-to-Type-a-Word-Using-Two-Fingers) (H)    
 * ``区间型 I``   
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
-[644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
 [813.Largest-Sum-of-Averages](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/813.Largest-Sum-of-Averages) (H-)   
 [1278.Palindrome-Partitioning-III](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1278.Palindrome-Partitioning-III) (H)   
 [1335.Minimum-Difficulty-of-a-Job-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1335.Minimum-Difficulty-of-a-Job-Schedule) (M+)   
