@@ -444,7 +444,7 @@
 [516.Longest-Palindromic-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/516.Longest-Palindromic-Subsequence) (H-)   
 [664.Strange-Printer](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/664.Strange-Printer) (H)   
 [730.Count-Different-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/730.Count-Different-Palindromic-Subsequences) (H)  
-1000.Minimum-Cost-to-Merge-Stones (H)   
+[1000.Minimum-Cost-to-Merge-Stones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1000.Minimum-Cost-to-Merge-Stones) (H)   
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
 [1246.Palindrome-Removal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1246.Palindrome-Removal) (H)   
 * ``双序列型``   
