@@ -10,20 +10,16 @@ F(1,n) = min( x + max(F(1,x-1),F(x+1,n)) )  for x=1,2,...,n
 
 dp[i][j]表示对于i~j的区间进行猜数游戏所需要的最小代价。最终的结果就是返回dp[1][n]。从递归关系来看，我们应该先从小的区间片段开始填充，不断得到较大的、更大的区间片段，直至得到dp[1][n]。所以这个多层的for循环架构，最外层的应该是控制区间的长度len。
 ```cpp
-for (len = 1; len<=n; len++)
-{
-    for (start = 1; start<=n-len+1; start++)
-    {
-        int cost = INT_MAX;
-        for (x = start+1; x<start+len-1; x++)
-           cost = min( x+ max(dp[start,x-1],dp[x+1,start+len-1]));
-        dp[start][start+len-1] = cost;
-    }
-}
+          for (int len=2; len<=n; len++)        
+            for (int i=1; i+len-1<=n; i++)
+            {
+                int j = i+len-1;
+                dp[i][j] = INT_MAX/2;
+                                
+                for (int k=i; k<=j; k++)                                   
+                    dp[i][j] = min(dp[i][j] , k + max(dp[i][k-1], dp[k+1][j]));                
+            }     
 ```
-以上是主体的架构。接下来需要考虑边界条件。从主体架构中可以看出，当len<3的时候，就会出现依赖于dp[i][j], i>j的情况。所以len应该从3开始。
-
-通过简单的考虑可知：i==j时，dp[i][j]值为零。 i==j-1时，dp[i][j]的值应该取i，即较小的那个数。
-
+以上是主体的架构。接下来需要考虑边界条件。边界条件主要是两个：一个是i==j的时候，即len==1，此时注意dp[i][j]=0（只有一个候选，不用猜就知道答案）。另外就是i>j，观察状态转移方程，应该使dp[i][j]不影响结果，可以设置为0.
 
 [Leetcode Link](https://leetcode.com/problems/guess-number-higher-or-lower-ii)
