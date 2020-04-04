@@ -384,7 +384,6 @@
 [940.Distinct-Subsequences-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/940.Distinct-Subsequences-II) (H)    
 [983.Minimum-Cost-For-Tickets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/983.Minimum-Cost-For-Tickets) (H-)    
 1027.Longest-Arithmetic-Sequence (M+)   
-1049.Last-Stone-Weight-II (H-)    
 514.Freedom-Trail (TBD)    
 546.Remove-Boxes (H+)   
 1187. Make Array Strictly Increasing (TBD)    
@@ -428,6 +427,7 @@
 [805.Split-Array-With-Same-Average](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/805.Split-Array-With-Same-Average) (H)   
 [879.Profitable-Schemes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/879.Profitable-Schemes) (M+)    
 [956.Tallest-Billboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/956.Tallest-Billboard) (H)  
+1049.Last-Stone-Weight-II (H-)    
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
