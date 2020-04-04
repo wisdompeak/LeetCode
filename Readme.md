@@ -380,7 +380,6 @@
 [132.Palindrome-Partitioning-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/132.Palindrome-Partitioning-II) (H-)    
 [837.New-21-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/837.New-21-Game) (H-)    
 [887.Super-Egg-Drop](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/887.Super-Egg-Drop) (H)   
-[903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [920.Number-of-Music-Playlists](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/920.Number-of-Music-Playlists) (H)   
 [940.Distinct-Subsequences-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/940.Distinct-Subsequences-II) (H)    
 [983.Minimum-Cost-For-Tickets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/983.Minimum-Cost-For-Tickets) (H-)    
@@ -406,6 +405,7 @@
 [714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee) (M+)    
 [740.Delete-and-Earn](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/740.Delete-and-Earn) (H-)   
 [552.Student-Attendance-Record-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/552.Student-Attendance-Record-II) (H)    
+[903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [1186.Maximum-Subarray-Sum-with-One-Deletion](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1186.Maximum-Subarray-Sum-with-One-Deletion) (H-)    
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
