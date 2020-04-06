@@ -572,6 +572,7 @@
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
 * ``Min-Max Strategy``    
 1140.Stone-Game-II     
+1406.Stone-Game-III (TBD)    
 
 #### Graph
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
