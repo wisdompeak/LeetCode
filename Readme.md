@@ -512,6 +512,7 @@
 * ``KMP``   
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
+459.Repeated-Substring-Pattern (TBD)    
 1392.Longest-Happy-Prefix (TBD)   
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
