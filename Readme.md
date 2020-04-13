@@ -507,12 +507,12 @@
 722.Remove-Comments (H)   
 [736.Parse-Lisp-Expression](https://github.com/wisdompeak/LeetCode/tree/master/String/736.Parse-Lisp-Expression) (H-)   
 844.Backspace-String-Compare (M+)   
+* ``Rolling Hash``    
+1062.Longest-Repeating-Substring (TBD)       
 * ``KMP``   
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 1392.Longest-Happy-Prefix (TBD)   
-* ``Rolling Hash``   
-1062. Longest Repeating Substring
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Sort/041.First-Missing-Positive/Readme.md) (H)    
