@@ -381,7 +381,6 @@
 [656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H-)    
-801.Minimum-Swaps-To-Make-Sequences-Increasing (TBD)    
 [818.Race-Car](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/818.Race-Car) (H)    
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
 [132.Palindrome-Partitioning-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/132.Palindrome-Partitioning-II) (H-)    
@@ -411,6 +410,7 @@
 [714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee) (M+)    
 [740.Delete-and-Earn](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/740.Delete-and-Earn) (H-)   
 [552.Student-Attendance-Record-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/552.Student-Attendance-Record-II) (H)    
+[801.Minimum-Swaps-To-Make-Sequences-Increasing](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/801.Minimum-Swaps-To-Make-Sequences-Increasing) (M)    
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [1186.Maximum-Subarray-Sum-with-One-Deletion](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1186.Maximum-Subarray-Sum-with-One-Deletion) (H-)    
 * ``基本型 II``   
