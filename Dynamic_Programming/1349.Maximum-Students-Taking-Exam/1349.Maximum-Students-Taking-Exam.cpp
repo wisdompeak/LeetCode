@@ -1,89 +1,94 @@
 class Solution {
-    int M,N;
-    int ret;
-    set<int>visited;
+    int M,N,T;
 public:
     int maxStudents(vector<vector<char>>& seats) 
     {
         M = seats.size();
         N = seats[0].size();
-        
-        ret = 0;
-        
-        int T = (1<<N);
-        
-        vector<int>dp(T,-1);
-        for (int s=0; s<T; s++)
+        T = (1<<N);
+        vector<int>dp(T,0); 
+        // dp[i]: until the current row, how many students at most we can host 
+        // given the current row follows pattern "i"
+      
+        for (int p=0; p<T; p++)
         {
-            if (checkOK(seats,0,s,0))
-                dp[s] = count(s);
+            if (selfOK(p, seats, 0))
+                dp[p] = count(p);
         }
-        
+  
         for (int row = 1; row < M; row++)
         {
-            vector<int>dp2(T,-1);
-            
-            for (int s=0; s<T; s++)
-                for (int t=0; t<T; t++)
+            auto dp2 = dp;
+            for (int cur = 0; cur < T; cur++)
+            {
+                dp[cur] = 0;
+                if (!selfOK(cur, seats, row)) continue;
+                for (int prev = 0; prev < T; prev++)
                 {
-                    if (dp[t]==-1) continue;
-                    if (checkOK(seats,row,s,t))
-                    {
-                        dp2[s] = max(dp2[s], dp[t]+count(s));
-                        ret = max(ret, dp2[s]);
-                    }
-                        
+                    if (row==2 && cur==18 && prev==0) cout<<crossOK(cur,prev)<<" "<<dp2[prev]<<endl;
+                    if (!selfOK(prev, seats, row-1)) continue;
+                    if (!crossOK(cur, prev)) continue;
+                    dp[cur] = max(dp[cur], count(cur) + dp2[prev]);
                 }
-            dp = dp2;            
+            }
         }
-                
+        
+        int ret = 0;
+        for (int p = 0; p < T; p++)
+        {
+            if (!selfOK(p, seats, M-1)) continue;
+            ret = max(ret, dp[p]);
+        }
         return ret;
     }
     
-    bool checkOK(vector<vector<char>>& seats, int row, int s, int t)
+    bool selfOK(int p, vector<vector<char>>& seats, int row)
     {
-        vector<int>arr1(N,0);
-        vector<int>arr2(N,0);
+        vector<int>temp;
         for (int i=0; i<N; i++)
         {
-            arr1[N-1-i] = ((s>>i)&1);
-            arr2[N-1-i] = ((t>>i)&1);
+            temp.push_back(p%2);
+            p/=2;
         }
-        
         for (int i=0; i<N; i++)
         {
-            if (arr1[i]==1 && seats[row][i]=='#')
+            if (seats[row][i]=='#' && temp[i]==1)
+                return false;
+            if (i>=1 && temp[i]==1 && temp[i-1]==1)
                 return false;
         }
-        for (int i=1; i<N; i++)
-        {
-            if (arr1[i]==1 && arr1[i-1]==1)
-                return false;
-        }
-        
-        if (row==0) return true;
-        
-        for (int i=0; i<N; i++)
-        {
-            if (arr1[i]!=1) continue;
-            if (i-1>=0 && arr2[i-1]==1)
-                return false;
-            if (i+1<N && arr2[i+1]==1)
-                return false;
-        }
-        return true;
+        return true;     
     }
     
-    int count(int s)
+    bool crossOK(int cur, int prev)
     {
-        int cnt = 0;
+        vector<int>p1, p2;
         for (int i=0; i<N; i++)
         {
-            if (s%2==1)
-                cnt++;
-            s=s/2;
+            p1.push_back(cur%2);
+            p2.push_back(prev%2);
+            cur/=2;
+            prev/=2;
         }
-        return cnt;
+        for (int i=0; i<N; i++)
+        {
+            if (p1[i]==0) continue;
+            if (i-1>=0 && p2[i-1]==1) return false;
+            if (i+1<N && p2[i+1]==1) return false;  
+        }
+        return true;     
+    }
+    
+    int count(int p)
+    {        
+        int ret=0;
+        while (p>0)
+        {
+            ret+=(p%2);
+            p=p/2;
+        }
+        return ret;
     }
     
 };
+
