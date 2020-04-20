@@ -472,7 +472,7 @@
 943.Find-the-Shortest-Superstring (H+)    
 1125.Smallest-Sufficient-Team (TBD)   
 [1349.Maximum-Students-Taking-Exam](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1349.Maximum-Students-Taking-Exam) (H)   
-1411.Number-of-Ways-to-Paint-N×3-Grid (M)   
+[1411.Number-of-Ways-to-Paint-N×3-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1411.Number-of-Ways-to-Paint-N%C3%973-Grid) (M)   
 * ``卡特兰数``   
 1039.Minimum-Score-Triangulation-of-Polygon (H)   
 1259.Handshakes-That-Don't-Cross (TBD)   
