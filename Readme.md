@@ -394,6 +394,7 @@
 546.Remove-Boxes (H+)   
 1187. Make Array Strictly Increasing (TBD)    
 1223.Dice-Roll-Simulation (TBD)   
+1259.Handshakes-That-Don't-Cross (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
 1316.Distinct-Echo-Substrings (TBD)   
 1344.Jump-Game-V (TBD)  
@@ -413,6 +414,7 @@
 [801.Minimum-Swaps-To-Make-Sequences-Increasing](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/801.Minimum-Swaps-To-Make-Sequences-Increasing) (M)    
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [1186.Maximum-Subarray-Sum-with-One-Deletion](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1186.Maximum-Subarray-Sum-with-One-Deletion) (H-)    
+1419.Minimum-Number-of-Frogs-Croaking (TBD)     
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
@@ -454,6 +456,7 @@
 [1000.Minimum-Cost-to-Merge-Stones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1000.Minimum-Cost-to-Merge-Stones) (H)   
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
 [1246.Palindrome-Removal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1246.Palindrome-Removal) (H)   
+[1039.Minimum-Score-Triangulation-of-Polygon](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1039.Minimum-Score-Triangulation-of-Polygon) (H)   
 * ``双序列型``   
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [097.Interleaving-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/097.Interleaving-String) (H-)    
@@ -473,9 +476,6 @@
 [1125.Smallest-Sufficient-Team](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1125.Smallest-Sufficient-Team) (H)   
 [1349.Maximum-Students-Taking-Exam](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1349.Maximum-Students-Taking-Exam) (H)   
 [1411.Number-of-Ways-to-Paint-N×3-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1411.Number-of-Ways-to-Paint-N%C3%973-Grid) (M)   
-* ``卡特兰数``   
-1039.Minimum-Score-Triangulation-of-Polygon (H)   
-1259.Handshakes-That-Don't-Cross (TBD)   
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
