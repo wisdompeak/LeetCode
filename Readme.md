@@ -397,6 +397,7 @@
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
 1316.Distinct-Echo-Substrings (TBD)   
 1344.Jump-Game-V (TBD)  
+[1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons) (H-)    
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
