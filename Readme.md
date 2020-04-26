@@ -260,7 +260,6 @@
 [126.Word-Ladder-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/126.Word-Ladder-II) (M+)    
 [130.Surrounded-Regions](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/130.Surrounded-Regions) (H-)   
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)  
-269.Alien-Dictionary (H)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H-)      
 [778.Swim-in-Rising-Water](https://github.com/wisdompeak/LeetCode/tree/master/BFS/778.Swim-in-Rising-Water) (H-)    
 [529.Minesweeper](https://github.com/wisdompeak/LeetCode/tree/master/BFS/529.Minesweeper) (M+)    
@@ -281,6 +280,7 @@
 1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
 * ``拓扑排序``   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
+269.Alien-Dictionary (H)    
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)    
 802.Find-Eventual-Safe-States (TBD)   
 1136.Parallel-Courses (TBD)   
