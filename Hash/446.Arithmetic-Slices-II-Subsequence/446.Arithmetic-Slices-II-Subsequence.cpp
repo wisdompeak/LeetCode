@@ -13,7 +13,7 @@ public:
                 long diff = (long)A[i]-(long)A[j];
                 count += dp[j][diff];
                 
-                if (dp[j][diff]!=0)
+                if (dp[j].find(diff)!=dp[j].end())
                     dp[i][diff] += dp[j][diff]+1;                                    
                 else
                     dp[i][diff] += 1;
