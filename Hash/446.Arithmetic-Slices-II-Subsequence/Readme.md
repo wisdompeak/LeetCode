@@ -22,8 +22,8 @@ for (int i=0; i<N; i++)
       diff = A[i]-A[j];
       count += dp[j][diff]; // 构建了以j,i为倒数两位，且公差为diff的新等差数列(保证长度>=3)
       
-      if (dp[j].find(diff)!=dp[j].end())
-        dp[i][diff] += 1;
+      if (dp[j].find(diff)==dp[j].end())
+        dp[i][diff] = 1;
       else
         dp[i][diff] += dp[j][diff]+1;  // 更新以i为结尾，且公差为diff的等差数列(长度>=2)的个数。
   }
