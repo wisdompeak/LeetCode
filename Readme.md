@@ -392,7 +392,6 @@
 [1027.Longest-Arithmetic-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1027.Longest-Arithmetic-Sequence) (M+)   
 514.Freedom-Trail (TBD)    
 546.Remove-Boxes (H+)   
-1187. Make Array Strictly Increasing (TBD)    
 1223.Dice-Roll-Simulation (TBD)   
 1259.Handshakes-That-Don't-Cross (TBD)   
 1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps (M+)   
