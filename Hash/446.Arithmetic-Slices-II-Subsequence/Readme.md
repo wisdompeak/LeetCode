@@ -21,9 +21,9 @@ for (int i=0; i<N; i++)
       count += dp[j][diff]; // 构建了以j,i为倒数两位，且公差为diff的新等差数列(长度>=3)
       
       if (dp[j][diff]==0)
-        dp[i][diff] = 1;
+        dp[i][diff] += 1;
       else
-        dp[i][diff] += dp[j][diff];  // 更新以i为结尾，且公差为diff的等差数列(长度>=2)的个数。
+        dp[i][diff] += dp[j][diff]+1;  // 更新以i为结尾，且公差为diff的等差数列(长度>=2)的个数。
   }
 return count;  
 ```
