@@ -392,7 +392,6 @@
 [1027.Longest-Arithmetic-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1027.Longest-Arithmetic-Sequence) (M+)   
 514.Freedom-Trail (TBD)    
 546.Remove-Boxes (H+)   
-1223.Dice-Roll-Simulation (TBD)   
 1259.Handshakes-That-Don't-Cross (TBD)   
 [1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps) (M+)   
 1316.Distinct-Echo-Substrings (TBD)   
@@ -415,6 +414,7 @@
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [1186.Maximum-Subarray-Sum-with-One-Deletion](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1186.Maximum-Subarray-Sum-with-One-Deletion) (H-)    
 [1187.Make-Array-Strictly-Increasing](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1187.Make-Array-Strictly-Increasing) (H-)    
+[1223.Dice-Roll-Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1223.Dice-Roll-Simulation) (H-)   
 1419.Minimum-Number-of-Frogs-Croaking (TBD)     
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
