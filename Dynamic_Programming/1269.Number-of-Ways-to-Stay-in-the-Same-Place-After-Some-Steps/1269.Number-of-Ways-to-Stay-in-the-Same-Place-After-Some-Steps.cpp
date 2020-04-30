@@ -2,22 +2,24 @@ class Solution {
 public:
     int numWays(int steps, int arrLen) 
     {
-        arrLen = min(steps, arrLen);
-        int M = 1e9+7;
-        auto dp = vector<vector<int>>(steps+1, vector<int>(arrLen,0));
+        int n = arrLen;
+        auto dp = vector<vector<long>>(steps+1, vector<long>(steps/2+2,0));        
         dp[0][0] = 1;
-        
-        for (int i=1; i<=steps; i++)
-        {
-            for (int j=0; j<arrLen; j++)
+        long M = 1e9+7;
+
+        for (int k=1; k<=steps; k++)
+        {            
+            for (int i=0; i<steps/2+1; i++)
             {
-                dp[i][j] = dp[i-1][j];
-                if (j>0) dp[i][j]=(dp[i][j]+dp[i-1][j-1])%M;
-                if (j<arrLen-1) dp[i][j]=(dp[i][j]+dp[i-1][j+1])%M;                
+                if (i==0)
+                    dp[k][i] = (dp[k-1][i+1]+dp[k-1][i])%M;
+                else if (i==n-1)
+                    dp[k][i] = (dp[k-1][i-1]+dp[k-1][i])%M;
+                else
+                    dp[k][i] = (dp[k-1][i-1]+dp[k-1][i+1]+dp[k-1][i])%M;
             }
         }
-        
+
         return dp[steps][0];
-        
     }
 };
