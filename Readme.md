@@ -106,6 +106,7 @@
 [975.Odd-Even-Jump](https://github.com/wisdompeak/LeetCode/tree/master/Heap/975.Odd-Even-Jump) (H-)    
 1340.Jump-Game-V (TBD)    
 1348.Tweet-Counts-Per-Frequency (H-)    
+1425. Constrained Subsequence Sum (TBD)   
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
