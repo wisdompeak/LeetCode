@@ -107,6 +107,7 @@
 1340.Jump-Game-V (TBD)    
 1348.Tweet-Counts-Per-Frequency (H-)    
 1425. Constrained Subsequence Sum (TBD)   
+1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows (TBD)    
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [270.Closest-Binary-Search-Tree-Value](https://github.com/wisdompeak/LeetCode/tree/master/Tree/270.Closest-Binary-Search-Tree-Value) (M+)        
