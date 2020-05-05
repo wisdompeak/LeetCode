@@ -10,11 +10,9 @@ public:
         
         vector<long>dp(1<<n, 0);
         dp[0] = 1;
-        for (int p: Map[1])
-            dp[1<<p] = 1;
         long M = 1e9+7;
         
-        for (int i=2; i<=40; i++)
+        for (int i=1; i<=40; i++)
         {
             auto dp2=dp;
             
