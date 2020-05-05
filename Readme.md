@@ -104,7 +104,6 @@
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 [729.My-Calendar-I](https://github.com/wisdompeak/LeetCode/tree/master/Heap/729.My-Calendar-I) (M)    
 [975.Odd-Even-Jump](https://github.com/wisdompeak/LeetCode/tree/master/Heap/975.Odd-Even-Jump) (H-)    
-1340.Jump-Game-V (TBD)    
 1348.Tweet-Counts-Per-Frequency (H-)    
 1425. Constrained Subsequence Sum (TBD)   
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (TBD)    
