@@ -3,34 +3,33 @@ public:
     int numberWays(vector<vector<int>>& hats) 
     {
         int n = hats.size();
-        unordered_map<int,vector<int>>Map;
-        for (int i=0; i<hats.size(); i++)
-            for (int j=0; j<hats[i].size(); j++)
-                Map[hats[i][j]].push_back(i);
-        
         vector<long>dp(1<<n, 0);
-        dp[0] = 1;
         long M = 1e9+7;
         
-        for (int i=1; i<=40; i++)
+        unordered_map<int, vector<int>>PersonsForThisHat;
+        for (int i=0; i<hats.size(); i++)
+            for (int j=0; j<hats[i].size(); j++)
+                PersonsForThisHat[hats[i][j]].push_back(i);
+        
+        dp[0] = 1;
+                
+        for (int hat =1; hat <=40; hat++)
         {
-            auto dp2=dp;
-            
-            for (int set = 0; set<(1<<n); set++)
+            auto dp_new = dp; // dp_new = 000000000
+            for (int state = 0; state<(1<<n); state++)
             {
-                for (int p: Map[i])
+                for (int person: PersonsForThisHat[hat])
                 {
-                    if (((set>>p)&1)==0)
-                    {
-                        dp2[set+(1<<p)] += dp[set];
-                        dp2[set+(1<<p)]%=M;
-                    }
-                }
-            }
+                    if (((state>>person)&1)==1)
+                        continue;
+                    dp_new[state+(1<<person)] += dp[state];
+                    dp_new[state+(1<<person)] %= M;
+                } 
+            }   
             
-            dp = dp2;
+            dp = dp_new;
         }
         
-        return dp[(1<<n)-1];                
+        return dp[(1<<n)-1];
     }
 };
