@@ -397,7 +397,7 @@
 1259.Handshakes-That-Don't-Cross (TBD)   
 [1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps) (M+)   
 [1316.Distinct-Echo-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1316.Distinct-Echo-Substrings) (M+)   
-1344.Jump-Game-V (TBD)  
+[1340.Jump-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1340.Jump-Game-V) (M+)  
 [1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons) (H-)    
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
