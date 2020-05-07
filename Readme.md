@@ -390,7 +390,6 @@
 [887.Super-Egg-Drop](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/887.Super-Egg-Drop) (H)   
 [920.Number-of-Music-Playlists](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/920.Number-of-Music-Playlists) (H)   
 [940.Distinct-Subsequences-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/940.Distinct-Subsequences-II) (H)    
-[983.Minimum-Cost-For-Tickets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/983.Minimum-Cost-For-Tickets) (H-)    
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H-)    
 [1027.Longest-Arithmetic-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1027.Longest-Arithmetic-Sequence) (M+)   
 [1259.Handshakes-That-Don't-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1259.Handshakes-That-Don't-Cross) (M+)   
@@ -422,6 +421,7 @@
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [673.Number-of-Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/673.Number-of-Longest-Increasing-Subsequence) (M+)    
+[983.Minimum-Cost-For-Tickets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/983.Minimum-Cost-For-Tickets) (H-)    
 [1043.Partition-Array-for-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1043.Partition-Array-for-Maximum-Sum)(M+)    
 [1105.Filling-Bookcase-Shelves](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1105.Filling-Bookcase-Shelves) (H-)    
 * ``走迷宫型``   
