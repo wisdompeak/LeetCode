@@ -3,40 +3,21 @@ public:
     int mincostTickets(vector<int>& days, vector<int>& costs) 
     {
         vector<int>dp(400,INT_MAX);
-        vector<int>day(400,0);
-        for (auto a:days) day[a]=1;
-        
-        int start = 1;
-        while (start<=365 && day[start]==0)
-            start++;
-        if (start>365) return 0;
-        
-        dp[start] = 0;
-        
-        for (int i=start; i<=365; i++)
+        unordered_set<int>Set(days.begin(), days.end());
+        dp[0] = 0;
+        for (int i=1; i<=365; i++)
         {
-            if (dp[i]==INT_MAX) continue;            
-            int next;
-            
-            next = i+1;
-            while (next<=365 && day[next]==0)
-                next++;
-            dp[next] = min(dp[next], dp[i]+costs[0]);
-            
-            next = i+7;
-            while (next<=365 && day[next]==0)
-                next++;
-            dp[next] = min(dp[next], dp[i]+costs[1]);
-            
-            next = i+30;
-            while (next<=365 && day[next]==0)
-                next++;
-            dp[next] = min(dp[next], dp[i]+costs[2]);
+            if (Set.find(i)==Set.end())
+            {
+                dp[i] = dp[i-1];
+                continue;
+            }
+            int a = dp[max(0,i-1)]+costs[0];
+            int b = dp[max(0,i-7)]+costs[1];
+            int c = dp[max(0,i-30)]+costs[2];
+            dp[i] = min(a, min(b,c));
         }
-        
-        int result = INT_MAX;
-        for (int i=366; i<=366+30; i++)
-            result = min(result,dp[i]);
-        return result;
+
+        return dp[365];        
     }
 };
