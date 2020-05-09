@@ -105,7 +105,6 @@
 [729.My-Calendar-I](https://github.com/wisdompeak/LeetCode/tree/master/Heap/729.My-Calendar-I) (M)    
 [975.Odd-Even-Jump](https://github.com/wisdompeak/LeetCode/tree/master/Heap/975.Odd-Even-Jump) (H-)    
 1348.Tweet-Counts-Per-Frequency (H-)    
-1425. Constrained Subsequence Sum (TBD)   
 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit (TBD)    
 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows (TBD)    
 
@@ -214,6 +213,10 @@
 772.Basic-Calculator-III (H-)   
 [1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
 [1106.Parsing-A-Boolean-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1106.Parsing-A-Boolean-Expression) (H-)    
+
+#### [Deque](https://github.com/wisdompeak/LeetCode/tree/master/Deque)
+[862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
+1425. Constrained Subsequence Sum (TBD)   
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
@@ -335,7 +338,6 @@
 [739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures) (M+)   
 826.Most-Profit-Assigning-Work (M)    
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers) (H)    
-[862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
 [881.Boats-to-Save-People](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/881.Boats-to-Save-People) (H-)   
 [910.Smallest-Range-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/910.Smallest-Range-II) (M+)   
