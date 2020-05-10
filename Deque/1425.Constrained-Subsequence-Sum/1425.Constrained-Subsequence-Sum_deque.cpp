@@ -14,7 +14,7 @@ public:
             int cur = nums[i];
             if (q.size()>0) cur = max(cur, nums[i]+q.front().second);
             ret = max(ret, cur);
-            while (q.size()>0 && cur>q.back().second)
+            while (q.size()>0 && cur>=q.back().second)
                 q.pop_back();
             q.push_back({i,cur});
         }
