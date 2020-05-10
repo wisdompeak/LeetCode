@@ -2,31 +2,25 @@ class Solution {
 public:
     int longestSubarray(vector<int>& nums, int limit) 
     {
-        multiset<int>Set;
+        multiset<int>Set({nums[0]});
         int j = 0;
         int ret = 0;        
         
         for (int i=0; i<nums.size(); i++)
         {            
-            while (j<nums.size() && (Set.size()==0 || *Set.rbegin()-*Set.begin()<=limit))
+            while (*Set.rbegin()-*Set.begin()<=limit)
             {
-                Set.insert(nums[j]);
+                ret = max(ret, j-i+1);
                 j++;
+                if (j>=nums.size()) break;
+                Set.insert(nums[j]);
             }
+
+            if (j>=nums.size()) break;
             
-            if (*Set.rbegin()-*Set.begin()>limit) 
-            {
-                j--;
-                Set.erase(Set.find(nums[j]));
-            }
-
-            ret = max(ret, (int)Set.size());
-                                    
-            if (i>=0) Set.erase(Set.find(nums[i]));     
-
+            Set.erase(Set.find(nums[i]));     
         }
         
         return ret;
-        
     }
 };
