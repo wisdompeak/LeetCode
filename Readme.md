@@ -215,8 +215,8 @@
 [1106.Parsing-A-Boolean-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1106.Parsing-A-Boolean-Expression) (H-)    
 
 #### [Deque](https://github.com/wisdompeak/LeetCode/tree/master/Deque)
-[239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/239.Sliding-Window-Maximum) (H)    
-[862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
+[239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/239.Sliding-Window-Maximum) (H)    
+[862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Deque/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
 [1425.Constrained-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1425.Constrained-Subsequence-Sum) (H)   
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
@@ -399,6 +399,7 @@
 [1316.Distinct-Echo-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1316.Distinct-Echo-Substrings) (M+)   
 [1340.Jump-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1340.Jump-Game-V) (M+)  
 [1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons) (H-)    
+1444. Number of Ways of Cutting a Pizza (TBD)   
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
