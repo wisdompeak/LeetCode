@@ -9,8 +9,10 @@ public:
             while (q.size()>0 && nums[q.back()]<nums[i])
                 q.pop_back();
             q.push_back(i);
-            if (q.front()==i-k)
+
+            if (q.front()<=i-k)
                 q.pop_front();
+
             if (i>=k-1)
                 results.push_back(nums[q.front()]);
         }
