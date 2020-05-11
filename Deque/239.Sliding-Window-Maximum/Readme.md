@@ -7,8 +7,10 @@
 
 可以想见，我们需要的数据结构就是一个双端队列dequeu。每次加入新数nums[i]，但从后端弹出一些，以使得里面保持一个递减的序列。每次的队首元素就是当前k窗口的最大值，直到这个队首元素对应的index超出了k窗口的范围才被弹出。
 
+这种解法的时间复杂度是O(N)。
+
 #### 解法2
-可以直接使用multiset，能够实时有序，并且允许多个相同元素的存在。这个代码比较好写，但时间复杂度是 o(NlogN)
+可以直接使用multiset，能够实时有序，并且允许多个相同元素的存在。这个代码比较好写，但时间复杂度是 o(NlogK)
 
 
 [Leetcode Link](https://leetcode.com/problems/sliding-window-maximum)
