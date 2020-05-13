@@ -31,7 +31,7 @@ public:
             result+=Stack.top();
             Stack.pop();
         }
-        while (result.back()=='0')
+        while (result.size()>0 && result.back()=='0')
             result.pop_back();
                 
         reverse(result.begin(),result.end());
