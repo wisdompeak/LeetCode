@@ -1,36 +1,28 @@
 class Solution {
 public:
     bool backspaceCompare(string S, string T) 
-    {        
-        int i = squeeze(S);        
-        int j = squeeze(T);
-        
-        return S.substr(i)==T.substr(j);
-    }
-    
-    int squeeze(string& S)
     {
-        int i = S.size()-1;
-        int j = S.size()-1;
-        int count = 0;
-        
-        while (i>=0)
+        int i = convert(S);
+        int j = convert(T);
+        return S.substr(0,i)==T.substr(0,j);
+    }
+
+    int convert(string& str)
+    {
+        int i=0;
+        for (int j=0; j<str.size(); j++)
         {
-            while (count>0 || i>=0 && S[i]=='#')
+            if (str[j]!='#')
             {
-                if (S[i]=='#')
-                    count++;
-                else
-                    count--;
-                i--;
+                str[i] = str[j];
+                i++;
             }
-            if (i>=0)
+            else
             {
-                S[j] = S[i];
-                j--;
-                i--;
-            }            
+                i = max(0, i-1);
+            }                
         }
-        return j+1;
+        return i;
+        
     }
 };
