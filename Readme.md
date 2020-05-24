@@ -198,6 +198,7 @@
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 [1209.Remove-All-Adjacent-Duplicates-in-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1209.Remove-All-Adjacent-Duplicates-in-String-II) (M+)   
 * ``monotonic stack``    
+[042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
 [085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H-)    
 [402.Remove-K-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Stack/402.Remove-K-Digits) (H-)    
@@ -668,7 +669,6 @@
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
-[042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (M+)  
 [048.Rotate-Image](https://github.com/wisdompeak/LeetCode/tree/master/Others/048.Rotate-Image) (M+)    
 [065.Valid-Number](https://github.com/wisdompeak/LeetCode/tree/master/Others/065.Valid-Number) (H-)   
 158.Read-N-Characters-Given-Read4-II-Call-multiple-times　(H)    
