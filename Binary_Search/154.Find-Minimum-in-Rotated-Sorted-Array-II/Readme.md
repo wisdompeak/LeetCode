@@ -1,7 +1,7 @@
 ### 154.Find-Minimum-in-Rotated-Sorted-Array-II
 
 #### 解法1:
-解题思路：和153. Find Minimum in Rotated Sorted Array 一样，需要以nums[left]为基准， 分别比较nums[mid]和nums[right]，以判断三者所在的区间（左区间还是有区间）。
+解题思路：和153. Find Minimum in Rotated Sorted Array 一样，需要以nums[left]为基准， 分别比较nums[mid]和nums[right]，以判断三者所在的区间（左区间还是右区间，也就是交换前的小区间或者大区间）。
 
 此题的特别之处是，当出现x==nums[left]时，无法定位x所在的区间是左还是右。解决技巧是：
 ```cpp
