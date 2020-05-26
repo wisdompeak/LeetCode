@@ -212,8 +212,8 @@
 [1019.Next-Greater-Node-In-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1019.Next-Greater-Node-In-Linked-List) (M)    
 * ``parse expression``    
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
-227.Basic-Calculator-II (TBD)   
-772.Basic-Calculator-III (H-)   
+[227.Basic-Calculator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/227.Basic-Calculator-II) (H-)   
+[772.Basic-Calculator-III](https://github.com/wisdompeak/LeetCode/tree/master/Stack/772.Basic-Calculator-III) (H)   
 [385.Mini-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/385.Mini-Parser) (H)   
 [439.Ternary-Expression-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/439.Ternary-Expression-Parser) (H-)    
 [591.Tag-Validator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/591.Tag-Validator/) (H)    
