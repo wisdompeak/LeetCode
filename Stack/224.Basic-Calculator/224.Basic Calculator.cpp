@@ -2,53 +2,50 @@ class Solution {
 public:
     int calculate(string s) 
     {
-        string S = "+";        
-        
-        for (auto ch : s)
+        string S = "+";
+        for (auto ch:s)
         {
             if (ch==' ') continue;
-            S.push_back(ch);
+            S+=ch;
             if (ch=='(')
-                S.push_back('+');
+                S+="+";            
         }
         s = S;
-        // cout<<s<<endl;
-        
+
         stack<int>nums;
         stack<int>signs;
-        int sum = 0;
-        int sign = 0;
-        
+        int sum = 0, sign;
+
         for (int i=0; i<s.size(); i++)
         {
-            char ch = s[i];
-            if (ch=='+' || ch=='-')
+            if (s[i]=='+'||s[i]=='-')
             {
-                sign = ch=='+'? 1:-1;
+                sign = s[i]=='+'?1:-1;
             }
-            else if (isdigit(ch))
+            else if (isdigit(s[i]))
             {
-                int i0 = i;
-                while (i<s.size() && isdigit(s[i]))
-                    i++;
-                int num = stoi(s.substr(i0,i-i0));
-                sum += sign*num;
-                i--;
+                int j = i;
+                while (j<s.size() && isdigit(s[j]))
+                    j++;
+                int num = stoi(s.substr(i,j-i));
+                i = j-1;
+                sum += num*sign;
             }
-            else if (ch=='(')
+            else if (s[i]=='(')
             {
                 nums.push(sum);
                 signs.push(sign);
                 sum = 0;
             }
-            else if (ch==')')
-            {
-                sum = signs.top()*sum;
-                signs.pop();
-                sum = nums.top() + sum;
+            else if (s[i]==')')
+            {                
+                sum = nums.top() + signs.top() * sum;
                 nums.pop();
+                signs.pop();
             }
         }
-        return sum;        
+        return sum;
+        
+
     }
 };
