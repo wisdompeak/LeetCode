@@ -192,7 +192,6 @@
 [636.Exclusive-Time-of-Functions](https://github.com/wisdompeak/LeetCode/tree/master/Stack/636.Exclusive-Time-of-Functions) (H-)    
 [856.Score-of-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/856.Score-of-Parentheses) (M+)    
 [946.Validate-Stack-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Stack/946.Validate-Stack-Sequences)（H-）   
-[962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1124.Longest-Well-Performing-Interval](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1124.Longest-Well-Performing-Interval) (H)   
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 [1209.Remove-All-Adjacent-Duplicates-in-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1209.Remove-All-Adjacent-Duplicates-in-String-II) (M+)   
@@ -209,6 +208,7 @@
 [768.Max-Chunks-To-Make-Sorted-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/768.Max-Chunks-To-Make-Sorted-II) (H-)   
 [901.Online-Stock-Span](https://github.com/wisdompeak/LeetCode/tree/master/Stack/901.Online-Stock-Span) (H-)   
 [907.Sum-of-Subarray-Minimums](https://github.com/wisdompeak/LeetCode/tree/master/Stack/907.Sum-of-Subarray-Minimums) (H)   
+[962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1019.Next-Greater-Node-In-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1019.Next-Greater-Node-In-Linked-List) (M)    
 * ``parse expression``    
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
