@@ -14,7 +14,7 @@ public:
 
         vector<int>nums;
 
-        for (int i=0; i<S.size(); i++)
+        for (int i=0; i<s.size(); i++)
         {
             if (s[i]=='+' || s[i]=='-')
             {
