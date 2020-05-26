@@ -1,92 +1,73 @@
 class Solution {
 public:
-    int readNext(string s, int& i)
-    {
-        int i0=i;
-        if (s[i]=='+' || s[i]=='-')
-            i++;        
-        while (i<s.size() && isdigit(s[i]))
-            i++;
-        int res = stol(s.substr(i0,i-i0));
-        i--;
-        return res;
-    }
-    
-    int calculateClip(string ss)
-    {        
-        vector<int>q;        
-        for (int i=0; i<ss.size(); i++)
-        {
-            if (ss[i]=='+' || ss[i]=='-')
-            {                
-                q.push_back(readNext(ss,i));
-                i--;
-            }
-            else if (ss[i]=='*')
-            {
-                i++;
-                int num = readNext(ss,i);
-                q.back()*=num;
-                i--;
-            }
-            else if (ss[i]=='/')
-            {
-                i++;
-                int num = readNext(ss,i);
-                q.back()/=num;
-                i--;
-            }
-        }
-        int sum = 0;
-        for (int i=0; i<q.size(); i++)
-            sum+=q[i];
-        return sum;
-    }
-    
     int calculate(string s) 
     {
-        string S="+";
+        stack<string>Stack;
+        string curStr;
         for (int i=0; i<s.size(); i++)
         {
-            if (s[i]!=' ') 
-                S+=s[i];
             if (s[i]=='(')
-                S+='+';
-        }            
-        //cout<<S<<endl;        
-        
-        stack<string>Stack;
-        string temp;
-        for (int i=0; i<S.size(); i++)
-        {
-            if (S[i]=='(')
             {
-                Stack.push(temp);
-                temp.clear();                
+                Stack.push(curStr);
+                curStr = "";
             }
-            else if (S[i]==')')
-            {
-                int num = calculateClip(temp);
-                string ss = to_string(num);
-                string tt = Stack.top();
-                Stack.pop();
-                if (tt.size()>0 && tt.back()=='+' && ss[0]=='-')
-                {
-                    tt.pop_back();
-                    temp = tt+ss;
-                }
-                else if (tt.size()>0 && tt.back()=='-' && ss[0]=='-')
-                {                    
-                    tt.pop_back();
-                    temp = tt+"+"+ss.substr(1);
-                }
-                else                                                     
-                    temp = tt+ss;                                
+            else if (s[i]==')')
+            {                
+                int curRes = eval(curStr);
+                curStr = Stack.top() + to_string(curRes);
+                Stack.pop();                
             }
             else
-                temp+=S[i];            
+                curStr.push_back(s[i]);
         }
-        
-        return calculateClip(temp);
+        return eval(curStr);        
     }
+    
+    int eval(string s)
+    {
+        string S = "+";
+        for (auto ch:s)
+        {
+            if (ch==' ') continue;
+            S.push_back(ch);
+            if (ch=='(')
+                S+="+";
+        }
+        s = S;
+        
+        vector<long>nums;
+
+        for (int i=0; i<s.size(); i++)
+        {
+            if (s[i]=='+' || s[i]=='-')
+            {
+                int j = i+1;
+                if (s[j]=='+' || s[j]=='-') j++;
+                while (j<s.size() && isdigit(s[j]))
+                    j++;
+                long num = stol(s.substr(i+1,j-i-1));
+                if (s[i]=='+') nums.push_back(num);
+                else if (s[i]=='-') nums.push_back(-num);
+                i = j-1;
+            }
+            else if (s[i]=='*' || s[i]=='/')
+            {
+                int j = i+1;
+                if (s[j]=='+' || s[j]=='-') j++;
+                while (j<s.size() && isdigit(s[j]))
+                    j++;
+                int num = stoi(s.substr(i+1,j-i-1));                
+                if (s[i]=='*') nums.back() *= num;
+                else if (s[i]=='/') nums.back() /= num;
+                i = j-1;
+            }
+        }
+
+        int ret = 0;
+        for (int i=0; i<nums.size(); i++)
+            ret+=nums[i];
+        return ret;
+    }
+    
+    
 };
