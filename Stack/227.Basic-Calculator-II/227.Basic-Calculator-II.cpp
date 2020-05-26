@@ -13,14 +13,18 @@ public:
         s = S;
 
         vector<int>nums;
-        vector<int>signs;
-        int sign;
 
         for (int i=0; i<S.size(); i++)
         {
             if (s[i]=='+' || s[i]=='-')
             {
-                signs.push_back(s[i]=='+'?1:-1);
+                int j = i+1;
+                while (j<s.size() && isdigit(s[j]))
+                    j++;
+                int num = stoi(s.substr(i+1,j-i-1));
+                if (s[i]=='+') nums.push_back(num);
+                else if (s[i]=='-') nums.push_back(-num);
+                i = j-1;
             }
             else if (s[i]=='*' || s[i]=='/')
             {
@@ -32,20 +36,11 @@ public:
                 else if (s[i]=='/') nums.back() /= num;
                 i = j-1;
             }
-            else if (isdigit(s[i]))
-            {
-                int j = i;
-                while (j<s.size() && isdigit(s[j]))
-                    j++;
-                int num = stoi(s.substr(i,j-i));                
-                nums.push_back(num);
-                i = j-1;
-            }
         }
 
         int ret = 0;
         for (int i=0; i<nums.size(); i++)
-            ret+=nums[i]*signs[i];
+            ret+=nums[i];
         return ret;
    }
 };
