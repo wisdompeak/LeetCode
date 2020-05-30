@@ -176,7 +176,7 @@
 [631.Design-Excel-Sum-Formula](https://github.com/wisdompeak/LeetCode/tree/master/Design/631.Design-Excel-Sum-Formula) (H)    
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [895.Maximum-Frequency-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/895.Maximum-Frequency-Stack) (H)    
-1172.Dinner-Plate-Stacks (TBD)    
+[1172.Dinner-Plate-Stacks](https://github.com/wisdompeak/LeetCode/tree/master/Design/1172.Dinner-Plate-Stacks) (H)    
 
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
