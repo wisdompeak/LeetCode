@@ -300,6 +300,7 @@
 802.Find-Eventual-Safe-States (TBD)   
 1136.Parallel-Courses (TBD)   
 1203.Sort-Items-by-Groups-Respecting-Dependencies (TBD)   
+1462.Course-Schedule-IV (TBD)   
 
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
@@ -438,6 +439,7 @@
 * ``走迷宫型``   
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
 [741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
+1463.Cherry-Pickup-II (TBD) 
 [576.Out-of-Boundary-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/576.Out-of-Boundary-Paths) (H)   
 [931.Minimum-Falling-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/931.Minimum-Falling-Path-Sum) (M)    
 [1289.Minimum-Falling-Path-Sum-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1289.Minimum-Falling-Path-Sum-II) (M+)    
@@ -501,6 +503,7 @@
 371.Sum-of-Two-Integers (H)   
 [318.Maximum-Product-of-Word-Lengths](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/318.Maximum-Product-of-Word-Lengths) (M+)    
 342.Power-of-Four (H)   
+1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)    
 * ``XOR``   
 1310. XOR Queries of a Subarray (TBD)   
 1442. Count Triplets That Can Form Two Arrays of Equal XOR (TBD)    
