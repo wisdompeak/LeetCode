@@ -177,7 +177,7 @@
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [895.Maximum-Frequency-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/895.Maximum-Frequency-Stack) (H)    
 [1172.Dinner-Plate-Stacks](https://github.com/wisdompeak/LeetCode/tree/master/Design/1172.Dinner-Plate-Stacks) (H)    
-
+1381.Design-a-Stack-With-Increment-Operation (H-)   
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 [032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
