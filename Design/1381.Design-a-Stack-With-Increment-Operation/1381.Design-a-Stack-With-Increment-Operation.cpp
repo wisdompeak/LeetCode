@@ -1,12 +1,13 @@
-class CustomStack {
-    stack<int>Stack;
+class CustomStack {    
     int count = 0;
     int maxSize;
     vector<int>offset;
-    int curoffset = 0;
+    vector<int>nums;
+    int diff = 0;
 public:
     CustomStack(int maxSize) {
         this->maxSize = maxSize;
+        nums.resize(maxSize,0);
         offset.resize(maxSize,0);
     }
     
@@ -14,22 +15,21 @@ public:
     {   
         if (count == maxSize) return;
 
-        if (count>=1 && curoffset!=0)
-            offset[count-1] += curoffset;
+        if (count>=1 && diff!=0)
+            offset[count-1] += diff;
         
-        Stack.push(x);
+        nums[count] = x;
         count++;
         offset[count-1] = 0;
-        curoffset = 0;                
+        diff = 0;                
     }
     
     int pop() 
     {
-        if (Stack.empty()) return -1;
+        if (count==0) return -1;
 
-        curoffset += offset[count-1];
-        int ret = Stack.top()+curoffset;
-        Stack.pop();
+        diff += offset[count-1];
+        int ret = nums[count-1]+diff;        
         count--;
         return ret;
     }
