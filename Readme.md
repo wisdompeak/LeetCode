@@ -538,6 +538,7 @@
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 459.Repeated-Substring-Pattern (TBD)    
 1392.Longest-Happy-Prefix (TBD)   
+1410.HTML-Entity-Parser (TBD)   
 
 #### [Sort](https://github.com/wisdompeak/LeetCode/tree/master/Sort)
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Sort/041.First-Missing-Positive/Readme.md) (H)    
