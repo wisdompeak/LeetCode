@@ -8,11 +8,6 @@ public:
     
     bool helper(string &s, int a, int b)
     {
-        if (a==b)
-        {
-            return (s[a]=='t') ? 1:0;
-        }
-        
         vector<int>vals;
         for (int i=a+2; i<=b-1; i++)
         {
