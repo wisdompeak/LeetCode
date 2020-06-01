@@ -13,7 +13,7 @@ public:
             return (s[a]=='t') ? 1:0;
         }
         
-        vector<bool>vals;
+        vector<int>vals;
         for (int i=a+2; i<=b-1; i++)
         {
             if (s[i]=='&' || s[i]=='|' || s[i]=='!')
@@ -32,34 +32,32 @@ public:
                 vals.push_back(helper(s, i, j));
                 i = j;
             }
-            else if (s[i]==',')
-                continue;
-            else
+            else if (s[i]=='t' || s[i]=='f')
             {
-                if (s[i]=='t')
-                    vals.push_back(1);
-                else if (s[i]=='f')
-                    vals.push_back(0);
-            }
-            
+                vals.push_back(s[i]=='t');
+            }            
         }
-        if (s[a]=='!')
-            return !vals[0];
-        else if (s[a]=='&')
+        return eval(s[a], vals);        
+    }
+
+    int eval(char oper, vector<int>&nums)
+    {        
+        int result;
+        if (oper=='!')
+            result = !nums[0];
+        else if (oper=='&')
         {
-            int ret = 1;
-            for (auto x:vals)
-                ret = ret && x;
-            return ret;
+            result = 1;
+            for (int i=0; i<nums.size(); i++)
+                result = result&nums[i];
         }
-        else if (s[a]=='|')
+        else if (oper=='|')
         {
-            int ret = 0;
-            for (auto x:vals)
-                ret = ret || x;
-            return ret;
+            result = 0;
+            for (int i=0; i<nums.size(); i++)
+                result = result|nums[i];
         }
-        return {};
-            
+
+        return result;
     }
 };
