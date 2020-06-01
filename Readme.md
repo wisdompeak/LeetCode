@@ -218,6 +218,7 @@
 [439.Ternary-Expression-Parser](https://github.com/wisdompeak/LeetCode/tree/master/Stack/439.Ternary-Expression-Parser) (H-)    
 [591.Tag-Validator](https://github.com/wisdompeak/LeetCode/blob/master/Stack/591.Tag-Validator/) (H)    
 [726.Number-of-Atoms](https://github.com/wisdompeak/LeetCode/tree/master/Stack/726.Number-of-Atoms) (M+)    
+[1087.Brace-Expansion](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1087.Brace-Expansion) (H)   
 [1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
 [1106.Parsing-A-Boolean-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1106.Parsing-A-Boolean-Expression) (H-)    
 
