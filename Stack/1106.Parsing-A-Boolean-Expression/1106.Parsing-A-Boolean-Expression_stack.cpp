@@ -20,7 +20,6 @@ public:
             {
                 ret = eval(stackOp.top(), curVals);
                 stackOp.pop();
-                if (stackVal.empty()) break;
                 curVals = stackVal.top();
                 curVals.push_back(ret);
                 stackVal.pop();
