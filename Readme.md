@@ -212,6 +212,7 @@
 [1124.Longest-Well-Performing-Interval](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1124.Longest-Well-Performing-Interval) (H)   
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 * ``parse expression``    
+[071.Simplify-Path](https://github.com/wisdompeak/LeetCode/tree/master/Stack/071.Simplify-Path) (M)   
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
 [227.Basic-Calculator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/227.Basic-Calculator-II) (H-)   
 [772.Basic-Calculator-III](https://github.com/wisdompeak/LeetCode/tree/master/Stack/772.Basic-Calculator-III) (H)   
