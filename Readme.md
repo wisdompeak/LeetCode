@@ -192,8 +192,6 @@
 [636.Exclusive-Time-of-Functions](https://github.com/wisdompeak/LeetCode/tree/master/Stack/636.Exclusive-Time-of-Functions) (H-)    
 [856.Score-of-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/856.Score-of-Parentheses) (M+)    
 [946.Validate-Stack-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Stack/946.Validate-Stack-Sequences)（H-）   
-[1124.Longest-Well-Performing-Interval](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1124.Longest-Well-Performing-Interval) (H)   
-[1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 [1209.Remove-All-Adjacent-Duplicates-in-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1209.Remove-All-Adjacent-Duplicates-in-String-II) (M+)   
 * ``monotonic stack``    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
@@ -211,6 +209,8 @@
 [962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1019.Next-Greater-Node-In-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1019.Next-Greater-Node-In-Linked-List) (M)    
 [1063.Number-of-Valid-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1063.Number-of-Valid-Subarrays) (M+)    
+[1124.Longest-Well-Performing-Interval](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1124.Longest-Well-Performing-Interval) (H)   
+[1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
 * ``parse expression``    
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
 [227.Basic-Calculator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/227.Basic-Calculator-II) (H-)   
