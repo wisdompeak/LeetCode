@@ -8,17 +8,12 @@ public:
         {
             if (preorder[i]<small) return false;
             
-            if (Stack.empty()||preorder[i]<Stack.top())
-                Stack.push(preorder[i]);
-            else
+            while (!Stack.empty() && preorder[i]>Stack.top())
             {
-                while (!Stack.empty() && preorder[i]>Stack.top())
-                {
-                    small=Stack.top();
-                    Stack.pop();
-                }
-                Stack.push(preorder[i]);
-            }                
+                small=Stack.top();
+                Stack.pop();
+            }
+            Stack.push(preorder[i]);              
         }
         return true;
     }
