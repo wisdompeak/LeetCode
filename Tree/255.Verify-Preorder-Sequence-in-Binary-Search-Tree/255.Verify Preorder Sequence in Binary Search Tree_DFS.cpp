@@ -10,16 +10,13 @@ public:
         if (end-start<=1) return true;
         
         int root=preorder[start];
-        int i=start;
-        while (preorder[i+1]<root && i+1<=end) i++;
-        int mid=i+1;
-        i=mid;
-        while (i<=end)
+        int i = start+1;
+        while (i<=end && preorder[i]<root) i++;
+                
+        for (int j=i; j<=end; j++)        
         {
-            if (preorder[i]<=root)
-                return false;
-            i++;    
+            if (preorder[j]<=root) return false;
         }
-        return DFS(preorder,start+1,mid-1)&&DFS(preorder,mid,end);
+        return DFS(preorder,start+1,i-1)&&DFS(preorder,i,end);
     }
 };
