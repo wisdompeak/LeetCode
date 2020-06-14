@@ -294,7 +294,8 @@
 1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location (H)   
 1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination (TBD)   
 1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
-1345. Jump Game IV (TBD)    
+1345.Jump Game IV (TBD)    
+1368.Minimum Cost to Make at Least One Valid Path in a Grid (TBD)    
 * ``拓扑排序``   
 207.Course-Schedule (TBD)   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
