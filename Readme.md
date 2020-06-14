@@ -66,7 +66,7 @@
 [793.Preimage-Size-of-Factorial-Zeroes-Function](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/793.Preimage-Size-of-Factorial-Zeroes-Function) (H-)    
 [1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
 1283.Find-the-Smallest-Divisor-Given-a-Threshold (TBD)    
-1300.Sum-of-Mutated-Array-Closest-to-Target (TBD)   
+[1300.Sum-of-Mutated-Array-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
