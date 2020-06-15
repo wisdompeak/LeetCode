@@ -24,7 +24,8 @@ for(k=0;k<n;k++)
 
 ### 解法2：
 我们可以利用dp的思想。令dp[k][b]表示从起点做k次飞机能过够到达城市b的最小代价。显然，它之前的状态就是做k-1次飞机能到哪里。于是我们有状态转移方程：
-```dp[k][b] = min(dp[k][b], dp[k-1][a] + cost[a][b]), where there is a flight from a to b.
+```
+dp[k][b] = min(dp[k][b], dp[k-1][a] + cost[a][b]), where there is a flight from a to b.
 ``` 
 所以最终的代码很简单:
 ```py
