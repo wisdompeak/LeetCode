@@ -1,6 +1,6 @@
 ### 787.Cheapest-Flights-Within-K-Stops
 
-### 解法1：
+### 解法1：（错误）
 Floy算法的本质就是DP。复习一下传统的Floy算法,需要三重循环:
 ```cpp
 for(k=0;k<n;k++)
