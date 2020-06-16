@@ -1,88 +1,69 @@
 /**
- * Definition of TreeNode:
- * class TreeNode {
- * public:
+ * Definition for a binary tree node.
+ * struct TreeNode {
  *     int val;
- *     TreeNode *left, *right;
- *     TreeNode(int val) {
- *         this->val = val;
- *         this->left = this->right = NULL;
- *     }
- * }
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
  */
-
-class Solution {
+class Codec {
 public:
-    /**
-     * This method will be invoked first, you should design your own algorithm 
-     * to serialize a binary tree which denote by a root node to a string which
-     * can be easily deserialized by your own "deserialize" method later.
-     */    
-    string serialize(TreeNode * root) 
-    {        
+
+    // Encodes a tree to a single string.
+    string serialize(TreeNode* root) 
+    {
         queue<TreeNode*>q;
         q.push(root);
-        string result;
-        
+        string ret;
         while (!q.empty())
         {
             TreeNode* node = q.front();
             q.pop();
-            
-            if (node==NULL)
+            if (node!=NULL)
             {
-                result+="@#";
-            }
-            else
-            {
-                result+= to_string(node->val)+"#";
+                ret+=to_string(node->val)+",";
                 q.push(node->left);
                 q.push(node->right);
             }
-        }        
-        return result;
+            else
+                ret+="#,";
+        }
+        return ret;
     }
 
-    /**
-     * This method will be invoked second, the argument data is what exactly
-     * you serialized at method "serialize", that means the data is not given by
-     * system, it's given by your own serialize method. So the format of data is
-     * designed by yourself, and deserialize it here as you serialize it in 
-     * "serialize" method.
-     */
-    TreeNode * deserialize(string &data) 
+    // Decodes your encoded data to tree.
+    TreeNode* deserialize(string data) 
     {
-        vector<TreeNode*>q;        
+        vector<TreeNode*>nodes;
         for (int i=0; i<data.size(); i++)
         {
-            if (data[i]=='@')
-            {
-                q.push_back(NULL);
-                i++;
-            }
+            int j = i;
+            while (j<data.size() && data[j]!=',')
+                j++;
+            string str = data.substr(i,j-i);
+            if (str=="#")
+                nodes.push_back(NULL);
             else
-            {
-                int i0 = i;
-                while (data[i]!='#')
-                    i++;
-                int num = stoi(data.substr(i0,i-i0));
-                TreeNode* node = new TreeNode(num);
-                q.push_back(node);
-            }
+                nodes.push_back(new TreeNode(stoi(str)));
+            i = j;
         }
-        
-        int i = 0;
-        int j = 1;        
-        while (j<q.size())
+
+        int i = 0,  j = 1;
+        while (j<nodes.size())
         {
-            if (q[i]!=NULL)
+            if (nodes[i]!=NULL)
             {
-                q[i]->left = q[j];
-                q[i]->right = q[j+1];
+                nodes[i]->left = nodes[j];
+                nodes[i]->right = nodes[j+1];
                 j+=2;
-            }            
+            }
             i++;
-        }        
-        return q[0];
+        }
+        return nodes[0];
     }
 };
+
+// Your Codec object will be instantiated and called as such:
+// Codec codec;
+// codec.deserialize(codec.serialize(root));
