@@ -21,7 +21,7 @@
 
 
 #### 解法2：
-编码可以用inorder遍历的方法递归得到，代码非常简洁：
+编码可以用preorder遍历的方法递归得到，代码非常简洁：
 ```cpp
     string serialize(TreeNode* root) 
     {
