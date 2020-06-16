@@ -14,44 +14,50 @@ public:
     string serialize(TreeNode* root) 
     {
         if (root==NULL) return "#";
-        return to_string(root->val)+","+serialize(root->left)+","+serialize(root->right);        
+        else return to_string(root->val)+","+serialize(root->left)+","+serialize(root->right);        
     }
 
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) 
     {
-        cout<<data<<endl;
-        vector<string>q;
+        vector<TreeNode*>nodes;
         for (int i=0; i<data.size(); i++)
         {
-            int j=i;
+            int j = i;
             while (j<data.size() && data[j]!=',')
                 j++;
-            q.push_back(data.substr(i,j-i));
-            i=j;
+            string str = data.substr(i,j-i);
+            if (str=="#")
+                nodes.push_back(NULL);
+            else
+                nodes.push_back(new TreeNode(stoi(str)));
+            i = j;
         }
-        return DFS(q,0);
+
+        return DFS(nodes, 0);
     }
-    
-    TreeNode* DFS(vector<string>&q, int a)
+
+    TreeNode* DFS(vector<TreeNode*>&nodes, int cur)
     {
-        if (q[a]=="#") return NULL;
-        TreeNode* root = new TreeNode(stoi(q[a]));
-        TreeNode* left = DFS(q,a+1);
-        int leftSize = getSize(left);
-        TreeNode* right = DFS(q,a+1+leftSize);        
-        root->left = left;
-        root->right = right;
-        return root;
+        if (nodes[cur]==NULL) return NULL;
+
+        TreeNode* left = DFS(nodes, cur+1);
+        int leftSize = getNum(left);
+        TreeNode* right = DFS(nodes, cur+leftSize+1);
+        nodes[cur] -> left = left;
+        nodes[cur] -> right = right;
+        return nodes[cur];
     }
-    
-    int getSize(TreeNode* node)
+
+    int getNum(TreeNode* node)
     {
         if (node==NULL) return 1;
-        return getSize(node->left)+1+getSize(node->right);
+        else return getNum(node->left)+getNum(node->right)+1;
     }
 };
 
 // Your Codec object will be instantiated and called as such:
 // Codec codec;
 // codec.deserialize(codec.serialize(root));
+
+// 1,[2,#,#],[3,4,#,#,5,#,#],
