@@ -540,6 +540,7 @@
 [736.Parse-Lisp-Expression](https://github.com/wisdompeak/LeetCode/tree/master/String/736.Parse-Lisp-Expression) (H-)   
 [844.Backspace-String-Compare](https://github.com/wisdompeak/LeetCode/tree/master/String/844.Backspace-String-Compare) (M+)   
 * ``Rolling Hash``    
+[1044.Longest-Duplicate-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/1044.Longest-Duplicate-Substring) (H)    
 1062.Longest-Repeating-Substring (TBD)       
 * ``KMP``   
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
