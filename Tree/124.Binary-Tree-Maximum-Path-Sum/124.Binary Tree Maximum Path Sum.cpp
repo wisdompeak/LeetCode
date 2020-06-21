@@ -4,39 +4,35 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
-    int result;
-    
+    int ret = INT_MIN;
 public:
     int maxPathSum(TreeNode* root) 
     {
-        result = INT_MIN;
-        
-        maxSum(root);
-        
-        return result;
+        MaxDownPath(root);
+        return ret;
     }
     
-    int maxSum(TreeNode* node)
+    int MaxDownPath(TreeNode* node)  // starting from node downward only, the max-sum path
     {
         if (node==NULL) return 0;
         
-        int s1=maxSum(node->left);
-        int s2=maxSum(node->right);
+        int leftSum = MaxDownPath(node->left);
+        int rightSum = MaxDownPath(node->right);
         
-        int temp = max(s1+node->val,s2+node->val);
-        temp = max(temp, node->val);
-
-        result = max(result,temp);
-        result = max(result,s1+s2+node->val);
+        int maxTurnSum = node->val;
+        if (leftSum >= 0) maxTurnSum += leftSum;
+        if (rightSum >= 0) maxTurnSum += rightSum;
+        ret = max(ret, maxTurnSum);
         
-        //cout<<node->val<<":"<<temp<<endl;
-        
-        return temp;
+        if (leftSum < 0 && rightSum < 0)
+            return node->val;
+        else
+            return max(leftSum, rightSum) + node->val;
     }
-    
-
 };
