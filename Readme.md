@@ -507,6 +507,7 @@
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
+[137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
 [260.Single-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/260.Single-Number-III) (H)    
 371.Sum-of-Two-Integers (H)   
 [318.Maximum-Product-of-Word-Lengths](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/318.Maximum-Product-of-Word-Lengths) (M+)    
