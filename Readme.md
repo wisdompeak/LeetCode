@@ -232,6 +232,7 @@
 [862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Deque/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
 [1425.Constrained-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1425.Constrained-Subsequence-Sum) (H)   
 [1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit) (H)   
+1499.Max-Value-of-Equation (TBD)    
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
