@@ -713,6 +713,7 @@
 798.Smallest-Rotation-with-Highest-Score (H)    
 825.Friends-Of-Appropriate-Ages (M+)    
 [835.Image-Overlap](https://github.com/wisdompeak/LeetCode/tree/master/Others/835.Image-Overlap) (H)    
+[843.Guess-the-Word](https://github.com/wisdompeak/LeetCode/tree/master/Others/843.Guess-the-Word) (M)    
 855.Exam-Room (M+)    
 [858.Mirror-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Others/858.Mirror-Reflection) (H)    
 [866.Prime-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Others/866.Prime-Palindrome) (H-)   
