@@ -33,6 +33,7 @@
 1004.Max-Consecutive-Ones-III (TBD)   
 1052.Grumpy-Bookstore-Owner (M+)    
 [1234.Replace-the-Substring-for-Balanced-String](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1234.Replace-the-Substring-for-Balanced-String) (H-)   
+1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition (TBD)    
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays) (H)   
