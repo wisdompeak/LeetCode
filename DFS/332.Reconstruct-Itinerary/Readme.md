@@ -36,6 +36,6 @@ A -> B <-> F
 
 那我们构造欧拉路径的思想是：B + path2 + path1，其中path1是从B点出发，选择任意支路并能够顺利走到终点的欧拉路径。path2是在path1走完之后，再从B点出发，最终走回B点的路径。注意，如果足够幸运，path1走遍了B后面的所有边，那么path2就不存在了。
 
-因为我们要最小化字典序，我们希望path2的字典序更小。但是我们先选path1再挑path2，所以path1的选择应该是所有B的出度里字典序最大的。
+因为我们要最小化字典序，所以我们每次的分叉总会优先选择字典序较小的一支。
 
 [Leetcode Link](https://leetcode.com/problems/reconstruct-itinerary)
