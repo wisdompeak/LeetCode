@@ -16,42 +16,37 @@ public:
     /** Removes the element from in front of queue and returns that element. */
     int pop() 
     {
-        while (Stack1.size()>1)
+        if (Stack2.empty())
         {
-            Stack2.push(Stack1.top());
-            Stack1.pop();
+            while (!Stack1.empty())
+            {
+                Stack2.push(Stack1.top());
+                Stack1.pop();
+            }
         }
-        int result = Stack1.top();
-        Stack1.pop();
-        while (Stack2.size()>0)
-        {
-            Stack1.push(Stack2.top());
-            Stack2.pop();
-        }
+        int result=Stack2.top();
+        Stack2.pop();
         return result;
     }
     
     /** Get the front element. */
     int peek() 
     {
-        while (Stack1.size()>1)
+        if (Stack2.empty())
         {
-            Stack2.push(Stack1.top());
-            Stack1.pop();
+            while (!Stack1.empty())
+            {
+                Stack2.push(Stack1.top());
+                Stack1.pop();
+            }
         }
-        int result = Stack1.top();
-        while (Stack2.size()>0)
-        {
-            Stack1.push(Stack2.top());
-            Stack2.pop();
-        }    
-        return result;
+        return Stack2.top();
     }
     
     /** Returns whether the queue is empty. */
     bool empty() 
     {
-        return Stack1.empty();
+        return Stack1.empty()&&Stack2.empty();
     }
 };
 
