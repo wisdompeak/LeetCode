@@ -4,5 +4,5 @@
 
 根据双序列DP的套路，令dp[i][j]表示以i结尾的subarray和以j结尾的subarray相等的最大长度，则有：
 ```
-dp[i][j] = dp[i-1][j-1]+1 if A[i]==B[j]
+dp[i][j] = dp[i-1][j-1]+1 if A[i]==B[j] else 0
 ```
