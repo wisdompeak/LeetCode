@@ -9,6 +9,8 @@ dp[i][j][k]有四种来源：
 3. dp[i-1][j][k]，即第k个元素不为nums1[i]，那么此时的解直接继承自 dp[i-1][j][k].
 4. dp[i][j-1][k]，即第k个元素不为nums2[j]，那么此时的解直接继承自 dp[i][j-1][k].
 
+这个解法的时间复杂度是```o(M*N*K)```.
+
 #### 解法2：
 另一个比较容易理解的算法是：考虑将k拆分成k1和k2，将取数的指标分配给nums1,nums2，遍历所有的可能取最优解。
 
@@ -18,5 +20,6 @@ dp[i][j][k]有四种来源：
 
 最后将所有的k的拆分结果再进行比较，同样用到了C++默认的对数组大小比较的定义。不停更新```result = max(result, temp)```就可以了。
 
+这个解法的时间复杂度是```o(K*K)```.
 
 [Leetcode Link](https://leetcode.com/problems/create-maximum-number)
