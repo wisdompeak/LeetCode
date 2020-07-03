@@ -492,7 +492,7 @@
 [115.Distinct-Subsequences](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/115.Distinct-Subsequences/) (H-)   
 [583.Delete-Operation-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/583.Delete-Operation-for-Two-Strings) (M+)    
 [712.Minimum-ASCII-Delete-Sum-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/712.Minimum-ASCII-Delete-Sum-for-Two-Strings) (M+)   
-[718.Maximum-Length-of-Repeated-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/718.Maximum-Length-of-Repeated-Subarray) (M+)    
+[718.Maximum-Length-of-Repeated-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/718.Maximum-Length-of-Repeated-Subarray) (M)    
 [727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/727.Minimum-Window-Subsequence) (H-)    
 [1035.Uncrossed-Lines](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1035.Uncrossed-Lines) (M)   
 [1092.Shortest-Common-Supersequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1092.Shortest-Common-Supersequence) (H-)   
