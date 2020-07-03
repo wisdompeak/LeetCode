@@ -344,7 +344,7 @@
 [665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H-)   
 670.Maximum-Swap (M+)   
 [678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H)    
-321.Create-Maximum-Number (H)   
+[321.Create-Maximum-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/321.Create-Maximum-Number) (H)   
 [135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
 649.Dota2-Senate (H)    
 [330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
