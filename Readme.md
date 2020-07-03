@@ -57,7 +57,7 @@
 1201.Ugly-Number-III (TBD)    
 1231.Divide-Chocolate (TBD)   
 * ``Binary Search by Value``  
-[215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Sort/215.Kth-Largest-Element-in-an-Array) (M)   
+[215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (H-)   
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)   
