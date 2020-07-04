@@ -15,11 +15,12 @@ public:
             K = (~((K>>1)^(K<<1)))&126;
             t++;
         }
-        int len = t - Map[K];
+        int S = Map[K];
+        int L = t - S;
 
         int M = K0;
-        if (N >= t)
-            N = (N-Map[K])%len + Map[K];
+        if (N >= S)
+            N = (N-S) % L + S;
 
         for (int i=0; i<N; i++)
         {
