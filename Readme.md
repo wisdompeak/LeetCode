@@ -516,10 +516,12 @@
 371.Sum-of-Two-Integers (H)   
 [318.Maximum-Product-of-Word-Lengths](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/318.Maximum-Product-of-Word-Lengths) (M+)    
 342.Power-of-Four (H)   
-1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)    
+[957.Prison-Cells-After-N-Days](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/957.Prison-Cells-After-N-Days) (M+)   
+1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)
 * ``XOR``   
-1310. XOR Queries of a Subarray (TBD)   
-1442. Count Triplets That Can Form Two Arrays of Equal XOR (TBD)    
+1310.XOR Queries of a Subarray (TBD)   
+1442.Count Triplets That Can Form Two Arrays of Equal XOR (TBD)   
+ 
 
 #### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer)
 [315.Count-of-Smaller-Numbers-After-Self](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self) (H-)    
