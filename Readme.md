@@ -516,7 +516,7 @@
 371.Sum-of-Two-Integers (H)   
 [318.Maximum-Product-of-Word-Lengths](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/318.Maximum-Product-of-Word-Lengths) (M+)    
 342.Power-of-Four (H)   
-[957.Prison-Cells-After-N-Days](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/957.Prison-Cells-After-N-Days) (M+)   
+[957.Prison-Cells-After-N-Days](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/957.Prison-Cells-After-N-Days) (H)   
 1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)
 * ``XOR``   
 1310.XOR Queries of a Subarray (TBD)   
