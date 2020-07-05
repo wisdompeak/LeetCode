@@ -1,54 +1,55 @@
 class Solution {
 public:
-    vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int k) 
+    vector<int> maxNumber(vector<int>& nums1, vector<int>& nums2, int K) 
     {
-        vector<int>result;        
-        for (int i=0; i<=nums1.size(); i++)
-        {            
-            int j=k-i;
-            if (j<0 || j>nums2.size()) continue;
-            vector<int>p1 = findMax(nums1,i);
-            vector<int>p2 = findMax(nums2,j);              
-            vector<int>temp = merge(p1,p2);
-            result = max(temp,result);
+        vector<int> ret;
+        for (int i=0; i<=K; i++)
+        {
+            if (i>nums1.size()) continue;
+            if (K-i>nums2.size()) continue;
+            vector<int>p1 = findMax(nums1, i);
+            vector<int>p2 = findMax(nums2, K-i);
+            vector<int>temp = merge(p1, p2);
+            ret = max(ret, temp);            
         }
-        return result;
+        return ret;
     }
     
-    vector<int> findMax(vector<int> nums, int k)
-    {        
+    vector<int> findMax(vector<int>&nums, int k)
+    {
         int drop = nums.size()-k;
-        vector<int>result;
+        vector<int>ret;
         
         for (int i=0; i<nums.size(); i++)
-        {                            
-            while (drop>0 && result.size()>0 && nums[i]>result.back())
+        {
+            while (drop>0 && ret.size()>0 && nums[i] > ret.back())
             {
-               result.pop_back();
-               drop--;
+                ret.pop_back();
+                drop--;
             }
-            result.push_back(nums[i]);
+            ret.push_back(nums[i]);
         }
-        result.resize(k);
-        return result;
+        ret.resize(k);
+        return ret;
     }
     
-    vector<int> merge(vector<int>nums1, vector<int>nums2)
+    vector<int> merge(vector<int>&p1, vector<int>&p2)
     {
-        vector<int>result;
-        while (nums1.size()+nums2.size()>0)
+        vector<int>ret;
+        int L = p1.size()+p2.size();
+        for (int i=0; i<L; i++)
         {
-            if (nums1>nums2)
+            if (p1 > p2)
             {
-                result.push_back(nums1[0]);
-                nums1.erase(nums1.begin());
+                ret.push_back(p1[0]);
+                p1.erase(p1.begin());
             }
             else
             {
-                result.push_back(nums2[0]);
-                nums2.erase(nums2.begin());
-            }
+                ret.push_back(p2[0]);
+                p2.erase(p2.begin());
+            }                
         }
-        return result;            
+        return ret;
     }
 };
