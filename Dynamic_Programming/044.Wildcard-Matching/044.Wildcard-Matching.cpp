@@ -22,6 +22,8 @@ public:
                     dp[i][j] = dp[i-1][j-1];
                 else if (p[j]=='*')
                 {
+                    // for (int k=0; k<=i; k++)
+                    //     if (dp[k][j-1]==1) dp[i][j]=1;
                     dp[i][j] = dp[i][j-1]||dp[i-1][j];
                 }
                 else if (s[i]==p[j])
