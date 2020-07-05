@@ -12,18 +12,13 @@ public:
 
         for (int i=0; i<=m; i++)
             for (int j=0; j<=n; j++)
-                for (int k=0; k<=min(K,i+j); k++)
+                for (int k=1; k<=min(K,i+j); k++)
                 {
-                    if (k==0) 
-                    {
-                        dp[i][j][k] = "";
-                        continue;
-                    }
                     dp[i][j][k] = "";
-                    if (i-1>=0 && k-1>=0 && dp[i-1][j][k-1]!="#") dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k-1]+to_string(nums1[i]));
-                    if (j-1>=0 && k-1>=0 && dp[i][j-1][k-1]!="#") dp[i][j][k] = max(dp[i][j][k], dp[i][j-1][k-1]+to_string(nums2[j]));
-                    if (i-1>=0 && dp[i-1][j][k]!="#") dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k]);
-                    if (j-1>=0 && dp[i][j-1][k]!="#") dp[i][j][k] = max(dp[i][j][k], dp[i][j-1][k]);                    
+                    if (i-1>=0) dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k-1]+to_string(nums1[i]));
+                    if (j-1>=0) dp[i][j][k] = max(dp[i][j][k], dp[i][j-1][k-1]+to_string(nums2[j]));
+                    if (i-1>=0) dp[i][j][k] = max(dp[i][j][k], dp[i-1][j][k]);
+                    if (j-1>=0) dp[i][j][k] = max(dp[i][j][k], dp[i][j-1][k]);                    
                 }
 
         vector<int>ret;
@@ -32,4 +27,3 @@ public:
 
         return ret;
     }
-};
