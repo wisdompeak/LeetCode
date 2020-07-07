@@ -4,7 +4,7 @@
 (If you are interested in joining this group, ping me guan.huifeng@gmail.com)
 
 ### LeetCode难题代码和算法要点分析
-#### 目前分类目录：
+#### 目前分类目录：https://github.com/wisdompeak/LeetCode/tree/master/Deque/1499.Max-Value-of-Equation
 #### [Two Pointers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers)
 [003.Longest Substring Without Repeating Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
 [011.Container-With-Most-Water](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/011.Container-With-Most-Water)	(M+)  
@@ -233,7 +233,7 @@
 [862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Deque/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
 [1425.Constrained-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1425.Constrained-Subsequence-Sum) (H)   
 [1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit) (H)   
-1499.Max-Value-of-Equation (TBD)    
+[1499.Max-Value-of-Equation](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1499.Max-Value-of-Equation) (M+)    
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
