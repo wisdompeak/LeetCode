@@ -25,7 +25,7 @@ OK，现在我们已经把数字j从next[j]+offset[j]的位置搬到了i，那�
 所以这就提醒我们，每次前移一个数字，都要在它所在的位置标记一下，方便我们在更新offset[j]的时候使用。
 
 总结一下算法：
-1.当前位置是i，我们在i的右边定位最小的、能够搬运到i的数字j，以及它的位置next[j]
-2.计算消耗swap的次数是next[j]+offset[j]-i，并在next[j]的位置标记used.
-3.对于所有处于i和next[j]之间的数字d，更新offset[d]+=1
-4.从next[j]往后找到下一个j所在的位置，更新next[j]，并统计两者之间used的个数m，更新offset[j]-=m.
+1. 当前位置是i，我们在i的右边定位最小的、能够搬运到i的数字j，以及它的位置next[j]
+2. 计算消耗swap的次数是next[j]+offset[j]-i，并在next[j]的位置标记used.
+3. 对于所有处于i和next[j]之间的数字d，更新offset[d]+=1
+4. 从next[j]往后找到下一个j所在的位置，更新next[j]，并统计两者之间used的个数m，更新offset[j]-=m.
