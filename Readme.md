@@ -378,6 +378,7 @@
 984.String-Without-AAA-or-BBB (TBD)    
 [1054.Distant-Barcodes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1054.Distant-Barcodes) (M+)    
 1405.Longest-Happy-String (TBD)   
+[1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits) (H)  
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
