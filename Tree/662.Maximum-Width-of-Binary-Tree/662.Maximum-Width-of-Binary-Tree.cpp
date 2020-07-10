@@ -8,27 +8,42 @@
  * };
  */
 class Solution {
-    unordered_map<int,pair<int,int>>Map;
 public:
     int widthOfBinaryTree(TreeNode* root) 
     {
-        DFS(root,0,1);
-        int result=0;
-        for (auto a:Map)
+        root->val = 0;
+        deque<TreeNode*>q;
+        q.push_back(root);
+        int ans = 1;
+
+        while (!q.empty())
         {
-            result=max(result,a.second.second-a.second.first+1);
+            int len = q.size();
+            ans = max(ans, q.back()->val - q.front()->val + 1);
+
+            int flag = (len == 1);
+
+            while (len--)
+            {            
+                TreeNode* node = q.front();
+                q.pop_front();
+
+                ijf (flag==1) node->val = 0;
+                
+                if (node->left)
+                {
+                    node->left->val = node->val*2+1;
+                    q.push_back(node->left);
+                }
+                if (node->right)
+                {
+                    node->right->val = node->val*2+2;
+                    q.push_back(node->right);
+                }
+            }
         }
-        return result;
+        return ans;
     }
     
-    void DFS(TreeNode* node, int level, int order)
-    {
-        if (node==NULL) return;
-        if (Map[level].first==0 || order<=Map[level].first)
-            Map[level].first=order;
-        if (Map[level].second==0 ||order>=Map[level].second)
-            Map[level].second=order;
-        DFS(node->left,level+1,order*2-1);
-        DFS(node->right,level+1,order*2);
-    }
+
 };
