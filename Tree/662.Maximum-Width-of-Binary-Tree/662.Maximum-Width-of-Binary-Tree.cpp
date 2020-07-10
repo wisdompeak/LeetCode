@@ -28,7 +28,7 @@ public:
                 TreeNode* node = q.front();
                 q.pop_front();
 
-                ijf (flag==1) node->val = 0;
+                if (flag==1) node->val = 0;
                 
                 if (node->left)
                 {
