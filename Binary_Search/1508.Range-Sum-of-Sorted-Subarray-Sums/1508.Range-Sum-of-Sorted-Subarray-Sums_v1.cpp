@@ -1,16 +1,14 @@
 class Solution {
-    vector<int>presum;
-    int n;
+    vector<int>nums;
+    int totalSum;
 public:
     int rangeSum(vector<int>& nums, int n, int left, int right) 
     {
-        this->n = n;
-        presum.resize(n+1);
-        for (int i=1; i<=n; i++)
-            presum[i] = presum[i-1]+nums[i-1];
-                
+        this->nums = nums;
+        totalSum = accumulate(nums.begin(), nums.end(), 0);
         int ret = 0;
         int M = 1e9+7;
+        
         for (int k = left; k <= right; k++)
             ret = (ret + kthSum(k))%M;
         return ret;        
@@ -18,7 +16,7 @@ public:
     
     int kthSum(int k)
     {
-        int left = 1, right = presum.back();
+        int left = 1, right = totalSum;
         while (left<right)
         {
             int mid = left+(right-left)/2;
@@ -32,14 +30,19 @@ public:
     
     int smallerOrEqual(int s)
     {
-        int j = 1;
+        int j = 0;
         int count = 0;
-        for (int i=0; i<n; i++)
-        {
-            while (j<=n && presum[j]-presum[i]<=s)
+        int sum  = 0;
+        for (int i=0; i<nums.size(); i++)
+        {            
+            while (j<nums.size() && sum+nums[j]<=s)
+            {
+                sum+=nums[j];
                 j++;
-            count += j-i-1;
-        }        
+            }                
+            count += j-i;
+            sum -= nums[i];
+        }
         return count;        
     }
 };
