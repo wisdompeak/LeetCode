@@ -25,33 +25,28 @@ public:
         Node* child = h->child;
         h->child = NULL;
 
-        if (child == NULL)
+        if (child==NULL && next==NULL)
+            return h;
+        else if (child!=NULL && next==NULL)
         {
-            h->next = next;
-            if (next == NULL) 
-                return h;
-            else
-            {
-                next->prev = h;
-                return findEnd(next);
-            }                
+            h->next = child;
+            child->prev = h;
+            Node* childEnd = findEnd(child);
+            return childEnd;
+        }
+        else if (child==NULL && next!=NULL)
+        {
+            Node* nextEnd = findEnd(next);
+            return nextEnd;
         }
         else
         {
             h->next = child;
             child->prev = h;
-            Node* childEnd = findEnd(child);
-            if (next==NULL)
-            {
-                childEnd->next = NULL;
-                return childEnd;
-            }
-            else
-            {
-                childEnd->next = next;
-                next->prev = childEnd;
-                return findEnd(next);
-            }
+            Node* childEnd = findEnd(child);            
+            childEnd->next = next;
+            next->prev = childEnd;
+            return findEnd(next);
         }
     }
 };
