@@ -207,7 +207,7 @@
 [496.Next-Greater-Element-I](https://github.com/wisdompeak/LeetCode/tree/master/Stack/496.Next-Greater-Element-I) (H-)    
 [503.Next-Greater-Element-II](https://github.com/wisdompeak/LeetCode/blob/master/Stack/503.Next-Greater-Element-II) (H-)    
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
-[739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures)  (H-)    
+[739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Stack/739.Daily-Temperatures)  (H-)    
 [768.Max-Chunks-To-Make-Sorted-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/768.Max-Chunks-To-Make-Sorted-II) (H-)   
 [901.Online-Stock-Span](https://github.com/wisdompeak/LeetCode/tree/master/Stack/901.Online-Stock-Span) (H-)   
 [907.Sum-of-Subarray-Minimums](https://github.com/wisdompeak/LeetCode/tree/master/Stack/907.Sum-of-Subarray-Minimums) (H)   
@@ -353,7 +353,6 @@
 [683.K-Empty-Slots](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/683.K-Empty-Slots)　(H)   
 [517.Super-Washing-Machines](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/517.Super-Washing-Machines) (H)    
 757.Set-Intersection-Size-At-Least-Two （H）  
-[739.Daily-Temperatures](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/739.Daily-Temperatures) (M+)   
 826.Most-Profit-Assigning-Work (M)    
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers) (H)    
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
@@ -434,7 +433,6 @@
 [714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/714.Best-Time-to-Buy-and-Sell-Stock-with-Transaction-Fee) (M+)    
 [514.Freedom-Trail](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/514.Freedom-Trail) (H-)    
 [740.Delete-and-Earn](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/740.Delete-and-Earn) (H-)   
-[787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/787.Cheapest-Flights-Within-K-Stops) (M+)    
 [552.Student-Attendance-Record-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/552.Student-Attendance-Record-II) (H)    
 [801.Minimum-Swaps-To-Make-Sequences-Increasing](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/801.Minimum-Swaps-To-Make-Sequences-Increasing) (M)    
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
@@ -636,6 +634,7 @@
 #### Graph
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
 [753.Cracking-the-Safe](https://github.com/wisdompeak/LeetCode/tree/master/Hash/753.Cracking-the-Safe) (H)   
+[787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H-)    
 [1192.Critical-Connections-in-a-Network](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1192.Critical-Connections-in-a-Network) (H)   
 1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance (TBD)    
 1361.Validate-Binary-Tree-Nodes (TBD)   
