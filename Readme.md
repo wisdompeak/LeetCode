@@ -380,6 +380,7 @@
 984.String-Without-AAA-or-BBB (TBD)    
 [1054.Distant-Barcodes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1054.Distant-Barcodes) (M+)    
 1405.Longest-Happy-String (TBD)   
+[1488.Avoid-Flood-in-The-City](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1488.Avoid-Flood-in-The-City) (H-)  
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
