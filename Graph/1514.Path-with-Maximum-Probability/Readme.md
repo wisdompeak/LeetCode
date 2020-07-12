@@ -8,6 +8,8 @@
 
 本题需要改造一番才能使用Dijkstra算法。原本的题意是求最大乘积路径问题：
 ```
-maxmize prob(E1)*prob(E2)*...*prob(Ek) = maxmize log[prob(E1)]+log[prob(E2)] + ... + log[prob(Ek)] = minimize -log[prob(E1)] -log[prob(E2)] - ... -log[prob(Ek)]
+maxmize prob(E1)*prob(E2)*...*prob(Ek) 
+= maxmize log[prob(E1)]+log[prob(E2)] + ... + log[prob(Ek)] 
+= minimize -log[prob(E1)] -log[prob(E2)] - ... -log[prob(Ek)]
 ```
 我们发现每条边的-log[prob(Ek)]都是正数，并且目标是最小化路径之和。所以考虑-log[prob(Ek)]为权重的图，原题就可以转化成标准的最短路径问题。
