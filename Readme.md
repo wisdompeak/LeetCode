@@ -368,6 +368,7 @@
 [1191.K-Concatenation-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1191.K-Concatenation-Maximum-Sum) (M+)   
 [1253.Reconstruct-a-2-Row-Binary-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1253.Reconstruct-a-2-Row-Binary-Matrix) (M)    
 [1402.Reducing-Dishes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1402.Reducing-Dishes) (M)    
+[1488.Avoid-Flood-in-The-City](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1488.Avoid-Flood-in-The-City) (H-)  
 [1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits) (H)  
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
@@ -380,7 +381,6 @@
 984.String-Without-AAA-or-BBB (TBD)    
 [1054.Distant-Barcodes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1054.Distant-Barcodes) (M+)    
 1405.Longest-Happy-String (TBD)   
-[1488.Avoid-Flood-in-The-City](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1488.Avoid-Flood-in-The-City) (H-)  
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 061.Rotate-List     
