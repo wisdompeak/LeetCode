@@ -95,7 +95,7 @@
 [939.Minimum-Area-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Hash/939.Minimum-Area-Rectangle) (M+)   
 982.Triples-with-Bitwise-AND-Equal-To-Zero (M+) (TBD)   
 [1074.Number-of-Submatrices-That-Sum-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1074.Number-of-Submatrices-That-Sum-to-Target) (M+)   
-1224.Maximum-Equal-Frequency (H-) 
+1224.Maximum-Equal-Frequency (H-)  
 [1487.Making-File-Names-Unique](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1487.Making-File-Names-Unique) (M+)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
