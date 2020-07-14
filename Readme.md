@@ -55,7 +55,7 @@
 1095.Find-in-Mountain-Array (TBD)    
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H-)    
 1201.Ugly-Number-III (TBD)    
-1231.Divide-Chocolate (TBD)   
+[1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)  
 * ``Binary Search by Value``  
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
@@ -67,6 +67,7 @@
 [786.K-th-Smallest-Prime-Fraction](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/786.K-th%20Smallest-Prime-Fraction) (H-)   
 [793.Preimage-Size-of-Factorial-Zeroes-Function](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/793.Preimage-Size-of-Factorial-Zeroes-Function) (H-)    
 [1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
+1231.Divide-Chocolate (TBD)   
 1283.Find-the-Smallest-Divisor-Given-a-Threshold (TBD)    
 [1300.Sum-of-Mutated-Array-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
 [1508.Range-Sum-of-Sorted-Subarray-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1508.Range-Sum-of-Sorted-Subarray-Sums) (M+)  
