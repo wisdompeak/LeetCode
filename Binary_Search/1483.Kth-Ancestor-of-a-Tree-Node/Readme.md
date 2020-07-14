@@ -23,6 +23,6 @@ node = p[node][0], node = p[node][1], node = p[node][2]
 ```
 接下来我们考虑如何构建p[node][j].
 
-我们知道node的4代祖先p[node][2]，可以通过两次2代祖先的query来实现，即```node=p[node][1], node=p[node][1]```。于是我们可以发现，如果知道了p[node][j]，就可以推出p[node][j+1]。即```p[node][j] = p[p[node][j-1]][j-1]```。所以我们设置两层循环，外循环从小到大确定j，内循环设置node，就可以设置所有的p[node][j]了。
+我们知道node的4代祖先p[node][2]，可以通过两次2代祖先的query来实现，即```node=p[node][1], node=p[node][1]```。于是我们可以发现，如果知道了p[node][j-1]，就可以推出p[node][j]。即```p[node][j] = p[p[node][j-1]][j-1]```。所以我们设置两层循环，外循环从小到大确定j，内循环设置node，就可以设置所有的p[node][j]了。
 
 这种思想叫做binary lifting.
