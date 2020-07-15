@@ -26,7 +26,7 @@ vector<TreeNode*> generateTreesDFS(int start, int end)
             }             
 ```            
 另外需要注意的细节：
-如果start>end，需要返回的是一个包含NULL的vector<TreeNode\*>，而不是空数组。否则之后的二重循环就可能无法展开。
+如果start>end，需要返回的是一个包含NULL的```vector<TreeNode*>```，而不是空数组。否则之后的二重循环就可能无法展开。
 
 
 [Leetcode Link](https://leetcode.com/problems/unique-binary-search-trees-ii)
