@@ -651,7 +651,6 @@
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+)   
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
-[296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
 [335.Self-Crossing](https://github.com/wisdompeak/LeetCode/tree/master/Math/335.Self-Crossing) (H)    
 [365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (M)    
@@ -675,9 +674,12 @@
 [1040.Moving-Stones-Until-Consecutive-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/1040.Moving-Stones-Until-Consecutive-II) (H)    
 [1015.Smallest-Integer-Divisible-by-K](https://github.com/wisdompeak/LeetCode/tree/master/Math/1015.Smallest-Integer-Divisible-by-K) (M+)   
 [1103.Distribute-Candies-to-People](https://github.com/wisdompeak/LeetCode/tree/master/Math/1103.Distribute-Candies-to-People) (M+)   
-[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H-)    
 1330.Reverse-Subarray-To-Maximize-Array-Value (TBD)   
 [1250.Check-If-It-Is-a-Good-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/1250.Check-If-It-Is-a-Good-Array) (M+)   
+
+#### [Distances]
+[296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
+[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)    
 
 #### [Geometry]
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
