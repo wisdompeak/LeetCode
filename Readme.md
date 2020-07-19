@@ -580,7 +580,8 @@
 [1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1024.Video-Stitching) (M+)    
 1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden (TBD)   
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
-[1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
+[1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-) 
+[1520.Maximum-Number-of-Non-Overlapping-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1520.Maximum-Number-of-Non-Overlapping-Substrings) (H-)  
 
 #### [Sweep Line]
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
