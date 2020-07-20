@@ -1,14 +1,14 @@
 class Solution {
 public:
-    bool canFinish(int numCourses, vector<pair<int, int>>& prerequisites) 
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) 
     {
-        unordered_map<int,vector<int>>next;
-        unordered_map<int,int>InDegree;
+        vector<vector<int>>next(numCourses);
+        vector<int>InDegree(numCourses);
         for (auto p: prerequisites)
         {
-            next[p.first].push_back(p.second);
-            InDegree[p.second]++;
-        }        
+            next[p[0]].push_back(p[1]);
+            InDegree[p[1]]++;
+        }
         queue<int>q;
         int count = 0;
         for (int i=0; i<numCourses; i++)
