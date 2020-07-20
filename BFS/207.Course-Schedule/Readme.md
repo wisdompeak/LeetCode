@@ -20,7 +20,6 @@ DFS的基本思想是从任意一个未访问过的节点开始做DFS的遍历�
 ```cpp
     bool dfs(int cur)
     {
-        if (visited[cur]==1) return true;
         visited[cur] = 2;
         for (int next: graph[cur])
         {
