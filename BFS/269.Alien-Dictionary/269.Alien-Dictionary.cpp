@@ -2,40 +2,40 @@ class Solution {
 public:
     string alienOrder(vector<string>& words) 
     {
-        map<char,set<char>>Next;
-        map<char,int>inDegree;
+        unordered_map<char,unordered_set<char>>Next;
+        unordered_map<char,int>inDegree;
         
-        int totalChar=0;
         for (int i=0; i<words.size(); i++)
             for (int j=0; j<words[i].size(); j++)
-                inDegree[words[i][j]] = 0;               
+                inDegree[words[i][j]] = 0;
         
         for (int i=1; i<words.size(); i++)
         {
             string word1 = words[i-1];
             string word2 = words[i];
             
+            if (word1.size()>word2.size() && word1.substr(0, word2.size())==word2) return "";
+            
             for (int i=0; i<min(word1.size(),word2.size()); i++)
             {
-                if (word1[i]==word2[i]) continue;
-                
+                if (word1[i]==word2[i]) continue;                
                 if (Next[word1[i]].find(word2[i])==Next[word1[i]].end())
                 {
                     Next[word1[i]].insert(word2[i]);
                     inDegree[word2[i]]++;
-                }                    
+                }
                 break;
-            }
+            }            
         }
-        
-        priority_queue<char,vector<int>,greater<char>>q;
-        for (auto a:inDegree)
+                        
+        queue<char>q;
+        for (auto a:inDegree) 
             if (a.second==0) q.push(a.first);
         string result;
         
         while (!q.empty())
         {
-            char current = q.top();
+            char current = q.front();
             q.pop();
             result+=current;
             
