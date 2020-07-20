@@ -1,19 +1,16 @@
 class Solution {
     vector<int>visited;
-    vector<vector<int>>graph;
+    vector<vector<int>>next;
 public:
     bool canFinish(int numCourses, vector<vector<int>>& prerequisites) 
     {
         visited.resize(numCourses, 0);
-        graph.resize(numCourses);
-        
+        next.resize(numCourses);        
         for (auto p: prerequisites)        
-            graph[p[0]].push_back(p[1]);
-        
+            next[p[0]].push_back(p[1]);
         
         for (int i=0; i<numCourses; i++)
-        {
-            if (visited[i]==1) continue;
+        {            
             if (dfs(i)==false) return false;            
         }
         
@@ -22,8 +19,10 @@ public:
     
     bool dfs(int cur)
     {
+        if (visited[cur]==1) return true;
+
         visited[cur] = 2;
-        for (int next: graph[cur])
+        for (int next: next[cur])
         {
             if (visited[next]==1) continue;
             if (visited[next]==2) return false;
