@@ -307,7 +307,7 @@
 * ``拓扑排序``   
 [207.Course-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/BFS/207.Course-Schedule) (H-)   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
-269.Alien-Dictionary (H)    
+[269.Alien-Dictionary](https://github.com/wisdompeak/LeetCode/tree/master/BFS/269.Alien-Dictionary) (H-)    
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)    
 [802.Find-Eventual-Safe-States](https://github.com/wisdompeak/LeetCode/tree/master/BFS/802.Find-Eventual-Safe-States) (H-)   
 1136.Parallel-Courses (TBD)   
