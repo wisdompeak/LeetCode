@@ -312,7 +312,7 @@
 [802.Find-Eventual-Safe-States](https://github.com/wisdompeak/LeetCode/tree/master/BFS/802.Find-Eventual-Safe-States) (H-)   
 1136.Parallel-Courses (TBD)   
 [1203.Sort-Items-by-Groups-Respecting-Dependencies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1203.Sort-Items-by-Groups-Respecting-Dependencies) (H)  
-1462.Course-Schedule-IV (TBD)   
+[1462.Course-Schedule-IV](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1462.Course-Schedule-IV) (M)    
 
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
