@@ -167,6 +167,7 @@
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H)  
+[1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
 
 #### [Binary Index Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
@@ -373,6 +374,7 @@
 [1402.Reducing-Dishes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1402.Reducing-Dishes) (M)    
 [1488.Avoid-Flood-in-The-City](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1488.Avoid-Flood-in-The-City) (H-)  
 [1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits) (H)  
+[1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
