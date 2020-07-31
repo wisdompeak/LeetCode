@@ -4,29 +4,23 @@ public:
     {
         unordered_map<int,int>Map;
         for (auto x:barcodes)
-            Map[x]++;
-        vector<pair<int,int>>q;
-        for (auto x:Map)
-            q.push_back({x.second,x.first});
-        sort(q.begin(),q.end());
-        reverse(q.begin(),q.end());
+            Map[x]+=1;
         
-        vector<int>idx;
-        for (int i=0; i<barcodes.size(); i+=2)
-            idx.push_back(i);
-        for (int i=1; i<barcodes.size(); i+=2)
-            idx.push_back(i);
-        
-        vector<int>results(barcodes.size());
-        int k = 0;
-        for (auto x:q)
+        vector<pair<int,int>>p;
+        for (auto x: barcodes)
+            p.push_back({Map[x], x});        
+        sort(p.begin(), p.end());
+        reverse(p.begin(), p.end());
+
+        int n = barcodes.size();
+        vector<int>ret(n);
+        int i = 0;
+        for (auto x: p)
         {
-            for (int i=0; i<x.first; i++)
-            {
-                results[idx[k]] = x.second;
-                k++;
-            }                
+            ret[i] = x.second;
+            i+=2;
+            if (i>=n) i = 1;
         }
-        return results;
+        return ret;            
     }
 };
