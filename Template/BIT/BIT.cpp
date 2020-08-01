@@ -1,45 +1,37 @@
-class Solution {
+class NumArray {
 public:
-    vector<int> bit;
-    
-    long long sortedArrangement(vector<int> &nums) 
-    {
-        int n = nums.size();
-        bit.resize(n+1);
+    vector<int>bitArr;
 
-        long long result = 0;
-        
-        for (int i = 0; i < n; i++) {
-            int k1 = querySum(nums[i] - 1);
-            int k2 = i - k1;
-            result += 2 * min(k1, k2) + 1;
-            update(nums[i], 1);
+    NumArray(vector<int>& nums) {
+        int n = nums.size();        
+        bitArr.resize(n+1);
+        nums.insert(nums.begin(),0);
+        for (int i=1; i<=n; i++)
+            my_update(i+1, nums[i]);
+        cout<<"init done"<<endl;
+    }
+
+    // increase nums[i] by delta (1-index)
+    void my_update(int i, int delta) {
+        while (idx<bitArr.size())
+        {
+            bitArr[idx]+=delta;
+            idx+=idx&(-idx);
         }
-        
+    }
+    
+    // sum of range [1:idx] (1-index)
+    int my_query(int idx){        
+        int result = 0;
+        while (idx){
+            result += bitArr[idx];
+            idx-=idx&(-idx);
+        }
         return result;
     }
-    
-    int lowbit(int x) 
-    {
-        return x & (-x);
-    }
-    
-    void update(int pos, int value) 
-    {
-        while (pos < bit.size()) 
-        {
-            bit[pos] += value;
-            pos += lowbit(pos);
-        }
-    }
-    
-    int querySum(int pos) 
-    {
-        int sum = 0;
-        while (pos > 0) {
-            sum += bit[pos];
-            pos -= lowbit(pos);
-        }
-        return sum;
+
+    // sum of range [i:j] (1-index)
+    int sumRange(int i, int j) {
+        return my_query(j)-my_query(i-1);
     }
 };
