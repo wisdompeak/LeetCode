@@ -27,7 +27,7 @@ public:
             auto y = pq.top();
             pq.pop();
 
-            int k = min(x.first-y.first, 2);
+            int k = min(1+x.first-y.first, 2);
             for (int i=0; i<k; i++)
                 ret.push_back(x.second);
             ret.push_back(y.second);
