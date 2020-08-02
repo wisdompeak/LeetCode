@@ -382,6 +382,7 @@
 [1488.Avoid-Flood-in-The-City](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1488.Avoid-Flood-in-The-City) (H-)  
 [1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1505.Minimum-Possible-Integer-After-at-Most-K-Adjacent-Swaps-On-Digits) (H)  
 [1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
+[1536.Minimum-Swaps-to-Arrange-a-Binary-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1536.Minimum-Swaps-to-Arrange-a-Binary-Grid) (H-)  
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
