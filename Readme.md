@@ -764,4 +764,5 @@
 1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List (TBD)    
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
-[Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)
+[Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)  
+[BIT](https://github.com/wisdompeak/LeetCode/tree/master/Template/BIT)  
