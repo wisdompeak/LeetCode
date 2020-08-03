@@ -6,4 +6,4 @@
 
 我们重复利用这个策略，就可以得到26种符合第二个条件的substring，他们的起始点分别是第一个a、第一个b、第一个c...所谓“符合第二个条件”就是题意中的 A substring that contains a certain character c must also contain all occurrences of c。注意，实现这个的时间复杂度是o(26N). 
 
-接下来特别注意，这（最多）26种substring，要么互斥，要么互相嵌套，不可能出现部分相交的情况。对于互相嵌套的区间，根据题意 If there are multiple solutions with the same number of substrings, return the one with minimum total length. 我们再两两比较一下每对区间，将互相嵌套的大区间都排除即可。
+接下来特别注意，这（最多）26种substring，要么互斥，要么互相嵌套，不可能出现部分相交的情况。（Why？假设有两个按照上述规则生成的合法区间ABC和BCD，而之所以BCD成立是因为BC本身必定不是合法的必须延伸到D，那么这与ABC本身已经合法相互矛盾。）对于互相嵌套的区间，根据题意 If there are multiple solutions with the same number of substrings, return the one with minimum total length. 我们再两两比较一下每对区间，将互相嵌套的大区间都排除即可。
