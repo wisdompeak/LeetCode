@@ -8,4 +8,4 @@
 
 然后我们对这些（至多）26个substring，求最多数目的非重合的区间，于是就转化为了 435.Non-overlapping-Intervals 的问题。大致的算法思想是贪心。我们将所有的区间按照右边界从小到大排序。对于当前的区间，假设右边界是right，那么对于后续的、左边界小于right的区间，都可以忽略。因为这些区间必然是重叠的，但是我们只能保留一个。保留哪一个呢？最优解就是保留右边界最小的，因为它对后续区间的重合威胁最小。
 
-此外，本题还有一个要求： If there are multiple solutions with the same number of substrings, return the one with minimum total length. 这个情况出现在：假设字符串 abcba，其中包含了三个合法的substring：abcba, bcb, c。但这三个不能同时出现，题意要求输出的是“c”。对此，上述的算法已经解决了这个问题。因为这三个区间，必然是“c”排在最前面，因此必然能够保留，另外两个则会被略去。
+此外，本题还有一个要求： If there are multiple solutions with the same number of substrings, return the one with minimum total length. 这个情况其实对应的模式是：形如```abcba```的字符串：其中包含了三个互相嵌套的合法的substring：abcba, bcb, c。但这三个不能同时出现，题意要求输出的是“c”。对此，上述的算法已经解决了这个问题。因为这三个区间，必然是“c”排在最前面，因此必然能够保留，另外两个则会被略去。
