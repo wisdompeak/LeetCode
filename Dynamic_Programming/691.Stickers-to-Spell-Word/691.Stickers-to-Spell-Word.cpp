@@ -11,14 +11,14 @@ public:
             if (dp[state]==INT_MAX) continue;
             for (string str:stickers)
             {
-                int new_state = findNextStatus(state,target,str);
+                int new_state = findNextStatusByUsingStr(state,target,str);
                 dp[new_state] = min(dp[new_state], dp[state]+1);
             }
         }
         return dp[(1<<n)-1]==INT_MAX?-1: dp[(1<<n)-1];
     }
     
-    int findNextStatus(int status, string target, string s)
+    int findNextStatusByUsingStr(int status, string target, string s)
     {
         int n = target.size();
         for (auto ch:s)
