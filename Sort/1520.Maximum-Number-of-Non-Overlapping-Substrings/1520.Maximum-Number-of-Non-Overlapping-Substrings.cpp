@@ -1,7 +1,7 @@
 class Solution {
     static bool cmp(vector<int>&a, vector<int>&b)
     {
-        return a[1]<b[1];
+        return a[1]-a[0] < b[1]-b[0];
     }
 public:
     vector<string> maxNumOfSubstrings(string s) 
@@ -32,19 +32,23 @@ public:
             if (valid) intervals.push_back({left, right});
         }
         
-        sort(intervals.begin(), intervals.end(), cmp);                 
-        
-        vector<string>ret;        
-        for (int i=0; i<intervals.size(); )
+        sort(intervals.begin(), intervals.end(), cmp); 
+        vector<int>flags(intervals.size(),1);
+
+        for (int i=0; i<intervals.size(); i++)
         {
-            ret.push_back(s.substr(intervals[i][0], intervals[i][1]-intervals[i][0]+1));
-            int right = intervals[i][1];
-            int j = i+1;
-            while (j<intervals.size() && intervals[j][0]<right)
-                j++;            
-            i = j;              
+            if (flags[i]==0) continue;
+            for (int j=i+1; j<intervals.size(); j++)
+            {                
+                if (flags[j]!=0 && intervals[i][0]>intervals[j][0] && intervals[i][1]<intervals[j][1])                
+                    flags[j] = 0;                
+            }
         }
-        if (ret.size()==0) return {s};
-        else return ret;
+
+        vector<string> ret ;
+        for (int i=0; i<intervals.size(); i++)
+            if (flags[i]) ret.push_back(s.substr(intervals[i][0], intervals[i][1]-intervals[i][0]+1));
+
+        return ret;
     }
 };
