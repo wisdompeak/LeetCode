@@ -3,20 +3,19 @@ public:
     int minStickers(vector<string>& stickers, string target) 
     {
         int n = target.size();
-        int N = (1<<n);
-        vector<int>dp(N,INT_MAX);
+        vector<int>dp(1<<n,INT_MAX);
         dp[0] = 0;
 
-        for (int i=0; i<N; i++)
+        for (int state=0; state<(1<<n); state++)
         {
-            if (dp[i]==INT_MAX) continue;
+            if (dp[state]==INT_MAX) continue;
             for (string str:stickers)
             {
-                int j = findNextStatus(i,target,str);
-                dp[j] = min(dp[j], dp[i]+1);
+                int new_state = findNextStatus(state,target,str);
+                dp[new_state] = min(dp[new_state], dp[state]+1);
             }
         }
-        return dp[N-1]==INT_MAX?-1: dp[N-1];
+        return dp[(1<<n)-1]==INT_MAX?-1: dp[(1<<n)-1];
     }
     
     int findNextStatus(int status, string target, string s)
@@ -24,13 +23,14 @@ public:
         int n = target.size();
         for (auto ch:s)
         {
+            // loop over each character in target, if equals to ch and not filled, then set as filled
             for (int k=0; k<n; k++)
             {
                 if (((status>>k)&1)==0 && target[k]==ch)
                 {
                     status = status+(1<<k);   
                     break;
-                }           
+                }              
             }
         }
         return status;
