@@ -26,7 +26,7 @@ public:
                 if (zeros[j]>=num)
                     break;
             }
-            if (j==n || zeros[j]<num) return -1;
+            if (j==n) return -1;
             count += j-i;
             int temp = zeros[j];
             for (int k=j; k>i; k--)
