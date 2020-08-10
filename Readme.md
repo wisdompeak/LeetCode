@@ -103,7 +103,6 @@
 [930.Binary-Subarrays-With-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Hash/930.Binary-Subarrays-With-Sum) (M)   
 [1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts) (H-)  
 [1542.Find-Longest-Awesome-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1542.Find-Longest-Awesome-Substring) (H)  
-1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target (TBD)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
@@ -462,6 +461,7 @@
 [983.Minimum-Cost-For-Tickets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/983.Minimum-Cost-For-Tickets) (H-)    
 [1043.Partition-Array-for-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1043.Partition-Array-for-Maximum-Sum)(M+)    
 [1105.Filling-Bookcase-Shelves](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1105.Filling-Bookcase-Shelves) (H-)    
+1546. Maximum Number of Non-Overlapping Subarrays With Sum Equals Target (TBD)  
 * ``走迷宫型``   
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
 [741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
@@ -502,6 +502,7 @@
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
 [1246.Palindrome-Removal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1246.Palindrome-Removal) (H)   
 [1039.Minimum-Score-Triangulation-of-Polygon](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1039.Minimum-Score-Triangulation-of-Polygon) (H)   
+1547. Minimum Cost to Cut a Stick (TBD)  
 * ``双序列型``   
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [044.Wildcard-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/044.Wildcard-Matching) (H-)  
