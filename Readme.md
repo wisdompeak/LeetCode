@@ -650,6 +650,7 @@
 [991.Broken-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/991.Broken-Calculator) (M)   
 [1088.Confusing-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1088.Confusing-Number-II) (H)   
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
+1545. Find Kth Bit in Nth Binary String (TBD)  
 * ``Min-Max Strategy``    
 1140.Stone-Game-II     
 1406.Stone-Game-III (TBD)    
@@ -771,6 +772,7 @@
 1363.Largest-Multiple-of-Three (TBD)    
 1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List (TBD)    
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
+1540. Can Convert String in K Moves (TBD)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
 [Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)  
