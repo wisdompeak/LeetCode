@@ -4,7 +4,7 @@
 
 当```len(s)<6```时,需要添加6-len(s)个字符.注意到,此中情况下没有重复序列的问题,并且add的操作同时可以解决MissingType的问题.所以最终答案是```max(MissingType,6-len(s))```
 
-当```6<=len(s)<=20```时,只存在MissingType和重复序列的问题,而没有需要删除字符的问题.我们容易计算出最高效的"替换"操作方案,也就是每遇到aaa的情况就将第三个元素替换成别的,计做一次change.这样所需的change是最少.同时,考虑到"替换"也可以解决MissingType的问题.所以最终答案是```max(MissingType,change)'''
+当```6<=len(s)<=20```时,只存在MissingType和重复序列的问题,而没有需要删除字符的问题.我们容易计算出最高效的"替换"操作方案,也就是每遇到aaa的情况就将第三个元素替换成别的,计做一次change.这样所需的change是最少.同时,考虑到"替换"也可以解决MissingType的问题.所以最终答案是```max(MissingType,change)```
 
 当```len(s)>20```时,会同时存在MissingType,重复序列,删除字符的问题,情况最为复杂.我们慢慢分析.
 
