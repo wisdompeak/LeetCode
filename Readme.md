@@ -504,7 +504,7 @@
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (M+)    
 [1246.Palindrome-Removal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1246.Palindrome-Removal) (H)   
 [1039.Minimum-Score-Triangulation-of-Polygon](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1039.Minimum-Score-Triangulation-of-Polygon) (H)   
-1547. Minimum Cost to Cut a Stick (TBD)  
+1547.Minimum Cost to Cut a Stick (TBD)  
 * ``双序列型``   
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [044.Wildcard-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/044.Wildcard-Matching) (H-)  
