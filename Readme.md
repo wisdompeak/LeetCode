@@ -777,7 +777,8 @@
 1363.Largest-Multiple-of-Three (TBD)    
 1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List (TBD)    
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
-1540. Can Convert String in K Moves (TBD)  
+1539.Kth Missing Positive Number (TBD)  
+1540.Can Convert String in K Moves (TBD)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
 [Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)  
