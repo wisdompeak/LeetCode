@@ -5,14 +5,16 @@ public:
         int right = nums.back()+k;
         while (left < right)
         {
-            int mid = left+(right-left)/2;
-            int t = upper_bound(nums.begin(), nums.end(), mid) - nums.begin(); // how many nums <= mid in the array
-            int s = mid-nums[0]+1; // how many nums <= mid            
+            int mid = right-(right-left)/2;
             
-            if (s-t >= k)  // how many missing between [nums[0], mid]
-                right = mid;
+            int M = mid-nums[0]; // how many nums < mid            
+            int T = lower_bound(nums.begin(), nums.end(), mid) - nums.begin(); // how many nums < mid in this array            
+            int missing = M - T;
+                        
+            if (missing > k-1)
+                right = mid-1;
             else
-                left = mid+1;            
+                left = mid;            
         }
         
         return left;
