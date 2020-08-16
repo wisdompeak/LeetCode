@@ -57,6 +57,7 @@
 1201.Ugly-Number-III (TBD)    
 [1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)  
 [1533.Find-the-Index-of-the-Large-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1533.Find-the-Index-of-the-Large-Integer) (M)  
+[1060.Missing-Element-in-Sorted-Array](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/1060.Missing-Element-in-Sorted-Array) (H)  
 * ``Binary Search by Value``  
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
