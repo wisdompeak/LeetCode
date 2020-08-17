@@ -660,6 +660,7 @@
 [1088.Confusing-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1088.Confusing-Number-II) (H)   
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
 1545. Find Kth Bit in Nth Binary String (TBD)  
+[1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 * ``Min-Max Strategy``    
 1140.Stone-Game-II     
 1406.Stone-Game-III (TBD)    
