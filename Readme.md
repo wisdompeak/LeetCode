@@ -74,7 +74,7 @@
 [1283.Find-the-Smallest-Divisor-Given-a-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold) (M)  
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
 [1300.Sum-of-Mutated-Array-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
-1482.Minimum Number of Days to Make m Bouquets (TBD)  
+[1482.Minimum Number of Days to Make m Bouquets](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1482.Minimum-Number-of-Days-to-Make-m-Bouquets) (TBD)  
 [1508.Range-Sum-of-Sorted-Subarray-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1508.Range-Sum-of-Sorted-Subarray-Sums) (M+)  
 1552.Magnetic Force Between Two Balls (TBD)  
 
