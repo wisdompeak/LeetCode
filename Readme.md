@@ -76,7 +76,7 @@
 [1300.Sum-of-Mutated-Array-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1300.Sum-of-Mutated-Array-Closest-to-Target) (M+)   
 [1482.Minimum-Number-of-Days-to-Make-m-Bouquets](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1482.Minimum-Number-of-Days-to-Make-m-Bouquets) (M)  
 [1508.Range-Sum-of-Sorted-Subarray-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1508.Range-Sum-of-Sorted-Subarray-Sums) (M+)  
-1552.Magnetic Force Between Two Balls (TBD)  
+[1552.Magnetic-Force-Between-Two-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1552.Magnetic-Force-Between-Two-Balls) (M)  
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
