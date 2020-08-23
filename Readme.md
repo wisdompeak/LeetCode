@@ -344,6 +344,7 @@
 212.Word-Search-II (H-)  
 [745.Prefix-and-Suffix-Search](https://github.com/wisdompeak/LeetCode/tree/master/Trie/745.Prefix-and-Suffix-Search) (H-)    
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
+1032. Stream of Characters (TBD)  
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
