@@ -322,6 +322,7 @@
 1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
 1345.Jump Game IV (TBD)    
 1368.Minimum Cost to Make at Least One Valid Path in a Grid (TBD)    
+1559.Detect Cycles in 2D Grid (TBD)  
 * ``拓扑排序``   
 [207.Course-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/BFS/207.Course-Schedule) (H-)   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
