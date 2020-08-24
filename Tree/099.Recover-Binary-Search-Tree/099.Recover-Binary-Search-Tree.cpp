@@ -28,7 +28,7 @@ public:
         
         DFS(node->left);
         
-        if (node->val>CurMax->val)
+        if (node->val >= CurMax->val)
             CurMax = node;
         else
         {
