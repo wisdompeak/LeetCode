@@ -1,48 +1,31 @@
 class Solution {
-    vector<int>sufSum;
-    map<pair<int,int>,int>Map;
+    int dp[101][101];    
+    int sufsum[101];
 public:
     int stoneGameII(vector<int>& piles) 
     {
         int n = piles.size();
-        sufSum.resize(n);
+        for (int i=0; i<=100; i++)
+            for (int j=0; j<=100; j++)
+                dp[i][j] = 0;
+        sufsum[n] = 0;
         for (int i=n-1; i>=0; i--)
-        {
-            if (i==n-1) sufSum[i] = piles.back();
-            else sufSum[i] = piles[i]+sufSum[i+1];
-        }
-                           
-        int M = 1;
-        return dfs(piles,0,M);
+            sufsum[i] = sufsum[i+1]+piles[i];
+        return solve(0, 1, piles);
     }
-    
-    int dfs(vector<int>& piles, int start, int M)
-    {                
-        if (start>=piles.size()) return 0;
-        if (Map.find({start,M})!=Map.end())
-            return Map[{start,M}];       
-       
+
+    int solve(int i, int M, vector<int>& piles)
+    {
+        if (i==piles.size()) return 0;
+        if (dp[i][M]!=0) return dp[i][M];
+
         int sum = 0;
-        int best = 0;
-        for (int i=start; i<start+2*M; i++)
+        for (int x=1; x<=2*M; x++)
         {
-            if (i>=piles.size()) continue;
-            
-            sum += piles[i];
-            int X = i-start+1;            
-            int other = dfs(piles, i+1, max(X,M));
-            
-            int ret;
-            if (i+1==piles.size())
-                ret = sum;
-            else
-                ret = sum + sufSum[i+1] - other;
-            
-            if (ret>best)
-                best = ret;            
+            if (i+x>piles.size()) break;
+            sum += piles[i+x-1];
+            dp[i][M] = max(dp[i][M], sum + sufsum[i+x] - solve(i+x, max(x,M), piles));
         }
-        
-        Map[{start,M}] = best;
-        return best;
+        return dp[i][M];
     }
 };
