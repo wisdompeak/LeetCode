@@ -19,12 +19,10 @@ public:
         if (i==piles.size()) return 0;
         if (dp[i][M]!=0) return dp[i][M];
 
-        int sum = 0;
         for (int x=1; x<=2*M; x++)
         {
             if (i+x>piles.size()) break;
-            sum += piles[i+x-1];
-            dp[i][M] = max(dp[i][M], sum + sufsum[i+x] - solve(i+x, max(x,M), piles));
+            dp[i][M] = max(dp[i][M], sufsum[i] - solve(i+x, max(x,M), piles));
         }
         return dp[i][M];
     }
