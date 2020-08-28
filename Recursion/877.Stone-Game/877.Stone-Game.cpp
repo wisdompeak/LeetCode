@@ -1,24 +1,18 @@
 class Solution {
+    int dp[501][501];
 public:
-    bool stoneGame(vector<int>& nums) 
+    bool stoneGame(vector<int>& piles) 
     {
-        if(nums.size()% 2 == 0) return true;
-        
-        int n = nums.size();
-        vector<vector<int>> dp(n, vector<int>(n, -1));
-        
-        int myBest = utill(nums, dp, 0, n-1);
-        return 2*myBest >= accumulate(nums.begin(), nums.end(), 0)?1:2;
+        int myBest = solve(0, piles.size()-1, piles);
+        int total = accumulate(piles.begin(), piles.end(), 0);
+        return (myBest>total-myBest);
     }
-    
-    int utill(vector<int>& v, vector<vector<int>> &dp, int i, int j){
-        if(i > j) return 0;
-        if(dp[i][j] != -1) return dp[i][j];
-        
-        int a = v[i] + min(utill(v,dp, i+1, j-1), utill(v, dp, i+2, j));
-        int b = v[j] + min(utill(v,dp,i, j-2), utill(v,dp, i+1, j-1));
-        dp[i][j] = max(a, b);
-                        
-        return dp[i][j];
+
+    int solve(int a, int b, vector<int>& piles)
+    {
+        if (a==b) return piles[a];
+        if (dp[a][b]!=0) return dp[a][b];
+        dp[a][b] = max(piles[a]+solve(a+1,b, piles), piles[b]+solve(a,b-1, piles));
+        return dp[a][b];
     }
 };
