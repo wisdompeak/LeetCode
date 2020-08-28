@@ -516,7 +516,6 @@
 [1246.Palindrome-Removal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1246.Palindrome-Removal) (H)   
 [1039.Minimum-Score-Triangulation-of-Polygon](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1039.Minimum-Score-Triangulation-of-Polygon) (H)   
 1547.Minimum Cost to Cut a Stick (TBD)  
-[1563.Stone-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1563.Stone-Game-V) (H-)  
 * ``双序列型``   
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [044.Wildcard-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/044.Wildcard-Matching) (H-)  
@@ -656,7 +655,6 @@
 779.K-th-Symbol-in-Grammar (M)    
 [780.Reaching-Points](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/780.Reaching-Points) (H-)    
 [808.Soup-Servings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/808.Soup-Servings) (H)   
-[877.Stone-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/877.Stone-Game) (M+)    
 [880.Decoded-String-at-Index](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/880.Decoded-String-at-Index) (H-)    
 [902.Numbers-At-Most-N-Given-Digit-Set](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/902.Numbers-At-Most-N-Given-Digit-Set) (M)   
 932.Beautiful-Array (H-)    
@@ -667,9 +665,11 @@
 1545. Find Kth Bit in Nth Binary String (TBD)  
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 * ``Min-Max Strategy``    
+[877.Stone-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/877.Stone-Game) (M+)    
 [1140.Stone-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1140.Stone-Game-II) (M)  
 [1406.Stone-Game-III](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1406.Stone-Game-III) (M+)  
 [1510.Stone-Game-IV](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1510.Stone-Game-IV) (M)  
+[1563.Stone-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1563.Stone-Game-V) (H-)  
 
 #### [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/)
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
