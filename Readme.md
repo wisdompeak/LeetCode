@@ -168,6 +168,7 @@
 [1028.Recover-a-Tree-From-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1028.Recover-a-Tree-From-Preorder-Traversal) (H-)   
 1339. Maximum-Product-of-Splitted-Binary-Tree (TBD)   
 [1516.Move-Sub-Tree-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1516.Move-Sub-Tree-of-N-Ary-Tree) (H-)  
+[1569.Number-of-Ways-to-Reorder-Array-to-Get-Same-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1569.Number-of-Ways-to-Reorder-Array-to-Get-Same-BST) (H)  
 
 #### [Segment Tree](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/)
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
