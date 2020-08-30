@@ -30,37 +30,30 @@ public:
                 comb[i][j] = -1;
         
         TreeNode* root = new TreeNode(nums[0]);
-        for (int i=1; i<nums.size(); i++)
-        {
-            TreeNode* node = root;
-            while (1)
-            {
-                if (nums[i]>node->val)
-                {
-                    if (node->right==NULL)
-                    {
-                        node->right = new TreeNode(nums[i]);
-                        break;
-                    }                       
-                    else
-                        node=node->right;
-                }
-                else
-                {
-                    if (node->left==NULL)
-                    {
-                        node->left = new TreeNode(nums[i]);
-                        break;
-                    }                       
-                    else
-                        node=node->left;
-                }
-            }
-        }
+        for (int i=1; i<nums.size(); i++)        
+            insertNode(root, nums[i]);
                     
         long num, val;
         dfs(root, num, val);
         return val-1;
+    }
+
+    void insertNode(TreeNode* root, int val)
+    {
+        if (val < root->val)
+        {
+            if (root->left==NULL)
+                root->left = new TreeNode(val);
+            else
+                insertNode(root->left, val);
+        }
+        else
+        {
+            if (root->right==NULL)
+                root->right = new TreeNode(val);
+            else
+                insertNode(root->right, val);
+        }
     }
     
     void dfs(TreeNode* node, long& num, long& val)
