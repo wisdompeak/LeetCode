@@ -107,6 +107,7 @@
 [930.Binary-Subarrays-With-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Hash/930.Binary-Subarrays-With-Sum) (M)   
 [1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts) (H-)  
 [1542.Find-Longest-Awesome-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1542.Find-Longest-Awesome-Substring) (H)  
+1567.Maximum Length of Subarray With Positive Product (TBD)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
@@ -794,3 +795,4 @@
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
 [Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)  
 [BIT](https://github.com/wisdompeak/LeetCode/tree/master/Template/BIT)  
+[Inverse_Element](https://github.com/wisdompeak/LeetCode/tree/master/Template/Inverse_Element)
