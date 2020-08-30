@@ -322,7 +322,7 @@
 1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination (TBD)   
 1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
 1345.Jump Game IV (TBD)    
-1368.Minimum Cost to Make at Least One Valid Path in a Grid (TBD)    
+[1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1559.Detect-Cycles-in-2D-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1559.Detect-Cycles-in-2D-Grid) (M)  
 * ``拓扑排序``   
 [207.Course-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/BFS/207.Course-Schedule) (H-)   
