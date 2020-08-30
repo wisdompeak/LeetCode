@@ -396,6 +396,7 @@
 [1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
 [1535.Find-the-Winner-of-an-Array-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1535.Find-the-Winner-of-an-Array-Game) (M+)  
 [1536.Minimum-Swaps-to-Arrange-a-Binary-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1536.Minimum-Swaps-to-Arrange-a-Binary-Grid) (H-)  
+[1564.Put-Boxes-Into-the-Warehouse-I](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1564.Put-Boxes-Into-the-Warehouse-I) (M+)  
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
