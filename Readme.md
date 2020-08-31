@@ -321,7 +321,7 @@
 [1245.Tree-Diameter](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1245.Tree-Diameter) (H)    
 1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location (H)   
 1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination (TBD)   
-1298.Maximum-Candies-You-Can-Get-from-Boxes (TBD)   
+[1298.Maximum-Candies-You-Can-Get-from-Boxes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1298.Maximum-Candies-You-Can-Get-from-Boxes) (M+)  
 [1345.Jump-Game-IV](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1345.Jump-Game-IV) (M+)  
 [1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1559.Detect-Cycles-in-2D-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1559.Detect-Cycles-in-2D-Grid) (M)  
