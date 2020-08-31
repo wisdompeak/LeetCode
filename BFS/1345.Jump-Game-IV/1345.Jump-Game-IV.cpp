@@ -1,45 +1,53 @@
-class Solution {    
+class Solution {
 public:
     int minJumps(vector<int>& arr) 
-    {   
-        unordered_map<int,vector<int>>Map;
+    {
         int n = arr.size();
-        vector<int>ret(n,-1);
-        
-        for (int i=0; i<arr.size(); i++)
+        if (n==1) return 0;
+        unordered_map<int,vector<int>>Map;
+        for (int i=0; i<n; i++)
             Map[arr[i]].push_back(i);
         
-        ret[0] = 0;
+        vector<int>visited(n,0);
         queue<int>q;
         q.push(0);
+        visited[0] = 1;
         
+        int step = 0;
         while (!q.empty())
         {
-            int cur = q.front();
-            q.pop();
-            
-            if (cur>=1 && ret[cur-1]==-1)
+            int len = q.size();
+            while (len--)
             {
-                ret[cur-1] = ret[cur]+1;
-                q.push(cur-1);
+                int cur = q.front();
+                q.pop();
+                
+                if (cur+1 < n && visited[cur+1]==0)
+                {
+                    q.push(cur+1);
+                    visited[cur+1] = 1;
+                }
+                if (cur-1 >= 0 && visited[cur-1]==0)
+                {
+                    q.push(cur-1);
+                    visited[cur-1] = 1;
+                }
+                for (int next: Map[arr[cur]])
+                {
+                    if (visited[next] == 0)
+                    {
+                        q.push(next);
+                        visited[next] = 1;
+                    }
+                } 
+                Map.erase(arr[cur]);
+                
             }
-        
-            if (cur<arr.size()-1 && ret[cur+1]==-1)
-            {
-                ret[cur+1] = ret[cur]+1;
-                q.push(cur+1);
-            }
-            
-            for (auto next: Map[arr[cur]])
-            {
-                if (ret[next]!=-1)
-                    continue;
-                ret[next] = ret[cur]+1;
-                q.push(next);
-            }
-            Map.erase(arr[cur]);
+            step += 1;
+            if (visited[n-1] == 1)
+                return step;
         }
-                        
-        return ret[n-1];
-    }    
+        
+        return -1;
+    }
 };
