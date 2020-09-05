@@ -34,6 +34,7 @@
 1052.Grumpy-Bookstore-Owner (M+)    
 [1234.Replace-the-Substring-for-Balanced-String](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1234.Replace-the-Substring-for-Balanced-String) (H-)   
 1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition (TBD)    
+[1574.Shortest-Subarray-to-be-Removed-to-Make-Array-Sorted](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1574.Shortest-Subarray-to-be-Removed-to-Make-Array-Sorted) (H-)  
 
 #### [Binary Search](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays) (H)   
@@ -319,7 +320,7 @@
 [913.Cat-and-Mouse](https://github.com/wisdompeak/LeetCode/tree/master/BFS/913.Cat-and-Mouse) (H+)    
 [1036.Escape-a-Large-Maze](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1036.Escape-a-Large-Maze) (H)  
 [1245.Tree-Diameter](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1245.Tree-Diameter) (H)    
-1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location (H)   
+[1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1263.Minimum-Moves-to-Move-a-Box-to-Their-Target-Location) (H)   
 [1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1293.Shortest-Path-in-a-Grid-with-Obstacles-Elimination) (H-)  
 [1298.Maximum-Candies-You-Can-Get-from-Boxes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1298.Maximum-Candies-You-Can-Get-from-Boxes) (M+)  
 [1311.Get-Watched-Videos-by-Your-Friends](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1311.Get-Watched-Videos-by-Your-Friends) (M)  
