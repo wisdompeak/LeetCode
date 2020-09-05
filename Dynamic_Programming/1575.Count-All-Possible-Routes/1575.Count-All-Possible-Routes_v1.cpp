@@ -14,9 +14,10 @@ public:
                 if (c==finish) ret = (ret+dp[f][c])%M;
                 for (int d = 0; d<n; d++)
                 {
-                    if (d==c) continue;
-                    if (abs(locations[d]-locations[c])>f) continue;
-                    dp[f-abs(locations[d]-locations[c])][d] = (dp[f-abs(locations[d]-locations[c])][d]+dp[f][c])%M;
+                    if (d==c) continue;                  
+                    int gas = abs(locations[d]-locations[c]);
+                    if (f-gas >= 0)
+                        dp[f-gas][d] = (dp[f-gas][d]+dp[f][c])%M;
                 }
             }
         
