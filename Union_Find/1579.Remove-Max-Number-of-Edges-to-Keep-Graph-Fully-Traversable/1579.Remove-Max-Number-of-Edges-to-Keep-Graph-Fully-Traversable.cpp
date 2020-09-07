@@ -51,8 +51,7 @@ public:
             }
         }
         
-        for (int i=0; i<N; i++)
-            Father0[i] = Father[i];
+        memcpy(Father0, Father, sizeof(Father));
         
         for (auto edge: edge1)
         {
@@ -66,8 +65,7 @@ public:
         }
         if (count0+count1!=n) return -1;
         
-        for (int i=0; i<N; i++)
-            Father[i] = Father0[i];
+        memcpy(Father, Father0, sizeof(Father));
         
         for (auto edge: edge2)
         {
