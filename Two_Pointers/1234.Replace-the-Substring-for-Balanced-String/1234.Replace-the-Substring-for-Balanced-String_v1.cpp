@@ -1,79 +1,53 @@
 class Solution {
+    int n;
+    unordered_map<char,int>Map;
+    int count[4];
 public:
     int balancedString(string s) 
     {
-        int n = s.size();
-        
-        vector<int>sum(4,0);
+        n = s.size();        
+        Map['Q'] = 0;
+        Map['W'] = 1;
+        Map['E'] = 2;
+        Map['R'] = 3;        
         for (auto ch:s)
-        {
-            if (ch=='Q')
-                sum[0]++;
-            else if (ch=='W')
-                sum[1]++;
-            else if (ch=='E')
-                sum[2]++;
-            else
-                sum[3]++;
-        }
-        
-        if (sum[0]==sum[1] && sum[1]==sum[2]&&sum[2]==sum[3])
-            return 0;
-        
-        int left = 1; 
-        int right = n-1;
-        
-                
+            count[Map[ch]] += 1;
+        int flag = 1;
+        for (int i=0; i<4; i++)
+            if (count[i]!=n/4)
+                flag = 0;
+        if (flag==1) return 0;
+
+        int left = 1, right = n;
         while (left<right)
         {
             int mid = left+(right-left)/2;
-                        
-            if (work(s, sum, mid))
+            if (isOK(mid, s))
                 right = mid;
             else
                 left = mid+1;
         }
-        
-        if (left==right && work(s,sum,left))
-            return left;
-        else
-            return n;
-        
+        return left;
     }
-    
-    bool work(string &s, vector<int>sum, int len )
+
+    bool isOK(int k, string& s)
     {
-        
-        for (int i=0; i<s.size(); i++)
-        {            
-            if (s[i]=='Q')
-                sum[0]--;
-            else if (s[i]=='W')
-                sum[1]--;
-            else if (s[i]=='E')
-                sum[2]--;
-            else
-                sum[3]--;
-            
-            if (i<len-1) continue;
-            
-            int k = max(max(max(sum[0],sum[1]),sum[2]),sum[3]);
-            int total = k*4- sum[0]-sum[1]-sum[2]-sum[3];
-            
-            if (total<=len)
-                return true;
-            
-            if (s[i-len+1]=='Q')
-                sum[0]++;
-            else if (s[i-len+1]=='W')
-                sum[1]++;
-            else if (s[i-len+1]=='E')
-                sum[2]++;
-            else
-                sum[3]++;
-            
+        vector<int>sum(4,0);
+        for (int i=0; i<n; i++)
+        {
+            sum[Map[s[i]]]+=1;
+            if (i>=k)
+                sum[Map[s[i-k]]]-=1;
+
+            int flag = 1;
+            for (int c=0; c<4; c++)
+                if (count[c]-sum[c] > n/4)
+                {
+                    flag  = 0;
+                    break;
+                }
+            if (flag) return true;                    
         }
-        
         return false;
     }
 };
