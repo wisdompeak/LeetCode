@@ -63,10 +63,8 @@ public:
         for (int i=0; i<m; i++)
             for (int j=0; j<n; j++)
             {
-                vector<int>label(61,0);
                 for (int color=1; color<=60; color++)
                 {
-                    if (left[color]==n) continue;
                     if (i>=top[color]&&i<=bottom[color]&&j>=left[color]&&j<=right[color])
                     {
                         if (color!=targetGrid[i][j])
