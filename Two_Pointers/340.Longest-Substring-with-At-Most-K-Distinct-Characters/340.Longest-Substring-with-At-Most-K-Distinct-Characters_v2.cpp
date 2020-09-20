@@ -4,23 +4,21 @@ public:
     {
         vector<int>freq(256,0);
         int count = 0;
-        int j = 0;
+        int i = 0;
         int ret = 0;
-        for (int i=0; i<s.size(); i++)
+        for (int j=0; j<s.size(); j++)
         {                        
-            while (count <= k)
-            {
-                ret = max(ret, j-i);
-                if (j==s.size()) break;                
-                freq[s[j]]++;
-                if (freq[s[j]]==1)
-                    count++;     
-                j++;
-            }
+            freq[s[j]]++;
+            if (freq[s[j]]==1) count++;
             
-            freq[s[i]]--;
-            if (freq[s[i]]==0)
-                count--;
+            while (count>k)
+            {
+                freq[s[i]]--;
+                if (freq[s[i]]==0)
+                    count--;
+                i++;
+            }
+            ret = max(ret, j-i+1);            
         }
         return ret;        
     }
