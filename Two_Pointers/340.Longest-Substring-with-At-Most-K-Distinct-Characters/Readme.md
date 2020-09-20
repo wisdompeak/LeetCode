@@ -3,20 +3,17 @@
 #### 解法1：固定左边界，探索右边界(开区间)
 ```cpp
         for (int i=0; i<s.size(); i++)
-        {                        
-            while (count <= k)
+        {                                     
+            while (j<n && getCount(freq, s[j]) <= k)
             {
-                ret = max(ret, j-i);
-                if (j==s.size()) break;                
                 freq[s[j]]++;
-                if (freq[s[j]]==1)
-                    count++;     
-                j++;
-            }
-            
+                count += (freq[s[j]]==1);
+                j++;                
+            }                
+            ret = max(ret, j-i);
+                        
             freq[s[i]]--;
-            if (freq[s[i]]==0)
-                count--;
+            count -= (freq[s[i]]==0);
         }
 ```        
 
