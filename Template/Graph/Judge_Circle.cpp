@@ -7,9 +7,8 @@ main()
 {
   // prepare next; // next[i][j]: there is a directional path i->j
 
-
-	// dfs 判断有环
-	for (int i=0; i<numNodes; i++)
+  // dfs 判断有环
+  for (int i=0; i<numNodes; i++)
   {            
       if (dfs(i)==false) return false;            
   }
