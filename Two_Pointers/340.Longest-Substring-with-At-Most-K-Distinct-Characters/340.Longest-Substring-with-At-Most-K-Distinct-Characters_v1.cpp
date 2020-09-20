@@ -1,27 +1,34 @@
 class Solution {
+    int count = 0;
 public:
     int lengthOfLongestSubstringKDistinct(string s, int k) 
     {
-        vector<int>freq(256,0);
-        int count = 0;
+        vector<int>freq(256,0);        
+        int n = s.size();
         int j = 0;
         int ret = 0;
         for (int i=0; i<s.size(); i++)
-        {                        
-            while (count <= k)
+        {                                     
+            while (j<n && getCount(freq, s[j]) <= k)
             {
-                ret = max(ret, j-i);
-                if (j==s.size()) break;                
                 freq[s[j]]++;
-                if (freq[s[j]]==1)
-                    count++;     
-                j++;
+                count += (freq[s[j]]==1);
+                j++;                
             }
-            
+                
+            ret = max(ret, j-i);
+                        
             freq[s[i]]--;
-            if (freq[s[i]]==0)
-                count--;
+            count -= (freq[s[i]]==0);
         }
         return ret;        
+    }
+    
+    int getCount(vector<int>&freq, char ch)
+    {                
+        if (freq[ch]==0)
+            return count+1;
+        else
+            return count;
     }
 };
