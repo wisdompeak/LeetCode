@@ -112,6 +112,7 @@
 [1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts) (H-)  
 [1542.Find-Longest-Awesome-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1542.Find-Longest-Awesome-Substring) (H)  
 1567.Maximum Length of Subarray With Positive Product (TBD)  
+1590.Make Sum Divisible by P (TBD)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
@@ -340,7 +341,7 @@
 [1136.Parallel-Courses](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1136.Parallel-Courses) (M)   
 [1203.Sort-Items-by-Groups-Respecting-Dependencies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1203.Sort-Items-by-Groups-Respecting-Dependencies) (H)  
 [1462.Course-Schedule-IV](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1462.Course-Schedule-IV) (M)    
-
+1591.Strange Printer II (TBD)  
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
@@ -495,6 +496,7 @@
 [931.Minimum-Falling-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/931.Minimum-Falling-Path-Sum) (M)    
 [1289.Minimum-Falling-Path-Sum-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1289.Minimum-Falling-Path-Sum-II) (M+)    
 [1301.Number-of-Paths-with-Max-Score](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1301.Number-of-Paths-with-Max-Score) (M+)   
+1594.Maximum Non Negative Product in a Matrix (TBD)  
 * ``背包型``  
 [322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
 [518.Coin-Change-2](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/518.Coin-Change-2) (H-)    
@@ -630,6 +632,7 @@
 [057.Insert-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/057.Insert-Interval) (M)    
 [732.My-Calendar-III](https://github.com/wisdompeak/LeetCode/tree/master/Sort/732.My-Calendar-III) (M)    
 759.Employee-Free-Time (M+)    
+1589.Maximum Sum Obtained of Any Permutation (TBD)  
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 [547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
