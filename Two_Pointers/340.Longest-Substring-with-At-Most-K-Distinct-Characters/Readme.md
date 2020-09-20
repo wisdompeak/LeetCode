@@ -1,26 +1,41 @@
 ### 340.Longest-Substring-with-At-Most-K-Distinct-Characters.cpp
 
-请多练，条件判断要考虑全面，做到bug free  
+#### 解法1：固定左边界，探索右边界(开区间)
+```cpp
+        for (int i=0; i<s.size(); i++)
+        {                        
+            while (count <= k)
+            {
+                ret = max(ret, j-i);
+                if (j==s.size()) break;                
+                freq[s[j]]++;
+                if (freq[s[j]]==1)
+                    count++;     
+                j++;
+            }
+            
+            freq[s[i]]--;
+            if (freq[s[i]]==0)
+                count--;
+        }
+```        
 
-基本的模板是：
+#### 解法1：固定右边界，探索左边界(闭区间)
+```cpp
+        for (int j=0; j<s.size(); j++)
+        {                        
+            freq[s[j]]++;
+            if (freq[s[j]]==1) count++;
+            
+            while (count>k)
+            {
+                freq[s[i]]--;
+                if (freq[s[i]]==0)
+                    count--;
+                i++;
+            }
+            ret = max(ret, j-i+1);            
+        }
 ```
-int i = 0;
-for (int j=0; j<s.size(); j++)
-{
-  Map[s[j]]++;
-  
-  if (满足条件）
-  {
-    记录和更新答案；
-  }
-  else (不满足条件，需要移动左指针)
-  {
-    Map[s[i]]--;
-    处理Map；
-    i++;
-  }  
-}
-```
-
 
 [Leetcode Link](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters)
