@@ -2,18 +2,18 @@
 
 #### 解法1：固定左边界，探索右边界(开区间)
 ```cpp
-        for (int i=0; i<s.size(); i++)
-        {                                     
-            while (j<n && getCount(freq, s[j]) <= k)
+        for (int i=0; i<n; i++)
+        {
+            while (j<n && count + (freq[s[j]]+1 == 1) <= k)
             {
                 freq[s[j]]++;
-                count += (freq[s[j]]==1);
-                j++;                
-            }                
+                count += (freq[s[j]] == 1);
+                j++;
+            }
             ret = max(ret, j-i);
-                        
+            
             freq[s[i]]--;
-            count -= (freq[s[i]]==0);
+            count -= (freq[s[i]] == 0);
         }
 ```        
 
