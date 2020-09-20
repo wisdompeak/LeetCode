@@ -33,7 +33,7 @@
 [1574.Shortest-Subarray-to-be-Removed-to-Make-Array-Sorted](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1574.Shortest-Subarray-to-be-Removed-to-Make-Array-Sorted) (H-)  
 [1577.Number-of-Ways-Where-Square-of-Number-Is-Equal-to-Product-of-Two-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1577.Number-of-Ways-Where-Square-of-Number-Is-Equal-to-Product-of-Two-Numbers) (H-)  
 * ``Distinct Characters``    
-[003.Longest Substring Without Repeating Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
+[003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
 [159.Longest-Substring-with-At-Most-Two-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/159.Longest-Substring-with-At-Most-Two-Distinct-Characters)(H-)    
 [340.Longest-Substring-with-At-Most-K-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/340.Longest-Substring-with-At-Most-K-Distinct-Characters) (H)    
 [992.Subarrays-with-K-Different-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/992.Subarrays-with-K-Different-Integers) (H-)    
