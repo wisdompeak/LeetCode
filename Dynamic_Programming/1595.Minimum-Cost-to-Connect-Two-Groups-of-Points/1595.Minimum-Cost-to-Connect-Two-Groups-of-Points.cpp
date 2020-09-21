@@ -6,8 +6,7 @@ public:
         int m = cost.size();
         int n = cost[0].size();
 
-        for (int i=0; i<m; i++)
-            dp[i][0] = INT_MAX/2;
+        dp[0][0] = INT_MAX/2;
         for (int state = 1; state < (1<<n); state++)
         {
             int sum = 0;
@@ -21,6 +20,7 @@ public:
 
         for (int i=1; i<m; i++)
         {
+            dp[i][0] = INT_MAX/2;
             for (int state = 1; state < (1<<n); state++)
             {
                 dp[i][state] = INT_MAX/2;
