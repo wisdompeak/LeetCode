@@ -25,3 +25,8 @@ for (int i=0; i<m; i++)
 注意对于state的遍历嵌套subset的遍历，时间复杂度并不是``` 2^N * 2^N```，而是```3^N```。你可以想象，对于每一个bit，在外、里两层的状态只可能是```10,11,00```。
 
 所以总的时间复杂度是: M*3^N*N，其中最后一个N是对subset的分解来累加i的总cost。
+
+对于遍历state的子集，有高效的循环方法需要掌握：
+```cpp
+for (int subset=state; subset>0; subset=(subset-1)&state)
+```
