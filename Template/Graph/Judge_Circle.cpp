@@ -12,7 +12,7 @@ main()
   {            
       if (dfs(i)==false) return false;            
   }
-  return ture;
+  return true;
 
   // bfs 判断有环
   return bfs();
