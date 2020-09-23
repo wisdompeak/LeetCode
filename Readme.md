@@ -633,7 +633,7 @@
 [057.Insert-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sort/057.Insert-Interval) (M)    
 [732.My-Calendar-III](https://github.com/wisdompeak/LeetCode/tree/master/Sort/732.My-Calendar-III) (M)    
 759.Employee-Free-Time (M+)    
-1589.Maximum Sum Obtained of Any Permutation (TBD)  
+[1589.Maximum Sum Obtained of Any Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1589.Maximum-Sum-Obtained-of-Any-Permutation) (M)  
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 [547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
