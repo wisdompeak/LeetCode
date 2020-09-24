@@ -441,6 +441,7 @@
 [1277.Count-Square-Submatrices-with-All-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1277.Count-Square-Submatrices-with-All-Ones) (M+)   
 [600.Non-negative-Integers-without-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/600.Non-negative-Integers-without-Consecutive-Ones) (H)    
 [656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
+[053.Maximum-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/053.Maximum-Subarray) (E+)  
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)   
 [818.Race-Car](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/818.Race-Car) (H)    
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
