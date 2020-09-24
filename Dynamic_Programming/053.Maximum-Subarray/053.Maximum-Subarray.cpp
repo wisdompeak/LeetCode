@@ -1,18 +1,18 @@
 class Solution {
 public:
-    int maxProduct(vector<int>& nums) 
+    int maxSubArray(vector<int>& nums) 
     {
-        long MAX = 1;
-        long MIN = 1;
-        long result =  INT_MIN;
+        int n = nums.size();                
+        vector<int>dp(n);
+        dp[0] = nums[0];
+        int ret = nums[0];
         
-        for (int i=0; i<nums.size(); i++)
+        for (int i=1; i<n; i++)
         {
-            long MAX_tmp = MAX, MIN_tmp = MIN;
-            MAX = max(max(MAX_tmp*nums[i],MIN_tmp*nums[i]),(long)nums[i]);            
-            MIN = min(min(MAX_tmp*nums[i],MIN_tmp*nums[i]),(long)nums[i]);
-            result = max(result,MAX);
+            dp[i] = max(dp[i-1]+nums[i], nums[i]);                
+            ret = max(dp[i],ret);
         }
-        return result;
+        
+        return ret;        
     }
 };
