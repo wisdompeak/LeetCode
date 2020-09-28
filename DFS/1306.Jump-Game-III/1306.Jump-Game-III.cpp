@@ -11,13 +11,12 @@ public:
             return false;
 
         visited[start] = 1;
+        
         if (canReach(arr, start-arr[start]))
             return true;
         
         if (canReach(arr, start+arr[start]))
             return true;
-
-        visited[start] = 1;
 
         return false;
     }
