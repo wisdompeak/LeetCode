@@ -365,7 +365,8 @@
 1032. Stream of Characters (TBD)  
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
-[055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E)  
+[055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
+[045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (H)    
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
 [085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H)   
 [134.Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/134.Gas-Station) (H)    
@@ -375,7 +376,6 @@
 [334.Increasing-Triplet-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/334.Increasing-Triplet-Subsequence) (H-)    
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes)    
 [316.Remove Duplicate Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)   
-[045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (H)    
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)   
 659.Split-Array-into-Consecutive-Subsequences (H-)    
 [484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (H)    
