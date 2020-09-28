@@ -295,6 +295,7 @@
 465.Optimal-Account-Balancing (H)   
 803.Bricks-Falling-When-Hit (H)   
 [959.Regions-Cut-By-Slashes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/959.Regions-Cut-By-Slashes) (M+)    
+[1340.Jump-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1340.Jump-Game-V) (M+)  
 * ``search in an array``    
 [301.Remove-Invalid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/DFS/301.Remove-Invalid-Parentheses) (H)   
 [473.Matchsticks-to-Square](https://github.com/wisdompeak/LeetCode/tree/master/DFS/473.Matchsticks-to-Square) (M+)    
@@ -460,7 +461,6 @@
 [1027.Longest-Arithmetic-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1027.Longest-Arithmetic-Sequence) (M+)   
 [1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps) (M+)   
 [1316.Distinct-Echo-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1316.Distinct-Echo-Substrings) (M+)   
-[1340.Jump-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1340.Jump-Game-V) (M+)  
 [1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons) (H-)    
 1444. Number of Ways of Cutting a Pizza (TBD)   
 [1531.String-Compression-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1531.String-Compression-II) (H+)  
