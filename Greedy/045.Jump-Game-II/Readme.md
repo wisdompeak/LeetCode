@@ -9,5 +9,6 @@
 start_new = end+1; 
 end_new = max{i+nums[i]} for i=[start,end]
 ```
+每一步只要start<=end，就可以认为队列里还有元素，BFS就能继续。直至end_new到达最末的位置，或者start>end。
 
 [Leetcode Link](https://leetcode.com/problems/jump-game-ii)
