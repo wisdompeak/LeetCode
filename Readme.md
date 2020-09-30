@@ -176,6 +176,7 @@
 [1569.Number-of-Ways-to-Reorder-Array-to-Get-Same-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1569.Number-of-Ways-to-Reorder-Array-to-Get-Same-BST) (H)  
 [1597.Build-Binary-Expression-Tree-From-Infix-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1597.Build-Binary-Expression-Tree-From-Infix-Expression) (H)  
 * ``N-ary Tree``    
+[431.Encode-N-ary-Tree-to-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/431.Encode-N-ary-Tree-to-Binary-Tree) (H-)  
 [1516.Move-Sub-Tree-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1516.Move-Sub-Tree-of-N-Ary-Tree) (H-)  
 1600.Throne-Inheritance (TBD)  
 
