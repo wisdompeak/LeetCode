@@ -433,6 +433,7 @@
 [109.Convert-Sorted-List-to-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/109.Convert-Sorted-List-to-Binary-Search-Tree) (M)   
 092.Reverse-Linked-List-II (H)    
 [143.Reorder-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/143.Reorder-List) (H-)    
+[369.Plus-One-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/369.Plus-One-Linked-List) (M)  
 [430.Flatten-a-Multilevel-Doubly-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/430.Flatten-a-Multilevel-Doubly-Linked-List) (H-)  
 [457.Circular-Array-Loop](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/457.Circular-Array-Loop) （H-）    
 [708.Insert-into-a-Cyclic-Sorted-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/708.Insert-into-a-Cyclic-Sorted-List) (H-)    
