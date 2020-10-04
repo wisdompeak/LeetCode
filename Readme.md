@@ -756,6 +756,7 @@
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
 [1401.Circle-and-Rectangle-Overlapping](https://github.com/wisdompeak/LeetCode/tree/master/Math/1401.Circle-and-Rectangle-Overlapping) (H)    
 [1453.Maximum-Number-of-Darts-Inside-of-a-Circular-Dartboard](https://github.com/wisdompeak/LeetCode/tree/master/Math/1453.Maximum-Number-of-Darts-Inside-of-a-Circular-Dartboard) (H)    
+[1610.Maximum-Number-of-Visible-Points](https://github.com/wisdompeak/LeetCode/tree/master/Math/1610.Maximum-Number-of-Visible-Points) (H)  
 
 #### [Random Pick Topic]
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
