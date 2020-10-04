@@ -745,6 +745,7 @@
 [1103.Distribute-Candies-to-People](https://github.com/wisdompeak/LeetCode/tree/master/Math/1103.Distribute-Candies-to-People) (M+)   
 1330.Reverse-Subarray-To-Maximize-Array-Value (TBD)   
 [1250.Check-If-It-Is-a-Good-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/1250.Check-If-It-Is-a-Good-Array) (M+)   
+[1605.Find-Valid-Matrix-Given-Row-and-Column-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Math/1605.Find-Valid-Matrix-Given-Row-and-Column-Sums) (M+)  
 
 #### [Distances]
 [296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
