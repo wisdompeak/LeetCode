@@ -41,7 +41,7 @@ for (int i=0; i<(1<<n); i++)
   abcdef
 ^ 0abcde
 -------
-  1010101 (binary string of n)
+  xxxxxx (binary string of n)
 ```
 很显然，从高位开始可以逐位破解abcdef.
 
