@@ -2,9 +2,9 @@ class Solution {
 public:
     vector<int> grayCode(int n) 
     {
-        vector<int>results;
+        vector<int>results(1<<n);
         for (int i=0; i<(1<<n); i++)
-            results.push_back(i^(i>>1));
+            results[i] = (i^(i>>1));
         return results;
     }
 };
