@@ -3,17 +3,14 @@ public:
     int specialArray(vector<int>& nums) 
     {
         int N = nums.size();
-        sort(nums.begin(), nums.end());
+        vector<int>freq(N+1,0);
+        for (auto x: nums)
+            freq[min(x,N)]+=1;
+
         int count = 0;
-        int i = nums.size()-1;
         for (int x=N; x>=0; x--)
         {
-            while (i>=0 && nums[i]>=x)
-            {
-                count += 1;
-                i--;
-            }
-                
+            count+=freq[x];                
             if (count == x)
                 return x;
         }
