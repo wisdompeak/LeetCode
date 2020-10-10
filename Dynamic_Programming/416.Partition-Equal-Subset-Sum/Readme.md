@@ -16,7 +16,7 @@ for (auto x: nums) // 遍历物品
 ```
 for (auto x: nums) // 遍历物品
   for (auto s= 1 to sum/2) // 遍历容量
-    if dp[s] = true
+    if dp'[s] = true
       dp[s+x] = true   // 如果考察x之前，已经能够凑出s，那么加上x这个数字就一定能凑出和为s+x的subset。
 ``` 
 
