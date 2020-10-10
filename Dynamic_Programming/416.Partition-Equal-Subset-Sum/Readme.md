@@ -7,7 +7,7 @@
 这就是01背包问题的基本思想。如果dp的空间大小合理，那么我们就可以来解决之前DFS所无法处理的复杂度。基本的模板如下：
 ```
 for (auto x: nums) // 遍历物品
-  for (auto s= 1 to sum/2) // 遍历容量
+  for (auto s= 0 to sum/2) // 遍历容量
     if dp'[s-x] = true
       dp[s] = true   // 如果考察x之前，已经能够凑出s-x，那么加上x这个数字就一定能凑出和为x的subset。
 ``` 
