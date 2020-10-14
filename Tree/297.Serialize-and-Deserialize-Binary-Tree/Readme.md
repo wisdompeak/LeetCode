@@ -46,7 +46,9 @@
         return root;
     }
 ```
-需要额外一个getSize函数来计算这个子树共有多少个元素。
+需要额外一个getSize函数来计算这个子树共有多少个元素。或者在DFS的返回值里添加一个信息，表示该子树下的节点总数。
 
+#### 解法3：
+在解法2的基础上，有一个技巧可以避免额外调用getSize. 我们将所有节点都放入一个队列之中。每次的DFS其实都是从该队列中弹出首元素作为子树的根；然后构建左子树；再构建右子树。当我们试图构建右子树的时候，其实队列中的首元素就已经是右子树的根了。
 
 [Leetcode Link](https://leetcode.com/problems/serialize-and-deserialize-binary-tree)
