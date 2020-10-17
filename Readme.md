@@ -435,7 +435,7 @@
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 [061.Rotate-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/061.Rotate-List) (M)  
 [086.Partition-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/086.Partition-List) (M)   
-[142.Linked List Cycle II](https://github.com/wisdompeak/LeetCode/blob/master/Linked_List/142.Linked-List-Cycle-II/) (M+)  
+[142.Linked-List-Cycle-II](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/142.Linked-List-Cycle-II) (M+)    
 [109.Convert-Sorted-List-to-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/109.Convert-Sorted-List-to-Binary-Search-Tree) (M)   
 092.Reverse-Linked-List-II (H)    
 [143.Reorder-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/143.Reorder-List) (H-)    
