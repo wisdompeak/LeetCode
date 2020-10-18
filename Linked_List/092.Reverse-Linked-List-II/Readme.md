@@ -1,6 +1,6 @@
 ### 092.Reverse-Linked-List-II
 
-#### \#将一段链表逆序
+#### 将一段链表逆序
 可以设置一个节点front==NULL，然后遍历中段节点的时候不断把节点加到front前面去，然后更新front保持位于新中段的队首。有多少元素就操作多少次。
 ```cpp
         ListNode* front = NULL;
