@@ -1,12 +1,4 @@
-CF中经常会要求这样输出结果：
-```
-Let this probability be represented as an irreducible fraction x/y. 
-You have to print x⋅y^−1 mod 998244353, where y^−1 is the inverse element of y modulo 998244353 (such integer that y⋅y−1 has remainder 1 modulo 998244353).
-```
-
-这里的inverse element并不是指的倒数，而是逆元。y的逆元写作y^-1，
-
-更一般地，我们说如果a和b满足这样的性质：
+一般地，我们说如果a和b满足这样的性质：
 ```
 x / a ≡ x * b (mod M)
 ```
