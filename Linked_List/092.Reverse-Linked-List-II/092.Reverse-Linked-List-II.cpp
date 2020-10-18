@@ -22,9 +22,10 @@ public:
 
         ListNode* start_of_second = cur;
         ListNode* prev = NULL;
+        ListNode* next = NULL;
         for (int i=m; i<=n; i++)
         {
-            ListNode* next = cur->next;
+            next = cur->next;
             cur->next = prev;
             prev = cur;
             cur = next;
