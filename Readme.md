@@ -780,6 +780,9 @@
 [1359.Count-All-Valid-Pickup-and-Delivery-Options](https://github.com/wisdompeak/LeetCode/tree/master/Math/1359.Count-All-Valid-Pickup-and-Delivery-Options) (M+)   
 [1467.Probability-of-a-Two-Boxes-Having-The-Same-Number-of-Distinct-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Math/1467.Probability-of-a-Two-Boxes-Having-The-Same-Number-of-Distinct-Balls) (H-)    
 
+#### [Brute Force](https://github.com/wisdompeak/LeetCode/tree/master/Brute_Force)  
+[1625.Lexicographically-Smallest-String-After-Applying-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Brute_Force/1625.Lexicographically-Smallest-String-After-Applying-Operations) (H-)  
+
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
 [048.Rotate-Image](https://github.com/wisdompeak/LeetCode/tree/master/Others/048.Rotate-Image) (M+)    
