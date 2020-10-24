@@ -20,31 +20,31 @@ public:
 
     vector<int> helper(vector<int>& prices, int fee) 
     {
-        vector<int>dp0(n+1,0);
-        vector<int>dp1(n+1,0);
-        dp0[0] = 0;
-        dp1[0] = INT_MIN/2;
+        vector<int>sold(n+1,0);
+        vector<int>hold(n+1,0);
+        sold[0] = 0;
+        hold[0] = INT_MIN/2;
         int count0 = 0;
         int count1 = 0;
 
         for (int i=1; i<=n; i++)
         {
-            if (dp1[i-1]+prices[i] - fee> dp0[i-1])
+            if (hold[i-1]+prices[i]> sold[i-1])
             {
-                dp0[i] = dp1[i-1] + prices[i] - fee;
+                sold[i] = hold[i-1] + prices[i];
                 count0 = count1+1;
             }
             else
-                dp0[i] = dp0[i-1];
+                sold[i] = sold[i-1];
             
-            if (dp0[i-1] - prices[i]  > dp1[i-1])
+            if (sold[i-1] - prices[i] - fee  > hold[i-1])
             {
-                dp1[i] = dp0[i-1] - prices[i];
+                hold[i] = sold[i-1] - prices[i] - fee;
                 count1 = count0;
             }
             else
-                dp1[i] = dp1[i-1];
+                hold[i] = hold[i-1];
         }
-        return {dp0[n], count0};
+        return {sold[n], count0};
     }
 };
