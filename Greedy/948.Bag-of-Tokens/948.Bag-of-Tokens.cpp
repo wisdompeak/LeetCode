@@ -5,7 +5,7 @@ public:
         sort(tokens.begin(),tokens.end());
         int i = 0;
         int j = tokens.size()-1;
-        int points = 0;
+        int score = 0;
         int result = 0;
         
         while (i<=j)
@@ -14,12 +14,12 @@ public:
             {
                 P-=tokens[i];
                 i++;
-                points++;
-                result = max(result,points);
+                score++;
+                result = max(result,score);
             }
-            else if (points>0)
+            else if (score>0)
             {
-                points--;
+                score--;
                 P+=tokens[j];
                 j--;
             }
