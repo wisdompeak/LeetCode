@@ -26,8 +26,6 @@ public:
             for (int j=0; j<n; j++)
                 Father[i*n+j] = i*n+j;
 
-        map<pair<int,int>, int>valRow2idx;
-        map<pair<int,int>, int>valCol2idx;
         vector<pair<int,int>>nums;
         for (int i=0; i<m; i++)
             for (int j=0; j<n; j++)
