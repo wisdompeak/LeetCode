@@ -70,20 +70,18 @@ public:
                 }                    
             }
         }
-                
+                        
         vector<vector<int>>group(m*n);
-        for (int i=0; i<m; i++)
-            for (int j=0; j<n; j++)            
-                group[FindFather(i*n+j)].push_back(i*n+j);                            
-        
-        queue<int>q;
         for (int i=0; i<m; i++)
             for (int j=0; j<n; j++)
             {
-                if (Father[i*n+j]!=i*n+j)                
-                    inDegree[Father[i*n+j]] += inDegree[i*n+j];                
+                int root = FindFather(i*n+j);
+                group[root].push_back(i*n+j);
+                if (root!=i*n+j)
+                    inDegree[root]+=inDegree[i*n+j];
             }
         
+        queue<int>q;
         for (int i=0; i<m; i++)
             for (int j=0; j<n; j++)
             {
@@ -101,11 +99,11 @@ public:
                 int cur = q.front();
                 q.pop();
                 
-                for (auto child: group[cur])
-                    rets[child/n][child%n] = idx;
+                for (auto connect: group[cur])
+                    rets[connect/n][connect%n] = idx;
                                         
-                for (auto child: group[cur])
-                    for (auto nxt: next[child])
+                for (auto connect: group[cur])
+                    for (auto nxt: next[connect])
                     {
                         inDegree[Father[nxt]]--;
                         if (inDegree[Father[nxt]]==0)
