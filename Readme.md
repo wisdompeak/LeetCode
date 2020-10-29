@@ -566,7 +566,7 @@
 [1143.Longest-Common-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1143.Longest-Common-Subsequence) (M)   
 [1216.Valid-Palindrome-III](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1216.Valid-Palindrome-III) (M+)   
 [1312.Minimum-Insertion-Steps-to-Make-a-String-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1312.Minimum-Insertion-Steps-to-Make-a-String-Palindrome) (M+)   
-1458.Max-Dot-Product-of-Two-Subsequences (TBD)    
+[1458.Max-Dot-Product-of-Two-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1458.Max-Dot-Product-of-Two-Subsequences) (M)    
 * ``状态压缩DP``   
 [691.Stickers-to-Spell-Word](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/691.Stickers-to-Spell-Word) (H)    
 [943.Find-the-Shortest-Superstring](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/943.Find-the-Shortest-Superstring) (H+)    
