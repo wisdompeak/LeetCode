@@ -1,4 +1,4 @@
-### 381.Insert-Delete-GetRandom-O-1-Duplicates-allowed
+### 381.Insert-Delete-GetRandom-O1-Duplicates-allowed
 
 此题是380的follow up。基本思路仍然是用Map来查找元素，用array来新增元素。
 
