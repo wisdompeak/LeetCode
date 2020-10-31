@@ -9,4 +9,4 @@
 特别注意：如果val就是nums末尾的元素（即```val==val2```)，最好单独处理，否则容易出错。
 
 
-[Leetcode Link](https://leetcode.com/problems/insert-delete-getrandom-o-1-duplicates-allowed)
+[Leetcode Link](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed)
