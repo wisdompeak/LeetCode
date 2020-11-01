@@ -9,7 +9,7 @@ main()
       comb[i][i] = comb[i][0] = 1;            
       for (int j = 1; j < i; ++j) 
       {
-          comb[i][j] = comb[i - 1][j - 1] + C[i - 1][j];
+          comb[i][j] = comb[i - 1][j - 1] + comb[i - 1][j];
       }
   }  
 }
