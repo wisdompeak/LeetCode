@@ -479,6 +479,7 @@
 [1575.Count-All-Possible-Routes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1575.Count-All-Possible-Routes) (M+)  
 [1621.Number-of-Sets-of-K-Non-Overlapping-Line-Segments](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1621.Number-of-Sets-of-K-Non-Overlapping-Line-Segments) (H)  
 [1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
+[1639.Number-of-Ways-to-Form-a-Target-String-Given-a-Dictionary](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1639.Number-of-Ways-to-Form-a-Target-String-Given-a-Dictionary) (H-)  
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
