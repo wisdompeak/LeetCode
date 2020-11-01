@@ -1,4 +1,4 @@
-typedefine long long ll;
+typedef long long ll;
 
 main()
 {
