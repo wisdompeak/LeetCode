@@ -846,6 +846,6 @@
 [Binary_Index_Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/Binary_Index_Tree)  
 [Inverse_Element](https://github.com/wisdompeak/LeetCode/tree/master/Template/Inverse_Element)  
 [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Template/Graph)  
-[Bit_Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Template/Bit_manipulation) 
+[Bit_Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Template/Bit_manipulation)  
 [Combination-Number](https://github.com/wisdompeak/LeetCode/tree/master/Template/Combination-Number)  
 
