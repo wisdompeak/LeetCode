@@ -784,6 +784,7 @@
 [1286.Iterator-for-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Others/1286.Iterator-for-Combination) (M+)   
 [1359.Count-All-Valid-Pickup-and-Delivery-Options](https://github.com/wisdompeak/LeetCode/tree/master/Math/1359.Count-All-Valid-Pickup-and-Delivery-Options) (M+)   
 [1467.Probability-of-a-Two-Boxes-Having-The-Same-Number-of-Distinct-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Math/1467.Probability-of-a-Two-Boxes-Having-The-Same-Number-of-Distinct-Balls) (H-)    
+[1641.Count-Sorted-Vowel-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Math/1641.Count-Sorted-Vowel-Strings) (M+)  
 
 #### [Brute Force](https://github.com/wisdompeak/LeetCode/tree/master/Brute_Force)  
 [1625.Lexicographically-Smallest-String-After-Applying-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Brute_Force/1625.Lexicographically-Smallest-String-After-Applying-Operations) (H-)  
