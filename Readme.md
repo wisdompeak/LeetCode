@@ -33,6 +33,7 @@
 [1574.Shortest-Subarray-to-be-Removed-to-Make-Array-Sorted](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1574.Shortest-Subarray-to-be-Removed-to-Make-Array-Sorted) (H-)  
 [1577.Number-of-Ways-Where-Square-of-Number-Is-Equal-to-Product-of-Two-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1577.Number-of-Ways-Where-Square-of-Number-Is-Equal-to-Product-of-Two-Numbers) (H-)  
 [1580.Put-Boxes-Into-the-Warehouse-II](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1580.Put-Boxes-Into-the-Warehouse-II) (H-)  
+[1537.Get-the-Maximum-Score](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1537.Get-the-Maximum-Score) (H-)  
 * ``Distinct Characters``    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
 [159.Longest-Substring-with-At-Most-Two-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/159.Longest-Substring-with-At-Most-Two-Distinct-Characters)(H-)    
@@ -476,7 +477,6 @@
 [1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1420.Build-Array-Where-You-Can-Find-The-Maximum-Exactly-K-Comparisons) (H-)    
 1444. Number of Ways of Cutting a Pizza (TBD)   
 [1531.String-Compression-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1531.String-Compression-II) (H+)  
-1537. Get the Maximum Score (TBD)  
 [1575.Count-All-Possible-Routes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1575.Count-All-Possible-Routes) (M+)  
 [1621.Number-of-Sets-of-K-Non-Overlapping-Line-Segments](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1621.Number-of-Sets-of-K-Non-Overlapping-Line-Segments) (H)  
 [1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
