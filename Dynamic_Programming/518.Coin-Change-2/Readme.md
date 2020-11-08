@@ -19,7 +19,19 @@ for (int i=0; i<coins.size(); i++)
             dp[i][c] += dp[i-1][c - k*coins[i]];
     }
 ```
-其中dp[i][c]表示使用前i种硬币、组成面值为c的组合方法数。注意，外层的两个循环其实可以对调，不影响结果。
+其中dp[i][c]表示使用前i种硬币、组成面值为c的组合方法数。注意，外层的两个循环其实可以对调，不影响结果。并且我们还可以只用一维数组：
+```cpp
+for (int i=0; i<coins.size(); i++)
+{            
+    auto dp_temp = dp;            
+    for (int c=1; c<=amount; c++)
+    {
+        dp[c] = 0;
+        for (int k=0; k<=c/coins[i]; k++)
+            dp[c] += dp_temp[c-k*coins[i]];
+    }
+}
+```
 
 但是这三重循环的效率有点低。如果我们只用dp[c]来表示面值为c的组合方法数，那么可以化简为
 ```cpp
