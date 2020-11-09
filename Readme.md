@@ -854,3 +854,4 @@
 [Bit_Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Template/Bit_manipulation)  
 [Combination-Number](https://github.com/wisdompeak/LeetCode/tree/master/Template/Combination-Number)  
 [RB_Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/RB_Tree)  
+[BIT](https://github.com/wisdompeak/LeetCode/tree/master/Template/BIT)  
