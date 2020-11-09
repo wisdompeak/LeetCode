@@ -1,37 +1,35 @@
-class NumArray {
-public:
-    vector<int>bitArr;
+const int MAX_N = 100000;
 
-    NumArray(vector<int>& nums) {
-        int n = nums.size();        
-        bitArr.resize(n+1);
-        nums.insert(nums.begin(),0);
-        for (int i=1; i<=n; i++)
-            my_update(i+1, nums[i]);
-        cout<<"init done"<<endl;
-    }
+class Solution {
+public:    
+    long long bitArr[MAX_N+1];
+    long long nums[MAX_N+1];  // Note: nums is 1-index
+    long long M = 1e9+7;
 
-    // increase nums[i] by delta (1-index)
-    void my_update(int i, int delta) {
-        while (idx<bitArr.size())
+    // increase nums[i] by delta  (1-index)
+    void updateDelta(int i, long long delta) {
+        int idx = i;
+        while (idx <= MAX_N)
         {
             bitArr[idx]+=delta;
+            bitArr[idx] %= M;
             idx+=idx&(-idx);
         }
     }
-    
-    // sum of range [1:idx] (1-index)
-    int my_query(int idx){        
-        int result = 0;
+
+    // sum of a range nums[1:j] inclusively, 1-index
+    long long queryPreSum(int idx){
+        long long result = 0;
         while (idx){
             result += bitArr[idx];
+            result %= M;
             idx-=idx&(-idx);
         }
         return result;
     }
 
-    // sum of range [i:j] (1-index)
-    int sumRange(int i, int j) {
-        return my_query(j)-my_query(i-1);
-    }
+    // sum of a range nums[i:j] inclusively
+    long long sumRange(int i, int j) {    
+        return queryPreSum(j)-queryPreSum(i-1);
+    }    
 };
