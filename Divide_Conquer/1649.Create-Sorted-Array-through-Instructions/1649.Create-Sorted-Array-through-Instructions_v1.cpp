@@ -2,20 +2,16 @@ class Solution {
     int numSmaller[100005];
     int temp[100005];    
     int count[100005];
-    int nums[100005];
     int sorted[100005];
     int M = 1e9+7;
 public:
-    int createSortedArray(vector<int>& instructions) 
-    {
-        int n = instructions.size();
+    int createSortedArray(vector<int>& nums) 
+    {        
+        int n = nums.size();
         for (int i=0; i<n; i++)
-        {
-            nums[i] = instructions[i];
-            sorted[i] = instructions[i];
-        }            
+            sorted[i] = nums[i];                 
                 
-        helper(0, n-1);        
+        helper(nums, 0, n-1);        
         int ret = 0;
         for (int i=0; i<n; i++)
         {
@@ -26,12 +22,12 @@ public:
         return ret;
     }
     
-    void helper(int a, int b)
+    void helper(vector<int>& nums, int a, int b)
     {
         if (a>=b) return;        
         int mid = a+(b-a)/2;
-        helper(a, mid);
-        helper(mid+1, b);
+        helper(nums, a, mid);
+        helper(nums, mid+1, b);
         
         for (int i=mid+1; i<=b; i++)
         {
@@ -70,3 +66,6 @@ public:
             sorted[a+i] = temp[i];
     }
 };
+
+
+// X X 3 X   3 Y Y Y 
