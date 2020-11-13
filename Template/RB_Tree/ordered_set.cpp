@@ -10,6 +10,10 @@ rb_tree_tag,
 tree_order_statistics_node_update>
 ordered_set;
 
+// find_by_order(k) returns an iterator to the k-th largest element (counting from zero), 
+// order_of_key(x) returns the number of items in a set that are strictly smaller than x; or equivlently, the index of the first item greater or equal to x
+    
+    
 int main() {
     ordered_set Set;    
     vector<int>nums({1,3,2,2,4,4,8,6,7,3});
