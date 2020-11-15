@@ -351,7 +351,7 @@
 [1559.Detect-Cycles-in-2D-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1559.Detect-Cycles-in-2D-Grid) (M)  
 [1568.Minimum-Number-of-Days-to-Disconnect-Island](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1568.Minimum-Number-of-Days-to-Disconnect-Island) (H-)  
 [1617.Count-Subtrees-With-Max-Distance-Between-Cities](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1617.Count-Subtrees-With-Max-Distance-Between-Cities) (H-)  
-[1652.Minimum-Jumps-to-Reach-Home](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1652.Minimum-Jumps-to-Reach-Home) (H-)  
+[1654.Minimum-Jumps-to-Reach-Home](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1654.Minimum-Jumps-to-Reach-Home) (H-)  
 * ``拓扑排序``   
 [207.Course-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/BFS/207.Course-Schedule) (H-)   
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
