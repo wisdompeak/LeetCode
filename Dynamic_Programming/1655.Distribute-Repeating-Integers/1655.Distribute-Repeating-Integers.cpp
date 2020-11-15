@@ -22,7 +22,10 @@ public:
             for (int state=1; state<(1<<m); state++)
             {
                 if (dp[i-1][state]==true) 
+                {
                     dp[i][state] = true;
+                    continue;
+                }                    
                 
                 for (int subset=state; subset>0; subset=(subset-1)&state)
                 {
