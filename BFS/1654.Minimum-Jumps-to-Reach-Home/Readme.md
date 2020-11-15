@@ -1,4 +1,4 @@
-### 1652.Minimum-Jumps-to-Reach-Home
+### 1654.Minimum-Jumps-to-Reach-Home
 
 本题看上去是一个常规的BFS求最短路径问题：每到一处新的位置，我们有两种选择，向左走或者向右走。已经走过的地方就标记visited以后不再访问。直至访问到x位置。
 
