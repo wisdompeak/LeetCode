@@ -1,5 +1,5 @@
 class Solution {
-    int visited[6001][2];
+    int visited[8001][2];
 public:
     int minimumJumps(vector<int>& forbidden, int a, int b, int x) 
     {
@@ -28,7 +28,7 @@ public:
                 int k = q.front().second;
                 q.pop();
 
-                if (i+a < limit && visited[i+a][0] == 0)
+                if (i < limit && visited[i+a][0] == 0)
                 {
                     visited[i+a][0] = 1;
                     q.push({i+a,0});
