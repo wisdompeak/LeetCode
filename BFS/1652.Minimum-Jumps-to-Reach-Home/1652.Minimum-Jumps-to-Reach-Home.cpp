@@ -5,7 +5,7 @@ public:
     {
         if (x==0) return 0;
         int max_forbid = *max_element(forbidden.begin(), forbidden.end());
-        int limit = x + b + max_forbid;
+        int limit = max(x, max_forbid)+b;
 
         for (auto x:forbidden)
         {
@@ -28,7 +28,7 @@ public:
                 int k = q.front().second;
                 q.pop();
 
-                if (i < limit && visited[i+a][0] == 0)
+                if (i <= limit && visited[i+a][0] == 0)
                 {
                     visited[i+a][0] = 1;
                     q.push({i+a,0});
