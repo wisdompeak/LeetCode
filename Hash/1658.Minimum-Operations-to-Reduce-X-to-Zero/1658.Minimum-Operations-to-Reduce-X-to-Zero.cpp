@@ -4,29 +4,35 @@ public:
     {
         int n = nums.size();
         unordered_map<int,int>Map;
-        Map[0] = 0;
-        int sum = 0;
-        for (int i=0; i<nums.size(); i++)
+        int presum = 0;
+        Map[0] = -1;
+        for (int i=0; i<n; i++)
         {
-            sum += nums[i];
-            if (Map.find(sum)==Map.end())
-                Map[sum] = i+1;
+            presum += nums[i];
+            if (Map.find(presum)==Map.end())
+                Map[presum] = i;
         }
         
         int ret = INT_MAX;
         if (Map.find(x)!=Map.end())
-            ret = Map[x];
-        sum = 0;        
-        for (int i=n-1; i>=0; i--)
+            ret = Map[x]+1;
+        
+        int sufsum = 0;
+        for (int b = n-1; b>=0; b--)
         {
-            sum += nums[i];
-            if (Map.find(x-sum)!=Map.end() && Map[x-sum]<=i)
-                ret = min(ret, Map[x-sum] + (n-i));
+            sufsum += nums[b];
+            int pre = x - sufsum;
+            if (Map.find(pre)!=Map.end())
+            {
+                int a = Map[pre];
+                if (a<b)
+                {
+                    ret = min(ret, a+1 + n-b);
+                }
+            }
         }
         
-        if (ret==INT_MAX)
-            return -1;
-        else
-            return ret;        
+        return ret==INT_MAX ? -1: ret;        
     }
 };
+
