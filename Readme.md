@@ -117,6 +117,7 @@
 [1542.Find-Longest-Awesome-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1542.Find-Longest-Awesome-Substring) (H)  
 [1567.Maximum-Length-of-Subarray-With-Positive-Product](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1567.Maximum-Length-of-Subarray-With-Positive-Product) (M+)  
 [1590.Make-Sum-Divisible-by-P](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1590.Make-Sum-Divisible-by-P) (H-)  
+[1658.Minimum-Operations-to-Reduce-X-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1658.Minimum-Operations-to-Reduce-X-to-Zero) (M)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
