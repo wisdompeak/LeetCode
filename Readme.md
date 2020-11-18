@@ -585,6 +585,7 @@
 [1494.Parallel-Courses-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1494.Parallel-Courses-II) (H)   
 [1595.Minimum-Cost-to-Connect-Two-Groups-of-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1595.Minimum-Cost-to-Connect-Two-Groups-of-Points) (H)  
 [1655.Distribute-Repeating-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1655.Distribute-Repeating-Integers) (H)  
+[1659.Maximize-Grid-Happiness](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1659.Maximize-Grid-Happiness) (H)  
 * ``Catalan``   
 [096.Unique-Binary-Search-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/096.Unique-Binary-Search-Trees) (M+)  
 [1259.Handshakes-That-Don't-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1259.Handshakes-That-Don't-Cross) (M+)   
