@@ -426,6 +426,7 @@
 [1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
 [1535.Find-the-Winner-of-an-Array-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1535.Find-the-Winner-of-an-Array-Game) (M+)  
 [1536.Minimum-Swaps-to-Arrange-a-Binary-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1536.Minimum-Swaps-to-Arrange-a-Binary-Grid) (H-)  
+[1540.Can-Convert-String-in-K-Moves](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1540.Can-Convert-String-in-K-Moves) (M+)  
 [1564.Put-Boxes-Into-the-Warehouse-I](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1564.Put-Boxes-Into-the-Warehouse-I) (M+)  
 [1578.Minimum-Deletion-Cost-to-Avoid-Repeating-Letters](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1578.Minimum-Deletion-Cost-to-Avoid-Repeating-Letters) (M)  
 [1585.Check-If-String-Is-Transformable-With-Substring-Sort-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1585.Check-If-String-Is-Transformable-With-Substring-Sort-Operations) (H)  
@@ -851,7 +852,6 @@
 1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List (TBD)    
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
 1539.Kth Missing Positive Number (TBD)  
-1540.Can Convert String in K Moves (TBD)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
 [Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)  
