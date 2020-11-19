@@ -180,6 +180,7 @@
 1339. Maximum-Product-of-Splitted-Binary-Tree (TBD)   
 [1569.Number-of-Ways-to-Reorder-Array-to-Get-Same-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1569.Number-of-Ways-to-Reorder-Array-to-Get-Same-BST) (H)  
 [1597.Build-Binary-Expression-Tree-From-Infix-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1597.Build-Binary-Expression-Tree-From-Infix-Expression) (H)  
+[1660.Correct-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1660.Correct-a-Binary-Tree) (M+)  
 * ``N-ary Tree``    
 [428.Serialize-and-Deserialize-N-ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/428.Serialize-and-Deserialize-N-ary-Tree) (H)  
 [431.Encode-N-ary-Tree-to-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/431.Encode-N-ary-Tree-to-Binary-Tree) (H-)  
