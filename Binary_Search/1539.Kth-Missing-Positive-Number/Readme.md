@@ -4,7 +4,11 @@
 将数组的所有元素放入一个集合。然后从1开始自增cur，查看cur是否在数组里出现过来统计missing的个数。
 
 #### 解法2：
-利用一个指针i指向元素，当cur<arr[i]的时候，不停地自增cur并增加missing的个数；当cur==arr[i]的时候，cur和i都可以同时自增1.
+利用一个指针i遍历数组元素，同时用cur表示当前可能的missing number。初始时cur = 1.
+
+如果cur>arr[i]，那么考察下一个i。否则即cur<=arr[i]，说明从cur到arr[i]-1之间（双闭区间）都是missing number。于是missing number的数量减少```k-=arr[i]-cur```，下一个需要尝试的missing number更新为arr[i]+1. 直到k降为0为止。
+
+注意，如果数组遍历完之后k仍然不为0，考虑到cur本身必然就是一个missing number，那么最终的答案是cur+=k-1.
 
 #### 解法3：
 二分搜索。和```1060.Missing-Element-in-Sorted-Array```一样的思路。
