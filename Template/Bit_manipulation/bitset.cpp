@@ -1,4 +1,4 @@
-bitset<100>bs; // define a bitset type
+bitset<100>bs; // define a bitset type variable
 
 std::string str = std::bitset<32>(n).to_string(); // convert an integer n to bitset type, and then to string type
 
