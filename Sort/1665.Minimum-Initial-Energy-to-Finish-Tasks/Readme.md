@@ -14,7 +14,7 @@ for (int i=0; i<n; i++)
 1. 倒推时先1后2之后的初始能量：T1 = max(max(a1, b1) + a2, b2) = max(max(a1+a2, b1+a2), b2) 
 2. 倒推时先2后1之后的初始能量：T2 = max(max(a2, b2) + a1, b1) = max(max(a2+a1, b2+a1), b1)
 
-因为b2-a2>b1-a1，所以b1+a2<b2+a1，所以一定有 max(a1+a2, b1+a2) < max(a2+a1, b2+a1)。 于是上面两式继续变化为
+因为b2-a2>b1-a1，所以b1+a2<b2+a1，所以一定有 x1=max(a1+a2, b1+a2) < x2=max(a2+a1, b2+a1)。 于是上面两式继续变化为
 ```
 T1 = max(x1, b2)
 T2 = max(x2, b1)
