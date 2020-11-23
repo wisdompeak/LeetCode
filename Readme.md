@@ -666,6 +666,7 @@
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)  
 [1520.Maximum-Number-of-Non-Overlapping-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1520.Maximum-Number-of-Non-Overlapping-Substrings) (H-)  
+[1665.Minimum-Initial-Energy-to-Finish-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1665.Minimum-Initial-Energy-to-Finish-Tasks) (H-)  
 * ``Sweep Line``  
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Sort/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Sort/253.Meeting-Rooms-II) (M+)    
