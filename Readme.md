@@ -509,6 +509,7 @@
 [1186.Maximum-Subarray-Sum-with-One-Deletion](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1186.Maximum-Subarray-Sum-with-One-Deletion) (H-)    
 [1187.Make-Array-Strictly-Increasing](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1187.Make-Array-Strictly-Increasing) (H-)    
 [1223.Dice-Roll-Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1223.Dice-Roll-Simulation) (H-)   
+[1262.Greatest-Sum-Divisible-by-Three](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1262.Greatest-Sum-Divisible-by-Three) (M+)  
 [1419.Minimum-Number-of-Frogs-Croaking](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1419.Minimum-Number-of-Frogs-Croaking) (M)     
 [1548.The-Most-Similar-Path-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1548.The-Most-Similar-Path-in-a-Graph) (M+)  
 * ``基本型 II``   
