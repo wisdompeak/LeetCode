@@ -510,6 +510,7 @@
 [1187.Make-Array-Strictly-Increasing](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1187.Make-Array-Strictly-Increasing) (H-)    
 [1223.Dice-Roll-Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1223.Dice-Roll-Simulation) (H-)   
 [1262.Greatest-Sum-Divisible-by-Three](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1262.Greatest-Sum-Divisible-by-Three) (M+)  
+[1363.Largest-Multiple-of-Three](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1363.Largest-Multiple-of-Three) (H)  
 [1419.Minimum-Number-of-Frogs-Croaking](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1419.Minimum-Number-of-Frogs-Croaking) (M)     
 [1548.The-Most-Similar-Path-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1548.The-Most-Similar-Path-in-a-Graph) (M+)  
 * ``基本型 II``   
@@ -850,7 +851,6 @@
 1272.Remove-Interval (TBD)    
 1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix (TBD)    
 1352.Product-of-the-Last-K-Numbers (TBD)    
-1363.Largest-Multiple-of-Three (TBD)    
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
