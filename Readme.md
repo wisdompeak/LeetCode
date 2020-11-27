@@ -851,7 +851,6 @@
 [1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)    
 1272.Remove-Interval (TBD)    
 1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix (TBD)    
-1352.Product-of-the-Last-K-Numbers (TBD)    
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
