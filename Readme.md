@@ -214,6 +214,7 @@
 [895.Maximum-Frequency-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/895.Maximum-Frequency-Stack) (H)    
 [1172.Dinner-Plate-Stacks](https://github.com/wisdompeak/LeetCode/tree/master/Design/1172.Dinner-Plate-Stacks) (H)    
 [1381.Design-a-Stack-With-Increment-Operation](https://github.com/wisdompeak/LeetCode/tree/master/Design/1381.Design-a-Stack-With-Increment-Operation) (H-)   
+[1352.Product-of-the-Last-K-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Design/1352.Product-of-the-Last-K-Numbers) (M+)  
 [1622.Fancy-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Design/1622.Fancy-Sequence) (H+)  
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
