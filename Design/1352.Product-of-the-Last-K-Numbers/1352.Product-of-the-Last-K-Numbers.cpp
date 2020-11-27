@@ -1,29 +1,27 @@
 class ProductOfNumbers {
     vector<int>pre;
-    int cur;
     int id;
     int lastZero = 0;
 public:
     ProductOfNumbers() 
     {
-        id = 0;
-        cur = 1;        
-        pre.push_back(cur);
+        id = 0;        
+        pre.push_back(1);
     }
     
     void add(int num) 
     {   
         id++;     
         if (num!=0)
-            cur *= num;
-        else
         {
-            cur = 1;
-            lastZero = id;
+            pre.push_back(pre.back()*num);
         }
             
-        pre.push_back(cur);
-        
+        else
+        {
+            pre.push_back(1);
+            lastZero = id;
+        }
     }
     
     int getProduct(int k) 
