@@ -613,6 +613,7 @@
 1442.Count Triplets That Can Form Two Arrays of Equal XOR (TBD)   
 [1506.Find-Root-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1506.Find-Root-of-N-Ary-Tree) (M+)  
 * ``Bit Mask``   
+[1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix) (M+)  
 [1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List) (H-)  
 [1601.Maximum-Number-of-Achievable-Transfer-Requests](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1601.Maximum-Number-of-Achievable-Transfer-Requests) (H-)  
  
@@ -850,7 +851,6 @@
 1183.Maximum-Number-of-Ones (H)   
 [1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)    
 1272.Remove-Interval (TBD)    
-1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix (TBD)    
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
