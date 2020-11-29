@@ -1,58 +1,45 @@
 class FrontMiddleBackQueue {
-    int arr[1000];
-    int n = 0;
+    vector<int>q;
 public:
     FrontMiddleBackQueue() {
     }
     
     void pushFront(int val) 
     {
-        for (int i=n; i>=1; i--)
-            arr[i] = arr[i-1];
-        arr[0] = val;
-        n++;        
+        q.insert(q.begin(),val);
     }
     
     void pushMiddle(int val) 
     {
-        int i = n-1;
-        for (int i=n; i>= max(1,n/2); i--)
-            arr[i] = arr[i-1];
-        arr[n/2] = val;
-        n++;        
+        q.insert(q.begin()+q.size()/2, val);
     }
     
     void pushBack(int val) 
     {
-        arr[n] = val;
-        n++;        
+        q.push_back(val);
     }
     
     int popFront() 
     {
-        if (n==0) return -1;
-        int ret = arr[0];
-        for (int i=0; i<n-1; i++)
-            arr[i] = arr[i+1];
-        n--;        
+        if (q.empty()) return -1;
+        int ret = q.front();
+        q.erase(q.begin());
         return ret;
     }
     
     int popMiddle() 
     {
-        if (n==0) return -1;
-        int ret = arr[(n-1)/2];
-        for (int i=(n-1)/2; i<n; i++)
-            arr[i] = arr[i+1];
-        n--;        
+        if (q.empty()) return -1;
+        int ret = *(q.begin()+(q.size()-1)/2);
+        q.erase(q.begin()+(q.size()-1)/2);
         return ret;
     }
     
     int popBack() 
     {
-        if (n==0) return -1;
-        int ret = arr[n-1];
-        n--;        
+        if (q.empty()) return -1;
+        int ret = q.back();
+        q.pop_back();
         return ret;
     }
 };
