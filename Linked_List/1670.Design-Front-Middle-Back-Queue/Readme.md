@@ -13,7 +13,7 @@
 YOXOO 
 ```    
 ```
-当n为寄数时，mid需要前移一位。 
+当n为奇数时，mid需要前移一位。 
  OOXOO
 YOOXOO
 ```
@@ -25,7 +25,7 @@ OXOO
 OXOOY
 ``` 
 ```
-当n为寄数时，mid不用变化。
+当n为奇数时，mid不用变化。
 OOXOO
 OOXOOY
 ```
@@ -37,7 +37,7 @@ OOXOOY
  OXYOO
 ``` 
 ```
-当n为寄数时，新mid会插在mid前面。
+当n为奇数时，新mid会插在mid前面。
 OOXOO
 OOYXOO
 ```
@@ -49,7 +49,7 @@ OXOO
  XOO
 ``` 
 ```
-当n为寄数时，mid不需要变化
+当n为奇数时，mid不需要变化
 OOXOO
  OXOO
 ```
@@ -61,19 +61,19 @@ OXOO
 OXO
 ``` 
 ```
-当n为寄数时，mid需要前移一位
+当n为奇数时，mid需要前移一位
 OOXOO
 OOXO
 ```
 
-4. pop_middle:        
+6. pop_middle:        
 ```
 当n为偶数时，mid需要后移一位。
 OXOO
 O OO
 ``` 
 ```
-当n为寄数时，mid需要前移一位。
+当n为奇数时，mid需要前移一位。
 OOXOO
 OO OO
 ```
