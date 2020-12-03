@@ -1,50 +1,32 @@
 class Solution {
-    struct cmp
-    {
-        bool operator()(pair<int,int>a,pair<int,int>b)
-        {
-            return a.first>b.first;
-        }
-    };
 public:
     vector<int> smallestRange(vector<vector<int>>& nums) 
     {
-        int N=nums.size();
-        priority_queue<pair<int,int>,vector<pair<int,int>>,cmp>q;
-        
-        int MIN=INT_MAX;
-        int MAX=INT_MIN;
-        
-        vector<int>range(2,0);
-        for (int i=0; i<N; i++)
+        set<pair<int,int>>Set;
+        int n = nums.size();
+        vector<int>pointers;
+        for (int i=0; i<n; i++)
         {
-            if (nums[i].size()==0) return range;
-            q.push({nums[i][0],i});
-            MIN=min(MIN,nums[i][0]);
-            MAX=max(MAX,nums[i][0]);
+            pointers.push_back(0);
+            Set.insert({nums[i][0],i});
         }
-        range[0]=MIN;
-        range[1]=MAX;
-        
-        vector<int>pointers(N,1);
-        do
+
+        int range = INT_MAX;
+        vector<int>ret;
+        while (1)
         {
-            int k=q.top().second;
-            if (pointers[k]==nums[k].size())
-                return range;
-            q.pop();
-            q.push({nums[k][pointers[k]],k});            
-            MAX=max(MAX,nums[k][pointers[k]]);
-            MIN=q.top().first;            
-            pointers[k]++;
-            
-            if (MAX-MIN<range[1]-range[0])
+            if (Set.rbegin()->first - Set.begin()->first < range)
             {
-                range[0]=MIN;
-                range[1]=MAX;
-            }
-        }while (1);
-        
-        return range;
+                range = Set.rbegin()->first - Set.begin()->first;
+                ret = {Set.begin()->first, Set.rbegin()->first};
+            }            
+            int i = Set.begin()->second;
+            pointers[i]++;
+            if (pointers[i]==nums[i].size()) break;
+            Set.erase(Set.begin());
+            Set.insert({nums[i][pointers[i]],i});
+        }
+
+        return ret;
     }
 };
