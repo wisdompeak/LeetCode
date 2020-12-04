@@ -2,32 +2,31 @@ class Solution {
 public:
     bool isPossible(vector<int>& nums) 
     {
-        vector<vector<int>>groups;
-        
-        for (int i=0; i<nums.size(); i++)
+        unordered_map<int,int>left;
+        unordered_map<int,int>seq;
+        for (auto x: nums)
+            left[x]++;
+
+        for (auto x: nums)
         {
-            bool inserted=false;
-            for (int j=groups.size()-1; j>=0; j--)
-            {
-                if (groups[j].size()>0 && nums[i]==groups[j].back()+1)
-                {
-                    groups[j].push_back(nums[i]);
-                    inserted=true;
-                    break;
-                }
+            if (left[x]==0) continue;
+            if (seq[x-1]>0)
+            {                
+                left[x]--;
+                seq[x-1]-=1;
+                seq[x]+=1;                
             }
-            if (inserted==false)
+            else
             {
-                groups.push_back({nums[i]});
+                if (left[x+1]==0 || left[x+2]==0)
+                    return false;
+                left[x]--;
+                left[x+1]--;
+                left[x+2]--;
+                seq[x+2]+=1;
             }
+            
         }
-        
-        for (int i=0; i<groups.size(); i++)
-        {
-            if (groups[i].size()<3) 
-                return false;
-        }
-        
-        return true;
+        return true;        
     }
 };
