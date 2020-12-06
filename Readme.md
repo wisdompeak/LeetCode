@@ -775,6 +775,7 @@
 1330.Reverse-Subarray-To-Maximize-Array-Value (TBD)   
 [1250.Check-If-It-Is-a-Good-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/1250.Check-If-It-Is-a-Good-Array) (M+)   
 [1605.Find-Valid-Matrix-Given-Row-and-Column-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Math/1605.Find-Valid-Matrix-Given-Row-and-Column-Sums) (M+)  
+[1680.Concatenation-of-Consecutive-Binary-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/1680.Concatenation-of-Consecutive-Binary-Numbers) (M)  
 * ``Distances``   
 [296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
 [1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)    
