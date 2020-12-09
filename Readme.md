@@ -318,7 +318,7 @@
 [491.Increasing-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/DFS/491.Increasing-Subsequences) (M)   
 [698.Partition-to-K-Equal-Sum-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/698.Partition-to-K-Equal-Sum-Subsets) (H-)    
 996.Number-of-Squareful-Arrays (H)    
-1307.Verbal-Arithmetic-Puzzle (TBD)   
+[1307.Verbal-Arithmetic-Puzzle](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1307.Verbal-Arithmetic-Puzzle) (H)  
 [1593.Split-a-String-Into-the-Max-Number-of-Unique-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1593.Split-a-String-Into-the-Max-Number-of-Unique-Substrings) (M)  
 [1681.Minimum-Incompatibility](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1681.Minimum-Incompatibility) (H)  
 * ``memorization``    
