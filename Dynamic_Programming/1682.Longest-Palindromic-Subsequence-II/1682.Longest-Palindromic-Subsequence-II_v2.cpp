@@ -31,8 +31,8 @@ public:
                 }
                 else
                 {
-                    dp[i][j][a] = max(dp[i][j][a], dp[i][j-1][a]);
-                    dp[i][j][b] = max(dp[i][j][b], dp[i+1][j][b]);
+                    dp[i][j][a] = dp[i][j-1][a];
+                    dp[i][j][b] = dp[i+1][j][b];
                     for (int k=0; k<26; k++)
                     {
                         if (k!=a && k!=b)
