@@ -438,6 +438,8 @@
 [1585.Check-If-String-Is-Transformable-With-Substring-Sort-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1585.Check-If-String-Is-Transformable-With-Substring-Sort-Operations) (H)  
 [1657.Determine-if-Two-Strings-Are-Close](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1657.Determine-if-Two-Strings-Are-Close) (M)  
 * ``Left/Right/Merge``   
+[1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
+1653. Minimum Deletions to Make String Balanced (TBD)  
 [1664.Ways-to-Make-a-Fair-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1664.Ways-to-Make-a-Fair-Array) (M)  
 [1671.Minimum-Number-of-Removals-to-Make-Mountain-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1671.Minimum-Number-of-Removals-to-Make-Mountain-Array) (M+)  
 * ``Sort+PQ``   
@@ -496,7 +498,6 @@
 [1531.String-Compression-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1531.String-Compression-II) (H+)  
 [1575.Count-All-Possible-Routes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1575.Count-All-Possible-Routes) (M+)  
 [1621.Number-of-Sets-of-K-Non-Overlapping-Line-Segments](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1621.Number-of-Sets-of-K-Non-Overlapping-Line-Segments) (H)  
-[1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
 [1639.Number-of-Ways-to-Form-a-Target-String-Given-a-Dictionary](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1639.Number-of-Ways-to-Form-a-Target-String-Given-a-Dictionary) (H-)  
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
