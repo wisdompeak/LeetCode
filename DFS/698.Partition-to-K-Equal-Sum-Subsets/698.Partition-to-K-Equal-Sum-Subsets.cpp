@@ -1,41 +1,40 @@
 class Solution {
-    int K;
+    int total;
+    int k;
+    int visited[16];
 public:
-    bool canPartitionKSubsets(vector<int>& nums, int k)
+    bool canPartitionKSubsets(vector<int>& nums, int k) 
     {
-        if (k==0) return false;
-        if (k==1) return true;
-        int SUM=0;
-        for (int i=0; i<nums.size(); i++)
-            SUM+=nums[i];
-        if (SUM%k!=0) return false;
-        int sum=SUM/k;
-
-        sort(nums.begin(),nums.end());
+        sort(nums.begin(), nums.end());
         reverse(nums.begin(),nums.end());
-        vector<int>visited(nums.size(),0);
-        K=k;
-        
-        return DFS(nums,0,0,0,sum,visited);
+        total = accumulate(nums.begin(), nums.end(), 0);
+        this->k = k;
+        if (total%k!=0) return false;
+
+        return dfs(nums, 0, 0, 0);
     }
 
-    bool DFS(vector<int>& nums, int curPos, int curGroup, int curSum, int SUM, vector<int>&visited)
+    bool dfs(vector<int>&nums, int cur, int group, int sum)
     {
-        if (curGroup==K) return true;
-        if (curSum==SUM) return DFS(nums,0,curGroup+1,0,SUM,visited);
-        if (curSum>SUM) return false;
-        if (curPos==nums.size()) return false;
+        if (group==k)
+            return true;
         
-        for (int i=curPos; i<nums.size(); i++)
+        if (sum > total/k)
+            return false;
+
+        if (sum == total/k)
+            return dfs(nums, 0, group+1, 0);
+
+        int last = -1;
+        for (int i=cur; i<nums.size(); i++)
         {
-            if (visited[i]==1)
-                continue;
-            if (curPos!=i && visited[i-1]==0 && nums[i]==nums[i-1])
-                continue;
-            visited[i]=1;
-            if (DFS(nums,i+1,curGroup,curSum+nums[i],SUM,visited))
-                return true;
-            visited[i]=0;
+            if (visited[i]==1) continue;
+            if (nums[i]==last) continue;
+            last = nums[i];
+            visited[i] = 1;
+            if (dfs(nums, i, group, sum+nums[i]))
+                return true;            
+            visited[i] = 0;
         }
         return false;
     }
