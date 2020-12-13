@@ -439,7 +439,7 @@
 [1657.Determine-if-Two-Strings-Are-Close](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1657.Determine-if-Two-Strings-Are-Close) (M)  
 * ``Left/Right/Merge``   
 [1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
-1653. Minimum Deletions to Make String Balanced (TBD)  
+1653.Minimum Deletions to Make String Balanced (TBD)  
 [1664.Ways-to-Make-a-Fair-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1664.Ways-to-Make-a-Fair-Array) (M)  
 [1671.Minimum-Number-of-Removals-to-Make-Mountain-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1671.Minimum-Number-of-Removals-to-Make-Mountain-Array) (M+)  
 * ``Sort+PQ``   
@@ -681,6 +681,7 @@
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)  
 [1520.Maximum-Number-of-Non-Overlapping-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1520.Maximum-Number-of-Non-Overlapping-Substrings) (H-)  
 [1665.Minimum-Initial-Energy-to-Finish-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1665.Minimum-Initial-Energy-to-Finish-Tasks) (H-)  
+[1686.Stone-Game-VI](https://github.com/wisdompeak/LeetCode/tree/master/Sort/1686.Stone-Game-VI) (H-)  
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 [547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
