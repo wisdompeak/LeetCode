@@ -532,6 +532,7 @@
 [1105.Filling-Bookcase-Shelves](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1105.Filling-Bookcase-Shelves) (H-)    
 [1546.Maximum-Number-of-Non-Overlapping-Subarrays-With-Sum-Equals-Target](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1546.Maximum-Number-of-Non-Overlapping-Subarrays-With-Sum-Equals-Target) (M+)   
 [1626.Best-Team-With-No-Conflicts](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1626.Best-Team-With-No-Conflicts) (M)  
+[1691.Maximum-Height-by-Stacking-Cuboids](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1691.Maximum-Height-by-Stacking-Cuboids) (H)  
 * ``走迷宫型``   
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
 [741.Cherry-Pickup](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/741.Cherry-Pickup) (H-)    
