@@ -5,10 +5,9 @@ public:
     {
         int n = stones.size();
         stones.insert(stones.begin(), 0);
-        stones.push_back(0);
         
         vector<int>presum(n+2,0);
-        for (int i=1; i<=n+1; i++)
+        for (int i=1; i<=n; i++)
             presum[i] = presum[i-1] + stones[i];        
         
         for (int i=1; i<=n; i++)
