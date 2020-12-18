@@ -444,15 +444,12 @@
 [1664.Ways-to-Make-a-Fair-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1664.Ways-to-Make-a-Fair-Array) (M)  
 [1671.Minimum-Number-of-Removals-to-Make-Mountain-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1671.Minimum-Number-of-Removals-to-Make-Mountain-Array) (M+)  
 * ``Sort``   
-[041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/041.First-Missing-Positive/Readme.md) (H)    
 164.Maximum-Gap (H)   
 [179.Largest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/179.Largest-Number) (H-)  
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
 [581.shortest-unsorted-continuous-subarray](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/581.shortest-unsorted-continuous-subarray) (M+)   
 [275.H-Index-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/275.H-Index-II) (M+)    
 [406.Queue-Reconstruction-by-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/406.Queue-Reconstruction-by-Height) (M+)   
-[442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/442.Find-All-Duplicates-in-an-Array) (M+)  
-448.Find-All-Numbers-Disappeared-in-an-Array (M+)   
 [731.My-Calendar-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/731.My-Calendar-II) (M+)   
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/435.Non-overlapping-Intervals) (M+)   
@@ -463,6 +460,12 @@
 [1520.Maximum-Number-of-Non-Overlapping-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1520.Maximum-Number-of-Non-Overlapping-Substrings) (H-)  
 [1665.Minimum-Initial-Energy-to-Finish-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1665.Minimum-Initial-Energy-to-Finish-Tasks) (H-)  
 [1686.Stone-Game-VI](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1686.Stone-Game-VI) (H-)  
+* ``Indexing Sort``   
+[041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/041.First-Missing-Positive/Readme.md) (H)    
+[287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H)    
+[442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/442.Find-All-Duplicates-in-an-Array) (M+)  
+448.Find-All-Numbers-Disappeared-in-an-Array (M+)   
+645.Set-Mismatch (H)    
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
@@ -829,7 +832,6 @@
 [587.Erect-the-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
 087.Scramble-String (H)   
 391.Perfect-Rectangle (H)   
-645.Set-Mismatch (H)    
 423.Reconstruct-Original-Digits-from-English (H-)   
 335.Self-Crossing (H)   
 479.Largest-Palindrome-Product (M+)   
