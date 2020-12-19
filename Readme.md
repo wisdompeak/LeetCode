@@ -395,7 +395,6 @@
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H)   
 [239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/239.Sliding-Window-Maximum) (H)    
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
-[334.Increasing-Triplet-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/334.Increasing-Triplet-Subsequence) (H-)    
 [316.Remove Duplicate Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)   
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)   
 [659.Split-Array-into-Consecutive-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/659.Split-Array-into-Consecutive-Subsequences) (H)  
@@ -439,6 +438,7 @@
 [1585.Check-If-String-Is-Transformable-With-Substring-Sort-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1585.Check-If-String-Is-Transformable-With-Substring-Sort-Operations) (H)  
 [1657.Determine-if-Two-Strings-Are-Close](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1657.Determine-if-Two-Strings-Are-Close) (M)  
 * ``Left/Right/Merge``   
+[334.Increasing-Triplet-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/334.Increasing-Triplet-Subsequence) (H-)    
 [1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
 1653.Minimum Deletions to Make String Balanced (TBD)  
 [1664.Ways-to-Make-a-Fair-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1664.Ways-to-Make-a-Fair-Array) (M)  
