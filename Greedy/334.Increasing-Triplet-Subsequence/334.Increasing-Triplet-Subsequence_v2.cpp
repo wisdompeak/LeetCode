@@ -3,14 +3,17 @@ public:
     bool increasingTriplet(vector<int>& nums) 
     {
         vector<int>q;
-        for (auto x:nums)
+        for (auto x: nums)
         {
-            auto pos=lower_bound(q.begin(),q.end(),x);
-            if (pos==q.end())
+            if (q.empty() || q.back()<x)
                 q.push_back(x);
             else
-                *pos=x;            
-            if (q.size()==3) return true;
+            {
+                auto iter = lower_bound(q.begin(), q.end(), x);
+                *iter = x;
+            }
+            if (q.size()==3)
+                return true;
         }
         return false;
     }
