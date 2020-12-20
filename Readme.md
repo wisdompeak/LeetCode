@@ -452,8 +452,6 @@
 [406.Queue-Reconstruction-by-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/406.Queue-Reconstruction-by-Height) (M+)   
 [731.My-Calendar-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/731.My-Calendar-II) (M+)   
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
-[435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/435.Non-overlapping-Intervals) (M+)   
-[1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1024.Video-Stitching) (M+)    
 1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden (TBD)   
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)  
@@ -476,6 +474,8 @@
 [1541.Minimum-Insertions-to-Balance-a-Parentheses-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1541.Minimum-Insertions-to-Balance-a-Parentheses-String) (M+)  
 [678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H-)    
 * ``Intervals``   
+[435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/435.Non-overlapping-Intervals) (M+)   
+[1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1024.Video-Stitching) (M+)    
 1288.Remove Covered Intervals (TBD)  
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
