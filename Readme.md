@@ -389,8 +389,6 @@
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 [055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (M)    
-[084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
-[085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H)   
 [134.Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/134.Gas-Station) (H)    
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H)   
 [239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/239.Sliding-Window-Maximum) (H)    
