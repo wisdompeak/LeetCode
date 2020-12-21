@@ -1,5 +1,5 @@
 class Solution {
-    static bool cmp(vector<int>a, vector<int>b)
+    static bool cmp(vector<int>&a, vector<int>&b)
     {
         if (a[1]==b[1])
             return a[0]>b[0];
@@ -9,32 +9,27 @@ class Solution {
 public:
     int intersectionSizeTwo(vector<vector<int>>& intervals) 
     {
-        sort(intervals.begin(),intervals.end(),cmp);
-        int start=intervals[0][1]-1;
-        int end=intervals[0][1];
-        int count=2;
+        sort(intervals.begin(), intervals.end(), cmp);
+        int a = intervals[0][1]-1, b = intervals[0][1];
+        int count = 2;
 
-        for (int i=1; i<intervals.size(); i++)
+        for (auto& interval: intervals)
         {
-            if (intervals[i][1]==intervals[i-1][1])
+            if (interval[0]<=a)
                 continue;
-            
-            if (intervals[i][0]<=start)
-                continue;                
-            else if (intervals[i][0]<=end)
+            else if (interval[0]<=b)
             {
-                count+=1;
-                start=end;
-                end=intervals[i][1];
+                count++;
+                a = b;
+                b = interval[1];
             }
             else
             {
                 count+=2;
-                start=intervals[i][1]-1;
-                end=intervals[i][1];
-            }                
+                a = interval[1]-1;
+                b = interval[1];
+            }
         }
-        
         return count;
     }
 };
