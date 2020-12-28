@@ -290,6 +290,7 @@
 1066.Campus-Bikes-II (H)    
 [1642.Furthest-Building-You-Can-Reach](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1642.Furthest-Building-You-Can-Reach) (H-)  
 [1675.Minimize-Deviation-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1675.Minimize-Deviation-in-Array) (H)  
+[1705.Maximum-Number-of-Eaten-Apples](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1705.Maximum-Number-of-Eaten-Apples) (M+)  
 * ``Arrangement``   
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)    
 [767.Reorganize-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/767.Reorganize-String) (M+)    
