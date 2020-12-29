@@ -470,6 +470,7 @@
 [757.Set-Intersection-Size-At-Least-Two](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/757.Set-Intersection-Size-At-Least-Two) (H)  
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
 [1024.Video-Stitching](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1024.Video-Stitching) (M+)    
+1272.Remove-Interval (TBD)  
 [1288.Remove-Covered-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1288.Remove-Covered-Intervals) (M+)  
 [1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden) (M+)   
 
@@ -854,8 +855,7 @@
 [927.Three-Equal-Parts](https://github.com/wisdompeak/LeetCode/tree/master/Others/927.Three-Equal-Parts) (M)    
 1067.Digit-Count-in-Range (H)   
 1183.Maximum-Number-of-Ones (H)   
-[1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)    
-1272.Remove-Interval (TBD)    
+[1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)        
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
 [1706.Where-Will-the-Ball-Fall](https://github.com/wisdompeak/LeetCode/tree/master/Others/1706.Where-Will-the-Ball-Fall) (M+)  
 * ``扫描线 / 差分数组``   
