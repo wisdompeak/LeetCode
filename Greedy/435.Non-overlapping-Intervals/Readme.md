@@ -1,5 +1,7 @@
 ### 435.Non-overlapping-Intervals
 
+#### 解法1
+
 此题和452. Minimum Number of Arrows to Burst Balloons非常类似，可以用贪心法来解决类似的区间问题。
 
 我们之前总结过，对区间排序的贪心法，有的需要sort by starting point，有的需要sort by ending point. 大致的规律是：
@@ -10,5 +12,12 @@
 
 或者我们这样理解：为了保留更多的区间数目，在众多重合的区间里面，我们会优先选择右端点靠前的区间。因为它对后续的影响最小，有更大的概率让更多的区间出现。
 
+#### 解法2
+
+因为我们求的是non-overlapping intervals，所以从左往右看每个区间的ending point，就是从右往左看每个区间的starting point。所以理论上本题也一定可以用sort by starting point来做。
+
+当然，具体的做法与1不太一样。我们将所有的区间按照starting point排序之后，依次遍历它们。我们维护一个当前能到达的最远点far。如果
+1. 新区间的左端点在far的右边，那么新区间就不会与之前的任何区间重合，计数器加1
+2. 新区间的右端点在far的左边，那么新区间就被旧区间包围。我们于是舍弃之前的区间，而prefer当前的区间，并更新far为右端点，使其变得更靠前。目的是让后面有机会加入更多的区间。
 
 [Leetcode Link](https://leetcode.com/problems/non-overlapping-intervals)
