@@ -415,6 +415,7 @@
 968.Binary-Tree-Cameras (H)   
 [955.Delete-Columns-to-Make-Sorted-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/955.Delete-Columns-to-Make-Sorted-II) (M+)  
 [1040.Moving-Stones-Until-Consecutive-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1040.Moving-Stones-Until-Consecutive-II) (H)    
+[1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (H)  
 1121.Divide Array Into Increasing Sequences (TBD)   
 [1191.K-Concatenation-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1191.K-Concatenation-Maximum-Sum) (M+)   
 [1253.Reconstruct-a-2-Row-Binary-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1253.Reconstruct-a-2-Row-Binary-Matrix) (M)    
