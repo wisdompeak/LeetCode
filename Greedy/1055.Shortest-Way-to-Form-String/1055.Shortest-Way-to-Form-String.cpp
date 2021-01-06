@@ -21,27 +21,26 @@ public:
         int j = 0;
         int count = 0;
         for (int i=0; i<target.size();)
-        {            
-            if (next[j][target[i]-'a'] != -1)  
+        {       
+            if (next[0][target[i]-'a']==-1)
+                return -1;
+                        
+            j = next[j][target[i]-'a'];
+            
+            if (j==-1)
             {
-                j = next[j][target[i]-'a'];
+                j = 0;
+                count++;                    
+            }            
+            else if ( j!= -1)  
+            {                
                 i += 1;
                 if (i==target.size())
                 {
                     count++;
                     break;
                 }                    
-            }                
-            else
-            {
-                if (j == 0)
-                    return -1;
-                else
-                {
-                    count++;
-                    j = 0;
-                }
-            }
+            }    
         }
         return count;        
     }
