@@ -470,9 +470,8 @@
 [1541.Minimum-Insertions-to-Balance-a-Parentheses-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1541.Minimum-Insertions-to-Balance-a-Parentheses-String) (M+)  
 [678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H-)    
 * ``Intervals``   
-[435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/435.Non-overlapping-Intervals) (M+)   
+[435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/435.Non-overlapping-Intervals) (M+)  (aka. [646.Maximum-Length-of-Pair-Chain](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/646.Maximum-Length-of-Pair-Chain))  
 [452.Minimum-Number-of-Arrows-to-Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/452.Minimum-Number-of-Arrows-to-Burst-Balloons) (H-)   
-[646.Maximum-Length-of-Pair-Chain](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/646.Maximum-Length-of-Pair-Chain) (M)  
 [757.Set-Intersection-Size-At-Least-Two](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/757.Set-Intersection-Size-At-Least-Two) (H)  
 [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
 646.Maximum Length of Pair Chain (TBD)  
