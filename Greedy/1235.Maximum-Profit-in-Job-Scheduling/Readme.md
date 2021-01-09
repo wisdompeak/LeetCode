@@ -1,6 +1,6 @@
 ### 1235.Maximum-Profit-in-Job-Scheduling
 
-将所有的区间按照endTime进行排序是一个很常见的尝试的手段。
+考虑到我们最终选取的区间必须是non-overlapping的，所以根据经验，我们按照endTime对区间进行排序。
 
 假设我们按照如上排序后的顺序，遍历每个区间。我们会想，如果我们选择了第i个区间的话，那么我们就有机会更新这么一个记录```dp[endTime[i]]```，其中dp[t]表示截至t时刻的最大收益。显然，我们会有```dp[endTime[i]] = max(dp[endTime[i]], dp[startTime[i]]+profit[i])```.这像不像DP的思想？
 
