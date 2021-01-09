@@ -11,25 +11,16 @@ public:
         for (int i=0; i<n; i++)
             jobs.push_back({startTime[i],endTime[i],profit[i]});
         sort(jobs.begin(), jobs.end(), cmp);
-        vector<int>ends;
-        unordered_map<int,int>Map;
+        vector<pair<int,int>>dp;
+        dp.push_back({-1,0});
 
         int ret = 0;
         for (int i=0; i<n; i++)
         {            
             int ans = ret;
-            auto iter = upper_bound(ends.begin(), ends.end(), jobs[i][0]);
-            if (iter != ends.begin())
-            {
-                iter = prev(iter,1);
-                ans = max(ans, Map[*iter] + jobs[i][2]);
-            }
-            else
-                ans = max(ans, jobs[i][2]);
-
-            if (i==0 || jobs[i][1]!=jobs[i-1][1])
-                ends.push_back(jobs[i][1]);
-            Map[jobs[i][1]] = ans;
+            auto iter = upper_bound(dp.begin(), dp.end(), make_pair(jobs[i][0], INT_MAX));
+            ans = max(ans, prev(iter,1)->second + jobs[i][2]);            
+            dp.push_back({jobs[i][1], ans});
 
             ret = max(ret, ans);
         }
