@@ -18,6 +18,6 @@ Same idea as https://leetcode.com/problems/sum-of-special-evenly-spaced-elements
 
 When d >= sqrt(n)，just brute loop the numbers we want to add. It takes at most o(sqrt(N)).
 
-When d < sqrt(n), would be better to prepare the suffix sum array as ```sufsum[d][i]```.  ```sufsum[d][i]``` is the summation of ```nums[i] + nums[i+d] + nums[i+d*2] + ... ``` Then the result of this query is simply ```sufsum[d][s]``` The pre-computation for one query always takes ```o(N)``, but it can be stored for reuse (if multiple queries share the same d). 
+When d < sqrt(n), would be better to prepare the suffix sum array as ```sufsum[d][i]```.  ```sufsum[d][i]``` is the summation of ```nums[i] + nums[i+d] + nums[i+d*2] + ... ``` Then the result of this query is simply ```sufsum[d][s]``` The pre-computation for one query always takes ```o(N)```, but it can be stored for reuse (if multiple queries share the same d). 
 
 Both solutions are slow in C++ (beat 5%).
