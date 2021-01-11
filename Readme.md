@@ -316,6 +316,7 @@
 803.Bricks-Falling-When-Hit (H)   
 [959.Regions-Cut-By-Slashes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/959.Regions-Cut-By-Slashes) (M+)    
 [1306.Jump-Game-III](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1306.Jump-Game-III) (M)  
+[1718.Construct-the-Lexicographically-Largest-Valid-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1718.Construct-the-Lexicographically-Largest-Valid-Sequence) (H-)  
 * ``search in an array``    
 [301.Remove-Invalid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/DFS/301.Remove-Invalid-Parentheses) (H)   
 [473.Matchsticks-to-Square](https://github.com/wisdompeak/LeetCode/tree/master/DFS/473.Matchsticks-to-Square) (M+)    
