@@ -20,7 +20,7 @@ public:
         vector<int>nodes(nodeSet.begin(), nodeSet.end());
         sort(nodes.begin(),nodes.end(),[&](int x,int y)->bool{return relative[x].size()<relative[y].size();});
 
-        int root_count = 0;
+        int root = -1;
 
         for (int i=0; i<nodes.size(); i++)
         {
@@ -40,9 +40,13 @@ public:
                 }
             }
             else
-                root_count += 1;
+            {
+                if (root==-1)
+                    root = nodes[i];
+                else
+                    return 0;
+            }
         }
-        if (root_count!=1) return 0;
         return flag;
     }
 };
