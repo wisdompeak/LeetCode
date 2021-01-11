@@ -763,6 +763,7 @@
 1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance (TBD)    
 1361.Validate-Binary-Tree-Nodes (TBD)   
 [1514.Path-with-Maximum-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1514.Path-with-Maximum-Probability) (H)  
+[1719.Number-Of-Ways-To-Reconstruct-A-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1719.Number-Of-Ways-To-Reconstruct-A-Tree) (H+)  
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+) (aka. 1238. Circular Permutation in Binary Representation)  
