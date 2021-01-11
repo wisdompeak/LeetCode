@@ -718,6 +718,7 @@
 [1632.Rank-Transform-of-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1632.Rank-Transform-of-a-Matrix) (H)  
 [1631.Path-With-Minimum-Effort](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1631.Path-With-Minimum-Effort) (H-)  
 [1697.Checking-Existence-of-Edge-Length-Limited-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1697.Checking-Existence-of-Edge-Length-Limited-Paths) (H-)  
+[1722.Minimize-Hamming-Distance-After-Swap-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1722.Minimize-Hamming-Distance-After-Swap-Operations) (M+)  
 * ``MST``    
 [1135.Connecting-Cities-With-Minimum-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1135.Connecting-Cities-With-Minimum-Cost)　(M+)   
 [1168.Optimize-Water-Distribution-in-a-Village](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1168.Optimize-Water-Distribution-in-a-Village) (H-)   
