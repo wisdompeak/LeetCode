@@ -1,87 +1,75 @@
 class Solution {
     int flag = 1;
-    unordered_map<int, vector<int>>children;
-    unordered_map<int, int>father;
-    unordered_map<int, int>depth;
-    unordered_map<int, int>childrenCount;
+    unordered_set<int>nodeSet;
+    vector<int> relative[501];
+    int isRelative[501][501];    
+    vector<int> children[501];    
+    unordered_set<int>visited;
 
 public:
     int checkWays(vector<vector<int>>& pairs) 
     {
-        unordered_map<int,int>order;
-        unordered_set<int>nodeSet;
         for (auto pair: pairs)
         {
             nodeSet.insert(pair[0]);
-            nodeSet.insert(pair[1]);
-            order[pair[0]]++;
-            order[pair[1]]++;
+            nodeSet.insert(pair[1]);                                    
+            relative[pair[0]].push_back(pair[1]);
+            relative[pair[1]].push_back(pair[0]);
+            isRelative[pair[0]][pair[1]] = 1;
+            isRelative[pair[1]][pair[0]] = 1;            
         }
-        unordered_map<int,vector<pair<int,int>>>relative;
-        for (auto pair: pairs)
-        {
-            relative[pair[0]].push_back({order[pair[1]], pair[1]});
-            relative[pair[1]].push_back({order[pair[0]], pair[0]});
-        }
-        
-        for (auto node: nodeSet)
-        {    
-            sort(relative[node].begin(), relative[node].end());
-            int i = relative[node].size()-1;
-            while (i>=0 && (relative[node][i].first > order[node] || relative[node][i].first == order[node] && relative[node][i].second > node))
-            {
-                if (relative[node][i].first == order[node] && flag == 1)
-                    flag = 2;
-                i--;
-            }                
-            if (i+1>=0 && i+1 < relative[node].size())
-            {
-                int parent = relative[node][i+1].second;
-                children[parent].push_back(node);
-                father[node] = parent;
-            }            
-        }
+
+        vector<int>nodes(nodeSet.begin(), nodeSet.end());
+        sort(nodes.begin(),nodes.end(),[&](int x,int y)->bool{return relative[x].size()<relative[y].size();});
 
         int root = -1;
-        for (auto node: nodeSet)
+
+        for (int i=0; i<nodes.size(); i++)
         {
-            if (father.find(node)==father.end())
-            {
-                if (root!=-1) return 0;
-                root = node;
+            int j = i+1;
+            while (j<nodes.size() && !isRelative[nodes[i]][nodes[j]])
+                j++;
+            if (j<nodes.size())
+            {                       
+                children[nodes[j]].push_back(nodes[i]);
+                if (relative[nodes[j]].size() == relative[nodes[i]].size())
+                {
+                    flag = 2;
+                }
             }
+            else
+            {
+                if (root==-1)
+                    root = nodes[i];
+                else
+                    return 0;
+            }                
         }
 
-        unordered_set<int>visited;
-        if (dfs(root, visited, 0)==-1)
-            return 0;
-
-        for (auto node: nodeSet)
-        {
-            if (order[node]!=depth[node]+childrenCount[node])
-                return 0;
-        }
+        dfs(root,0);
         
         return flag;
     }
 
-    int dfs(int cur, unordered_set<int>&visited, int d)
+    int dfs(int cur, int depth)
     {
+        if (flag==0) return -1;
         if (visited.find(cur)!=visited.end())
-            return -1;            
-        visited.insert(cur);
-        depth[cur] = d;
-
-        int count = 0;
-        for (auto next: children[cur])
         {
-            int temp = dfs(next, visited, d+1);
-            if (temp==-1)
-                return -1;
-            else
-                count+=temp;
+            flag = 0;
+            return -1;
         }
-        childrenCount[cur] = count;
-        return count+1;
+        visited.insert(cur);
+        int sum = 0;
+        for (int child: children[cur])
+        {
+            sum += dfs(child, depth+1);
+        }
+        if (sum+depth!=relative[cur].size())
+        {
+            flag = 0;
+            return -1;
+        }
+        return sum+1;
     }
 };
