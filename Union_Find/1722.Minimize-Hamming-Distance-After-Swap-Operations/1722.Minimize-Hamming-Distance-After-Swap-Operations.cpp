@@ -1,43 +1,5 @@
 class Solution {
     vector<int>Father;
-public:
-    string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
-        int N = s.size();
-        Father.resize(N);
-        for (int i=0; i<N; i++)
-            Father[i] = i;
-        
-        for (auto& p :pairs)
-        {
-            int a = p[0];
-            int b = p[1];
-            if (FindFather(a)!=FindFather(b))
-                Union(a,b);
-        }
-        
-        unordered_map<int, vector<int>>Map; // root idx -> all indexes
-        for (int i=0; i<N; i++)
-        {
-            Map[FindFather(i)].push_back(i);
-        }
-        
-        for (auto x: Map)
-        {
-            string temp;
-            for (auto idx : x.second)
-                temp.push_back(s[idx]);
-            sort(temp.begin(),temp.end());
-            int k = 0;
-            for (auto idx : x.second)
-            {
-                s[idx] = temp[k];
-                k++;
-            }
-        }
-        
-        return s;
-    }
-    
     int FindFather(int x)
     {
         if (Father[x]!=x)
@@ -49,9 +11,43 @@ public:
     {
         x = Father[x];
         y = Father[y];
-        if (x<y)
-            Father[y] = x;
-        else
-            Father[x] = y;
+        if (x<y) Father[y] = x;
+        else Father[x] = y;
+    }    
+
+public:
+    int minimumHammingDistance(vector<int>& source, vector<int>& target, vector<vector<int>>& allowedSwaps) 
+    {
+        int n = source.size();
+        Father.resize(n);
+        for (int i=0; i<n; i++)
+            Father[i] = i;
+        
+        for (auto pair: allowedSwaps)
+        {
+            int a = pair[0];
+            int b = pair[1];
+            if (FindFather(a)!=FindFather(b))
+                Union(a,b);
+        }
+        
+        unordered_map<int,vector<int>>Map;
+        for (int i=0; i<n; i++)
+            Map[FindFather(i)].push_back(i);
+        
+        int count = 0;
+        for (auto x: Map)
+        {
+            multiset<int>Set;
+            for (auto i: x.second)
+                Set.insert(source[i]);
+            for (auto i: x.second)
+            {
+                if (Set.find(target[i])!=Set.end())
+                    Set.erase(Set.lower_bound(target[i]));
+            }
+            count += Set.size();
+        }
+        return count;                
     }
 };
