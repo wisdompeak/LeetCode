@@ -65,9 +65,8 @@ public:
                 int t = q.front()[4];   
                 int status = memo[mx][my][cx][cy][t];
                 q.pop();
-                // cout<<mx<<" "<<my<<" "<<cx<<" "<<cy<<":"<<t<<":"<<memo[mx][my][cx][cy][t]<<endl;
                 
-                for (auto nextNode: findAllParents(grid,mx,my,cx,cy,t))
+                for (auto nextNode: findAllAdjacents(grid,mx,my,cx,cy,t))
                 {
                     int mx2 = nextNode[0];
                     int my2 = nextNode[1];
@@ -82,7 +81,7 @@ public:
                         memo[mx2][my2][cx2][cy2][t2] = status;
                         q.push({mx2,my2,cx2,cy2,t2});
                     }
-                    else if (allChildrenWin(grid, mx2,my2,cx2,cy2,t2))    // eventually lose
+                    else if (allAdjacentsWin(grid, mx2,my2,cx2,cy2,t2))    // eventually lose
                     {
                         memo[mx2][my2][cx2][cy2][t2] = (t2==1)? 2:1;
                         q.push({mx2,my2,cx2,cy2,t2});              
@@ -91,11 +90,10 @@ public:
             }
         }
         
-        cout<<memo[mouse.first][mouse.second][cat.first][cat.second][1]<<endl;
         return memo[mouse.first][mouse.second][cat.first][cat.second][1]==1;        
     }
     
-    vector<vector<int>> findAllParents(vector<string>& grid, int mx, int my, int cx, int cy, int t)
+    vector<vector<int>> findAllAdjacents(vector<string>& grid, int mx, int my, int cx, int cy, int t)
     {
         int m = grid.size();
         int n = grid[0].size();
@@ -128,7 +126,7 @@ public:
         return neighbours;
     }
     
-    bool allChildrenWin(vector<string>& grid, int mx, int my, int cx, int cy, int t)
+    bool allAdjacentsWin(vector<string>& grid, int mx, int my, int cx, int cy, int t)
     {
         int m = grid.size();
         int n = grid[0].size();
