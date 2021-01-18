@@ -1,43 +1,39 @@
-class SnapshotArray {
-    vector<int>arr;
+class SnapshotArray {        
+    int vals[50000];
     vector<vector<pair<int,int>>>snaps;
     unordered_set<int>changed;
-    int count;
+    int snapId;
 public:
     SnapshotArray(int length) 
-    {
-        arr.resize(length);
+    {    
+        snapId = 0;
         snaps.resize(length);
         for (int i=0; i<length; i++)
-        {
-            arr[i] = 0;
             snaps[i].push_back({-1,0});
-        }
-        count = 0;
     }
     
     void set(int index, int val) 
     {
-        arr[index] = val;
+        vals[index] = val;
         changed.insert(index);
     }
     
     int snap() 
     {
-        for (auto idx: changed)
+        for (int index: changed)
         {
-            snaps[idx].push_back({count,arr[idx]});
+            snaps[index].push_back({snapId, vals[index]});
         }
-        count++;
+        snapId++;
         changed.clear();
-        return count-1;
+        return snapId-1;
     }
     
     int get(int index, int snap_id) 
     {
-        auto iter = upper_bound(snaps[index].begin(),snaps[index].end(),make_pair(snap_id,INT_MAX));
+        auto iter = upper_bound(snaps[index].begin(), snaps[index].end(), make_pair(snap_id, INT_MAX));
         iter = prev(iter,1);
-        return iter->second;        
+        return iter->second;                                        
     }
 };
 
