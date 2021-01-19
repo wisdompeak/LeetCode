@@ -435,6 +435,7 @@
 [1657.Determine-if-Two-Strings-Are-Close](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1657.Determine-if-Two-Strings-Are-Close) (M)  
 [1702.Maximum-Binary-String-After-Change](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1702.Maximum-Binary-String-After-Change) (H-)  
 [1717.Maximum-Score-From-Removing-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1717.Maximum-Score-From-Removing-Substrings) (M+)  
+[1727.Largest-Submatrix-With-Rearrangements](https://github.com/wisdompeak/LeetCode/new/master/Greedy/1727.Largest-Submatrix-With-Rearrangements) (M)  
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
