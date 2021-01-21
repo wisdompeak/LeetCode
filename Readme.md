@@ -466,6 +466,7 @@
 1353.Maximum-Number-of-Events-That-Can-Be-Attended  (TBD)   
 * ``Indexing Sort``   
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/041.First-Missing-Positive/Readme.md) (H)    
+268.Missing-Number (TBD)  
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H)    
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/442.Find-All-Duplicates-in-an-Array) (M+)  
 448.Find-All-Numbers-Disappeared-in-an-Array (M+)   
