@@ -1,5 +1,6 @@
 ### 1724.Checking-Existence-of-Edge-Length-Limited-Paths-II
 
+#### 解法1
 本题看上去和```1697	Checking Existence of Edge Length Limited Paths```很像，但是做法却有很大的差别。本题要提供online的查询，每次查询时刻所对应的union tree都是不一样的形状。如果是Limit较大的query，那么图里面就有更多的联通点；反之，图里面就有更少的联通点。
 
 所以本题的关键，就是将不同limit所对应的连通图都要记录下来。这里对“连通图”的记录其实并不复杂，本质就是记录各个点的father即可。Limit较大时，有更多节点的father被聚合到了一起；反之，就有更多节点的father只是自己。如何记录每个node在不同limit时对应的father呢？这其实是采用了与```1146	Snapshot Array```相同的技巧：给每个节点创建father的时间序列快照。
@@ -15,5 +16,5 @@
 
 处理query时我们需要：找出limit所对应的snap_id，然后寻找节点p在snap_id时刻的根节点、节点q在snap_id时刻的根节点，查看是否相等。同样，查找特定快照时刻的根节点，需要递归调用```findSnapFather(node, snap_id)```。
 
-
-
+#### 解法2
+针对解法1可以有一点小改进。我们在构造snaps[node]的时候，可以用当前所用边的长度的作为snapId，不需要另行维护一个自增1的snapId变量。在query()中，我们直接用limit在snaps[node]里面二分搜寻合适的snapId，注意这里定位iter的方法应该是```lower_bound(limit)-1```.
