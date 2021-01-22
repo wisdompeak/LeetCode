@@ -17,4 +17,4 @@
 处理query时我们需要：找出limit所对应的snap_id，然后寻找节点p在snap_id时刻的根节点、节点q在snap_id时刻的根节点，查看是否相等。同样，查找特定快照时刻的根节点，需要递归调用```findSnapFather(node, snap_id)```。
 
 #### 解法2
-针对解法1可以有一点小改进。我们在构造snaps[node]的时候，可以用当前所用边的长度的作为snapId，不需要另行维护一个自增1的snapId变量。在query()中，我们直接用limit在snaps[node]里面二分搜寻合适的snapId，注意这里定位iter的方法应该是```lower_bound(limit)-1```.
+针对解法1可以有一点小改进。我们在构造snaps[node]的时候，可以用当前所用边的长度的作为snapId，不需要另行维护一个自增1的snapId变量。在query()中，我们直接用limit在snaps[node]里面二分搜寻合适的snapId，注意这里定位iter的方法应该是```lower_bound({limit,0})-1```.
