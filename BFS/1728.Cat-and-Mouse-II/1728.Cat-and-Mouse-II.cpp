@@ -54,7 +54,7 @@ public:
         while (!q.empty())
         {            
             step++;
-            if (step>2000) return true;
+            if (step>2000) return false;
             int len = q.size();
             while (len--)
             {
