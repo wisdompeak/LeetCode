@@ -6,14 +6,11 @@ public:
         int sum = 0;
         for (int i=1; i<=n; i++)
             sum ^= i;
-        
-        int headtail = 0;
-        for (int x: encoded)
-            headtail ^= x;
-        
-        int nohead = headtail;
-        for (int i=0; i<encoded.size(); i+=2)
+                
+        int nohead = 0;
+        for (int i=1; i<encoded.size(); i+=2)
             nohead ^= encoded[i];
+            
         int head = sum^nohead;
 
         vector<int>ret(n);        
