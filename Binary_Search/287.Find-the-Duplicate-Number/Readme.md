@@ -23,6 +23,6 @@ else
 ```  
 
 #### 解法2：indexing sort
-利用indexing sort的方法，我们尝试将n+1个数组元素尽可能地按照“index==value”的方法重新放置在1~\n+1这些位置上。放置完之后，必然是有n个位置的index==val，而有一个index对应的nums[index]!=index，并且该位置的数值就是duplicated number。
+利用indexing sort的方法，我们尝试将n+1个数组元素尽可能地按照“index==value”的方法重新放置在1~n+1这些位置上。放置完之后，必然是有n个位置的index==val，而有一个index对应的nums[index]!=index，并且该位置的数值就是duplicated number。
 
 [Leetcode Link](https://leetcode.com/problems/find-the-duplicate-number)
