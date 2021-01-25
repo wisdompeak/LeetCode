@@ -86,6 +86,7 @@
 [1552.Magnetic-Force-Between-Two-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1552.Magnetic-Force-Between-Two-Balls) (M)  
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
 [1648.Sell-Diminishing-Valued-Colored-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1648.Sell-Diminishing-Valued-Colored-Balls) (H-)  
+[1738.Find-Kth-Largest-XOR-Coordinate-Value](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1738.Find-Kth-Largest-XOR-Coordinate-Value) (M)  
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
