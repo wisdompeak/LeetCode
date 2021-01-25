@@ -826,9 +826,9 @@
 [710.Random-Pick-with-Blacklist](https://github.com/wisdompeak/LeetCode/tree/master/Math/710.Random-Pick-with-Blacklist) (M+)    
 [1227.Airplane-Seat-Assignment-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Math/1227.Airplane-Seat-Assignment-Probability) (M+)   
 * ``Combinatorics``   
-[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Others/046.Permutations) (M+)    
+[046.Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Math/046.Permutations) (M+)    
 [047.Permutations-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/047.Permutations-II) (H)   
-[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Sort/060.Permutation-Sequence) (H)    
+[060.Permutation-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Math/060.Permutation-Sequence) (H)    
 [077.Combinations](https://github.com/wisdompeak/LeetCode/blob/master/Others/077.Combinations) (H-)    
 [1286.Iterator-for-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Others/1286.Iterator-for-Combination) (M+)   
 [1359.Count-All-Valid-Pickup-and-Delivery-Options](https://github.com/wisdompeak/LeetCode/tree/master/Math/1359.Count-All-Valid-Pickup-and-Delivery-Options) (M+)   
