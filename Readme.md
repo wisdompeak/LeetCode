@@ -470,7 +470,7 @@
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H)    
 [442.Find-All-Duplicates-in-an-Array](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/442.Find-All-Duplicates-in-an-Array) (M)  
 [448.Find-All-Numbers-Disappeared-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/448.Find-All-Numbers-Disappeared-in-an-Array) (M)   
-645.Set-Mismatch (H)    
+[645.Set-Mismatch](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/645.Set-Mismatch) (M)    
 * ``Parenthesis``   
 [921.Minimum-Add-to-Make-Parentheses-Valid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/921.Minimum-Add-to-Make-Parentheses-Valid) (M+)  
 [1249.Minimum-Remove-to-Make-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1249.Minimum-Remove-to-Make-Valid-Parentheses) (M+)  
