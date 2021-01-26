@@ -1,26 +1,11 @@
 ### 287. Find the Duplicate Number
 
 #### 解法1：二分法
-此题的二分法思想非常巧妙，将所有元素和n/2进行比较，如果大于n/2的个数多于n/2个，说明重复的元素必定在n/2到n之间。以此类推，可以不断缩小折半考察范围。  
 
-举个general的例子，如果考察范围是left\~right，则考察 mid = left+(right-left)/2。如果比mid大的元素个数，多于mid\~n之间的个数，则说明重复的元素在mid\~n之间。
-```cpp
-count = 大于mid的个数
-if (count > n-mid) 
-  left=mid+1;  //注意是n-mid 不是 right-mid
-else 
-  right=mid;
-```  
-直到left和right重合，即为所求的答案。
 
-或者
-```cpp
-count = 小于等于mid的个数
-if (count < mid) 
-  right=mid;  //注意是n-mid 不是 right-mid
-else 
-  left=mid+1;
-```  
+本题数的范围是1~n，但是数的个数有n+1个，说明duplicated number至少出现了两次。但是duplicated number也有可能出现的次数更多，它或许会替代了某些missing numbers.但不管怎样，duplicated number的出现次数一定比missing numbers更多。这样，如果k是那个duplicated number的话，我们遍历数组统计小于等于k出现的次数一定是大于k的。
+
+我们就可以用这个判据去二分搜值。我们猜测一个数k，如果小于等于k出现的次数大于k，那么k有可能是答案，但也有可能比它更小，故```right=k```. 反之，那么k一定不是答案，我们必须提升答案区间的下限，即```left=k+1```.
 
 #### 解法2：indexing sort
 利用indexing sort的方法，我们尝试将n+1个数组元素尽可能地按照“index==value”的方法重新放置在1~n+1这些位置上。放置完之后，必然是有n个位置的index==val，而有一个index对应的nums[index]!=index，并且该位置的数值就是duplicated number。
