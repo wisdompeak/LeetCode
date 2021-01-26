@@ -2,16 +2,22 @@ class Solution {
 public:
     vector<int> findErrorNums(vector<int>& nums) 
     {
-        for (int i=0; i<nums.size(); i++)
+        int n = nums.size()-1;
+        nums.insert(nums.begin(), 0);
+        for (int i=1; i<=n+1; i++)
         {
-            while (nums[i]!=nums[nums[i]-1])
-                swap(nums[i],nums[nums[i]-1]);
+            while (nums[i]!=i && nums[i]<=n+1 && nums[i]!=nums[nums[i]])
+            {
+                swap(nums[i], nums[nums[i]]);
+            }
         }
         
-        for (int i=0; i<nums.size(); i++)
+        for (int i=1; i<=n+1; i++)
         {
-            if (nums[i]!=i+1)
-                return {nums[i],i+1};
+            if (nums[i]!=i)
+               return {nums[i],i}; 
         }
+
+        return {-1,-1};   
     }
 };
