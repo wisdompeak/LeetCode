@@ -376,6 +376,7 @@
 [210.Course-Schedule-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/210.Course-Schedule-II) (M)   
 [269.Alien-Dictionary](https://github.com/wisdompeak/LeetCode/tree/master/BFS/269.Alien-Dictionary) (H-)    
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)    
+[444.Sequence-Reconstruction](https://github.com/wisdompeak/LeetCode/tree/master/BFS/444.Sequence-Reconstruction) (H)  
 [802.Find-Eventual-Safe-States](https://github.com/wisdompeak/LeetCode/tree/master/BFS/802.Find-Eventual-Safe-States) (H-)   
 [1136.Parallel-Courses](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1136.Parallel-Courses) (M)   
 [1203.Sort-Items-by-Groups-Respecting-Dependencies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1203.Sort-Items-by-Groups-Respecting-Dependencies) (H)  
