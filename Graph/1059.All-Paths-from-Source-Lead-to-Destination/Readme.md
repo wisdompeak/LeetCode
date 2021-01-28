@@ -1,7 +1,7 @@
 ### 1059.All-Paths-from-Source-Lead-to-Destination
 
 此题的本质是用DFS来检查图内是否有环。模板如下：
-```
+```cpp
     bool dfs(int cur)
     {
         visited[cur] = 2;
