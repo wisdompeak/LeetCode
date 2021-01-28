@@ -291,6 +291,7 @@
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
+[1057.Campus-Bikes](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1057.Campus-Bikes) (H-)  
 1066.Campus-Bikes-II (H)    
 [1642.Furthest-Building-You-Can-Reach](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1642.Furthest-Building-You-Can-Reach) (H-)  
 [1675.Minimize-Deviation-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1675.Minimize-Deviation-in-Array) (H)  
