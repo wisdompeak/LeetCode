@@ -916,4 +916,3 @@
 [Bit_Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Template/Bit_manipulation)  
 [Combination-Number](https://github.com/wisdompeak/LeetCode/tree/master/Template/Combination-Number)  
 [RB_Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/RB_Tree)  
-[Hungarian_algorithm](https://github.com/wisdompeak/LeetCode/tree/master/Template/Hungarian_algorithm)  
