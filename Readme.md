@@ -703,10 +703,11 @@
 [1554.Strings-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/String/1554.Strings-Differ-by-One-Character) (H)  
 [1698.Number-of-Distinct-Substrings-in-a-String](https://github.com/wisdompeak/LeetCode/tree/master/String/1698.Number-of-Distinct-Substrings-in-a-String) (H-)  
 * ``KMP``   
+[1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 459.Repeated-Substring-Pattern (TBD)    
-[1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
+1397.Find All Good Strings (TBD)  
 1410.HTML-Entity-Parser (TBD)   
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
