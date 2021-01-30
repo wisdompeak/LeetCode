@@ -1,43 +1,45 @@
 class Solution {
+
 public:
     int strStr(string haystack, string needle) 
     {
-        int n=haystack.size();
-        int m=needle.size();        
-        vector<int>prefix=createPrefix(needle);
-        
+        int n = haystack.size();
+        int m = needle.size();
         if (m==0) return 0;
-        if (n==0) return -1;        
+        if (n==0) return -1;    
+
+        vector<int> suf = preprocess(needle);
         
-        int j=-1;
-        for (int i=0; i<n; i++)
+        vector<int>dp(n,0);
+        dp[0] = (needle[0]==haystack[0]);
+        if (m==1 && dp[0]==1)
+            return 0;
+
+        for (int i=1; i<n; i++)
         {
-            while (j>=0 && needle[j+1]!=haystack[i])
-                j=prefix[j];            
-            if (needle[j+1]==haystack[i])
-                j++;            
-            if (j==m-1)
-                return i-j;                
+            int j = dp[i-1];
+            while (j>0 && needle[j]!=haystack[i])
+                j = suf[j-1];
+            dp[i] = j + (needle[j]==haystack[i]);
+            if (dp[i]==needle.size())
+                return i-needle.size()+1;
         }
-        
         return -1;
     }
-    
-    vector<int> createPrefix(string needle)
+
+    vector<int> preprocess(string s)
     {
-        int m=needle.size();
-        vector<int>Prefix(m,-1);
-        
-        int j=-1;
-        for (int i=1; i<m; i++)
+        int n = s.size();
+        vector<int>dp(n,0);
+        for (int i=1; i<n; i++)
         {
-            while (j>=0 && needle[j+1]!=needle[i])
-                j=Prefix[j];            
-            if (needle[j+1]==needle[i])
-                j++;            
-            Prefix[i]=j;            
+            int j = dp[i-1];                       
+            while (j>=1 && s[j]!=s[i])
+            {
+                j = dp[j-1];
+            }          
+            dp[i] = j + (s[j]==s[i]);
         }
-        
-        return Prefix;        
+        return dp;
     }
 };
