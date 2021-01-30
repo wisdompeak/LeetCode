@@ -706,7 +706,7 @@
 [1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
-459.Repeated-Substring-Pattern (TBD)    
+[459.Repeated-Substring-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/String/459.Repeated-Substring-Pattern) (H)    
 1397.Find All Good Strings (TBD)  
 1410.HTML-Entity-Parser (TBD)   
 
