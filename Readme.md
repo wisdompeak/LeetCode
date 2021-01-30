@@ -708,7 +708,6 @@
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/Others/214.Shortest-Palindrome) (H)     
 [459.Repeated-Substring-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/String/459.Repeated-Substring-Pattern) (H)    
 1397.Find All Good Strings (TBD)  
-1410.HTML-Entity-Parser (TBD)   
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 [547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
