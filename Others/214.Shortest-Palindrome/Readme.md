@@ -6,6 +6,7 @@
 
 有了以上两点证明,那么我们就只要找到最大的```i```,使得```s[0:i]==r[len(s)-i:]```，即在r中找到最长的后缀，使得其等于s的前缀。实现这个可以有两种方法：1. 暴力尝试这个长度。2. 类似KMP中求后缀数组的方法，计算数组r的suf[i]，即r中截止位置i的最长后缀字符串使得恰好是s的前缀字符串。
 
+最终suf[n-1]就是A'A的最大长度。因此B = s.substr(len). 返回的答案就是ret = B'+s.
 
 
 [Leetcode Link](https://leetcode.com/problems/shortest-palindrome)
