@@ -2,9 +2,11 @@ class Solution {
 public:
     bool splitArraySameAverage(vector<int>& A) 
     {
-        int total = accumulate(A.begin(),A.end(),0);
         int n = A.size();
         if (n==1) return false;
+        int total = accumulate(A.begin(),A.end(),0);        
+        if (total==0) return true;
+        
         auto dp = vector<int>(total+1,0);
         dp[0] = 1;
 
