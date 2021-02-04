@@ -561,6 +561,7 @@
 [1363.Largest-Multiple-of-Three](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1363.Largest-Multiple-of-Three) (H)  
 [1419.Minimum-Number-of-Frogs-Croaking](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1419.Minimum-Number-of-Frogs-Croaking) (M)     
 [1548.The-Most-Similar-Path-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1548.The-Most-Similar-Path-in-a-Graph) (M+)  
+[1746.Maximum-Subarray-Sum-After-One-Operation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1746.Maximum-Subarray-Sum-After-One-Operation) (M+)  
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
