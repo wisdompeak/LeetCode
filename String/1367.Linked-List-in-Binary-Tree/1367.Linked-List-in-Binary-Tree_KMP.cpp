@@ -27,13 +27,13 @@ public:
     bool isSubPath(ListNode* head, TreeNode* root) 
     {
         suf = preprocess(head);
-        dp[0] = (head->val == root->val);
         return dfs(root, 0);
     }
 
     bool dfs(TreeNode* node, int i)
     {
         if (node==NULL) return false;
+        
         if (i==0)
         {
             dp[i] = (list[0] == node->val);            
