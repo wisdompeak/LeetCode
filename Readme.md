@@ -172,7 +172,7 @@
 501.Find-Mode-in-Binary-Search-Tree (M+)    
 558.Quad-Tree-Intersection (M+)   
 [662.Maximum-Width-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/662.Maximum-Width-of-Binary-Tree) (H-)   
-652.Find-Duplicate-Subtrees (M)   
+[652.Find-Duplicate-Subtrees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/652.Find-Duplicate-Subtrees) (H)   
 [687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
 742.Closest-Leaf-in-a-Binary-Tree (H)   
 834.Sum-of-Distances-in-Tree (H)    
