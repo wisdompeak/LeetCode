@@ -896,6 +896,7 @@
 918.Maximum-Sum-Circular-Subarray (H-)    
 [906.Super-Palindromes](https://github.com/wisdompeak/LeetCode/tree/master/Others/906.Super-Palindromes) (H-)   
 [927.Three-Equal-Parts](https://github.com/wisdompeak/LeetCode/tree/master/Others/927.Three-Equal-Parts) (M)    
+[978.Longest-Turbulent-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Others/978.Longest-Turbulent-Subarray) (H-)  
 1067.Digit-Count-in-Range (H)   
 1183.Maximum-Number-of-Ones (H)   
 [1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)        
