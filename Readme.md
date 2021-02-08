@@ -903,6 +903,7 @@
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
 [1706.Where-Will-the-Ball-Fall](https://github.com/wisdompeak/LeetCode/tree/master/Others/1706.Where-Will-the-Ball-Fall) (M+)  
 [1749.Maximum-Absolute-Sum-of-Any-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Others/1749.Maximum-Absolute-Sum-of-Any-Subarray) (M+)  
+[1752.Check-if-Array-Is-Sorted-and-Rotated](https://github.com/wisdompeak/LeetCode/tree/master/Others/1752.Check-if-Array-Is-Sorted-and-Rotated) (M)  
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
