@@ -1,4 +1,5 @@
 class Solution {
+    int ret = INT_MAX;
 public:
     int minAbsDifference(vector<int>& nums, int goal) 
     {
@@ -9,24 +10,9 @@ public:
 
         vector<int>a = getSubSetsSum(nums1);
         vector<int>b = getSubSetsSum(nums2);
-
-        int ret = INT_MAX;
-        for (auto x: a)
-        {
-            auto iter = lower_bound(b.begin(), b.end(), goal-x);
-            if (iter!=b.end())
-                ret = min(ret, abs(goal-x - *iter));
-            if (iter!=b.begin())
-                ret = min(ret, abs(goal-x - *prev(iter)));
-        }
-        for (auto x: b)
-        {
-            auto iter = lower_bound(a.begin(), a.end(), goal-x);
-            if (iter!=a.end())
-                ret = min(ret, abs(goal-x - *iter));
-            if (iter!=a.begin())
-                ret = min(ret, abs(goal-x - *prev(iter)));
-        }
+        
+        findAns(a,b,goal);
+        findAns(b,a,goal);
         return ret;
     }
 
@@ -81,5 +67,17 @@ public:
             sums = temp;
         }
         return sums;
+    }
+
+    void findAns(vector<int>&a, vector<int>&b, int goal)
+    {
+        for (auto x: a)
+        {
+            auto iter = lower_bound(b.begin(), b.end(), goal-x);
+            if (iter!=b.end())
+                ret = min(ret, abs(goal-x - *iter));
+            if (iter!=b.begin())
+                ret = min(ret, abs(goal-x - *prev(iter)));
+        }
     }
 };
