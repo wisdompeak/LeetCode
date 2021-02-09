@@ -676,6 +676,7 @@
 [1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix) (M+)  
 [1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List) (H-)  
 [1601.Maximum-Number-of-Achievable-Transfer-Requests](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1601.Maximum-Number-of-Achievable-Transfer-Requests) (H-)  
+[1755.Closest-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1755.Closest-Subsequence-Sum) (H)  
  
 
 #### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer)
