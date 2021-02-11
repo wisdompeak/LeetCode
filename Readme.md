@@ -286,7 +286,7 @@
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
-313.Super-Ugly-Number (M)  
+[313.Super-Ugly-Number](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/313.Super-Ugly-Number) (M)  
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (H-)    
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H-)      
