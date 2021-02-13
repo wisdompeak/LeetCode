@@ -10,26 +10,27 @@ public:
             
         priority_queue<PII, vector<PII>, greater<>>pq;
         pq.push({0, K});
-        vector<int>visited(n+1,0);
+        vector<int>resolved(n+1,0);
         int ret = 0;
         
         while (!pq.empty())
         {
             auto [d, cur] = pq.top();
             pq.pop();
-            if (visited[cur]==1) continue;
-            visited[cur] = 1;
+            
+            if (resolved[cur]==1) continue;
+            resolved[cur] = 1;
             ret = max(ret, d);  // dist[cur] = d
             
             for (auto [next, weight]: Map[cur])
             {
-                if (visited[next]) continue;
+                if (resolved[next]) continue;
                 pq.push({d+weight, next});
             }            
         }
         
         for (int i=1; i<=n; i++)
-            if (visited[i]==0) return -1;
+            if (resolved[i]==0) return -1;
         
         return ret;
     }
