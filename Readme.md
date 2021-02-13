@@ -289,7 +289,6 @@
 [313.Super-Ugly-Number](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/313.Super-Ugly-Number) (M)  
 [378.Kth-Smallest-Element-in-a-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/378.Kth-Smallest-Element-in-a-Sorted-Matrix) (H-)    
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/373.Find-K-Pairs-with-Smallest-Sums) (H)    
-[407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H-)      
 [632.Smallest-Range-Covering-Elements-from-K-Lists](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/632.Smallest-Range-Covering-Elements-from-K-Lists) (H-)  
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
@@ -387,6 +386,15 @@
 [1203.Sort-Items-by-Groups-Respecting-Dependencies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1203.Sort-Items-by-Groups-Respecting-Dependencies) (H)  
 [1462.Course-Schedule-IV](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1462.Course-Schedule-IV) (M)    
 [1591.Strange-Printer-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1591.Strange-Printer-II) (H-)  
+* ``Dijkstra (BFS+PQ)``   
+[743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H)    
+[407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H)      
+[778.Swim-in-Rising-Water](https://github.com/wisdompeak/LeetCode/tree/master/BFS/778.Swim-in-Rising-Water) (H)    
+[505.The-Maze-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/505.The-Maze-II) (H)  
+[787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H-)    
+[882.Reachable-Nodes-In-Subdivided-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/882.Reachable-Nodes-In-Subdivided-Graph ) (H)  
+[1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
+[1514.Path-with-Maximum-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1514.Path-with-Maximum-Probability) (H)  
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
@@ -791,14 +799,6 @@
 1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance (TBD)    
 1361.Validate-Binary-Tree-Nodes (TBD)   
 [1719.Number-Of-Ways-To-Reconstruct-A-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1719.Number-Of-Ways-To-Reconstruct-A-Tree) (H+)  
-* ``Dijkstra (BFS+PQ)``   
-[743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H)    
-[778.Swim-in-Rising-Water](https://github.com/wisdompeak/LeetCode/tree/master/BFS/778.Swim-in-Rising-Water) (H)    
-[505.The-Maze-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/505.The-Maze-II) (H)  
-[787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H-)    
-[882.Reachable-Nodes-In-Subdivided-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/882.Reachable-Nodes-In-Subdivided-Graph ) (H)  
-[1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
-[1514.Path-with-Maximum-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1514.Path-with-Maximum-Probability) (H)  
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+) (aka. 1238. Circular Permutation in Binary Representation)  
