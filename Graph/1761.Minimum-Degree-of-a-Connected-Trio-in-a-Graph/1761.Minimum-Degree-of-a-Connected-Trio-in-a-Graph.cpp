@@ -1,38 +1,33 @@
 class Solution {
-    int c[401][401];    
+    int connect[401][401];
+    int degree[401];
+    vector<int> next[401];
 public:
     int minTrioDegree(int n, vector<vector<int>>& edges) 
     {
         for (auto e:edges)
         {
-            c[e[0]][e[1]] = 1;
-            c[e[1]][e[0]] = 1;
-        }
-        
-        vector<int> next[401];
-        vector<int> next2[401];
-
-        for (auto e:edges)
-        {
-            int a = min(e[0], e[1]);
-            int b = max(e[0], e[1]);
-            next[a].push_back(b);
-            next2[a].push_back(b);
-            next2[b].push_back(a);
+            connect[e[0]][e[1]] = 1;
+            connect[e[1]][e[0]] = 1;
+            degree[e[0]] += 1;
+            degree[e[1]] += 1;
+            
+            int x = min(e[0],e[1]), y = max(e[0],e[1]);            
+            next[x].push_back(y);            
         }
         
         int ret = INT_MAX;
-        for (int x=1; x<=n; x++)
+        for (int a = 1; a <=n; a++)
         {
-            for (int i=0; i<next[x].size(); i++)
-                for (int j=i+1; j<next[x].size(); j++)
+            for (int i=0; i<next[a].size(); i++)
+                for (int j=i+1; j<next[a].size(); j++)
                 {
-                    int a = next[x][i];
-                    int b = next[x][j];
-                    if (c[a][b])
-                        ret = min(ret, (int)next2[x].size()-2+(int)next2[a].size()-2+(int)next2[b].size()-2);
-                }                
+                    int b = next[a][i], c = next[a][j];
+                    if (connect[b][c]==1)
+                        ret  = min(ret, degree[a]+degree[b]+degree[c]-6);
+                }
         }
-        return ret==INT_MAX?-1:ret;        
+        
+        return ret==INT_MAX? -1:ret;
     }
 };
