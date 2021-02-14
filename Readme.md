@@ -370,7 +370,6 @@
 [1298.Maximum-Candies-You-Can-Get-from-Boxes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1298.Maximum-Candies-You-Can-Get-from-Boxes) (M+)  
 [1311.Get-Watched-Videos-by-Your-Friends](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1311.Get-Watched-Videos-by-Your-Friends) (M)  
 [1345.Jump-Game-IV](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1345.Jump-Game-IV) (M+)  
-[1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1559.Detect-Cycles-in-2D-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1559.Detect-Cycles-in-2D-Grid) (M)  
 [1568.Minimum-Number-of-Days-to-Disconnect-Island](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1568.Minimum-Number-of-Days-to-Disconnect-Island) (H-)  
 [1617.Count-Subtrees-With-Max-Distance-Between-Cities](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1617.Count-Subtrees-With-Max-Distance-Between-Cities) (H-)  
@@ -394,6 +393,7 @@
 [787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H-)    
 [882.Reachable-Nodes-In-Subdivided-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/882.Reachable-Nodes-In-Subdivided-Graph ) (H)  
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
+[1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1514.Path-with-Maximum-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1514.Path-with-Maximum-Probability) (H)  
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
