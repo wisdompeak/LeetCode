@@ -1,11 +1,14 @@
+
 class Solution {
     int visited[101][101];
     int m,n;
+    vector<pair<int,int>>dir;
 public:
     int minCost(vector<vector<int>>& grid) 
     {
         m = grid.size();
         n = grid[0].size();
+        dir = {{0,1},{0,-1},{1,0},{-1,0}};
 
         queue<pair<int,int>>q;
         vector<pair<int,int>>temp;
@@ -14,7 +17,7 @@ public:
             q.push(x);
         
         int step = 0;
-        auto dir = vector<pair<int,int>>({{1,0},{-1,0},{0,1},{0,-1}});
+        
         while (!q.empty())
         {
             int len = q.size();
@@ -52,23 +55,8 @@ public:
         temp.push_back({x,y});
         visited[x][y] = 1;
 
-        int i,j;
-        if (grid[x][y]==1)
-        {
-            i=x,j=y+1;
-        }
-        else if (grid[x][y]==2)
-        {
-            i=x,j=y-1;
-        }
-        else if (grid[x][y]==3)
-        {
-            i=x+1,j=y;
-        }
-        else if (grid[x][y]==4)
-        {
-            i=x-1,j=y;
-        }
+        int i = x + dir[grid[x][y]-1].first;
+        int j = y + dir[grid[x][y]-1].second;
         dfs(i,j,temp,grid);
     }
 };
