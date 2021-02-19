@@ -1,0 +1,40 @@
+class MRUQueue {
+    list<int>List;
+    vector<list<int>::iterator>skip;
+    int step;
+public:
+    MRUQueue(int n) 
+    {
+        step = sqrt(n+1);
+        for (int i=0; i<=n; i++)
+        {
+            List.push_back(i);
+            if (i%step==0)
+                skip.push_back(prev(List.end()));            
+        }        
+    }
+    
+    int fetch(int k) 
+    {        
+        int t = k / step;
+        auto iter = skip[t];
+        for (int i=0; i< k%step; i++)
+            iter = next(iter);
+        int ret = *iter;
+        
+        List.push_back(ret);
+        
+        int j = (k%step==0)?t:t+1;
+        for (int i=j; i<skip.size(); i++)
+            skip[i] = next(skip[i]);
+        
+        List.erase(iter);                
+        return ret;
+    }
+};
+
+/**
+ * Your MRUQueue object will be instantiated and called as such:
+ * MRUQueue* obj = new MRUQueue(n);
+ * int param_1 = obj->fetch(k);
+ */
