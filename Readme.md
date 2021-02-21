@@ -465,6 +465,7 @@
 1653.Minimum Deletions to Make String Balanced (TBD)  
 [1664.Ways-to-Make-a-Fair-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1664.Ways-to-Make-a-Fair-Array) (M)  
 [1671.Minimum-Number-of-Removals-to-Make-Mountain-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1671.Minimum-Number-of-Removals-to-Make-Mountain-Array) (M+)  
+[1769.Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1769.Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box) (M+)  
 * ``Sort``   
 164.Maximum-Gap (H)   
 [179.Largest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/179.Largest-Number) (H-)  
