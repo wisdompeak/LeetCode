@@ -633,6 +633,7 @@
 [1682.Longest-Palindromic-Subsequence-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1682.Longest-Palindromic-Subsequence-II) (H)  
 [1690.Stone-Game-VII](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1690.Stone-Game-VII) (H-)  
 [1745.Palindrome-Partitioning-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1745.Palindrome-Partitioning-IV) (M)  
+[1770.Maximum-Score-from-Performing-Multiplication-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1770.Maximum-Score-from-Performing-Multiplication-Operations) (H-)  
 * ``双序列型``   
 [010.Regular-Expression-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/010.Regular-Expression-Matching) (H)    
 [044.Wildcard-Matching](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/044.Wildcard-Matching) (H-)  
