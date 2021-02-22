@@ -13,7 +13,7 @@ public:
     {
         if (pos == stones.back()) return true;
         if (stoneSet.find(pos)==stoneSet.end()) return false;
-        // if (failed.find({pos, jump})!=failed.end()) return false;
+        if (failed.find({pos, jump})!=failed.end()) return false;
         
         if (jump>1 && dfs(stones, pos+jump-1, jump-1))
             return true;
@@ -22,7 +22,7 @@ public:
         if (dfs(stones, pos+jump+1, jump+1))
             return true;
         
-        // failed.insert({pos,jump});
+        failed.insert({pos,jump});
         return false;        
     }
 };
