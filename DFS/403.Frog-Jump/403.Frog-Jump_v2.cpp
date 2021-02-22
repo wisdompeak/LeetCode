@@ -1,31 +1,28 @@
 class Solution {
-    set<vector<int>>failed;
-    set<int>stoneSet;
+    unordered_set<int>stoneSet;
+    set<pair<int,int>>failed;
 public:
     bool canCross(vector<int>& stones) 
     {
-        for (auto x: stones)        
+        for (auto x: stones)
             stoneSet.insert(x);
-            
-        return dfs(stones, 0, 0);
+        return dfs(stones, 0, 0);        
     }
-
-    bool dfs(vector<int>&stones, int pos, int step)
-    {        
-        if (pos==stones.back()) return true; 
+    
+    bool dfs(vector<int>& stones, int pos, int jump)
+    {
+        if (pos == stones.back()) return true;
         if (stoneSet.find(pos)==stoneSet.end()) return false;
-        if (failed.find({pos,step})!=failed.end()) return false;
-
-        // cout<<pos<<" "<<step<<endl;
-
-        if (step>1 && dfs(stones, pos+step-1, step-1))
+        // if (failed.find({pos, jump})!=failed.end()) return false;
+        
+        if (jump>1 && dfs(stones, pos+jump-1, jump-1))
             return true;
-        if (step>0 && dfs(stones, pos+step, step))
+        if (jump>0 && dfs(stones, pos+jump, jump))
             return true;
-        if (dfs(stones, pos+step+1, step+1))
+        if (dfs(stones, pos+jump+1, jump+1))
             return true;
-
-        failed.insert({pos,step});
-        return false;
+        
+        // failed.insert({pos,jump});
+        return false;        
     }
 };
