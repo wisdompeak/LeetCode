@@ -1,5 +1,6 @@
 ### 1771.Maximize-Palindrome-Length-From-Subsequences
 
+#### 解法1：双序列DP（LCS）
 本题的突破口是：A的子序列s与B的子序列t拼接起来是回文串，那么意味着t的逆序（记做t'）肯定能与s的某段前缀相同。
 ```
 A: xxx a x b x c xxx
@@ -15,3 +16,6 @@ B: [x x x] c x b x a x x x x
 B':x x x a x b x c [x x x x]
 ```
 所以当我们已知dp[i][j]表示A的前i个元素、B'的前j个元素能够组成的LCS时，还要查看A[i+1:m]存在的最长回文串长度、或者B[j+1:n]存在的最长回文串长度。两者取更大的那个，结合之前的互相对称的LCS，才是最后的答案。
+
+#### 解法2：直接区间型DP（求palindrome length）
+我们直接将word1和word2拼接起来记做word，根据区间型DP，很容易计算dp[i][j]表示区间word[i:j]内的最长回文子序列的长度。但是，符合要求的答案还需要有一个额外的限制：回文串必须跨越两个初始字符串。解决方法很简单：计算dp[i][j]的过程中，如果遇到word[i]==word[j]，并且检验发现i与j跨越两个初始字符串，那么这样的dp[i][j]就是符合题目要求的，用来更新最终的答案。
