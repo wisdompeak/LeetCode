@@ -5,23 +5,21 @@ public:
         int n = boxes.size();
         vector<int>leftMoves(n);
         vector<int>rightMoves(n);
-
         int left = 0;
-        for (int i=0; i<n; i++)
-        {           
-            leftMoves[i] += (i==0 ? 0: leftMoves[i-1]) + left;
-            left += (boxes[i]=='1');
+        for (int i = 1; i<n; i++)
+        {
+            left += (boxes[i-1]=='1');
+            leftMoves[i] = leftMoves[i-1] + left*1;
         }
         int right = 0;
-        for (int i=n-1; i>=0; i--)
+        for (int i = n-2; i>=0; i--)
         {
-            rightMoves[i] += (i==n-1 ? 0: rightMoves[i+1]) + right;
-            right += (boxes[i]=='1');
+            right += (boxes[i+1]=='1');
+            rightMoves[i] = rightMoves[i+1] + right*1;
         }
-        
         vector<int>rets(n);
         for (int i=0; i<n; i++)
-            rets[i] = leftMoves[i] + rightMoves[i];
+            rets[i] = leftMoves[i]+rightMoves[i];
         return rets;
     }
 };
