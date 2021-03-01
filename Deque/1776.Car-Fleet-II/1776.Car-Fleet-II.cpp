@@ -5,46 +5,50 @@ public:
         int n = cars.size();
         vector<double>rets(n);
         
+        deque<array<double,2>>dq; // {t, v}
+        dq.push_back({0, (double)cars.back()[1]});
         rets[n-1] = -1;
-        deque<array<double, 2>>dq; // {time, speed} curve of the previous car
-        dq.push_back({0, (double)cars.back()[1]});        
         
-        for (int i=cars.size()-1; i>=0; i--)
-        {
-            if (cars[i][1] <= dq.back()[1])
+        
+        for (int i=cars.size()-2; i>=0; i--)
+        {            
+            int dS = cars[i+1][0] - cars[i][0];
+            double vv = cars[i][1];
+            double total = 0;
+            
+            if (vv <= dq.back()[1])
             {
                 dq.clear();
-                dq.push_back({0, (double)cars[i][1]});
+                dq.push_back({0, vv});
                 rets[i] = -1;
                 continue;
             }
-
-            int dL = cars[i+1][0]-cars[i][0];
-            double v0 = cars[i][1];
-            double totalTravel = 0;
-            double t = dq.front()[0];
-            double v = dq.front()[1];
             
-            while (dq.size()>=2)
-            {
-                dq.pop_front();
-                if (totalTravel + (dq.front()[0]-t)*v + dL >= dq.front()[0]*v0)
+            double t = dq.front()[0];
+            double v = dq.front()[1];            
+            dq.pop_front();
+                        
+            while (dq.size()>0)
+            {                
+                if (total + v*(dq.front()[0] - t) + dS >= vv*dq.front()[0])
                 {
-                    totalTravel += (dq.front()[0]-t)*v;
+                    total += v*(dq.front()[0] - t);
                     t = dq.front()[0];
-                    v = dq.front()[1];
+                    v = dq.front()[1];                    
+                    dq.pop_front();
                 }
                 else
                     break;
-            }
-
-            double dt = (totalTravel + dL - t*v0) *1.0 / (v0 - v);
-            double t2 = dt + t;
-
-            dq.push_front({t2, v});
-            dq.push_front({0, v0});            
-            rets[i] = t2;
+            }            
+            
+            double dt = (dS - (t*vv - total)) *1.0 / (vv-v);
+            
+            dq.push_front({t+dt, v});
+            dq.push_front({0, vv});
+            
+            rets[i] = t+dt;
         }
+        
         return rets;
         
     }
