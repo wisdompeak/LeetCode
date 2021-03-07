@@ -316,6 +316,7 @@
 [037.Sudoku-Solver](https://github.com/wisdompeak/LeetCode/tree/master/DFS/037.Sudoku-Solver) (H-)    
 [040.Combination-Sum-II](https://github.com/wisdompeak/LeetCode/tree/master/DFS/040.Combination-Sum-II) (M+)    
 [051.N-Queens](https://github.com/wisdompeak/LeetCode/tree/master/DFS/051.N-Queens) (H)    
+[131.Palindrome-Partitioning](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/131.Palindrome-Partitioning) (M+)  
 [417.Pacific-Atlantic-Water-Flow](https://github.com/wisdompeak/LeetCode/tree/master/DFS/417.Pacific-Atlantic-Water-Flow) (M)   
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (M)  
 [282.Expression-Add-Operators](https://github.com/wisdompeak/LeetCode/tree/master/DFS/282.Expression-Add-Operators) (H)  
