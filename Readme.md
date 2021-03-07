@@ -621,6 +621,7 @@
 [1335.Minimum-Difficulty-of-a-Job-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1335.Minimum-Difficulty-of-a-Job-Schedule) (M+)   
 [1478.Allocate-Mailboxes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1478.Allocate-Mailboxes) (H)   
 * ``区间型 II``   
+[131.Palindrome-Partitioning](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/131.Palindrome-Partitioning) (M+)  
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)   
 [375.Guess-Number-Higher-or-Lower-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/375.Guess-Number-Higher-or-Lower-II) (H)   
 [471.Encode-String-with-Shortest-Length](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/471.Encode-String-with-Shortest-Length) (H)  
