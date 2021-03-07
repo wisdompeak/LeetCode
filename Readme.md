@@ -812,6 +812,7 @@
 1361.Validate-Binary-Tree-Nodes (TBD)   
 [1719.Number-Of-Ways-To-Reconstruct-A-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1719.Number-Of-Ways-To-Reconstruct-A-Tree) (H+)  
 [1761.Minimum-Degree-of-a-Connected-Trio-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1761.Minimum-Degree-of-a-Connected-Trio-in-a-Graph) (M+)  
+[1782.Count-Pairs-Of-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1782.Count-Pairs-Of-Nodes) (H)  
 
 #### [Math](https://github.com/wisdompeak/LeetCode/tree/master/Math)  
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+) (aka. 1238. Circular Permutation in Binary Representation)  
@@ -920,7 +921,6 @@
 [1706.Where-Will-the-Ball-Fall](https://github.com/wisdompeak/LeetCode/tree/master/Others/1706.Where-Will-the-Ball-Fall) (M+)  
 [1749.Maximum-Absolute-Sum-of-Any-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Others/1749.Maximum-Absolute-Sum-of-Any-Subarray) (M+)  
 [1752.Check-if-Array-Is-Sorted-and-Rotated](https://github.com/wisdompeak/LeetCode/tree/master/Others/1752.Check-if-Array-Is-Sorted-and-Rotated) (M)  
-[1782.Count-Pairs-Of-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Others/1782.Count-Pairs-Of-Nodes) (H)  
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
