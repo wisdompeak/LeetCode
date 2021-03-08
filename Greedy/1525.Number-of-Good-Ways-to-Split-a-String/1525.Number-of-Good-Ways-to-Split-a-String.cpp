@@ -16,8 +16,7 @@ public:
             left[i] = sum;
         }
         
-        count.clear();
-        count.resize(26);
+        count.assign(26,0);
         sum = 0;
         for (int i=s.size()-1; i>=0; i--)
         {
@@ -34,5 +33,7 @@ public:
                 ret+=1;
         }
         return ret;
+        
+
     }
 };
