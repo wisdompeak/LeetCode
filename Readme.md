@@ -679,9 +679,7 @@
 
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
-[136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
-[260.Single-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/260.Single-Number-III) (H)    
 371.Sum-of-Two-Integers (H)   
 [318.Maximum-Product-of-Word-Lengths](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/318.Maximum-Product-of-Word-Lengths) (M+)    
 342.Power-of-Four (H)   
@@ -689,6 +687,8 @@
 1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)  
 [1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target) (H-)  
 * ``XOR``   
+[136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
+[260.Single-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/260.Single-Number-III) (H)    
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
 1310.XOR Queries of a Subarray (TBD)   
 1442.Count Triplets That Can Form Two Arrays of Equal XOR (TBD)   
