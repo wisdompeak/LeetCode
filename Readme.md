@@ -195,7 +195,7 @@
 [1516.Move-Sub-Tree-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1516.Move-Sub-Tree-of-N-Ary-Tree) (H-)  
 1600.Throne-Inheritance (TBD)  
 * ``似树非树``    
-823, 
+[823](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/823.Binary-Trees-With-Factors), 
 
 #### [Segment Tree](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/)
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
