@@ -694,7 +694,7 @@
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
 [1310.XOR-Queries-of-a-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1310.XOR-Queries-of-a-Subarray) (M)  
-1442.Count Triplets That Can Form Two Arrays of Equal XOR (TBD)   
+[1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR) (M+)  
 [1506.Find-Root-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1506.Find-Root-of-N-Ary-Tree) (M+)  
 [1734.Decode-XORed-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1734.Decode-XORed-Permutation) (M+)  
 * ``Bit Mask``   
