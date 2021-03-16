@@ -87,7 +87,6 @@
 [1552.Magnetic-Force-Between-Two-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1552.Magnetic-Force-Between-Two-Balls) (M)  
 [1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1608.Special-Array-With-X-Elements-Greater-Than-or-Equal-X) (M+)  
 [1648.Sell-Diminishing-Valued-Colored-Balls](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1648.Sell-Diminishing-Valued-Colored-Balls) (H-)  
-[1738.Find-Kth-Largest-XOR-Coordinate-Value](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1738.Find-Kth-Largest-XOR-Coordinate-Value) (M)  
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
@@ -701,6 +700,7 @@
 [1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR) (M+)  
 [1506.Find-Root-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1506.Find-Root-of-N-Ary-Tree) (M+)  
 [1734.Decode-XORed-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1734.Decode-XORed-Permutation) (M+)  
+[1738.Find-Kth-Largest-XOR-Coordinate-Value](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1738.Find-Kth-Largest-XOR-Coordinate-Value) (M+)  
 * ``Bit Mask``   
 [1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix) (M+)  
 [1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List) (H-)  
