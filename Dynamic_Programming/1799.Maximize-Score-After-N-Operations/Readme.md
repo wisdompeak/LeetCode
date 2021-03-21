@@ -2,7 +2,8 @@
 
 观察数据大小，容易判定就是一个状态压缩的动态规划问题。转移方程是：
 ```
-dp[集合大小是2i的state] = dp[集合大小是2(i-1)的substate] + gcd(x,y)
+for i=1:n
+ dp[集合大小是2i的state] = dp[集合大小是2(i-1)的substate] + gcd(x,y)
 ```
 其中substate必须是state的子集，另外x和y就是差集state-substate里的那两个元素。
 
