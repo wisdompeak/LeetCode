@@ -412,7 +412,6 @@
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
-[421.Maximum-XOR-of-Two-Numbers-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
 [588.Design-In-Memory-File-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/588.Design-In-Memory-File-System) (H-)  
 [677.Map-Sum-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Trie/677.Map-Sum-Pairs) (M)  
@@ -421,7 +420,10 @@
 [745.Prefix-and-Suffix-Search](https://github.com/wisdompeak/LeetCode/tree/master/Trie/745.Prefix-and-Suffix-Search) (H-)    
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
 1032. Stream of Characters (TBD)  
+* ``Trie and XOR``   
+[421.Maximum-XOR-of-Two-Numbers-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [1707.Maximum-XOR-With-an-Element-From-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1707.Maximum-XOR-With-an-Element-From-Array) (H-)  
+[1803.Count-Pairs-With-XOR-in-a-Range](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1803.Count-Pairs-With-XOR-in-a-Range) (H)  
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 [055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
