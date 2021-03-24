@@ -445,6 +445,7 @@
 [330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 [683.K-Empty-Slots](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/683.K-Empty-Slots)　(H)   
 [517.Super-Washing-Machines](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/517.Super-Washing-Machines) (H)    
+870.Advantage-Shuffle  
 [881.Boats-to-Save-People](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/881.Boats-to-Save-People) (H-)   
 [910.Smallest-Range-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/910.Smallest-Range-II) (M+)   
 936.Stamping-The-Sequence (H)   
