@@ -448,6 +448,7 @@
 870.Advantage-Shuffle (M)   
 [881.Boats-to-Save-People](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/881.Boats-to-Save-People) (H-)   
 [910.Smallest-Range-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/910.Smallest-Range-II) (M+)   
+916.Word-Subsets (M+)  
 936.Stamping-The-Sequence (H)   
 [948.Bag-of-Tokens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/948.Bag-of-Tokens) (M+)    
 968.Binary-Tree-Cameras (H)   
