@@ -206,6 +206,7 @@
 * ``Basics``  
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (H-)   
 [1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
+[1649.Create-Sorted-Array-through-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/1649.Create-Sorted-Array-through-Instructions) (H-)  
 * ``Lazy Tag``  
 [370.Range-Addition](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/370.Range-Addition) (H)   
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H+)   
