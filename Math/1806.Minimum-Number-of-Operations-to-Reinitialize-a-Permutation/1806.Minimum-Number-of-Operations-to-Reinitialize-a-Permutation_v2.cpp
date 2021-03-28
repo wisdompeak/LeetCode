@@ -6,10 +6,10 @@ public:
         int i = 1;
         while (count==0 || i!=1)
         {
-            if (i%2==0)
-                i = i/2;
+            if (i < n/2)
+                i = i*2;
             else
-                i = n / 2 + (i - 1) / 2;
+                i = i*2 - (n-1);
             count++;
         }
         return count;
