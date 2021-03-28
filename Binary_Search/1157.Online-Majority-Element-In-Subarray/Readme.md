@@ -12,7 +12,7 @@
 假设区间d，下面二分了两个子区间d1和d2。在d1区间中的majority是val1，它的频次比其他元素多了diff1。同理在d2区间中的majority是val2，它的频次比其他元素多了diff2.首先我们要明确一个概念，d的majority一定只能是val1和val2中的一个。注意我们对于majority的定义是区间内频次大于50%的元素。显然，如果任何一个元素在两个子区间中都不占50%多数，那么在整个大区间中肯定也不会占50%多数。那么我们如何从d1和d2两个子区间的信息里得到区间d的majority呢？
 1. 如果val1==val2，那么毫无悬念，区间d的majority就是val1（或者val2）。它在整个区间里的频次优势或达到```diff = diff1+diff2```.
 2. 如果va1l!=val2，我们需要两个中间选择一个。   
-    (1) 如果diff1>diff2，则val1相比于val2更有可能是整个区间的majority。但是注意，不一定表示val1就一定真的是majority，因为这个区间可能根本没有majority，所以val1只是best majority candidate。那么对于val1而言，它在d区间内的频率优势如何计算呢？我们取diff的最大可能值：```diff1-diff2```.注意这是一个上限，即认为在d2区间内除了val1就是val2.只有这种情况下，val1才会继续保有最大的正数diff，即确立自己majority的地位。
+    (1) 如果diff1>diff2，则val1相比于val2更有可能是整个区间的majority。但是注意，不一定表示val1就一定真的是majority，因为这个区间可能根本没有majority，所以val1只是best majority candidate。那么对于val1而言，它在d区间内的频率优势如何计算呢？我们取diff的最大可能值：```diff1-diff2```.注意这是一个上限，即认为在d2区间内除了val1就是val2.只有这种情况下，val1才会继续保有最大的正数diff，即确立自己majority的地位。     
     (2) 反之，如果diff1<diff2，那么我们就认为val2是整个区间的best majority candidate，对应的频率优势是```diff = diff2-diff1```.   
 
 通过上面递归的思想，我们就可以建立起一棵完全二叉树．每个节点代表的一个区间，并且记录了这个区间里的majority candidate的值val，diff表示在该区间内val的频次与非val的频次之差．再次强调，val不见得真的是该区间的majority。
