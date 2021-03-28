@@ -872,6 +872,7 @@
 [1605.Find-Valid-Matrix-Given-Row-and-Column-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Math/1605.Find-Valid-Matrix-Given-Row-and-Column-Sums) (M+)  
 [1680.Concatenation-of-Consecutive-Binary-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/1680.Concatenation-of-Consecutive-Binary-Numbers) (M)  
 [1739.Building-Boxes](https://github.com/wisdompeak/LeetCode/tree/master/Math/1739.Building-Boxes) (H-)  
+[1806.Minimum-Number-of-Operations-to-Reinitialize-a-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Math/1806.Minimum-Number-of-Operations-to-Reinitialize-a-Permutation) (H)  
 * ``Distances``   
 [296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
 [1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)    
