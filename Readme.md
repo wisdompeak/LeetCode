@@ -845,8 +845,6 @@
 [089.Gray-Code](https://github.com/wisdompeak/LeetCode/tree/master/Math/089.Gray-Code) (M+) (aka. 1238. Circular Permutation in Binary Representation)  
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
 [335.Self-Crossing](https://github.com/wisdompeak/LeetCode/tree/master/Math/335.Self-Crossing) (H)    
-[365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
-[343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (M)    
 458.Poor-Pigs (H)   
 [400.n-th-digit](https://github.com/wisdompeak/LeetCode/tree/master/Math/400.n-th-digit) (M)    
 [441.Arranging-Coins](https://github.com/wisdompeak/LeetCode/tree/master/Math/441.Arranging-Coins) (M-)   
@@ -904,6 +902,10 @@
 [1641.Count-Sorted-Vowel-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Math/1641.Count-Sorted-Vowel-Strings) (M+)  
 [1643.Kth-Smallest-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Math/1643.Kth-Smallest-Instructions) (M+)  
 [1735.Count-Ways-to-Make-Array-With-Product](https://github.com/wisdompeak/LeetCode/tree/master/Math/1735.Count-Ways-to-Make-Array-With-Product) (H)  
+* ``Numerical Theory``   
+[343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
+[365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
+[1808.Maximize-Number-of-Nice-Divisors](https://github.com/wisdompeak/LeetCode/tree/master/Math/1808.Maximize-Number-of-Nice-Divisors) (H-)  
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
