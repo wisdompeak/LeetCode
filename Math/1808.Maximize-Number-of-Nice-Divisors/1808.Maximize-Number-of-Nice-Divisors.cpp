@@ -2,6 +2,7 @@ class Solution {
 public:
     int maxNiceDivisors(int primeFactors) 
     {
+        if (primeFactors==1) return 1;
         if (primeFactors==2) return 2;
         if (primeFactors==3) return 3;
         if (primeFactors==4) return 4;
