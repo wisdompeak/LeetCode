@@ -426,6 +426,7 @@
 [745.Prefix-and-Suffix-Search](https://github.com/wisdompeak/LeetCode/tree/master/Trie/745.Prefix-and-Suffix-Search) (H-)    
 [1268.Search-Suggestions-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1268.Search-Suggestions-System) (H-)   
 1032. Stream of Characters (TBD)  
+[1804.Implement-Trie-II-(Prefix-Tree)](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1804.Implement-Trie-II-(Prefix-Tree)) (M+)  
 * ``Trie and XOR``   
 [421.Maximum-XOR-of-Two-Numbers-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H)    
 [1707.Maximum-XOR-With-an-Element-From-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1707.Maximum-XOR-With-an-Element-From-Array) (H-)  
