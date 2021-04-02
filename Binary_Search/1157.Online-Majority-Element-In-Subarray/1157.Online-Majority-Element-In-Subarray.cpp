@@ -20,12 +20,12 @@ public:
         {
             int num = q[i].second;
             int pos1 = lower_bound(Map[num].begin(), Map[num].end(), left) - Map[num].begin();
-            int pos2 = upper_bound(Map[num].begin(), Map[num].end(), right) - Map[num].begin() - 1;
+            int pos2 = upper_bound(Map[num].begin(), Map[num].end(), right) - Map[num].begin();
             
-            if (pos2-pos1+1>=threshold)
+            if (pos2-pos1>=threshold)
                 return num;
             else
-                total -= pos2-pos1+1;
+                total -= pos2-pos1;
             
             if (total < threshold)
                 return -1;
