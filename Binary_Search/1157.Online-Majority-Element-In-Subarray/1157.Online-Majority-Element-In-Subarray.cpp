@@ -26,15 +26,12 @@ public:
                 return num;
             else
                 total -= pos2-pos1+1;
+            
             if (total < threshold)
+                return -1;
+            if (Map[num].size() < threshold)
                 return -1;
         }
         return -1;
     }
 };
-
-/**
- * Your MajorityChecker object will be instantiated and called as such:
- * MajorityChecker* obj = new MajorityChecker(arr);
- * int param_1 = obj->query(left,right,threshold);
- */
