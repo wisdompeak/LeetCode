@@ -1,5 +1,3 @@
-// LeetCode 370. Range Addition
-
 class Solution {
     class SegTreeNode
     {
@@ -7,7 +5,7 @@ class Solution {
         SegTreeNode* left;
         SegTreeNode* right;
         int start, end;
-        int info;       
+        int info;
         int tag;
         SegTreeNode(int a, int b):start(a),end(b),info(0),tag(0),left(NULL),right(NULL){}
     };
@@ -28,74 +26,76 @@ class Solution {
         init(node->left, a, mid);
         init(node->right, mid+1, b);
                 
-        node->info = node->left->info + node->right->info;  // write your own logic
+        node->info = 0;  // write your own logic
     }
     
-    void updateRangeBy(SegTreeNode* node, int a, int b, int val)
-    {        
-        if (b < node->start || a > node->end ) return;
-        if (a <= node->start && node->end <=b)
+    void updateRange(SegTreeNode* node, int a, int b, int val)
+    {
+        if (b < node->start || a > node->end )
+            return;
+        if (a <= node->start && b>=node->end)
         {
-            // write your own logic            
-            node->info += val * len(node);    
-            node->tag += val;   
+            node->info += val * (node->end-node->start+1);
+            node->tag += val;
             return;
         }
         
-        pushDown(node);        
-        updateRangeBy(node->left, a, b, val);
-        updateRangeBy(node->right, a, b, val);
-        
-        node->info = node->left->info + node->right->info;  // write your own logic
+        pushdown(node); // erase lazy tag and propagate down
+        updateRange(node->left, a, b, val);
+        updateRange(node->right, a, b, val);
     }
     
-    int len(SegTreeNode* node)
+    void pushdown(SegTreeNode* node)
     {
-        return node->end - node->start + 1;
-    }
-    
-    void pushDown(SegTreeNode* node)
-    {
-        if (node->tag!=0)
+        if (node->tag != 0)
         {
-            node->left->info += len(node->left) * node->tag;
-            node->right->info += len(node->right) * node->tag;
             node->left->tag += node->tag;
             node->right->tag += node->tag;
-            node->tag = 0;
-        }        
-    }    
-    
-    int queryRange(SegTreeNode* node, int a, int b)
-    {
-        if (b < node->start || a > node->end )
-        {
-            return 0;  // write your own logic
+            node->left->info += node->tag * (node->left->end-node->left->start+1);
+            node->right->info += node->tag * (node->right->end-node->right->start+1);
+            node->tag = 0;            
         }
-        if (a <= node->start && b>=node->end)
-        {
-            return node->info;  // write your own logic
-        }        
-        pushDown(node);
-        return queryRange(node->left, a, b) + queryRange(node->right, a, b);  // write your own logic
-    }    
+    }
     
-    SegTreeNode* root;
+    int querySingle(SegTreeNode* node, int id)
+    {
+        if (id < node->start || id > node->end )
+        {
+            return INT_MAX;  // write your own logic
+        }
+        if (node->start==id && node->end==id)
+        {
+            return node->info;
+        }
+        
+        pushdown(node);
+        int a = querySingle(node->left, id);
+        int b = querySingle(node->right, id);
+        if (a!=INT_MAX) return a;
+        else if (b!=INT_MAX) return b;
+        else return INT_MAX;
+    }
+    
+    
     
 public:
     vector<int> getModifiedArray(int length, vector<vector<int>>& updates) 
     {
         SegTreeNode* root = new SegTreeNode(0, length-1);
-        
         init(root, 0, length-1);
-            
-        for (auto& update: updates)
+        
+        for (auto update: updates)
         {
-            updateRangeBy(root, update[0], update[1], update[2]);            
+            updateRange(root, update[0], update[1], update[2]);
         }
+        
         vector<int>rets(length);
         for (int i=0; i<length; i++)
-            rets[i] = queryRange(root, i, i);
+        {
+            rets[i] = querySingle(root, i);
+        }
+            
         return rets;
     }
 };
+
