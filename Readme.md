@@ -973,6 +973,7 @@
 
 #### [LeetCode Cup]
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
+[LCP24.数字游戏](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP24.%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F)  
 [LCP25.古董键盘](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP25.%E5%8F%A4%E8%91%A3%E9%94%AE%E7%9B%98)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
