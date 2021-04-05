@@ -1,12 +1,12 @@
 class Solution {
-class SegTreeNode
+    class SegTreeNode
     {
         public:
         SegTreeNode* left;
         SegTreeNode* right;
         int start, end;
-        int info;       
-        int tag;
+        int info;  // the max height of the range
+        bool tag; 
         SegTreeNode(int a, int b):start(a),end(b),info(0),tag(0),left(NULL),right(NULL){}
     };
     
@@ -24,95 +24,88 @@ class SegTreeNode
             node->right = new SegTreeNode(mid+1, b);
         }
         init(node->left, a, mid);
-        init(node->right, mid+1, b);                
-    }
-    
-    int queryRange(SegTreeNode* node, int a, int b)
-    {
-        if (b < node->start || a > node->end ) // no intersection
-            return 0;
-        if (node->start == node->end)   // leaf node, no need to dive
-        {                        
-            return node->info;
-        }
-        if (a <= node->start && node->end <=b && node->tag) // lazy tagged, no need to dive
-        {
-            return node->info;
-        }
-        if (node->tag)
-        {
-            node->tag = 0;
-            node->left->info = node->info;
-            node->right->info = node->info;
-            node->left->tag = 1;
-            node->right->tag = 1;            
-        }
-        return max(queryRange(node->left, a, b), queryRange(node->right, a, b));
+        init(node->right, mid+1, b);
+                
+        node->info = 0;  // write your own logic
     }
     
     void updateRange(SegTreeNode* node, int a, int b, int val)
     {        
         if (b < node->start || a > node->end ) // no intersection
             return;
-        if (node->start == node->end)   // leaf node, no need to dive
+        if (a <= node->start && node->end <=b)
         {
-            node->info = val;
-            node->tag = 0;
-            return;
-        }
-        if (a <= node->start && node->end <=b) // no need to dive, tag lazy
-        {            
             node->info = val;
             node->tag = 1;
             return;
         }
         
-        if (node->tag == 1) // if current node tagged lazy, push information down
+        pushDown(node);        
+        updateRange(node->left, a, b, val);
+        updateRange(node->right, a, b, val);
+        
+        node->info = max(node->left->info, node->right->info);  // write your own logic
+    }
+    
+    int queryRange(SegTreeNode* node, int a, int b)
+    {
+        if (b < node->start || a > node->end )
         {
-            node->tag = 0;            
+            return 0;  // write your own logic
+        }
+        if (a <= node->start && b>=node->end)
+        {
+            return node->info;  // write your own logic
+        }            
+        pushDown(node);        
+        node->info = max(queryRange(node->left, a, b), queryRange(node->right, a, b));  // write your own logic
+        return node->info;
+    }    
+    
+    void pushDown(SegTreeNode* node)
+    {
+        if (node->tag==true)
+        {
             node->left->info = node->info;
             node->right->info = node->info;
             node->left->tag = 1;
-            node->right->tag = 1;            
+            node->right->tag = 1;
+            node->tag = 0;
         }        
-        node->info = val;
-        
-        updateRange(node->left, a, b, val);
-        updateRange(node->right, a, b, val);        
-    }
-        
-    SegTreeNode* root;    
+    }  
+    
     
 public:
     vector<int> fallingSquares(vector<vector<int>>& positions) 
     {
-        unordered_map<int,int>pos2idx;
         set<int>Set;
         for (auto & rect: positions)
         {
             Set.insert(rect[0]);
-            Set.insert(rect[0]+rect[1]);        
+            Set.insert(rect[0]+rect[1]);
         }
-        int i = 0;
+        unordered_map<int,int>pos2idx;
+        int idx = 0;
         for (auto x: Set)
         {
-            pos2idx[x] = i;
-            i++;
+            pos2idx[x] = idx;
+            idx++;
         }
-        
         int n = pos2idx.size();
+        
         SegTreeNode* root = new SegTreeNode(0, n-1);
         init(root, 0, n-1);
         
-        int cur = 0;
+        int maxH = 0;
         vector<int>rets;
-        for (auto& rect: positions)
+        for (auto & rect: positions)
         {
-            int a = pos2idx[rect[0]], b = pos2idx[rect[0]+rect[1]];
-            int h = queryRange(root, a, b-1);
-            updateRange(root, a, b-1, h+rect[1]);
-            cur = max(cur, h+rect[1]);
-            rets.push_back(cur);
+            int a = pos2idx[rect[0]];
+            int b = pos2idx[rect[0]+rect[1]];
+            int h = queryRange(root, a, b-1);  // [a,b)
+            updateRange(root, a, b-1, h + rect[1]);
+            maxH = max(maxH, h + rect[1]);
+            rets.push_back(maxH);
         }
         return rets;        
     }
