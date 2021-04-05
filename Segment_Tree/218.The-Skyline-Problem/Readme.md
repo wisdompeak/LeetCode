@@ -39,4 +39,10 @@
 ```
 对于此题，我们其实不需要写区间查询的函数。因为我们最终输出的结果，会要求遍历线段树的每一个节点，写个DFS即可。当然，如果遍历到某个区间的tag依然为true时，其实可以不用继续深入下去，直接输出该区间的信息。最终输出的结果需要整理一下，如果相邻的叶子节点的高度相同，我们再做一下归并。
 
+另外补充一点，我们将所有的building按照高度从小到大排序一遍，会使带有懒标签的线段树代码跑得更快。这是因为在updateRange时有更大的概率触发下面这个条件，使得我们只需要标记lazy tag并立即返回：
+```cpp
+if (a <= node->start && node->end <=b && val >= node->info) 
+{... return; }
+```
+
 [Leetcode Link](https://leetcode.com/problems/the-skyline-problem)
