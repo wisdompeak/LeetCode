@@ -1,36 +1,36 @@
 typedef long long LL;
 class Solution {    
-    int count[10];
+    array<int, 10>count;
     int b, n;
-    unordered_map<LL, int>memo;    
 public:
     int maxHappyGroups(int batchSize, vector<int>& groups) 
     {
         b = batchSize;                
         n = groups.size();
 
+        for (int i=0; i<10; i++)
+            count[i] = 0;
         for (auto x: groups)
             count[x%batchSize]++;
                 
-        return dfs(0, 0, 0);
+        return dfs(count, 0, 0);
     }
     
-    int dfs(int presum, int prescore, int i)
+    int dfs(array<int, 10>&count, int presum, int i)
     {
         if (i==n) 
-            return prescore;
-        
-        if (presum % b == 0)
-            prescore++;
+            return 0;
 
+        int bonus = (presum % b == 0);
         int ret = 0;
         for (int j=0; j<b; j++)
         {
             if (count[j]==0) continue;
             count[j]--;
-            ret = max(ret, dfs((presum+j) % b, prescore, i+1));
+            ret = max(ret, dfs(count, (presum+j) % b, i+1));
             count[j]++;
         }
-        return ret;
+
+        return ret + bonus;
     }
 };
