@@ -10,20 +10,15 @@ public:
         for (int i=0; i<n; i++)
         {
             auto iter = lower_bound(arr.begin(), arr.end(), nums2[i]);
-            int a = INT_MAX, b = INT_MAX;
+            int a = INT_MAX/2, b = INT_MAX/2;
             if (iter!=arr.end())
                 a = *iter;
             if (iter!=arr.begin())
                 b = *prev(iter);
             
-            int diff = INT_MAX;
-            if (a!=INT_MAX)
-                diff = min(diff, abs(a-nums2[i]));
-            if (b!=INT_MAX)
-                diff = min(diff, abs(b-nums2[i]));
+            int diff = min(abs(a-nums2[i]), abs(b-nums2[i]));
             
-            int origin = abs(nums1[i]-nums2[i]);
-            
+            int origin = abs(nums1[i]-nums2[i]);            
             maxDecrease = max(maxDecrease, origin - diff);            
         }
         
