@@ -361,7 +361,7 @@
 [1593.Split-a-String-Into-the-Max-Number-of-Unique-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1593.Split-a-String-Into-the-Max-Number-of-Unique-Substrings) (M)  
 [1681.Minimum-Incompatibility](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1681.Minimum-Incompatibility) (H)  
 * ``memorization``    
-[464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (H)   
+[464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/DFS/464.Can-I-Win) (M+)   
 472.Concatenated-Words (M)    
 [638.Shopping-Offers](https://github.com/wisdompeak/LeetCode/tree/master/DFS/638.Shopping-Offers) (M)    
 [337.House-Robber-III](https://github.com/wisdompeak/LeetCode/tree/master/DFS/337.House-Robber-III) (M+)   
