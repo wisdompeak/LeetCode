@@ -1,14 +1,14 @@
 ### 638.Shopping-Offers
 
-虽然常规的DFS也能通过，但理论上需要用记忆化来避免已经探索过的路径。
+设计递归函数dfs(state)，其中state表示还有哪些物品没有采购，返回的值表示采购完这些物品的最少代价。
 
-记忆化的方式比较直接，但需要将needs转化为一个string这样能使用HashMap来存储对应的最优策略。
+考虑到最多只有6件物品，每个物品最多6个。所以我们用18个bit的二进制数来表示状态。每3个bit可以表示该种物品的数量（从0到7）。
 
-对于一个状态（给出needs的需求），遍历每一种valid offer之后就将needs降级用DFS处理；尝试所有valid offer之后就可以存储这个状态的最优策略到Map里了。
+在dfs(state)里，为我们尝试每一种合法的offer，将state更新后递归处理。我们取所有尝试中代价最小的结果，并记录在memo[state]里面。
 
 需要注意的细节：
 1. 有些offer是不合算的，可以提前从special里排除掉；
-2. 对于一个needs的需求，如果没有任何offer可以适用，则可以直接根据price计算出这个状态的策略。
+2. 在dfs(state)里，除了尝试offer，还可以直接从prices里面按原价采购每一件物品。
 
 
 [Leetcode Link](https://leetcode.com/problems/shopping-offers)
