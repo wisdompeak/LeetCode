@@ -27,7 +27,6 @@ public:
         int count = 0;
         for (int i=0; i<m; i++)
         {
-            if (match[i]!=-1) continue;
             visited.assign(t, 0);
             if (dfs(i, visited))
                 count++;            
