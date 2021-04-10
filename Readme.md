@@ -337,7 +337,6 @@
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (M)  
 [282.Expression-Add-Operators](https://github.com/wisdompeak/LeetCode/tree/master/DFS/282.Expression-Add-Operators) (H)  
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)    
-329.Longest Increasing Path in a Matrix (TBD)  
 [351.Android-Unlock-Patterns](https://github.com/wisdompeak/LeetCode/tree/master/DFS/351.Android-Unlock-Patterns) (H-)  
 [399.Evaluate-Division](https://github.com/wisdompeak/LeetCode/tree/master/DFS/399.Evaluate-Division) (H-)   
 [488.Zuma-Game](https://github.com/wisdompeak/LeetCode/tree/master/DFS/488.Zuma-Game) (H-)    
@@ -361,6 +360,7 @@
 [1593.Split-a-String-Into-the-Max-Number-of-Unique-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1593.Split-a-String-Into-the-Max-Number-of-Unique-Substrings) (M)  
 [1681.Minimum-Incompatibility](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1681.Minimum-Incompatibility) (H)  
 * ``memorization``    
+[329.Longest-Increasing-Path-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/DFS/329.Longest-Increasing-Path-in-a-Matrix) (M)  
 [638.Shopping-Offers](https://github.com/wisdompeak/LeetCode/tree/master/DFS/638.Shopping-Offers) (M+)    
 [403.Frog-Jump](https://github.com/wisdompeak/LeetCode/tree/master/DFS/403.Frog-Jump) (M+)    
 [489.Robot-Room-Cleaner](https://github.com/wisdompeak/LeetCode/blob/master/DFS/489.Robot-Room-Cleaner) (H)   
