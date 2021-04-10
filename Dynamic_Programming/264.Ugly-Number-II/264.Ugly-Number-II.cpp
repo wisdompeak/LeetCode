@@ -3,14 +3,14 @@ public:
     int nthUglyNumber(int n) 
     {
         vector<int>q({1});
-        int a=0, b=0, c=0;
-        for (int i=0; i<n-1; i++)
+        int i=0, j=0, k=0;
+        while (q.size()<n)
         {
-            int num = min(min(q[a]*2,q[b]*3),q[c]*5);
-            if (q[a]*2==num) a++;
-            if (q[b]*3==num) b++;
-            if (q[c]*5==num) c++;
-            q.push_back(num);
+            int x = min(q[i]*2, min(q[j]*3, q[k]*5));
+            if (x==q[i]*2) i++;
+            if (x==q[j]*3) j++;
+            if (x==q[k]*5) k++;
+            q.push_back(x);
         }
         return q[n-1];
     }
