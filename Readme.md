@@ -142,6 +142,7 @@
 [1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows) (H-)  
 [1606.Find-Servers-That-Handled-Most-Number-of-Requests](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1606.Find-Servers-That-Handled-Most-Number-of-Requests) (M)  
 1797.Design Authentication Manager (M)  
+[1825.Finding-MK-Average](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1825.Finding-MK-Average) (H)  
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
