@@ -31,8 +31,9 @@ public:
     {
         vector<pair<int,int>>dir({{0,1},{1,0},{0,-1},{-1,0}});        
         robot.clean();
-        for (int k=0; k<4; k++)
+        for (int k=1; k<=4; k++)
         {
+            robot.turnRight();
             int nxtDir = (curDir+k)%4;            
             int i = x+dir[nxtDir].first;
             int j = y+dir[nxtDir].second;
@@ -48,7 +49,7 @@ public:
                 robot.turnLeft();
                 robot.turnLeft();            
             }                
-            robot.turnRight();         
+                     
         }
     }
 };
