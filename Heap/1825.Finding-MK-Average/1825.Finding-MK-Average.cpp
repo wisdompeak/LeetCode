@@ -13,41 +13,44 @@ public:
         this->k = k;        
     }
     
+    void shiftRight(multiset<int>&A, multiset<int>&B)
+    {
+        B.insert(*A.rbegin());
+        A.erase(--A.end());
+    }
+
+    void shiftLeft(multiset<int>&A, multiset<int>&B)
+    {
+        A.insert(*B.begin());
+        B.erase(B.begin());
+    }
+
     void addElement(int num) 
     {                
-        q.push(num);
-        temp.push_back(num);
-        
-        if (q.size() == m)
+        if (q.size() < m)
         {                        
-            sort(temp.begin(), temp.end());
-            for (int i=0; i<k; i++)
-                Set1.insert(temp[i]);
-            for (int i=k; i<m-k; i++)
+            q.push(num);
+            Set2.insert(num);
+            sum += num;
+
+            if (q.size()==m)
             {
-                Set2.insert(temp[i]);
-                sum += temp[i];
-            }                
-            for (int i=m-k; i<m; i++)
-                Set3.insert(temp[i]);
+                while (Set1.size()<k)
+                {
+                    sum -= *Set2.begin();
+                    shiftLeft(Set1, Set2);
+                }                    
+                while (Set3.size()<k)
+                {
+                    sum -= *Set2.rbegin();
+                    shiftRight(Set2, Set3);
+                }                    
+            }
         }            
-        else if (q.size() == m+1)
+        else if (q.size() == m)
         {
-            int x = q.front();
-            q.pop();
-            
-            // delete the old element
-            if (Set1.find(x)!=Set1.end())
-                Set1.erase(Set1.lower_bound(x));
-            else if (Set3.find(x)!=Set3.end())
-                Set3.erase(Set3.lower_bound(x));
-            else
-            {
-                Set2.erase(Set2.lower_bound(x));
-                sum -= x;
-            }                
-            
             // add the new element
+            q.push(num);
             if (!Set1.empty() && num <= *Set1.rbegin())
                 Set1.insert(num);
             else if (!Set3.empty() && num >= *Set3.begin())
@@ -57,36 +60,40 @@ public:
                 Set2.insert(num);
                 sum += num;
             }
-                          
-            // adjust the three sets
-            while (Set1.size() > k)
-            {
-                int y = *Set1.rbegin();
-                Set1.erase(Set1.lower_bound(y));
-                Set2.insert(y);
-                sum += y;
+
+            if (Set1.size() > k)
+            {   
+                sum += *Set1.rbegin();                             
+                shiftRight(Set1, Set2);
             }            
-            while (Set3.size() > k)
+            if (Set3.size() > k)
             {
-                int y = *Set3.begin();
-                Set3.erase(Set3.lower_bound(y));
-                Set2.insert(y);
-                sum += y;
+                sum += *Set3.begin();
+                shiftLeft(Set2, Set3);
             }
             
-            while (Set1.size() < k)
+            // delete the old element
+            int x = q.front();
+            q.pop();
+            if (Set1.find(x)!=Set1.end())
+                Set1.erase(Set1.find(x));
+            else if (Set3.find(x)!=Set3.end())
+                Set3.erase(Set3.find(x));
+            else
             {
-                int y = *Set2.begin();
-                Set2.erase(Set2.lower_bound(y));
-                Set1.insert(y);
-                sum -= y;
+                sum -= x;
+                Set2.erase(Set2.find(x));                
+            }                
+                        
+            if (Set1.size() < k)
+            {
+                sum -= *Set2.begin();
+                shiftLeft(Set1, Set2);                
             }            
-            while (Set3.size() < k)
+            if (Set3.size() < k)
             {
-                int y = *Set2.rbegin();
-                Set2.erase(Set2.lower_bound(y));
-                Set3.insert(y);
-                sum -= y;
+                sum -= *Set2.rbegin();
+                shiftRight(Set2, Set3);
             }                        
         }
     }
@@ -96,7 +103,8 @@ public:
         if (q.size() < m)
             return -1;
         else
-            return sum / (m-2*k);        
+            return sum / (m-2*k);
+        
     }
 };
 
