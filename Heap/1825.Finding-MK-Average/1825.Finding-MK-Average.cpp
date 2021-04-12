@@ -1,11 +1,8 @@
 class MKAverage {
     int m,k;
-    multiset<int>Set1;
-    multiset<int>Set2;
-    multiset<int>Set3;    
-    long sum = 0;
+    multiset<int>left, mid, right;
     queue<int>q;
-    vector<int>temp;
+    long sum = 0;    
 public:
     MKAverage(int m, int k) 
     {
@@ -30,20 +27,20 @@ public:
         if (q.size() < m)
         {                        
             q.push(num);
-            Set2.insert(num);
+            mid.insert(num);
             sum += num;
 
             if (q.size()==m)
             {
-                while (Set1.size()<k)
+                while (left.size()<k)
                 {
-                    sum -= *Set2.begin();
-                    shiftLeft(Set1, Set2);
+                    sum -= *mid.begin();
+                    shiftLeft(left, mid);
                 }                    
-                while (Set3.size()<k)
+                while (right.size()<k)
                 {
-                    sum -= *Set2.rbegin();
-                    shiftRight(Set2, Set3);
+                    sum -= *mid.rbegin();
+                    shiftRight(mid, right);
                 }                    
             }
         }            
@@ -51,49 +48,49 @@ public:
         {
             // add the new element
             q.push(num);
-            if (!Set1.empty() && num <= *Set1.rbegin())
-                Set1.insert(num);
-            else if (!Set3.empty() && num >= *Set3.begin())
-                Set3.insert(num);
+            if (!left.empty() && num <= *left.rbegin())
+                left.insert(num);
+            else if (!right.empty() && num >= *right.begin())
+                right.insert(num);
             else
             {
-                Set2.insert(num);
+                mid.insert(num);
                 sum += num;
             }
 
-            if (Set1.size() > k)
+            if (left.size() > k)
             {   
-                sum += *Set1.rbegin();                             
-                shiftRight(Set1, Set2);
+                sum += *left.rbegin();                             
+                shiftRight(left, mid);
             }            
-            if (Set3.size() > k)
+            if (right.size() > k)
             {
-                sum += *Set3.begin();
-                shiftLeft(Set2, Set3);
+                sum += *right.begin();
+                shiftLeft(mid, right);
             }
             
             // delete the old element
             int x = q.front();
             q.pop();
-            if (Set1.find(x)!=Set1.end())
-                Set1.erase(Set1.find(x));
-            else if (Set3.find(x)!=Set3.end())
-                Set3.erase(Set3.find(x));
+            if (left.find(x)!=left.end())
+                left.erase(left.find(x));
+            else if (right.find(x)!=right.end())
+                right.erase(right.find(x));
             else
             {
                 sum -= x;
-                Set2.erase(Set2.find(x));                
+                mid.erase(mid.find(x));                
             }                
                         
-            if (Set1.size() < k)
+            if (left.size() < k)
             {
-                sum -= *Set2.begin();
-                shiftLeft(Set1, Set2);                
+                sum -= *mid.begin();
+                shiftLeft(left, mid);                
             }            
-            if (Set3.size() < k)
+            if (right.size() < k)
             {
-                sum -= *Set2.rbegin();
-                shiftRight(Set2, Set3);
+                sum -= *mid.rbegin();
+                shiftRight(mid, right);
             }                        
         }
     }
