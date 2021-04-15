@@ -985,6 +985,7 @@
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
 [LCP24.数字游戏](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP24.%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F)  
 [LCP25.古董键盘](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP25.%E5%8F%A4%E8%91%A3%E9%94%AE%E7%9B%98)  
+[LCP32.批量处理任务](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP32.%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86%E4%BB%BB%E5%8A%A1)
 [LCP35.电动车游城市](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP35.%E7%94%B5%E5%8A%A8%E8%BD%A6%E6%B8%B8%E5%9F%8E%E5%B8%82)
 [LCP36.最多牌组数](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP36.%E6%9C%80%E5%A4%9A%E7%89%8C%E7%BB%84%E6%95%B0)
 
