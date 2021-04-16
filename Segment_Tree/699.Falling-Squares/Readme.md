@@ -35,11 +35,32 @@ Map[left]= maxH+h;
 
 #### 解法2：使用线段树
 
-相比于 715.Range Module 使用的标准线段树模型，此题只需要对标准模型进行很小的改动即可适用。
+本题的线段树解法和```218.The Skyline Problem```类似，都要用到离散化+懒标记。
 
-也即是每个线段的status不再是一个二值的状态，而是代表了```[begin,end)```区间里最大高度。每次处理一个正方形(x,y,d)，首先用```getStatus(x,y)```得到该区间内的最大高度maxH，然后在该相同的区间内```setStatus(x,y,maxH+d)```即可。整颗线段树的维护非常直观。
+数据结构：和218类似，我们定义SegTreeNode.info表示该节点所对应的区间的最大高度。tag表示该区间的高度是否都是一致的。如果是的话，tag标记为true，我们就可以省去对下层更细区间的查询。
 
-相比与715，线段树模型的改动之处是：715题的setStatus里，```status = left->status && right->status```，现在改为 ```stuats = max(left->status, right->status)```即可。
+离散化：和218类似。同样，对于底边范围是[i:j]的正方形，我们实际查询和更新的区间是[i:j-1]。也就是说，对于线段树中的每个子节点，info代表的是```[i:i+1)```这段左闭右开的区间的高度。
 
+区间查询：我们需要在某个线段树子树内查询指定区间[a,b]的最大高度。同样分为几种情况讨论：
+1. 如果节点区间与[a,b]互斥，那么返回0（无限小）
+2. 如果节点区间被包含于[a,b]之中，那么在本题题境里面，不论是否有懒标记，都无需再查询更下层的区间，直接返回node->info。（这是因为从上往下走的过程中，无论query还是update，我们都不会越过懒标记的节点。如果越过懒标记的节点，必然伴随着pushdown将懒标记下移，并把下层的节点准确地更新了。）
+3. 其他情况下，需要递归处理两个区间，返回```max(queryRange(node->left, a,b), queryRange(node->right, a,b))```.特别注意，在进行递归之前，需要pushdown（即如果tag已经标记，需要取消该节点的标记，并且将影响传播到它的两个子节点）。
+
+区间更新：我们需要在某个线段树子树内将指定区间[a,b]的高度统一设置val。同样分为几种情况讨论：
+1. 如果节点区间与[a,b]互斥，那么直接返回。
+2. 如果节点区间被包含于[a,b]之中，那么在本题题境里面，说明整个区间的info一定都是要更新的。那么无需再更新下层的区间，直接更新node->info后返回。注意保持懒标记。
+3. 其他情况下，需要递归处理两个区间，```queryRange(node->left, a,b) && queryRange(node->right, a,b)```，然后更新node->info.特别注意，在进行递归之前，需要pushdown（即如果tag已经标记，需要取消该节点的标记，并且将影响传播到它的两个子节点）。
+
+主程序：
+```cpp
+        for (auto& rect: positions)
+        {
+            int a = pos2idx[rect[0]], b = pos2idx[rect[0]+rect[1]];
+            int h = queryRange(root, a, b-1);
+            updateRange(root, a, b-1, h+rect[1]);
+            cur = max(cur, h+rect[1]);
+            rets.push_back(cur);
+        }
+```        
 
 [Leetcode Link](https://leetcode.com/problems/falling-squares)

@@ -1,47 +1,32 @@
 class Solution {
-    int maxChoosableInteger;
-    int desiredTotal;
-    unordered_map<int,bool>Map;
+    int visited[1<<21];
 public:
     bool canIWin(int maxChoosableInteger, int desiredTotal) 
     {
-        if (desiredTotal==0) return true;
-        if (desiredTotal > (1+maxChoosableInteger)*maxChoosableInteger/2)
-            return false;
-        
-        this->maxChoosableInteger = maxChoosableInteger;
-        this->desiredTotal = desiredTotal;        
-        return DFS(0);
+        int totalSum = (1+maxChoosableInteger)*maxChoosableInteger/2;
+        if (totalSum < desiredTotal) return false;
+        return dfs(0, 0, maxChoosableInteger, desiredTotal);
     }
-    
-    bool DFS(int status)
+
+    bool dfs(int state, int sum, int maxChoosableInteger, int desiredTotal)
     {
-        if (Map.find(status)!=Map.end()) return Map[status];
-        
-        int sum = 0;
-        for (int i=1; i<=maxChoosableInteger; i++)
-        {
-            if (((status>>i)&1)==1)
-                sum+=(i);
-        }        
-        if (sum>=desiredTotal) 
-        {
-            Map[status] = false;
+        if (visited[state]==2)
+            return true;
+        if (visited[state]==1)
             return false;
-        }
-        
+
         for (int i=1; i<=maxChoosableInteger; i++)
         {
-            if (((status>>i)&1)==1) continue;
-            int newStatus = status | (1<<i);
-            if (DFS(newStatus)==false)
+            if ((state>>i)&1) continue;
+            if (sum+i >= desiredTotal) return true;
+            
+            if (dfs(state+(1<<i), sum+i, maxChoosableInteger, desiredTotal)==false)
             {
-                Map[status] = true;
-                return true;            
-            }
+                visited[state] = 2;
+                return true;
+            }                
         }
-        
-        Map[status] = false;
+        visited[state] = 1;
         return false;
     }
 };

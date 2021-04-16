@@ -47,70 +47,26 @@ nums的前5个元素之和，需要累加的的tree元素：5,4
 ```
 
 #### Segment Tree
-除了Binary Indexed Tree，此题的另外一种解法是采用数据结构“线段树”。线段树的本质是一棵二叉树，每一个节点代表着一个区间。子节点区间都是父节点区间的二分子集。线段树适合的题型有非常鲜明的特点，即一个大区间的问题可以分解为若干小区间来求解并归并。比如一个大区间的sum，等于两个子区间sum的和；再比如，一个大区间的max，等于两个子区间max的最大值。构建线段树的时间复杂度、空间复杂度都是o(2n)，查询、更新（单个元素）是o(logn)，总和性能还不错。
+此题是应用线段树的典型例子。线段树的模板有很多种写法，这里来讲一下最基础的版本。
 
-线段树的模板比较长，常见的操作包括buildTree，modifyTree和queryTree。但思路非常清晰简洁，如果写熟练了，并不比TrieNode模板慢。需要注意的是，在本题里，最底层的子树一定会是```start==end```，这种结构比较特殊，反而降低了难度。更general的线段树,会涉及到setStatus,getStatus,remove等操作,更难写一些。
+首先定义线段树节点
+```cpp
+    class SegTreeNode
+    {
+        public:
+        SegTreeNode* left;
+        SegTreeNode* right;
+        int start, end;
+        int info;        
+        SegTreeNode(int a, int b):start(a),end(b),info(0),left(NULL),right(NULL){}
+    };
+```
+其中的info是存储我们想在线段树加载的信息，在这里，存储的是下面所有叶子节点的数值的和。
 
-首先，我们来设计线段树的结构。和二叉树类似有左子树和右子树（默认是NULL），但关于自身节点的属性有三个:其中```start,end```表示了"线段"的起点和终点（在本题中就是数组的index区间,我们这里规定是一个左闭右也闭的区间），这对遍历整颗树非常关键。```sum```表示了该线段的属性（在本题中用作表示这个区间内元素的和），有点像二叉树里常规的val属性
-```cpp
-class SegmentTree
-{
-    SegmentTree* left;
-    SegmentTree* right;
-    int sum;
-    int start,end;
-    SegmentTree(int a, int b):start(a),end(b),left(NULL),right(NULL){}
-};
-```
-接下来，我们怎么来构建整棵树？本题中,我们已经有了所有的数据（完整的数组），想构建的是一棵近乎平衡的二叉树，显然用二分的思想不断向下递归即可。注意,本题中的线段区间就代表数组内元素index的区间,也就是说线段树内所有叶子节点的区间长度都是1,这是一类特殊的线段树,也更好些.如果线段区间表示的是值区间,则会更难写一些.
-```cpp
-SegmentTree* buildTree(vector<int>&nums, int a, int b)
-{    
-    if (a>b) return NULL; //这个很关键,因为不断地二分过程中会造成这种情况
-    node = new SegmentTree(a,b);
-    if (a==b)
-    {
-        node->sum = nums[a];
-        return node;
-    }    
-    node->left = buildTree(a,(a+b)/2);
-    node->right = buildTree((a+b)/2+1,b);
-    node->sum = node->left->sum + node->right->sum;
-    return node;    
-}
-```
-题目中的update,指的是修改这整颗树的某一个叶子节点,注意这个update会前一发动全身,所以它上级的节点的sum都会需要变动.我们怎么写这段程序呢?当然是根据线段的范围作为指引,一路朝叶子节点递归下去,返回的时候再次修改sum.
-```cpp
-void modifyTree(SegmentTree* node, int pos, int val)
-{
-    if (pos==node->start && node->start==node->end) //说明找到的是叶子节点
-    {
-        node->sum = val;
-        return;
-    }
-    int mid = root->start + (root->end-root->start)/2;
-    if (pos<=mid)
-        modifyTree(root->left,pos,val);
-    else
-        modifyTree(root->right,pos,val);
-    root->sum = root->left->sum+root->right->sum;
-}
-```
-题目中的sumRange,自然就是求区间和,明显也是根据左右子树的线段范围进行递归.
-```cpp
-    int queryTree(SegmentTreeNode* root, int a, int b)
-    {
-        if (root->start==a && root->end==b) 
-            return root->sum;
-        
-        int mid = root->start+(root->end-root->start)/2;
-        if (b<=mid)
-            return queryTree(root->left, a, b);
-        else if (a>mid)
-            return queryTree(root->right, a, b);
-        else
-            return queryTree(root->left,a,mid)+queryTree(root->right,mid+1,b);
-    }
+第一个常用的API就是初始化：```void init(SegTreeNode* node, int a, int b)```，其意义是对以node为根节点的线段树进行节点的赋值，在其下面构造b-a+1个叶子节点，每个节点（id）对应的元素值从全局变量nums[id]里面读取和写入。显然，这种写法下，初始化只要一步：```init(root, 0, n-1)```.
 
+第二个API就是单点修改：```void updateSingle(SegTreeNode* node, int id, int val)```，其意义是对以node为根节点的线段树时，修改nums[id]所对应的叶子节点的info为val。
+
+第三个API就是区间查询：```int queryRange(SegTreeNode* node, int a, int b)```，其意义是对以node为根节点的线段树时，查询nums[a:b]区间所对应的所有叶子节点的info的和。
 
 [Leetcode Link](https://leetcode.com/problems/range-sum-query-mutable)

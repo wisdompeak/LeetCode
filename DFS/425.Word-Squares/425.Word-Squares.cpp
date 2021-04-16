@@ -1,38 +1,38 @@
-class Solution
-{
+class Solution {
+    vector<vector<string>>rets;
+    unordered_map<string, vector<string>>Map;
     int n;
-    unordered_map<string,vector<string>>preMap;
-    vector<vector<string>>results;
-
-    public:
-    vector<vector<string>> wordSquares(vector<string>& words)
+public:
+    vector<vector<string>> wordSquares(vector<string>& words) 
     {
-        n = words[0].size();
-        for (string word:words)
-            for (int i=0; i<n; i++)
-                preMap[word.substr(0,i)].push_back(word);
-        vector<string>square(n);
-        build(square,0);
-        return results;
-    }
-
-    void build(vector<string>&square, int k)
-    {
-        if (k==n)
+        this->n = words[0].size();
+        for (auto& word: words)
         {
-            results.push_back(square);
+            for (int i=0; i<n; i++)
+                Map[word.substr(0, i)].push_back(word);
+        }
+        vector<string>ret;
+        dfs(0, ret, words);
+        return rets;
+    }
+    
+    void dfs(int row, vector<string>&ret, vector<string>& words)
+    {
+        if (row==n)
+        {    
+            rets.push_back(ret);
             return;
         }
-
+        
         string prefix;
-        for (int i=0; i<k; i++)
-            prefix+= square[i][k];
-        for (string nextWord: preMap[prefix])
+        for (int i=0; i<row; i++)
+            prefix.push_back(ret[i][row]);
+        
+        for (auto& word: Map[prefix])
         {
-            square[k] = nextWord;
-//            for (int i=0; i<n; i++)
-//                square[i][k] = nextWord[i];
-            build(square,k+1);
+            ret.push_back(word);                                
+            dfs(row+1, ret, words);
+            ret.pop_back();                
         }
     }
 };

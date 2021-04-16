@@ -1,50 +1,56 @@
 class Solution {
+    vector<vector<string>>results;
+    vector<string>board;    
+    int n;
 public:
-    vector<vector<string>> solveNQueens(int n) 
-    {
-        vector<vector<string>>results;
-        vector<int>Qpos(n,-1);
-        DFS(0,results,Qpos);
+    vector<vector<string>>solveNQueens(int n) 
+    {     
+        this->n = n;           
+        string s;
+        for (int i=0; i<n; i++)
+            s+=".";
+        for (int i=0; i<n; i++)
+            board.push_back(s);
+                
+        DFS(0);
         return results;
     }
     
-    void DFS(int row, vector<vector<string>>&results, vector<int>&Qpos)
-    {
-        int n = Qpos.size();
-        
-        if (row==n)
+    void DFS(int i)
+    {                        
+        if (i==n)
         {
-            vector<string> board;
-            for (int i=0; i<n; i++)
-            {
-                string temp;
-                for (int j=0; j<n; j++)
-                    temp+='.';
-                temp[Qpos[i]]='Q';
-                board.push_back(temp);
-            }
             results.push_back(board);
+            return;
         }
-        else
+        for (int j=0; j<n; j++)
         {
-            for (int col=0; col<n; col++)
+            if (isValid(i,j))
             {
-                if (isValid(Qpos,row,col))
-                {
-                    Qpos[row]=col;
-                    DFS(row+1,results,Qpos);
-                    Qpos[row]=-1;
-                }
-            }
-        }
+                board[i][j]='Q';
+                DFS(i+1);
+                board[i][j]='.';
+            }                
+        }        
     }
     
-    bool isValid(vector<int>Qpos, int row, int col)
+    bool isValid(int row, int col)
     {
         for (int i=0; i<row; i++)
+            if (board[i][col]=='Q') return false;
+        for (int j=0; j<col; j++)
+            if (board[row][j]=='Q') return false;
+        int k=1;
+        while (row-k >= 0 && col-k >= 0)
         {
-            if (Qpos[i]==col || abs(i-row)==abs(Qpos[i]-col))
-                return false;
+            if (board[row-k][col-k]=='Q') return false;
+            k++;
+        }
+        k=1;
+        while (row-k >= 0 && col+k < n)
+        {
+            if (board[row-k][col+k]=='Q') return false;
+            k++;
         }
         return true;
     }

@@ -14,46 +14,35 @@
 
 #### 解法2:线段树
 
-此题类似 699. Falling Squares 的方法,采用改造的线段树模型.同样,这里每个区间的status表示该区间内的maxHeight.
+此题的线段树解法，是以```370.Range-Addition```的懒标记版本为基础，稍加改动。
 
-在设计```setStatus(a,b,s)```函数时,目标是对区间```[a,b)```内的高度进行更新（也就是小于s的部分拉高至s，大于s的部分不变）。我们在具体遍历到某个节点时，注意只是对```[start,end)```其中那些```status<s```的子区间进行更新。所以我们需要必要的分情况讨论。
+首先，不同于307或者370中已经给出了nums数组。此题中给出的是建筑物高度拐点的pos。这些pos的绝对值对我们而言其实是没有意义的，我们只关心这些pos的相对顺序，也就是idx。所以我们其实需要构造两个映射，pos2idx和idx2pos，方便我们做转换。转换之后，每个builiding相当于一个区间更新。特别注意，如果一个building对应的索引区间是```[i:j]```，那么我们只更新区间```[i:j-1]```。也就是说，线段树中的每个叶子节点的单点info，代表的其实是```[i:i+1)```这段左闭右开的小区间。
 
+然后我们设计一下SegTreeNode的数据结构。除了常规的left,right,start,end之外，此时节点的info表示的是该区间内出现的高度最大值。注意，不一定整个区间都是该恒定的高度。此外，该节点的tag是一个bool量，表示该区间的高度是否都是相同的（也就是等于info）。tag为true时说明我们能断言整个区间的信息是一致的，我们不需要下沉去更新每一块更细的区间。下文会详细说明。
+
+初始化函数```init(root, 0, n-1)```不需要特别的改动。其中n就是离散化之后有多少个数据点。初始化时，每个节点的info设置为0，tag设置为false。
+
+区间更新函数```updateRange(node, a, b, val)```是本题的重点，意思是将区间[a,b]里的所有数据点的最大值更新为val（如果原最大值小于val的话）。我们分几种情况讨论：
+1. 边界条件：[a,b]与该节点区间互斥，直接return。
+2. 边界条件：该节点的区间是单点，那么```node->info = max(node->info, val)```然后return
+3. 边界条件：如果该节点的区间包含在[a,b]内，并且```node->info <= val```，说明该节点区间的数据点可以统一更新为val。并且我们就设置tag标记true，根据之前的分析，我们可以直接返回而不用下沉去更新更细节的区间。
+4. 其他情况下，我们就递归处理```updateRange(node->left, a, b, val) && updateRange(node->right, a, b, val)```。但是递归之前，我们别忘了查看当前的tag是否为true。如果是的话，说明当前节点的区间不再有统一的高度，我们需要去掉tag的标记，并且将其影响传递给两个子区间，即
 ```cpp
-        int setStatus(int a, int b, int s)
+        if (node->tag == 1) // if current node tagged lazy, push information down
         {
-                // 边界条件1. [a,b]与该节点的线段区间[start,end)不相交，返回原先的状态
-            if (begin>=b || end<=a)                     
-                return status;                        
-                
-                // 边界条件2. [a,b]包括了该节点的整个线段区间[start,end)，并且该区间的status<s，说明整体都要被更新为更大的值s，所以其内部全部抹平。
-            if (a<=begin && end<=b && status<=s)        
-            {
-                remove(left);
-                remove(right);
-                return status = s;
-            }         
-            
-                // 边界条件3. [a,b]包括了该节点的整个线段区间[start,end)，但该区间的status>s 且无子树，这说明该节点的线段区域整体都比s还高，我们什么都不用做。
-            if (a<=begin && end<=b && status>s && !left)    
-            {
-                return status;
-            }         
-            
-                // 其他所有情况，我们需递归考虑其子树
-            if (!left)                         
-            {
-                int mid = (end-begin)/2+begin;
-                left = new SegTree(begin,mid,status);
-                right = new SegTree(mid,end,status);
-            }            
-            int leftStatus = left->setStatus(a,b,s);
-            int rightStatus = right->setStatus(a,b,s);
-            return status = max(leftStatus,rightStatus);
-}
+            node->tag = 0;            
+            node->left->info = node->info;
+            node->right->info = node->info;
+            node->left->tag = 1;
+            node->right->tag = 1;            
+        }   
 ```
-注意,因为本题不要求动态地查询区间，所以不需要设计getStatus(x,y)。当全部setStatus操作结束之后，用DFS将所有区间都抽取出来就行。
+对于此题，我们其实不需要写区间查询的函数。因为我们最终输出的结果，会要求遍历线段树的每一个节点，写个DFS即可。当然，如果遍历到某个区间的tag依然为true时，其实可以不用继续深入下去，直接输出该区间的信息。最终输出的结果需要整理一下，如果相邻的叶子节点的高度相同，我们再做一下归并。
 
-另外，本题中setStatus并不会合并相邻的高度相同的区间，所以通过DFS抽取后的区间集合仍然要在做合并的处理。
-
+另外补充一点，我们将所有的building按照高度从小到大排序一遍，会使带有懒标签的线段树代码跑得更快。这是因为在updateRange时有更大的概率触发下面这个条件，使得我们只需要标记lazy tag并立即返回：
+```cpp
+if (a <= node->start && node->end <=b && val >= node->info) 
+{... return; }
+```
 
 [Leetcode Link](https://leetcode.com/problems/the-skyline-problem)

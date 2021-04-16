@@ -2,11 +2,11 @@ class Solution {
 public:
     int minimumSemesters(int N, vector<vector<int>>& relations) 
     {
-        vector<unordered_set<int>>next(N+1);
+        vector<vector<int>>next(N+1);
         vector<int>inDegree(N+1,0);
         for (auto x:relations)
         {
-            next[x[0]].insert(x[1]);
+            next[x[0]].push_back(x[1]);
             inDegree[x[1]] += 1;
         }
         

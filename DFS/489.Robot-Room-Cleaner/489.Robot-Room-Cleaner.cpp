@@ -17,36 +17,39 @@
  * };
  */
 class Solution {
-    vector<pair<int,int>>nextDir = {{1,0},{0,1},{-1,0},{0,-1}};
     unordered_set<string>visited;
+    int dir;    
 public:
     void cleanRoom(Robot& robot) 
     {
-        DFS(robot,0,0,0);
+        string code = to_string(0)+"#"+to_string(0);
+        visited.insert(code);
+        DFS(robot,0,0,0);  //[x,y,dir]
     }
     
-    void DFS(Robot& robot, int rows, int cols, int dir)
+    void DFS(Robot& robot, int x, int y, int curDir)
     {
-        string room = to_string(rows)+"#"+to_string(cols);
-        if (visited.find(room)!=visited.end())
-            return;
-        
+        vector<pair<int,int>>dir({{0,1},{1,0},{0,-1},{-1,0}});        
         robot.clean();
-        visited.insert(room);
-        for (int k=0; k<4; k++)
+        for (int k=1; k<=4; k++)
         {
-            int nextRow = rows+nextDir[(dir+k)%4].first;
-            int nextCol = cols+nextDir[(dir+k)%4].second;
-            if (robot.move())
-            {
-                DFS(robot, nextRow, nextCol, (dir+k)%4);
-                robot.turnRight();
-                robot.turnRight();
-                robot.move();
-                robot.turnRight();
-                robot.turnRight();
-            }
             robot.turnRight();
+            int nxtDir = (curDir+k)%4;            
+            int i = x+dir[nxtDir].first;
+            int j = y+dir[nxtDir].second;
+            string code = to_string(i)+"#"+to_string(j);
+                
+            if (visited.find(code)==visited.end() && robot.move())
+            {
+                visited.insert(code);
+                DFS(robot,i,j,nxtDir);
+                robot.turnLeft();
+                robot.turnLeft();
+                robot.move();
+                robot.turnLeft();
+                robot.turnLeft();            
+            }                
+                     
         }
     }
 };

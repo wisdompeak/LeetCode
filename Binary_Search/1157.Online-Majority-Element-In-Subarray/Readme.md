@@ -7,33 +7,16 @@
 #### Segment Tree
 本题也可以用线段树来实现，来实现高效地对任意区间内的majority元素的查询．
 
-和传统线段树一样，每个节点代表一个区间，并且不断向下二分，直至区间长度为１位置（叶子节点）．但此题最与众不同的技巧就是，每个节点的status记录的是：该区间内频次最高的元素（记录为val），以及val元素与其他非val元素的频次之差（记录为count).
+模板和基本型的线段树一样。每个节点需要存放两个信息，val表示该节点所在区间的majority candidate，另外freqDiff表示这个majority candidate在该区间的频次与其他元素的频次差的“最大可能值”。这个思想来自Boyer–Moore majority vote algorithm，可以参考```169.Majority Element```来理解。基本思想就是，如果一个属于majority的元素，与任何一个不属于majority的元素，两者同时消去，那么不影响数组剩下的元素里原本属于majority的元素的地位．
 
-这个思想非常ｄｉａｏ，来自Boyer–Moore majority vote algorithm，可以联系```169.Majority Element```来理解．基本思想就是，如果一个属于majority的元素，与任何一个不属于majority的元素，两者同时消去，那么不影响数组剩下的元素里原本属于majority的元素的地位．
+假设区间d，下面二分了两个子区间d1和d2。在d1区间中的majority是val1，它的频次比其他元素多了diff1。同理在d2区间中的majority是val2，它的频次比其他元素多了diff2.首先我们要明确一个概念，d的majority一定只能是val1和val2中的一个。注意我们对于majority的定义是区间内频次大于50%的元素。显然，如果任何一个元素在两个子区间中都不占50%多数，那么在整个大区间中肯定也不会占50%多数。那么我们如何从d1和d2两个子区间的信息里得到区间d的majority呢？
+1. 如果val1==val2，那么毫无悬念，区间d的majority就是val1（或者val2）。它在整个区间里的频次优势或达到```diff = diff1+diff2```.
+2. 如果va1l!=val2，我们需要两个中间选择一个。   
+    (1) 如果diff1>diff2，则val1相比于val2更有可能是整个区间的majority。但是注意，不一定表示val1就一定真的是majority，因为这个区间可能根本没有majority，所以val1只是best majority candidate。那么对于val1而言，它在d区间内的频率优势如何计算呢？我们取diff的最大可能值：```diff1-diff2```.注意这是一个上限，即认为在d2区间内除了val1就是val2.只有这种情况下，val1才会继续保有最大的正数diff，即确立自己majority的地位。     
+    (2) 反之，如果diff1<diff2，那么我们就认为val2是整个区间的best majority candidate，对应的频率优势是```diff = diff2-diff1```.   
 
-假设区间d，下面二分了两个子区间d1和d2．如果在d1区间中的majority是val1,因为根据majority的定义，在d1的区间中val1必然必然比其他非val1元素的总个数还要多，记为count1. 同理，在另一个子区间中我们可以定义val2和count2. 显然，我们根据count1和count2的比较，就可以知道val1和val2谁是在区间d上的majority：
+通过上面递归的思想，我们就可以建立起一棵完全二叉树．每个节点代表的一个区间，并且记录了这个区间里的majority candidate的值val，diff表示在该区间内val的频次与非val的频次之差．再次强调，val不见得真的是该区间的majority。
 
-(1) 如果count1>count2，则val1是majority，并且val1在ｄ上比其他元素的总频次还要高出count1-count2，因此记录```count=count1-count2```. 
-
-(2) 反之说明val2是majority,并且val2在ｄ上比其他元素的总频次还要高出count2-count1,```count=count2-count1```. 
-
-(3) 如果val1==val2，则更说明val1就是ｄ上的majority，并且它在频次上的优势会更大，变成```count=count2+count1```.
-
-(4) 而如果val1!=val2，但是count1==count2，那就是说明在区间ｄ上并没有唯一的majority（记住majority的定义就是大于50%），因此对于该节点我们就置```val=0```, ```count=0```.
-
-通过上面递归的思想，我们就可以建立起一棵完全二叉树．每个节点代表的一个区间，并且记录了这个区间里的majority（如果存在的话）的值val，并且val的频次要比非val的频次多count个．
-
-然后我们处理query(left,right)时，就可以用这棵树的性质，递归处理得到[left,right]区间内的majority元素ｋｅｙ（如果存在的话）．然后再用二分搜索，在数组中元素ｋｅｙ的所出现的iｎｄｅｘ里（从小到大排列）找到left和right的位置，从而计算出ｋｅｙ实际在[left,right]区间内出现的频次，然后与threshold比较确定答案．
-
-query的具体算法：
-
-(1) 边界条件：如果节点是空指针，或者[left,right]区间与节点自身的区间完全不相交，则这个节点无法提供任何majority的信息，返回key=0, count=0.
-
-(2) 边界条件：如果[left,right]区间完全包括了节点自身的区间完全不相交，则这个节点能够提供在自身区间内的majority的信息，即返回node->val和node->count.
-
-(3) 其他情况（即两个区间只有部分相交，或者节点区间相对于[left,right]而言太大），都只能递归，让更短的子区间去处理．然后根据两个子区间反馈回来的key1,count1和key2,count2，进行合并处理，计算出自身区间内对于[left,right]的贡献．
-
-举个例子，我们想求[3,5]区间内的majority，但root节点区间是[0,7]，宽度太大，所以自身节点的val和count都不能反应这么一个小区间上的情况．显然只能递归考察左节点[0,3]和右节点[4,7]．就这样左子树一路递归，最终返回到root的其实是下面的节点[3,3]带来的key1和count1；　同理右子树一路递归，最终返回到root的其实是下面的节点[4,5]带来的key2和count2．我们此时需要将这两部分归并，仿照上面buildTree的操作，确定root区间内真正应该考察的[3,5]这个子段的majority.
-
+我们基于这棵线段树，设计```queryRangeMajority(root,a,b)```来寻找区间[a,b]内的best majority candidate的数值val。这个query函数的思想和建树时候的递归逻辑一模一样。然后我们需要校验这个val是不是“真”的。怎么做呢？我们提前用hash表来存储所有数值是x的元素的index。用二分法在这些index中找到a和b的位置，这两个位置之差从而就可以知道[a,b]之前到底有多少个val。用这个数目与threshold来比较返回答案。
 
 [Leetcode Link](https://leetcode.com/problems/online-majority-element-in-subarray)
