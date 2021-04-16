@@ -934,7 +934,6 @@
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
 [587.Erect-the-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Others/587.Erect-the-Fence) (H)   
-087.Scramble-String (H)   
 391.Perfect-Rectangle (H)   
 335.Self-Crossing (H)   
 479.Largest-Palindrome-Product (M+)   
