@@ -810,6 +810,7 @@
 [1584.Min-Cost-to-Connect-All-Points](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1584.Min-Cost-to-Connect-All-Points) (H-)  
 
 #### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
+[087.Scramble-String](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/087.Scramble-String) (H-)  
 [133.Clone-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/133.Clone-Graph) (M+)  
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (H-)    
 [337.House-Robber-III](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/337.House-Robber-III) (M+)   
