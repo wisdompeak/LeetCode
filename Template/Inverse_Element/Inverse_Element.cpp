@@ -2,21 +2,21 @@
 #define LL long long
 using namespace std;
 const LL N = 1e6+7, mod = 998244353;
-LL inv[N];
 
 /*********************************/
 // Linear method to compute inv[i]
 void main() 
 {    
-    int i;
-    for(inv[1]=1,i=2;i<N;++i)
+    LL inv[N];
+    inv[1] = 1;
+    for(int i=2; i<N; ++i)
         inv[i]=(mod-mod/i) * inv[mod%i] % mod;
     
-    ret = ret* inv[n] % mod;   // ret = (ret / n) % mod;    
+    // ret *= inv[n] % mod;   // ret = (ret / n) % mod;    
 }
 
 /*********************************/
-// Qucik Pow
+// Qucik Pow Method, based on Fermat's little theorem
 
 LL quickPow(int x, int y) 
 {
@@ -37,4 +37,14 @@ LL quickPow(int x, int y)
 LL inv(LL x) 
 {
     return quickPow(x, mod - 2);
+}
+
+/*****************************/
+
+LL inv(int x) 
+{
+    LL s = 1;
+    for (; x > 1; x = mod%x)
+      s = s*(mod-mod/x)%mod;
+    return s;
 }
