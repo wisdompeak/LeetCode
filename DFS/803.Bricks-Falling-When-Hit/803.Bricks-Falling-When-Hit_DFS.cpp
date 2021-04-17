@@ -1,69 +1,72 @@
 class Solution {
-    vector<vector<int>>visited; // 1: land, -1 : erased, 2 : connected
-    vector<pair<int,int>>dir{{1,0},{-1,0},{0,1},{0,-1}};
     int m,n;
-public:
+    vector<pair<int,int>>dir{{0,1},{0,-1},{1,0},{-1,0}};
+public:    
     vector<int> hitBricks(vector<vector<int>>& grid, vector<vector<int>>& hits) 
     {
         m = grid.size();
         n = grid[0].size();
-                
-        visited = grid;
-        for (auto point:hits)        
-            visited[point[0]][point[1]] *= -1;        
-                        
-        for (int j=0; j<n; j++)        
-            if (visited[0][j]==1)
-                dfs(0,j);                        
+        for (auto hit: hits)        
+            grid[hit[0]][hit[1]] *= -1;
         
-        vector<int>ret;
-        reverse(hits.begin(),hits.end());
-        for (auto point:hits)
+        for (int j=0; j<n; j++)
+            if (grid[0][j]==1)
+                dfs(grid, 0,j);
+        
+        // grid:  0 empty; 1 suspended brick; 2 ceiling brick; -1: hit
+        
+        vector<int>rets;
+        reverse(hits.begin(), hits.end());
+        for (auto hit: hits)
         {
-            int i = point[0], j = point[1];
-            if (visited[i][j]!=-1) 
+            int i = hit[0], j = hit[1];
+            if (grid[i][j]!=-1)
             {
-                ret.push_back(0);
+                rets.push_back(0);
                 continue;
             }
-            bool connectRoof = (i==0);
+            bool connectCeil = (i==0);
             for (int k=0; k<4; k++)
             {
                 int x = i+dir[k].first;
                 int y = j+dir[k].second;
                 if (x<0||x>=m||y<0||y>=n) continue;
-                if (visited[x][y]==2)
+                if (grid[x][y]==2)
                 {
-                    connectRoof = true;
+                    connectCeil = true;
                     break;
-                }                
+                }
             }
             
-            if (connectRoof)
-                ret.push_back(dfs(i,j-1);
+            if (connectCeil)
+            {
+                rets.push_back(dfs(grid, i, j)-1);
+            }
             else
             {
-                visited[i][j] = 1;            
-                ret.push_back(0);
-            }                            
+                grid[i][j] = 1;
+                rets.push_back(0);
+            }
         }
+        reverse(rets.begin(), rets.end());
         
-        reverse(ret.begin(),ret.end());
-        return ret;
+        return rets;
     }
     
-    int dfs(int i, int j)
+    int dfs(vector<vector<int>>& grid, int x, int y)
     {
-        visited[i][j] = 2;
-        int count = 1;        
+        grid[x][y] = 2;
+        int count = 1;
         for (int k=0; k<4; k++)
         {
-            int x = i+dir[k].first;
-            int y = j+dir[k].second;
-            if (x<0||x>=m||y<0||y>=n) continue;
-            if (visited[x][y]==1)
-                count += dfs(x,y);
-        }        
+            int i = x+dir[k].first;
+            int j = y+dir[k].second;
+            if (i<0||i>=m||j<0||j>=n) continue;
+            if (grid[i][j]==1)
+            {
+                count += dfs(grid, i,j);
+            }
+        }
         return count;
     }
 };
