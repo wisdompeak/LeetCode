@@ -128,6 +128,7 @@
 [1658.Minimum-Operations-to-Reduce-X-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1658.Minimum-Operations-to-Reduce-X-to-Zero) (M)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
+[220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Heap/220.Contains-Duplicate-III) (M)  
 [295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Heap/295.Find-Median-from-Data-Stream)  (M)   
 [363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Heap/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/352.Data-Stream-as-Disjoint-Intervals) (H)    
