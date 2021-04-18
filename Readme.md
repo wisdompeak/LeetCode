@@ -729,6 +729,7 @@
 [1506.Find-Root-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1506.Find-Root-of-N-Ary-Tree) (M+)  
 [1734.Decode-XORed-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1734.Decode-XORed-Permutation) (M+)  
 [1738.Find-Kth-Largest-XOR-Coordinate-Value](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1738.Find-Kth-Largest-XOR-Coordinate-Value) (M+)  
+[1835.Find-XOR-Sum-of-All-Pairs-Bitwise-AND](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1835.Find-XOR-Sum-of-All-Pairs-Bitwise-AND) (M)  
 * ``Bit Mask``   
 [1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix) (M+)  
 [1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List) (H-)  
