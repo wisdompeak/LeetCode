@@ -317,12 +317,12 @@
 [1705.Maximum-Number-of-Eaten-Apples](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1705.Maximum-Number-of-Eaten-Apples) (M+)  
 [1792.Maximum-Average-Pass-Ratio](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1792.Maximum-Average-Pass-Ratio) (M+)  
 1801.Number of Orders in the Backlog (M)  
-[1834.Single-Threaded-CPU](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1834.Single-Threaded-CPU) (M)  
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers) (H)    
 [1353.Maximum-Number-of-Events-That-Can-Be-Attended](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1353.Maximum-Number-of-Events-That-Can-Be-Attended) (H-)  
+[1834.Single-Threaded-CPU](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1834.Single-Threaded-CPU) (M)  
 * ``Arrangement``   
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)    
 [767.Reorganize-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/767.Reorganize-String) (M+)    
