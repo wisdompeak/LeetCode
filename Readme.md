@@ -174,6 +174,7 @@
 [310.Minimum-Height-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/310.Minimum-Height-Trees) (H-)   
 [226.Invert-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/226.Invert-Binary-Tree) (M)    
 [655.Print-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/655.Print-Binary-Tree) (M+)   
+[897.Increasing-Order-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/897.Increasing-Order-Search-Tree) (M+)  
 501.Find-Mode-in-Binary-Search-Tree (M+)    
 558.Quad-Tree-Intersection (M+)   
 [662.Maximum-Width-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/662.Maximum-Width-of-Binary-Tree) (H-)   
