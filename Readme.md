@@ -493,6 +493,7 @@
 [1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day) (M)  
 [1788.Maximize-the-Beauty-of-the-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1788.Maximize-the-Beauty-of-the-Garden) (M+)  
 [1818.Minimum-Absolute-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1818.Minimum-Absolute-Sum-Difference) (M+)  
+[1840.Maximum-Building-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1840.Maximum-Building-Height) (H)  
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
