@@ -40,10 +40,10 @@ public:
     {
         int n = word.size();
         vector<int>visited(n,0);
-        return dfs(word, root, 0, visited);
+        return dfs(word, 0, visited);
     }
 
-    bool dfs(string& word, TrieNode* root, int cur, vector<int>&visited)
+    bool dfs(string& word, int cur, vector<int>&visited)
     {
         if (cur==word.size()) return true;
 
@@ -57,7 +57,7 @@ public:
             if (node->next[word[i]-'a']!=NULL)
             {
                 node = node->next[word[i]-'a'];
-                if (node->isEnd && dfs(word, root, i+1, visited))
+                if (node->isEnd && dfs(word, i+1, visited))
                     return true;                
             } 
             else
