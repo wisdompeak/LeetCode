@@ -428,7 +428,7 @@
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
 [1804.Implement-Trie-II-(Prefix-Tree)](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1804.Implement-Trie-II-(Prefix-Tree)) (M+)  
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
-[472.Concatenated-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/472.Concatenated-Words) (H)    
+[472.Concatenated-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/472.Concatenated-Words) (H-)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
 [588.Design-In-Memory-File-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/588.Design-In-Memory-File-System) (H-)  
 [677.Map-Sum-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Trie/677.Map-Sum-Pairs) (M)  
