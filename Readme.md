@@ -494,6 +494,7 @@
 [1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day) (M)  
 [1788.Maximize-the-Beauty-of-the-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1788.Maximize-the-Beauty-of-the-Garden) (M+)  
 [1818.Minimum-Absolute-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1818.Minimum-Absolute-Sum-Difference) (M+)  
+[1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number) (M+)  
 * ``Two-pass distribution``   
 [135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
 [1840.Maximum-Building-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1840.Maximum-Building-Height) (H)  
