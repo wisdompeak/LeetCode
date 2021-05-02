@@ -326,8 +326,8 @@
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/857.Minimum-Cost-to-Hire-K-Workers) (H)    
 [1353.Maximum-Number-of-Events-That-Can-Be-Attended](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1353.Maximum-Number-of-Events-That-Can-Be-Attended) (H-)  
-[1851.Minimum-Interval-to-Include-Each-Query](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1851.Minimum-Interval-to-Include-Each-Query) (H)  
 [1834.Single-Threaded-CPU](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1834.Single-Threaded-CPU) (M)  
+[1851.Minimum-Interval-to-Include-Each-Query](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1851.Minimum-Interval-to-Include-Each-Query) (H)  
 * ``Arrangement``   
 [358.Rearrange-String-k-Distance-Apart](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/358.Rearrange-String-k-Distance-Apart) (H-)    
 [767.Reorganize-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/767.Reorganize-String) (M+)    
