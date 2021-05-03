@@ -6,7 +6,7 @@ public:
         ll num = 0;
         for (int i = 0; i < s.size(); i++)
         {   num  = num*10 + (s[i] - '0');
-            if (num > 1e11) break;
+            if (num > 1e10) break;
             if (dfs(s, i+1, num, 1))
                 return true;
         }
