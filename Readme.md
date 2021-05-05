@@ -456,7 +456,7 @@
 [484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (H)    
 [386.Lexicographical-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/386.Lexicographical-Numbers) (H)   
 624.Maximum-Distance-in-Arrays (M)    
-[665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H-)   
+[665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H)   
 670.Maximum-Swap (M+)   
 [321.Create-Maximum-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/321.Create-Maximum-Number) (H)   
 649.Dota2-Senate (H)    
