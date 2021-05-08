@@ -1,38 +1,40 @@
 class Solution {
-    unordered_map<char,string>Map1;
-    unordered_map<string,char>Map2;
+    unordered_map<char, string>Map1;
+    unordered_map<string, char>Map2;   
+    bool visited[20][20];
 public:
-    bool wordPatternMatch(string pattern, string str) 
+    bool wordPatternMatch(string pattern, string s) 
     {
-        return DFS(0,0,pattern,str);
+        return dfs(0,0,pattern,s);        
     }
     
-    bool DFS(int x, int y,string &pattern, string &str)
+    bool dfs(int x, int y, string& pattern, string& s)
     {
-        if (x==pattern.size() && y==str.size())
+        if (x==pattern.size() && y==s.size())
             return true;
         
-        if (Map1.find(pattern[x])!=Map1.end())
-        {            
-            string s = Map1[pattern[x]];            
-            if (y+s.size()>str.size()) return false;
-            if (s!=str.substr(y,s.size())) return false;
-            return DFS(x+1,y+s.size(),pattern,str);
-        }            
+        char ch = pattern[x];
+        if (Map1.find(ch)!=Map1.end())
+        {
+            string t = Map1[ch];
+            if (y + t.size() > s.size()) return false;            
+            if (s.substr(y, t.size()) != t) return false;
+            return dfs(x+1, y+t.size(), pattern, s);
+        }
         else
         {
-            for (int i=y; i<str.size(); i++)
+            for (int i=y; i<s.size(); i++)
             {
-                string s = str.substr(y,i-y+1);
-                if (Map2.find(s)!=Map2.end()) continue;
-                Map1[pattern[x]]=s;
-                Map2[s]=pattern[x];
-                if (DFS(x+1,i+1,pattern,str)) 
+                string t = s.substr(y, i-y+1);
+                if (Map2.find(t)!=Map2.end()) continue;
+                Map1[ch] = t;
+                Map2[t] = ch;
+                if (dfs(x+1, y+t.size(), pattern, s))
                     return true;
-                Map1.erase(pattern[x]);
-                Map2.erase(s);
+                Map1.erase(ch);
+                Map2.erase(t);
             }
             return false;
-        }            
+        }
     }
 };
