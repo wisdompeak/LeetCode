@@ -4,9 +4,9 @@ public:
     {
         long long a = stoll(L);
         long long b = stoll(R);
-        
-        int start = max(1, (int)pow(10, L.size()/4-1));
-        int end = (int)pow(10, R.size()/4+1);
+               
+        int start = pow(10, max(0, (int)L.size()/4-1));
+        int end = pow(10, max(0, (int)R.size()/4+1));
         
         int count = 0;
         
