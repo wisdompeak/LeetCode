@@ -341,6 +341,7 @@
 [040.Combination-Sum-II](https://github.com/wisdompeak/LeetCode/tree/master/DFS/040.Combination-Sum-II) (M+)    
 [051.N-Queens](https://github.com/wisdompeak/LeetCode/tree/master/DFS/051.N-Queens) (M)    
 [131.Palindrome-Partitioning](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/131.Palindrome-Partitioning) (M+)  
+[291.Word-Pattern-II](https://github.com/wisdompeak/LeetCode/tree/master/DFS/291.Word-Pattern-II) (M)  
 [417.Pacific-Atlantic-Water-Flow](https://github.com/wisdompeak/LeetCode/tree/master/DFS/417.Pacific-Atlantic-Water-Flow) (M)   
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (M)  
 [282.Expression-Add-Operators](https://github.com/wisdompeak/LeetCode/tree/master/DFS/282.Expression-Add-Operators) (H)  
