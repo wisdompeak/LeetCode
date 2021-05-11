@@ -1,6 +1,6 @@
 class Solution {
-    int outD[100000];    
-    vector<int>prev[100000];
+    int inD[100000];    
+    vector<int>next[100000];
 public:
     int largestPathValue(string colors, vector<vector<int>>& edges) 
     {
@@ -8,8 +8,8 @@ public:
         for (auto edge: edges)
         {            
             int a = edge[0], b = edge[1];
-            prev[b].push_back(a);
-            outD[a]++;
+            next[a].push_back(b);
+            inD[b]++;
         }
         
         unordered_set<char>Set(colors.begin(), colors.end());
@@ -27,15 +27,15 @@ public:
     {
         int n = colors.size();
         vector<int>count(n, 0);
-        vector<int>out(n, 0);
+        vector<int>in(n, 0);
         for (int i=0; i<n; i++)
-            out[i] = outD[i];
+            in[i] = inD[i];
         
         int nodes = 0;
         queue<int>q;
         for (int i=0; i<n; i++)
         {
-            if (out[i]==0)
+            if (in[i]==0)
             {
                 nodes++;
                 if (colors[i]-'a'==k) count[i]++;
@@ -49,12 +49,12 @@ public:
             auto cur = q.front();
             q.pop();            
             
-            for (auto p: prev[cur])
+            for (auto p: next[cur])
             {
                 count[p] = max(count[p], count[cur]+ (colors[p]-'a'==k));                
                 ret = max(ret, count[p]);                
-                out[p]--;
-                if (out[p]==0)
+                in[p]--;
+                if (in[p]==0)
                 {                    
                     nodes++;
                     q.push(p);                 
