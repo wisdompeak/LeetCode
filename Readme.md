@@ -989,6 +989,7 @@
 [1749.Maximum-Absolute-Sum-of-Any-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Others/1749.Maximum-Absolute-Sum-of-Any-Subarray) (M+)  
 [1752.Check-if-Array-Is-Sorted-and-Rotated](https://github.com/wisdompeak/LeetCode/tree/master/Others/1752.Check-if-Array-Is-Sorted-and-Rotated) (M)  
 [1826.Faulty-Sensor](https://github.com/wisdompeak/LeetCode/tree/master/Others/1826.Faulty-Sensor) (M+)  
+[1861.Rotating-the-Box](https://github.com/wisdompeak/LeetCode/tree/master/Others/1861.Rotating-the-Box) (M+)  
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
