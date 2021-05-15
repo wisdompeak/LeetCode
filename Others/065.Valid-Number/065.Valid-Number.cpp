@@ -6,6 +6,12 @@ public:
         while (s.size()>0 && s.back()==' ') s.pop_back();
         while (s.size()>0 && s[0]==' ') s.erase(s.begin());
         if (s=="") return false;
+        
+        for (int i=0; i<s.size(); i++)
+        {
+            if (s[i]=='E')
+                s[i] = 'e';
+        }
 
         int countE = 0;     
         string t;   
