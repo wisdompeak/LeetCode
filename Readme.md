@@ -474,7 +474,7 @@
 916.Word-Subsets (M+)  
 [936.Stamping-The-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/936.Stamping-The-Sequence) (H)   
 [948.Bag-of-Tokens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/948.Bag-of-Tokens) (M+)    
-968.Binary-Tree-Cameras (H)   
+[968.Binary-Tree-Cameras](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/968.Binary-Tree-Cameras) (H)   
 [955.Delete-Columns-to-Make-Sorted-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/955.Delete-Columns-to-Make-Sorted-II) (M+)  
 [1040.Moving-Stones-Until-Consecutive-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1040.Moving-Stones-Until-Consecutive-II) (H)    
 [1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (H)  
