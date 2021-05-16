@@ -12,15 +12,13 @@ public:
         for (int i=1; i<=MaxN; i++)
             presum[i] = presum[i-1]+count[i];
         
-        sort(nums.begin(), nums.end());
+        vector<int>visited(MaxN+1,0);
                 
         ll ret = 0;
         ll M = 1e9+7;
-        for (int i=0; i<nums.size(); i++)
+        for (auto x: nums)
         {
-            if (i>=1 && nums[i]==nums[i-1]) continue;
-            
-            int x = nums[i];            
+            if (visited[x]==1) continue;                        
             ll ans = 0;
             
             int k;  // [k*x, (k+1)*x-1]
@@ -36,7 +34,9 @@ public:
                 ans %= M;
             }
                         
-            ret = (ret + ans * count[x]) % M;            
+            ret = (ret + ans * count[x]) % M;  
+
+            visited[x] = 1;          
         }
         
         return ret;
