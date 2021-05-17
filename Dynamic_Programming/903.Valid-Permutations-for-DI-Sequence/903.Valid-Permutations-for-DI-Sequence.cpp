@@ -1,33 +1,30 @@
 class Solution {
+    long dp[205][205];
+    long M = 1e9+7;
 public:
-    int numPermsDISequence(string S) 
+    int numPermsDISequence(string s) 
     {
-        int N = S.size();
-        S = "#"+S;
-        auto dp = vector<vector<int>>(N+1,vector<int>(N+1,0));
-
-        dp[0][0] = 1;
-        int M = 1e9+7;
-
-        for (int i=1; i<=N; i++)
+        int n = s.size();
+        s = "#"+s;  
+        dp[0][0] = 1;      
+        for (int i=1; i<=n; i++)
             for (int j=0; j<=i; j++)
             {
-                if (S[i]=='I')
-                {
-                    for (int k=j; k<=N; k++)
-                        dp[i][j] = (dp[i][j] + dp[i-1][k]) % M;
-                }
-                else
+                if (s[i]=='I')
                 {
                     for (int k=0; k<j; k++)
                         dp[i][j] = (dp[i][j] + dp[i-1][k]) % M;
                 }
+                else
+                {
+                    for (int k=i-1; k>=j; k--)
+                        dp[i][j] = (dp[i][j] + dp[i-1][k]) % M;
+                }
             }
 
-        int ret = 0;
-        for (int i=0; i<=N; i++)
-            ret = (ret+dp[N][i])%M;
+        long ret = 0;
+        for (int j=0; j<=n; j++)
+            ret = (ret + dp[n][j]) % M;
         return ret;
-            
     }
 };
