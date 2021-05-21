@@ -114,6 +114,7 @@
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H)    
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
 [753.Cracking-the-Safe](https://github.com/wisdompeak/LeetCode/tree/master/Hash/753.Cracking-the-Safe) (H)   
+[890.Find-and-Replace-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/Hash/890.Find-and-Replace-Pattern) (M+)  
 [939.Minimum-Area-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Hash/939.Minimum-Area-Rectangle) (M+)   
 982.Triples-with-Bitwise-AND-Equal-To-Zero (M+) (TBD)   
 1224.Maximum-Equal-Frequency (H-)  
