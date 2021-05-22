@@ -43,7 +43,7 @@
 [340.Longest-Substring-with-At-Most-K-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/340.Longest-Substring-with-At-Most-K-Distinct-Characters) (H)    
 [992.Subarrays-with-K-Different-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/992.Subarrays-with-K-Different-Integers) (H-)    
 * ``Two pointers for two seuqences``    
-986.Interval-List-Intersections (M)  
+[986.Interval-List-Intersections](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/986.Interval-List-Intersections) (M)  
 [1537.Get-the-Maximum-Score](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1537.Get-the-Maximum-Score) (H-)  
 [1577.Number-of-Ways-Where-Square-of-Number-Is-Equal-to-Product-of-Two-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1577.Number-of-Ways-Where-Square-of-Number-Is-Equal-to-Product-of-Two-Numbers) (H-)  
 [1775.Equal-Sum-Arrays-With-Minimum-Number-of-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1775.Equal-Sum-Arrays-With-Minimum-Number-of-Operations) (M+)  
