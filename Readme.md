@@ -1002,7 +1002,7 @@
 759.Employee-Free-Time (M+)    
 [995.Minimum-Number-of-K-Consecutive-Bit-Flips](https://github.com/wisdompeak/LeetCode/tree/master/Others/995.Minimum-Number-of-K-Consecutive-Bit-Flips) (H-)    
 986.Interval-List-Intersections (TBD)  
-1094.Car-Pooling (TBD)  
+[1094.Car-Pooling](https://github.com/wisdompeak/LeetCode/tree/master/Others/1094.Car-Pooling) (E)  
 [1109.Corporate-Flight-Bookings](https://github.com/wisdompeak/LeetCode/tree/master/Others/1109.Corporate-Flight-Bookings) (M)    
 [1229.Meeting-Scheduler](https://github.com/wisdompeak/LeetCode/tree/master/Others/1229.Meeting-Scheduler) (M+)  
 [1589.Maximum-Sum-Obtained-of-Any-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Others/1589.Maximum-Sum-Obtained-of-Any-Permutation) (M)  
