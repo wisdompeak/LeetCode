@@ -974,6 +974,7 @@
 420.Strong-Password-Checker (H)   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
 [775.Global-and-Local-Inversions](https://github.com/wisdompeak/LeetCode/tree/master/Others/775.Global-and-Local-Inversions) (M)    
+[348.Design-Tic-Tac-Toe](https://github.com/wisdompeak/LeetCode/tree/master/Others/348.Design-Tic-Tac-Toe) (M+)  
 [794.Valid-Tic-Tac-Toe-State](https://github.com/wisdompeak/LeetCode/tree/master/Others/794.Valid-Tic-Tac-Toe-State) (M+)    
 798.Smallest-Rotation-with-Highest-Score (H)    
 825.Friends-Of-Appropriate-Ages (M+)    
