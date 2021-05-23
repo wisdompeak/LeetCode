@@ -1011,6 +1011,7 @@
 [1229.Meeting-Scheduler](https://github.com/wisdompeak/LeetCode/tree/master/Others/1229.Meeting-Scheduler) (M+)  
 [1589.Maximum-Sum-Obtained-of-Any-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Others/1589.Maximum-Sum-Obtained-of-Any-Permutation) (M)  
 [1674.Minimum-Moves-to-Make-Array-Complementary](https://github.com/wisdompeak/LeetCode/tree/master/Others/1674.Minimum-Moves-to-Make-Array-Complementary) (H)  
+[1871.Jump-Game-VII](https://github.com/wisdompeak/LeetCode/tree/master/Others/1871.Jump-Game-VII) (M+)  
 * ``Brute Force``   
 [1625.Lexicographically-Smallest-String-After-Applying-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Others/1625.Lexicographically-Smallest-String-After-Applying-Operations) (H-)  
 [1714.Sum-Of-Special-Evenly-Spaced-Elements-In-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1714.Sum-Of-Special-Evenly-Spaced-Elements-In-Array) (H)  
