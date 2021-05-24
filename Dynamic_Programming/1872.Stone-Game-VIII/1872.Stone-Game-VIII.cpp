@@ -10,13 +10,11 @@ public:
         
         vector<int>dp(n+1);
         dp[1] = 0;
-        dp[2] = presum[n];
-        int maxVal = max(presum[n]-dp[1], presum[n-1]-dp[2]);
+        dp[2] = presum[n] - dp[1];
         
         for (int i=3; i<=n; i++)
         {
-            dp[i] = maxVal;
-            maxVal = max(maxVal, presum[n-i+1]-dp[i]);
+            dp[i] = max(dp[i-1], presum[n-i+2]-dp[i-1]);            
         }
         
         return dp[n];            
