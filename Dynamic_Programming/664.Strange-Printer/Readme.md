@@ -35,7 +35,7 @@ dp[i][j] = min { dp[i][k-1] + dp[k+1][j] }  for all k s.t. s[k]==s[i]  // 打印
 ```
 初始条件是：
 1. dp[i][j]==1 when i==j，即len的长度为1; 
-2. dp[i][j]==0 when i>j; C语言里如果用int[][]来定义二维数组的话，元素默认值都是0.
+2. dp[i][j]==0 when i>j. 注意这个是允许遇到的，比如上面的例子，如果区间[i:j]里面的s[j]==s[i]，于是k可以取到j，转移方程的dp[k+1][j]就会出现这种情况。
 
 
 [Leetcode Link](https://leetcode.com/problems/strange-printer)
