@@ -608,6 +608,7 @@
 [1639.Number-of-Ways-to-Form-a-Target-String-Given-a-Dictionary](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1639.Number-of-Ways-to-Form-a-Target-String-Given-a-Dictionary) (H-)  
 [1692.Count-Ways-to-Distribute-Candies](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1692.Count-Ways-to-Distribute-Candies) (H-)  
 [1787.Make-the-XOR-of-All-Segments-Equal-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1787.Make-the-XOR-of-All-Segments-Equal-to-Zero) (H)  
+[1872.Stone-Game-VIII](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1872.Stone-Game-VIII) (H-)  
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
