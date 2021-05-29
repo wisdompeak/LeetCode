@@ -60,8 +60,7 @@ class Solution {
             return node->info;  // write your own logic
         }            
         pushDown(node);        
-        node->info = max(queryRange(node->left, a, b), queryRange(node->right, a, b));  // write your own logic
-        return node->info;
+        return max(queryRange(node->left, a, b), queryRange(node->right, a, b));  // write your own logic        
     }    
     
     void pushDown(SegTreeNode* node)
