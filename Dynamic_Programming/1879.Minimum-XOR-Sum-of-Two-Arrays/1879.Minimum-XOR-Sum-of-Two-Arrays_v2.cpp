@@ -15,6 +15,7 @@ public:
             int state = (1 << k) - 1;            
             while (state < (1 << m))
             {
+                dp[state] = INT_MAX/2;
                 for (int j=0; j<m; j++)
                 {
                     if ((state>>j)&1)
