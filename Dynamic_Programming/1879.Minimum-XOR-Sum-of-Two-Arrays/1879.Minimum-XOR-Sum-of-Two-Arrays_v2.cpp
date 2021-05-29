@@ -11,7 +11,7 @@ public:
         {
             dp2 = dp;
                 
-            int k = ;            
+            int k = i+1;            
             int state = (1 << k) - 1;            
             while (state < (1 << m))
             {
