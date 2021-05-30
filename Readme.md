@@ -330,6 +330,7 @@
 [1705.Maximum-Number-of-Eaten-Apples](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1705.Maximum-Number-of-Eaten-Apples) (M+)  
 [1792.Maximum-Average-Pass-Ratio](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1792.Maximum-Average-Pass-Ratio) (M+)  
 1801.Number of Orders in the Backlog (M)  
+[1882.Process-Tasks-Using-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1882.Process-Tasks-Using-Servers) (H)  
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/502.IPO/) （H-）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/630.Course-Schedule-III) (H)   
