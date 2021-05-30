@@ -2,21 +2,20 @@ class Solution {
 public:
     int connectSticks(vector<int>& sticks) 
     {
-        multiset<int>Set;
-        int sum = 0;
-        for (auto x: sticks)
+        int ret = 0;
+        priority_queue<int,vector<int>,greater<>>pq;
+        for (int x: sticks)
+            pq.push(x);
+        
+        while (pq.size()>1)
         {
-            Set.insert(x);
+            int a = pq.top();
+            pq.pop();
+            int b = pq.top();
+            pq.pop();
+            ret += a+b;
+            pq.push(a+b);
         }
-        for (int i=0; i<sticks.size()-1; i++)
-        {
-            int x = *(Set.begin());
-            Set.erase(Set.begin());
-            int y = *(Set.begin());
-            Set.erase(Set.begin());
-            sum += x+y;
-            Set.insert(x+y);
-        }
-        return sum;
+        return ret;
     }
 };
