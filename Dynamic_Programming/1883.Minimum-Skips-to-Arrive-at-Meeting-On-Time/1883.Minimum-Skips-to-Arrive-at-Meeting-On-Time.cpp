@@ -18,7 +18,7 @@ public:
         for (int j=0; j<=n; j++)
         {
             dp[n][j] = dp[n-1][j] + dist[n]*1.0/speed;
-            if (dp[n][j] -eps <= hoursBefore )
+            if (dp[n][j] <= hoursBefore)
                 return j;
         }
         return -1;
