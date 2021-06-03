@@ -931,6 +931,7 @@
 * ``Geometry``   
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
 [335.Self-Crossing](https://github.com/wisdompeak/LeetCode/tree/master/Math/335.Self-Crossing) (H)    
+391.Perfect-Rectangle (H)   
 [587.Erect-the-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Math/587.Erect-the-Fence) (H)   
 [593.Valid-Square](https://github.com/wisdompeak/LeetCode/tree/master/Math/593.Valid-Square) (H)  
 [858.Mirror-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Math/858.Mirror-Reflection) (H)    
@@ -975,7 +976,6 @@
 324.Wiggle-Sort-II (M)    
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
-391.Perfect-Rectangle (H)   
 689.Maximum-Sum-of-3-Non-Overlapping-Subarrays (M+)   
 [782.Transform-to-Chessboard](https://github.com/wisdompeak/LeetCode/tree/master/Others/782.Transform-to-Chessboard) (H+)    
 [466.Count-The-Repetitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/466.Count-The-Repetitions) (H)   
