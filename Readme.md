@@ -306,7 +306,7 @@
 [1087.Brace-Expansion](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1087.Brace-Expansion) (H)   
 [1096.Brace-Expansion-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1096.Brace-Expansion-II) (H)   
 [1106.Parsing-A-Boolean-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1106.Parsing-A-Boolean-Expression) (H-)    
-[1896.Minimum-Cost-to-Change-the-Final-Value-of-Expression](https://github.com/wisdompeak/LeetCode/new/master/Stack/1896.Minimum-Cost-to-Change-the-Final-Value-of-Expression) (H+)  
+[1896.Minimum-Cost-to-Change-the-Final-Value-of-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1896.Minimum-Cost-to-Change-the-Final-Value-of-Expression) (H+)  
 
 #### [Deque](https://github.com/wisdompeak/LeetCode/tree/master/Deque)
 [239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/239.Sliding-Window-Maximum) (H)    
