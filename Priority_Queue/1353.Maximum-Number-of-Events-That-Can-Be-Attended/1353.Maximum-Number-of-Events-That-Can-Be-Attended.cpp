@@ -1,12 +1,9 @@
+  
 class Solution {
-    static bool cmp(vector<int>&a, vector<int>&b)
-    {
-        return a[0] < b[0];
-    }
 public:
     int maxEvents(vector<vector<int>>& events) 
     {
-        sort(events.begin(), events.end(), cmp);
+        sort(events.begin(), events.end());
         priority_queue<int, vector<int>, greater<int>>pq;
         int i = 0;
         int ret = 0;
