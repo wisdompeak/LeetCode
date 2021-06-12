@@ -27,8 +27,7 @@ public:
             else if (a.first + b.first == 1)
                 return 1;
             else
-                return min(a.second, b.second)+1;
-                
+                return min(a.second, b.second)+1;                
         }
         else
         {
@@ -47,10 +46,7 @@ public:
         stack<char>s2;
         pair<int,int> cur = {-1, -1};
         char op = '#';
-         
-        int ret = 0;
-        expression = "(" + expression + ")";
-        
+                         
         for (auto ch:expression)
         {
             if (ch=='&'||ch=='|')
@@ -61,7 +57,6 @@ public:
                 int val = evalVal(op, cur, nxt);
                 int flip = evalFlip(op, cur, nxt);                               
                 cur = {val, flip};
-                ret = flip;
             }
             else if (ch=='(')
             {                
@@ -80,11 +75,10 @@ public:
                 int val = evalVal(op, last, cur);
                 int flip = evalFlip(op, last, cur);
                 cur = {val, flip};
-                ret = flip;
             }
         }
         
-        return ret; 
+        return cur.second; 
     }
 };
 
