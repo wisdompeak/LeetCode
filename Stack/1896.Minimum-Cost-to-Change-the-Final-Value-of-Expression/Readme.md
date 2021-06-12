@@ -21,7 +21,7 @@ int minFlip(subRoot, left, right)
   if (subRoot.op == '&' && left.val + right.val == 1)  // 0 & 1， 只需要翻转逻辑符
     return 1;
   if (subRoot.op == '&' && left.val + right.val == 2)  // 1 & 1， 需要翻一个数字
-    return 1;  
+    return min(left.flip,  right.flip);  
 
   if (subRoot.op == '|' && left.val + right.val == 0)  // 0 | 0  需要翻转一个数字
     return min(left.flip,  right.flip);
