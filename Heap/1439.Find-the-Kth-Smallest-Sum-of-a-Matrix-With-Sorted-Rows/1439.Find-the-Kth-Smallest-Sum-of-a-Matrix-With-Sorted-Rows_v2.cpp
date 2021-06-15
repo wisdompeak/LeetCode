@@ -24,7 +24,6 @@ public:
 
             for (int i=0; i<m; i++)
             {
-                cout<<i<<endl;
                 idx[i]++;
                 if (idx[i]<n && visited.find(idx)==visited.end())
                 {
