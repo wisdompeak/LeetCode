@@ -2,26 +2,30 @@ class Solution {
 public:
     int maxPerformance(int n, vector<int>& speed, vector<int>& efficiency, int k) 
     {
-        vector<pair<int,int>>p;
+        vector<pair<long long, long long>>persons;
         for (int i=0; i<n; i++)
-            p.push_back({efficiency[i], speed[i]});
-        sort(p.rbegin(), p.rend());
+            persons.push_back({efficiency[i], speed[i]});
+        sort(persons.rbegin(), persons.rend());
         
-        priority_queue<int, vector<int>, greater<>>pq;
+        priority_queue<int,vector<int>,greater<>>pq;
+        long long speedSum = 0;
         long long ret = 0;
-        long long speedsum = 0;
-        long long M = 1e9+7;
+        
         for (int i=0; i<n; i++)
         {
-            speedsum += p[i].second;
-            pq.push(p[i].second);
-            if (pq.size()>k)
+            if (pq.size()>k-1)
             {
-                speedsum -= pq.top();
+                speedSum -= pq.top();
                 pq.pop();
-            }
-            ret = max(ret, p[i].first*speedsum);
+            }                
+            
+            speedSum += persons[i].second;
+            ret = max(ret, speedSum * persons[i].first );
+                        
+            pq.push(persons[i].second);            
         }
-        return ret % M;
+        
+        long long M = 1e9+7;
+        return ret % M;        
     }
 };
