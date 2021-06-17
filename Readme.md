@@ -989,7 +989,6 @@
 [466.Count-The-Repetitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/466.Count-The-Repetitions) (H)   
 [810.Chalkboard-XOR-Game](https://github.com/wisdompeak/LeetCode/tree/master/Others/810.Chalkboard-XOR-Game) (H)   
 420.Strong-Password-Checker (H)   
-[850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H-)   
 [775.Global-and-Local-Inversions](https://github.com/wisdompeak/LeetCode/tree/master/Others/775.Global-and-Local-Inversions) (M)    
 [348.Design-Tic-Tac-Toe](https://github.com/wisdompeak/LeetCode/tree/master/Others/348.Design-Tic-Tac-Toe) (M)  
 [794.Valid-Tic-Tac-Toe-State](https://github.com/wisdompeak/LeetCode/tree/master/Others/794.Valid-Tic-Tac-Toe-State) (M+)    
@@ -1024,6 +1023,7 @@
 [1589.Maximum-Sum-Obtained-of-Any-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Others/1589.Maximum-Sum-Obtained-of-Any-Permutation) (M)  
 [1674.Minimum-Moves-to-Make-Array-Complementary](https://github.com/wisdompeak/LeetCode/tree/master/Others/1674.Minimum-Moves-to-Make-Array-Complementary) (H)  
 [1871.Jump-Game-VII](https://github.com/wisdompeak/LeetCode/tree/master/Others/1871.Jump-Game-VII) (M+)  
+[850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 * ``Brute Force``   
 479.Largest-Palindrome-Product (M+)   
 [866.Prime-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Others/866.Prime-Palindrome) (H-)   
