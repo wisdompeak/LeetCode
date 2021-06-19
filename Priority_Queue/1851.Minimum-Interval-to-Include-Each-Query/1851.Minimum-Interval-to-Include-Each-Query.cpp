@@ -6,34 +6,29 @@ public:
         vector<PII>qs;
         for (int i=0; i<queries.size(); i++)
             qs.push_back({queries[i], i});
-        
+
         sort(qs.begin(), qs.end());
         sort(intervals.begin(), intervals.end());
-        
+
+        vector<int>rets(qs.size(), -1);
         priority_queue<PII, vector<PII>, greater<>>pq;
         int i = 0;
-        multiset<int>Set;
-        vector<int>rets(queries.size());
+        
         for (auto q: qs)
         {
-            while (i<intervals.size() && intervals[i][0] <= q.first)
+            auto [t, idx] = q;
+            while (i<intervals.size() && intervals[i][0] <= t)
             {
-                pq.push({intervals[i][1], intervals[i][1]-intervals[i][0]+1});
-                Set.insert(intervals[i][1]-intervals[i][0]+1);
+                pq.push({intervals[i][1]-intervals[i][0]+1, intervals[i][1]});
                 i++;
             }
-                        
-            while (pq.size()>0 && pq.top().first < q.first)
-            {
-                Set.erase(Set.find(pq.top().second));
+            while (!pq.empty() && pq.top().second < t)
                 pq.pop();
-            }
-            
-            if (Set.size()>0)
-                rets[q.second] = *Set.begin();
-            else
-                rets[q.second] = -1;
+
+            if (!pq.empty())
+                rets[idx] = pq.top().first;
         }
-        return rets;        
+
+        return rets;
     }
 };
