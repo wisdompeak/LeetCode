@@ -218,7 +218,6 @@
 [428.Serialize-and-Deserialize-N-ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/428.Serialize-and-Deserialize-N-ary-Tree) (H)  
 [431.Encode-N-ary-Tree-to-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/431.Encode-N-ary-Tree-to-Binary-Tree) (H-)  
 [1516.Move-Sub-Tree-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1516.Move-Sub-Tree-of-N-Ary-Tree) (H-)  
-1600.Throne-Inheritance (TBD)  
 * ``似树非树``    
 [823](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/823.Binary-Trees-With-Factors), 
 
