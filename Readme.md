@@ -591,7 +591,6 @@
 [264.Ugly-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/264.Ugly-Number-II) (M+)   
 [091.Decode-Ways](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/091.Decode-Ways) (M)     
 [639.Decode-Ways-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/639.Decode-Ways-II) (H)    
-[629.K-Inverse-Pairs-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/629.K-Inverse-Pairs-Array) (H)   
 [634.Find-the-Derangement-of-An-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/634.Find-the-Derangement-of-An-Array) (H)    
 823.Binary-Trees-With-Factors (M+)  
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
@@ -750,6 +749,9 @@
 * ``Catalan``   
 [096.Unique-Binary-Search-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/096.Unique-Binary-Search-Trees) (M+)  
 [1259.Handshakes-That-Don't-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1259.Handshakes-That-Don't-Cross) (M+)   
+* ``Permutation``   
+[629.K-Inverse-Pairs-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/629.K-Inverse-Pairs-Array) (H)   
+
 
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
