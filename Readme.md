@@ -102,6 +102,7 @@
 [1802.Maximum-Value-at-a-Given-Index-in-a-Bounded-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1802.Maximum-Value-at-a-Given-Index-in-a-Bounded-Array) (M+)  
 [1870.Minimum-Speed-to-Arrive-on-Time](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1870.Minimum-Speed-to-Arrive-on-Time) (M)  
 [1898.Maximum-Number-of-Removable-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1898.Maximum-Number-of-Removable-Characters) (H-)  
+[1891.Cutting-Ribbons](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1891.Cutting-Ribbons) (E)  
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
