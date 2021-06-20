@@ -1038,6 +1038,7 @@
 [1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions](https://github.com/wisdompeak/LeetCode/tree/master/Others/1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions) (M+)  
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
+[1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
