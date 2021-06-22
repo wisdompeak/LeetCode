@@ -74,6 +74,7 @@
 [1533.Find-the-Index-of-the-Large-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1533.Find-the-Index-of-the-Large-Integer) (M)  
 [1712.Ways-to-Split-Array-Into-Three-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1712.Ways-to-Split-Array-Into-Three-Subarrays) (H)  
 [1889.Minimum-Space-Wasted-From-Packaging](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1889.Minimum-Space-Wasted-From-Packaging) (H-)  
+[1901.Find-a-Peak-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1901.Find-a-Peak-Element-II) (H)  
 * ``Binary Search by Value``  
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
