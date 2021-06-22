@@ -67,7 +67,6 @@
 [029.Divide-Two-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/029.Divide-Two-Integers) (M+)    
 [644.Maximum-Average-Subarray-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/644.Maximum-Average-Subarray-II) (H)   
 [658.Find-K-Closest-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/658.Find-K-Closest-Elements) (H)   
-[792.Number-of-Matching-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/792.Number-of-Matching-Subsequences) (H-)  
 1095.Find-in-Mountain-Array (TBD)    
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H-)    
 1201.Ugly-Number-III (TBD)    
@@ -496,7 +495,6 @@
 [968.Binary-Tree-Cameras](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/968.Binary-Tree-Cameras) (H)   
 [955.Delete-Columns-to-Make-Sorted-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/955.Delete-Columns-to-Make-Sorted-II) (M+)  
 [1040.Moving-Stones-Until-Consecutive-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1040.Moving-Stones-Until-Consecutive-II) (H)    
-[1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (H)  
 1121.Divide Array Into Increasing Sequences (TBD)   
 [1191.K-Concatenation-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1191.K-Concatenation-Maximum-Sum) (M+)   
 [1253.Reconstruct-a-2-Row-Binary-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1253.Reconstruct-a-2-Row-Binary-Matrix) (M)    
@@ -518,15 +516,15 @@
 [1788.Maximize-the-Beauty-of-the-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1788.Maximize-the-Beauty-of-the-Garden) (M+)  
 [1818.Minimum-Absolute-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1818.Minimum-Absolute-Sum-Difference) (M+)  
 [1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number) (M+)  
-* ``Two-pass distribution``   
-[135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
-[1840.Maximum-Building-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1840.Maximum-Building-Height) (H)  
-[1846.Maximum-Element-After-Decreasing-and-Rearranging](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1846.Maximum-Element-After-Decreasing-and-Rearranging) (M+)  
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
 [1713.Minimum-Operations-to-Make-a-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1713.Minimum-Operations-to-Make-a-Subsequence) (H-)  
-* ``Left/Right/Merge``   
+* ``Two-pass distribution``   
+[135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
+[1840.Maximum-Building-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1840.Maximum-Building-Height) (H)  
+[1846.Maximum-Element-After-Decreasing-and-Rearranging](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1846.Maximum-Element-After-Decreasing-and-Rearranging) (M+)  
+* ``Three-pass``   
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H-)  
 [334.Increasing-Triplet-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/334.Increasing-Triplet-Subsequence) (H-)    
 [1525.Number-of-Good-Ways-to-Split-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1525.Number-of-Good-Ways-to-Split-a-String) (M)  
@@ -536,6 +534,11 @@
 [1671.Minimum-Number-of-Removals-to-Make-Mountain-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1671.Minimum-Number-of-Removals-to-Make-Mountain-Array) (M+)  
 [1769.Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1769.Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box) (M+)  
 [1888.Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1888.Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating) (M+)  
+* ``State Machine``   
+524.Longest Word in Dictionary through Deleting 
+727.Minimum-Window-Subsequence (H-)    
+[792.Number-of-Matching-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/792.Number-of-Matching-Subsequences) (H-)  
+[1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (H)  
 * ``Sort``   
 164.Maximum-Gap (H)   
 [179.Largest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/179.Largest-Number) (H-)  
