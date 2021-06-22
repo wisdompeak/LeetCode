@@ -6,5 +6,7 @@
 
 有了一个2n位的回文数，再一一尝试所有的n位数（从大往小尝试），如果能除尽，且商仍是n位数，那么这个回文数就是符合题意的。
 
+本题的时间复杂度理论上是NlogN，但是考虑到我们从大到小遍历回文数，遇到true就返回，所以实际所用的时间并没有那么高。
+
 
 [Leetcode Link](https://leetcode.com/problems/largest-palindrome-product)
