@@ -535,7 +535,7 @@
 [1769.Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1769.Minimum-Number-of-Operations-to-Move-All-Balls-to-Each-Box) (M+)  
 [1888.Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1888.Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating) (M+)  
 * ``State Machine``   
-524.Longest Word in Dictionary through Deleting   
+[524.Longest-Word-in-Dictionary-through-Deleting](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/524.Longest-Word-in-Dictionary-through-Deleting) (M+)  
 727.Minimum-Window-Subsequence (H-)    
 [792.Number-of-Matching-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/792.Number-of-Matching-Subsequences) (H-)  
 [1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (H)  
