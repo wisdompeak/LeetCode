@@ -31,7 +31,7 @@ public:
             }
             if (flag)
             {
-                if (ret=="" || word.size() > ret.size() || (word.size() == ret.size() && word < ret))
+                if (word.size() > ret.size() || (word.size() == ret.size() && word < ret))
                     ret = word;
             }
         }
