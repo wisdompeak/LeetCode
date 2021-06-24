@@ -536,7 +536,7 @@
 [1888.Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1888.Minimum-Number-of-Flips-to-Make-the-Binary-String-Alternating) (M+)  
 * ``State Machine``   
 [524.Longest-Word-in-Dictionary-through-Deleting](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/524.Longest-Word-in-Dictionary-through-Deleting) (M+)  
-727.Minimum-Window-Subsequence (H-)    
+[727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/727.Minimum-Window-Subsequence) (H-)    
 [792.Number-of-Matching-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/792.Number-of-Matching-Subsequences) (H-)  
 [1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (H)  
 * ``Sort``   
@@ -728,7 +728,7 @@
 [583.Delete-Operation-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/583.Delete-Operation-for-Two-Strings) (M+)    
 [712.Minimum-ASCII-Delete-Sum-for-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/712.Minimum-ASCII-Delete-Sum-for-Two-Strings) (M+)   
 [718.Maximum-Length-of-Repeated-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/718.Maximum-Length-of-Repeated-Subarray) (M)    
-[727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/727.Minimum-Window-Subsequence) (H-)    
+[727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/727.Minimum-Window-Subsequence) (H-)    
 [1035.Uncrossed-Lines](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1035.Uncrossed-Lines) (M)   
 [1092.Shortest-Common-Supersequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1092.Shortest-Common-Supersequence) (H-)   
 [1143.Longest-Common-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1143.Longest-Common-Subsequence) (M)   
