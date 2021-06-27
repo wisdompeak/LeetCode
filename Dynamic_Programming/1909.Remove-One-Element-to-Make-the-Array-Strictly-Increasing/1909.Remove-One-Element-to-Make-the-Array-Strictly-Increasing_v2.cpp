@@ -8,7 +8,10 @@ public:
         {
             int maxUsed2 = maxUsed, maxNon2 = maxNon;
             maxNon = (x > maxNon2) ? x : INT_MAX;
-            maxUsed = min((x > maxUsed2) ? x : INT_MAX, maxNon2);            
+            
+            maxUsed = maxNon2;
+            if (x>maxUsed2)
+                maxUsed = min(maxUsed, x);            
         }
         
         return maxUsed != INT_MAX || maxNon !=INT_MAX;
