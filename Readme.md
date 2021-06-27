@@ -983,6 +983,7 @@
 [1735.Count-Ways-to-Make-Array-With-Product](https://github.com/wisdompeak/LeetCode/tree/master/Math/1735.Count-Ways-to-Make-Array-With-Product) (H)  
 [1830.Minimum-Number-of-Operations-to-Make-String-Sorted](https://github.com/wisdompeak/LeetCode/tree/master/Math/1830.Minimum-Number-of-Operations-to-Make-String-Sorted) (H)  
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
+[1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony](https://github.com/wisdompeak/LeetCode/tree/master/Math/1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony) (H)  
 * ``Numerical Theory``   
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
 [365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
