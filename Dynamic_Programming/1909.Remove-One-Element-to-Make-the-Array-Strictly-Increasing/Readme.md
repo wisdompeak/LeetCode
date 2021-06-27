@@ -20,3 +20,6 @@
 如果当前元素大于maxUsed，那么maxUsed就可以在原先的maxUsed基础上更新。另外，我们也可以删除当前的元素，那么maxUsed就继承maxNon。这两个方案我们取较小的那个，目的是为了便于后续第增序列的延长。
 
 最终maxNon或者maxUsed任意一个为非无穷大的话，说明有解。
+
+#### 解法3：
+利用nlogn解法，求原数组里的longest increasing subsequence，看看长度是否大于等于 nums.size()-1.
