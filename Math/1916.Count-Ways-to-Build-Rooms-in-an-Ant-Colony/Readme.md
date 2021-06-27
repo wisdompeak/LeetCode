@@ -25,7 +25,8 @@ YXXY
 ```cpp
 dp[node] = num[node] ! / (num[child1]! * num[child2]! * ... * num[childk]!) * dp[child1] * dp[child2] * ... * dp[childk]
 ```
-注意到上述的式子中含有出发，对大数取模的过程遇到除法需要用到逆元运算，即
+注意到上述的式子中含有除法，对大数取模的过程遇到除法需要用到逆元运算，即
 ```cpp
-dp[node] % M = num[node] ! * inv(num[child1]! * num[child2]! * ... * num[childk]!) * dp[child1] * dp[child2] * ... * dp[childk] % M
+(a / b) % M = a * inv(b, M)
 ```
+关于逆元计算的模板见[这里](https://github.com/wisdompeak/LeetCode/tree/master/Template/Inverse_Element)
