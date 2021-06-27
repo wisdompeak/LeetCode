@@ -160,6 +160,7 @@
 1797.Design Authentication Manager (M)  
 [1825.Finding-MK-Average](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1825.Finding-MK-Average) (H)  
 [1847.Closest-Room](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1847.Closest-Room) (M+)  
+[1912.Design-Movie-Rental-System](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1912.Design-Movie-Rental-System) (M+)  
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
