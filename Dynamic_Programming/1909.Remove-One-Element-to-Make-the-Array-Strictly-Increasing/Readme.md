@@ -17,6 +17,6 @@
 
 如果当前元素大于maxNon，那么maxNon就可以更新。反之，那么就无法延续当前的递增序列，我们令maxNon为无穷大。
 
-如果当前元素大于maxUsed，那么maxUsed就可以在原先的maxUsed基础上更新；反之，那么就无法延续当前的递增序列，我们令maxUsed为无穷大。同时还有另外一种可能，就是删除当前的元素，那么maxUsed就继承maxNon.
+如果当前元素大于maxUsed，那么maxUsed就可以在原先的maxUsed基础上更新；反之，我们只能删除当前的元素，那么maxUsed就继承maxNon.
 
 最终maxNon或者maxUsed任意一个为非无穷大的话，说明有解。
