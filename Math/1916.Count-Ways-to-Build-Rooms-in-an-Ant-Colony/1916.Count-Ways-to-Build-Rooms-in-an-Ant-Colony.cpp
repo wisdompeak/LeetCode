@@ -9,13 +9,9 @@ class Solution {
 public:
     int waysToBuildRooms(vector<int>& prevRoom) 
     {
-        int n = prevRoom.size();
-        vector<int>degree(n);
-        
-        for (int i=1; i<prevRoom.size(); i++)
-        {                    
-            next[prevRoom[i]].push_back(i);
-        }
+        int n = prevRoom.size();        
+        for (int i=1; i<prevRoom.size(); i++)                            
+            next[prevRoom[i]].push_back(i);       
          
         f[0] = 1;
         for (int i=1; i<=n; i++)
@@ -45,15 +41,11 @@ public:
         
         ll ret = f[sum];
                 
-        for (auto x: next[node])
-        {            
-            ret = ret * inv(f[num[x]]) %M;                        
-        }
+        for (auto x: next[node])        
+            ret = ret * inv(f[num[x]]) %M;                               
         
-        for (auto x: next[node])
-        {
-            ret = ret * dp[x] % M;
-        }
+        for (auto x: next[node])        
+            ret = ret * dp[x] % M;        
         
         dp[node] = ret;
     }
