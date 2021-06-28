@@ -140,6 +140,7 @@
 [1567.Maximum-Length-of-Subarray-With-Positive-Product](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1567.Maximum-Length-of-Subarray-With-Positive-Product) (M+)  
 [1590.Make-Sum-Divisible-by-P](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1590.Make-Sum-Divisible-by-P) (H-)  
 [1658.Minimum-Operations-to-Reduce-X-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1658.Minimum-Operations-to-Reduce-X-to-Zero) (M)  
+[1915.Number-of-Wonderful-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1915.Number-of-Wonderful-Substrings) (M)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Heap/220.Contains-Duplicate-III) (M)  
