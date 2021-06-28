@@ -15,13 +15,13 @@ public:
         vector<vector<int>> dp(nSets, vector<int>(nSets, INT_MAX / 2));
 
         // n^3: 500^3 = 125e6
-        // if in the same stop set, takes at most 1 bus
+        // if in the same stop set, takes at most 0 bus
         // if source and target are the same, should return 0
         for(int i = 0; i < nSets; ++i) {
             dp[i][i] = 0;
         } 
 
-        // if with a stop joint, it takes at most 2 buses
+        // if with a stop joint, it takes at most 1 bus
         for(auto it = stop2sets.begin(); it != stop2sets.end(); ++it) {
             auto& v = it->second;
 
@@ -62,6 +62,3 @@ public:
 // two stops sets are interconntected when the stop sets of them have common stops
 // Shortest path from source to target, is the shortest path from the sets that includes source and the sets that includes the target
 // dp[i][j]: shortest distance between stop set i and stop set j
-
-// if in the same stop set, takes 1 bus only
-// if in a different stop set
