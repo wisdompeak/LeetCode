@@ -137,11 +137,11 @@
 [1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts) (H-)  
 [1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR) (H-)  
 1524.Number of Sub-arrays With Odd Sum  (M)  
-[1542.Find-Longest-Awesome-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1542.Find-Longest-Awesome-Substring) (H)  
+[1542.Find-Longest-Awesome-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1542.Find-Longest-Awesome-Substring) (H-)  
 [1567.Maximum-Length-of-Subarray-With-Positive-Product](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1567.Maximum-Length-of-Subarray-With-Positive-Product) (M+)  
 [1590.Make-Sum-Divisible-by-P](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1590.Make-Sum-Divisible-by-P) (H-)  
 [1658.Minimum-Operations-to-Reduce-X-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1658.Minimum-Operations-to-Reduce-X-to-Zero) (M)  
-[1915.Number-of-Wonderful-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1915.Number-of-Wonderful-Substrings) (M)  
+[1915.Number-of-Wonderful-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1915.Number-of-Wonderful-Substrings) (M+)  
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Heap/220.Contains-Duplicate-III) (M)  
