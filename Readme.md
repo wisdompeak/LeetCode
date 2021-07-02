@@ -136,7 +136,7 @@
 [930.Binary-Subarrays-With-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Hash/930.Binary-Subarrays-With-Sum) (M)   
 [1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1442.Count-Triplets-That-Can-Form-Two-Arrays-of-Equal-XOR) (H-)  
 [1524.Number-of-Sub-arrays-With-Odd-Sum ](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1524.Number-of-Sub-arrays-With-Odd-Sum)  (M)  
-[974.Subarray-Sums-Divisible-by-K]https://github.com/wisdompeak/LeetCode/tree/master/Hash/974.Subarray-Sums-Divisible-by-K (M)  
+[974.Subarray-Sums-Divisible-by-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/974.Subarray-Sums-Divisible-by-K) (M)  
 [1590.Make-Sum-Divisible-by-P](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1590.Make-Sum-Divisible-by-P) (M+)  
 [1658.Minimum-Operations-to-Reduce-X-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1658.Minimum-Operations-to-Reduce-X-to-Zero) (M)  
 [1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1371.Find-the-Longest-Substring-Containing-Vowels-in-Even-Counts) (H-)  
