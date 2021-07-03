@@ -315,7 +315,7 @@
 [1896.Minimum-Cost-to-Change-the-Final-Value-of-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1896.Minimum-Cost-to-Change-the-Final-Value-of-Expression) (H+)  
 
 #### [Deque](https://github.com/wisdompeak/LeetCode/tree/master/Deque)
-[239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/239.Sliding-Window-Maximum) (H)    
+[239.Sliding-Window-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/239.Sliding-Window-Maximum) (H-)    
 [862.Shortest-Subarray-with-Sum-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Deque/862.Shortest-Subarray-with-Sum-at-Least-K) (H)   
 [1425.Constrained-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1425.Constrained-Subsequence-Sum) (H)   
 [1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit](https://github.com/wisdompeak/LeetCode/tree/master/Deque/1438.Longest-Continuous-Subarray-With-Absolute-Diff-Less-Than-or-Equal-to-Limit) (H)   
