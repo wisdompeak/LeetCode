@@ -717,6 +717,7 @@
 [1062.Longest-Repeating-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/1062.Longest-Repeating-Substring) (H-)   
 [1554.Strings-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/String/1554.Strings-Differ-by-One-Character) (H)  
 [1698.Number-of-Distinct-Substrings-in-a-String](https://github.com/wisdompeak/LeetCode/tree/master/String/1698.Number-of-Distinct-Substrings-in-a-String) (H-)  
+[1923.Longest-Common-Subpath](https://github.com/wisdompeak/LeetCode/tree/master/String/1923.Longest-Common-Subpath) (H)  
 * ``KMP``   
 [1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
