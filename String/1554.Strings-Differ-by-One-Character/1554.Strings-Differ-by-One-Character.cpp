@@ -15,19 +15,19 @@ public:
             hash[i] = h;
         }
         
-        ULL K = 1;
+        ULL del = 1;
         for (int j=m-1; j>=0; j--)
         {
             unordered_set<ULL>Set;            
             
             for (int i=0; i<n; i++)
             {
-                ULL h = hash[i]  - (dict[i][j]-'a') * K;
+                ULL h = hash[i]  - (dict[i][j]-'a') * del;
                 if (Set.find(h)!=Set.end())
                     return true;
                 Set.insert(h);
             }
-            K = K*base;
+            del = del*base;
         }
         
         return false;
