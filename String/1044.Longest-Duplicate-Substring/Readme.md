@@ -2,7 +2,7 @@
 
 本题就是```1062. Longest Repeating Substring```的follow up，不仅求repeating（也就是duplicate） substring的长度，并且要把这个substring打印出来。
 
-本题的high level的思想是二分搜索这样的substring最多能有多长。对于一个固定的len，如果能在S里找到两处相同的子串滑窗，那么我们就可以对len的搜索往上调整；反之，我们就必须将len的搜索往下调。
+和1062完全一样，本题的high level的思想是二分搜索这样的substring长度。对于一个固定的len，如果能在S里找到两处相同的子串滑窗，那么我们就可以对len的值再往上调整；反之，我们就必须将len的估再往下调。
 
 于是本题转化为，如果快速在S里找到两处相同的、长度都是len的滑窗。比较直观的想法是对每一处滑窗组成的字符串都放入集合，如果看到集合中已经有一个相同的substring了，就意味着duplicate了。但是当len很大的时候，将字符串放入集合的内置hash化操作很耗时。于是rolling hash是比较常见的解决方案。
 
