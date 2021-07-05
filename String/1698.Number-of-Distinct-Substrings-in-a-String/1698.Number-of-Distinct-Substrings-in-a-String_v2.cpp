@@ -1,26 +1,27 @@
+typedef uint64_t ULL;
 class Solution {
 public:
     int countDistinct(string s) 
     {
         int n = s.size();
-        long base = 26;
-        long M = 1e9+9;
-        int count = 1;
-        long power = 1;
-        long hash0 = 0;
+        ULL base = 26;
+        int count = 0;
         
-        for (int len = 1; len <=n-1; len++)
+        for (int len = 1; len <=n; len++)
         {            
-            hash0 = (hash0 * base % M + s[len-1]-'a') % M;            
-            power = (power * base) % M;
+            ULL power = 1;
+            for (int i=0; i<len-1; i++)
+                power *= base;
             
-            unordered_set<long>Set({hash0});
-            long hash = hash0;            
-            for (int i=len; i<n; i++)
-            {
-                hash = (hash * base % M + (s[i]-'a')) % M; 
-                hash = (hash - power*(s[i-len]-'a') % M + M) %M ;
-                Set.insert(hash);
+            unordered_set<ULL>Set;
+            ULL hash = 0;            
+            for (int i=0; i<n; i++)
+            {                
+                if (i-len>=0)
+                    hash = hash - (s[i-len]-'a')*power;
+                hash = hash * base + (s[i]-'a');
+                if (i>=len-1)
+                    Set.insert(hash);
             }
             count += Set.size();
         }
