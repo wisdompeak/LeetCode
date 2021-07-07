@@ -2,44 +2,31 @@ class Solution {
 public:
     double new21Game(int N, int K, int W) 
     {
-        vector<double>dp(N+1,0);
-        dp[0] = 1;
-        double sum = 0;
-        
-        for (int i=1; i<=N; i++)
-        {
-            if (i-1<K)
-                sum += dp[i-1];
-            if (i-W-1>=0)
-                sum -= dp[i-W-1];
-            
-            dp[i] = sum*1/W;
-        }
-        
-        double result = 0;
+        vector<double>dp(N+W,1);       
+        for (int i=N+1; i<N+W; i++)
+            dp[i]=0;
         for (int i=K; i<=N; i++)
-            result += dp[i];
+            dp[i]=1;       
         
-        return result;
+        double temp = 0;        
+        for (int k=K-1; k>=0; k--)
+        {            
+            if (k==K-1)
+            {
+                for (int i=1; i<=W; i++)
+                    temp+=dp[k+i];
+                dp[k]= temp*1.0/W;
+            }            
+            else if (k<K)
+            {
+                temp -= dp[k+W+1];
+                temp += dp[k+1];
+                dp[k]= temp*1.0/W;
+            }            
+        }
+            
+        return dp[0];
+        
     }
     
-    
-    //LTE solution: DFS(0,N,K,W)
-    double DFS(int cur, int N, int K, int W)
-    {
-        if (cur>=K)
-        {
-            if (cur<=N)
-                return 1;
-            else
-                return 0;
-        }
-        
-        double sum = 0;
-        for (int i=1; i<=W; i++)
-        {
-            sum += 1.0/W * DFS(cur+i,N,K,W);
-        }
-        return sum;
-    }
 };
