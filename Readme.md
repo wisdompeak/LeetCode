@@ -209,6 +209,7 @@
 1339. Maximum-Product-of-Splitted-Binary-Tree (TBD)   
 [1660.Correct-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1660.Correct-a-Binary-Tree) (M+)  
 [1666.Change-the-Root-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1666.Change-the-Root-of-a-Binary-Tree) (H-)  
+[1932.Merge-BSTs-to-Create-Single-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1932.Merge-BSTs-to-Create-Single-BST) (H)  
 * ``Tree & Sequence``    
 [105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) (H-)  
 [106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal) (M+)    
