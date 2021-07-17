@@ -1055,9 +1055,9 @@
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 * ``Enumeration``   
 [479.Largest-Palindrome-Product](https://github.com/wisdompeak/LeetCode/tree/master/Others/479.Largest-Palindrome-Product) (M+)   
-[795.Number-of-Subarrays-with-Bounded-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Others/795.Number-of-Subarrays-with-Bounded-Maximum) (M+)  
 [866.Prime-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Others/866.Prime-Palindrome) (H-)   
 [906.Super-Palindromes](https://github.com/wisdompeak/LeetCode/tree/master/Others/906.Super-Palindromes) (H-)   
+[795.Number-of-Subarrays-with-Bounded-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Others/795.Number-of-Subarrays-with-Bounded-Maximum) (M+)  
 [1625.Lexicographically-Smallest-String-After-Applying-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Others/1625.Lexicographically-Smallest-String-After-Applying-Operations) (H-)  
 [1714.Sum-Of-Special-Evenly-Spaced-Elements-In-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1714.Sum-Of-Special-Evenly-Spaced-Elements-In-Array) (H)  
 [1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions](https://github.com/wisdompeak/LeetCode/tree/master/Others/1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions) (M+)  
