@@ -32,20 +32,18 @@ public:
             {                
                 if (sufsum[d][0] == -1)
                 {
-                    for (int d = 1; d<sqrt(n); d++)
+                    for (int i = n-1; i>=0; i--)
                     {
-                        for (int i = n-1; i>=0; i--)
-                        {
-                            if (i+d < n)
-                                sufsum[d][i] = (sufsum[d][i+d] + nums[i]) % M;
-                            else
-                                sufsum[d][i] = nums[i];
-                        }
-                    }                    
+                        if (i+d < n)
+                            sufsum[d][i] = (sufsum[d][i+d] + nums[i]) % M;
+                        else
+                            sufsum[d][i] = nums[i];
+                    }                
                 }                                
                 rets[k] = sufsum[d][s];
             }
         }
-        return rets;        
+        return rets;
+        
     }
 };
