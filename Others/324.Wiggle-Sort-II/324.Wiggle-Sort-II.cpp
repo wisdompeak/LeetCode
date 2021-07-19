@@ -2,27 +2,26 @@ class Solution {
 public:
     void wiggleSort(vector<int>& nums) 
     {
-        int N = nums.size();
-        sort(nums.begin(),nums.end());
-        int i = (N-1)/2;
-        int j = N-1;
-        
-        int flag = 0;
-        vector<int>result;
-        for (int k=0; k<N; k++)
+        int n = nums.size();
+        auto sorted = nums;
+        sort(sorted.begin(), sorted.end());
+        int i = (n-1)/2, j = n-1;
+
+        int sign = 1;
+        for (int k=0; k<n; k++)
         {
-            if (flag==0)
+            if (sign==1)
             {
-                result.push_back(nums[i]);
-                i--;
+                nums[k] = sorted[i];
+                i--; 
             }
             else
             {
-                result.push_back(nums[j]);
-                j--;
+                nums[k] = sorted[j];
+                j--; 
             }
-            flag = 1-flag;
+            sign = 1-sign;
         }
-        nums = result;
+        
     }
 };
