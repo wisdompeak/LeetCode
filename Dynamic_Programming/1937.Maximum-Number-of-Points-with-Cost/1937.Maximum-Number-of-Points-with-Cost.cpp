@@ -1,4 +1,5 @@
-using LL  = long long;
+using LL = long long;
+
 class Solution {
 public:
     long long maxPoints(vector<vector<int>>& points) 
@@ -6,36 +7,31 @@ public:
         int m = points.size();
         int n = points[0].size();
         
-        vector<LL>dp(n, INT_MIN);
-                
+        vector<vector<LL>>dp(m, vector<LL>(n, INT_MIN));
         for (int j=0; j<n; j++)
-            dp[j] = points[0][j];
+            dp[0][j] = points[0][j];
         
-        for (int i=1; i<m; i++)
+        for (int i=1; i<m; i++)            
         {
-            vector<LL>dp2(n, INT_MIN);
-            
-            LL maxVal = INT_MIN;
+            LL rollingMax = INT_MIN;            
             for (int j=0; j<n; j++)
             {
-                maxVal = max(maxVal, dp[j]+j);
-                dp2[j] = max(dp2[j], maxVal - j + points[i][j]);
+                rollingMax = max(rollingMax, dp[i-1][j]+j);
+                dp[i][j] = max(dp[i][j], rollingMax + points[i][j] - j);
             }
             
-            maxVal = INT_MIN;
+            rollingMax = INT_MIN;            
             for (int j=n-1; j>=0; j--)
             {
-                maxVal = max(maxVal, dp[j]-j);
-                dp2[j] = max(dp2[j], maxVal + j + points[i][j]);
-            }            
-            
-            dp = std::move(dp2);
+                rollingMax = max(rollingMax, dp[i-1][j]-j);
+                dp[i][j] = max(dp[i][j], rollingMax +points[i][j] + j);
+            }
         }
         
         LL ret = INT_MIN;
         for (int j=0; j<n; j++)
-            ret = max(ret, dp[j]);
+            ret = max(ret, dp[m-1][j]);
         
-        return ret;        
+        return ret;
     }
 };
