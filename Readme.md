@@ -1012,7 +1012,6 @@
 [240.Search-a-2D-Matrix-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/240.Search-a-2D-Matrix-II) (M+)   
 [277.Find-the-Celebrity](https://github.com/wisdompeak/LeetCode/tree/master/Others/277.Find-the-Celebrity) (H-)  
 [311.Sparse-Matrix-Multiplication](https://github.com/wisdompeak/LeetCode/tree/master/Others/311.Sparse-Matrix-Multiplication) (M)  
-324.Wiggle-Sort-II (M)    
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
 689.Maximum-Sum-of-3-Non-Overlapping-Subarrays (M+)   
@@ -1067,6 +1066,13 @@
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
+* ``Quick Select``   
+[215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
+[324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
+347.Top K Frequent Elements  
+973.K Closest Points to Origin  
+1387.Sort Integers by The Power Value  
+1471.The k Strongest Values in an Array  
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
