@@ -3,32 +3,23 @@ public:
     vector<int> canSeePersonsCount(vector<int>& heights) 
     {
         int n = heights.size();
-
-        stack<int>s;
-        vector<int>nextGreater(n, n);
-        for (int i = 0; i< n; i++) 
-        {            
-            while (!s.empty() && heights[i] > heights[s.top()]) 
-            {
-                nextGreater[s.top()] = i;
-                s.pop();
-            }
-            s.push(i);
-        }
-        
- 
+        stack<int>Stack;
         vector<int>rets(n);
-        for (int i = 0; i < n; i++) 
+        
+        for (int i=n-1; i>=0; i--)
         {
             int count = 0;
-            int j = i+1;
-            while (j<n && j<= nextGreater[i])
+            while (!Stack.empty() && heights[i] > heights[Stack.top()])
             {
                 count++;
-                j = nextGreater[j];
+                Stack.pop();
             }
+            if (!Stack.empty())
+                count++;
             rets[i] = count;
+            Stack.push(i);
         }
+
         return rets;
 
     }
