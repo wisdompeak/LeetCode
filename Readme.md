@@ -453,6 +453,7 @@
 [882.Reachable-Nodes-In-Subdivided-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/882.Reachable-Nodes-In-Subdivided-Graph ) (H)  
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
+[1947.Maximum-Compatibility-Score-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1947.Maximum-Compatibility-Score-Sum) (H)  
 [1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1514.Path-with-Maximum-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1514.Path-with-Maximum-Probability) (H)  
 [1786.Number-of-Restricted-Paths-From-First-to-Last-Node](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1786.Number-of-Restricted-Paths-From-First-to-Last-Node) (H-)  
@@ -660,6 +661,7 @@
 [1799.Maximize-Score-After-N-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1799.Maximize-Score-After-N-Operations) (H-)  
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
+[1947.Maximum-Compatibility-Score-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1947.Maximum-Compatibility-Score-Sum) (H)  
 * ``Catalan``   
 [096.Unique-Binary-Search-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/096.Unique-Binary-Search-Trees) (M+)  
 [1259.Handshakes-That-Don't-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1259.Handshakes-That-Don't-Cross) (M+)   
