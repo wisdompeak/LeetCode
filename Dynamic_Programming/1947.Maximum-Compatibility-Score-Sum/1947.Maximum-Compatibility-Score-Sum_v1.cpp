@@ -16,20 +16,19 @@ public:
                     count += (students[i][k]==mentors[j][k]);
                 match[i][j] = count;
             }
-        
-        
+                
         vector<int>dp(1<<m);
         
-        for (int k=0; k<m; k++)
+        for (int j=0; j<m; j++)
         {
-            int state = (1 << (k+1)) - 1;            
+            int state = (1 << (j+1)) - 1;            
             while (state < (1 << m))
             {
                 for (int i=0; i<m; i++)
                 {                    
                     if (((state>>i)&1)==0)
                         continue;
-                    dp[state] = max(dp[state], dp[state - (1<<i)] + match[i][k]);
+                    dp[state] = max(dp[state], dp[state - (1<<i)] + match[i][j]);
                 }
 
                 int c = state & - state;
