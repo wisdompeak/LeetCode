@@ -11,7 +11,8 @@ string key(node) = key(node->child_1) + "#" + node->child_1->val + "#" + key(nod
 此外我们会发现，这样递归的结果会造成顶端节点的key越来越长。同652的做法，我们可以将key映射成一个数字ID，这样就避免了key长度的膨胀。每个node的key的长度只与有多少一代孩子有关。即
 ```cpp
 int getId(node) {
-  string key(node) = getId(node->child_1) + "#" + node->child_1->val + "#" + getId(node->child_2) + "#" + node->child_2->val + "#" ....
+  string key(node) = getId(node->child_1) + "#" + node->child_1->val + "#" + 
+                     getId(node->child_2) + "#" + node->child_2->val + "#" + ....
   return getId(node) by mapping key(node) to a new Id;
 }
 ```
