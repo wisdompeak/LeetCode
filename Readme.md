@@ -176,7 +176,6 @@
 [110.Balanced-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/110.Balanced-Binary-Tree)  (M+)   
 [124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M+)   
 [222.Count-Complete-Tree-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Tree/222.Count-Complete-Tree-Nodes) (M+)   
-[297.Serialize-and-Deserialize-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/297.Serialize-and-Deserialize-Binary-Tree) （H-）  
 [099.Recover-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/099.Recover-Binary-Search-Tree) (H)   
 [114.Flatten-Binary-Tree-to-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Tree/114.Flatten-Binary-Tree-to-Linked-List) (M+)  
 [098.Validate-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/098.Validate-Binary-Search-Tree) (M)   
@@ -200,7 +199,6 @@
 501.Find-Mode-in-Binary-Search-Tree (M+)    
 558.Quad-Tree-Intersection (M+)   
 [662.Maximum-Width-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/662.Maximum-Width-of-Binary-Tree) (H-)   
-[652.Find-Duplicate-Subtrees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/652.Find-Duplicate-Subtrees) (H)   
 [687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
 742.Closest-Leaf-in-a-Binary-Tree (H)   
 834.Sum-of-Distances-in-Tree (H)    
@@ -210,6 +208,10 @@
 [1660.Correct-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1660.Correct-a-Binary-Tree) (M+)  
 [1666.Change-the-Root-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1666.Change-the-Root-of-a-Binary-Tree) (H-)  
 [1932.Merge-BSTs-to-Create-Single-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1932.Merge-BSTs-to-Create-Single-BST) (H)  
+* ``Serialization & Hashing``    
+[297.Serialize-and-Deserialize-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/297.Serialize-and-Deserialize-Binary-Tree) （H-）  
+[652.Find-Duplicate-Subtrees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/652.Find-Duplicate-Subtrees) (H)   
+[1948.Delete-Duplicate-Folders-in-System](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1948.Delete-Duplicate-Folders-in-System) (H)  
 * ``Tree & Sequence``    
 [105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/105.Construct-Binary-Tree-from-Preorder-and-Inorder-Traversal) (H-)  
 [106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/106.Construct-Binary-Tree-from-Inorder-and-Postorder-Traversal) (M+)    
