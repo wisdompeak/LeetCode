@@ -205,6 +205,7 @@
 [863.All-Nodes-Distance-K-in-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/863.All-Nodes-Distance-K-in-Binary-Tree) (H-)   
 [954.Check-Completeness-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/blob/master/Tree/954.Check-Completeness-of-a-Binary-Tree/) (M+)    
 1339. Maximum-Product-of-Splitted-Binary-Tree (TBD)   
+[1104.Path-In-Zigzag-Labelled-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1104.Path-In-Zigzag-Labelled-Binary-Tree) (M+)     
 [1660.Correct-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1660.Correct-a-Binary-Tree) (M+)  
 [1666.Change-the-Root-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1666.Change-the-Root-of-a-Binary-Tree) (H-)  
 [1932.Merge-BSTs-to-Create-Single-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1932.Merge-BSTs-to-Create-Single-BST) (H)  
