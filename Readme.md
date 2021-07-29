@@ -794,7 +794,6 @@
 [808.Soup-Servings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/808.Soup-Servings) (H)   
 [880.Decoded-String-at-Index](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/880.Decoded-String-at-Index) (H-)    
 [902.Numbers-At-Most-N-Given-Digit-Set](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/902.Numbers-At-Most-N-Given-Digit-Set) (M)   
-932.Beautiful-Array (H-)    
 [964.Least-Operators-to-Express-Number](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/964.Least-Operators-to-Express-Number) (H)   
 [991.Broken-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/991.Broken-Calculator) (M)   
 [1088.Confusing-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1088.Confusing-Number-II) (H)   
@@ -1010,6 +1009,7 @@
 [1751.Maximum-Number-of-Events-That-Can-Be-Attended-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1751.Maximum-Number-of-Events-That-Can-Be-Attended-II) (H)  
 * ``Constructive Problems``   
 [667.Beautiful-Arrangement-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/667.Beautiful-Arrangement-II) (M)  
+[932.Beautiful-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/932.Beautiful-Array) (H)    
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
