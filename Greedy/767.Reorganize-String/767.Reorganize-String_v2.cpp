@@ -2,10 +2,12 @@ class Solution {
 public:
     string reorganizeString(string S) 
     {
-        unordered_map<char,int>Map;
-        for (auto ch:S) Map[ch]++;
+        unordered_map<char,int>count;
+        for (auto ch:S) count[ch]++;
+
         priority_queue<pair<int,char>>pq;        
-        for (auto a:Map) pq.push({a.second,a.first});        
+        for (auto x:count) 
+            pq.push({x.second, x.first});        
         
         string result;
         while (!pq.empty())
@@ -15,8 +17,7 @@ public:
             
             for (int i=0; i<k; i++)
             {
-                int ch = pq.top().second;
-                int num = pq.top().first;
+                auto [num, ch] = pq.top(); 
                 pq.pop();
                 result+=ch;
                 num--;
