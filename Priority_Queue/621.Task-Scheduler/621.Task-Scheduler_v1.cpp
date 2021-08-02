@@ -17,10 +17,10 @@ public:
             vector<int>temp;
             for (int i=0; i<k; i++)
             {
-                int a = pq.top();
+                int f = pq.top();
                 pq.pop();
-                a--;
-                if (a!=0) temp.push_back(a);
+                f--;
+                if (f!=0) temp.push_back(f);
             }
             if (temp.size()>0)
                 count+=n;
