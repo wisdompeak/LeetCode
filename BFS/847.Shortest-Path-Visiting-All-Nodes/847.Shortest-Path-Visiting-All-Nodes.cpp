@@ -1,42 +1,39 @@
 class Solution {
+    int visited[12][1<<12];
 public:
     int shortestPathLength(vector<vector<int>>& graph) 
     {
-        int n = graph.size();
-        auto visited = vector<vector<bool>>(n,vector<bool>(1<<n,0));
-        
-        queue<pair<int,int>>q; // {node, visitedNodes}
+        int n=graph.size();        
+                       
+        queue<pair<int,int>>q;        
+                
         for (int i=0; i<n; i++)
-        {
-            q.push({i, 1<<i});
+        {            
+            q.push({i,1<<i});
             visited[i][1<<i] = 1;
         }
-       
-        int step = -1;
-        while(!q.empty())
+        
+        int step = 0;
+        while (q.size()!=0)
         {
-            step++;
             int len = q.size();
             while (len--)
             {
-                int node = q.front().first;
-                int state = q.front().second;
+                auto [cur, state] = q.front();
                 q.pop();
                 
-                for (auto& nextNode:graph[node])
-                {
-                    int nextState = (state | (1<<nextNode));
-                    if (visited[nextNode][nextState]==1)
-                        continue;
-                    if (nextState == (1<<n)-1)
-                        return step+1;
-                    q.push({nextNode, nextState});
-                    visited[nextNode][nextState] = 1;
-                }
-            }            
+                for (int i: graph[cur])
+                {                    
+                    if ((state | (1<<i)) == (1<<n)-1) return step+1;                        
+                    if (visited[i][state]==1) continue;
+                    visited[i][state] = 1;
+                    q.push({i, state | (1<<i)});
+                }                
+            }
+            step++;            
         }
         
         return 0;
-        
     }
+
 };
