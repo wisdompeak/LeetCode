@@ -713,7 +713,6 @@
 [1649.Create-Sorted-Array-through-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/1649.Create-Sorted-Array-through-Instructions) (H)  
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
-[005.Longest-Palindromic-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/005.Longest-Palindromic-Substring) (H)  
 [006.ZigZag-Conversion](https://github.com/wisdompeak/LeetCode/tree/master/String/006.ZigZag-Conversion) (M+)    
 [336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)   
 [388.Longest-Absolute-File-Path](https://github.com/wisdompeak/LeetCode/tree/master/String/388.Longest-Absolute-File-Path) (M+)    
@@ -749,6 +748,9 @@
 [1367.Linked-List-in-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/String/1367.Linked-List-in-Binary-Tree) (H)  
 1397.Find All Good Strings (TBD)  
 [1764.Form-Array-by-Concatenating-Subarrays-of-Another-Array](https://github.com/wisdompeak/LeetCode/tree/master/String/1764.Form-Array-by-Concatenating-Subarrays-of-Another-Array) (H)  
+* ``Manacher``   
+[005.Longest-Palindromic-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/005.Longest-Palindromic-Substring) (H)  
+[1960.Maximum-Product-of-the-Length-of-Two-Palindromic-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/String/1960.Maximum-Product-of-the-Length-of-Two-Palindromic-Substrings) (H)    
 
 #### [Union Find](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find)
 [547.Friend-Circles](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/547.Friend-Circles) (M)    
