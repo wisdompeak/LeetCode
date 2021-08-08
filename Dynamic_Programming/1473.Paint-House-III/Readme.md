@@ -1,11 +1,51 @@
 ### 1473.Paint-House-III
 
-令dp[i][j][k]表示第i个房子喷涂颜色j，并且前i个房子构成了k个block的最小代价。分两种情况讨论：
+#### 解法1：
+令dp[i][j][k]表示前i个房子构成了j个block，并且第i个房子喷涂的颜色是k的最小代价。分两种情况讨论：
 
-1. 当```house[i]!=0```，说明第i个房子无法更改颜色，所以只能计算j=house[i]时的dp[i][j][k]，否则就标记无穷大。此时dp[i][j][k]就取决于前面一个房子的颜色jj。遍历jj的可能。如果jj与j相同，那么第i个房子和前面的房子可以合并为一个block，即```dp[i][j][k] = min{self, dp[i-1][j][k]}```。如果jj与j不同，那么第i个房子就是第k个block的第一个，即```dp[i][j][k] = min{self, dp[i-1][j][k-1]}```。
+1. 当```house[i]!=0```，说明第i个房子无法更改颜色，此时dp[i][j][k]取决于前面一个房子的颜色kk。遍历kk的可能。如果kk与k相同，那么第i个房子和前面的房子可以合并为一个block，即```dp[i][j][k] = min{self, dp[i-1][j][kk]}```。如果kk与k不同，那么第i个房子就是第j个block的第一个，即```dp[i][j][k] = min{self, dp[i-1][j-1][kk]}```。
 
-2. 当```house[i]==0```，说明第i个房子可以任意喷涂j=1,2,..,n，记得加上喷涂成本. 同理，遍历前一个房子的颜色jj。如果jj与j相同，那么第i个房子和前面的房子可以合并为一个block，即```dp[i][j][k] = min{self, dp[i-1][j][k]+cost[i][j]}```。如果jj与j不同，那么第i个房子就是第k个block的第一个，即```dp[i][j][k] = min{self, dp[i-1][jj][k-1]+cost[i][j]}```。
+2. 当```house[i]==0```，说明第i个房子可以任意喷涂k=1,2,..,n，记得加上喷涂成本. 同理，遍历前一个房子的颜色kk。如果kk与k相同，那么第i个房子和前面的房子可以合并为一个block，即```dp[i][j][k] = min{self, dp[i-1][j][kk]+cost[i][k]}```。如果kk与k不同，那么第i个房子就是第j个block的第一个，即```dp[i][j][k] = min{self, dp[i-1][j-1][kk]+cost[i][k]}```。
 
-初始状态是```dp[0][j][0] = 0```，其余的状态都是无穷大。
+初始状态是```dp[0][0][j] = 0```，其余的状态都是无穷大。
 
-最终的答案是在dp[m][j][target]中取最后一个房子喷涂某种颜色后的总代价最小值，其中```j=1,2,..,n```
+最终的答案是在所有房子喷涂完、构造了target个block、最后一个房子颜色任意的前提下，取最小值。即```min{dp[m][target][k]，for k=1,2,..,n```
+
+#### 解法2：
+上述的解法中，第二情况下会有四层循环，分别遍历i,j,k,kk，时间复杂度达到了```o(m*m*n*n)```. 事实上可以优化到```o(m*m*n)```。
+
+我们考察解法1的写法：
+```cpp
+for (int j=1; j<=target; j++)
+    for (int k=1; k<=n; k++)
+    {
+        for (int kk=1; kk<=n; kk++)
+        {
+            if (kk==k)
+                dp[i][j][k] = min(dp[i][j][k], dp[i-1][j][kk] + cost[i][k-1]);
+            else
+                dp[i][j][k] = min(dp[i][j][k], dp[i-1][j-1][kk] + cost[i][k-1]);
+        }
+    }    
+```
+我们看到对于每个k，我们都要把kk都遍历一遍找dp[i-1][j-1][kk]的最小值。事实上这个最小值可以对大部分的k共享。我们可以提前把dp[i-1][j-1][kk]的最小值计算出来。
+```cpp
+for (int j=1; j<=target; j++)
+{
+    vector<pair<int,int>>temp;
+    for (int kk=1; kk<=n; kk++)
+    {
+        temp.push_back({dp[i-1][j-1][kk], kk});
+    }
+    sort(temp.begin(), temp.end()); // save the min dp[i][j-1][kk] and the second min
+
+    for (int k=1; k<=n; k++)
+    {
+        dp[i][j][k] = dp[i-1][j][k] + cost[i][k-1];
+        if (k!=temp[0].second)
+            dp[i][j][k] = min(dp[i][j][k], temp[0].first + cost[i][k-1]);
+        else
+            dp[i][j][k] = min(dp[i][j][k], temp[1].first + cost[i][k-1]);
+    }                    
+}
+```                
