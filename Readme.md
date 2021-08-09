@@ -573,6 +573,7 @@
 [983.Minimum-Cost-For-Tickets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/983.Minimum-Cost-For-Tickets) (H-)    
 [1043.Partition-Array-for-Maximum-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1043.Partition-Array-for-Maximum-Sum)(M+)    
 [1105.Filling-Bookcase-Shelves](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1105.Filling-Bookcase-Shelves) (H-)    
+[1959.minimum-total-space-wasted-with-k-resizing-operations](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1959.minimum-total-space-wasted-with-k-resizing-operations) (H-)      
 [1416.Restore-The-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1416.Restore-The-Array) (M+)  
 [1546.Maximum-Number-of-Non-Overlapping-Subarrays-With-Sum-Equals-Target](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1546.Maximum-Number-of-Non-Overlapping-Subarrays-With-Sum-Equals-Target) (M+)   
 [1626.Best-Team-With-No-Conflicts](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1626.Best-Team-With-No-Conflicts) (M)  
