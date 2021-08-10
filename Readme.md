@@ -1026,7 +1026,7 @@
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
 [048.Rotate-Image](https://github.com/wisdompeak/LeetCode/tree/master/Others/048.Rotate-Image) (M+)    
 [065.Valid-Number](https://github.com/wisdompeak/LeetCode/tree/master/Others/065.Valid-Number) (H-)   
-158.Read-N-Characters-Given-Read4-II-Call-multiple-times　(H)    
+[158.Read-N-Characters-Given-Read4-II-Call-multiple-times](https://github.com/wisdompeak/LeetCode/tree/master/Others/158.Read-N-Characters-Given-Read4-II-Call-multiple-times)　(H-)    
 [240.Search-a-2D-Matrix-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/240.Search-a-2D-Matrix-II) (M+)   
 [277.Find-the-Celebrity](https://github.com/wisdompeak/LeetCode/tree/master/Others/277.Find-the-Celebrity) (H-)  
 [311.Sparse-Matrix-Multiplication](https://github.com/wisdompeak/LeetCode/tree/master/Others/311.Sparse-Matrix-Multiplication) (M)  
