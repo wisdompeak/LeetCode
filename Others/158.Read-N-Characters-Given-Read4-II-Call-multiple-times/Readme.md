@@ -2,27 +2,28 @@
 
 此题对于系统设计的考察非常巧妙．
 
-首先要理清题意．题目给的API```int read4(char *buf)```，是说从某个地方（你不用关心）可以一次性读进４个（或者更少）字符存入你指定的buf，至于到底是否是读进了４个还是更少，可以从它的返回值来考察．
+首先要理清题意．题目所要求设计的```int read(char *buf, int n)```，是说期望你从某个地方（你不用关心）读进n个字符，写进题目所指定的buf。这只是一个形式上的任务，但是真正实现读的工作函数是题目所给的API read4，它一次读取最多4个放在缓存里（ReadBuf），但是也可能一次读取的个数少于4（比如说已经读到底了），这可以从它的返回值来判断。
 
-题目所要求设计的```int read(char *buf, int n)```，是说期望你从某个地方（你不用关心）读进n个字符，存进题目所指定的buf．因为实际读取的可能少于n个（比如说文本的字数原本就少于n个），所以你要返回实际成功读取的字符个数．
+本题的核心思想是，用指针j来控制我们要读取、写出n次字符。每次需要读取一个字符时，都试图从缓存ReadBuf里拿。如果ReadBuf里为空，就调用一次read4来填充ReadBuf，多数情况下一次能填充4个字符。如果ReadBuf不为空，那么我们就从ReadBuf里拿出下一个字符即可，直至ReadBuf里都取完。
 
-此题的考点是，题目会多次调用read(n)，而且每次读取的字符数目可能多可能少，但要求是在文本中连续的．然而，你用read4得到的文本是无法回退的．举个例子，题目read(2),你调用了read4，得到了4个字符但只能返回２个．下一个回合，题目read(3)，你必须先考虑之前读取还存留的两个，然后继续read4，再返回一个．所以第二回合你会剩３个．
+所以我们需要一个指针i来指向ReadBuf里待读的字符，同时用count来标记ReadBuf里还有多少未读。每次从缓存里成功读取一个，那么就i++且count--。当遇到count==0时，就需要调用read4()，将i重置为0，并且count重置为实际获取的字符个数（通常为4，但也可能更少）。
 
-显然，我们应该开辟一个缓存ReadBuf，存放４个字符就足够了．每次题目要求读取，我们优先处理这个缓存的内容．所以我们要开辟一个缓存```char ReadBuf[4]```,一个记录缓存里面字符数的count，以及待读的指针i．主程序中，我们总是从缓存里给destination放东西,缓存空了的话就调用API充满缓存．
 ```cpp
-            if (count!=0)
-            {
-                buf[j]=ReadBuf[i];
-                i++;
-                count--;
-                j++;
-            }
-            else
-            {
-                int count = read4(ReadBuf);
-                i = 0;
-            }
-```
+int j;
+for (j=0; j<n; j++)
+{
+    if (count==0)
+    {
+         count = read4(ReadBuf);
+         i = 0;
+         if (count==0) break;
+    }
+    buf[j] = ReadBuf[i];
+    i++;
+    count--;
+}
 
+return j;   
+```
 
 [Leetcode Link](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times)
