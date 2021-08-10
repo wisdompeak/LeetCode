@@ -1,5 +1,5 @@
 // Forward declaration of the read4 API.
-int read4(char *buf);
+int read4(char *readBuf);
 
 class Solution {
 public:
@@ -9,29 +9,25 @@ public:
      * @return    The number of characters read
      */
     char ReadBuf[4];
-    int i = 0;  // buf pointer
-    int count = 0;  // buf counter
+    int i = 0;  // read buf pointer
+    int count = 0;  // read buf counter
     
     int read(char *buf, int n) 
     {
-        int j = 0; // destination buff pointer;
-        while (j<n)
+        int j;
+        for (j=0; j<n; j++)
         {
-            if (count!=0)
-            {
-                buf[j]=ReadBuf[i];
-                i++;
-                count--;
-                j++;
-            }
-            else
+            if (count==0)
             {
                 count = read4(ReadBuf);
                 i = 0;
                 if (count==0) break;
             }
+            buf[j] = ReadBuf[i];
+            i++;
+            count--;
         }
-        return j;
         
+        return j;        
     }
 };
