@@ -962,6 +962,7 @@
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
 [1713.Minimum-Operations-to-Make-a-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1713.Minimum-Operations-to-Make-a-Subsequence) (H-)  
+[1964.Find-the-Longest-Valid-Obstacle-Course-at-Each-Position](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1964.Find-the-Longest-Valid-Obstacle-Course-at-Each-Position) (M+)     
 * ``Two-pass distribution``   
 [135.Candy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/135.Candy) (M+)    
 [1840.Maximum-Building-Height](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1840.Maximum-Building-Height) (H)  
