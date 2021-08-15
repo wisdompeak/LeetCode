@@ -30,56 +30,53 @@ public:
 
         m = grid.size();
         n = grid[0].size();
-        for (int i=0; i<m; i++)
-            for (int j=0; j<n; j++)
-            {
-                Father[i*n+j] = i*n+j;
-                Size[i*n+j] = 1;
-            }
-                
+        for (int i=0; i<m*n; i++)
+        {
+            Father[i] = i;
+            Size[i] = 1;
+        }
         for (auto &hit: hits)
             grid[hit[0]][hit[1]] = 0;
 
+        vector<pair<int,int>>dir({{0,1},{0,-1},{-1,0},{1,0}});
         for (int i=0; i<m; i++)
             for (int j=0; j<n; j++)
             {
                 if (grid[i][j]==0) continue;
-                if (i-1>=0 && grid[i-1][j]==1)
+                for (int k=0; k<4; k++)
                 {
-                    if (FindFather((i-1)*n+j)!=FindFather(i*n+j))
-                        Union((i-1)*n+j, i*n+j);
-                }
-                if (j-1>=0 && grid[i][j-1]==1)
-                {
-                    if (FindFather(i*n+j-1)!=FindFather(i*n+j))
-                        Union(i*n+j-1, i*n+j);
+                    int x = i+dir[k].first;
+                    int y = j+dir[k].second;                    
+                    if (x<0||x>=m||y<0||y>=n) continue;
+                    if (grid[x][y]==0) continue;                
+                    if (FindFather(i*n+j)!=FindFather(x*n+y))
+                        Union(i*n+j, x*n+y);
                 }
             }
-        vector<pair<int,int>>dir({{0,1},{0,-1},{-1,0},{1,0}});
+        
         vector<int>rets;
-        for (int k=hits.size()-1; k>=0; k--)
+        for (int t=hits.size()-1; t>=0; t--)
         {
-            int x = hits[k][0], y = hits[k][1];            
-            if (grid0[x][y]==0) 
+            int i = hits[t][0], j = hits[t][1];            
+            if (grid0[i][j]==0) 
             {
                 rets.push_back(0);
                 continue;
             }
-            grid[x][y] = 1;
+            grid[i][j] = 1;
             int count = 0;
             int flag = 0;
-            for (int t=0; t<4; t++)
+            for (int k=0; k<4; k++)
             {
-                int i = x+dir[t].first;
-                int j = y+dir[t].second;
-                if (i<0||i>=m||j<0||j>=n) continue;
-                if (grid[i][j]==0) continue;                
+                int x = i+dir[k].first;
+                int y = j+dir[k].second;
+                if (x<0||x>=m||y<0||y>=n) continue;
+                if (grid[x][y]==0) continue;                
                 if (FindFather(i*n+j)!=FindFather(x*n+y))                
                 {
-                    if (FindFather(i*n+j)>=n)
-                        count+=Size[FindFather(i*n+j)];
-
-                    if (FindFather(i*n+j)<n || x==0)
+                    if (FindFather(x*n+y)>=n)
+                        count+=Size[FindFather(x*n+y)];
+                    if (FindFather(x*n+y)<n || i==0)
                         flag = 1;
                     Union(i*n+j, x*n+y);                    
                 }
