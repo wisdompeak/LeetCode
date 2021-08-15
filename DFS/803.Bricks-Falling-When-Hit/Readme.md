@@ -20,6 +20,6 @@
 
 同样是时光倒流的想法。将所有erasure之后的地图通过Union Find得到各个联通区域。特别注意，Union的时候不仅要更新每个格子的Father，还要更新每个格子的Father的Size，也就是该联通块的大小。
 
-逆序处理每一个erasure的时候，查看该格子(x,y)相邻的四个位置。如果有一个相邻的位置(i,j)的Father是第一行，或者(x,y)本身就是第一行，那么它的擦除就一定会导致砖块的掉落。掉落的个数就是与(x,y)相邻的、Father不是第一行的联通块的大小的总和。
+逆序处理每一个erasure的时候，查看该格子(i,j)相邻的四个位置。如果(i,j)有一个相邻的位置(x,y)的Father是第一行，或者(i,j)本身就是第一行，那么(i,j)的擦除就一定会导致砖块的掉落。掉落的个数就是与(x,y)相邻的、Father不是第一行的联通块的大小的总和。
 
 [Leetcode Link](https://leetcode.com/problems/bricks-falling-when-hit)
