@@ -15,7 +15,7 @@ public:
         for (int i=0; i<N; i++)
         {
             int k;
-            if (i >= maxRight)
+            if (i > maxRight)
             {
                 k = 0;
                 while (i-k>=0 && i+k<N && t[i-k]==t[i+k]) k++;
@@ -28,7 +28,7 @@ public:
             P[i] = k-1;
             if (i + P[i] > maxRight)
             {
-                maxRight = i+k-1;
+                maxRight = i + P[i];
                 maxCenter = i;
             }
         }
