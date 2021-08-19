@@ -2,44 +2,35 @@ class Solution {
 public:
     long long maxProduct(string s) 
     {
-        // Insert '#'
-        string t = "$#";
-        for (int i = 0; i < s.size(); ++i) {
-            t += s[i];
-            t += "#";
-        }
-        
-        // Process t
-        vector<int> p(t.size(), 0);
-        int mx = 0, id = 0, resLen = 0, resCenter = 0;
-        for (int i = 1; i < t.size(); ++i) 
-        {
-            p[i] = mx > i ? min(p[2 * id - i], mx - i) : 1;
-            while (t[i + p[i]] == t[i - p[i]]) ++p[i];
-            if (mx < i + p[i]) {
-                mx = i + p[i];
-                id = i;
-            }
-            if (resLen < p[i]) {
-                resLen = p[i];
-                resCenter = i;
-            }
-        }
-        
-        vector<int>len;
-        for (int i=2; i<p.size(); i+=2)
-        {
-            len.push_back(p[i]/2);
-        }
-                        
         int n = s.size();
+        int maxRight = -1;
+        int maxCenter = -1;
+        vector<int>P(n);
+        for (int i=0; i<n; i++)
+        {
+            int r;
+            int j = maxCenter*2-i;
+            if (i<=maxRight)
+                r = min(P[j], maxRight-i);
+            else
+                r = 0;
+            while (i-r>=0 && i+r<n && s[i-r]==s[i+r])
+                r++;
+            P[i] = r-1;
+            if (i+P[i] > maxRight)
+            {
+                maxRight = i+P[i];
+                maxCenter = i;
+            }
+        }
+                                
         
         vector<int>left(n, 0);        
         left[0] = 1;
         int j = 0;
         for (int i=1; i<n; i++)
         {
-            while (j<n && j+len[j]-1 < i)
+            while (j<n && j+P[j] < i)
                 j++;
             left[i] = max(left[i-1], (i-j)*2+1);
         }
@@ -49,7 +40,7 @@ public:
         j = n-1;
         for (int i=n-2; i>=0; i--)
         {
-            while (j>=0 && j-len[j]+1 > i)
+            while (j>=0 && j-P[j] > i)
                 j--;            
             right[i] = max(right[i+1], (j-i)*2+1);
         }
