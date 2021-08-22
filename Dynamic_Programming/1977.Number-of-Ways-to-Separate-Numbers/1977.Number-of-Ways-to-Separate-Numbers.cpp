@@ -26,36 +26,32 @@ public:
                 else
                     lcs[i][j] = 0;
             }
-        
-        accum[0][1] = 1;
-        
-        for (int i=1; i<n; i++)
-        {
+                
+        for (int i=0; i<n; i++)    
             for (int len=1; len<=i+1; len++)                        
             {                                
                 int j = i-len+1;
                 int dp = 0;
                 
                 if (num[j]=='0')                 
-                    dp = 0;                
+                    dp = 0;
                 else if (len==i+1)
                     dp = 1;
                 else
                 {
-                    int k = max(0, j-len);
+                    int maxLen2 = min(len, j);
                     
-                    if (len==j-k && lcs[k][j]<len && num[k+lcs[k][j]]>num[j+lcs[k][j]])
-                        k++;                    
-                    while (k<=j-1 && num[k]=='0')
-                        k++;
+                    if (len==maxLen2 && lcs[j-maxLen2][j]<len && num[j-maxLen2+lcs[j-maxLen2][j]]>num[j+lcs[j-maxLen2][j]])
+                        maxLen2--;
+                    while (maxLen2>=1 && num[j-maxLen2]=='0')
+                        maxLen2--;
                     
-                    if (k<=j-1)
-                        dp = accum[j-1][j-k];
+                    if (maxLen2>=1)
+                        dp = accum[j-1][maxLen2];
                 }
                 
                 accum[i][len] = (accum[i][len-1] + dp) % M;
-            }
-        }
+            }        
                         
         return accum[n-1][n];
     }
