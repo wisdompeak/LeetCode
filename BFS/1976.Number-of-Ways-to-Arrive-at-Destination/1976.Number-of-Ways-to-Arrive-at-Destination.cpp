@@ -2,10 +2,10 @@ using LL = long long;
 using PII = pair<LL,LL>;
 
 class Solution {
-    vector<vector<LL>>adj[201];
-    unordered_map<int,LL> Map[201];
-    long M = 1e9+7;
+    vector<vector<LL>>adj[201];        
     LL dist[201];
+    LL count[201];    
+    long M = 1e9+7;
 public:
     int countPaths(int n, vector<vector<int>>& roads) 
     {        
@@ -39,6 +39,8 @@ public:
             }            
         }
                 
+        for (int i=0; i<n; i++)
+            count[i] = -1;
         return dfs(n-1, dist[n-1]);;
     }
     
@@ -47,18 +49,18 @@ public:
         if (d != dist[cur])
             return 0;
         if (cur==0) return 1;
-        if (Map[cur].find(d)!=Map[cur].end())
-            return Map[cur][d];
+        if (count[cur]!=-1)
+            return count[cur];
         
-        LL count = 0;
+        LL c = 0;
         for (auto x: adj[cur])
         {
             LL nxt = x[0], len = x[1];
-            count += dfs(nxt, d-len);
-            count %= M;
+            c += dfs(nxt, d-len);
+            c %= M;
         }
-        Map[cur][d] = count;
-        return count;
+        count[cur] = c;
+        return c;
     }
     
 };
