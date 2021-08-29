@@ -1,23 +1,22 @@
 class Solution {
+    long dp[2005];
+    long M = 1e9+7;
 public:
-    int distinctSubseqII(string S) 
+    int distinctSubseqII(string s) 
     {
-        int N = S.size();
-        S= "#"+S;
-        vector<long>dp(N+1,0);
-        unordered_map<char,int>Map;
-        long M = 1e9+7;
+        int n = s.size();
+        s = "#"+s;
+        vector<int>last(26,0);
         dp[0] = 1;
-        
-        for (int i=1; i<=N; i++)
+
+        for (int i=1; i<=n; i++)
         {
-            dp[i] = dp[i-1]*2%M;
-            if (Map.find(S[i])!=Map.end())
-                dp[i] = (dp[i]+M-dp[Map[S[i]]-1])%M;
-            Map[S[i]] = i;                        
+            int j = last[s[i]-'a'];
+            dp[i] = dp[i-1] *2 %M - (j>=1 ? dp[j-1] : 0);
+            dp[i] = (dp[i]+M) % M;
+            last[s[i]-'a'] = i;
         }
-        
-        return dp[N]-1;
-        
+
+        return dp[n] - 1;
     }
 };
