@@ -5,7 +5,7 @@
 我们用长度为14的二进制数state的每个bit位表示该任务是否被实施，那么dp[state]表示state所代表的任务集合需要最少多少个session。
 
 利用枚举子集的模板：
-```
+```cpp
   for (int state=1; state<(1<<n); state++)  
       for (int subset=state; subset>0; subset=(subset-1)&state)
       {
