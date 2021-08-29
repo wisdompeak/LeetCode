@@ -672,6 +672,7 @@
     [691.Stickers-to-Spell-Word](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/691.Stickers-to-Spell-Word) (H)    
     [1494.Parallel-Courses-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1494.Parallel-Courses-II) (H)   
     [1655.Distribute-Repeating-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1655.Distribute-Repeating-Integers) (H)  
+    [1986.Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1986.Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks) (M+)     
     * ``二分图``   
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
