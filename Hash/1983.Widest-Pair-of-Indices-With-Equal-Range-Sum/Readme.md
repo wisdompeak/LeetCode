@@ -8,7 +8,7 @@ pre1[j]-pre1[i] = pre2[j]-pre2[i]
 ```
 pre1[j]-pre2[j] = pre1[i]-pre2[i]
 ```
-令diff数组表示pre1-pre2之差，那么急求跨度最大的{i,j}使得
+令diff数组表示pre1-pre2之差，那么本题的本质就是在diff数组里找跨度最大的{i,j}使得
 ```
 dfff[i] = diff[j]
 ```
