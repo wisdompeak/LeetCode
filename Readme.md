@@ -527,6 +527,7 @@
 [1884.Egg-Drop-With-2-Eggs-and-N-Floors](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1884.Egg-Drop-With-2-Eggs-and-N-Floors) (H-)  
 [920.Number-of-Music-Playlists](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/920.Number-of-Music-Playlists) (H)   
 [940.Distinct-Subsequences-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/940.Distinct-Subsequences-II) (H)    
+[1987.Number-of-Unique-Good-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1987.Number-of-Unique-Good-Subsequences) (H)     
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H-)    
 [1027.Longest-Arithmetic-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1027.Longest-Arithmetic-Sequence) (M+)   
 [1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1269.Number-of-Ways-to-Stay-in-the-Same-Place-After-Some-Steps) (M+)   
