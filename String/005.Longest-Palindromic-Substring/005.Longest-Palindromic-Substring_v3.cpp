@@ -12,7 +12,7 @@ public:
         int n = t.size();
         vector<int>P(n);
         int maxCenter = -1, maxRight = -1;
-        int R = 1;
+        int L = 1;
         for (int i=0; i<n; i++)
         {
             int r;
@@ -35,10 +35,10 @@ public:
             }
 
             if (i-P[i]==0)
-                R = P[i];
+                L = P[i];
         }
         
-        string temp = s.substr(R);
+        string temp = s.substr(L);
         reverse(temp.begin(), temp.end());
         return temp+s;
         
