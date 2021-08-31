@@ -25,15 +25,6 @@ X  X  X  {X  X  X  X  X  X  X  X  X  X  X}  X  X  X  X  X
 这样，我们就可以顺序地探索所有P[i]，并找到其中的最大值maxLen，和对应的i的索引maxCenter。注意P的构建是基于t的，那么如何返回基于s的那个回文串呢？其实很巧妙，输出的就是:
 ```s.substr(maxCenter/2-maxLen/2,maxLen)```
 
-### 解法3：Manacher
-本题的本质就是在s中找一个最长的、起点在左端点的回文串。然后将s除去回文串的后端复制、翻转并拼接在原s串的前端，就是最优的答案。
-
-所以此题的本质就是Manacher的模板题```005.Longest-Palindromic-Substring```，求出每个位置作为中心能够构造的最长回文串，查看这个回文串是否能抵达s的最左端，是的话就记录下这个回文串的长度L。输出的答案是：
-```cpp
-string temp = s.substr(R);
-reverse(temp.begin(), temp.end());
-return temp+s;
-```
 
 
 [Leetcode Link](https://leetcode.com/problems/longest-palindromic-substring)
