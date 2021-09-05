@@ -6,7 +6,7 @@
 #### 解法2
 解法1的一个缺陷是序列化得到的key字符串可能会非常长。解决方法是将每个key都及时转化为一个数字ID，这样可以有效减少key的长度。
 
-例如，对于根节点是node的子树，我们定义它的```string key = to_string(node->val) + "#" + to_string(getId(node->left)) + "#" + to_string(getId(node->right))```。其中getId就是将左子树（或者右子树）的序列化结果用映射的数字ID代表。显然node本身的key就会比纯序列化的结果短很多。
+例如，对于根节点是node的子树，我们定义它的```string key = to_string(node->val) + "#" + to_string(getId(node->left)) + "#" + to_string(getId(node->right))```。其中getId就是将左子树（或者右子树）的序列化结果用映射的数字ID代表。显然通过这种方式生成的node的key，会比纯序列化的结果短很多。
 
 对于当前生成的key，如果在key2Id中已经出现过，那么说明当前的子树就是一个duplicate subtree。否则，我们就给这个key映射一个新的ID，一般就令为 ```key2Id[key] = key2Id.size()+1```. 这个结果就是getId(node)的返回值。
 
