@@ -1,70 +1,79 @@
 class Solution {
-    unordered_map<int,int>Root;
-public:
-    int largestComponentSize(vector<int>& A) 
-    {            
-        vector<int>primes = makePrimes(sqrt(100000));        
-        for (auto p:primes) Root[p] = p;
-        for (auto a:A) Root[a] = a;
-        
-        for (auto a:A)
-        {
-            int x = a;
-            for (int p:primes)
-            {
-                if (x%p==0)
-                {
-                    if (findRoot(p)!=findRoot(a))
-                        Union(p,a);
-                    while (x%p==0) x = x/p;                    
-                }                
-                if (p>x) break;
-            }            
-            if (x>1)
-            {
-                if (Root.find(x)==Root.end()) Root[x] = x;
-                Union(x,a);
-            }
-        }
-        
-        unordered_map<int,int>Groups;
-        for (auto a:A)      
-            Groups[findRoot(a)]+=1;
-            
-        int result = 0;
-        for (auto x:Groups)
-            result = max(result,x.second);
-        return result;
-    }
-    
-    vector<int>makePrimes(int N)
+    int L = 1e5;
+    int Father[100005];
+    int FindFather(int x)
     {
-        vector<bool>prime(N,true);
-        vector<int>results;
-        for (long i = 2; i < N; i++) 
-        { 
-            if (prime[i]) 
-            { 
-                results.push_back(i);                
-                for (long j = i*i; j < N; j += i)                 
-                    prime[j] = false;
-            } 
-        }
-        return results;
-    }
-    
-    int findRoot(int x)
-    {
-        if (x!=Root[x])
-            Root[x] = findRoot(Root[x]);
-        return Root[x];
+        if (Father[x]!=x)
+            Father[x] = FindFather(Father[x]);
+        return Father[x];
     }
     
     void Union(int x, int y)
     {
-        x = Root[x];
-        y = Root[y];
-        if (x<y) Root[y] = x;
-        else Root[x] = y;
+        x = Father[x];
+        y = Father[y];
+        if (x<y) Father[y] = x;
+        else Father[x] = y;
+    }         
+public:
+    vector<int>Eratosthenes(int n)
+    {
+        auto q=vector<int>(n+1,0);
+        for (int i=2; i<=sqrt(n); i++)
+        {
+            if (q[i]==0)
+            {
+                int j=i*2;
+                while (j<n)
+                {
+                    q[j]=1;
+                    j+=i;
+                }
+            }
+        }
+        vector<int>primes;
+        for (int i=2; i<=n; i++)
+        {
+            if (q[i]==0)
+                primes.push_back(i);                
+        }
+        return primes;
+    }
+
+    int largestComponentSize(vector<int>& nums) 
+    {        
+        for (int i=0; i<=L; i++)
+            Father[i] = i;
+
+        vector<int>primes = Eratosthenes(sqrt(L));
+
+        for (int i=0; i<nums.size(); i++)
+        {
+            int x = nums[i];
+            for (int p: primes)
+            {
+                if (x % p == 0)
+                {
+                    if (FindFather(nums[i])!=FindFather(p))
+                        Union(nums[i], p);
+                    while (x%p==0) x/=p;
+                }
+            }
+            if (x > 1)
+            {
+                if (FindFather(nums[i])!=FindFather(x))
+                    Union(nums[i], x);                
+            }
+        }
+
+        unordered_map<int,int>count;
+        for (int i=0; i<nums.size(); i++)
+        {
+            count[FindFather(nums[i])] += 1;
+        }
+        int ret = 0;
+        for (auto x: count)
+            ret = max(ret, x.second);
+        return ret;
     }
 };
