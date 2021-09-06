@@ -1120,7 +1120,7 @@
 [LCP36.最多牌组数](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2021Spring/LCP36.%E6%9C%80%E5%A4%9A%E7%89%8C%E7%BB%84%E6%95%B0)  
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
-[Math_Pow](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math_Pow)  
+[Math](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math)  
 [Binary_Index_Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/Binary_Index_Tree)  
 [Segment Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/SegmentTree)  
 [Inverse_Element](https://github.com/wisdompeak/LeetCode/tree/master/Template/Inverse_Element)  
