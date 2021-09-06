@@ -64,7 +64,7 @@ public:
         auto nums1 = nums;
         sort(nums1.begin(), nums1.end());
                                 
-        for (int i=1; i<nums.size(); i++)
+        for (int i=0; i<nums.size(); i++)
         {
             if (FindFather(nums[i]) != FindFather(nums1[i]))
                 return false;
