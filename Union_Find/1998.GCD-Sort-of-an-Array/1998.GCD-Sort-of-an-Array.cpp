@@ -1,4 +1,5 @@
 class Solution {
+    int L = 100005;
     int Father[100005];
     int FindFather(int x)
     {
@@ -44,7 +45,7 @@ public:
     {
         for (int i=0; i<100005; i++) Father[i] = i;
         
-        vector<int>primes = Eratosthenes(100001);
+        vector<int>primes = Eratosthenes(sqrt(L));
                 
         for (int i=0; i<nums.size(); i++)
         {
@@ -58,13 +59,18 @@ public:
                         Union(nums[i],p);                        
                     while (x%p==0) x/=p;
                 }
+                if (x > 1)
+                {
+                    if (FindFather(nums[i])!=FindFather(x))                        
+                        Union(nums[i],x);                        
+                }
             }
         }
         
         auto nums1 = nums;
         sort(nums1.begin(), nums1.end());
                                 
-        for (int i=0; i<nums.size(); i++)
+        for (int i=1; i<nums.size(); i++)
         {
             if (FindFather(nums[i]) != FindFather(nums1[i]))
                 return false;
