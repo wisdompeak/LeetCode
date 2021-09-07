@@ -9,7 +9,7 @@ public:
         for (int i=0; i<n-1; i++)
         {
             int prev = nextVisit[i];            
-            dp[i+1] = dp[i] + (dp[i]-dp[prev] + M +1) % M + 1;            
+            dp[i+1] = dp[i] + 1 + (dp[i]-dp[prev] + M ) % M + 1;            
             dp[i+1] %= M;
         }
         return dp[n-1];        
