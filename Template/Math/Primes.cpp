@@ -7,7 +7,7 @@ vector<int>Eratosthenes(int n)
         if (q[i]==0)
         {
             int j=i*2;
-            while (j<n)
+            while (j<=n)
             {
                 q[j]=1;
                 j+=i;
