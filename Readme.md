@@ -1119,6 +1119,7 @@
 [LCP32.批量处理任务](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2021Spring/LCP32.%E6%89%B9%E9%87%8F%E5%A4%84%E7%90%86%E4%BB%BB%E5%8A%A1)  
 [LCP35.电动车游城市](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2021Spring/LCP35.%E7%94%B5%E5%8A%A8%E8%BD%A6%E6%B8%B8%E5%9F%8E%E5%B8%82)  
 [LCP36.最多牌组数](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2021Spring/LCP36.%E6%9C%80%E5%A4%9A%E7%89%8C%E7%BB%84%E6%95%B0)  
+[LCP43.十字路口的交通](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2021Fall/LCP43.%E5%8D%81%E5%AD%97%E8%B7%AF%E5%8F%A3%E7%9A%84%E4%BA%A4%E9%80%9A)     
 
 #### [Templates](https://github.com/wisdompeak/LeetCode/tree/master/Template)  
 [Math](https://github.com/wisdompeak/LeetCode/tree/master/Template/Math)  
