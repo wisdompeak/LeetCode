@@ -53,19 +53,19 @@ public:
             for (auto p: primes)
             {                
                 // if (p > x) break;        // 28.79%, 921ms
-                if (p * p > x) break;       // 86.30%, 315ms
+                if (p * p > x) break;       // 86.30%, 315ms only iterate primes no greater than sqrt(x)
                 if (x%p==0)
                 {                    
                     if (FindFather(nums[i])!=FindFather(p))                        
                         Union(nums[i],p);                        
                     while (x%p==0) x/=p;
                 }
-                if (x > 1)
-                {
-                    if (FindFather(nums[i])!=FindFather(x))                        
-                        Union(nums[i],x);                        
-                }
             }
+            if (x > 1)  // x must be a prime factor
+            {
+                if (FindFather(nums[i])!=FindFather(x))                        
+                    Union(nums[i],x);                        
+            }            
         }
         
         auto nums1 = nums;
