@@ -1,11 +1,7 @@
 class Solution {    
-    unordered_map<int,int>memo;
 public:
     int lp(string&s, int state)
-    {
-        if (memo.find(state)!=memo.end())
-            return memo[state];
-                        
+    {           
         string t;
         for (int i=0; i<s.size(); i++)
         {
@@ -27,7 +23,6 @@ public:
                     dp[i][j] = max(dp[i][j-1], dp[i+1][j]);
             }        
        
-        memo[state] = dp[0][n-1];
         return dp[0][n-1];
     }
     
