@@ -52,7 +52,8 @@ public:
             int x = nums[i];
             for (auto p: primes)
             {                
-                if (p > x) break;
+                // if (p > x) break;        // 28.79%, 921ms
+                if (p * p > x) break;       // 86.30%, 315ms
                 if (x%p==0)
                 {                    
                     if (FindFather(nums[i])!=FindFather(p))                        
