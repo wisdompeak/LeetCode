@@ -1,6 +1,5 @@
 class Solution {    
-    int visited[100001];
-    int vals[100005];
+    unordered_set<int>Set;
     vector<int>children[100001];
     int q = 1;
 public:
@@ -40,7 +39,7 @@ public:
         while (node!=-1)
         {
             dfs(node, nums);                            
-            while (vals[q]==1)
+            while (Set.find(q)!=Set.end())
                 q++;
             rets[node] = q;
             node = parents[node];
@@ -58,10 +57,8 @@ public:
     
     void dfs(int node, vector<int>&nums)
     {
-        if (visited[node]==1) return;
-        visited[node] = 1;
-        
-        vals[nums[node]] = 1;        
+        if (Set.find(nums[node])!=Set.end()) return;        
+        Set.insert(nums[node]);
         for (int child: children[node])
             dfs(child, nums);
     }
