@@ -695,7 +695,7 @@
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
 [260.Single-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/260.Single-Number-III) (H)    
-371.Sum-of-Two-Integers (H)   
+[371.Sum-of-Two-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/371.Sum-of-Two-Integers) (H)   
 [318.Maximum-Product-of-Word-Lengths](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/318.Maximum-Product-of-Word-Lengths) (M+)    
 342.Power-of-Four (H)   
 [957.Prison-Cells-After-N-Days](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/957.Prison-Cells-After-N-Days) (H)   
