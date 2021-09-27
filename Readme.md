@@ -809,12 +809,10 @@
 [133.Clone-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/133.Clone-Graph) (M+)  
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (H-)    
 [337.House-Robber-III](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/337.House-Robber-III) (M+)   
-[241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (H-)    
 [390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
 [395.Longest-Substring-with-At-Least-K-Repeating-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/395.Longest-Substring-with-At-Least-K-Repeating-Characters) (H)    
 [397.Integer-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/397.Integer-Replacement) (M+)    
 440.K-th-Smallest-in-Lexicographical-Order (H)    
-[679.24-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/679.24-Game) (H)   
 [761.Special-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/761.Special-Binary-String) (H)   
 779.K-th-Symbol-in-Grammar (M)    
 [780.Reaching-Points](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/780.Reaching-Points) (H-)    
@@ -830,6 +828,10 @@
 1545. Find Kth Bit in Nth Binary String (TBD)  
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 [1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero) (H)  
+* ``Evaluate Expressions``    
+[241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (M+)    
+[2019.The-Score-of-Students-Solving-Math-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2019.The-Score-of-Students-Solving-Math-Expression) (H-)    
+[679.24-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/679.24-Game) (H)   
 * ``Min-Max Strategy``    
 [464.Can-I-Win](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/464.Can-I-Win) (M+)   
 [877.Stone-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/877.Stone-Game) (M+) (aka. 486.Predict-the-Winner)  
