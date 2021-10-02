@@ -2,7 +2,7 @@ class Solution {
 public:
     int characterReplacement(string s, int k) 
     {
-        vector<int>Count(26,0);
+        vector<int>count(26,0);
         
         int i = 0;        
         int result = 0;
@@ -11,7 +11,7 @@ public:
         {
             Count[s[j]-'A']++;
             
-            while (j-i+1-*max_element(Count.begin(),Count.end()) >k)
+            while (j-i+1 - *max_element(Count.begin(),count.end()) > k)
             {
                 Count[s[i]-'A']--;
                 i++;                       
