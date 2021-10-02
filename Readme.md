@@ -39,6 +39,7 @@
 [395.Longest-Substring-with-At-Least-K-Repeating-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/395.Longest-Substring-with-At-Least-K-Repeating-Characters) (H)    
 [1763.Longest-Nice-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1763.Longest-Nice-Substring) (H)      
 [2009.Minimum-Number-of-Operations-to-Make-Array-Continuous](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2009.Minimum-Number-of-Operations-to-Make-Array-Continuous) (M+)      
+[2024.Maximize-the-Confusion-of-an-Exam](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2024.Maximize-the-Confusion-of-an-Exam) (M)     
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
