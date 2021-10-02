@@ -9,11 +9,11 @@ public:
         
         for (int j=0; j<s.size(); j++)
         {
-            Count[s[j]-'A']++;
+            count[s[j]-'A']++;
             
-            while (j-i+1 - *max_element(Count.begin(),count.end()) > k)
+            while (j-i+1 - *max_element(count.begin(),count.end()) > k)
             {
-                Count[s[i]-'A']--;
+                count[s[i]-'A']--;
                 i++;                       
             }
             result = max(result, j-i+1);                                    
