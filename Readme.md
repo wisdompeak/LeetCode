@@ -40,6 +40,7 @@
 [1763.Longest-Nice-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1763.Longest-Nice-Substring) (H)      
 [2009.Minimum-Number-of-Operations-to-Make-Array-Continuous](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2009.Minimum-Number-of-Operations-to-Make-Array-Continuous) (M+)      
 [2024.Maximize-the-Confusion-of-an-Exam](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2024.Maximize-the-Confusion-of-an-Exam) (M)     
+[424.Longest-Repeating-Character-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/424.Longest-Repeating-Character-Replacement) (H-)        
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
@@ -127,7 +128,6 @@
 [356.Line-Reflection](https://github.com/wisdompeak/LeetCode/tree/master/Hash/356.Line-Reflection) (H-)    
 [594.Longest-Harmonious-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/594.Longest-Harmonious-Subsequence) (M+)   
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/532.K-diff-Pairs-in-an-Array) (E+)   
-[424.Longest-Repeating-Character-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Hash/424.Longest-Repeating-Character-Replacement) （H）   
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H)    
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
 [753.Cracking-the-Safe](https://github.com/wisdompeak/LeetCode/tree/master/Hash/753.Cracking-the-Safe) (H)   
