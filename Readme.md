@@ -1088,6 +1088,7 @@
 [1904.The-Number-of-Full-Rounds-You-Have-Played](https://github.com/wisdompeak/LeetCode/tree/master/Others/1904.The-Number-of-Full-Rounds-You-Have-Played) (M)  
 [1997.First-Day-Where-You-Have-Been-in-All-the-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/1997.First-Day-Where-You-Have-Been-in-All-the-Rooms) (H)     
 [2018.Check-if-Word-Can-Be-Placed-In-Crossword](https://github.com/wisdompeak/LeetCode/tree/master/Others/2018.Check-if-Word-Can-Be-Placed-In-Crossword) (M+)     
+[2029.Stone-Game-IX](https://github.com/wisdompeak/LeetCode/tree/master/Others/2029.Stone-Game-IX) (H)      
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
