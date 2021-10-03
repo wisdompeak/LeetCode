@@ -1,20 +1,20 @@
 class Solution {
 public:
-    bool judgePoint24(vector<int>& nums) 
+    bool judgePoint24(vector<int>& cards) 
     {
-        vector<double>Nums(4);
-        for (int i=0; i<4; i++) Nums[i] = nums[i];
-        sort(Nums.begin(), Nums.end());
+        vector<double>nums(4);
+        for (int i=0; i<4; i++) nums[i] = cards[i];
+        sort(nums.begin(), nums.end());
                 
         while (1)
         {
-            unordered_set<double> results = DFS(Nums,0,3);
+            unordered_set<double> results = DFS(nums,0,3);
             for (auto a:results)
             {
                 if (abs(a-24)<1e-10)
                     return true;
             }
-            if (next_permutation(Nums.begin(), Nums.end()) == false) 
+            if (next_permutation(nums.begin(), nums.end()) == false) 
                 break;
         }
         return false;
