@@ -24,7 +24,7 @@ public:
             }
             else if (s[i]<Stack.top())
             {
-                while (!Stack.empty() && s[i]<Stack.top() && ((Stack.top()!=letter || (Stack.top()==letter && count1<k1)) && count0<k0))
+                while (!Stack.empty() && s[i]<Stack.top() && count0<k0 && ((Stack.top()!=letter || (Stack.top()==letter && count1<k1))))
                 {
                     if (Stack.top()==letter)
                         count1++;
@@ -42,31 +42,18 @@ public:
             result+=Stack.top();
             Stack.pop();
         }
-                
-        reverse(result.begin(),result.end());
-                
+                                        
         string ans;
         
-        for (int i=result.size()-1; i>=0; i--)
+        for (int i=0; i<result.size(); i++)
         {
-            if (count0 == k0)
+            if (count0 == k0 || (result[i]==letter && count1==k1))
                 ans.push_back(result[i]);
             else
             {
+                count0++;
                 if (result[i]==letter)
-                {
-                    if (count1 == k1)
-                        ans.push_back(result[i]);
-                    else
-                    {
-                        count0++;
-                        count1++;
-                    }
-                }
-                else
-                {
-                    count0++;
-                }
+                    count1++;                
             }
         }
         
