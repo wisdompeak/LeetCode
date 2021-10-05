@@ -319,6 +319,7 @@
 [1673.Find-the-Most-Competitive-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1673.Find-the-Most-Competitive-Subsequence) (M)  
 [2030.Smallest-K-Length-Subsequence-With-Occurrences-of-a-Letter](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2030.Smallest-K-Length-Subsequence-With-Occurrences-of-a-Letter) (H)    
 [316.Remove-Duplicate-Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)  
+[1081.Smallest-Subsequence-of-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1081.Smallest-Subsequence-of-Distinct-Characters) (M+)      
 * ``parse expression``    
 [071.Simplify-Path](https://github.com/wisdompeak/LeetCode/tree/master/Stack/071.Simplify-Path) (M)   
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
