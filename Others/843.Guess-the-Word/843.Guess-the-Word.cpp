@@ -4,6 +4,7 @@ public:
     {
         for (int i=0; i<10; i++)
         {
+            srand(1);
             int r = rand() % wordlist.size();
             string x = wordlist[r];
             int count = master.guess(x);
