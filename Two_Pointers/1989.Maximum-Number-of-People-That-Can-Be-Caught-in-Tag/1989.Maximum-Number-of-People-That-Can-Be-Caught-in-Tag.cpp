@@ -14,7 +14,7 @@ public:
             if (j<n && abs(j-i)<=dist)
             {
                 ret++;
-                team[j] = 2;                
+                j++;
             }
         }
         return ret;        
