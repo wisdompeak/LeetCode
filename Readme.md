@@ -892,6 +892,7 @@
 [1969.Minimum-Non-Zero-Product-of-the-Array-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Math/1969.Minimum-Non-Zero-Product-of-the-Array-Elements) (M+)    
 * ``Distances``   
 [296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)  
+[2033.Minimum-Operations-to-Make-a-Uni-Value-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Math/2033.Minimum-Operations-to-Make-a-Uni-Value-Grid) (M+)      
 [1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)    
 1515.Best Position for a Service Centre (TBD)  
 [1703.Minimum-Adjacent-Swaps-for-K-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/1703.Minimum-Adjacent-Swaps-for-K-Consecutive-Ones) (H)  
