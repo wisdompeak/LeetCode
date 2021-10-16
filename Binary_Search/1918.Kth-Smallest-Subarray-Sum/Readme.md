@@ -1,9 +1,10 @@
 ### 1918.Kth-Smallest-Subarray-Sum
 
-此题本质等同于```719. Find K-th Smallest Pair Distance```.
+此题本质等同于```719. Find K-th Smallest Pair Distance```. 在719中我们要寻找第k小的pair diff。在本题中，如果我们转成前缀和数组presum，那么本质上也就是在presum里找第k小的pair diff.
 
-我们用二分搜索猜测这个target。设计检验函数checkOK来判断if # of subarrays whose sum <= target is at least k. 如果是的话，那么这个target可以再小一些（但可能就是第k小的sum）；如果不是的话，说明target一定偏小，需要往大里猜。本题一定有解，所以收链解就是最终解。
+对于"k-th"的题型，二分搜值是一个固定的套路。我们假设第k小的diff的数值是mid，那么我们就计算presum里有多少diff<=mid的pairs。我们期望这个数量至少要是k个。如果count<k，那么我们对于diff的猜测太小了，包括mid在内的diff都不够k个，那么mid本身的diff怎么可能是第k个，所以我们必须往更大的数值猜（即left=mid+1）。如果count>=k，那么mid本身可能是正解（因为可能多有个diff的数值是mid），同时也可能我们猜的比较大，可以往更小的数值猜（即right=mid）.
 
-在写checkOK(nums, target, k)的时候，用的是快慢指针。从左往右遍历慢指针i，然后调整快指针j使得sum[i:j]恰好大于target，于是j-i就是以i为左端点的合法subarray的数目（即subarray sum <= target）。然后我们将i移动一位，j继续单调地向右移动，同样直至恰好```sum[i:j]>target```，同样将j-i加入count里。一旦count的数目大于等于k了，就可以停止双指针的搜索了。
+那么我们如何在所有的diff里计算```countSmallerOrEqual(mid)```呢？两种思路：
 
-此题有一个更难的二维版本```1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows```.
+1. 固定presum[i]，在presum里找多少个j，使得```presum[j]-presum[i]<=mid```，变化得到```presum[j]<=mid+presum[i]```，所以可以用upper_bound定位j的邻接位置j'。从```[i+1, j')```都是可行解。
+2. 双指针。同样固定presum[i]，探索presum[j]。但是我们发现随着i的增大，j的临界位置也是单调变大的。所以j'可以用o(N)的算法找到。
