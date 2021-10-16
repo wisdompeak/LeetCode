@@ -2,11 +2,18 @@ class Solution {
 public:
     int kthSmallestSubarraySum(vector<int>& nums, int k) 
     {
+        vector<int>presum(nums.size()+1);        
+        for (int i=0; i<nums.size(); i++)
+            presum[i+1] = presum[i]+nums[i];  
+                
         int left = 0, right = INT_MAX;
         while (left < right)
         {
             int mid = left + (right-left)/2;
-            if (countOK(nums, mid, k)) // # of subarrays whose sum <= mid is at least k
+            
+            int count = countSmallerOrEqual(mid, presum); // # of diff <= mid
+            
+            if (count >= k) 
                 right = mid;
             else
                 left = mid+1;                
@@ -14,23 +21,21 @@ public:
         return left;        
     }
     
-    bool countOK(vector<int>&nums, long long target, int k)
+    int countSmallerOrEqual(int t, vector<int>&presum)
     {
-        int count = 0;
-        long long sum = 0;
+        int ret = 0;
+        // for (int i=0; i<presum.size(); i++)
+        // {
+        //     auto iter = upper_bound(presum.begin(), presum.end(), t+presum[i]);
+        //     ret += iter - (presum.begin()+i+1);
+        // }
         int j = 0;
-        
-        for (int i=0; i<nums.size(); i++)
-        {            
-            while (j<nums.size() && sum+nums[j]<=target)
-            {
-                sum+=nums[j];
+        for (int i=0; i<presum.size(); i++)
+        {
+            while (j<presum.size() && presum[j]-presum[i]<=t)            
                 j++;
-            }                
-            count+=j-i;            
-            sum -= nums[i];
-            if (count>=k) return true;
+            ret+=j-(i+1);
         }
-        return false;
+        return ret;
     }
 };
