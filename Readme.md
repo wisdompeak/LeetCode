@@ -91,6 +91,7 @@
 [668.Kth-Smallest-Number-in-Multiplication-Table](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/668.Kth-Smallest-Number-in-Multiplication-Table) (H-)    
 [719.Find-K-th-Smallest-Pair-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/719.Find-K-th-Smallest-Pair-Distance) (H-)   
 [1918.Kth-Smallest-Subarray-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1918.Kth-Smallest-Subarray-Sum) (M+)  
+[2040.Kth-Smallest-Product-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2040.Kth-Smallest-Product-of-Two-Sorted-Arrays) (H-)      
 [1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows) (H)  
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 [786.K-th-Smallest-Prime-Fraction](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/786.K-th%20Smallest-Prime-Fraction) (H-)   
