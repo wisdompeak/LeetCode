@@ -322,6 +322,7 @@
 [2030.Smallest-K-Length-Subsequence-With-Occurrences-of-a-Letter](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2030.Smallest-K-Length-Subsequence-With-Occurrences-of-a-Letter) (H)    
 [316.Remove-Duplicate-Letters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/316.Remove-Duplicate-Letters) (H)  
 [1081.Smallest-Subsequence-of-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1081.Smallest-Subsequence-of-Distinct-Characters) (M+)      
+[321.Create-Maximum-Number](https://github.com/wisdompeak/LeetCode/tree/master/Stack/321.Create-Maximum-Number) (H)   
 * ``parse expression``    
 [071.Simplify-Path](https://github.com/wisdompeak/LeetCode/tree/master/Stack/071.Simplify-Path) (M)   
 [224.Basic-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/224.Basic-Calculator)(H-)   
@@ -951,7 +952,6 @@
 624.Maximum-Distance-in-Arrays (M)    
 [665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H)   
 670.Maximum-Swap (M+)   
-[321.Create-Maximum-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/321.Create-Maximum-Number) (H)   
 649.Dota2-Senate (H)    
 [330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 [683.K-Empty-Slots](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/683.K-Empty-Slots)　(H)   
