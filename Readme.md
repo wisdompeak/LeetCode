@@ -697,7 +697,8 @@
 [629.K-Inverse-Pairs-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/629.K-Inverse-Pairs-Array) (H)   
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
-
+* ``Infer future from current``   
+[2044.Count-Number-of-Maximum-Bitwise-OR-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2044.Count-Number-of-Maximum-Bitwise-OR-Subsets) (M)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
