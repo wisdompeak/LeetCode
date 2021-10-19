@@ -446,6 +446,7 @@
 [1617.Count-Subtrees-With-Max-Distance-Between-Cities](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1617.Count-Subtrees-With-Max-Distance-Between-Cities) (H-)  
 [1654.Minimum-Jumps-to-Reach-Home](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1654.Minimum-Jumps-to-Reach-Home) (H-)  
 [1905.Count-Sub-Islands](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1905.Count-Sub-Islands) (M+)  
+[2045.Second-Minimum-Time-to-Reach-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2045.Second-Minimum-Time-to-Reach-Destination) (M+)     
 * ``Multi State``   
 [913.Cat-and-Mouse](https://github.com/wisdompeak/LeetCode/tree/master/BFS/913.Cat-and-Mouse) (H+)    
 [1728.Cat-and-Mouse-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1728.Cat-and-Mouse-II) (H+)  
@@ -477,7 +478,6 @@
 [1786.Number-of-Restricted-Paths-From-First-to-Last-Node](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1786.Number-of-Restricted-Paths-From-First-to-Last-Node) (H-)  
 [1810.Minimum-Path-Cost-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1810.Minimum-Path-Cost-in-a-Hidden-Grid) (M+)  
 [1976.Number-of-Ways-to-Arrive-at-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1976.Number-of-Ways-to-Arrive-at-Destination) (H-)    
-[2045.Second-Minimum-Time-to-Reach-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2045.Second-Minimum-Time-to-Reach-Destination) (M+)     
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
