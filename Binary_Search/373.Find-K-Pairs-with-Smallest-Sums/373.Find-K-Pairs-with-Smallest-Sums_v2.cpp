@@ -14,25 +14,28 @@ public:
         }
         int m = left;
 
-        vector<vector<int>>rets1;
-        vector<vector<int>>rets2;
+        // TODO-TLE: nums1 = [1] * 100000, nums2 = [1] * 100000, k = 2
+        vector<vector<int>>rets;
         for (int i=0; i<nums1.size(); i++)
         {
-            int j=0;
-            while (j<nums2.size() && nums1[i]+nums2[j]<=m)
+            for (int j = 0; j<nums2.size() && nums1[i]+nums2[j]<m; j ++)
             {
-                if (nums1[i]+nums2[j]<m)
-                    rets1.push_back({nums1[i], nums2[j]});
-                else
-                    rets2.push_back({nums1[i], nums2[j]});
-                j++;
+                rets.push_back({nums1[i], nums2[j]});
             }                
         }
         
-        int t = min(rets2.size(), k - rets1.size());
-        for (int i=0; i<t; i++)
-            rets1.push_back(rets2[i]);
-        return rets1;
+        // 316ms/11.89% -> 148ms/43.01%
+        for (int i=0; i<nums1.size(); i++)
+        {
+            for (int j = 0; j<nums2.size() && nums1[i]+nums2[j]<=m && rets.size() < k; j ++)
+            {
+                if (nums1[i]+nums2[j]==m) {
+                    rets.push_back({nums1[i], nums2[j]});
+                }
+            }                
+        }        
+        
+        return rets;
     }
 
     long countSmallerOrEqual(int m, vector<int>& nums1, vector<int>& nums2)
