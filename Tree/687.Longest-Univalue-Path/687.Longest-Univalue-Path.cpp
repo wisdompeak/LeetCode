@@ -4,31 +4,31 @@
  *     int val;
  *     TreeNode *left;
  *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
 class Solution {
-    int result=0;
+    int ret = 0;
 public:
     int longestUnivaluePath(TreeNode* root) 
     {
-        int temp = DFS(root);
-        return max(0,result-1);
+        dfs(root);
+        return max(0, ret-1);
     }
-    
-    int DFS(TreeNode* root)
+    int dfs(TreeNode* node)
     {
-        if (root==NULL) return 0;
-        int L = DFS(root->left);
-        int R = DFS(root->right);
-
-        int LL=0;
-        int RR=0;
-        if (root->left!=NULL && root->left->val==root->val)
-            LL = L;
-        if (root->right!=NULL && root->right->val==root->val)
-            RR = R;
-        result = max(result, LL+RR+1);
-        return max(LL+1,RR+1);        
+        if (node==NULL) return 0;        
+        int len1 = dfs(node->left);
+        int len2 = dfs(node->right);
+        
+        int L = 0, R = 0;
+        if (node->left && node->left->val == node->val)
+            L = len1;
+        if (node->right && node->right->val == node->val)
+            R = len2;
+        ret = max(ret, L+1+R);
+        return 1+max(L,R);
     }
 };
