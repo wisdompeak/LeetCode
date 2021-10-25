@@ -183,7 +183,6 @@
 [095.Unique-Binary-Search-Trees-II](https://github.com/wisdompeak/LeetCode/tree/master/Tree/095.Unique-Binary-Search-Trees-II) (H)   
 [094.Binary Tree Inorder Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/094.Binary-Tree-Inorder-Traversal) (H-)    
 [110.Balanced-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/110.Balanced-Binary-Tree)  (M+)   
-[124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M+)   
 [222.Count-Complete-Tree-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Tree/222.Count-Complete-Tree-Nodes) (M+)   
 [099.Recover-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/099.Recover-Binary-Search-Tree) (H)   
 [114.Flatten-Binary-Tree-to-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Tree/114.Flatten-Binary-Tree-to-Linked-List) (M+)  
@@ -195,9 +194,6 @@
 [450.Delete-Node-in-a-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/450.Delete-Node-in-a-BST) (H)    
 [437.Path-Sum-III](https://github.com/wisdompeak/LeetCode/tree/master/Tree/437.Path-Sum-III) (H-)   
 [333.Largest-BST-Subtree](https://github.com/wisdompeak/LeetCode/blob/master/Tree/333.Largest-BST-Subtree) (H)    
-[543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
-[687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
-[2049.Count-Nodes-With-the-Highest-Score](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2049.Count-Nodes-With-the-Highest-Score) (M+)    
 [572.Subtree-of-Another-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/572.Subtree-of-Another-Tree) (M)   
 [549.Binary-Tree-Longest-Consecutive-Sequence-II](https://github.com/wisdompeak/LeetCode/tree/master/Tree/549.Binary-Tree-Longest-Consecutive-Sequence-II) (M)   
 [173.Binary-Search-Tree-Iterator](https://github.com/wisdompeak/LeetCode/tree/master/Stack/173.Binary-Search-Tree-Iterator) (M)   
@@ -220,6 +216,11 @@
 [1666.Change-the-Root-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1666.Change-the-Root-of-a-Binary-Tree) (H-)  
 [1932.Merge-BSTs-to-Create-Single-BST](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1932.Merge-BSTs-to-Create-Single-BST) (H)  
 [2003.Smallest-Missing-Genetic-Value-in-Each-Subtree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2003.Smallest-Missing-Genetic-Value-in-Each-Subtree) (H)     
+* ``Path in a tree`` 
+[543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
+[124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M)   
+[687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
+[2049.Count-Nodes-With-the-Highest-Score](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2049.Count-Nodes-With-the-Highest-Score) (M+)    
 * ``Serialization & Hashing``    
 [297.Serialize-and-Deserialize-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/297.Serialize-and-Deserialize-Binary-Tree) （H-）  
 [652.Find-Duplicate-Subtrees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/652.Find-Duplicate-Subtrees) (H)   
