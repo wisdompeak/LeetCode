@@ -4,11 +4,13 @@ public:
     {
         int left=1;
         int right=m*n;
-        int mid;
+        if (m > n) {
+            m ^= n ^ (n = m);
+        }
         
         while (left<right)
         {
-            mid=left+(right-left)/2;
+            int mid=left+(right-left)/2;
             
             int count=0;
             for (int i=1; i<=m; i++)
