@@ -842,6 +842,7 @@
 1545. Find Kth Bit in Nth Binary String (TBD)  
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 [1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero) (H)  
+[2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
 * ``Evaluate Expressions``    
 [241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (M+)    
 [2019.The-Score-of-Students-Solving-Math-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2019.The-Score-of-Students-Solving-Math-Expression) (H-)    
