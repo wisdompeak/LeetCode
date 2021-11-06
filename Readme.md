@@ -744,8 +744,6 @@
 [006.ZigZag-Conversion](https://github.com/wisdompeak/LeetCode/tree/master/String/006.ZigZag-Conversion) (M+)    
 [336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)   
 [388.Longest-Absolute-File-Path](https://github.com/wisdompeak/LeetCode/tree/master/String/388.Longest-Absolute-File-Path) (M+)    
-[408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
-411.Minimum-Unique-Word-Abbreviation (H)  
 [418.Sentence-Screen-Fitting](https://github.com/wisdompeak/LeetCode/tree/master/String/418.Sentence-Screen-Fitting) (M+)   
 [423.Reconstruct-Original-Digits-from-English](https://github.com/wisdompeak/LeetCode/tree/master/Others/423.Reconstruct-Original-Digits-from-English) (H-)   
 [527.Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/527.Word-Abbreviation) (M+)   
@@ -760,6 +758,11 @@
 [1616.Split-Two-Strings-to-Make-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/String/1616.Split-Two-Strings-to-Make-Palindrome) (M+)  
 [1754.Largest-Merge-Of-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/String/1754.Largest-Merge-Of-Two-Strings) (M+)  
 [1849.Splitting-a-String-Into-Descending-Consecutive-Values](https://github.com/wisdompeak/LeetCode/tree/master/String/1849.Splitting-a-String-Into-Descending-Consecutive-Values) (M+)  
+* ``Abbreviation``    
+320. Generalized Abbreviation (M)      
+[408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
+411.Minimum-Unique-Word-Abbreviation (H)  
+[2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
 * ``Rolling Hash``    
 [1044.Longest-Duplicate-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/1044.Longest-Duplicate-Substring) (H)    
 [1062.Longest-Repeating-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/1062.Longest-Repeating-Substring) (H-)   
@@ -842,7 +845,6 @@
 1545. Find Kth Bit in Nth Binary String (TBD)  
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 [1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero) (H)  
-[2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
 * ``Evaluate Expressions``    
 [241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (M+)    
 [2019.The-Score-of-Students-Solving-Math-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2019.The-Score-of-Students-Solving-Math-Expression) (H-)    
