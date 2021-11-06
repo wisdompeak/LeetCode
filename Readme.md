@@ -761,7 +761,7 @@
 * ``Abbreviation``    
 [320.Generalized-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/320.Generalized-Abbreviation) (M)      
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
-411.Minimum-Unique-Word-Abbreviation (H)  
+[411.Minimum-Unique-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/411.Minimum-Unique-Word-Abbreviation) (H)  
 [2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
 * ``Rolling Hash``    
 [1044.Longest-Duplicate-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/1044.Longest-Duplicate-Substring) (H)    
