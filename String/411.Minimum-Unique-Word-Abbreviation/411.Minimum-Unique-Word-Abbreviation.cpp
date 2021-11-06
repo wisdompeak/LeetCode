@@ -24,7 +24,7 @@ public:
             int mask = masks[i].second;
             string a = abbr(target,mask);
             int flag = 1;
-            
+                        
             for (auto word:Set)
             {
                 string b = abbr(word, mask);
@@ -36,6 +36,7 @@ public:
             }            
             if (flag == 1) return a;
         }
+        return "";
     }
     
     
@@ -44,12 +45,12 @@ public:
         int count = 0;
         for (int i=0; i<N; i++)
         {
-            if (((mask>>(N-1-i))&1)==1)        
+            if (((mask>>i)&1)==1)        
                 count++;
             else
             {
                 int j = i+1;
-                while (j<N && ((mask>>(N-1-j))&1)==0)
+                while (j<N && ((mask>>j)&1)==0)
                     j++;
                 count++;
                 i = j-1;
@@ -65,12 +66,12 @@ public:
         
         for (int i=0; i<N; i++)
         {
-            if (((mask>>(N-1-i))&1)==1)
+            if (((mask>>i)&1)==1)
                 result.push_back(A[i]);
             else
             {
                 int j = i+1;
-                while (j<N && ((mask>>(N-1-j))&1)==0)
+                while (j<N && ((mask>>j)&1)==0)
                     j++;
                 result += to_string(j-i);
                 i = j-1;
