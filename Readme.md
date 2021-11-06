@@ -759,7 +759,7 @@
 [1754.Largest-Merge-Of-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/String/1754.Largest-Merge-Of-Two-Strings) (M+)  
 [1849.Splitting-a-String-Into-Descending-Consecutive-Values](https://github.com/wisdompeak/LeetCode/tree/master/String/1849.Splitting-a-String-Into-Descending-Consecutive-Values) (M+)  
 * ``Abbreviation``    
-320.Generalized Abbreviation (M)      
+[320.Generalized-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/320.Generalized-Abbreviation) (M)      
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
 411.Minimum-Unique-Word-Abbreviation (H)  
 [2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
