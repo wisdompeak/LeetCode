@@ -71,7 +71,7 @@ public:
                 int j = i;
                 while (j<m && ((mask>>j)&1)==0)
                     j++;
-                count += to_string(j-i).size();
+                count += 1;
                 i = j-1;
             }
         }
