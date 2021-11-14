@@ -1071,6 +1071,9 @@
 [667.Beautiful-Arrangement-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/667.Beautiful-Arrangement-II) (M)  
 [932.Beautiful-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/932.Beautiful-Array) (H)    
 
+#### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
+[2069.Walking-Robot-Simulation-II](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2069.Walking-Robot-Simulation-II) (M+)      
+
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
 [048.Rotate-Image](https://github.com/wisdompeak/LeetCode/tree/master/Others/048.Rotate-Image) (M+)    
