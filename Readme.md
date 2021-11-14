@@ -115,6 +115,7 @@
 [1898.Maximum-Number-of-Removable-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1898.Maximum-Number-of-Removable-Characters) (H-)  
 [1891.Cutting-Ribbons](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1891.Cutting-Ribbons) (E)  
 [2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store) (M)    
+[2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
 
 #### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
@@ -176,6 +177,7 @@
 [1847.Closest-Room](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1847.Closest-Room) (M+)  
 [1912.Design-Movie-Rental-System](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1912.Design-Movie-Rental-System) (M+)  
 2034.Stock Price Fluctuation (M)      
+[2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
