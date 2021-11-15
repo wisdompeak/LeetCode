@@ -57,14 +57,15 @@ public:
 
     ListNode* reverseLinkedList(ListNode* head)
     {
-        ListNode* h = head;
+        ListNode* cur = head;
         ListNode* last = NULL;
-        while (h!=NULL)
+        ListNode* next = NULL;
+        while (cur!=NULL)
         {
-            ListNode* nxt = h->next;
-            h->next = last;
-            last = h;
-            h = nxt;
+            next = cur->next;
+            cur->next = last;
+            last = cur;
+            cur = next;
         }
         return last;
     }
