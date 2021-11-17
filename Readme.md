@@ -510,7 +510,6 @@
 [1938.Maximum-Genetic-Difference-Query](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1938.Maximum-Genetic-Difference-Query) (H)  
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
-[025.Reverse-Nodes-in-k-Group](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/025.Reverse-Nodes-in-k-Group) (H-)  
 [061.Rotate-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/061.Rotate-List) (M)  
 082.Remove-Duplicates-from-Sorted-List-II (M+)  
 [086.Partition-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/086.Partition-List) (M)   
@@ -525,6 +524,7 @@
 [1756.Design-Most-Recently-Used-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/1756.Design-Most-Recently-Used-Queue) (H)  
 * ``Reverse Linked List``   
 206.Reverse Linked List (M)      
+[025.Reverse-Nodes-in-k-Group](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/025.Reverse-Nodes-in-k-Group) (H-)  
 [092.Reverse-Linked-List-II](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/092.Reverse-Linked-List-II) (H-)    
 [143.Reorder-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/143.Reorder-List) (H-)    
 [2074.Reverse-Nodes-in-Even-Length-Groups](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/2074.Reverse-Nodes-in-Even-Length-Groups) (H-)    
