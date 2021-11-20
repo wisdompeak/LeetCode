@@ -524,8 +524,8 @@
 [1756.Design-Most-Recently-Used-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/1756.Design-Most-Recently-Used-Queue) (H)  
 * ``Reverse Linked List``   
 [206.Reverse-Linked-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/206.Reverse-Linked-List) (M)      
-[092.Reverse-Linked-List-II](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/092.Reverse-Linked-List-II) (H-)    
-[025.Reverse-Nodes-in-k-Group](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/025.Reverse-Nodes-in-k-Group) (H-)  
+[092.Reverse-Linked-List-II](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/092.Reverse-Linked-List-II) (M+)    
+[025.Reverse-Nodes-in-k-Group](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/025.Reverse-Nodes-in-k-Group) (M+)  
 [2074.Reverse-Nodes-in-Even-Length-Groups](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/2074.Reverse-Nodes-in-Even-Length-Groups) (H-)    
 [143.Reorder-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/143.Reorder-List) (H-)    
 
