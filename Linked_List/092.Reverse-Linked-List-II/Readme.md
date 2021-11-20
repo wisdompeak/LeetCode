@@ -1,13 +1,9 @@
 ### 092.Reverse-Linked-List-II
 
-本题比较考验对于链表操作的细节。
+本题的基本思路很明显，我们需要将原列表拆分为三部分。然后对中间一部分进行链表反转操作（参考 206.Reverse-Linked-List），最后将三部分拼接起来。
 
-我们先遍历到第m-1个和第m个节点。将第m-1个节点记为end_of_start，之后的next要重新指向逆序段的首节点。
+需要注意的是left和right可能很极限，也就是说原题可能本质上是反转整个链表。所以方便的处理方法是前面添加一个dummy节点，末尾也虚拟地认为有一个NULL节点。这样我们就一定能够把整个链表分为实实在在的三部分。然后应用上述的算法。
 
-从第m个节点到第n个节点，我们要做链表逆转的操作。基本的思想就是将向后指向的next，变更成向前指向。所以我们每操作一个cur，都要同时准确地知道prev和next。处理完之后，prev,cur,next都要正确地移动到下一个位置。最终处理完第n个节点后，此时的cur指向的是第n+1个节点，它就是第三段的首节点start_of_third，同时prev就是第二段的逆序的首节点。我们需要的操作是：
-```cpp
-end_of_first->next = start_of_third;
-start_of_second->next = start_of_third;
-```
+另外注意，所谓的将链表拆违三部分，并不是找到每一部分的首尾就完了，还要把尾节点的next置为NULL，这样才能形成一个单独的链表。否则可能会有各种意想不到的bug。
 
 [Leetcode Link](https://leetcode.com/problems/reverse-linked-list-ii)
