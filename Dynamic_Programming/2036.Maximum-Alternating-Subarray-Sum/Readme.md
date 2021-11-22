@@ -1,6 +1,6 @@
 ### 2036.Maximum-Alternating-Subarray-Sum
 
-我们定义两个状态，curSum0[i]表示以元素i结尾、并且元素i本身未被符号翻转的情况下，能够得到的max subarray sum. 同理，curSum1[i]表示以元素i结尾、并且元素i本身已经被符号翻转的情况下，能够得到的max subarray sum. 
+我们定义两个状态，curSum0[i]表示以元素i结尾、并且元素i本身未被符号翻转的情况下（即+nums[i]），能够得到的max subarray sum. 同理，curSum1[i]表示以元素i结尾、并且元素i本身已经被符号翻转的情况下（即-nums[i]），能够得到的max subarray sum. 
 
 对于curSum0[i]，它两种可能。要么只有仅包含单个元素+nums[i]。要么需要和前面的subarray连起来使用，显然能与+nums[i]连在一起的，必然是curSum1[i-1]. 所以```curSum0[i] = max(nums[i], curSum1[i-1]+nums[i]```.
 
