@@ -266,6 +266,7 @@
 #### [Binary Index Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
 [1649.Create-Sorted-Array-through-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/1649.Create-Sorted-Array-through-Instructions) (H)  
+[2031.Count-Subarrays-With-More-Ones-Than-Zeros](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2031.Count-Subarrays-With-More-Ones-Than-Zeros) (H)    
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [146.LRU-Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache) (H-)   
