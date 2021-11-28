@@ -568,6 +568,7 @@
 [1900.The-Earliest-and-Latest-Rounds-Where-Players-Compete](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1900.The-Earliest-and-Latest-Rounds-Where-Players-Compete) (H)  
 [1937.Maximum-Number-of-Points-with-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1937.Maximum-Number-of-Points-with-Cost) (H-)  
 [1955.Count-Number-of-Special-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1955.Count-Number-of-Special-Subsequences) (H-)      
+[2088.Count-Fertile-Pyramids-in-a-Land](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2088.Count-Fertile-Pyramids-in-a-Land) (H-)     
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
