@@ -41,16 +41,8 @@ public:
                 int a = meetings[j][0], b = meetings[j][1], t = meetings[j][2];
                 temp.insert(a);
                 temp.insert(b);
-                if (Set.find(a)!=Set.end() || Set.find(b)!=Set.end())
-                {
-                    Union(FindFather(a),0);
-                    Union(FindFather(b),0);
-                }
-                else
-                {
-                    if (FindFather(a)!=FindFather(b))
-                        Union(a,b);                    
-                }
+                if (FindFather(a)!=FindFather(b))
+                    Union(a,b);
             }
                         
             for (auto x: temp)
