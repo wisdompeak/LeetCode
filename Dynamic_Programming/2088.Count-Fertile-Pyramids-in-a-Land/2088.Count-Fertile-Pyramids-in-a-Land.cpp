@@ -18,7 +18,7 @@ public:
                 if (grid[i][j]==0)
                     count = 0;
                 else
-                    count +=1;
+                    count+=1;
                 left[i][j] = count;
             }
         }
@@ -31,7 +31,7 @@ public:
                 if (grid[i][j]==0)
                     count = 0;
                 else
-                    count +=1;
+                    count+=1;
                 right[i][j] = count;
             }
         }
@@ -43,13 +43,12 @@ public:
                 if (grid[i][j]==0) continue;
                 if (i==0)
                 {
-                    if (grid[i][j]==1) dp1[i][j] = 1;
-                    else dp1[i][j] = 0;
+                    dp1[i][j] = 1;
                 }
                 else
                 {
-                    dp1[i][j] = min(dp1[i-1][j]+1, min(left[i][j], right[i][j]));
-                }                
+                    dp1[i][j] = min(min(left[i][j], right[i][j]), dp1[i-1][j]+1);
+                }
                 ret += dp1[i][j]-1;
             }
         
@@ -59,16 +58,16 @@ public:
                 if (grid[i][j]==0) continue;
                 if (i==m-1)
                 {
-                    if (grid[i][j]==1) dp2[i][j] = 1;
-                    else dp2[i][j] = 0;
+                    dp2[i][j] = 1;
                 }
                 else
                 {
-                    dp2[i][j] = min(dp2[i+1][j]+1, min(left[i][j], right[i][j]));
+                    dp2[i][j] = min(min(left[i][j], right[i][j]), dp2[i+1][j]+1);
                 }
                 ret += dp2[i][j]-1;
             }
         
         return ret;
+        
     }
 };
