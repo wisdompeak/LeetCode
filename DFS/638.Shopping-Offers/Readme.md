@@ -10,5 +10,7 @@
 1. 有些offer是不合算的，可以提前从special里排除掉；
 2. 在dfs(state)里，除了尝试offer，还可以直接从prices里面按原价采购每一件物品。
 
+PS: 最新的题目里把每种物品的数量放宽到了10件，所以需要```4*6=24```个bit的二进制数来表示状态。
+
 
 [Leetcode Link](https://leetcode.com/problems/shopping-offers)

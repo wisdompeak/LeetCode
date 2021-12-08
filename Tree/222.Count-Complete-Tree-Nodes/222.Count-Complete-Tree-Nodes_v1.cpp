@@ -11,45 +11,44 @@ class Solution {
 public:
     int countNodes(TreeNode* root) 
     {
-        if (root==NULL) return 0;
-        
-        int ret = 1;        
-        int h1 = findLeftDepth(root->left);
-        int h2 = findRightDepth(root->left);
-        int h3 = findLeftDepth(root->right);
-        int h4 = findRightDepth(root->right);
-        
-        if (h1==h2)
-        {
-            ret += pow(2,h1)-1;
-            return ret+countNodes(root->right);
-        }           
-        else 
-        {
-            ret += pow(2,h3)-1;
-            return ret+countNodes(root->left);            
-        }            
-    }
-    
-    int findLeftDepth(TreeNode* node)
-    {
-        int count = 0;
+        int h = 0;
+        TreeNode* node = root;
         while (node!=NULL)
         {
-            count++;
-            node=node->left;
-        }        
-        return count;
+            h++;
+            node = node->left;            
+        }
+        int low = (1<<(h-1));
+        int hi = (1<<h)-1;
+        
+        while (low<hi)
+        {
+            int mid = low+(hi-low+1)/2;
+            if (hasK(root,mid))
+                low = mid;
+            else
+                hi = mid-1;
+        }
+        return low;
     }
     
-    int findRightDepth(TreeNode* node)
+    bool hasK(TreeNode* root, int K)
     {
-        int count = 0;
-        while (node!=NULL)
+        vector<int>path;
+        while (K>0)
         {
-            count++;
-            node=node->right;
-        }        
-        return count;
+            path.push_back(K);
+            K = K/2;
+        }
+        for (int i=path.size()-1; i>=0; i--)
+        {
+            if (root==NULL) return false;
+            if (i==0) return true;
+            if (path[i-1]==path[i]*2)
+                root = root->left;
+            else
+                root = root->right;            
+        }
+        return true;
     }
 };

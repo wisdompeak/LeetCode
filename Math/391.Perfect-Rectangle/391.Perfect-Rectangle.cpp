@@ -9,7 +9,7 @@ class Solution {
 public:
     bool isRectangleCover(vector<vector<int>>& rectangles) 
     {
-        int area=0;
+        long long area=0;
         unordered_set<string>Set;
         for (int i=0; i<rectangles.size(); i++)
         {
@@ -46,7 +46,7 @@ public:
             else
                 Set.erase(str);         
             
-            area+= (rectangles[i][3]-rectangles[i][1])*(rectangles[i][2]-rectangles[i][0]);
+            area+= (long long)(rectangles[i][3]-rectangles[i][1])*(long long)(rectangles[i][2]-rectangles[i][0]);
         }
         
         if (Set.size()!=4) return false;
@@ -63,7 +63,7 @@ public:
         
         sort(points.begin(),points.end(),cmp);
         
-        int A=(points[3].second-points[0].second)*(points[3].first-points[0].first);
+        long long A=(long long)(points[3].second-points[0].second)*(long long)(points[3].first-points[0].first);
         
         return (A==area);
         

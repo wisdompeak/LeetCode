@@ -1,6 +1,6 @@
 ### 687.Longest-Univalue-Path
 
-设计DFS(node)函数，返回的是以node为起点，朝某个单向下行最长的Univalue path
+此题和```543. Diameter of Binary Tree```很相似。设计DFS(node)函数，返回的是以node为起点，朝某个单向下行最长的Univalue path
 
 每一次调用DFS(node)，都要先调用L=DFS(node->left)和R=DFS(node->right)，将左右节点都递归遍历完毕。
 

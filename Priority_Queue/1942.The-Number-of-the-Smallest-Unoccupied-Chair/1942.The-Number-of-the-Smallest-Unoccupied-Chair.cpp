@@ -4,7 +4,7 @@ public:
     int smallestChair(vector<vector<int>>& times, int targetFriend) 
     {
         priority_queue<int, vector<int>, greater<>>empty;
-        for (int i=0; i<10005; i++)
+        for (int i=0; i<times.size(); i++)
             empty.push(i);
         
         for (int i=0; i<times.size(); i++)
