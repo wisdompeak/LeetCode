@@ -241,9 +241,10 @@
 * ``LCA``    
 [1123.Lowest-Common-Ancestor-of-Deepest-Leaves](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1123.Lowest-Common-Ancestor-of-Deepest-Leaves) (M+) (aka. LC.865)   
 [235.Lowest-Common-Ancestor-of-a-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/236.Lowest-Common-Ancestor-of-a-Binary-Tree) (M)     
-[236.Lowest-Common-Ancestor-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/236.Lowest-Common-Ancestor-of-a-Binary-Tree) (H-)     
-[1644.Lowest-Common-Ancestor-of-a-Binary-Tree-II](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1644.Lowest-Common-Ancestor-of-a-Binary-Tree-II) (H-)    
+[236.Lowest-Common-Ancestor-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/236.Lowest-Common-Ancestor-of-a-Binary-Tree) (M+)     
+[1644.Lowest-Common-Ancestor-of-a-Binary-Tree-II](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1644.Lowest-Common-Ancestor-of-a-Binary-Tree-II) (M+)    
 [1676.Lowest-Common-Ancestor-of-a-Binary-Tree-IV](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1676.Lowest-Common-Ancestor-of-a-Binary-Tree-IV) (M+)  
+[1650.Lowest-Common-Ancestor-of-a-Binary-Tree-III](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1650.Lowest-Common-Ancestor-of-a-Binary-Tree-III) (M)     
 [1740.Find-Distance-in-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1740.Find-Distance-in-a-Binary-Tree) (H)  
 * ``N-ary Tree``    
 [428.Serialize-and-Deserialize-N-ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/428.Serialize-and-Deserialize-N-ary-Tree) (H)  
