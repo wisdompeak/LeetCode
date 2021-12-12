@@ -27,9 +27,9 @@ public:
         if (node==NULL) return 0;
         int left = dfs(node->left);
         int right = dfs(node->right);
-        int cur = Set.find(node)!=Set.end();
-        if (ret==NULL && left+right+cur==Set.size())
+        int self = Set.find(node)!=Set.end();
+        if (left+right+self==Set.size() && ret==NULL)
             ret = node;
-        return left+right+cur;
+        return left+right+self;
     }
 };
