@@ -27,13 +27,10 @@ DFS函数会一路向下层搜索直到发现节点p，然后在返回的过程�
 ```    
 得到数组P和Q之后，只要从后往前比较两个数组，追踪它们相同的路径截止到哪一位为止就行了。
 
-#### 解法2：递归调用
+#### 解法2：递归
 
-因为p,q保证是在这棵树里面，所以我们可以这样定义lowestCommonAncestor(node,p,q)，返回的是p或者q或者两者的LCA。
+我们设计递归函数```int dfs(node)```表示node的子树里面包含了p和q中的几个？（可以是0,1,2）。显然，只有p和q的公共祖先节点，才会有该函数的返回值是2.
 
-1.如果node是NULL或者p或者q，那么我们就返回node，表示我们定位到了p/q。
-
-2.分别递归调用```left=lowestCommonAncestor(node->left,p,q); right=lowestCommonAncestor(node->right,p,q)```.如果left和right都非空，那么必然说明一个分支含有p，另一个分支含有q，故node一定就是LCA。如果left非空而right为空，说明我们在左边定位到了p或者q或者是p,q的LCA，不管如何，都返回left。同理，如果right非空而left为空，说明我们在右边定位到了p或q或者是pq的LCA。如果两者都为空，那么就自然返回空。
-
+更特别地，因为递归是从下往上返回的。当我们第一次遇到某个节点的子树里同时包含p和q的节点，它必然就是p和q的最低公共祖先。
 
 [Leetcode Link](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree)
