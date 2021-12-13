@@ -14,8 +14,6 @@ public:
     string getDirections(TreeNode* root, int startValue, int destValue) 
     {
         vector<int>nums1, nums2;        
-        nums1.push_back(root->val);
-        nums2.push_back(root->val);
         string dirs1, dirs2;
         dfs(root, nums1, dirs1, startValue);
         dfs(root, nums2, dirs2, destValue);
@@ -23,7 +21,6 @@ public:
         int k = 0;
         while (k<nums1.size() && k<nums2.size() && nums1[k]==nums2[k])
             k++;
-        k--;
         for (int i=k; i<dirs1.size(); i++) dirs1[i] = 'U';
         return dirs1.substr(k)+dirs2.substr(k);
         
