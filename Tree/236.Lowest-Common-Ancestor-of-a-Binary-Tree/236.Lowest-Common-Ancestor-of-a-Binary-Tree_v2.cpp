@@ -8,7 +8,6 @@
  * };
  */
 class Solution {
-    int count = 0;
     TreeNode* ret = NULL;
 public:
     TreeNode* lowestCommonAncestor(TreeNode* root, TreeNode* p, TreeNode* q) 
