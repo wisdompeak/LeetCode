@@ -458,6 +458,7 @@
 [1654.Minimum-Jumps-to-Reach-Home](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1654.Minimum-Jumps-to-Reach-Home) (H-)  
 [1905.Count-Sub-Islands](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1905.Count-Sub-Islands) (M+)  
 [2045.Second-Minimum-Time-to-Reach-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2045.Second-Minimum-Time-to-Reach-Destination) (M+)     
+[2101.Detonate-the-Maximum-Bombs](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2101.Detonate-the-Maximum-Bombs) (M+)      
 * ``Multi State``   
 [847.Shortest-Path-Visiting-All-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/847.Shortest-Path-Visiting-All-Nodes) (H-)  
 [864.Shortest-Path-to-Get-All-Keys](https://github.com/wisdompeak/LeetCode/tree/master/BFS/864.Shortest-Path-to-Get-All-Keys) (H-)   
