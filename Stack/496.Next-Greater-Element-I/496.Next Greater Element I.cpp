@@ -7,17 +7,12 @@ public:
         
         for (int i=0; i<nums.size(); i++)
         {
-            if (Stack.empty() || Stack.top()>nums[i])
-                Stack.push(nums[i]);
-            else
+            while (!Stack.empty() && Stack.top()<nums[i])
             {
-                while (!Stack.empty() && Stack.top()<nums[i])
-                {
-                    Map[Stack.top()]=nums[i];
-                    Stack.pop();
-                }
-                Stack.push(nums[i]);
-            }
+                Map[Stack.top()]=nums[i];
+                Stack.pop();
+            }                            
+            Stack.push(nums[i]);
         }
         
         vector<int>results;
