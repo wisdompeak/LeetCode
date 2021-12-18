@@ -12,12 +12,12 @@ public:
         for (int i=1; i<=K-1; i++)
             count += pow(D.size(), i);
         
-        DFS(0, 0, D);
+        DFS(0, D);
         
         return count;
     }
     
-    void DFS(long cur, int pos, vector<string>& D)
+    void DFS(int pos, vector<string>& D)
     {
         if (pos==K)
         {
@@ -30,7 +30,7 @@ public:
             if ('0'+stoi(s) < num[pos])
                 count += pow( D.size(), K-1-pos);
             else if ('0'+stoi(s) == num[pos])
-                DFS(cur*10+stoi(s), pos+1, D);            
+                DFS(pos+1, D);            
         }               
     }
 };
