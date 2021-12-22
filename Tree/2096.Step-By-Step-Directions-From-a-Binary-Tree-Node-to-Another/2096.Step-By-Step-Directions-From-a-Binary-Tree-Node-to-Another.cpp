@@ -13,42 +13,37 @@ class Solution {
 public:
     string getDirections(TreeNode* root, int startValue, int destValue) 
     {
-        vector<int>nums1, nums2;        
         string dirs1, dirs2;
-        dfs(root, nums1, dirs1, startValue);
-        dfs(root, nums2, dirs2, destValue);
-
-        int k = 0;
-        while (k<nums1.size() && k<nums2.size() && nums1[k]==nums2[k])
-            k++;
-        for (int i=k; i<dirs1.size(); i++) dirs1[i] = 'U';
-        return dirs1.substr(k)+dirs2.substr(k);
+        dfs(root, dirs1, startValue);
+        dfs(root, dirs2, destValue);
         
+        int k = 0;
+        while (k<dirs1.size() && k<dirs2.size() && dirs1[k]==dirs2[k])
+            k++;
+        for (int i=k; i<dirs1.size(); i++)
+            dirs1[i] = 'U';
+        return dirs1.substr(k)+dirs2.substr(k);
     }
-
-    bool dfs(TreeNode* node, vector<int>&nums, string&dirs, int target)
+    
+    bool dfs(TreeNode* node, string& dirs, int target)
     {
         if (node==NULL) return false;
         if (node->val == target) return true;
+        
         if (node->left)
         {
-            nums.push_back(node->left->val);
             dirs.push_back('L');
-            if (dfs(node->left, nums, dirs, target))
+            if (dfs(node->left, dirs, target))
                 return true;
-            nums.pop_back();
             dirs.pop_back();
         }
         if (node->right)
         {
-            nums.push_back(node->right->val);
             dirs.push_back('R');
-            if (dfs(node->right, nums, dirs, target))
+            if (dfs(node->right, dirs, target))
                 return true;
-            nums.pop_back();
             dirs.pop_back();
         }
         return false;
     }
-
 };
