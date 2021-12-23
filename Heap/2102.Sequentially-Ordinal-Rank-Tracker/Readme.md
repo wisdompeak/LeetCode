@@ -9,3 +9,10 @@
 
 #### 解法2
 可以直接使用pbds的数据库和find_by_order(k)这个API。参见[模版](https://github.com/wisdompeak/LeetCode/blob/master/Template/RB_Tree/ordered_set.cpp).
+
+#### 解法3
+设置两个优先队列pq1（大顶堆，出口是最大值）,pq2（小顶堆，出口是最小值）.我们始终保持pq1含有i-1个元素。
+
+如果有新元素X进来，我们与pq1的出口元素Y比较：
+1. 如果Y更靠前的话，直接把X加入pq2，pq2出口处自动更新为当前全局的第i大元素。
+2. 如果X更靠前，那么Y就会被挤成第i大元素，所以将Y从pq1移出加入pq2，并把X加入pq1.这样pq2的出口处依然是全局的第i大元素。
