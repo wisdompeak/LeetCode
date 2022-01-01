@@ -9,4 +9,5 @@ FetchContent_MakeAvailable(googletest)
 
 include(GoogleTest)
 
+add_subdirectory(BFS)
 add_subdirectory(Dynamic_Programming)
