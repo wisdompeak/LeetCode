@@ -26,15 +26,15 @@ public:
         ULL hash = 0;
 
         ULL pow_base_len = 1;
-        for (int i=0; i<len-1; i++)        
+        for (int i=0; i<len; i++)        
             pow_base_len = pow_base_len * base;                    
             
         for (int i=0; i<S.size(); i++)
         {
-            if (i>=len)            
-                hash = (hash - pow_base_len*(S[i-len]-'a') ) ;   
-            
             hash = hash * base + (S[i]-'a');                                     
+            
+            if (i>=len)            
+                hash = (hash - pow_base_len*(S[i-len]-'a') ) ;               
 
             if (i>=len-1)
             {                
