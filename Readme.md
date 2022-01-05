@@ -484,6 +484,7 @@
 [1591.Strange-Printer-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1591.Strange-Printer-II) (H-)  
 [1857.Largest-Color-Value-in-a-Directed-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1857.Largest-Color-Value-in-a-Directed-Graph) (H-)  
 [2050.Parallel-Courses-III](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2050.Parallel-Courses-III) (M+)      
+[2115.Find-All-Possible-Recipes-from-Given-Supplies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2115.Find-All-Possible-Recipes-from-Given-Supplies) (M)     
 * ``Dijkstra (BFS+PQ)``   
 [743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H)      
