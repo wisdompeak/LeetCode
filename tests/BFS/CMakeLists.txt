@@ -1,0 +1,1 @@
+add_subdirectory(1036.Escape-a-Large-Maze)
