@@ -28,7 +28,6 @@ public:
             if (lower < 0)
                 lower += 2;
 
-            if (upper < lower) return false;
             if (upper < 0) return false;            
         }        
         
