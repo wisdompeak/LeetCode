@@ -1080,8 +1080,8 @@
 [921.Minimum-Add-to-Make-Parentheses-Valid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/921.Minimum-Add-to-Make-Parentheses-Valid) (M+)  
 [1249.Minimum-Remove-to-Make-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1249.Minimum-Remove-to-Make-Valid-Parentheses) (M+)  
 [1541.Minimum-Insertions-to-Balance-a-Parentheses-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1541.Minimum-Insertions-to-Balance-a-Parentheses-String) (M+)  
-[678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H-)    
 [1963.minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1963.minimum-number-of-swaps-to-make-the-string-balanced) (M+)    
+[678.Valid-Parenthesis-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/678.Valid-Parenthesis-String) (H-)    
 [2116.Check-if-a-Parentheses-String-Can-Be-Valid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2116.Check-if-a-Parentheses-String-Can-Be-Valid) (H-)    
 * ``Intervals``   
 [435.Non-overlapping-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/435.Non-overlapping-Intervals) (M+)  (aka. [646.Maximum-Length-of-Pair-Chain](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/646.Maximum-Length-of-Pair-Chain))  
