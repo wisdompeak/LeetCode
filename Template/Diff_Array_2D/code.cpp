@@ -3,7 +3,7 @@ public:
     vector<vector<int>>f;
     vector<vector<int>>diff;    
     int m,n;
-    Diff2d(vector<int m, int n)
+    Diff2d(int m, int n)
     {
         this->m = m;
         this->n = n;
