@@ -60,7 +60,7 @@ public:
                 if (Grid.f[x][y]>0) continue;
                 int i = x-stampHeight+1;
                 int j = y-stampWidth+1;
-                Stamps.set(i,j,x,y);
+                Stamps.set(i,j,x,y,1);
             }
         Stamps.compute();
 
