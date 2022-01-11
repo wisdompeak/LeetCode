@@ -5,7 +5,9 @@ public:
     {
         int m = A.size();
         int n = A[0].size();
-        vector<vector<int>>presum(m, vector<int>(n));
+        presum.resize(m);
+        for (int i=0; i<m; i++)
+            presum[i].resize(n);
         for (int i=0; i<m; i++)
             for (int j=0; j<n; j++)
             {
@@ -14,7 +16,6 @@ public:
                 int c = (i==0||j==0)?0:presum[i-1][j-1];
                 presum[i][j] = a + b - c + A[i][j];
             }
-        this->presum = presum;
     }
     int query(int i, int j, int x, int y)
     {
