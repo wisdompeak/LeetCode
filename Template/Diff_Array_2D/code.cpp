@@ -3,10 +3,10 @@ public:
     vector<vector<int>>f;
     vector<vector<int>>diff;    
     int m,n;
-    Diff2d(vector<vector<int>>& A)
+    Diff2d(vector<int m, int n)
     {
-        m = A.size();
-        n = A[0].size();
+        this->m = m;
+        this->n = n;
         diff.resize(m+1);
         f.resize(m+1);        
         for (int i=0; i<m+1; i++)
