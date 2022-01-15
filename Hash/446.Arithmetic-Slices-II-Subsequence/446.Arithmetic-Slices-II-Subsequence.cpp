@@ -3,7 +3,7 @@ public:
     int numberOfArithmeticSlices(vector<int>& A) 
     {
         int n = A.size();
-        vector<unordered_map<long,int>>dp(n);
+        unordered_map<long,int>dp[1000];
         int count = 0;
         
         for (int i=1; i<A.size(); i++)
@@ -19,8 +19,7 @@ public:
                     dp[i][diff] = 1;
             }
         }
-            
-        
+                    
         return count;
     }
 };
