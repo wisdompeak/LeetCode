@@ -1027,7 +1027,6 @@
 [1818.Minimum-Absolute-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1818.Minimum-Absolute-Sum-Difference) (M+)  
 [1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number) (M+)  
 [1911.Maximum-Alternating-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1911.Maximum-Alternating-Subsequence-Sum) (M+)  
-[1982.Find-Array-Given-Subset-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1982.Find-Array-Given-Subset-Sums) (H)      
 [2086.Minimum-Number-of-Buckets-Required-to-Collect-Rainwater-from-Houses](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2086.Minimum-Number-of-Buckets-Required-to-Collect-Rainwater-from-Houses) (M+)     
 [2136.Earliest-Possible-Day-of-Full-Bloom](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2136.Earliest-Possible-Day-of-Full-Bloom) (M+)      
 * ``LIS``   
@@ -1104,6 +1103,7 @@
 [932.Beautiful-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/932.Beautiful-Array) (H)    
 [2007.Find-Original-Array-From-Doubled-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2007.Find-Original-Array-From-Doubled-Array) (M)    
 [2122.Recover-the-Original-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2122.Recover-the-Original-Array) (H-)      
+[1982.Find-Array-Given-Subset-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1982.Find-Array-Given-Subset-Sums) (H)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
