@@ -763,6 +763,7 @@
 [2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference) (H)     
 [1774.Closest-Dessert-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1774.Closest-Dessert-Cost) (M)  
 [2002.Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2002.Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences)      
+[2151.Maximum-Good-People-Based-on-Statements](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2151.Maximum-Good-People-Based-on-Statements) (M+)      
  
 
 #### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer)
