@@ -21,29 +21,25 @@ public:
             int len = q.size();
             ans = max(ans, q.back()->val - q.front()->val + 1);
 
-            int flag = (len == 1);
+            int base = q.front()->val;
 
             while (len--)
             {            
                 TreeNode* node = q.front();
                 q.pop_front();
-
-                if (flag==1) node->val = 0;
                 
                 if (node->left)
                 {
-                    node->left->val = node->val*2+1;
+                    node->left->val = (node->val-base)*2+1;
                     q.push_back(node->left);
                 }
                 if (node->right)
                 {
-                    node->right->val = node->val*2+2;
+                    node->right->val = (node->val-base)*2+2;
                     q.push_back(node->right);
                 }
             }
         }
         return ans;
     }
-    
-
 };
