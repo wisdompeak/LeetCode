@@ -1,53 +1,57 @@
 class Solution {
 public:
-    vector<int> findMinHeightTrees(int n, vector<pair<int, int>>& edges) 
+    vector<int> findMinHeightTrees(int n, vector<vector<int>>& edges) 
     {
         if (n==1) return {0};
         if (n==2) return {0,1};
-        
-        unordered_map<int,int>Degree;
-        unordered_map<int,vector<int>>Up;
-        
+                
+        vector<int>inDegree(n);   
+        vector<vector<int>>next(n);
         for (auto edge:edges)
         {
-            Degree[edge.first]++;
-            Degree[edge.second]++;
-            Up[edge.second].push_back(edge.first);
-            Up[edge.first].push_back(edge.second);
+            inDegree[edge[0]]++;
+            inDegree[edge[1]]++;
+            next[edge[0]].push_back(edge[1]);
+            next[edge[1]].push_back(edge[0]);            
         }
         
         queue<int>q;
-        for (auto a:outDegree)
-            if (a.second==1) q.push(a.first);
+        vector<int>visited(n);
+        for (int i=0; i<n; i++)
+        {
+            if (inDegree[i]==1)            
+                q.push(i);            
+        }                
         
         int count = 0;
         while (!q.empty())
         {
-            int k = q.size();
-            for (int i=0; i<k; i++)
+            int len = q.size();
+            while (len--)
             {
-                int node = q.front();
+                int cur = q.front();
                 q.pop();
-                count++;
-
-                for (auto upNode: Up[node])
+                visited[cur] = 1;
+                count++;                
+                for (int nxt: next[cur])
                 {
-                    Degree[upNode]--;
-                    if (Degree[upNode]==1)
-                        q.push(upNode);
-                }
-            }
-                       
-            if (count+q.size()==n)
-            {
-                vector<int>results;
-                while (!q.empty())
-                {
-                    results.push_back(q.front());
-                    q.pop();
-                }
-                return results;
-            }
+                    inDegree[nxt]--;
+                    if (inDegree[nxt]==1)
+                        q.push(nxt);
+                }       
+            }          
+            if (count==n-1 || count==n-2)
+                    break;
         }
+        
+        vector<int>rets;
+        for (int i=0; i<n; i++)
+        {
+            if (visited[i]==0)
+                rets.push_back(i);
+        }
+        
+        return rets;
+        
     }
 };
