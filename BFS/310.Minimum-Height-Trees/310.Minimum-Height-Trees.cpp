@@ -4,24 +4,26 @@ public:
     {
         if (n==1) return {0};
         if (n==2) return {0,1};
-                
-        vector<int>inDegree(n);   
+        
         vector<vector<int>>next(n);
-        for (auto edge:edges)
+        vector<int>degree(n);
+        
+        for (auto edge: edges)
         {
-            inDegree[edge[0]]++;
-            inDegree[edge[1]]++;
-            next[edge[0]].push_back(edge[1]);
-            next[edge[1]].push_back(edge[0]);            
+            int a = edge[0], b = edge[1];
+            degree[a]++;
+            degree[b]++;
+            next[a].push_back(b);
+            next[b].push_back(a);
         }
         
         queue<int>q;
         vector<int>visited(n);
         for (int i=0; i<n; i++)
         {
-            if (inDegree[i]==1)            
-                q.push(i);            
-        }                
+            if (degree[i]==1)
+                q.push(i);
+        }
         
         int count = 0;
         while (!q.empty())
@@ -31,26 +33,26 @@ public:
             {
                 int cur = q.front();
                 q.pop();
+                count++;
                 visited[cur] = 1;
-                count++;                
                 for (int nxt: next[cur])
                 {
-                    inDegree[nxt]--;
-                    if (inDegree[nxt]==1)
+                    degree[nxt]--;
+                    if (degree[nxt]==1)
                         q.push(nxt);
-                }       
-            }          
+                }                
+            }
             if (count==n-1 || count==n-2)
-                    break;
+                break;
         }
         
         vector<int>rets;
-        for (int i=0; i<n; i++)
+        while (!q.empty())
         {
-            if (visited[i]==0)
-                rets.push_back(i);
+            rets.push_back(q.front());
+            q.pop();                
         }
-        
+            
         return rets;
         
     }
