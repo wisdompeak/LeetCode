@@ -1,11 +1,11 @@
 set(BINARY count_of_smaller_numbers_after_self)
 
-# binary indexed tree solution
+# divided conquer solution
 add_library(divided_conquer_315 SHARED 315.divided-conquer.cpp)
 target_include_directories(divided_conquer_315 PUBLIC
                            ${CMAKE_CURRENT_SOURCE_DIR})
 
-# divided conquer solution
+# binary indexed tree solution
 add_library(binary_indexed_tree_315 SHARED 315.binary-indexed-tree.cpp)
 target_include_directories(binary_indexed_tree_315 PUBLIC
                            ${CMAKE_CURRENT_SOURCE_DIR})
