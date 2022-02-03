@@ -504,6 +504,7 @@
 [1786.Number-of-Restricted-Paths-From-First-to-Last-Node](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1786.Number-of-Restricted-Paths-From-First-to-Last-Node) (H-)  
 [1810.Minimum-Path-Cost-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1810.Minimum-Path-Cost-in-a-Hidden-Grid) (M+)  
 [1976.Number-of-Ways-to-Arrive-at-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1976.Number-of-Ways-to-Arrive-at-Destination) (H-)    
+[2093.Minimum-Cost-to-Reach-City-With-Discounts](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)      
 
 #### [Trie](https://github.com/wisdompeak/LeetCode/tree/master/Trie)
 [208.Implement-Trie--Prefix-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Trie/208.Implement-Trie--Prefix-Tree) (M+)    
