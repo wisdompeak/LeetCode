@@ -775,6 +775,7 @@
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
 [006.ZigZag-Conversion](https://github.com/wisdompeak/LeetCode/tree/master/String/006.ZigZag-Conversion) (M+)    
+[068.Text-Justification](https://github.com/wisdompeak/LeetCode/tree/master/String/068.Text-Justification) (H)    
 [336.Palindrome-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/String/336.Palindrome-Pairs) (H-)   
 [388.Longest-Absolute-File-Path](https://github.com/wisdompeak/LeetCode/tree/master/String/388.Longest-Absolute-File-Path) (M+)    
 [418.Sentence-Screen-Fitting](https://github.com/wisdompeak/LeetCode/tree/master/String/418.Sentence-Screen-Fitting) (M+)   
