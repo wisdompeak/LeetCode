@@ -5,40 +5,44 @@ public:
     {
         int n = nums.size()/3;                
                         
-        LL sum = 0;        
+        LL minSum = LLONG_MAX;        
+        LL rollingSum = 0;
         vector<LL>leftMin(3*n);                       
         priority_queue<int>pq;
         for (int i=0; i<2*n; i++)
         {            
             pq.push(nums[i]);
-            sum += nums[i];
-            if (i>=n)
+            rollingSum += nums[i];
+            if (pq.size() > n)
             {
-                sum -= pq.top();
+                rollingSum -= pq.top();
                 pq.pop();
             }
-            if (i>=n-1)
-                leftMin[i] = sum;
-            else if (i>n-1)
-                leftMin[i] = min(leftMin[i-1], sum);
+            if (pq.size() == n)
+            {
+                minSum = min(minSum, rollingSum);
+                leftMin[i] = minSum;
+            }
         }
         
-        sum = 0;        
+        LL maxSum = LLONG_MIN;        
+        rollingSum = 0;
         priority_queue<int,vector<int>,greater<>>pq2;
         vector<LL>rightMax(3*n);  
         for (int i=3*n-1; i>=n; i--)
         {
             pq2.push(nums[i]);
-            sum += nums[i];
+            rollingSum += nums[i];
             if (i<=2*n-1)
             {
-                sum -= pq2.top();
+                rollingSum -= pq2.top();
                 pq2.pop();
             }
-            if (i==2*n)
-                rightMax[i] = sum;
-            else if (i<2*n)
-                rightMax[i] = max(rightMax[i+1], sum);            
+            if (pq.size() == n)
+            {
+                maxSum = max(maxSum, rollingSum);
+                rightMax[i] = maxSum;
+            }
         }            
         
         LL ret = LLONG_MAX;
