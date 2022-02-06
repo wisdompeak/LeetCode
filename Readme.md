@@ -299,6 +299,7 @@
 [1418.Display-Table-of-Food-Orders-in-a-Restaurant](https://github.com/wisdompeak/LeetCode/tree/master/Design/1418.Display-Table-of-Food-Orders-in-a-Restaurant) (H-)  
 [1622.Fancy-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Design/1622.Fancy-Sequence) (H+)  
 [1801.Number-of-Orders-in-the-Backlog](https://github.com/wisdompeak/LeetCode/tree/master/Design/1801.Number-of-Orders-in-the-Backlog) (M+)     
+[2166.Design-Bitset](https://github.com/wisdompeak/LeetCode/tree/master/Design/2166.Design-Bitset) (M+)     
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 [032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
