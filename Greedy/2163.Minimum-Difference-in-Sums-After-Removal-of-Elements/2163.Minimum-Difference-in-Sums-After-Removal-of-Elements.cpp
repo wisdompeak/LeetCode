@@ -4,8 +4,7 @@ public:
     long long minimumDifference(vector<int>& nums) 
     {
         int n = nums.size()/3;                
-                
-        
+                        
         LL sum = 0;        
         vector<LL>leftMin(3*n);                       
         priority_queue<int>pq;
@@ -23,8 +22,6 @@ public:
             else if (i>n-1)
                 leftMin[i] = min(leftMin[i-1], sum);
         }
-        
-        
         
         sum = 0;        
         priority_queue<int,vector<int>,greater<>>pq2;
