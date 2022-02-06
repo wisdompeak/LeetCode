@@ -28,7 +28,7 @@ public:
         {
             pq2.push(nums[i]);
             rollingSum += nums[i];
-            if (i<=2*n-1)
+            if (pq2.size() > n)
             {
                 rollingSum -= pq2.top();
                 pq2.pop();
