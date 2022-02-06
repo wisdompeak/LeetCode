@@ -5,7 +5,6 @@ public:
     {
         int n = nums.size()/3;                
                         
-        LL minSum = LLONG_MAX;        
         LL rollingSum = 0;
         vector<LL>leftMin(3*n);                       
         priority_queue<int>pq;
@@ -18,14 +17,10 @@ public:
                 rollingSum -= pq.top();
                 pq.pop();
             }
-            if (pq.size() == n)
-            {
-                minSum = min(minSum, rollingSum);
-                leftMin[i] = minSum;
-            }
+            if (pq.size() == n)            
+                leftMin[i] = rollingSum;            
         }
         
-        LL maxSum = LLONG_MIN;        
         rollingSum = 0;
         priority_queue<int,vector<int>,greater<>>pq2;
         vector<LL>rightMax(3*n);  
@@ -39,10 +34,7 @@ public:
                 pq2.pop();
             }
             if (pq.size() == n)
-            {
-                maxSum = max(maxSum, rollingSum);
-                rightMax[i] = maxSum;
-            }
+                rightMax[i] = rollingSum;
         }            
         
         LL ret = LLONG_MAX;
