@@ -3,43 +3,43 @@ class Solution {
 public:
     long long minimumDifference(vector<int>& nums) 
     {
-        int n = nums.size()/3;                
-                        
-        LL rollingSum = 0;
-        vector<LL>leftMin(3*n);                       
+        int n = nums.size()/3;
+        
+        vector<LL>leftMin(3*n); 
         priority_queue<int>pq;
-        for (int i=0; i<2*n; i++)
-        {            
+        LL sum = 0;
+        for (int i=0; i<3*n; i++)
+        {
             pq.push(nums[i]);
-            rollingSum += nums[i];
+            sum += nums[i];
             if (pq.size() > n)
             {
-                rollingSum -= pq.top();
+                sum -= pq.top();
                 pq.pop();
             }
-            if (pq.size() == n)            
-                leftMin[i] = rollingSum;            
+            leftMin[i] = sum;            
         }
         
-        rollingSum = 0;
-        priority_queue<int,vector<int>,greater<>>pq2;
-        vector<LL>rightMax(3*n);  
-        for (int i=3*n-1; i>=n; i--)
+        vector<LL>rightMax(3*n);
+        priority_queue<int, vector<int>, greater<>>pq2;
+        sum = 0;
+        for (int i=3*n-1; i>=0; i--)
         {
             pq2.push(nums[i]);
-            rollingSum += nums[i];
+            sum += nums[i];
             if (pq2.size() > n)
             {
-                rollingSum -= pq2.top();
+                sum -= pq2.top();
                 pq2.pop();
             }
-            if (pq.size() == n)
-                rightMax[i] = rollingSum;
-        }            
+            rightMax[i] = sum;            
+        }
         
         LL ret = LLONG_MAX;
         for (int i=n-1; i<2*n; i++)
             ret = min(ret, leftMin[i]-rightMax[i+1]);
-        return ret;
+            
+        return ret;        
     }
 };
+
