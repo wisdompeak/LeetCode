@@ -1184,6 +1184,7 @@
 1893.Check if All the Integers in a Range Are Covered (E)  
 [1943.Describe-the-Painting](https://github.com/wisdompeak/LeetCode/tree/master/Others/1943.Describe-the-Painting) (H-)  
 [2015.Average-Height-of-Buildings-in-Each-Segment](https://github.com/wisdompeak/LeetCode/tree/master/Others/2015.Average-Height-of-Buildings-in-Each-Segment) (H-)     
+[2158.Amount-of-New-Area-Painted-Each-Day](https://github.com/wisdompeak/LeetCode/tree/master/Others/2158.Amount-of-New-Area-Painted-Each-Day) (H-)      
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
