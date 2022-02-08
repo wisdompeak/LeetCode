@@ -38,7 +38,7 @@ for (int i=0; i<coins.size(); i++)
 for (int i=0; i<coins.size(); i++)
     for (int c=1; c<=amount; c++)
     {        
-        dp[c] += dp[c - k*coins[i]];
+        dp[c] += dp[c - coins[i]];
     }
 ```
 这是因为我们在计算dp[c]时，考虑的是末尾是coins[i]的方案。巧妙的是，我们不需要分类考虑dp[c]的末尾到底应该有几个，只需要考虑如果有一个的话，可以直接转化为dp[c-coins[i]]。而dp[c-coins[i]]是已经提前计算好了的（因为c-coins[i]比c小）、同样也表示末尾是coins[i]的方案。有点递归的感觉。
