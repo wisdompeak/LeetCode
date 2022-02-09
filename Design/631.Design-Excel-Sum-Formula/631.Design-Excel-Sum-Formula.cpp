@@ -1,24 +1,24 @@
 class Excel {    
-    int Table[27][26];
+    int Val[27][26];
     vector<string> Exp[27][26];
 public:
     Excel(int H, char W) 
     {                
         for (int i=0; i<27; i++)
             for (int j=0; j<26; j++)
-                Table[i][j] = 0;
+                Val[i][j] = 0;
     }
     
     void set(int r, char c, int v) 
     {        
-        Table[r][c-'A']=v;
+        Val[r][c-'A']=v;
         Exp[r][c-'A'].clear();
     }
     
     int get(int r, char c) 
     {
         if (Exp[r][c-'A'].empty())
-            return Table[r][c-'A'];
+            return Val[r][c-'A'];
         else
         {
             int ret = 0;
