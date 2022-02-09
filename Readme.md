@@ -290,7 +290,7 @@
 [716.Max-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/716.Max-Stack) (M+)    
 [355.Design-Twitter](https://github.com/wisdompeak/LeetCode/tree/master/Design/355.Design-Twitter) (H)    
 [535.Encode-and-Decode-TinyURL](https://github.com/wisdompeak/LeetCode/tree/master/Design/535.Encode-and-Decode-TinyURL) (M)    
-[631.Design-Excel-Sum-Formula](https://github.com/wisdompeak/LeetCode/tree/master/Design/631.Design-Excel-Sum-Formula) (H)    
+[631.Design-Excel-Sum-Formula](https://github.com/wisdompeak/LeetCode/tree/master/Design/631.Design-Excel-Sum-Formula) (H-)    
 [642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [895.Maximum-Frequency-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/895.Maximum-Frequency-Stack) (H)    
 [1146.Snapshot-Array](https://github.com/wisdompeak/LeetCode/tree/master/Design/1146.Snapshot-Array) (H)  
