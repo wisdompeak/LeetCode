@@ -1,12 +1,17 @@
 ### 631.Design-Excel-Sum-Formula
 
-本题需要注意的是操作的完整性。
+我们定义两个数据结构：
+```
+    int Val[27][26];
+    vector<string> Exp[27][26];
+```
+前者存数值，后者存表达式。
 
-Set：如果该单元格已经有公式，则需要先把公式从Map里清除，再对该单元格赋值。
+Set：对Val的对应位置赋值。如果该位置已经有Exp，则需要将Exp清空。
 
-Get：不是简单地从table里读数据。如果该单元格已经有公式，则该单元格依赖于其他单元格且可能未被更新。所以需要先执行一遍公式，即sum(r,c,Map[to_string(r)+c])更新该单元格的内容，再返回。
+Get：如果该位置没有Exp，则从Val里读取。否则就需要解析表达式，对每个位置上递归调用Get，然后相加。
 
-Sum：在根据公式计算时，对于所需要的单元格数值，不能简单地从table里读取，而是要通过get操作来实现，因为那个单元格可能存在公式且未更新。
+Sum：对Exp的对应位置赋值，然后调用Get。
 
 
 [Leetcode Link](https://leetcode.com/problems/design-excel-sum-formula)
