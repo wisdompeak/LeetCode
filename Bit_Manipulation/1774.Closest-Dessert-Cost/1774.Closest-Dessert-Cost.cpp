@@ -1,7 +1,7 @@
 class Solution {
 public:
     int closestCost(vector<int>& baseCosts, vector<int>& toppingCosts, int target) {
-        set<int> toppingsSet;
+        unordered_set<int> toppingsSet;
 
         int n = toppingCosts.size();
 
@@ -14,27 +14,40 @@ public:
             }
             toppingsSet.insert(sum);
         }
+        vector<int>toppings(toppingsSet.begin(), toppingsSet.end());
+        sort(toppings.begin(), toppings.end());
         
         int ret = INT_MAX;
+        int ret_diff = INT_MAX;
         for(int base: baseCosts) {
             int targetTopping = target - base;
 
-            auto it1 = toppingsSet.upper_bound(targetTopping);
-            auto it2 = it1;
-            if(it2 != toppingsSet.begin()) --it2;
-            if(it1 == toppingsSet.end()) --it1;
-            int cur;
-            int curDiff1 = abs(*it1 + base - target);
-            int curDiff2 = abs(*it2 + base - target);
-            if(curDiff1  < curDiff2) {
-                cur = *it1 + base;
-            } else {
-                cur = *it2 + base;
+            auto iter = lower_bound(toppings.begin(), toppings.end(), targetTopping);
+            if (iter!=toppings.end())
+            {
+                int cand = *iter;
+                if (abs(base+cand-target) < ret_diff)
+                {
+                    ret = base+cand;
+                    ret_diff = abs(base+cand-target);
+                }                    
+                else if (abs(base+cand-target) == ret_diff && base+cand < ret)
+                    ret = base+cand;                    
             }
-            int retDiff = abs(ret - target);
-            int curDiff = abs(cur - target);
-            if(curDiff < retDiff || (curDiff == retDiff && cur < ret)) ret = cur;
+            
+            if (iter!=toppings.begin())
+            {
+                int cand = *prev(iter);
+                if (abs(base+cand-target) < ret_diff)
+                {
+                    ret = base+cand;
+                    ret_diff = abs(base+cand-target);
+                }                    
+                else if (abs(base+cand-target) == ret_diff && base+cand < ret)
+                    ret = base+cand;                    
+            }            
         }
+        
         return ret;
     }
 };
