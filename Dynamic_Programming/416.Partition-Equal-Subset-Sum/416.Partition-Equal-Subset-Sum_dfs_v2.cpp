@@ -10,7 +10,7 @@ public:
     
     bool dfs(vector<int>& nums, int targetSum, int i, int sum)
     {
-        int hash = sum * 20005 + i;
+        int hash = sum * 1000 + i;
         if (visited.find(hash)!=visited.end())
             return false;
         
