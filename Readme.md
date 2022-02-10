@@ -727,6 +727,7 @@
     [1494.Parallel-Courses-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1494.Parallel-Courses-II) (H)   
     [1655.Distribute-Repeating-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1655.Distribute-Repeating-Integers) (H)  
     [1986.Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1986.Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks) (M+)     
+    [2152.Minimum-Number-of-Lines-to-Cover-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2152.Minimum-Number-of-Lines-to-Cover-Points) (H-)     
     * ``带权二分图``   
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
