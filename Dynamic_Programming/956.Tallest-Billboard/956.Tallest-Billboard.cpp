@@ -15,7 +15,7 @@ public:
                 int j = diff+B;
                 if (dp_temp[j]==-1) continue;
                                 
-                if (diff+x<B) dp[j+x] = max(dp[j+x],dp_temp[j]+rods[i]);
+                if (diff+x<B) dp[j+x] = max(dp[j+x],dp_temp[j]+x);
                 if (diff-x>=-B) dp[j-x] = max(dp[j-x],dp_temp[j]);
             }            
         }
