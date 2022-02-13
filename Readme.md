@@ -732,6 +732,7 @@
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
 [1947.Maximum-Compatibility-Score-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1947.Maximum-Compatibility-Score-Sum) (H)  
+[2172.Maximum-AND-Sum-of-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2172.Maximum-AND-Sum-of-Array) (H)    
 * ``Catalan``   
 [096.Unique-Binary-Search-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/096.Unique-Binary-Search-Trees) (M+)  
 [1259.Handshakes-That-Don't-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1259.Handshakes-That-Don't-Cross) (M+)   
