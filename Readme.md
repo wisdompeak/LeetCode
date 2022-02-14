@@ -1046,6 +1046,7 @@
 [1911.Maximum-Alternating-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1911.Maximum-Alternating-Subsequence-Sum) (M+)  
 [2086.Minimum-Number-of-Buckets-Required-to-Collect-Rainwater-from-Houses](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2086.Minimum-Number-of-Buckets-Required-to-Collect-Rainwater-from-Houses) (M+)     
 [2136.Earliest-Possible-Day-of-Full-Bloom](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2136.Earliest-Possible-Day-of-Full-Bloom) (M+)      
+[2170.Minimum-Operations-to-Make-the-Array-Alternating](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2170.Minimum-Operations-to-Make-the-Array-Alternating) (M+)    
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
