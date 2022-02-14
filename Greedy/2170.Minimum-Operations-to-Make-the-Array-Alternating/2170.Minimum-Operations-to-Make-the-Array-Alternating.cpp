@@ -23,23 +23,21 @@ public:
             count2++;
         }
         
+        vector<pair<int,int>>temp1(Map1.begin(), Map1.end());        
         vector<pair<int,int>>temp2(Map2.begin(), Map2.end());
+        sort(temp1.begin(), temp1.end(), cmp);
         sort(temp2.begin(), temp2.end(), cmp);
         
-        int ret = n;
-        for (auto& x: Map1)
-        {            
-            int key = x.first, freq = x.second;
-            int ans = count1-freq;
-            
-            if (temp2[0].first == key)
-                ans += count2 - (temp2.size()==1?0:temp2[1].second);
-            else
-                ans += count2 - temp2[0].second;
-            
-            ret = min(ret, ans);
+        if (temp1.size()==1) temp1.push_back({0,0});
+        if (temp2.size()==1) temp2.push_back({0,0});
+                
+        if (temp1[0].first!=temp2[0].first)
+            return n - temp1[0].second - temp2[0].second;
+        else
+        {
+            int x = count1 - temp1[0].second + count2 - temp2[1].second;
+            int y = count1 - temp1[1].second + count2 - temp2[0].second;
+            return min(x,y);
         }
-        
-        return ret;
     }
 };
