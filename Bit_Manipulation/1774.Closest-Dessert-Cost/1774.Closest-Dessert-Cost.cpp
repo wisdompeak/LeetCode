@@ -1,16 +1,18 @@
 class Solution {
 public:
     int closestCost(vector<int>& baseCosts, vector<int>& toppingCosts, int target) {
-        unordered_set<int> toppingsSet;
-
-        int n = toppingCosts.size();
-
-        for(int state = 0; state < (1 << (2 * n)); ++state) {
+        int m = toppingCosts.size();
+        
+        unordered_set<int> toppingsSet;        
+        for(int state = 0; state < pow(3,m); ++state) 
+        {
+            int s = state;
             int sum = 0;
-            for(int i = 0; i < n; ++i) {
-                int cur = (state >> (2 * i)) & 3;
-                if(!cur || cur == 3) continue;
+            for(int i = 0; i < m; ++i) 
+            {
+                int cur = s%3;                
                 sum += toppingCosts[i] * cur;
+                s/=3;
             }
             toppingsSet.insert(sum);
         }
