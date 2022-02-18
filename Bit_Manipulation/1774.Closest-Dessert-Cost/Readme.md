@@ -1,7 +1,5 @@
 ### 1774.Closest-Dessert-Cost
 
-本题需要暴力枚举所有toppings的选配方案。这样的枚举对每种topping都在0，1，2中选择，并没有任何优化、剪支的空间，所以相比于DFS的递归做法（需要递归十次），用bit mask来说更为方便。
+本题需要暴力枚举所有toppings的选配方案。枚举时对每种topping的数量都在0，1，2中选择，所以可以将topping的组合用一个含有m个bit的三进制数表示。我们对0到3^m进行循环，查看每个三进制数所对应的topping组合方案需要的cost，记录在toppingsSet里去重，并对按照从小到大排序。
 
-我们注意要toppings只有十种，如果用每两个bit位来表示一种topping的方案（00，01，10，11），那么总共需要20个bit位。注意到01和10都可以用来表示该topping选择一份。尽管有些状态的数目上有些浪费，但即使如此，考虑2^20是1e6量级，这样的暴力是可以接收的。
-
-我们将所有的toppings的选配方案去重后按照从小到大排序。当我们遍历base时，我们希望找与target-base最接近的topping，这里就可以用二分搜索。
+然后我们遍历base，显然我们在toppingsSet里希望找与target-base最接近的topping，这里就可以用二分搜索。
