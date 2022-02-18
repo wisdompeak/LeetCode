@@ -80,7 +80,6 @@
 1201.Ugly-Number-III (TBD)    
 [1533.Find-the-Index-of-the-Large-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1533.Find-the-Index-of-the-Large-Integer) (M)  
 [1712.Ways-to-Split-Array-Into-Three-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1712.Ways-to-Split-Array-Into-Three-Subarrays) (H)  
-[1774.Closest-Dessert-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1774.Closest-Dessert-Cost) (M)  
 [1889.Minimum-Space-Wasted-From-Packaging](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1889.Minimum-Space-Wasted-From-Packaging) (H-)  
 [1901.Find-a-Peak-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1901.Find-a-Peak-Element-II) (H)  
 [2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps) (H)    
@@ -766,6 +765,7 @@
 [1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix) (M+)  
 [1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List) (H-)  
 [1601.Maximum-Number-of-Achievable-Transfer-Requests](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1601.Maximum-Number-of-Achievable-Transfer-Requests) (H-)  
+[1774.Closest-Dessert-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1774.Closest-Dessert-Cost) (M)  
 [2002.Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2002.Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences) (M)          
 [2151.Maximum-Good-People-Based-on-Statements](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2151.Maximum-Good-People-Based-on-Statements) (M+)      
     * ``Meet in the Middle``       
