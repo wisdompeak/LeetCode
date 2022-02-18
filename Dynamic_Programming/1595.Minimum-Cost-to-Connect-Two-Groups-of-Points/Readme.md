@@ -18,7 +18,8 @@ for (int i=0; i<m; i++)
   for (int state=0; state<(1<<n); state++)    
   {
     for (int subset : state)
-      dp[i][state] = dp[i-1][state-subset] + cost[i][subset]
+      dp[i][state] = min{dp[i-1][state-subset] + cost[i][subset]};
+    dp[i][state] = min(dp[i][state], dp[i-1][state] + minCost[i]);
   }
 ```
 注意对于state的遍历嵌套subset的遍历，时间复杂度并不是``` 2^N * 2^N```，而是```3^N```。你可以想象，对于每一个bit，在外、里两层的状态只可能是```10,11,00```。
