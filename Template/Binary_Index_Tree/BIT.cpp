@@ -1,15 +1,21 @@
-const int MAX_N = 100000;
-
-class Solution {
-public:    
-    long long bitArr[MAX_N+1];
-    long long nums[MAX_N+1];  // Note: nums is 1-index
+class BIT{
+    public:
+    int N;    
+    vector<long long>bitArr; // Note: all arrays are 1-index
+    vector<long long>nums;
     long long M = 1e9+7;
+    
+    BIT(int N)
+    {
+        this->N = N;
+        bitArr.resize(N+1);
+        nums.resize(N+1);        
+    }
 
-    // increase nums[i] by delta  (1-index)
+    // increase nums[i] by delta
     void updateDelta(int i, long long delta) {
         int idx = i;
-        while (idx <= MAX_N)
+        while (idx <= N)
         {
             bitArr[idx]+=delta;
             bitArr[idx] %= M;
@@ -17,7 +23,7 @@ public:
         }
     }
 
-    // sum of a range nums[1:j] inclusively, 1-index
+    // sum of a range nums[1:j] inclusively
     long long queryPreSum(int idx){
         long long result = 0;
         while (idx){
@@ -31,5 +37,18 @@ public:
     // sum of a range nums[i:j] inclusively
     long long sumRange(int i, int j) {    
         return queryPreSum(j)-queryPreSum(i-1);
-    }    
+    } 
 };
+
+int main()
+{
+    int N = 100000;
+    BIT bit(N);
+    vector<int>nums(N);
+    // cin>> nums ....
+    
+    for (int i=1; i<nums.size(); i++) {
+        bit.updateDelta(i, nums[i]);
+        cout << bit.sumRange(1,i);
+    }
+}
