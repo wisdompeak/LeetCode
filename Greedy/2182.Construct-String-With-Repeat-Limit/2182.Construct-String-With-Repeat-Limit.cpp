@@ -16,12 +16,19 @@ public:
         {
             auto x = pq.top();
             pq.pop();
+            
+            if (x.second <= repeatLimit)
+            {
+                for (int i=0; i<x.second; i++)
+                    ret.push_back(x.first);
+                continue;
+            }
+            
             int k = min(x.second, repeatLimit);
             for (int i=0; i<k; i++)
                 ret.push_back(x.first);            
             x.second -= k;
-            
-            if (x.second == 0) continue;
+                        
             if (pq.empty()) return ret;
             
             auto y = pq.top();
