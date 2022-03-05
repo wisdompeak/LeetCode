@@ -633,6 +633,7 @@
 [1546.Maximum-Number-of-Non-Overlapping-Subarrays-With-Sum-Equals-Target](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1546.Maximum-Number-of-Non-Overlapping-Subarrays-With-Sum-Equals-Target) (M+)   
 [1626.Best-Team-With-No-Conflicts](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1626.Best-Team-With-No-Conflicts) (M)  
 [1691.Maximum-Height-by-Stacking-Cuboids](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1691.Maximum-Height-by-Stacking-Cuboids) (H)  
+[2188.Minimum-Time-to-Finish-the-Race](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2188.Minimum-Time-to-Finish-the-Race) (H-)    
 * ``走迷宫型``   
 [120.Triangle](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/120.Triangle) (E)  
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
