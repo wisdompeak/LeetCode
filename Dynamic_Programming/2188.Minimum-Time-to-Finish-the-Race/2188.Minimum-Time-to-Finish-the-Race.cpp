@@ -5,7 +5,7 @@ class Solution {
         if (a[1]!=b[1]) 
             return a[1] < b[1];
         else
-            return a[0] > b[0];
+            return a[0] < b[0];
     }
 public:
     int minimumFinishTime(vector<vector<int>>& tires, int changeTime, int numLaps) 
@@ -13,8 +13,7 @@ public:
         sort(tires.begin(), tires.end(), cmp);
         vector<vector<int>>newTires;
         for (int i=0; i<tires.size(); i++)
-        {            
-            if (i+1<tires.size() && tires[i][1]==tires[i+1][1]) continue;
+        {                        
             if (!newTires.empty() && newTires.back()[0] <= tires[i][0])
                 continue;
             newTires.push_back(tires[i]);                
