@@ -1,21 +1,20 @@
-class Solution {
-    int ret = 0;
+class Solution {    
     int temp[50001];
 public:
     int reversePairs(vector<int>& nums) 
     {
         int n = nums.size();
-        vector<int>sorted = nums;
-        helper(nums, sorted, 0, n-1);
-        return ret;
+        vector<int>sorted = nums;        
+        return helper(nums, sorted, 0, n-1);        
     }
 
-    void helper(vector<int>& nums, vector<int>& sorted, int a, int b)
+    int helper(vector<int>& nums, vector<int>& sorted, int a, int b)
     {
-        if (a>=b) return;
+        if (a>=b) return 0;
+        int ret = 0;
         int mid = a+(b-a)/2;
-        helper(nums, sorted, a, mid);
-        helper(nums, sorted, mid+1, b);
+        ret += helper(nums, sorted, a, mid);
+        ret += helper(nums, sorted, mid+1, b);
 
         for (int j=mid+1; j<=b; j++)
         {
@@ -52,5 +51,7 @@ public:
         }
         for (int i=0; i<b-a+1; i++)
             sorted[a+i] = temp[i];
+        
+        return ret;
     }
 };
