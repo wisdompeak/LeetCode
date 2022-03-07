@@ -1,70 +1,61 @@
 class Solution {
+    int temp[50001];
 public:
     int minMovesToMakePalindrome(string s) 
     {
         int n = s.size();
+        int count = 0; // how many left-pair characters have been processed
         int ret = 0;
         
         unordered_map<char, deque<int>>dq;
-        for (int i=0; i<s.size(); i++)
+        for (int i=0; i<n; i++)
             dq[s[i]].push_back(i);
         
         vector<int>arr;
-        int count = 0;  // how many left-pair characters have been processed
-        
         for (int i=0; i<n; i++)
-        {            
-            if (dq[s[i]].empty()) 
+        {
+            if (dq[s[i]].empty())
                 continue;
             else if (dq[s[i]].size()==1)
             {
-                ret += abs(i+(n/2-count)-n/2);
+                ret += i + (n/2-count) - n/2;
                 dq[s[i]].pop_back();
-            }                
+            }
             else
             {
-                dq[s[i]].pop_front();
                 arr.push_back(dq[s[i]].back());
+                dq[s[i]].pop_front();
                 dq[s[i]].pop_back();
                 ret += i-count;
-                count++;
+                count++;                
             }
         }
         
         reverse(arr.begin(), arr.end());
-                
-        vector<int> temp = countSmaller(arr);        
-        ret += accumulate(temp.begin(), temp.end(), 0);
-        
-        return ret;
+        return ret + reversePairs(arr);
     }
     
-    vector<int> countSmaller(vector<int> nums) 
-    {        
-        int N = nums.size();
-        if (N==0) return {};
-        
-        vector<int>sortedNums = nums;        
-        vector<int>counts(N,0);
-        DivideConque(nums,sortedNums, counts, 0, nums.size()-1);  // 0表示起点，N-1表示终点
-        return counts;
-    }
-    
-    void DivideConque(vector<int>&nums, vector<int>&sortedNums, vector<int>&counts, int start, int end)
+    int reversePairs(vector<int>& nums) 
     {
-        if (start==end) return;
-        
-        int mid = start+(end-start)/2;
-        DivideConque(nums, sortedNums, counts, start,mid);
-        DivideConque(nums, sortedNums, counts, mid+1, end);
-        
-        for (int i=start; i<=mid; i++)
+        int n = nums.size();
+        vector<int>sorted = nums;        
+        return helper(nums, sorted, 0, n-1);        
+    }
+
+    int helper(vector<int>& nums, vector<int>& sorted, int a, int b)
+    {
+        if (a>=b) return 0;
+        int ret = 0;
+        int mid = a+(b-a)/2;
+        ret += helper(nums, sorted, a, mid);
+        ret += helper(nums, sorted, mid+1, b);
+
+        for (int j=mid+1; j<=b; j++)
         {
-            int val = nums[i];
-            auto pos = lower_bound(sortedNums.begin()+mid+1, sortedNums.begin()+end+1,val);            
-            counts[i] += pos-(sortedNums.begin()+mid+1);
+            auto iter = upper_bound(sorted.begin()+a, sorted.begin()+mid+1, (long)nums[j]);
+            ret += sorted.begin()+mid+1 - iter;
         }
-       
-        sort(sortedNums.begin()+start,sortedNums.begin()+end+1);        
+        sort(sorted.begin()+a, sorted.begin()+b+1);
+        return ret;
     }
 };
