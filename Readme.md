@@ -317,6 +317,7 @@
 [1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1190.Reverse-Substrings-Between-Each-Pair-of-Parentheses) (H-)  
 [1209.Remove-All-Adjacent-Duplicates-in-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1209.Remove-All-Adjacent-Duplicates-in-String-II) (M+)   
 [1586.Binary-Search-Tree-Iterator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1586.Binary-Search-Tree-Iterator-II) (H)  
+[2197.Replace-Non-Coprime-Numbers-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2197.Replace-Non-Coprime-Numbers-in-Array) (H-)     
 * ``monotonic stack``    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
