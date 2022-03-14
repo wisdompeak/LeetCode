@@ -1,4 +1,4 @@
-
+using PDI = pair<double, int>;
 class Solution {
 public:
     double maxProbability(int n, vector<vector<int>>& edges, vector<double>& succProb, int start, int end) 
@@ -10,15 +10,14 @@ public:
             Next[edges[i][1]].push_back({edges[i][0], -log(succProb[i])});
         }
 
-        set<tuple<double, int>>Set; // {dist, node}
-        Set.insert({0, start});
         vector<double>prob(n,-1);
-
-        while (!Set.empty())
+        priority_queue<PDI, vector<PDI>, greater<>> pq;
+        pq.push({0, start});
+        
+        while (!pq.empty())
         {
-            double dist = get<0>(*Set.begin());
-            int curNode = get<1>(*Set.begin());            
-            Set.erase(Set.begin());
+            auto [dist, curNode] = pq.top();
+            pq.pop();
 
             if (prob[curNode]!=-1) continue;
             prob[curNode] = dist;
@@ -30,10 +29,10 @@ public:
                 int nextNode = next.first;
                 double edge = next.second;
                 if (prob[nextNode]!=-1) continue;
-                Set.insert({dist + edge, nextNode});
+                pq.push({dist + edge, nextNode});
             }
         }
-
+        
         return 0;
     }
 };
