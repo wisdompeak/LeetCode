@@ -507,6 +507,7 @@
 [1810.Minimum-Path-Cost-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1810.Minimum-Path-Cost-in-a-Hidden-Grid) (M+)  
 [1976.Number-of-Ways-to-Arrive-at-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1976.Number-of-Ways-to-Arrive-at-Destination) (H-)    
 [2093.Minimum-Cost-to-Reach-City-With-Discounts](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)      
+[2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)     
 * ``Dijkstra (for Bipatite Graph)``   
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
