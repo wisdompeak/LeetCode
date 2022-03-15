@@ -423,7 +423,6 @@
 [1718.Construct-the-Lexicographically-Largest-Valid-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1718.Construct-the-Lexicographically-Largest-Valid-Sequence) (H-)  
 [1723.Find-Minimum-Time-to-Finish-All-Jobs](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1723.Find-Minimum-Time-to-Finish-All-Jobs) (H-)  
 [1766.Tree-of-Coprimes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1766.Tree-of-Coprimes) (H-)  
-[1778.Shortest-Path-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1778.Shortest-Path-in-a-Hidden-Grid) (H-)  
 [2014.Longest-Subsequence-Repeated-k-Times](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2014.Longest-Subsequence-Repeated-k-Times) (H)     
 [2056.Number-of-Valid-Move-Combinations-On-Chessboard](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2056.Number-of-Valid-Move-Combinations-On-Chessboard) (H)    
 [2065.Maximum-Path-Quality-of-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2065.Maximum-Path-Quality-of-a-Graph) (M)      
@@ -441,11 +440,13 @@
 [329.Longest-Increasing-Path-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/DFS/329.Longest-Increasing-Path-in-a-Matrix) (M)  
 [638.Shopping-Offers](https://github.com/wisdompeak/LeetCode/tree/master/DFS/638.Shopping-Offers) (M+)    
 [403.Frog-Jump](https://github.com/wisdompeak/LeetCode/tree/master/DFS/403.Frog-Jump) (M+)    
-[489.Robot-Room-Cleaner](https://github.com/wisdompeak/LeetCode/blob/master/DFS/489.Robot-Room-Cleaner) (H)   
-[1810.Minimum-Path-Cost-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1810.Minimum-Path-Cost-in-a-Hidden-Grid) (M+)  
 [546.Remove-Boxes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/546.Remove-Boxes) (H+)   
 [1340.Jump-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1340.Jump-Game-V) (M+)  
 [1815.Maximum-Number-of-Groups-Getting-Fresh-Donuts](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1815.Maximum-Number-of-Groups-Getting-Fresh-Donuts) (H-)  
+* ``hidden matrix``    
+[489.Robot-Room-Cleaner](https://github.com/wisdompeak/LeetCode/blob/master/DFS/489.Robot-Room-Cleaner) (H)   
+[1778.Shortest-Path-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1778.Shortest-Path-in-a-Hidden-Grid) (H-)  
+[1810.Minimum-Path-Cost-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1810.Minimum-Path-Cost-in-a-Hidden-Grid) (M+)  
 
 #### [BFS](https://github.com/wisdompeak/LeetCode/tree/master/BFS)
 [127.Word-Ladder](https://github.com/wisdompeak/LeetCode/tree/master/BFS/127.Word-Ladder) (M+)  
