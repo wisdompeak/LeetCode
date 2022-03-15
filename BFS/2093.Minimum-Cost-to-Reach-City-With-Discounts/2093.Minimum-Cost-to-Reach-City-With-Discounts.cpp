@@ -11,27 +11,27 @@ public:
             next[x[1]].push_back({x[0], x[2]});
         }
                 
-        vector<vector<int>>dist(n, vector<int>(discounts+1, INT_MAX));
+        vector<vector<int>>cost(n, vector<int>(discounts+1, INT_MAX));
         
         priority_queue<AI3, vector<AI3>, greater<>>pq;        
-        pq.push({0,0,discounts}); // {dist, node, discounts}
+        pq.push({0,0,discounts}); // {cost, node, discounts}
                 
         while (!pq.empty())
         {
-            auto [d, curNode, times] = pq.top();
+            auto [c, curNode, times] = pq.top();
             pq.pop();
             
-            if (d >= dist[curNode][times]) continue;
-            dist[curNode][times] = d;
-            if (curNode==n-1) return d;
+            if (c >= cost[curNode][times]) continue;
+            cost[curNode][times] = c;
+            if (curNode==n-1) return c;
             
             for (auto nxt: next[curNode])
             {
                 auto [nxtNode, len] = nxt;
-                if (dist[nxtNode][times]!=INT_MAX) continue;                
-                pq.push({d+len, nxtNode, times});
+                if (cost[nxtNode][times]!=INT_MAX) continue;                
+                pq.push({c+len, nxtNode, times});
                 if (times>=1)
-                    pq.push({d+len/2, nxtNode, times-1}); 
+                    pq.push({c+len/2, nxtNode, times-1}); 
             }
         }
         
