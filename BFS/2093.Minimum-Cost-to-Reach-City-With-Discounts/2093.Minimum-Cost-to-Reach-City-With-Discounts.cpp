@@ -1,41 +1,39 @@
-using PII = pair<int,int>;
 using AI3 = array<int,3>;
 class Solution {
 public:
     int minimumCost(int n, vector<vector<int>>& highways, int discounts) 
     {
-        vector<vector<PII>>next(n);
+        vector<vector<pair<int,int>>>next(n);
         for (auto x: highways)
         {
-            next[x[0]].push_back({x[1], x[2]});
-            next[x[1]].push_back({x[0], x[2]});
+            int a = x[0], b = x[1], w = x[2];
+            next[a].push_back({b, w});
+            next[b].push_back({a, w});
         }
-                
-        vector<vector<int>>cost(n, vector<int>(discounts+1, INT_MAX));
         
-        priority_queue<AI3, vector<AI3>, greater<>>pq;        
-        pq.push({0,0,discounts}); // {cost, node, discounts}
-                
+        vector<vector<int>>cost(n, vector<int>(discounts+1, INT_MAX));  // cost[city][discounts]
+        priority_queue<AI3, vector<AI3>, greater<>> pq; // {cost, city, discounts}
+        pq.push({0,0,discounts});
+        
         while (!pq.empty())
         {
-            auto [c, curNode, times] = pq.top();
+            auto [c, cur, times] = pq.top();
             pq.pop();
             
-            if (c >= cost[curNode][times]) continue;
-            cost[curNode][times] = c;
-            if (curNode==n-1) return c;
+            if (c >= cost[cur][times]) continue;
+            cost[cur][times] = c;
+            if (cur == n-1) return c;
             
-            for (auto nxt: next[curNode])
+            for (auto x: next[cur])
             {
-                auto [nxtNode, len] = nxt;
-                if (cost[nxtNode][times]!=INT_MAX) continue;                
-                pq.push({c+len, nxtNode, times});
-                if (times>=1)
-                    pq.push({c+len/2, nxtNode, times-1}); 
-            }
+                auto [nxt, toll] = x;
+                if (cost[nxt][times]==INT_MAX)                    
+                    pq.push({c+toll, nxt, times});
+                if (times >= 1 && cost[nxt][times-1]==INT_MAX)
+                    pq.push({c+toll/2, nxt, times-1});                
+            }            
         }
         
-        return -1;
-        
+        return -1;        
     }
 };
