@@ -25,7 +25,7 @@ public:
         n = maze[0].size();
         
         vector<vector<int>>dist(m, vector<int>(n, INT_MAX));
-        vector<vector<string>>inst(m, vector<string>(n, "z"));
+        string ret;
         
         priority_queue<TP, vector<TP>, greater<>> pq;
         pq.push({0, "", ball[0], ball[1]});
@@ -36,10 +36,13 @@ public:
             pq.pop();
             
             if (d > dist[x][y]) continue;            
-            dist[x][y] = d;
-            inst[x][y] = min(inst[x][y], s);
+            dist[x][y] = d;            
                         
-            if (x==hole[0] && y==hole[1]) continue;
+            if (x==hole[0] && y==hole[1]) 
+            {
+                ret = s;
+                break;
+            }
             
             for (int k=0; k<4; k++)
             {                
@@ -48,8 +51,7 @@ public:
                 int j = y+dir[k].second*step;
 
                 char ch='0'+k;
-                if (d+step > dist[i][j]) continue;
-                if (d+step == dist[i][j] && (s+ch) >= inst[i][j]) continue;
+                if (d+step >= dist[i][j]) continue;                
                 pq.push({d+step, s+ch, i, j});
             }
         }
@@ -57,7 +59,6 @@ public:
         if (dist[hole[0]][hole[1]]==INT_MAX)
             return "impossible";
         
-        string ret = inst[hole[0]][hole[1]];
         for (int i=0; i<ret.size(); i++)
         {
             if (ret[i]=='0') ret[i] = 'd';
