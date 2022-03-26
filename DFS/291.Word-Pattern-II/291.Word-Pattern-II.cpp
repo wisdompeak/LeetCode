@@ -10,8 +10,7 @@ public:
     
     bool dfs(int x, int y, string& pattern, string& s)
     {
-        if (x==pattern.size() && y==s.size())
-            return true;
+        if (x==pattern.size()) return y==s.size();
         
         char ch = pattern[x];
         if (Map1.find(ch)!=Map1.end())
