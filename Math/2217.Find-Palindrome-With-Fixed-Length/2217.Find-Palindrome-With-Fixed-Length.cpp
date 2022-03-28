@@ -15,43 +15,39 @@ public:
                 continue;
             }
             
+            int m = intLength/2;            
             if (intLength%2==0)
             {
-                int m = intLength/2;
-                if (k > 9*pow(10, m-1))
+                LL a = getKth(m, k);
+                if (a==-1)
                 {
                     rets.push_back(-1);
                     continue;
                 }
-                else
-                {
-                    LL a = pow(10, m-1) + k - 1;
-                    LL b = flip(a);
-                    rets.push_back(a*pow(10,m)+b);                    
-                }
+                LL b = flip(a);
+                rets.push_back(a*pow(10, m) + b);
             }
             else
             {
-                int m = intLength/2;
-                if (k > 9*pow(10, m-1)*10)
+                LL a = getKth(m+1, k);
+                if (a==-1)
                 {
                     rets.push_back(-1);
                     continue;
                 }
-                else
-                {
-                    LL k1 = (k-1)/10;
-                    LL k2 = (k-1)%10;
-                    
-                    LL a = pow(10, m-1) + k1;
-                    LL b = flip(a);
-                    LL c = k2;
-                    
-                    rets.push_back(a*pow(10,m+1)+c*pow(10,m)+b);                    
-                }
-            }            
+                LL c = a%10;
+                a = a/10;
+                LL b = flip(a);
+                rets.push_back(a*pow(10, m+1) + c*pow(10, m) + b);
+            }
         }
         return rets;
+    }
+
+    LL getKth(int m, int k)
+    {
+        if (k > 9*pow(10, m-1)) return -1;
+        else return pow(10, m-1) + k-1;
     }
     
     LL flip(LL x)
