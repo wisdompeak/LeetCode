@@ -123,7 +123,7 @@
 [2102.Sequentially-Ordinal-Rank-Tracker](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2102.Sequentially-Ordinal-Rank-Tracker) (H-)    
 [2137.Pour-Water-Between-Buckets-to-Make-Water-Levels-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2137.Pour-Water-Between-Buckets-to-Make-Water-Levels-Equal) (M)      
 
-#### [Hash Table](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
+#### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
 [149.Max-Points-on-a-Line](https://github.com/wisdompeak/LeetCode/tree/master/Hash/149.Max-Points-on-a-Line) (H)     
 [166.Fraction-to-Recurring-Decimal](https://github.com/wisdompeak/LeetCode/tree/master/Hash/166.Fraction-to-Recurring-Decimal) (M)   
@@ -149,6 +149,7 @@
 [1487.Making-File-Names-Unique](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1487.Making-File-Names-Unique) (M+)  
 [1573.Number-of-Ways-to-Split-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1573.Number-of-Ways-to-Split-a-String) (M)  
 [2131.Longest-Palindrome-by-Concatenating-Two-Letter-Words](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2131.Longest-Palindrome-by-Concatenating-Two-Letter-Words) (M)     
+[2198.Number-of-Single-Divisor-Triplets](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2198.Number-of-Single-Divisor-Triplets) (H-)      
 * ``Hash+Prefix``    
 [525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/525.Contiguous-Array) (M)    
 [930.Binary-Subarrays-With-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Hash/930.Binary-Subarrays-With-Sum) (M)   
