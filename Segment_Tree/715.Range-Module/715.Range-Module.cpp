@@ -8,64 +8,47 @@ public:
     
     void addRange(int left, int right) 
     {       
-        auto pos1 = Map.lower_bound(left);
+        auto iter1 = Map.lower_bound(left);
         int leftboundary=left;
-        if (pos1!=Map.begin() && prev(pos1,1)->second>=left)
-            leftboundary = prev(pos1,1)->first;
+        if (iter1!=Map.begin() && prev(iter1,1)->second>=left)
+            leftboundary = prev(iter1,1)->first;
                             
-        auto pos2 = Map.upper_bound(right);
+        auto iter2 = Map.upper_bound(right);
         int rightboundary = right;
-        if (pos2!=Map.begin())
-            rightboundary = max(right, prev(pos2,1)->second);
+        if (iter2!=Map.begin())
+            rightboundary = max(right, prev(iter2,1)->second);
         
-        Map.erase(pos1,pos2);
+        Map.erase(iter1,iter2);
         Map[leftboundary]=rightboundary;        
-        
-        /*
-        for (auto a:Map)
-            cout<<a.first<<":"<<a.second<<endl;
-        cout<<"added"<<endl;
-        */
     }
     
     bool queryRange(int left, int right) 
     {
-        auto pos = Map.upper_bound(left);
-        if (pos==Map.begin())
-            return false;
-        pos = prev(pos,1);
-        return (pos->second>=right);
+        auto iter = Map.upper_bound(left);
+        return (iter!=Map.begin() && prev(iter)->second>=right);
     }
     
     void removeRange(int left, int right) 
     {
-        auto pos1 = Map.lower_bound(left);
-        bool flag1=0;
-        int temp1;
-        if (pos1!=Map.begin() && prev(pos1,1)->second > left)
+        auto iter1 = Map.lower_bound(left);
+        int start1 = 0, end1 = 0;
+        if (iter1!=Map.begin() && prev(iter1)->second > left)
         {
-            temp1 = prev(pos1,1)->first;
-            flag1=1;
+            start1 = prev(iter1)->first;
+            end1 = left;
         }
-        
-        auto pos2 = Map.lower_bound(right);
-        int temp2;
-        bool flag2=0;        
-        if (pos2!=Map.begin() && prev(pos2,1)->second > right)
+
+        auto iter2 = Map.lower_bound(right);
+        int start2 = 0, end2 = 0;
+        if (iter2!=Map.begin() && prev(iter2)->first < right)
         {
-            temp2 = prev(pos2,1)->second;
-            flag2=1;
+            start2 = right;
+            end2 = prev(iter2)->second;
         }
-        
-        Map.erase(pos1,pos2);
-        if (flag1) Map[temp1]=left;
-        if (flag2) Map[right]=temp2;
-        
-        /*
-        for (auto a:Map)
-            cout<<a.first<<":"<<a.second<<endl;
-        cout<<"removed"<<endl;    
-        */
+
+        Map.erase(iter1, iter2);
+        if (start1 < end1) Map[start1] = end1;
+        if (start2 < end2) Map[start2] = end2;
     }
 };
 
