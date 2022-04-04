@@ -2,64 +2,45 @@
 
 #### 解法1：使用有序map
 
-对于这种interval类型的题目，我们选用ordered_map，将左边界作为key，右边界作为val，则所有的interval都按左边界从小到大排序。
+我们需要在数轴上维护一个“干净的”区间序列，即每个区间从小到大排列，但彼此互不重合。每次addRange或removeRange时，都要依然维护区间的“干净”，这样queryRange时就方便很多。
 
-加入一个interval时，要考虑这么几点：
+类似2213，我们会选择C++的有序map，将左边界作为key，右边界作为val，则所有的区间都按key（即左边界）从小到大排序。
 
-1. 新加入的区间是否和左边的某个区间部分重合？是的话，那么左边的那个区间就要拉长、重新赋值其右边界；如果不是，那么left就是一个新的左边界。
-2. 新加入的区间是否和右边的某个区间部分重合？是的话，那么右边的那个区间就要删除它的key，其右边界将作为一个新区间的右边界。
-3. 新加入的区间范围内的任何key都是需要抹去的。
-4. 新建立一个区间。
-
-代码如下：
-```cpp
-int leftBound = left;
-auto pos1=Map.lower_bound(left);
-if (pos1!=Map.begin() && prev(pos1,1)->second >= left)  //左边界部分重合
-    leftBound = prev(pos1,1)->first;
-    
-int rightBound = right;
-auto pos2=Map.upper_bound(right);
-if (pos2!=Map.begin() && prev(pos2,1)->first <= right)  //右边界部分重合
-    rightBound = max(right, prev(pos2,1)->second);
-    
-Map.erase(pos1,pos2) // 删除一个前闭后开的迭代器区间
-Map[leftBound]=rightBound;
+##### AddRange
+加入一个新区间[left,right]时，我们考虑它与数轴上已有区间的关系。
 ```
-
-删除一个interval时，要考虑这么几点：
-
-1. 要删除的区间是否和左边的某个区间部分重合？是的话，那么左边的那个区间就要缩短，重新赋值其右边界。
-2. 要删除的区间是否和右边的某个区间部分重合？是的话，那么右边的那个区间就要缩短，重新定义其左边界。
-3. 要删除的区间范围内的任何key都是需要抹去的。
-
-代码如下：
-```cpp
-auto pos1=Map.lower_bound(left);
-bool flag1=0;
-if (pos1!=Map.begin() && prev(pos1,1)->second >= left)
-{
-    flag1=1;
-    temp1=prev(pos1,1)->second;
-}
-
-auto pos2=Map.lower_bound(right);
-bool flag=0;
-int temp2;
-if (pos2!=Map.begin() && prev(pos2,1)->second > right)
-{
-    flag2=1;
-    temp2=prev(pos2,1)->second;
-}
-
-Map.erase(pos1,pos2);
-if (flag1) Map[temp1]=left;
-if (flag2) Map[right]=temp2;
+      A            B         C         D
+L____________   ______  __________R  _____
+   left_____________________right
 ```
-特别注意，对于迭代器的修改操作，得安排在删除操作之后进行。
+如上图所示，我们的目标是：删除已有的区间A、B、C，同时加入一个新的区间[L,R].
 
+如何定位区间A？A是左边界最后一个小于left的区间。所以我们用```iter1=prev(Map.lower_bound(left))```来定位这个区间，同时它可以拓展左边界，即```L = iter1->first```. 注意如果prev操作会越界的话，那么iter1就定位在Map.lower_bound(left)，这是我们想要删除的最左边的区间。
 
-#### 解法2：使用线段树
+如果定位区间C？其实更容易定位的是区间D，那么就是第一个左边界大于right的区间。所以我们用```iter2=Map.upper_bound(right)```来定位这个区间。于是从iter1到iter2（不包括iter2本身）这些区间都可以删除，于是直接用```Map.erase(iter1, iter2)```. 注意到prev(iter2)就是区间C，区间C的右边界可能帮助我们拓展右边界，即```R = max(right, prev(iter2)->second)```.
+
+最终我们添加新的区间[L,R].
+
+##### RemoveRange
+删除一个新区间[left,right]时，我们类似地考虑它与数轴上已有区间的关系。
+```
+      A            B         C         D
+L____________   ______  __________R  _____
+   left_____________________right
+```
+如上图所示，我们的目标是：删除已有的区间A、B、C，同时加入两个新区间[L,left], [right,R].
+
+如何定位区间A？同上，A是左边界最后一个小于left的区间。所以我们用```iter1=prev(Map.lower_bound(left))```来定位这个区间。如果这个区间存在并且左边界比left更早，那么我们就要添加[L,left].
+
+如何定位C？同理，先定位区间D，即```iter2=Map.upper_bound(right)```，然后我们考察D的前一个区间C的右边界是否比right更晚，那么我们就要添加[right,R].
+
+注意，我们必须显操作```Map.erase(iter1, iter2)```，再添加这两个新区间。
+
+##### QueryRange
+
+只要用prev(Map.upper_bound(left))定位到左边界小于等于left的区间，再看区间右边界是否大于等于right即可。
+
+#### 解法2：使用线段树 （不推荐）
 
 此题适合标准的线段树模型和数据结构。从难度上将，本题是基于307和370基础上的更进一步，因为我们需要再设计一个remove的操作。
 
