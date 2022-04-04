@@ -1,22 +1,24 @@
 class RangeModule {
     map<int,int>Map;
 public:
-    RangeModule() 
-    {
-        Map.clear();
+    RangeModule() {
     }
     
     void addRange(int left, int right) 
     {       
-        auto iter1 = Map.lower_bound(left);
         int leftboundary=left;
-        if (iter1!=Map.begin() && prev(iter1,1)->second>=left)
-            leftboundary = prev(iter1,1)->first;
-                            
-        auto iter2 = Map.upper_bound(right);
         int rightboundary = right;
-        if (iter2!=Map.begin())
-            rightboundary = max(right, prev(iter2,1)->second);
+
+        auto iter1 = Map.lower_bound(left);
+        if (iter1!=Map.begin() && prev(iter1)->second>=left)
+        {
+            iter1 = prev(iter1);
+            leftboundary = iter1->first;
+        }            
+                            
+        auto iter2 = Map.upper_bound(right);        
+        if (iter2!=Map.begin() && prev(iter2)->second >= rightboundary)
+            rightboundary = prev(iter2)->second;
         
         Map.erase(iter1,iter2);
         Map[leftboundary]=rightboundary;        
@@ -34,11 +36,12 @@ public:
         int start1 = 0, end1 = 0;
         if (iter1!=Map.begin() && prev(iter1)->second > left)
         {
-            start1 = prev(iter1)->first;
+            iter1 = prev(iter1);
+            start1 = iter1->first;
             end1 = left;
         }
 
-        auto iter2 = Map.lower_bound(right);
+        auto iter2 = Map.upper_bound(right);
         int start2 = 0, end2 = 0;
         if (iter2!=Map.begin() && prev(iter2)->first < right)
         {
