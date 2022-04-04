@@ -825,6 +825,7 @@
 [1923.Longest-Common-Subpath](https://github.com/wisdompeak/LeetCode/tree/master/String/1923.Longest-Common-Subpath) (H)  
 [2156.Find-Substring-With-Given-Hash-Value](https://github.com/wisdompeak/LeetCode/tree/master/String/2156.Find-Substring-With-Given-Hash-Value) (M)     
 [2168.Unique-Substrings-With-Equal-Digit-Frequency](https://github.com/wisdompeak/LeetCode/tree/master/String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M+)      
+[2223.Sum-of-Scores-of-Built-Strings](https://github.com/wisdompeak/LeetCode/tree/master/String/2223.Sum-of-Scores-of-Built-Strings) (H-)    
 * ``KMP``   
 [1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
