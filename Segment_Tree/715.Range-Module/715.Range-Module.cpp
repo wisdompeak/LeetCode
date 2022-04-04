@@ -43,7 +43,7 @@ public:
 
         auto iter2 = Map.upper_bound(right);
         int start2 = 0, end2 = 0;
-        if (iter2!=Map.begin() && prev(iter2)->first < right)
+        if (iter2!=Map.begin() && prev(iter2)->second > right)
         {
             start2 = right;
             end2 = prev(iter2)->second;
