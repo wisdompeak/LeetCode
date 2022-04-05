@@ -1,0 +1,29 @@
+bool issetValue(SinglyLinkedListNode *llist,int data){
+  SinglyLinkedListNode *temp=llist;
+  int test=0;
+  while(temp!=NULL){
+    if(temp->data==data){
+      test++;
+    }
+    temp=temp->next;
+  }
+  if(test>1)
+    return true;
+  return false;
+}
+SinglyLinkedListNode* removeDuplicates(SinglyLinkedListNode* llist) {
+   SinglyLinkedListNode *temp=llist;
+   SinglyLinkedListNode *NewL=NULL;
+   if(temp!=NULL){
+       while(temp!=NULL){
+         if(issetValue(temp,temp->data)==false){
+            NewL->data=temp->data;
+            NewL=NewL->next;
+         }
+          temp=temp->next;
+       }
+       NewL->next=NULL;
+       return NewL;
+   }
+   return llist;
+}
