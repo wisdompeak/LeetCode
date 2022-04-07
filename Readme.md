@@ -1256,7 +1256,6 @@
 [Inverse_Element](https://github.com/wisdompeak/LeetCode/tree/master/Template/Inverse_Element)  
 [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Template/Graph)  
 [Bit_Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Template/Bit_manipulation)  
-[Combination-Number](https://github.com/wisdompeak/LeetCode/tree/master/Template/Combination-Number)  
 [RB_Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/RB_Tree)  
 [二维子矩阵求和](https://github.com/wisdompeak/LeetCode/tree/master/Template/Sub_Rect_Sum_2D)    
 [二维差分数组](https://github.com/wisdompeak/LeetCode/tree/master/Template/Diff_Array_2D)    
