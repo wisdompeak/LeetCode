@@ -825,6 +825,7 @@
 [1923.Longest-Common-Subpath](https://github.com/wisdompeak/LeetCode/tree/master/String/1923.Longest-Common-Subpath) (H)  
 [2156.Find-Substring-With-Given-Hash-Value](https://github.com/wisdompeak/LeetCode/tree/master/String/2156.Find-Substring-With-Given-Hash-Value) (M)     
 [2168.Unique-Substrings-With-Equal-Digit-Frequency](https://github.com/wisdompeak/LeetCode/tree/master/String/2168.Unique-Substrings-With-Equal-Digit-Frequency) (M+)      
+[2223.Sum-of-Scores-of-Built-Strings](https://github.com/wisdompeak/LeetCode/tree/master/String/2223.Sum-of-Scores-of-Built-Strings) (H-)    
 * ``KMP``   
 [1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
@@ -1006,6 +1007,7 @@
 [1830.Minimum-Number-of-Operations-to-Make-String-Sorted](https://github.com/wisdompeak/LeetCode/tree/master/Math/1830.Minimum-Number-of-Operations-to-Make-String-Sorted) (H)  
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
 [1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony](https://github.com/wisdompeak/LeetCode/tree/master/Math/1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony) (H)  
+[2221.Find-Triangular-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/2221.Find-Triangular-Sum-of-an-Array) (M)     
 * ``Numerical Theory``   
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
 [365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
@@ -1254,7 +1256,6 @@
 [Inverse_Element](https://github.com/wisdompeak/LeetCode/tree/master/Template/Inverse_Element)  
 [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Template/Graph)  
 [Bit_Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Template/Bit_manipulation)  
-[Combination-Number](https://github.com/wisdompeak/LeetCode/tree/master/Template/Combination-Number)  
 [RB_Tree](https://github.com/wisdompeak/LeetCode/tree/master/Template/RB_Tree)  
 [二维子矩阵求和](https://github.com/wisdompeak/LeetCode/tree/master/Template/Sub_Rect_Sum_2D)    
 [二维差分数组](https://github.com/wisdompeak/LeetCode/tree/master/Template/Diff_Array_2D)    
