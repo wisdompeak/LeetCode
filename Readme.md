@@ -76,7 +76,6 @@
 [658.Find-K-Closest-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/658.Find-K-Closest-Elements) (H)   
 1095.Find-in-Mountain-Array (TBD)    
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H-)    
-1201.Ugly-Number-III (TBD)    
 [1533.Find-the-Index-of-the-Large-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1533.Find-the-Index-of-the-Large-Integer) (M)  
 [1712.Ways-to-Split-Array-Into-Three-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1712.Ways-to-Split-Array-Into-Three-Subarrays) (H)  
 [1889.Minimum-Space-Wasted-From-Packaging](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1889.Minimum-Space-Wasted-From-Packaging) (H-)  
