@@ -80,8 +80,6 @@
 [1712.Ways-to-Split-Array-Into-Three-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1712.Ways-to-Split-Array-Into-Three-Subarrays) (H)  
 [1889.Minimum-Space-Wasted-From-Packaging](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1889.Minimum-Space-Wasted-From-Packaging) (H-)  
 [1901.Find-a-Peak-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1901.Find-a-Peak-Element-II) (H)  
-[2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps) (H)    
-[2141.Maximum-Running-Time-of-N-Computers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2141.Maximum-Running-Time-of-N-Computers) (M+)     
 * ``Binary Processing``  
 [1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)  
 [1922.Count-Good-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1922.Count-Good-Numbers) (M)  
@@ -119,7 +117,9 @@
 [1891.Cutting-Ribbons](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1891.Cutting-Ribbons) (E)  
 [2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2064.Minimized-Maximum-of-Products-Distributed-to-Any-Store) (M)    
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)  
+[2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps) (H)    
 [2137.Pour-Water-Between-Buckets-to-Make-Water-Levels-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2137.Pour-Water-Between-Buckets-to-Make-Water-Levels-Equal) (M)      
+[2141.Maximum-Running-Time-of-N-Computers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2141.Maximum-Running-Time-of-N-Computers) (M+)     
 [2226.Maximum-Candies-Allocated-to-K-Children](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2226.Maximum-Candies-Allocated-to-K-Children) (M)    
 
 #### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
