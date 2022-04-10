@@ -1,0 +1,5 @@
+### 2227.Encrypt-and-Decrypt-Strings
+
+本题的关键在于解码的时候会遇到一对多的反映射，极有可能需要递归分支来处理。其实此题的巧解在于给出的dictionary规模非常小，我们可以将其加密之后与给出的word2进行比较。也就是说，有多少candidates加密之后是word2，那么就意味着word2解密之后有多少是在candidates里面。
+
+特别注意，题中保证了所有的word1都能被加密，但是不保证所有的candidate都能够被加密。
