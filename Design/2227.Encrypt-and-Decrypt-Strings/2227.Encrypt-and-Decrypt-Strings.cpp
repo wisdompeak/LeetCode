@@ -1,6 +1,5 @@
 class Encrypter {
     unordered_map<char, string>Map1;
-    unordered_map<string, vector<char>>Map2;
     unordered_map<string, int>count;
     
 public:
@@ -10,7 +9,6 @@ public:
         for (int i=0; i<keys.size(); i++)
         {
             Map1[keys[i]] = values[i];
-            Map2[values[i]].push_back(keys[i]);
         }
                 
         for (auto s: dictionary)
