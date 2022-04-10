@@ -1070,6 +1070,7 @@
 [2193.Minimum-Number-of-Moves-to-Make-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H+)    
 [2216.Minimum-Deletions-to-Make-Array-Beautiful](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2216.Minimum-Deletions-to-Make-Array-Beautiful) (M+)      
 [2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
+[2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
