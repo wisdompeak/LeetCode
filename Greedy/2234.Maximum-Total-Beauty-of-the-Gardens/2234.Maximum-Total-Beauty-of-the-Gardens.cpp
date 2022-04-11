@@ -26,10 +26,9 @@ public:
         {
             if (newFlowers < 0) break;
             
-            if (presum[i]+(LL)newFlowers >= (LL)(target-1)*(LL)(i+1))
+            if (presum[i]+newFlowers >= (LL)(target-1)*(i+1))
             {
-                ret = max(ret, (LL)(target-1)*partial + (n-1-i)*(LL)full);
-                newFlowers -= target-flowers[i];             
+                ret = max(ret, (LL)(target-1)*partial + (LL)(n-1-i)*full);                
             }
             else
             {
@@ -37,9 +36,9 @@ public:
                 int k = prev(iter) - diff.begin();
                 LL total = presum[k] + newFlowers;
                 LL each = total / (LL)(k+1);
-                ret = max(ret, each*partial + (LL)(n-1-i)*full);                
-                newFlowers -= target-flowers[i];               
+                ret = max(ret, each*partial + (LL)(n-1-i)*full);                                      
             }
+            newFlowers -= target-flowers[i];             
         }
         
         if (newFlowers>=0)
