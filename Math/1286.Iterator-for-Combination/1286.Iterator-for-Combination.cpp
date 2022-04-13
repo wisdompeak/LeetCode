@@ -1,7 +1,7 @@
 class CombinationIterator {
     string cur;
     string end;
-    bool flag;
+    bool firstCall;
     string characters;
     int combinationLength;
     
@@ -10,16 +10,16 @@ public:
     {
         cur = characters.substr(0,combinationLength);
         end = characters.substr(characters.size()-combinationLength);
-        flag = 1;
+        firstCall = 1;
         this->characters = characters;
         this->combinationLength = combinationLength;        
     }
     
     string next() 
     {
-        if (flag)
+        if (firstCall)
         {
-            flag = 0;
+            firstCall = 0;
             return cur;
         }
         
@@ -37,6 +37,6 @@ public:
     
     bool hasNext() 
     {
-        return cur!=end;
+        return firstCall==1 || cur!=end;
     }
 };
