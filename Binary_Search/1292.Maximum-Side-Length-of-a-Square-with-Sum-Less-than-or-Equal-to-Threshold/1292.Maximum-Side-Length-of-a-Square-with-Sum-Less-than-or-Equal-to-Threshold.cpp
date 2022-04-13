@@ -15,7 +15,7 @@ public:
             for (int j=1; j<=n; j++)
                 presum[i][j] = presum[i-1][j]+presum[i][j-1]-presum[i-1][j-1]+mat[i-1][j-1];
 
-        int left = 1, right = min(m,n);
+        int left = 0, right = min(m,n);
         while (left < right)
         {
             int mid = right-(right-left)/2;
@@ -24,8 +24,7 @@ public:
             else
                 right = mid-1;
         }
-        if (isOK(left, threshold)) return left;
-        else return 0;
+        return left;
     }
 
     bool isOK(int len, int threshold)
