@@ -6,7 +6,7 @@
 
 我们再考虑，如果选择了```wage[i]/quality[i]```第二高的那位，那么我们就在接下来的N-2个人（本质是性价比相对于i更优的N-2个人）里面选择K-1个quality最底的工人即可．
 
-由此贪心法的最优策略就出来了．实际操作中，我们根据```wage[i]/quality[i]```从低到高进行处理．
+由此贪心法的最优策略就出来了．实际操作中，我们根据```wage[i]/quality[i]```从低到高进行处理．如果选i，那么我们就在i之前的员工里挑K-1个quality最小的人。
 
 
 [Leetcode Link](https://leetcode.com/problems/minimum-cost-to-hire-k-workers)
