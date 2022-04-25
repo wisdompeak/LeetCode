@@ -89,7 +89,6 @@
 [1011.Capacity-To-Ship-Packages-Within-D-Days](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1011.Capacity-To-Ship-Packages-Within-D-Days) (M)  
 [1060.Missing-Element-in-Sorted-Array](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/1060.Missing-Element-in-Sorted-Array) (H)  
 [1102.Path-With-Maximum-Minimum-Value](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1102.Path-With-Maximum-Minimum-Value) (H-)   
-[1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
 [1231.Divide-Chocolate](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1231.Divide-Chocolate) (M)   
 [1283.Find-the-Smallest-Divisor-Given-a-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold) (M)  
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
@@ -121,6 +120,7 @@
 [1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1439.Find-the-Kth-Smallest-Sum-of-a-Matrix-With-Sorted-Rows) (H)  
 [786.Kth-Smallest-Prime-Fraction](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/786.K-th%20Smallest-Prime-Fraction) (H-)   
 [793.Preimage-Size-of-Factorial-Zeroes-Function](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/793.Preimage-Size-of-Factorial-Zeroes-Function) (H-)   
+[1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
 [1539.Kth-Missing-Positive-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1539.Kth-Missing-Positive-Number) (H-)  
 
 #### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
