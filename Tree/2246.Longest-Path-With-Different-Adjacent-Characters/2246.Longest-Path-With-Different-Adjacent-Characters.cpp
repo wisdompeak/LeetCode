@@ -39,6 +39,7 @@ public:
                 temp.push_back(len[child]);
             }                
         }
+        len[node] = ret; 
         
         sort(temp.rbegin(), temp.rend());
         if (temp.size()>=2)
@@ -46,8 +47,6 @@ public:
         else if (temp.size()==1)
             globalRet = max(globalRet, temp[0]+1);
         else
-            globalRet = max(globalRet, 1);
-        
-        len[node] = ret;            
+            globalRet = max(globalRet, 1);        
     }
 };
