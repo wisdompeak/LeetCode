@@ -231,6 +231,7 @@
 [543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
 [124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M)   
 [687.Longest-Univalue-Path](https://github.com/wisdompeak/LeetCode/tree/master/Tree/687.Longest-Univalue-Path) (M+)    
+[1522.Diameter-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1522.Diameter-of-N-Ary-Tree) (M)     
 [2049.Count-Nodes-With-the-Highest-Score](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2049.Count-Nodes-With-the-Highest-Score) (M+)    
 [2246.Longest-Path-With-Different-Adjacent-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2246.Longest-Path-With-Different-Adjacent-Characters) (M+)     
 * ``Serialization & Hashing``    
