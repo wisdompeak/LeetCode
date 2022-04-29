@@ -1181,7 +1181,7 @@
 825.Friends-Of-Appropriate-Ages (M+)    
 [835.Image-Overlap](https://github.com/wisdompeak/LeetCode/tree/master/Others/835.Image-Overlap) (H)    
 [843.Guess-the-Word](https://github.com/wisdompeak/LeetCode/tree/master/Others/843.Guess-the-Word) (M)    
-855.Exam-Room (M+)    
+[855.Exam-Room](https://github.com/wisdompeak/LeetCode/tree/master/Others/855.Exam-Room) (M+)    
 918.Maximum-Sum-Circular-Subarray (H-)    
 [927.Three-Equal-Parts](https://github.com/wisdompeak/LeetCode/tree/master/Others/927.Three-Equal-Parts) (M)    
 [978.Longest-Turbulent-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Others/978.Longest-Turbulent-Subarray) (H-)  
