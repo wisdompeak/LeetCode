@@ -39,12 +39,12 @@ public:
         if (n>=2)
         {
             ret = max(ret, depths[0]+depths[1]+1);
-            return depths.back()+1;                
+            return depths[0]+1;                
         }            
         else if (n==1)
         {
             ret = max(ret, depths[0]+1);
-            return depths.back()+1;       
+            return depths[0]+1;       
         }            
         else
         {
