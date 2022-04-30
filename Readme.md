@@ -1238,6 +1238,7 @@
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
+[2245.Maximum-Trailing-Zeros-in-a-Cornered-Path](https://github.com/wisdompeak/LeetCode/tree/master/Others/2245.Maximum-Trailing-Zeros-in-a-Cornered-Path) (M)    
 * ``2D Presum``   
 1314.Matrix-Block-Sum (M)     
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
