@@ -11,16 +11,29 @@ public:
         }
         if (i>=n-1) return -1;
                         
-        int flag = 1;
+        int flag1 = 1;
         for (int j=i; j<n-1; j++)
         {
             if (sensor1[j]!=sensor2[j+1])
             {
-                flag = 0;
+                flag1 = 0;
                 break;
             }
         }
-        if (flag==1) return 1;
-        else return 2;        
+        
+        int flag2 = 1;
+        for (int j=i; j<n-1; j++)
+        {
+            if (sensor1[j+1]!=sensor2[j])
+            {
+                flag2 = 0;
+                break;
+            }
+        }
+        
+        if (flag1 && flag2) return -1;
+        else if (!flag1 && !flag2) return -1;
+        else if (flag1) return 1;
+        else return 2;
     }
 };
