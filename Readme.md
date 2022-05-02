@@ -151,6 +151,7 @@
 [1573.Number-of-Ways-to-Split-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1573.Number-of-Ways-to-Split-a-String) (M)  
 [2131.Longest-Palindrome-by-Concatenating-Two-Letter-Words](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2131.Longest-Palindrome-by-Concatenating-Two-Letter-Words) (M)     
 [2198.Number-of-Single-Divisor-Triplets](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2198.Number-of-Single-Divisor-Triplets) (H-)      
+[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2262.Total-Appeal-of-A-String) (M+)      
 * ``Hash+Prefix``    
 [525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/525.Contiguous-Array) (M)    
 [930.Binary-Subarrays-With-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Hash/930.Binary-Subarrays-With-Sum) (M)   
