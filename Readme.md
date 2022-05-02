@@ -141,7 +141,6 @@
 [446.Arithmetic-Slices-II-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/446.Arithmetic-Slices-II-Subsequence) (H)    
 [128.Longest-Consecutive-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/128.Longest-Consecutive-Sequence) (H-)  
 [753.Cracking-the-Safe](https://github.com/wisdompeak/LeetCode/tree/master/Hash/753.Cracking-the-Safe) (H)   
-[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
 [890.Find-and-Replace-Pattern](https://github.com/wisdompeak/LeetCode/tree/master/Hash/890.Find-and-Replace-Pattern) (M+)  
 [939.Minimum-Area-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Hash/939.Minimum-Area-Rectangle) (M+)   
 982.Triples-with-Bitwise-AND-Equal-To-Zero (M+) (TBD)   
@@ -151,7 +150,6 @@
 [1573.Number-of-Ways-to-Split-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/1573.Number-of-Ways-to-Split-a-String) (M)  
 [2131.Longest-Palindrome-by-Concatenating-Two-Letter-Words](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2131.Longest-Palindrome-by-Concatenating-Two-Letter-Words) (M)     
 [2198.Number-of-Single-Divisor-Triplets](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2198.Number-of-Single-Divisor-Triplets) (H-)      
-[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2262.Total-Appeal-of-A-String) (M+)      
 * ``Hash+Prefix``    
 [525.Contiguous-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/525.Contiguous-Array) (M)    
 [930.Binary-Subarrays-With-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Hash/930.Binary-Subarrays-With-Sum) (M)   
@@ -1079,6 +1077,8 @@
 [2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
 [2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
+[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
+[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2262.Total-Appeal-of-A-String) (M+)      
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
