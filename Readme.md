@@ -1077,8 +1077,8 @@
 [2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
 [2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
-[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
-[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2262.Total-Appeal-of-A-String) (M+)      
+[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
+[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2262.Total-Appeal-of-A-String) (M+)      
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
