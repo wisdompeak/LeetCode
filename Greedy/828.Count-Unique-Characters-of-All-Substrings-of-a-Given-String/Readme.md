@@ -1,8 +1,8 @@
-828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String
+### 828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String
 
 暴力的方法是枚举substring，然后考察这个区间里的字符哪些是unique的。这需要大致```o(N^2*26)```的复杂度。聪明的方法是考察每个字符，它可能在哪些substring里是unique的。
 
-### 解法1：
+#### 解法1：
 我们逐一遍历每个字符，现在考虑以i为结尾的各种substring。假设字符A在i之前最近两次出现的位置分别是a和b，如下图
 ```
 X X X X A X X [A X X i]
@@ -14,7 +14,7 @@ X X X X A X X [A X X i]
 
 综上，每考察一个位置i，我们遍历26个字母（即A-Z）在i之前出现的最后两个位置，可以计算它们各自可以给多少substring贡献UniqueChars。总的时间复杂度是o(26N)。
 
-### 解法2：
+#### 解法2：
 我们考虑位于s[i]的字母A，能够给哪些substring的countUniqueChars提供这一分？显然，我们就是要寻找哪些substring仅包含这一个A。我们假设i之前最近的一个A在位置j，i之后最近的一个A在位置k，如下图
 ```
 X X X X A [X X A X X] A X X 
