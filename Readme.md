@@ -1158,12 +1158,6 @@
 [2122.Recover-the-Original-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2122.Recover-the-Original-Array) (H-)      
 [1982.Find-Array-Given-Subset-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1982.Find-Array-Given-Subset-Sums) (H)      
 [2202.Maximize-the-Topmost-Element-After-K-Moves](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (H)     
-* ``Count by Reverse Contribution``   
-[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
-[907.Sum-of-Subarray-Minimums](https://github.com/wisdompeak/LeetCode/tree/master/Stack/907.Sum-of-Subarray-Minimums) (H-)   
-[1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition) (H-)    
-[2104.Sum-of-Subarray-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2104.Sum-of-Subarray-Ranges) (H-)      
-[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2262.Total-Appeal-of-A-String) (M+)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
@@ -1210,6 +1204,12 @@
 * ``结论转移``   
 [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array) (M)     
 [2121.Intervals-Between-Identical-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/2121.Intervals-Between-Identical-Elements) (M)     
+* ``Count by Reverse Contribution``   
+[828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
+[907.Sum-of-Subarray-Minimums](https://github.com/wisdompeak/LeetCode/tree/master/Stack/907.Sum-of-Subarray-Minimums) (H-)   
+[1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition) (H-)    
+[2104.Sum-of-Subarray-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2104.Sum-of-Subarray-Ranges) (H-)      
+[2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2262.Total-Appeal-of-A-String) (M+)      
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
