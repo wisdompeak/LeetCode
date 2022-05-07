@@ -13,21 +13,21 @@ public:
         if (fire[m-1][n-1]==INT_MAX)
             return 1e9;
 
-        int ret = fire[m-1][n-1]-person[m-1][n-1]-1;
+        int D = fire[m-1][n-1]-person[m-1][n-1];
 
-        if (fire[m-1][n-2] == fire[m-2][n-1]) return ret;
+        if (fire[m-1][n-2] == fire[m-2][n-1]) return D-1;
         if (fire[m-1][n-2] < fire[m-2][n-1])
         {
             if (person[m-2][n-1] == person[m-1][n-1]-1)
-                return ret+1;
+                return D;
         }
         else
         {
             if (person[m-1][n-2] == person[m-1][n-1]-1)
-                return ret+1;
+                return D;
         }
 
-        return ret;
+        return D-1;
     }
 
     vector<vector<int>>bfs(vector<vector<int>>&grid, int type)
