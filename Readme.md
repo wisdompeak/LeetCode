@@ -480,6 +480,7 @@
 [1905.Count-Sub-Islands](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1905.Count-Sub-Islands) (M+)  
 [2045.Second-Minimum-Time-to-Reach-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2045.Second-Minimum-Time-to-Reach-Destination) (M+)     
 [2101.Detonate-the-Maximum-Bombs](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2101.Detonate-the-Maximum-Bombs) (M+)      
+[2258.Escape-the-Spreading-Fire](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2258.Escape-the-Spreading-Fire) (H+)     
 * ``Multi State``   
 [847.Shortest-Path-Visiting-All-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/847.Shortest-Path-Visiting-All-Nodes) (H-)  
 [864.Shortest-Path-to-Get-All-Keys](https://github.com/wisdompeak/LeetCode/tree/master/BFS/864.Shortest-Path-to-Get-All-Keys) (H-)   
