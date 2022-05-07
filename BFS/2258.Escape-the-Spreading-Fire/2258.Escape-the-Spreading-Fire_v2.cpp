@@ -47,7 +47,7 @@ public:
                     if ((i!=m-1 || j!=n-1) && step+1 >= fire[i][j]) continue;
                     q.push({i,j});
                     visited[i][j] = 1;
-                    if (i==m-1 && j==n-1) return true;
+                    if (i==m-1 && j==n-1 && step+1 <= fire[m-1][n-1]) return true;
                 }
             }
             step++;
