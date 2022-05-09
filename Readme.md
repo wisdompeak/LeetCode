@@ -1229,6 +1229,7 @@
 [1943.Describe-the-Painting](https://github.com/wisdompeak/LeetCode/tree/master/Others/1943.Describe-the-Painting) (H-)  
 [2015.Average-Height-of-Buildings-in-Each-Segment](https://github.com/wisdompeak/LeetCode/tree/master/Others/2015.Average-Height-of-Buildings-in-Each-Segment) (H-)     
 [2158.Amount-of-New-Area-Painted-Each-Day](https://github.com/wisdompeak/LeetCode/tree/master/Others/2158.Amount-of-New-Area-Painted-Each-Day) (H-)      
+2237.Count-Positions-on-Street-With-Required-Brightness (M)    
 [2251.Number-of-Flowers-in-Full-Bloom](https://github.com/wisdompeak/LeetCode/tree/master/Others/2251.Number-of-Flowers-in-Full-Bloom) (M)     
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
