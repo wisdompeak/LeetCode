@@ -3,7 +3,7 @@ public:
     bool hasValidPath(vector<vector<char>>& grid) 
     {
         int m = grid.size(), n = grid[0].size();
-        vector<vector<set<int>>>dp(m, vector<set<int>>(n));
+        set<int> dp[101][101];
         
         if (grid[0][0]=='(')
             dp[0][0] = {1};
