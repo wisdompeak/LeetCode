@@ -1,43 +1,40 @@
-/**
- * Definition for an interval.
- * struct Interval {
- *     int start;
- *     int end;
- *     Interval() : start(0), end(0) {}
- *     Interval(int s, int e) : start(s), end(e) {}
- * };
- */
 class Solution {
-public:
-    vector<Interval> merge(vector<Interval>& intervals) 
+    static bool cmp(pair<int,int>&a, pair<int,int>&b)
     {
-        vector<pair<int,int>>q;
-        for (int i=0; i<intervals.size(); i++)
+        if (a.first!=b.first)
+            return a.first <b.first;
+        else
+            return a.second > b.second;
+    }
+public:
+    vector<vector<int>> merge(vector<vector<int>>& intervals) 
+    {
+        vector<pair<int,int>>diff;
+        for (auto& interval: intervals)
         {
-            q.push_back({intervals[i].start,-1});
-            q.push_back({intervals[i].end,1});
+            diff.push_back({interval[0], 1});
+            diff.push_back({interval[1], -1});
         }
+
+        sort(diff.begin(), diff.end(), cmp);
         
-        sort(q.begin(),q.end());
-        
-        int count=0;
-        int start, end;
-        
-        vector<Interval>results;
-        
-        for (int i=0; i<q.size(); i++)
+        vector<vector<int>>rets;
+        int start = 0, end = 0;   
+        int sum = 0;
+        for (int i=0; i<diff.size(); i++)
         {            
-            count+=-q[i].second;
-            
-            if (-q[i].second ==1 && count==1)
-                start = q[i].first;
-            else if (-q[i].second ==-1 && count==0)
+            if (sum==0 && diff[i].second > 0)
             {
-                end = q[i].first;
-                results.push_back({start,end});
+                start = diff[i].first;                
             }
+            else if (sum > 0 && sum + diff[i].second == 0)
+            {
+                end = diff[i].first;
+                rets.push_back({start,end});
+            }
+            sum += diff[i].second;            
         }
-        
-        return results;
+
+        return rets;
     }
 };
