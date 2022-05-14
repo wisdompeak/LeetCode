@@ -1,6 +1,6 @@
 class MyCalendarThree {
 public:
-    multiset<pair<int,int>>Set;
+    map<int,int>Map;
     
     MyCalendarThree() 
     {
@@ -9,23 +9,23 @@ public:
     
     int book(int start, int end) 
     {
-        Set.insert({start,1});
-        Set.insert({end,-1});
+        Map[start]+=1;
+        Map[end]-=1;
         
         int count=0;
-        int result=0;
-        for (auto a: Set)
+        int ret=0;
+        for (auto& [t, diff]: Map)
         {
-            count+=a.second;
-            result = max(result,count);
+            count += diff;
+            ret = max(ret, count);
         }
-        return result;
+        return ret;
         
     }
 };
 
 /**
  * Your MyCalendarThree object will be instantiated and called as such:
- * MyCalendarThree obj = new MyCalendarThree();
- * int param_1 = obj.book(start,end);
+ * MyCalendarThree* obj = new MyCalendarThree();
+ * int param_1 = obj->book(start,end);
  */
