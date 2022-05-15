@@ -21,36 +21,38 @@ public:
             auto iter = upper_bound(sorted.begin()+a, sorted.begin()+mid+1, 2*(long)nums[j]);
             ret += sorted.begin()+mid+1 - iter;
         }
-        // sort(sorted.begin()+a, sorted.begin()+b+1);
-        int i=a, j=mid+1, p = 0;        
-        while (i<=mid && j<=b)
-        {
-            if (sorted[i]<=sorted[j])
-            {
-                temp[p] = sorted[i];
-                i++;
-            }                
-            else
-            {
-                temp[p] = sorted[j];
-                j++;
-            } 
-            p++;
-        }
-        while (i<=mid)
-        {
-            temp[p] = sorted[i];
-            i++;
-            p++;
-        }
-        while (j<=b)
-        {
-            temp[p] = sorted[j];
-            j++;
-            p++;
-        }
-        for (int i=0; i<b-a+1; i++)
-            sorted[a+i] = temp[i];
+        
+        inplace_merge(sorted.begin()+a, sorted.begin()+mid+1, sorted.begin()+b+1);
+        
+        // int i=a, j=mid+1, p = 0;        
+        // while (i<=mid && j<=b)
+        // {
+        //     if (sorted[i]<=sorted[j])
+        //     {
+        //         temp[p] = sorted[i];
+        //         i++;
+        //     }                
+        //     else
+        //     {
+        //         temp[p] = sorted[j];
+        //         j++;
+        //     } 
+        //     p++;
+        // }
+        // while (i<=mid)
+        // {
+        //     temp[p] = sorted[i];
+        //     i++;
+        //     p++;
+        // }
+        // while (j<=b)
+        // {
+        //     temp[p] = sorted[j];
+        //     j++;
+        //     p++;
+        // }
+        // for (int i=0; i<b-a+1; i++)
+        //     sorted[a+i] = temp[i];
         
         return ret;
     }
