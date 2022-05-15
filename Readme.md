@@ -578,9 +578,7 @@
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 [1277.Count-Square-Submatrices-with-All-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1277.Count-Square-Submatrices-with-All-Ones) (M+)   
 [600.Non-negative-Integers-without-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/600.Non-negative-Integers-without-Consecutive-Ones) (H)    
-[656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)   
-[053.Maximum-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/053.Maximum-Subarray) (E+)  
-[152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)   
+[656.Coin-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/656.Coin-Path) (H-)    
 [818.Race-Car](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/818.Race-Car) (H)    
 [377.Combination-Sum-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/377.Combination-Sum-IV) (M)  
 [837.New-21-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/837.New-21-Game) (H-)    
@@ -609,7 +607,6 @@
 [2140.Solving-Questions-With-Brainpower](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2140.Solving-Questions-With-Brainpower) (H)      
 [2189.Number-of-Ways-to-Build-House-of-Cards](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2189.Number-of-Ways-to-Build-House-of-Cards) (H-)      
 [2218.Maximum-Value-of-K-Coins-From-Piles](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2218.Maximum-Value-of-K-Coins-From-Piles) (H-)     
-[2272.Substring-With-Largest-Variance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2272.Substring-With-Largest-Variance) (H-)    
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
@@ -764,6 +761,10 @@
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
 * ``Infer future from current``   
 [2044.Count-Number-of-Maximum-Bitwise-OR-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2044.Count-Number-of-Maximum-Bitwise-OR-Subsets) (M)    
+* ``max subarray``   
+[053.Maximum-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/053.Maximum-Subarray) (E+)  
+[152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)  
+[2272.Substring-With-Largest-Variance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2272.Substring-With-Largest-Variance) (H-)    
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
