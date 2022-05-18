@@ -1,26 +1,26 @@
 class Solution {
     int count = 0;
     int m,n;
+    int visited[3][3];
+    vector<pair<int,int>>dir = {{1,0},{-1,0},{0,1},{0,-1},{1,1},{-1,1},{1,-1},{-1,-1},{-1,2},{1,2},{-2,1},{2,1},{-1,-2},{1,-2},{-2,-1},{2,-1}};
 public:
     int numberOfPatterns(int m, int n) 
     {
         this->m = m;
         this->n = n;        
-        auto visited = vector<vector<int>>(3, vector<int>(3,0));
-        
+                
         for (int i=0; i<3; i++)
             for (int j=0; j<3; j++)
             {
                 visited[i][j] = 1;
-                dfs(i,j,1,visited);
+                dfs(i,j,1);
                 visited[i][j] = 0;
             }
         return count;        
     }
     
-    void dfs(int x, int y, int r, vector<vector<int>>&visited)
-    {        
-        auto dir = vector<pair<int,int>>({{1,0},{-1,0},{0,1},{0,-1},{1,1},{-1,1},{1,-1},{-1,-1},{-1,2},{1,2},{-2,1},{2,1},{-1,-2},{1,-2},{-2,-1},{2,-1}});
+    void dfs(int x, int y, int r)
+    {                
         if (r>=m && r<=n)
             count++;
         if (r>n) return;
@@ -34,7 +34,7 @@ public:
             if (visited[i][j] == 0)
             {
                 visited[i][j] = 1;
-                dfs(i,j,r+1,visited);
+                dfs(i,j,r+1);
                 visited[i][j] = 0;
             }                
             else
@@ -45,7 +45,7 @@ public:
                     continue;     
                 if (visited[i][j]==1) continue;
                 visited[i][j] = 1;
-                dfs(i,j,r+1,visited);
+                dfs(i,j,r+1);
                 visited[i][j] = 0;
             }            
         }        
