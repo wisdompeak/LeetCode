@@ -2,42 +2,27 @@ class Solution {
 public:
     vector<vector<int>> averageHeightOfBuildings(vector<vector<int>>& buildings) 
     {
-        vector<pair<int,int>>p;
+        map<int,pair<int,int>>Map; // pos=>{sum, count}
         for (auto build: buildings)
         {
             int start = build[0], end = build[1], height = build[2];            
-            p.push_back({start, height});
-            p.push_back({end, -height});
-        }
+            Map[start].first += height;
+            Map[start].second += 1;
+            Map[end].first -= height;
+            Map[end].second -= 1;
+        }                        
         
-        sort(p.begin(), p.end());
-        int count = 0;
         int sum = 0;
-        
-        vector<pair<int,int>>temp;
-        for (int i=0; i<p.size(); i++)
+        int count = 0;
+        vector<pair<int,int>>temp;        
+        for (auto& [pos, kv]: Map)
         {
-            int j = i;
-            while (j<p.size() && p[j].first==p[i].first)
-            {
-                auto [pos, h] = p[j];
-                if (h<0)
-                {
-                    count--;
-                    sum -= (-h);
-                }                    
-                else
-                {
-                    count++;
-                    sum += h;
-                }            
-                j++;
-            }
-            int avg = count==0 ? 0 : sum / count;
-            temp.push_back({p[i].first, avg});
-            i = j-1;
-        }
-        
+            int heightDiff = kv.first, countDiff = kv.second;
+            sum += heightDiff;
+            count += countDiff;
+            int avg = (count==0 ? 0 : sum / count);
+            temp.push_back({pos, avg});            
+        }        
         
         vector<vector<int>>rets;
         for (int i=0; i<temp.size(); i++)
