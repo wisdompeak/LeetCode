@@ -1,36 +1,34 @@
-using AI3 = array<int,3>;
 class Solution {
 public:
     vector<int> amountPainted(vector<vector<int>>& paint) 
     {
-        vector<AI3>arr;
+        map<int, vector<pair<int,int>>>Map; // pos->{idx, flag}
         for (int i=0; i<paint.size(); i++)
         {
-            arr.push_back({paint[i][0], 1, i});
-            arr.push_back({paint[i][1], 0, i});
+            Map[paint[i][0]].push_back({i,1});
+            Map[paint[i][1]].push_back({i,-1});
         }
-        sort(arr.begin(), arr.end());
+        
+        vector<pair<int, vector<pair<int,int>>>>array(Map.begin(), Map.end());
         
         set<int>Set;
         int n = paint.size();
-        vector<int>rets(n);
-        for (int i=0; i<arr.size(); i++)
-        {
-            int j = i;
-            while (j<arr.size() && arr[j][0]==arr[i][0])
+        vector<int>rets(n);        
+        for (int i=0; i<array.size(); i++)
+        {                 
+            for (auto& [idx, flag]: array[i].second )
             {
-                if (arr[j][1]==1)
-                    Set.insert(arr[j][2]);
+                if (flag==1)
+                    Set.insert(idx);
                 else
-                    Set.erase(arr[j][2]);
-                j++;
+                    Set.erase(idx);
             }
-            if (!Set.empty())            
-                rets[*Set.begin()] += arr[j][0]-arr[i][0];                                        
-            i = j-1;
+            if (!Set.empty())
+            {
+                rets[*Set.begin()] += array[i+1].first - array[i].first;
+            }
         }
         
-        return rets;
-        
+        return rets;        
     }
 };
