@@ -1,33 +1,31 @@
 class Solution {
 public:
-    vector<pair<int, int>> getSkyline(vector<vector<int>>& buildings) 
+    vector<vector<int>> getSkyline(vector<vector<int>>& buildings) 
     {
-        vector<vector<int>>edges;
-        for (int i=0;i<buildings.size(); i++)
+        map<int, vector<pair<int,int>>>Map; // pos->{height, flag}
+        for (auto building: buildings)
         {
-            edges.push_back({buildings[i][0],-buildings[i][2]});
-            edges.push_back({buildings[i][1],buildings[i][2]});
+            Map[building[0]].push_back({building[2], 1});
+            Map[building[1]].push_back({building[2], -1});
         }
         
-        sort(edges.begin(),edges.end());
-        
-        multiset<int>Set={0};        
-        vector<pair<int, int>>results;
-        int cur=0;
-        
-        for (int i=0; i<edges.size(); i++)
+        multiset<int>Set;
+        vector<vector<int>>rets;
+        for (auto& [pos, pairs]: Map)
         {
-            if (edges[i][1]<0) 
-                Set.insert(-edges[i][1]);
-            else
-                Set.erase(Set.lower_bound(edges[i][1]));
-            
-            int H=*Set.rbegin();
-            if (cur!=H)
-                results.push_back({edges[i][0],H});
-            cur=H;
+            for (auto& [height, flag]: pairs)
+            {
+                if (flag == 1)
+                    Set.insert(height);
+                else
+                    Set.erase(Set.find(height));                
+            }
+
+            int H = Set.empty() ? 0: *Set.rbegin();
+            if (rets.empty() || rets.back()[1]!=H)
+                rets.push_back({pos, H});
         }
-        
-        return results;
+
+        return rets;
     }
 };
