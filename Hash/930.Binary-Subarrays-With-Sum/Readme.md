@@ -1,6 +1,6 @@
 ### 930.Binary-Subarrays-With-Sum
 
-此题是考察对Hash+prefix的常见组合。
+#### 解法1：Hash+prefix
 
 我们遍历每一个元素j，考察以j为结尾、满足条件的subarray，这样的起点i可以在哪里？如果满足条件的起点i有多种可能，那么答案就可以累加上这么多数量．
 
@@ -8,5 +8,12 @@
 ```
 ret += Map[prefix[j] - S]
 ```
+
+#### 解法2：Sliding Window
+遍历左边界左边界。假设左边界为i，那么可以向右单调移动j直至滑窗内的元素和恰好为S。此时如果知道j右边有k个连续的0，那么就意味着以i为左边界、元素和是S的滑窗就有k+1个。
+
+对于每个元素，它后面有多少个连续的0，可以提前预处理得到的。
+
+因为i和j都是单调移动的，所以时间复杂度是o(N).
 
 [Leetcode Link](https://leetcode.com/problems/binary-subarrays-with-sum)
