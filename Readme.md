@@ -461,6 +461,7 @@
 [126.Word-Ladder-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/126.Word-Ladder-II) (M+)    
 [130.Surrounded-Regions](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/130.Surrounded-Regions) (H-)   
 [200.Number-of-Islands](https://github.com/wisdompeak/LeetCode/tree/master/DFS/200.Number-of-Islands) (H-)  
+[490.The-Maze](https://github.com/wisdompeak/LeetCode/tree/master/BFS/490.The-Maze) (M)      
 [529.Minesweeper](https://github.com/wisdompeak/LeetCode/tree/master/BFS/529.Minesweeper) (M+)    
 [637.Average-of-Levels-in-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/BFS/637.Average-of-Levels-in-Binary-Tree) (M)   
 [675.Cut-Off-Trees-for-Golf-Event](https://github.com/wisdompeak/LeetCode/tree/master/BFS/675.Cut-Off-Trees-for-Golf-Event) (M)    
