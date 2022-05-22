@@ -1219,6 +1219,7 @@
 [1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition) (H-)    
 [2104.Sum-of-Subarray-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2104.Sum-of-Subarray-Ranges) (H-)      
 [2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2262.Total-Appeal-of-A-String) (M+)      
+[6077.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/6077.Sum-of-Total-Strength-of-Wizards) (H)    
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
@@ -1257,6 +1258,7 @@
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
 [2245.Maximum-Trailing-Zeros-in-a-Cornered-Path](https://github.com/wisdompeak/LeetCode/tree/master/Others/2245.Maximum-Trailing-Zeros-in-a-Cornered-Path) (M)    
+[6077.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/6077.Sum-of-Total-Strength-of-Wizards) (H)    
 * ``2D Presum``   
 1314.Matrix-Block-Sum (M)     
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
