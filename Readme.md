@@ -1219,7 +1219,7 @@
 [1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1498.Number-of-Subsequences-That-Satisfy-the-Given-Sum-Condition) (H-)    
 [2104.Sum-of-Subarray-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2104.Sum-of-Subarray-Ranges) (H-)      
 [2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2262.Total-Appeal-of-A-String) (M+)      
-[6077.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/6077.Sum-of-Total-Strength-of-Wizards) (H)    
+[2281.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/2281.Sum-of-Total-Strength-of-Wizards) (H)    
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
