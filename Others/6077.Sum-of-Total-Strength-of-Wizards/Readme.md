@@ -22,7 +22,7 @@ a X X X X i X X X b
 a X X X X i X X X b
             3 2 1
 ```
-同理，这里我们希望计算``` S = nums[i+1]*3 + nums[i+2]*2 + nums[i+3]*...```。我们同样可以利用presum和presum2，具体的是```S = (presum[b-1]-presum[i])*(b+1) - (presum2[b-1]-presum2[i])```. 于是nums[i]右边的三个元素对于"累加所有这些subarray元素和"的贡献就是```S*x```. 
+同理，这里我们希望计算``` S = nums[i+1]*3 + nums[i+2]*2 + nums[i+3]*...```。我们同样可以利用presum和presum2，具体的是```S = (presum[b-1]-presum[i])*b - (presum2[b-1]-presum2[i])```. 于是nums[i]右边的三个元素对于"累加所有这些subarray元素和"的贡献就是```S*x```. 
 
 此外，别忘了nums[i]本身对于"累加所有这些subarray元素和"的贡献是```nums[i]*x*y```.
 
