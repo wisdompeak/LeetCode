@@ -11,9 +11,9 @@ public:
         for (int i=1; i<=n; i++)
             presum[i] = (presum[i-1]+(LL)nums[i]) % M;
         
-        vector<LL>presum1(n+2, 0);
+        vector<LL>presum2(n+2, 0);
         for (int i=1; i<=n; i++)
-            presum1[i] = (presum1[i-1]+(LL)nums[i]*i) % M;
+            presum2[i] = (presum2[i-1]+(LL)nums[i]*i) % M;
         
         stack<int>Stack;
         vector<int>nextSmaller(n+2,n+1);
@@ -35,9 +35,9 @@ public:
         {
             LL a = prevSmaller[i], b = nextSmaller[i];
             LL x = i-a, y = b-i;
-            LL first = ((presum1[i-1] - presum1[a]) - (presum[i-1] - presum[a]) * a %M + M) % M;
+            LL first = ((presum2[i-1] - presum2[a]) - (presum[i-1] - presum[a]) * a %M + M) % M;
             first = first * y % M;
-            LL second = ((presum[b-1] - presum[i]) * (b-1+1) - (presum1[b-1] - presum1[i]) + M ) % M;
+            LL second = ((presum[b-1] - presum[i]) * (b-1+1) - (presum2[b-1] - presum2[i]) + M ) % M;
             second = second * x % M;
             LL mid = (LL)nums[i] * x * y % M;
             
