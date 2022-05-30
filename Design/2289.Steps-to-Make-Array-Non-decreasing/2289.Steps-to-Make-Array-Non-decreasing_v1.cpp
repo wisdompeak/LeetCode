@@ -4,11 +4,11 @@ public:
     {
         int n = nums.size();
         list<int> List;
-        unordered_map<int,list<int>::iterator>key2iter;
+        unordered_map<int,list<int>::iterator>idx2iter;
         for (int i=0; i<n; i++)
         {
             List.push_back(i);
-            key2iter[i] = prev(List.end());
+            idx2iter[i] = prev(List.end());
         }
         
         queue<int>q;
@@ -26,7 +26,7 @@ public:
                 int i = q.front();
                 q.pop();
                 
-                auto iter = key2iter[i];                
+                auto iter = idx2iter[i];                
                 if (next(iter)!=List.end() && (temp.empty() || *next(iter)!=temp.back()))
                 {
                     temp.push_back(*next(iter));
@@ -37,7 +37,7 @@ public:
 
             for (int idx: temp)
             {                
-                auto iter = key2iter[idx];
+                auto iter = idx2iter[idx];
                 if (iter!=List.begin() && nums[*prev(iter)] > nums[idx])
                     q.push(idx);
             }
