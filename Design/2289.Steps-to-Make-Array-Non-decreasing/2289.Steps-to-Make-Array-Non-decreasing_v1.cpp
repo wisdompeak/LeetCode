@@ -12,7 +12,7 @@ public:
         }
         
         queue<int>q;
-        for (int i=1; i<n; i++)
+        for (int i=n-1; i>=1; i--)
             if (nums[i-1]>nums[i])
                 q.push(i);
 
@@ -20,28 +20,29 @@ public:
         while (!q.empty())
         {
             int len = q.size();
-            unordered_set<int>Set;
+            vector<int>temp;
             while (len--)
             {
                 int i = q.front();
                 q.pop();
                 
-                auto iter = key2iter[i];
-                if (Set.count(i))
-                    Set.erase(i);
-                if (next(iter)!=List.end())
-                    Set.insert(*next(iter));
+                auto iter = key2iter[i];                
+                if (next(iter)!=List.end() && (temp.empty() || *next(iter)!=temp.back()))
+                {
+                    temp.push_back(*next(iter));
+                }
+                    
                 List.erase(iter);
             }
 
-            for (int i: Set)
-            {
-                if (key2iter[i]!=List.begin() && nums[*prev(key2iter[i])] > nums[i])
-                    q.push(i);
+            for (int idx: temp)
+            {                
+                auto iter = key2iter[idx];
+                if (iter!=List.begin() && nums[*prev(iter)] > nums[idx])
+                    q.push(idx);
             }
             step++;                
         }
-
         return step;
     }
 };
