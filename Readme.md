@@ -290,9 +290,6 @@
 [2179.Count-Good-Triplets-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2179.Count-Good-Triplets-in-an-Array) (H)      
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
-[146.LRU-Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache) (H-)   
-[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
-[432.All-O-one-Data-Structure](https://github.com/wisdompeak/LeetCode/tree/master/Design/432.All-O-one-Data-Structure) (H)    
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (M+)   
 [381.Insert-Delete-GetRandom-O1-Duplicates-allowed](https://github.com/wisdompeak/LeetCode/tree/master/Design/381.Insert-Delete-GetRandom-O1-Duplicates-allowed) (H-)   
 [716.Max-Stack](https://github.com/wisdompeak/LeetCode/tree/master/Design/716.Max-Stack) (M+)    
@@ -309,6 +306,11 @@
 [1622.Fancy-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Design/1622.Fancy-Sequence) (H+)  
 [1801.Number-of-Orders-in-the-Backlog](https://github.com/wisdompeak/LeetCode/tree/master/Design/1801.Number-of-Orders-in-the-Backlog) (M+)     
 [2166.Design-Bitset](https://github.com/wisdompeak/LeetCode/tree/master/Design/2166.Design-Bitset) (M+)     
+* ``Linked List``    
+[146.LRU-Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/146.LRU-Cache) (H-)   
+[460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
+[432.All-O-one-Data-Structure](https://github.com/wisdompeak/LeetCode/tree/master/Design/432.All-O-one-Data-Structure) (H)    
+[2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 [032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
