@@ -19,6 +19,7 @@ public:
             }
         }
         
-        return dp[(1<<n)-1]==0;
+        return dp[(1<<n)-1] != -1;
+        
     }
 };
