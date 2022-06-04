@@ -37,6 +37,6 @@ for (int i=curPos; i<n; i++)
 
 所以我们本题状态转移的思想是，根据当前的state，考察可以加入哪些新元素（比如说i）得到新的state2，使得```dp[state]+nums[i]<=target```。满足的话，那么就可以更新dp[state2]为该组合的元素之和对于target的取余（零头）。
 
-最终的答案就是考察state=(1<<n)-1时的dp值是否不为-1. （其实，如果dp值不为-1的话，它一定是0）
+最终的答案就是考察state=(1<<n)-1时的dp值是否不为-1. （其实，如果dp值不为-1的话，它一定是0，因为我们预判了所有元素之和必然要被target整除）
 
 [Leetcode Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)
