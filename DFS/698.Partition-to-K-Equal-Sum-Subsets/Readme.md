@@ -39,4 +39,6 @@ for (int i=curPos; i<n; i++)
 
 最终的答案就是考察state=(1<<n)-1时的dp值是否不为-1. （其实，如果dp值不为-1的话，它一定是0，因为我们预判了所有元素之和必然要被target整除）
 
+该解法的时间复杂度是```2^n*n```.
+
 [Leetcode Link](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)
