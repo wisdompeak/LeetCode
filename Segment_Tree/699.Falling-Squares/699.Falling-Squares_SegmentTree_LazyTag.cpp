@@ -1,80 +1,87 @@
-class Solution {
-    class SegTreeNode
-    {
-        public:
-        SegTreeNode* left;
-        SegTreeNode* right;
-        int start, end;
-        int info;  // the max height of the range
-        bool tag; 
-        SegTreeNode(int a, int b):start(a),end(b),info(0),tag(0),left(NULL),right(NULL){}
-    };
-    
-    void init(SegTreeNode* node, int a, int b)  // init for range [a,b]
-    {                        
+class SegTreeNode
+{
+    public:
+    SegTreeNode* left = NULL;
+    SegTreeNode* right = NULL;
+    int start, end;
+    int info;  // the maximum value of the range
+    bool tag; 
+        
+    SegTreeNode(int a, int b, int val)  // init for range [a,b] with val
+    {                 
+        tag = 0;
+        start = a, end = b;
         if (a==b)
         {
-            node->info = 0;
+            info = val;
             return;
-        }
+        }        
         int mid = (a+b)/2;
-        if (node->left==NULL)
+        if (left==NULL)
         {
-            node->left = new SegTreeNode(a, mid);
-            node->right = new SegTreeNode(mid+1, b);
-        }
-        init(node->left, a, mid);
-        init(node->right, mid+1, b);
-                
-        node->info = 0;  // write your own logic
-    }
-    
-    void updateRange(SegTreeNode* node, int a, int b, int val)
-    {        
-        if (b < node->start || a > node->end ) // no intersection
-            return;
-        if (a <= node->start && node->end <=b)
-        {
-            node->info = val;
-            node->tag = 1;
-            return;
-        }
-        
-        pushDown(node);        
-        updateRange(node->left, a, b, val);
-        updateRange(node->right, a, b, val);
-        
-        node->info = max(node->left->info, node->right->info);  // write your own logic
-    }
-    
-    int queryRange(SegTreeNode* node, int a, int b)
-    {
-        if (b < node->start || a > node->end )
-        {
-            return 0;  // write your own logic
-        }
-        if (a <= node->start && b>=node->end)
-        {
-            return node->info;  // write your own logic
-        }            
-        pushDown(node);        
-        node->info = max(queryRange(node->left, a, b), queryRange(node->right, a, b));  // write your own logic
-        return node->info;
+            left = new SegTreeNode(a, mid, val);
+            right = new SegTreeNode(mid+1, b, val);            
+            info = max(left->info, right->info);  // check with your own logic
+        }        
     }    
     
-    void pushDown(SegTreeNode* node)
+    void pushDown()
     {
-        if (node->tag==true)
+        if (tag==1 && left)
         {
-            node->left->info = node->info;
-            node->right->info = node->info;
-            node->left->tag = 1;
-            node->right->tag = 1;
-            node->tag = 0;
+            left->info = info;
+            right->info = info;
+            left->tag = 1;
+            right->tag = 1;
+            tag = 0;
         }        
+    } 
+    
+    void updateRange(int a, int b, int val)     // set range [a,b] with val
+    {        
+        if (b < start || a > end ) // not covered by [a,b] at all
+            return;        
+        if (a <= start && end <=b)  // completely covered within [a,b]
+        {
+            info = val;
+            tag = 1;
+            return;
+        }
+
+        if (left)
+        {
+            pushDown();        
+            left->updateRange(a, b, val);
+            right->updateRange(a, b, val);
+            info = max(left->info, right->info);  // write your own logic            
+        }        
+    }
+    
+    int queryRange(int a, int b)     // query the maximum value within range [a,b]
+    {
+        if (b < start || a > end )
+        {
+            return 0;  // check with your own logic
+        }
+        if (a <= start && end <=b)
+        {
+            return info;  // check with your own logic
+        }          
+        
+        if (left)
+        {
+            pushDown();     
+            int ret = max(left->queryRange(a, b), right->queryRange(a, b));        
+            info = max(left->info, right->info);    // check with your own logic
+            return ret;
+        }
+        
+        return info;   // should not reach here
     }  
-    
-    
+
+};
+
+class Solution {       
 public:
     vector<int> fallingSquares(vector<vector<int>>& positions) 
     {
@@ -93,8 +100,7 @@ public:
         }
         int n = pos2idx.size();
         
-        SegTreeNode* root = new SegTreeNode(0, n-1);
-        init(root, 0, n-1);
+        SegTreeNode* root = new SegTreeNode(0, n-1, 0);
         
         int maxH = 0;
         vector<int>rets;
@@ -102,8 +108,8 @@ public:
         {
             int a = pos2idx[rect[0]];
             int b = pos2idx[rect[0]+rect[1]];
-            int h = queryRange(root, a, b-1);  // [a,b)
-            updateRange(root, a, b-1, h + rect[1]);
+            int h = root->queryRange(a, b-1);  // [a,b)
+            root->updateRange(a, b-1, h + rect[1]);
             maxH = max(maxH, h + rect[1]);
             rets.push_back(maxH);
         }
