@@ -1,3 +1,5 @@
+// 支持动态开点
+
 class Solution {
     class SegTree
     {
