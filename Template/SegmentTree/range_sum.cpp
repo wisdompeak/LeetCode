@@ -58,7 +58,7 @@ class SegTreeNode
         }        
     }
     
-    LL queryRange(int a, int b)     // query the maximum value within range [a,b]
+    LL queryRange(int a, int b)     // query the sum over range [a,b]
     {
         if (b < start || a > end )
         {
