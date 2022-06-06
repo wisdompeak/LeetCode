@@ -3,8 +3,8 @@ public:
     vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites) 
     {
         int n = numCourses;
-        unordered_map<int,vector<int>>nextCourses(n);
-        unordered_map<int,int>degree(n);
+        vector<vector<int>>nextCourses(n);
+        vector<int>degree(n, 0);
         
         for (auto edge: prerequisites)
         {
