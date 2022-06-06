@@ -170,7 +170,7 @@ class SegTreeNode2
 
 class BookMyShow {
     int n,m;
-    vector<int>left;
+    vector<int>seats;
     int p = 0;
     SegTreeNode* root;
     SegTreeNode2* root2;
@@ -180,10 +180,10 @@ public:
     BookMyShow(int n, int m) {
         this->n = n;
         this->m = m;
-        left.resize(n);        
+        seats.resize(n);        
         for (int i=0; i<n; i++)
         {
-            left[i] = m;
+            seats[i] = m;
         }
 
         root = new SegTreeNode(0, n-1, m);        
@@ -205,11 +205,11 @@ public:
         if (root->queryRange(0, l) < k )
             return {};
         
-        left[l] -= k;
-        root->updateRange(l, l, left[l]);
-        root2->updateRange(l, l, left[l]);
+        seats[l] -= k;
+        root->updateRange(l, l, seats[l]);
+        root2->updateRange(l, l, seats[l]);
         
-        return {l,m-(left[l]+k)};
+        return {l,m-(seats[l]+k)};
     }
     
     bool scatter(int k, int maxRow) 
@@ -219,12 +219,12 @@ public:
         
         while (k>0)
         {
-            int t = min(k, left[p]);
-            left[p] -= t;            
-            root->updateRange(p, p, left[p]);
-            root2->updateRange(p, p, left[p]);
+            int t = min(k, seats[p]);
+            seats[p] -= t;            
+            root->updateRange(p, p, seats[p]);
+            root2->updateRange(p, p, seats[p]);
             k -= t;
-            if (left[p]==0) p++;
+            if (seats[p]==0) p++;
         }
         
         return true;
