@@ -4,10 +4,10 @@ class SegTreeNode
     SegTreeNode* left = NULL;
     SegTreeNode* right = NULL;
     int start, end;
-    int info;  // the max height of the range
+    int info;  // the maximum value of the range
     bool tag; 
         
-    SegTreeNode(int a, int b, int val)  // init for range [a,b]
+    SegTreeNode(int a, int b, int val)  // init for range [a,b] with val
     {                 
         tag = 0;
         start = a, end = b;
@@ -21,7 +21,7 @@ class SegTreeNode
         {
             left = new SegTreeNode(a, mid, val);
             right = new SegTreeNode(mid+1, b, val);            
-            info = max(left->info, right->info);  // write your own logic
+            info = max(left->info, right->info);  // check with your own logic
         }        
     }    
     
@@ -37,12 +37,11 @@ class SegTreeNode
         }        
     } 
     
-    void updateRange(int a, int b, int val)
+    void updateRange(int a, int b, int val)     // set range [a,b] with val
     {        
-        if (b < start || a > end ) // no intersection
-            return;
-        
-        if (a <= start && end <=b)
+        if (b < start || a > end ) // not covered by [a,b] at all
+            return;        
+        if (a <= start && end <=b)  // completely covered within [a,b]
         {
             info = val;
             tag = 1;
@@ -58,26 +57,26 @@ class SegTreeNode
         }        
     }
     
-    int queryRange(int a, int b)
+    int queryRange(int a, int b)     // query the maximum value within range [a,b]
     {
         if (b < start || a > end )
         {
-            return 0;  // write your own logic
+            return 0;  // check with your own logic
         }
         if (a <= start && end <=b)
         {
-            return info;  // write your own logic
+            return info;  // check with your own logic
         }          
         
         if (left)
         {
             pushDown();     
             int ret = max(left->queryRange(a, b), right->queryRange(a, b));        
-            info = max(left->info, right->info);
+            info = max(left->info, right->info);    // check with your own logic
             return ret;
         }
         
-        return info;          
+        return info;   // should not reach here
     }  
 
 };
