@@ -271,12 +271,10 @@
 [1902](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1902.Depth-of-BST-Given-Insertion-Order), 
 
 #### [Segment Tree](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/)
-* ``Basics``  
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (H-)   
 [1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1526.Minimum-Number-of-Increments-on-Subarrays-to-Form-a-Target-Array) (H-)  
 [1649.Create-Sorted-Array-through-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/1649.Create-Sorted-Array-through-Instructions) (H-)  
 [1157.Online-Majority-Element-In-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1157.Online-Majority-Element-In-Subarray) (H)  
-* ``Lazy Tag``  
 [370.Range-Addition](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/370.Range-Addition) (H)   
 [218.The-Skyline-Problem](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/218.The-Skyline-Problem) (H+)   
 [699.Falling-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/699.Falling-Squares) (H)    
@@ -1229,6 +1227,7 @@
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
+[370.Range-Addition](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/370.Range-Addition) (H-)   
 [056.Merge-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Others/056.Merge-Intervals) (M)   
 [057.Insert-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Others/057.Insert-Interval) (M)    
 [732.My-Calendar-III](https://github.com/wisdompeak/LeetCode/tree/master/Others/732.My-Calendar-III) (M)    
