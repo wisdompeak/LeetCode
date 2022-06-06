@@ -1,3 +1,5 @@
+// 线段树大小在初始化时固定。支持Lazy Tag（延迟标记）
+
 class SegTreeNode
 {
     public:
