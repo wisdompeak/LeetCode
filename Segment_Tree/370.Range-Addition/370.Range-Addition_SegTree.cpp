@@ -41,7 +41,7 @@ class SegTreeNode
         }        
     } 
     
-    void updateRangeBy(int a, int b, int val)     // set range [a,b] with val
+    void updateRangeBy(int a, int b, int val)     // increase range [a,b] by val
     {        
         if (b < start || a > end ) // not covered by [a,b] at all
             return;        
