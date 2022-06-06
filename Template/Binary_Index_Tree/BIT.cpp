@@ -4,8 +4,8 @@ class BIT{
     vector<long long>bitArr; // Note: all arrays are 1-index
     vector<long long>nums;
     long long M = 1e9+7;
-    
-    BIT(int N)
+
+    void init(int N)
     {
         this->N = N;
         bitArr.resize(N+1);
@@ -18,7 +18,7 @@ class BIT{
         while (idx <= N)
         {
             bitArr[idx]+=delta;
-            bitArr[idx] %= M;
+            // bitArr[idx] %= M;
             idx+=idx&(-idx);
         }
     }
@@ -28,7 +28,7 @@ class BIT{
         long long result = 0;
         while (idx){
             result += bitArr[idx];
-            result %= M;
+            // result %= M;
             idx-=idx&(-idx);
         }
         return result;
@@ -41,12 +41,13 @@ class BIT{
 };
 
 int main()
-{
+    {
     int N = 100000;
-    BIT bit(N);
+    BIT bit;
+    bit.init(N);
     vector<int>nums(N);
     // cin>> nums ....
-    
+
     for (int i=1; i<nums.size(); i++) {
         bit.updateDelta(i, nums[i]);
         cout << bit.sumRange(1,i);
