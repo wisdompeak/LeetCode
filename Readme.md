@@ -189,7 +189,7 @@
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
 * ``Maintain intervals``    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
-[2213.Longest-Substring-of-One-Repeating-Character](https://github.com/wisdompeak/LeetCode/new/master/Heap/2213.Longest-Substring-of-One-Repeating-Character) (H)    
+[2213.Longest-Substring-of-One-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2213.Longest-Substring-of-One-Repeating-Character) (H)    
 [2276.Count-Integers-in-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2276.Count-Integers-in-Intervals) (H-)      
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
