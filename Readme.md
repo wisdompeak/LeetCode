@@ -309,6 +309,7 @@
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
 [432.All-O-one-Data-Structure](https://github.com/wisdompeak/LeetCode/tree/master/Design/432.All-O-one-Data-Structure) (H)    
 [2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
+[2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)      
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 [032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
@@ -326,6 +327,7 @@
 [1209.Remove-All-Adjacent-Duplicates-in-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1209.Remove-All-Adjacent-Duplicates-in-String-II) (M+)   
 [1586.Binary-Search-Tree-Iterator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1586.Binary-Search-Tree-Iterator-II) (H)  
 [2197.Replace-Non-Coprime-Numbers-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2197.Replace-Non-Coprime-Numbers-in-Array) (H-)     
+[2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)      
 * ``monotonic stack``    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
