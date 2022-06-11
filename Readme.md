@@ -761,6 +761,7 @@
    [2172.Maximum-AND-Sum-of-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2172.Maximum-AND-Sum-of-Array) (H)    
    * ``TSP``   
    [943.Find-the-Shortest-Superstring](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/943.Find-the-Shortest-Superstring) (H+)    
+   [2247.Maximum-Cost-of-Trip-With-K-Highways](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2247.Maximum-Cost-of-Trip-With-K-Highways) (H)    
 * ``Catalan``   
 [096.Unique-Binary-Search-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/096.Unique-Binary-Search-Trees) (M+)  
 [1259.Handshakes-That-Don't-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1259.Handshakes-That-Don't-Cross) (M+)   
