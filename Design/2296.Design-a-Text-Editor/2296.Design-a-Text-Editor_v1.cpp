@@ -3,16 +3,13 @@ class TextEditor {
     list<char>::iterator iter;
 public:
     TextEditor() {
-        t.push_back('#');
         iter = t.begin();
     }
     
     void addText(string text) 
     {
         for (auto ch: text)
-        {
             t.insert(iter, ch);
-        }            
     }
     
     int deleteText(int k) 
@@ -24,7 +21,7 @@ public:
             t.erase(iter2);
             k--;
             ret++;
-        }        
+        }
         return ret;
     }
     
@@ -35,36 +32,36 @@ public:
             iter = prev(iter);
             k--;
         }
-        int p = 10;
-        while (iter!=t.begin() && p>0)
+        int p = 0;
+        while (iter!=t.begin() && p<10)
         {
             iter = prev(iter);
-            p--;
+            p++;
         }
         string ret;
-        for (int i=0; i<10-p; i++)
+        for (int i=0; i<p; i++)
         {
             ret.push_back(*iter);
             iter = next(iter);                
         }
-        return ret;            
+        return ret;
     }
     
     string cursorRight(int k) 
     {
-        while (*iter!='#' && k>0)
+        while (iter!=t.end() && k>0)
         {
             iter = next(iter);
             k--;
         }
-        int p = 10;
-        while (iter!=t.begin() && p>0)
+        int p = 0;
+        while (iter!=t.begin() && p<10)
         {
             iter = prev(iter);
-            p--;
+            p++;
         }
         string ret;
-        for (int i=0; i<10-p; i++)
+        for (int i=0; i<p; i++)
         {
             ret.push_back(*iter);
             iter = next(iter);                
