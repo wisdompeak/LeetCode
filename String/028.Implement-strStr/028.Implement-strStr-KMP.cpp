@@ -20,7 +20,7 @@ public:
             int j = dp[i-1];
             while (j>0 && haystack[i]!=needle[j])
                 j = suf[j-1];
-            dp[i] = j + (haystack[i]!=needle[j]);
+            dp[i] = j + (haystack[i]==needle[j]);
             if (dp[i]==needle.size())
                 return i-needle.size()+1;
         }
