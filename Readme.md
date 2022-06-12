@@ -1095,6 +1095,7 @@
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
 [2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)    
 [2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero) (M+)    
+[2306.Naming-a-Company](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2306.Naming-a-Company) (H-)     
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
