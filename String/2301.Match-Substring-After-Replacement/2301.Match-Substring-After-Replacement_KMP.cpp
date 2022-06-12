@@ -3,7 +3,7 @@ class Solution {
     bool table[128][128];
     
 public:
-    bool match(char x, char y)
+    bool equal(char x, char y)
     {
         return (x==y || table[y][x]);
     }
@@ -26,16 +26,16 @@ public:
         vector<int> suf = preprocess(needle);
         
         vector<int>dp(n,0);
-        dp[0] = match(haystack[0], needle[0]);
+        dp[0] = equal(haystack[0], needle[0]);
         if (m==1 && dp[0]==1)
             return 0;
 
         for (int i=1; i<n; i++)
         {
             int j = dp[i-1];
-            while (j>0 && !match(haystack[i], needle[j]))
+            while (j>0 && !equal(haystack[i], needle[j]))
                 j = suf[j-1];
-            dp[i] = j + match(haystack[i], needle[j]);
+            dp[i] = j + equal(haystack[i], needle[j]);
             if (dp[i]==needle.size())
                 return i-needle.size()+1;
         }
