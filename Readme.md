@@ -1230,6 +1230,7 @@
 [2104.Sum-of-Subarray-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2104.Sum-of-Subarray-Ranges) (H-)      
 [2262.Total-Appeal-of-A-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2262.Total-Appeal-of-A-String) (M+)      
 [2281.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/2281.Sum-of-Total-Strength-of-Wizards) (H)    
+[2302.Count-Subarrays-With-Score-Less-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Others/2302.Count-Subarrays-With-Score-Less-Than-K) (H-)      
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
