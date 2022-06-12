@@ -1,72 +1,69 @@
 class Solution {
-    bool table[256][256];
+    // unordered_map<char, unordered_set<char>>>Map; // 't'-> {'7','8'}
+    bool table[128][128];
+    
 public:
-    bool matchReplacement(string s, string sub, vector<vector<char>>& mappings) 
+    bool match(char x, char y)
     {
-        int m = s.size();
-        
-        for (auto x: mappings)
-        {
-            table[x[0]][x[1]] = 1;
-        }
-        
-        return strStr(s, sub)!=-1;        
-    }
-
-    bool equal(char a, char b)
-    {
-        return (a==b || table[b][a]);
-    }
-
-    int strStr(string haystack, string needle) 
-    {
-        string s = haystack;
-        string p = needle;
-        int n = s.size();
-        int m = p.size();
-        
-        if (m==0) return 0;
-        if (n==0) return -1;
-        
-        vector<int>dp(n,0);
-        dp[0] = equal(s[0], p[0]);
-        if (m==1 && dp[0]==1)
-            return 0;
-        
-        vector<int>suffix = preprocess(p);
-        
-        for (int i=1; i<n; i++)
-        {
-            // compute dp[i]
-            int j = dp[i-1];
-            while (j>0 && !equal(s[i], p[j]))
-                j = suffix[j-1];
-            dp[i] = j + equal(s[i], p[j]);
-
-            if (dp[i]==p.size())
-                return i - p.size() + 1;
-        }
-        
-        return -1;
-        
+        return (x==y || table[y][x]);
     }
     
-    vector<int> preprocess(string s) 
+    bool matchReplacement(string s, string sub, vector<vector<char>>& mappings) 
+    {
+        for (auto x: mappings)
+            table[x[0]][x[1]] = 1;
+        
+        return strStr(s, sub)!= -1;        
+    }
+    
+    int strStr(string haystack, string needle) 
+    {
+        int n = haystack.size();
+        int m = needle.size();
+        if (m==0) return 0;
+        if (n==0) return -1;    
+
+        vector<int> suf = preprocess(needle);
+        
+        vector<int>dp(n,0);
+        dp[0] = match(haystack[0], needle[0]);
+        if (m==1 && dp[0]==1)
+            return 0;
+
+        for (int i=1; i<n; i++)
+        {
+            int j = dp[i-1];
+            while (j>0 && !match(haystack[i], needle[j]))
+                j = suf[j-1];
+            dp[i] = j + match(haystack[i], needle[j]);
+            if (dp[i]==needle.size())
+                return i-needle.size()+1;
+        }
+        return -1;
+    }
+    
+    bool equal2(char x, char y)
+    {
+        if (x==y) return true;
+        for (int i=0; i<128; i++)
+            if (table[x][i]==table[y][i])
+                return true;
+        return false;
+    }
+
+    vector<int> preprocess(string s)
     {
         int n = s.size();
-        vector<int>dp(n);
-        dp[0] = 0;
-
+        vector<int>dp(n,0);
         for (int i=1; i<n; i++)
         {
             int j = dp[i-1];                       
-            while (j>=1 && !equal(s[j],s[i]))
+            while (j>=1 && !equal2(s[j],s[i]))
             {
                 j = dp[j-1];
             }          
-            dp[i] = j + equal(s[j], s[i]);
+            dp[i] = j + equal2(s[j],s[i]);
         }
-
         return dp;
     }
 };
