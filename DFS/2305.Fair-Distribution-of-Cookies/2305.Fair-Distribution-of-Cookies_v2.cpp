@@ -20,24 +20,24 @@ public:
         return left;
     }
     
-    bool dfs(vector<int>& cookies, int limit, int k, int idx)
+    bool dfs(vector<int>& cookies, int limit, int k, int curCookie)
     {
-        if (idx == cookies.size()) return true;
+        if (curCookie == cookies.size()) return true;
         
         int flag = 0;
         for (int i=0; i<k; i++)
         {
-            if (plan[i]+cookies[idx] > limit) continue;
+            if (plan[i]+cookies[curCookie] > limit) continue;
             if (plan[i]==0)
             {
                 if (flag==1) continue;
                 flag = 1;
             }
             
-            plan[i] += cookies[idx];
-            if (dfs(cookies, limit, k, idx+1))
+            plan[i] += cookies[curCookie];
+            if (dfs(cookies, limit, k, curCookie+1))
                 return true;
-            plan[i] -= cookies[idx];
+            plan[i] -= cookies[curCookie];
         }
         return false;
     }
