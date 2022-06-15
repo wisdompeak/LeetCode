@@ -9,3 +9,5 @@
 在KMP的主函数中，定义一个新的```equal(char a, char b)```. 当两个字符相等，或者sub的字符可以映射到s的字符中时，就返回true。
 
 在KMP的preprocessing函数中，定义一个新的```equal2(char a, char b)```. 当两个字符相等，或者这两个字符都可以映射到同一个字符时，就返回true。
+
+更新：这道题不存在正确的KMP解法，敬请注意。
