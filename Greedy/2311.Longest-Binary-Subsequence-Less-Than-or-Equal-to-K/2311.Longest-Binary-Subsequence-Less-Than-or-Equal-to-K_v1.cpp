@@ -23,7 +23,6 @@ public:
         
         for (int i=m-1; i>=0; i--)
         {
-            if (s[i]=='0') continue;
             if (check(s,i,t, 0))
             {
                 ret = max(ret, countZeros(s, i) + n);
