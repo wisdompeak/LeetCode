@@ -9,9 +9,7 @@ public:
         
         dp[0][0][0] = 1;
         dp[0][0][1] = 1;
-        
-        LL  ret  = 0;
-        
+                
         for (int i=1; i<=n; i++)
             for (int j=0; j<=3; j++)
                 for (int k=0; k<2; k++)
