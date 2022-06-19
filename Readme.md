@@ -385,7 +385,6 @@
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
-[642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (M+)    
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
 [1057.Campus-Bikes](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1057.Campus-Bikes) (H-)  
@@ -538,6 +537,7 @@
 [1804.Implement-Trie-II-(Prefix-Tree)](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1804.Implement-Trie-II-(Prefix-Tree)) (M+)  
 [211.Add-and-Search-Word](https://github.com/wisdompeak/LeetCode/tree/master/Trie/211.Add-and-Search-Word) (H-)    
 [472.Concatenated-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/472.Concatenated-Words) (H-)    
+[642.Design-Search-Autocomplete-System](https://github.com/wisdompeak/LeetCode/tree/master/Design/642.Design-Search-Autocomplete-System) (H-)    
 [648.Replace-Words](https://github.com/wisdompeak/LeetCode/tree/master/Trie/648.Replace-Words) (H)   
 [588.Design-In-Memory-File-System](https://github.com/wisdompeak/LeetCode/tree/master/Trie/588.Design-In-Memory-File-System) (H-)  
 [677.Map-Sum-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Trie/677.Map-Sum-Pairs) (M)  
