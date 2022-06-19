@@ -615,6 +615,7 @@
 [2140.Solving-Questions-With-Brainpower](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2140.Solving-Questions-With-Brainpower) (H)      
 [2189.Number-of-Ways-to-Build-House-of-Cards](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2189.Number-of-Ways-to-Build-House-of-Cards) (H-)      
 [2218.Maximum-Value-of-K-Coins-From-Piles](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2218.Maximum-Value-of-K-Coins-From-Piles) (H-)     
+[2312.Selling-Pieces-of-Wood](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2312.Selling-Pieces-of-Wood) (M+)    
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
