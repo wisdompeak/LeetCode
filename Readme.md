@@ -328,7 +328,7 @@
 [1586.Binary-Search-Tree-Iterator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1586.Binary-Search-Tree-Iterator-II) (H)  
 [2197.Replace-Non-Coprime-Numbers-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2197.Replace-Non-Coprime-Numbers-in-Array) (H-)     
 [2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)      
-* ``monotonic stack``    
+* ``monotonic stack: next greater / smaller``    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
 [085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H-)    
@@ -351,6 +351,8 @@
 [1944.Number-of-Visible-People-in-a-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1944.Number-of-Visible-People-in-a-Queue) (H)  
 [1950.Maximum-of-Minimum-Values-in-All-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1950.Maximum-of-Minimum-Values-in-All-Subarrays) (H-)     
 [1966.Binary-Searchable-Numbers-in-an-Unsorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1966.Binary-Searchable-Numbers-in-an-Unsorted-Array) (M+)      
+* ``monotonic stack: other usages``    
+[2282.Number-of-People-That-Can-Be-Seen-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2282.Number-of-People-That-Can-Be-Seen-in-a-Grid) (H)    
 [2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
 * ``form smallest sequence``    
 [402.Remove-K-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Stack/402.Remove-K-Digits) (H-)    
