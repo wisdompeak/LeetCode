@@ -18,8 +18,7 @@ public:
         
         if (m<n) return m;
         
-        int ret = n-1;        
-        ret = max(ret, countZeros(s, m-n+1) + n-1);
+        int ret = countZeros(s, m-n+1) + n-1;  
         
         for (int i=m-1; i>=0; i--)
         {
