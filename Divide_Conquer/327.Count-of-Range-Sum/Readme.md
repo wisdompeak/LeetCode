@@ -10,5 +10,6 @@
 
 本题的另一个训练点就是对C++的STL里lower_bound的考察。如何写自定义比较函数是关键。我们需要在右序列中找到下限的位置，希望找到的位置在原序列中是大于等于sums[i]+lower的，所以自定义函数里要写a<b。另一方面，我们需要在右序列中找到上限的位置，希望找到的位置在原序列中是大于sums[i]+upper的，所以自定义函数里要写a<=b。最终pos2-pos1表示原序列里处于[sums[i]+lower,sums[i]+upper]闭区间的个数。
 
+补充：```inplace_merge(iter1, iter2, iter3)```可以实现```[iter1,iter2)```和```[iter2,iter3)```两段区间的归并排序（前提是两段各自有序）。
 
 [Leetcode Link](https://leetcode.com/problems/count-of-range-sum)
