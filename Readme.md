@@ -777,10 +777,11 @@
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
 * ``Infer future from current``   
 [2044.Count-Number-of-Maximum-Bitwise-OR-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2044.Count-Number-of-Maximum-Bitwise-OR-Subsets) (M)    
-* ``max subarray``   
+* ``maximum subarray``   
 [053.Maximum-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/053.Maximum-Subarray) (E+)  
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)  
 [2272.Substring-With-Largest-Variance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2272.Substring-With-Largest-Variance) (H-)    
+[2321.Maximum-Score-Of-Spliced-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2321.Maximum-Score-Of-Spliced-Array) (H-)      
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
