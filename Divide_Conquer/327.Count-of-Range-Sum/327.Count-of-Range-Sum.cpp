@@ -1,6 +1,6 @@
 class Solution {
     int result;
-    long temp[100001];
+    long temp[100005];
 public:
     int countRangeSum(vector<int>& nums, int lower, int upper) 
     {
@@ -26,34 +26,36 @@ public:
             result+=p2-p1;            
         }
         
-        int i=a, j=mid+1, p = 0;        
-        while (i<=mid && j<=b)
-        {
-            if (nums[i]<=nums[j])
-            {
-                temp[p] = nums[i];
-                i++;
-            }                
-            else
-            {
-                temp[p] = nums[j];
-                j++;
-            } 
-            p++;
-        }
-        while (i<=mid)
-        {
-            temp[p] = nums[i];
-            i++;
-            p++;
-        }
-        while (j<=b)
-        {
-            temp[p] = nums[j];
-            j++;
-            p++;
-        }
-        for (int i=0; i<b-a+1; i++)
-            nums[a+i] = temp[i];
+        inplace_merge(nums.begin()+a, nums.begin()+mid+1, nums.begin()+b+1);
+        
+        // int i=a, j=mid+1, p = 0;        
+        // while (i<=mid && j<=b)
+        // {
+        //     if (nums[i]<=nums[j])
+        //     {
+        //         temp[p] = nums[i];
+        //         i++;
+        //     }                
+        //     else
+        //     {
+        //         temp[p] = nums[j];
+        //         j++;
+        //     } 
+        //     p++;
+        // }
+        // while (i<=mid)
+        // {
+        //     temp[p] = nums[i];
+        //     i++;
+        //     p++;
+        // }
+        // while (j<=b)
+        // {
+        //     temp[p] = nums[j];
+        //     j++;
+        //     p++;
+        // }
+        // for (int i=0; i<b-a+1; i++)
+        //     nums[a+i] = temp[i];
     }
 };
