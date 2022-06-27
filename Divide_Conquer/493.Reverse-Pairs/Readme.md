@@ -6,5 +6,6 @@
 
 另外，两个有序数组的归并排序操作，代码要熟练掌握。
 
+补充：inplace_merge(iter1, iter2, iter3)可以实现[iter1,iter2)和[iter2,iter3)两段区间的归并排序（前提是两段各自有序）。
 
 [Leetcode Link](https://leetcode.com/problems/reverse-pairs)
