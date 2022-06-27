@@ -1,6 +1,6 @@
 class Solution {
     int result;
-    long temp[10001];
+    long temp[100001];
 public:
     int countRangeSum(vector<int>& nums, int lower, int upper) 
     {
