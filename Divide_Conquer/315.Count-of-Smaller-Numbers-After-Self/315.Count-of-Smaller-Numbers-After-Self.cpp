@@ -30,7 +30,6 @@ public:
         }
         
         // 将两段已经有序的数组段start~mid,mid+1~end合起来排序。
-        // 如果写归并排序的code会更快一些。这里就偷懒了，直接用sort函数。        
-        sort(sortedNums.begin()+start,sortedNums.begin()+end+1);        
+        inplace_merge(sortedNums.begin()+start, sortedNums.begin()+mid+1, sortedNums.begin()+end+1);
     }
 };
