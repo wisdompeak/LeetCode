@@ -648,6 +648,7 @@
 [1883.Minimum-Skips-to-Arrive-at-Meeting-On-Time](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1883.Minimum-Skips-to-Arrive-at-Meeting-On-Time) (H)  
 [2036.Maximum-Alternating-Subarray-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2036.Maximum-Alternating-Subarray-Sum) (M+)     
 [2143.Choose-Numbers-From-Two-Arrays-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2143.Choose-Numbers-From-Two-Arrays-in-Range) (H)    
+[2318.Number-of-Distinct-Roll-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2318.Number-of-Distinct-Roll-Sequences) (H-)      
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
