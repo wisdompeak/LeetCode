@@ -29,12 +29,11 @@ public:
 
                     for (int x=1; x<=6; x++)
                     {
-                        if (x==a) continue;
-                        if (x==b) continue;
-                        if (gcd(x,a)>1) continue;
-
-                        dp[i][a][b] += dp[i-1][x][a];
-                        dp[i][a][b] %= M;
+                        if (x!=b)
+                        {
+                            dp[i][a][b] += dp[i-1][x][a];
+                            dp[i][a][b] %= M;                            
+                        }                        
                     }                   
 
                     if (i==n)
