@@ -8,4 +8,4 @@
 #### 解法2：Union Find
 我们将所有的边按照diff从小到大排个序。优先选最小的边，看能联通哪些点；再选次小的边，看能联通哪些点。直至选中某条边之后，发现起点和终点恰好联通，那么这条边的diff就是答案。
 
-注：此题和1102非常相似。
+注：此题和[1102](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1102.Path-With-Maximum-Minimum-Value)非常相似。
