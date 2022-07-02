@@ -90,6 +90,7 @@
 [1011.Capacity-To-Ship-Packages-Within-D-Days](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1011.Capacity-To-Ship-Packages-Within-D-Days) (M)  
 [1060.Missing-Element-in-Sorted-Array](https://github.com/wisdompeak/LeetCode/blob/master/Binary_Search/1060.Missing-Element-in-Sorted-Array) (H)  
 [1102.Path-With-Maximum-Minimum-Value](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1102.Path-With-Maximum-Minimum-Value) (H-)   
+[1631.Path-With-Minimum-Effort](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1631.Path-With-Minimum-Effort) (H-)  
 [1231.Divide-Chocolate](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1231.Divide-Chocolate) (M)   
 [1283.Find-the-Smallest-Divisor-Given-a-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1283.Find-the-Smallest-Divisor-Given-a-Threshold) (M)  
 [1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1292.Maximum-Side-Length-of-a-Square-with-Sum-Less-than-or-Equal-to-Threshold) (H-)  
