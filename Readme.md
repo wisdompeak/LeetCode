@@ -523,6 +523,7 @@
 [499.The-Maze-III](https://github.com/wisdompeak/LeetCode/tree/master/BFS/499.The-Maze-III) (H)    
 [787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H)    
 [882.Reachable-Nodes-In-Subdivided-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/882.Reachable-Nodes-In-Subdivided-Graph ) (H)  
+[1102.Path-With-Maximum-Minimum-Value](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1102.Path-With-Maximum-Minimum-Value) (H-)   
 [1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
 [1514.Path-with-Maximum-Probability](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1514.Path-with-Maximum-Probability) (H)  
 [1786.Number-of-Restricted-Paths-From-First-to-Last-Node](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1786.Number-of-Restricted-Paths-From-First-to-Last-Node) (M+)  
