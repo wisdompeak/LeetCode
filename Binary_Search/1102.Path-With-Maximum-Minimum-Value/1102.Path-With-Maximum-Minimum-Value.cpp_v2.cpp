@@ -1,14 +1,14 @@
-using AI2 = array<int,3>;
+using AI3 = array<int,3>;
 class Solution {
     vector<pair<int,int>>dir = {{1,0},{-1,0},{0,1},{0,-1}};
 public:
-    int maximumMinimumPath(vector<vector<int>>& A) 
+    int maximumMinimumPath(vector<vector<int>>& grid) 
     {
-        int M = A.size();
-        int N = A[0].size();
-        priority_queue<AI2>pq;
+        int M = grid.size();
+        int N = grid[0].size();
+        priority_queue<AI3>pq;
         
-        pq.push({A[0][0], 0,0});
+        pq.push({grid[0][0], 0,0});
         vector<vector<int>>visited(M, vector<int>(N,0));        
         vector<vector<int>>rets(M, vector<int>(N,0));        
         
@@ -28,7 +28,7 @@ public:
                 int j = y+dir[k].second;
                 if (i<0||i>=M||j<0||j>=N)
                     continue;                                                
-                pq.push({min(d, A[i][j]), i, j});                
+                pq.push({min(d, grid[i][j]), i, j});                
             }
         }
                 
