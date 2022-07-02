@@ -7,17 +7,17 @@ public:
     }
     
     int helper(int st, int en, int k, vector<int>& slices)
-    {
-        vector<int>f(k+1,0); // f[i]: the maximum gain by the current round if we take i slices, and we do take the current slice.
-        vector<int>g(k+1,0); // g[i]: the maximum gain by the current round if we take i slices, and we do NOT take the current slice.
+    {        
+        vector<int>dp0(k+1);
+        vector<int>dp1(k+1);
         
         for (int i=st; i<=en; i++)
             for (int j=min(k,i-st+1); j>=1; j--)
             {
-                g[j] = max(g[j], f[j]);
-                f[j] = g[j-1] + slices[i];                                
+                dp0[j] = max(dp0[j], dp1[j]);
+                dp1[j] = dp0[j-1] + slices[i];
             }
         
-        return max(f[k], g[k]);        
+        return max(dp0[k], dp1[k]);
     }
 };
