@@ -453,6 +453,7 @@
 [2305.Fair-Distribution-of-Cookies](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2305.Fair-Distribution-of-Cookies) (H-)     
 * ``memorization``    
 [329.Longest-Increasing-Path-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/DFS/329.Longest-Increasing-Path-in-a-Matrix) (M)  
+[2328.Number-of-Increasing-Paths-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2328.Number-of-Increasing-Paths-in-a-Grid) (M)     
 [638.Shopping-Offers](https://github.com/wisdompeak/LeetCode/tree/master/DFS/638.Shopping-Offers) (M+)    
 [403.Frog-Jump](https://github.com/wisdompeak/LeetCode/tree/master/DFS/403.Frog-Jump) (M+)    
 [546.Remove-Boxes](https://github.com/wisdompeak/LeetCode/tree/master/DFS/546.Remove-Boxes) (H+)   
