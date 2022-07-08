@@ -809,6 +809,7 @@
 [1738.Find-Kth-Largest-XOR-Coordinate-Value](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1738.Find-Kth-Largest-XOR-Coordinate-Value) (M+)  
 [1835.Find-XOR-Sum-of-All-Pairs-Bitwise-AND](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1835.Find-XOR-Sum-of-All-Pairs-Bitwise-AND) (M)  
 * ``Bit Mask``   
+[320.Generalized-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/320.Generalized-Abbreviation) (M)      
 [1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters) (M+)  
 [1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1284.Minimum-Number-of-Flips-to-Convert-Binary-Matrix-to-Zero-Matrix) (M+)  
 [1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1452.People-Whose-List-of-Favorite-Companies-Is-Not-a-Subset-of-Another-List) (H-)  
@@ -846,7 +847,6 @@
 [1754.Largest-Merge-Of-Two-Strings](https://github.com/wisdompeak/LeetCode/tree/master/String/1754.Largest-Merge-Of-Two-Strings) (M+)  
 [1849.Splitting-a-String-Into-Descending-Consecutive-Values](https://github.com/wisdompeak/LeetCode/tree/master/String/1849.Splitting-a-String-Into-Descending-Consecutive-Values) (M+)  
 * ``Abbreviation``    
-[320.Generalized-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/320.Generalized-Abbreviation) (M)      
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
 [411.Minimum-Unique-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/411.Minimum-Unique-Word-Abbreviation) (H)  
 [2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
