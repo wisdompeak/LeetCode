@@ -1114,6 +1114,7 @@
 [2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero) (M+)    
 [2306.Naming-a-Company](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2306.Naming-a-Company) (H-)     
 [2311.Longest-Binary-Subsequence-Less-Than-or-Equal-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2311.Longest-Binary-Subsequence-Less-Than-or-Equal-to-K) (H-)    
+[2332.The-Latest-Time-to-Catch-a-Bus](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2332.The-Latest-Time-to-Catch-a-Bus) (H-)    
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
