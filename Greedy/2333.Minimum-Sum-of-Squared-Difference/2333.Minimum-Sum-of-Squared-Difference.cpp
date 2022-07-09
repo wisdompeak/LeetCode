@@ -8,44 +8,35 @@ public:
             nums.push_back(abs(nums1[i]-nums2[i]));
         sort(nums.rbegin(), nums.rend());
         
-        int n = nums.size();
-        int cap = k1+k2;
+        int n = nums.size();        
         vector<LL>presum(n);
         presum[0] = nums[0];
         for (int i=1; i<n; i++)
             presum[i] = presum[i-1]+nums[i];
         LL ret = 0;
         
-        if (presum[n-1] <= cap)
-            return 0;
+        int k = k1+k2;
+        if (presum[n-1] <= k)
+            return 0;        
         
-        int k = 0;
-        while (k<n && (presum[k] - nums[k]*(k+1) <= cap))
-            k++;
+        int i = 0;
+        while (i<n && (presum[i] - nums[i]*(i+1) <= k))
+            i++;        
+        i--;
         
-        k--;
+        LL diff = k - (presum[i] - nums[i]*(i+1));
+        LL each = diff / (i+1);
+        LL extra = diff % (i+1);
+
+        int a = extra;  // nums[i]-each-1;
+        int b = i+1-a;  // nums[i]-each;
         
-        LL diff = cap - (presum[k] - nums[k]*(k+1));
-        LL avg = diff / (k+1);
-        LL b = diff - avg*(k+1);
-        LL a = (k+1-b);
-                        
-        for (int i=0; i<a; i++ )         
-        {
-            LL t = max(0LL, nums[k]-avg);
-            ret += t*t;
-        }
-                    
-        for (int i=0; i<b; i++ )
-        {
-            LL t = (nums[k] - avg - 1);
-            ret += t*t;
-        }            
+        ret += (nums[i]-each-1)*(nums[i]-each-1) * a;
+        ret += (nums[i]-each)*(nums[i]-each) * b;                        
         
-        for (int i=k+1; i<n; i++)            
-            ret += (nums[i])*nums[i];
+        for (int j=i+1; j<n; j++)            
+            ret += nums[j]*nums[j];
                 
         return ret;
-        
     }
 };
