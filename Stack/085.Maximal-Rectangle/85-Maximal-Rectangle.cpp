@@ -1,66 +1,44 @@
 class Solution {
 public:
-    /**
-     * @param matrix a boolean 2D matrix
-     * @return an integer
-     */
-    int maximalRectangle(vector<vector<bool> > &matrix) 
+    int maximalRectangle(vector<vector<char>>& matrix) 
     {
         int M=matrix.size();
-        if (M==0) return 0;
         int N=matrix[0].size();
         
-        auto q= vector<int>(N,0);
-        int result = 0;
+        auto hist = vector<int>(N,0);
+        int result=0;
         
         for (int i=0; i<M; i++)
         {
-            for (int j=0; j<N; j++)
-            {
-                if (matrix[i][j]==0) 
-                    q[j]=0;
+            for (int k=0; k<N; k++)
+            {                
+                if (matrix[i][k]=='1')
+                    hist[k]=hist[k]+1;
                 else
-                    q[j]=q[j]+1;
-            }
-
-            result = max(result, helper(q));
-            
+                    hist[k]=0;
+            }            
+            result = max(result,largestRectangleArea(hist));            
         }
         
         return result;
     }
     
-    int helper(vector<int>height)
-    {
-        if (height.size()==0) return 0;
-        if (height.size()==1) return height[0];
-        
-        stack<int>s;
-        height.push_back(0);
-        height.insert(height.begin(),0);
-        
-        int result=0;
-        
-        for (int i=0; i<height.size(); i++)
+    int largestRectangleArea(vector<int> heights) 
+    {        
+        heights.insert(heights.begin(),0);
+        heights.push_back(0);
+        stack<int>Stack;
+        int result = 0;
+        for (int i=0; i<heights.size(); i++)
         {
-            if (s.empty() || height[i]>=height[s.top()])
+            while (!Stack.empty() && heights[Stack.top()] > heights[i])
             {
-                s.push(i);
-                continue;
+                int H = heights[Stack.top()];
+                Stack.pop();                    
+                result = max(result, H*(i-Stack.top()-1));                    
             }
-            
-            if (height[i]<height[s.top()])
-            {
-                while (!s.empty() && height[i]<height[s.top()])
-                {
-                    int H = height[s.top()];
-                    s.pop();
-                    result = max(result, H*(i-s.top()-1));
-                }
-                s.push(i);
-            }
+            Stack.push(i);            
         }
-        
-        return result;
+        return result;        
     }
 };
