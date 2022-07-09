@@ -403,6 +403,7 @@
 [1882.Process-Tasks-Using-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1882.Process-Tasks-Using-Servers) (H)  
 [1942.The-Number-of-the-Smallest-Unoccupied-Chair](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1942.The-Number-of-the-Smallest-Unoccupied-Chair) (M+)  
 [2102.Sequentially-Ordinal-Rank-Tracker](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2102.Sequentially-Ordinal-Rank-Tracker) (H-)    
+[2263.Make-Array-Non-decreasing-or-Non-increasing](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2263.Make-Array-Non-decreasing-or-Non-increasing) (H)      
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Priority_Queue/502.IPO/) （M+）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/630.Course-Schedule-III) (H)   
@@ -1109,7 +1110,6 @@
 [2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 [2242.Maximum-Score-of-a-Node-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2242.Maximum-Score-of-a-Node-Sequence) (M+)      
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
-[2263.Make-Array-Non-decreasing-or-Non-increasing](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2263.Make-Array-Non-decreasing-or-Non-increasing) (H)      
 [2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)    
 [2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero) (M+)    
 [2306.Naming-a-Company](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2306.Naming-a-Company) (H-)     
