@@ -1,43 +1,21 @@
 class Solution {
 public:
-    /**
-     * @param height: A list of integer
-     * @return: The area of largest rectangle in the histogram
-     */
-    int largestRectangleArea(vector<int> &height) 
+    int largestRectangleArea(vector<int>& heights) 
     {
-        if (height.size()==0) return 0;
-        if (height.size()==1) return height[0];
-        
-        height.push_back(0);
-        height.insert(height.begin(),0);
-        stack<int>s;
-
-        int result=0;
-        
-        for (int i=0; i<height.size(); i++)
+        heights.insert(heights.begin(),0);
+        heights.push_back(0);
+        stack<int>Stack;
+        int result = 0;
+        for (int i=0; i<heights.size(); i++)
         {
-
-            if (s.empty() || height[i]>=height[s.top()])
+            while (!Stack.empty() && heights[Stack.top()] > heights[i])
             {
-                s.push(i);
-                continue;
+                int H = heights[Stack.top()];
+                Stack.pop();                    
+                result = max(result, H*(i-Stack.top()-1));                    
             }
-
-            if (height[i]<height[s.top()])
-            {
-                while (!s.empty() && height[s.top()]>height[i])
-                {
-                    
-                    int Height = height[s.top()];
-                    s.pop();
-                    result = max(result, Height*(i-s.top()-1));
-
-                }
-                s.push(i);
-            }            
+            Stack.push(i);            
         }
-        
-        return result;
+        return result;        
     }
 };
