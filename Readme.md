@@ -1107,6 +1107,7 @@
 [2193.Minimum-Number-of-Moves-to-Make-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H+)    
 [2216.Minimum-Deletions-to-Make-Array-Beautiful](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2216.Minimum-Deletions-to-Make-Array-Beautiful) (M+)      
 [2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
+[2333.Minimum-Sum-of-Squared-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2333.Minimum-Sum-of-Squared-Difference) (M+)    
 [2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 [2242.Maximum-Score-of-a-Node-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2242.Maximum-Score-of-a-Node-Sequence) (M+)      
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
