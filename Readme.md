@@ -1108,9 +1108,6 @@
 [2182.Construct-String-With-Repeat-Limit](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2182.Construct-String-With-Repeat-Limit) (M+)     
 [2193.Minimum-Number-of-Moves-to-Make-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2193.Minimum-Number-of-Moves-to-Make-Palindrome) (H+)    
 [2216.Minimum-Deletions-to-Make-Array-Beautiful](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2216.Minimum-Deletions-to-Make-Array-Beautiful) (M+)      
-[2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
-[2333.Minimum-Sum-of-Squared-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2333.Minimum-Sum-of-Squared-Difference) (M+)    
-[2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 [2242.Maximum-Score-of-a-Node-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2242.Maximum-Score-of-a-Node-Sequence) (M+)      
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
 [2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)    
@@ -1118,6 +1115,10 @@
 [2306.Naming-a-Company](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2306.Naming-a-Company) (H-)     
 [2311.Longest-Binary-Subsequence-Less-Than-or-Equal-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2311.Longest-Binary-Subsequence-Less-Than-or-Equal-to-K) (H-)    
 [2332.The-Latest-Time-to-Catch-a-Bus](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2332.The-Latest-Time-to-Catch-a-Bus) (H-)    
+* ``Smear Top Elements``   
+[2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
+[2333.Minimum-Sum-of-Squared-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2333.Minimum-Sum-of-Squared-Difference) (M+)    
+[2234.Maximum-Total-Beauty-of-the-Gardens](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2234.Maximum-Total-Beauty-of-the-Gardens) (H-)      
 * ``LIS``   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
 [354.Russian-Doll-Envelopes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/354.Russian-Doll-Envelopes) (H-)     
