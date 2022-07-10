@@ -2,44 +2,23 @@ class Solution {
 public:
     bool canChange(string start, string target) 
     {
-        string s, t;        
-        
-        vector<int>pos1;
-        vector<int>pos2;
-        for (int i=0; i<start.size(); i++)
+        int i=0;
+        int j=0;
+        while (i<start.size() && j<target.size())
         {
-            char ch = start[i];
-            if (ch!='_')
-            {
-                s.push_back(ch);
-                pos1.push_back(i);
-            }
+            while (i<start.size() && start[i]=='_')
+                i++;
+            while (j<target.size() && target[j]=='_')
+                j++;
+            if (start[i]!=target[j])
+                return false;
+            if (start[i]=='R' && i>j)
+                return false;
+            if (start[i]=='L' && i<j)
+                return false;
+            i++;
+            j++;
         }
-        
-        for (int i=0; i<target.size(); i++)
-        {
-            char ch = target[i];
-            if (ch!='_')
-            {
-                t.push_back(ch);
-                pos2.push_back(i);
-            }
-        }
-               
-        if (s!=t) return false;
-        
-        for (int i=0; i<pos2.size(); i++)
-        {
-            if (t[i]=='L')
-            {
-                if (pos1[i] < pos2[i]) return false;
-            }
-            else if (t[i]=='R')
-            {
-                if (pos1[i] > pos2[i]) return false;
-            }
-        }
-        
         return true;
     }
 };
