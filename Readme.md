@@ -1243,6 +1243,7 @@
 [1997.First-Day-Where-You-Have-Been-in-All-the-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/1997.First-Day-Where-You-Have-Been-in-All-the-Rooms) (H)     
 [2018.Check-if-Word-Can-Be-Placed-In-Crossword](https://github.com/wisdompeak/LeetCode/tree/master/Others/2018.Check-if-Word-Can-Be-Placed-In-Crossword) (M+)     
 [2147.Number-of-Ways-to-Divide-a-Long-Corridor](https://github.com/wisdompeak/LeetCode/tree/master/Others/2147.Number-of-Ways-to-Divide-a-Long-Corridor) (M)      
+[2337.Move-Pieces-to-Obtain-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Others/2337.Move-Pieces-to-Obtain-a-String) (aka. 777.Swap-Adjacent-in-LR-String) (M+)    
 * ``结论转移``   
 [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array) (M)     
 [2121.Intervals-Between-Identical-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/2121.Intervals-Between-Identical-Elements) (M)     
