@@ -1,7 +1,7 @@
 using LL = long long;
 LL M = 1e9+7;
 class Solution {
-    LL dp[10001][15];
+    LL dp[10001][15];  // dp[i][j]: how many distinct ways to put j same factors in the first i positions (allowing multple factors in the same position)
 public:
     int idealArrays(int n, int maxValue) 
     {
