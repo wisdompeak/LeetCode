@@ -9,10 +9,7 @@ public:
         LL ret = 0;
         for (auto x: Set)
         {
-            int count = __builtin_popcount(x);
-            arr.push_back(count);        
-            if (count * 2 >= k)
-                ret++;
+            arr.push_back(__builtin_popcount(x));        
         }            
         
         sort(arr.begin(), arr.end());
@@ -24,9 +21,16 @@ public:
             while (j>=0 && arr[i]+arr[j]>=k)
                 j--;
             if (j>=i)
-                ret += (n-(j+1))*2;
+                ret += n-(j+1);
             else
-                ret += (n-(i+1))*2;
+                ret += n-(i+1);
+        }
+        ret *= 2;
+        
+        for (auto x: arr)
+        {
+            if (x*2>=k)
+                ret++;
         }
         
         return ret;
