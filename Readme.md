@@ -31,6 +31,7 @@
 [1793.Maximum-Score-of-a-Good-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1793.Maximum-Score-of-a-Good-Subarray) (M+)  
 [1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [1989.Maximum-Number-of-People-That-Can-Be-Caught-in-Tag](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1989.Maximum-Number-of-People-That-Can-Be-Caught-in-Tag) (M+)      
+[2354.Number-of-Excellent-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2354.Number-of-Excellent-Pairs) (H-)     
 * ``Sliding window``  
 [532.K-diff-Pairs-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/532.K-diff-Pairs-in-an-Array) (H-)   
 [611.Valid-Triangle-Number](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/611.Valid-Triangle-Number)	(M+)   
