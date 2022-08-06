@@ -969,6 +969,7 @@
 [1719.Number-Of-Ways-To-Reconstruct-A-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1719.Number-Of-Ways-To-Reconstruct-A-Tree) (H+)  
 [1761.Minimum-Degree-of-a-Connected-Trio-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1761.Minimum-Degree-of-a-Connected-Trio-in-a-Graph) (M+)  
 [1782.Count-Pairs-Of-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1782.Count-Pairs-Of-Nodes) (H)  
+[2360.Longest-Cycle-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2360.Longest-Cycle-in-a-Graph) (M+)     
 * ``Hungarian Algorithm``    
 [1820.Maximum-Number-of-Accepted-Invitations](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1820.Maximum-Number-of-Accepted-Invitations) (H)  
 [2123.Minimum-Operations-to-Remove-Adjacent-Ones-in-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2123.Minimum-Operations-to-Remove-Adjacent-Ones-in-Matrix) (H)    
