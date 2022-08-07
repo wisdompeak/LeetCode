@@ -1154,6 +1154,7 @@
 [792.Number-of-Matching-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/792.Number-of-Matching-Subsequences) (H-)  
 [1055.Shortest-Way-to-Form-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1055.Shortest-Way-to-Form-String) (M+)  
 [2055.Plates-Between-Candles](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2055.Plates-Between-Candles) (M+)     
+[2370.Longest-Ideal-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2370.Longest-Ideal-Subsequence) (M)      
 * ``Sort``   
 164.Maximum-Gap (H)   
 [179.Largest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/179.Largest-Number) (H-)  
