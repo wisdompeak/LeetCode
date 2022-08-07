@@ -1,5 +1,5 @@
 class Solution {
-    vector<int> nxt[1005];
+    vector<int>next[1005];
     int matrix[1005][1005];
 public:
     vector<int> closestNode(int n, vector<vector<int>>& edges, vector<vector<int>>& query) 
@@ -7,54 +7,55 @@ public:
         for (auto& edge: edges)
         {
             int a = edge[0], b = edge[1];
-            nxt[a].push_back(b);
-            nxt[b].push_back(a);
+            next[a].push_back(b);
+            next[b].push_back(a);
         }
         
         for (int i=0; i<n; i++)
-            dfs(i, i, 0);
-        
+            dfs(i,i,0);
+                
         vector<int>rets;
         for (auto& q: query)
         {
-            int start = q[0], end = q[1], node = q[2];               
+            int start = q[0], end = q[1], node = q[2];
             int dist = INT_MAX;
             int ret;
-            solve(start, end, node, dist, ret);
-            rets.push_back(ret);
-        }
-        return rets;
-    }
-    
-    void dfs(int start, int cur, int dist)
-    {        
-        for (int j: nxt[cur])
-        {
-            if (j!=start && matrix[start][j]==0)
+            
+            int cur = start;
+            while (1)
             {
-                matrix[start][j] = dist+1;
-                dfs(start, j, dist+1);
-            }                
-        }
-    }
-    
-    void solve(int cur, int end, int node, int & dist, int& ret)
-    {
-        if (matrix[cur][node] < dist)
-        {
-            dist = matrix[cur][node];
-            ret = cur;
-        } 
-        
-        for (int j: nxt[cur])
-        {
-            if (matrix[cur][end]==matrix[j][end]+1)
-            {                               
-                solve(j, end, node, dist, ret);
-                break;
+                if (matrix[cur][node] < dist)
+                {
+                    dist = matrix[cur][node];
+                    ret = cur;
+                }
+                if (cur==end) break;
+                
+                for (int j: next[cur])
+                {
+                    if (matrix[cur][end]==matrix[j][end]+1)
+                    {
+                        cur = j;
+                        break;
+                    }
+                }                
             }
+            rets.push_back(ret);                        
         }
+        
+        return rets;
+             
     }
     
-    
+    void dfs(int root, int cur, int dist)
+    {
+        for (int j: next[cur])
+        {
+            if (j!=root && matrix[root][j]==0)
+            {
+                matrix[root][j] = dist+1;
+                dfs(root, j, dist+1);                
+            }            
+        }
+    }
 };
