@@ -1,4 +1,4 @@
-### 6077.Sum-of-Total-Strength-of-Wizards
+### 2281.Sum-of-Total-Strength-of-Wizards
 
 根据套路，我们不会去枚举所有的subarray再找其中的weakest。相反，我们遍历每个元素将其作为weakest，再找对应的subarray。
 
