@@ -16,5 +16,6 @@ c.  如果Y<1，那么最低两位如论取什么，都会导致这个数大于n
 
 综合整理上述的分类讨论方案，可以将它适用于任何一个数位（个位、十位、千位、万位...），将这些数的统计全部加起来就是答案。
 
+此题和`1067. Digit Count in Range`非常相似。
 
 [Leetcode Link](https://leetcode.com/problems/number-of-digit-one)
