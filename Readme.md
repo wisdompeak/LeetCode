@@ -1235,7 +1235,6 @@
 918.Maximum-Sum-Circular-Subarray (H-)    
 [927.Three-Equal-Parts](https://github.com/wisdompeak/LeetCode/tree/master/Others/927.Three-Equal-Parts) (M)    
 [978.Longest-Turbulent-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Others/978.Longest-Turbulent-Subarray) (H-)  
-1067.Digit-Count-in-Range (H)   
 1183.Maximum-Number-of-Ones (H)   
 [1267.Count-Servers-that-Communicate](https://github.com/wisdompeak/LeetCode/tree/master/Others/1267.Count-Servers-that-Communicate) (M+)        
 [1538.Guess-the-Majority-in-a-Hidden-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1538.Guess-the-Majority-in-a-Hidden-Array) (M+)  
@@ -1315,6 +1314,7 @@
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 * ``数位计算``   
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
+[1067.Digit-Count-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Others/1067.Digit-Count-in-Range) (H)   
 [357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
 [2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
