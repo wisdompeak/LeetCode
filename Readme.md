@@ -1315,6 +1315,8 @@
 [347.Top-K-Frequent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/347.Top-K-Frequent-Elements) (M+)  
 [973.K-Closest-Points-to-Origin](https://github.com/wisdompeak/LeetCode/tree/master/Others/973.K-Closest-Points-to-Origin) (M)      
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
+* ``数位计算``   
+[357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M+)     
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
