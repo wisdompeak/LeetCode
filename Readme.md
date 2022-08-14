@@ -991,7 +991,6 @@
 [963.Minimum-Area-Rectangle-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/963.Minimum-Area-Rectangle-II) (H-)   
 [964.Least-Operators-to-Express-Number](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/964.Least-Operators-to-Express-Number) (H)   
 [972.Equal-Rational-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/972.Equal-Rational-Numbers) (H)    
-[1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 [1017.Convert-to-Base--2](https://github.com/wisdompeak/LeetCode/tree/master/Math/1017.Convert-to-Base--2) (M+)  
 [1073.Adding-Two-Negabinary-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/1073.Adding-Two-Negabinary-Numbers) (H-)   
 [1025.Divisor-Game](https://github.com/wisdompeak/LeetCode/tree/master/Math/1025.Divisor-Game) (M)    
@@ -1316,7 +1315,9 @@
 [973.K-Closest-Points-to-Origin](https://github.com/wisdompeak/LeetCode/tree/master/Others/973.K-Closest-Points-to-Origin) (M)      
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 * ``数位计算``   
-[357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M+)     
+[357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
+[2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
+[1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
