@@ -1,8 +1,7 @@
 class Solution {
 public:
     int digitsCount(int d, int low, int high) 
-    {
-       
+    {       
         return helper(d, high)-helper(d,low-1);
     }
     
