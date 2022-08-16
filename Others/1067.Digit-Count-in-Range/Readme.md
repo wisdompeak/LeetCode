@@ -1,8 +1,8 @@
 ### 1067.Digit-Count-in-Range
 
-如果digit不是0的话，代码完全类似于 233. Number of Digit One 
+如果digit不是0的话，代码完全类似于`233. Number of Digit One`，用一个helper函数计算[1,n]的数字d的出现次数，然后返回`helper(high)-helper(low-1)`.
 
-基本思想就是逐个位数的考虑，计算出现digit的次数。比如说num=2452，digit=4
+233的基本思想就是逐个位数的考虑，计算出现digit的次数。比如说num=2452，digit=4
 
 考虑个位时，就是计算出现XXX1的次数。如果XXX是从000到234，显然都是必然可行的。如果XXX是235的话，因为个位数是2小于4，所以不可以。因此count+=235*1;
 
