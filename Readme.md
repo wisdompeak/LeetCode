@@ -1286,6 +1286,7 @@
 [2237.Count-Positions-on-Street-With-Required-Brightness](https://github.com/wisdompeak/LeetCode/tree/master/Others/2237.Count-Positions-on-Street-With-Required-Brightness) (M)    
 [2251.Number-of-Flowers-in-Full-Bloom](https://github.com/wisdompeak/LeetCode/tree/master/Others/2251.Number-of-Flowers-in-Full-Bloom) (M)     
 [2327.Number-of-People-Aware-of-a-Secret](https://github.com/wisdompeak/LeetCode/tree/master/Others/2327.Number-of-People-Aware-of-a-Secret) (H-)     
+[2381.Shifting-Letters-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/2381.Shifting-Letters-II) (M)      
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
