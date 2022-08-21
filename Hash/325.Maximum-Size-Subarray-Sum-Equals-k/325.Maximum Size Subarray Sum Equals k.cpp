@@ -2,8 +2,8 @@ class Solution {
 public:
     int maxSubArrayLen(vector<int>& nums, int k) 
     {
-        unordered_map<int,vector<int>>Map;
-        int sum=0;
+        unordered_map<long,vector<int>>Map;
+        long sum=0;
         int result=INT_MIN;
         
         nums.insert(nums.begin(),0);
