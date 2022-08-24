@@ -225,7 +225,6 @@
 558.Quad-Tree-Intersection (M+)   
 [662.Maximum-Width-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/662.Maximum-Width-of-Binary-Tree) (H-)   
 742.Closest-Leaf-in-a-Binary-Tree (H)   
-834.Sum-of-Distances-in-Tree (H)    
 [863.All-Nodes-Distance-K-in-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/863.All-Nodes-Distance-K-in-Binary-Tree) (H-)   
 [958.Check-Completeness-of-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/blob/master/Tree/954.Check-Completeness-of-a-Binary-Tree/) (M+)    
 1339. Maximum-Product-of-Splitted-Binary-Tree (TBD)   
@@ -272,6 +271,8 @@
 [428.Serialize-and-Deserialize-N-ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/428.Serialize-and-Deserialize-N-ary-Tree) (H)  
 [431.Encode-N-ary-Tree-to-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/431.Encode-N-ary-Tree-to-Binary-Tree) (H-)  
 [1516.Move-Sub-Tree-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1516.Move-Sub-Tree-of-N-Ary-Tree) (H-)  
+* ``Re-Root``    
+[834.Sum-of-Distances-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/834.Sum-of-Distances-in-Tree) (H)    
 * ``似树非树``    
 [823](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/823.Binary-Trees-With-Factors), 
 [1902](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1902.Depth-of-BST-Given-Insertion-Order), 
