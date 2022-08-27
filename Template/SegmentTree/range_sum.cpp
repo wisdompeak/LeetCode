@@ -6,11 +6,13 @@ class SegTreeNode
     SegTreeNode* right = NULL;
     int start, end;
     LL info;  // the sum value over the range
+    LL lazy_val; // the lazy value that needs to be pushed down
     bool tag; 
         
     SegTreeNode(int a, int b, int val)  // init for range [a,b] with val
     {                 
         tag = 0;
+        lazy_val = 0;
         start = a, end = b;
         if (a==b)
         {
@@ -30,8 +32,8 @@ class SegTreeNode
     {
         if (tag==1 && left)
         {
-            left->info = info;
-            right->info = info;
+            left->info = lazy_val * (left->end - left->start + 1);
+            right->info = lazy_val * (right->end - right->start + 1);
             left->tag = 1;
             right->tag = 1;
             tag = 0;
@@ -45,6 +47,7 @@ class SegTreeNode
         if (a <= start && end <=b)  // completely covered within [a,b]
         {
             info = val * (end-start+1);
+            lazy_val = val;
             tag = 1;
             return;
         }
