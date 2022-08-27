@@ -88,14 +88,14 @@ class SegTreeNode
 class SegTreeNode2
 {
     public:
-    SegTreeNode* left = NULL;
-    SegTreeNode* right = NULL;
+    SegTreeNode2* left = NULL;
+    SegTreeNode2* right = NULL;
     int start, end;
     LL info;  // the sum value over the range
     bool lazy_tag; 
     LL lazy_val;
         
-    SegTreeNode(int a, int b, int val)  // init for range [a,b] with val
+    SegTreeNode2(int a, int b, int val)  // init for range [a,b] with val
     {                 
         lazy_tag = 0;
         lazy_val = 0;
@@ -108,8 +108,8 @@ class SegTreeNode2
         int mid = (a+b)/2;
         if (left==NULL)
         {
-            left = new SegTreeNode(a, mid, val);
-            right = new SegTreeNode(mid+1, b, val);            
+            left = new SegTreeNode2(a, mid, val);
+            right = new SegTreeNode2(mid+1, b, val);            
             info = left->info + right->info;  // check with your own logic
         }        
     }    
