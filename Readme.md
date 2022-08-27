@@ -1252,6 +1252,7 @@
 [2147.Number-of-Ways-to-Divide-a-Long-Corridor](https://github.com/wisdompeak/LeetCode/tree/master/Others/2147.Number-of-Ways-to-Divide-a-Long-Corridor) (M)      
 [2337.Move-Pieces-to-Obtain-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Others/2337.Move-Pieces-to-Obtain-a-String) (aka. 777.Swap-Adjacent-in-LR-String) (M+)    
 [2359.Find-Closest-Node-to-Given-Two-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2359.Find-Closest-Node-to-Given-Two-Nodes) (M)     
+[2380.Time-Needed-to-Rearrange-a-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Others/2380.Time-Needed-to-Rearrange-a-Binary-String) (H)      
 * ``结论转移``   
 [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array) (M)     
 [2121.Intervals-Between-Identical-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/2121.Intervals-Between-Identical-Elements) (M)     
