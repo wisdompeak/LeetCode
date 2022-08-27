@@ -88,15 +88,17 @@ class SegTreeNode
 class SegTreeNode2
 {
     public:
-    SegTreeNode2* left = NULL;
-    SegTreeNode2* right = NULL;
+    SegTreeNode* left = NULL;
+    SegTreeNode* right = NULL;
     int start, end;
     LL info;  // the sum value over the range
-    bool tag; 
+    bool lazy_tag; 
+    LL lazy_val;
         
-    SegTreeNode2(int a, int b, int val)  // init for range [a,b] with val
+    SegTreeNode(int a, int b, int val)  // init for range [a,b] with val
     {                 
-        tag = 0;
+        lazy_tag = 0;
+        lazy_val = 0;
         start = a, end = b;
         if (a==b)
         {
@@ -106,21 +108,21 @@ class SegTreeNode2
         int mid = (a+b)/2;
         if (left==NULL)
         {
-            left = new SegTreeNode2(a, mid, val);
-            right = new SegTreeNode2(mid+1, b, val);            
+            left = new SegTreeNode(a, mid, val);
+            right = new SegTreeNode(mid+1, b, val);            
             info = left->info + right->info;  // check with your own logic
         }        
     }    
     
     void pushDown()
     {
-        if (tag==1 && left)
+        if (lazy_tag==1 && left)
         {
-            left->info = info;
-            right->info = info;
-            left->tag = 1;
-            right->tag = 1;
-            tag = 0;
+            left->info = lazy_val * (left->end - left->start + 1);
+            right->info = lazy_val * (right->end - right->start + 1);
+            left->lazy_tag = 1; left->lazy_val = lazy_val;
+            right->lazy_tag = 1; right->lazy_val = lazy_val;
+            lazy_tag = 0;  lazy_val = 0;
         }        
     } 
     
@@ -131,7 +133,8 @@ class SegTreeNode2
         if (a <= start && end <=b)  // completely covered within [a,b]
         {
             info = val * (end-start+1);
-            tag = 1;
+            lazy_tag = 1;
+            lazy_val = val;
             return;
         }
 
@@ -144,7 +147,7 @@ class SegTreeNode2
         }        
     }
     
-    LL queryRange(int a, int b)     // query the maximum value within range [a,b]
+    LL queryRange(int a, int b)     // query the sum over range [a,b]
     {
         if (b < start || a > end )
         {
@@ -165,7 +168,6 @@ class SegTreeNode2
         
         return info;   // should not reach here
     }  
-
 };
 
 class BookMyShow {
