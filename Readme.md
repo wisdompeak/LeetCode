@@ -1123,6 +1123,7 @@
 [2365.Task-Scheduler-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2365.Task-Scheduler-II) (M)    
 [2366.Minimum-Replacements-to-Sort-the-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2366.Minimum-Replacements-to-Sort-the-Array) (H-)      
 * ``DI Sequence``   
+[942.DI-String-Match](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/942.DI-String-Match) (M)    
 [2375.Construct-Smallest-Number-From-DI-String](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/2375.Construct-Smallest-Number-From-DI-String) (M)      
 * ``Smear Top Elements``   
 [2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
