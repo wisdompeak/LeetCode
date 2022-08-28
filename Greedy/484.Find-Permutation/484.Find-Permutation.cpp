@@ -1,31 +1,25 @@
 class Solution {
 public:
-    vector<int> findPermutation(string s) 
+    vector<int> findPermutation(string pattern) 
     {
-        s.insert(s.begin(),s[0]);
-        int N=s.size();
-        vector<int>results(N,0);
+        pattern = "I" + pattern;
+        int n = pattern.size();
         
-        int left=0;
-        int right=0;
+        int mx = 0;
+        vector<int>arr;
         
-        while (right<s.size())
+        for (int i=0; i<n; i++)
         {
-            while (right+1<s.size() && !(s[right]=='D' && s[right+1]=='I'))
-                   right++;
-            if (right==s.size()) right--;
-            
-            int top=left;
-            while (s[top+1]=='I') top++;
-            for (int i=left; i<top; i++)
-                results[i]=i+1;
-            for (int i=top; i<=right; i++)
-                results[i]=top+1+right-i;
-            left=right+1;
-            right=right+1;
+            int j = i+1;
+            while (j<n && pattern[j]=='D')
+                j++;
+            int count = j-i;            
+            for (int k= mx+count; k>=mx+1; k--)
+                arr.push_back(k);            
+            mx = mx+count;            
+            i = j-1;            
         }
         
-        return results;
-            
+        return arr;
     }
 };
