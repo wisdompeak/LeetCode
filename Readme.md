@@ -1063,7 +1063,6 @@
 [134.Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/134.Gas-Station) (H)    
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)   
 [659.Split-Array-into-Consecutive-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/659.Split-Array-into-Consecutive-Subsequences) (H)  
-[484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (H)    
 [386.Lexicographical-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/386.Lexicographical-Numbers) (H)   
 624.Maximum-Distance-in-Arrays (M)    
 [665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H)   
@@ -1124,7 +1123,8 @@
 [2366.Minimum-Replacements-to-Sort-the-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2366.Minimum-Replacements-to-Sort-the-Array) (H-)      
 * ``DI Sequence``   
 [942.DI-String-Match](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/942.DI-String-Match) (M)    
-[2375.Construct-Smallest-Number-From-DI-String](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/2375.Construct-Smallest-Number-From-DI-String) (aka. 484.Find-Permutation)(M)      
+[484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (M)    
+[2375.Construct-Smallest-Number-From-DI-String](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/2375.Construct-Smallest-Number-From-DI-String) (M)      
 * ``Smear Top Elements``   
 [2233.Maximum-Product-After-K-Increments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2233.Maximum-Product-After-K-Increments) (M+)     
 [2333.Minimum-Sum-of-Squared-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2333.Minimum-Sum-of-Squared-Difference) (M+)    
