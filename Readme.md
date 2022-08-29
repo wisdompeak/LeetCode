@@ -519,6 +519,7 @@
 [1203.Sort-Items-by-Groups-Respecting-Dependencies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1203.Sort-Items-by-Groups-Respecting-Dependencies) (H)  
 [1462.Course-Schedule-IV](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1462.Course-Schedule-IV) (M)    
 [1591.Strange-Printer-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1591.Strange-Printer-II) (H-)  
+[1632.Rank-Transform-of-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1632.Rank-Transform-of-a-Matrix) (H)  
 [1857.Largest-Color-Value-in-a-Directed-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1857.Largest-Color-Value-in-a-Directed-Graph) (H-)  
 [2050.Parallel-Courses-III](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2050.Parallel-Courses-III) (M+)      
 [2115.Find-All-Possible-Recipes-from-Given-Supplies](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2115.Find-All-Possible-Recipes-from-Given-Supplies) (M)     
