@@ -23,19 +23,15 @@ public:
                 
         while (!q.empty())
         {
-            int len = q.size();
-            while (len--)
+            int cur = q.front();
+            q.pop();
+            rets[cur] = -1;                
+            for (int nxt: next[cur])
             {
-                int cur = q.front();
-                q.pop();
-                rets[cur] = -1;                
-                for (int nxt: next[cur])
-                {
-                    degree[nxt]--;
-                    if (degree[nxt]==1)
-                        q.push(nxt);
-                }
-            }            
+                degree[nxt]--;
+                if (degree[nxt]==1)
+                    q.push(nxt);
+            }           
         }
         
         while (!q.empty()) q.pop();
