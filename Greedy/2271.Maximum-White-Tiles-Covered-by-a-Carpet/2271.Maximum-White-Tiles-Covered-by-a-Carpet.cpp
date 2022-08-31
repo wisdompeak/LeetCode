@@ -15,9 +15,12 @@ public:
         {
             while (j<n && tiles[i][0]+carpetLen-1 >= tiles[j][1])
                 j++;
-            int len = presum[j-1] - (i==0?0:presum[i-1]);
+            int len = 0;
+            if (j>i) 
+                len += presum[j-1] - (i==0?0:presum[i-1]);
             if (j<n)
-                len += max(0, tiles[i][0]+carpetLen-1 - tiles[j][0] + 1);
+                len += max(0, tiles[i][0]+carpetLen-1 - tiles[j][0] + 1);            
+                            
             ret = max(ret, len);
         }
         
