@@ -408,6 +408,7 @@
 [1942.The-Number-of-the-Smallest-Unoccupied-Chair](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1942.The-Number-of-the-Smallest-Unoccupied-Chair) (M+)  
 [2102.Sequentially-Ordinal-Rank-Tracker](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2102.Sequentially-Ordinal-Rank-Tracker) (H-)    
 [2263.Make-Array-Non-decreasing-or-Non-increasing](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2263.Make-Array-Non-decreasing-or-Non-increasing) (H)      
+[2386.Find-the-K-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2386.Find-the-K-Sum-of-an-Array) (H+)    
 * ``Sort+PQ``   
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Priority_Queue/502.IPO/) （M+）   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/630.Course-Schedule-III) (H)   
