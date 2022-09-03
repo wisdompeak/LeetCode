@@ -83,7 +83,7 @@ class SegTreeNode
 
 int main()
 {
-    SegTreeNode* root = new SegTreeNode(0, length-1);
+    SegTreeNode* root = new SegTreeNode(0, length-1, 0);
   
     for (auto& update: updates)
     {
