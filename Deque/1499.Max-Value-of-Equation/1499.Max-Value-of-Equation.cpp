@@ -10,7 +10,7 @@ public:
                 q.pop_front();
             }
             
-        	while (q.size()>0 && -points[q.back()][0]+points[q.back()][1] < -points[i][0]+points[i][1]) {
+            while (q.size()>0 && -points[q.back()][0]+points[q.back()][1] < -points[i][0]+points[i][1]) {
                 q.pop_back();
             }
             
