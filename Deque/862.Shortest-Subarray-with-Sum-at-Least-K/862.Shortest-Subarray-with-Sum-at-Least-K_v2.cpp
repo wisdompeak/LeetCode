@@ -1,25 +1,29 @@
+using LL = long long;
 class Solution {
 public:
-    int shortestSubarray(vector<int>& A, int K) 
+    int shortestSubarray(vector<int>& nums, int k) 
     {
-        int N = A.size();
-        vector<int>presum(N+1,0);        
-        for (int i=0; i<N; i++) presum[i+1]=presum[i]+A[i];
-        
-        deque<int>q;
-        int result = INT_MAX;
-        for (int i=0; i<=N; i++)
+        int n = nums.size();
+        vector<LL>presum(n+1);        
+        for (int i=0; i<nums.size(); i++)
+            presum[i+1] = presum[i]+nums[i];
+
+        int ret = INT_MAX;
+        deque<int>dq;
+        for (int i=0; i<=n; i++)
         {
-            while (q.size()>0 && presum[q.front()]+K<=presum[i])
-            {
-                result = min(result,i-q.front());
-                q.pop_front();
+            while (!dq.empty() && presum[dq.back()] >= presum[i])
+                dq.pop_back();            
+
+            while (!dq.empty() && presum[i]-presum[dq.front()] >= k) {                
+                ret = min(ret, i-dq.front());
+                dq.pop_front();
             }
-            while (q.size()>0 && presum[q.back()]>=presum[i])
-                q.pop_back();
-            q.push_back(i);
+
+            dq.push_back(i);
         }
-        return result==INT_MAX? -1:result;
-        
+
+        if (ret == INT_MAX) return -1;
+        else return ret;
     }
 };
