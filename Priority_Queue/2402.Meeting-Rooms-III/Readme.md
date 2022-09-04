@@ -1,0 +1,7 @@
+### 2402.Meeting-Rooms-III
+
+此题和1882和1942非常类似，需要使用到两个优先队列，简单模拟这个过程即可。
+
+我们设计busy的优先队列，里面放置正在使用的会议室，按照它们available的时间排序。另外设计free的优先队列，里面放置当前闲置的会议室，按照id的排序。
+
+我们将meeting排序后，对于当前待安排的会议，我们查看busy里的会议室，将那些已经available的会议室释放出来加入free队列。我们先试图在free队列里捞一个id最小的，并将这个会议室再加入busy队列（重新设置available的时间）。如果当前free队列为空，我们就需要等待busy里的第一个会议室的available time，然后将其重置available后再次加入busy。
