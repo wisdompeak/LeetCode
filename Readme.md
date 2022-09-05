@@ -1059,6 +1059,7 @@
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
 [1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony](https://github.com/wisdompeak/LeetCode/tree/master/Math/1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony) (H)  
 [2221.Find-Triangular-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/2221.Find-Triangular-Sum-of-an-Array) (M)     
+[2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Math/2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps) (M+)     
 * ``Numerical Theory``   
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
 [365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
