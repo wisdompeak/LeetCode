@@ -1,9 +1,8 @@
-typedef long long ll;
-
+using LL = long long;
 main()
 {
   // compute all C(n,m) saved in comb
-  ll comb[1000][1000];  
+  long long comb[1000][1000];  
   for (int i = 0; i <= n; ++i) 
   {
       comb[i][i] = comb[i][0] = 1;            
@@ -16,7 +15,7 @@ main()
 }
 
 // Compute C(n,m) on demand
-ll help(int n, int m)
+long long help(int n, int m)
 {
     long long cnt = 1;
     for(int i = 0; i < m; i++)
