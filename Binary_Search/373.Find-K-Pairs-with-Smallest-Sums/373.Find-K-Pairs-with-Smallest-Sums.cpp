@@ -1,45 +1,35 @@
-class Solution {
-    struct cmp
-    {
-        bool operator()(pair<int,int>a,pair<int,int>b)
-        {
-            return a.first>b.first;
-        }
-    };
+using AI3 = array<int,3>;
+class Solution {    
 public:
-    vector<pair<int, int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) 
+    vector<vector<int>> kSmallestPairs(vector<int>& nums1, vector<int>& nums2, int k) 
     {
-        priority_queue<pair<int,int>,vector<pair<int,int>>,cmp>q;
-        int M=nums1.size();
-        int N=nums2.size();
-        vector<pair<int, int>>results;
-        if (M==0 || N==0) return results;
+        priority_queue<AI3,vector<AI3>, greater<>>pq;
+        int m=nums1.size();
+        int n=nums2.size();        
+        vector<vector<int>>rets;
         
-        auto used=vector<vector<int>>(M,vector<int>(N,0));
-        q.push({nums1[0]+nums2[0],0});                
-        used[0][0]=1;
-        
-        int count=0;
-        while (count<k && q.size()>0)
+        vector<vector<int>>visited(m,vector<int>(n,0));
+        pq.push({nums1[0]+nums2[0], 0, 0});                
+        visited[0][0]=1;
+                
+        while (rets.size() < k && pq.size()>0)
         {
-            int m=q.top().second/N;
-            int n=q.top().second%N;
-            results.push_back({nums1[m],nums2[n]});
-            count++;
-            q.pop();
-            
-            if (m+1<M && used[m+1][n]==0)
+            auto [sum, i, j] = pq.top();
+            pq.pop();
+            rets.push_back({nums1[i], nums2[j]});            
+                        
+            if (i+1<m && visited[i+1][j]==0)
             {
-                q.push({nums1[m+1]+nums2[n],(m+1)*N+n});
-                used[m+1][n]=1;
+                pq.push({nums1[i+1]+nums2[j], i+1, j});
+                visited[i+1][j] = 1;
             }
-            if (n+1<N && used[m][n+1]==0)
+            if (j+1<n && visited[i][j+1]==0)
             {
-                q.push({nums1[m]+nums2[n+1],(m)*N+n+1});
-                used[m][n+1]=1;
+                pq.push({nums1[i]+nums2[j+1], i, j+1});
+                visited[i][j+1] = 1;
             }             
         }
         
-        return results;                
+        return rets;                
     }
 };
