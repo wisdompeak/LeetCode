@@ -8,9 +8,10 @@ public:
         int n=nums2.size();        
         vector<vector<int>>rets;
         
-        vector<vector<int>>visited(m,vector<int>(n,0));
+        set<pair<int,int>>Set;
         pq.push({nums1[0]+nums2[0], 0, 0});                
-        visited[0][0]=1;
+        Set.insert({0,0});
+        
                 
         while (rets.size() < k && pq.size()>0)
         {
@@ -18,15 +19,15 @@ public:
             pq.pop();
             rets.push_back({nums1[i], nums2[j]});            
                         
-            if (i+1<m && visited[i+1][j]==0)
+            if (i+1<m && Set.find({i+1,j})==Set.end())
             {
                 pq.push({nums1[i+1]+nums2[j], i+1, j});
-                visited[i+1][j] = 1;
+                Set.insert({i+1,j});
             }
-            if (j+1<n && visited[i][j+1]==0)
+            if (j+1<n && Set.find({i,j+1})==Set.end())
             {
                 pq.push({nums1[i]+nums2[j+1], i, j+1});
-                visited[i][j+1] = 1;
+                Set.insert({i,j+1});
             }             
         }
         
