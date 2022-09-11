@@ -13,25 +13,24 @@ public:
             for (auto& [b, pos1]: pos)
             {
                 if (a==b) continue;
-                cout<<a<<" "<<b<<endl;
                 int i = 0, j = 0;
-                int dp0 = 0,  dp1 = INT_MIN/2;
+                int curSum0 = 0,  curSum1 = INT_MIN/2;
 
                 while (i<pos0.size() || j<pos1.size())
                 {
-                    if (i==pos0.size() || (j<pos1.size() && pos1[j] < pos0[i]))
-                    {
-                        dp1 = max(dp0-1, dp1-1);
-                        dp0 = 0;                        
-                        j++;
-                    }                        
-                    else if (j==pos1.size() || (i<pos0.size() && pos0[i] < pos1[j]))
+                    if (j==pos1.size() || (i<pos0.size() && pos0[i] < pos1[j]))
                     {                        
-                        dp1 +=1;
-                        dp0 +=1;
+                        curSum1 +=1;
+                        curSum0 +=1;
                         i++;
                     }
-                    ret = max(ret, dp1);
+                    else if (i==pos0.size() || (j<pos1.size() && pos1[j] < pos0[i]))
+                    {
+                        curSum1 = max(curSum0-1, curSum1-1);
+                        curSum0 = 0;                        
+                        j++;
+                    }                                            
+                    ret = max(ret, curSum1);
                 }
 
             }
