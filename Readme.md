@@ -994,7 +994,7 @@
 [400.n-th-digit](https://github.com/wisdompeak/LeetCode/tree/master/Math/400.n-th-digit) (M)    
 [441.Arranging-Coins](https://github.com/wisdompeak/LeetCode/tree/master/Math/441.Arranging-Coins) (M-)   
 [628.Maximum-Product-of-Three-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Math/628.Maximum-Product-of-Three-Numbers) (M)  
-[672.Bulb-Switcher-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/672.Bulb-Switcher-II) (H)    
+[672.Bulb-Switcher-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/672.Bulb-Switcher-II) (H)    
 [754.Reach-a-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/754.Reach-a-Number)  (H)   
 [829.Consecutive-Numbers-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Math/829.Consecutive-Numbers-Sum) (M)    
 [878.Nth-Magical-Number](https://github.com/wisdompeak/LeetCode/tree/master/Math/878.Nth-Magical-Number) (M+)    
