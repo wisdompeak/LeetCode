@@ -1,25 +1,54 @@
 class Solution {
+    int memo[31][31][31];
+    int n;
+    string s1, s2;
 public:
-    bool isScramble(string s1, string s2) 
+    bool isScramble(string s1, string s2)     
     {
-        int n=s1.size();
-        if (n==1) return (s1==s2);
+        n = s1.size();
+        this->s1 = s1;
+        this->s2 = s2;
         
-        string temp1=s1;
-        sort(temp1.begin(),temp1.end());
-        string temp2=s2;
-        sort(temp2.begin(),temp2.end());
-        if (temp1!=temp2)
-            return false;
+        for (int i=0; i<n; i++)
+            for (int j=0; j<n; j++)
+                for (int len = 0; len <= n; len++)
+                    memo[i][j][len] = -1;
         
-        for (int i=1; i<n; i++)
+        int ret = dfs(0, 0, n);        
+        return ret;
+    }
+    
+    bool dfs(int a, int b, int len) 
+    {
+        if (memo[a][b][len]!= -1)
+            return memo[a][b][len];
+        
+        if (s1.substr(a,len) == s2.substr(b, len))
         {
-            if (isScramble(s1.substr(0,i),s2.substr(0,i)) && isScramble(s1.substr(i),s2.substr(i)))
-                return true;
-            
-            if (isScramble(s1.substr(0,i),s2.substr(n-i)) && isScramble(s1.substr(i),s2.substr(0,n-i)))
-                return true;
+            memo[a][b][len] = true;
+            return true;
         }
-        return false;
+            
+        if (len==1) 
+            return s1[a]==s2[b];
+                    
+        int flag = false;
+        for (int i=1; i<len; i++)
+        {
+            if (dfs(a,b,i) && dfs(a+i,b+i,len-i))
+            {
+                flag = true;
+                break;
+            }
+            
+            if (dfs(a,b+len-i,i) && dfs(a+i,b,len-i))
+            {
+                flag = true;
+                break;
+            }
+        }
+        
+        memo[a][b][len] = flag;
+        return flag;
     }
 };
