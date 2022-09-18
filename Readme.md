@@ -1189,6 +1189,7 @@
 [1996.The-Number-of-Weak-Characters-in-the-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1996.The-Number-of-Weak-Characters-in-the-Game) (M+)      
 [2250.Count-Number-of-Rectangles-Containing-Each-Point](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2250.Count-Number-of-Rectangles-Containing-Each-Point) (H-)    
 [2343.Query-Kth-Smallest-Trimmed-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2343.Query-Kth-Smallest-Trimmed-Number) (H-)    
+[2412.Minimum-Money-Required-Before-Transactions](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2412.Minimum-Money-Required-Before-Transactions) (H-)    
 * ``Indexing Sort``   
 [041.First-Missing-Positive](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/041.First-Missing-Positive/Readme.md) (H)    
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
