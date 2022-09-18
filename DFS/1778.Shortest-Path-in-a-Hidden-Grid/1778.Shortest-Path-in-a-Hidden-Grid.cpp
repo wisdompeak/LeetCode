@@ -12,17 +12,17 @@
 typedef pair<int,int> PII;
 
 class Solution {
-    int grid[1000][1000];    
-    int visited[1000][1000];
-    int visited2[1000][1000];
+    int grid[1001][1001];    
+    int visited[1001][1001];
+    int visited2[1001][1001];
+    vector<PII> dir{{-1,0},{1,0},{0,-1},{0,1}};
+    vector<char> move{'U','D','L','R'};
 public:
     int findShortestPath(GridMaster &master) 
     {   
         visited[500][500] = 1;
         dfs(500, 500, master);
-        
-        auto dir = vector<PII>({{-1,0},{1,0},{0,-1},{0,1}});
-        
+                
         queue<PII>q;
         q.push({500,500});
         visited2[500][500]=1;        
@@ -56,8 +56,6 @@ public:
     
     void dfs(int i, int j, GridMaster &master)
     {
-        auto dir = vector<PII>({{-1,0},{1,0},{0,-1},{0,1}});
-        vector<char> move({'U','D','L','R'});
         
         grid[i][j] = 1;
         
