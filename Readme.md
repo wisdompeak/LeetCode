@@ -365,6 +365,7 @@
 [1944.Number-of-Visible-People-in-a-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1944.Number-of-Visible-People-in-a-Queue) (H)  
 [2282.Number-of-People-That-Can-Be-Seen-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2282.Number-of-People-That-Can-Be-Seen-in-a-Grid) (H)    
 [2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
+[2355.Maximum-Number-of-Books-You-Can-Take](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2355.Maximum-Number-of-Books-You-Can-Take) (H)      
 * ``form smallest sequence``    
 [402.Remove-K-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Stack/402.Remove-K-Digits) (H-)    
 [1673.Find-the-Most-Competitive-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1673.Find-the-Most-Competitive-Subsequence) (M)  
