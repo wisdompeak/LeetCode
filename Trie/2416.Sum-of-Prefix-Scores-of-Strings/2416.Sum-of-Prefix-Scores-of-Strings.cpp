@@ -9,49 +9,39 @@ class Solution {
             for (int i=0; i<26; i++)
                 next[i] = NULL;
             count = 0;
-        }
-    };
-public:
-    TrieNode* root;
-    
-    void insert(string word) 
-    {
-        TrieNode* node=root;
-        for (int i=0; i<word.size(); i++)
-        {
-            char ch=word[i];
-            if (node->next[ch-'a']==NULL)
-                node->next[ch-'a']=new TrieNode();
-            int prevCount = node->count;
-            node=node->next[ch-'a'];
-            node->count += 1;            
         }        
-    }
-    
-    vector<int> sumPrefixScores(vector<string>& words) 
-    {
-        root = new TrieNode();
+    };
+public:    
+    vector<int> sumPrefixScores(vector<string>& words) {
+        TrieNode* root = new TrieNode();
         
-        for (string& word: words)
-            insert(word);
-        
-        int n = words.size();
-        vector<int>rets(n);
-        
-        for (int i=0; i<n; i++)
+        for (auto& word: words)
         {
-            TrieNode* node=root;
-            int sum = 0;
-            for (char ch: words[i])
+            TrieNode* node = root;
+            for (char ch: word)
             {
                 if (node->next[ch-'a']==NULL)
-                    break;
+                    node->next[ch-'a'] = new TrieNode();
                 node = node->next[ch-'a'];
-                sum += node->count;
+                node->count += 1;
             }
-            rets[i] = sum;
         }
         
-        return rets;
+        vector<int>rets;
+        for (auto& word: words)
+        {
+            TrieNode* node = root;
+            int score = 0;
+            for (char ch: word)
+            {
+                if (node->next[ch-'a'] == NULL)
+                    break;
+                node = node->next[ch-'a'];
+                score += node->count;
+            }
+            rets.push_back(score);
+        }
+        
+        return rets;        
     }
 };
