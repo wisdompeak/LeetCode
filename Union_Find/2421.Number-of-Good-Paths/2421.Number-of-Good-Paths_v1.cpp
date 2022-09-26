@@ -55,12 +55,11 @@ public:
                 count[root]++;
             }
             
-            ret += val2idx[v].size();
             for (auto& [v, num]: count)
                 ret += num*(num-1)/2;
         }
         
-        return ret;
+        return ret + n;
         
     }
 };
