@@ -19,8 +19,8 @@ public:
     
     map<int,int>dfs(int cur, int parent)
     {
-        map<int,int>ret;
-        ret[vals[cur]] += 1;
+        map<int,int>count;
+        count[vals[cur]] += 1;
         
         for (int child: next[cur])
         {
@@ -30,19 +30,19 @@ public:
             auto iter = tmp.lower_bound(vals[cur]);
             tmp.erase(tmp.begin(), iter);
             
-            if (tmp.size() > ret.size())
-                swap(tmp, ret);
+            if (tmp.size() > count.size())
+                swap(tmp, count);
             
-            for (auto& [val, count]: tmp)
+            for (auto& [val, frq]: tmp)
             {
-                if (ret.find(val)!=ret.end())
-                    ans += count * ret[val];
+                if (count.find(val)!=count.end())
+                    ans += frq * count[val];
             }
             
-            for (auto& [val, count]: tmp)
-                ret[val] += count;
+            for (auto& [val, frq]: tmp)
+                count[val] += frq;
         }
         
-        return ret;
+        return count;
     }
 };
