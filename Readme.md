@@ -848,6 +848,7 @@
 [327.Count-of-Range-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/327.Count-of-Range-Sum) (H-)   
 [493.Reverse-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/493.Reverse-Pairs) (M+)    
 [1649.Create-Sorted-Array-through-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/1649.Create-Sorted-Array-through-Instructions) (H)  
+[2426.Number-of-Pairs-Satisfying-Inequality](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/2426.Number-of-Pairs-Satisfying-Inequality) (H-)      
 
 #### [String](https://github.com/wisdompeak/LeetCode/tree/master/String)
 [006.ZigZag-Conversion](https://github.com/wisdompeak/LeetCode/tree/master/String/006.ZigZag-Conversion) (M+)    
