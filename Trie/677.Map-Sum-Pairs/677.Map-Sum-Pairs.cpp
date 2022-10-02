@@ -38,28 +38,22 @@ public:
         for (int i=0; i<prefix.size(); i++)
         {
             char ch=prefix[i];
-            if (node->next[ch-'a']==NULL)
-                node->next[ch-'a']=new TrieNode();
+            if (node->next[ch-'a']==NULL)            
+                return 0;                            
             node=node->next[ch-'a'];
         }
-        int SUM=0;
-        DFS(node,SUM);
-        return SUM;
+                
+        int Sum=0;
+        DFS(node,Sum);
+        return Sum;
     }
     
-    void DFS(TrieNode* node, int & SUM)
+    void DFS(TrieNode* node, int& sum)
     {
         if (node==NULL) return;
         
-        SUM+=node->val;
+        sum+=node->val;
         for (int i=0; i<26; i++)
-            DFS(node->next[i],SUM);
+            DFS(node->next[i],sum);
     }
 };
-
-/**
- * Your MapSum object will be instantiated and called as such:
- * MapSum obj = new MapSum();
- * obj.insert(key,val);
- * int param_2 = obj.sum(prefix);
- */
