@@ -15,7 +15,8 @@ public:
                     continue;
                 if (A[i+k]==-1)
                     continue;
-                
+                if (dp[i + k] == INT_MAX) 
+                    return {};
                 if (dp[i+k]+A[i]<dp[i])
                 {
                     dp[i]=dp[i+k]+A[i];
