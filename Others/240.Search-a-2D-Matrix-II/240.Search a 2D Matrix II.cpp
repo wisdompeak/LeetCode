@@ -17,10 +17,6 @@ public:
             else if (matrix[i][j]>target)
                 i--;
         }
-        
-        if (i>=0 && j<=N-1)
-            return true;
-        else
-            return false;
+        return false;
     }
 };
