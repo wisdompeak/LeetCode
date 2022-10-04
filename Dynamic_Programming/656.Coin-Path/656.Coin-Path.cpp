@@ -3,7 +3,7 @@ public:
     vector<int> cheapestJump(vector<int>& A, int B) 
     {
         int n=A.size();
-        vector<int>dp(n,INT_MAX);
+        vector<int>dp(N,INT_MAX/2);
         vector<int>path(n,-1);
         dp[n-1]=A[n-1];
         
