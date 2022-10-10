@@ -319,7 +319,6 @@
 [432.All-O-one-Data-Structure](https://github.com/wisdompeak/LeetCode/tree/master/Design/432.All-O-one-Data-Structure) (H)    
 [2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
 [2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)      
-[2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String) (H-)     
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
 [032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
@@ -359,6 +358,7 @@
 [1124.Longest-Well-Performing-Interval](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1124.Longest-Well-Performing-Interval) (H)   
 [1950.Maximum-of-Minimum-Values-in-All-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1950.Maximum-of-Minimum-Values-in-All-Subarrays) (H-)     
 [1966.Binary-Searchable-Numbers-in-an-Unsorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1966.Binary-Searchable-Numbers-in-an-Unsorted-Array) (M+)      
+[2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String) (H-)     
 * ``monotonic stack: other usages``    
 [962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
