@@ -6,7 +6,7 @@
 
 ```len[i] = max (len[j]+1) for 0<=j<i && nums[j]<nums[i]```
 
-```num[i] = sum (num[j]) for 0<=j<i && len[j]+1=len[i]```
+```num[i] = sum (num[j]) for 0<=j<i && len[j]+1=len[i] && nums[j]<nums[i]```
 
 
 [Leetcode Link](https://leetcode.com/problems/number-of-longest-increasing-subsequence)
