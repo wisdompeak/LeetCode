@@ -135,7 +135,6 @@
 [166.Fraction-to-Recurring-Decimal](https://github.com/wisdompeak/LeetCode/tree/master/Hash/166.Fraction-to-Recurring-Decimal) (M)   
 [170.Two-Sum-III-Data-structure-design](https://github.com/wisdompeak/LeetCode/tree/master/Hash/170.Two-Sum-III-Data-structure-design) (M)   
 [392.Is-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Hash/392.Is-Subsequence) (H-)   
-[204.Count Primes](https://github.com/wisdompeak/LeetCode/tree/master/Hash/204.Count-Primes) (M)    
 [274.H-Index](https://github.com/wisdompeak/LeetCode/tree/master/Hash/274.H-Index) (H)     
 [325.Maximum-Size-Subarray-Sum-Equals-k](https://github.com/wisdompeak/LeetCode/tree/master/Hash/325.Maximum-Size-Subarray-Sum-Equals-k) (M)    
 [409.Longest-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Hash/409.Longest-Palindrome)  (M)   
@@ -1074,6 +1073,7 @@
 [2221.Find-Triangular-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/2221.Find-Triangular-Sum-of-an-Array) (M)     
 [2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Math/2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps) (M+)     
 * ``Numerical Theory``   
+[204.Count-Primes](https://github.com/wisdompeak/LeetCode/tree/master/Math/204.Count-Primes) (M)    
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
 [365.Water-and-Jug-Problem](https://github.com/wisdompeak/LeetCode/tree/master/Math/365.Water-and-Jug-Problem) (H)   
 [1808.Maximize-Number-of-Nice-Divisors](https://github.com/wisdompeak/LeetCode/tree/master/Math/1808.Maximize-Number-of-Nice-Divisors) (H-)  
