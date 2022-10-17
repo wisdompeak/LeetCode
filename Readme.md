@@ -539,6 +539,7 @@
 [2192.All-Ancestors-of-a-Node-in-a-Directed-Acyclic-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2192.All-Ancestors-of-a-Node-in-a-Directed-Acyclic-Graph) (M)     
 [2204.Distance-to-a-Cycle-in-Undirected-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2204.Distance-to-a-Cycle-in-Undirected-Graph) (M)     
 [2392.Build-a-Matrix-With-Conditions](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2392.Build-a-Matrix-With-Conditions) (M+)    
+[2440.Create-Components-With-Same-Value](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2440.Create-Components-With-Same-Value) (H-)    
 * ``Dijkstra (BFS+PQ)``   
 [743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H)      
