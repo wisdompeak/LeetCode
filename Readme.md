@@ -1144,6 +1144,7 @@
 [2365.Task-Scheduler-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2365.Task-Scheduler-II) (M)    
 [2366.Minimum-Replacements-to-Sort-the-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2366.Minimum-Replacements-to-Sort-the-Array) (H-)      
 [2371.Minimize-Maximum-Value-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2371.Minimize-Maximum-Value-in-a-Grid) (M+)      
+[2444.Count-Subarrays-With-Fixed-Bounds](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2444.Count-Subarrays-With-Fixed-Bounds) (M+)    
 * ``DI Sequence``   
 [942.DI-String-Match](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/942.DI-String-Match) (M)    
 [484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (M)    
