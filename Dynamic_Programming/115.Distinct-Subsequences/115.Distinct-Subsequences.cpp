@@ -20,10 +20,9 @@ public:
             for (int j=1; j<=n; j++)
             {
                 if (s[i]==t[j])
-                    dp[i][j] = dp[i-1][j] + dp[i-1][j-1];
+                    dp[i][j] = min(LLONG_MAX/2, dp[i-1][j] + dp[i-1][j-1]);
                 else
                     dp[i][j] = dp[i-1][j];
-                //cout<<i<<" "<<j<<" "<<dp[i][j]<<endl;
             }
         return dp[m][n];
     }
