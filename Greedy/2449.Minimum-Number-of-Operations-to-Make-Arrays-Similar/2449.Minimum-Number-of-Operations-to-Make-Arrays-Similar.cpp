@@ -18,39 +18,21 @@ public:
             else
                 odd2.push_back(x);
         }
-        auto [ret1, buff1] = helper(even1, even2);
-        auto [ret2, buff2] = helper(odd1, odd2);        
-        return ret1 + ret2 - abs(buff1)/2;
+        
+        return helper(even1, even2) + helper(odd1, odd2);   
     }
     
-    pair<LL,LL> helper(vector<LL>&nums, vector<LL>&target)
+    LL helper(vector<LL>&nums, vector<LL>&target)
     {
         sort(target.begin(), target.end());
         sort(nums.begin(), nums.end());
         
-        LL buff = 0;
-        LL ret = 0;
+        LL count = 0;
         for (int i=0; i<nums.size(); i++)
-        {
-            int x = target[i], y = nums[i];            
-                
-            LL diff = y - x;
-            if (diff >= 0)
-            {                
-                if (buff < 0)
-                    diff = max(0LL, diff + buff);
-                ret += diff / 2;
-            }
-            else
-            {                
-                if (buff > 0)
-                    diff = min(0LL, diff + buff);
-                ret += abs(diff) / 2;                
-            }
-            buff += y-x;
-        }
+            if (nums[i] > target[i])
+                count += (nums[i]-target[i])/2;
         
-        return {ret, buff};        
+        return count;
     }
     
 };
