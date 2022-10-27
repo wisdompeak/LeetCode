@@ -13,7 +13,7 @@
      while (left<right && nums[left]==nums[left-1]) left++;
      while (left<right && nums[right]==nums[right+1]) right--;
   }
-  ```
+```
 2. 对于最外层的循环，也是确定一个，先展开内层循环，再略过最外层的重复项。
 ```cpp
  for (int a=0; a<nums.size(); a++)
@@ -21,6 +21,6 @@
     inner loop;
     while (nums[a]==nums[a+1]) a++;
  }
-
+```
 
 [Leetcode Link](https://leetcode.com/problems/3sum)
