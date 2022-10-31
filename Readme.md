@@ -359,6 +359,7 @@
 [1950.Maximum-of-Minimum-Values-in-All-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1950.Maximum-of-Minimum-Values-in-All-Subarrays) (H-)     
 [1966.Binary-Searchable-Numbers-in-an-Unsorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1966.Binary-Searchable-Numbers-in-an-Unsorted-Array) (M+)      
 [2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String) (H-)     
+[2454.Next-Greater-Element-IV](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2454.Next-Greater-Element-IV) (H-)    
 * ``monotonic stack: other usages``    
 [962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1130.Minimum-Cost-Tree-From-Leaf-Values](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1130.Minimum-Cost-Tree-From-Leaf-Values) (H)   
