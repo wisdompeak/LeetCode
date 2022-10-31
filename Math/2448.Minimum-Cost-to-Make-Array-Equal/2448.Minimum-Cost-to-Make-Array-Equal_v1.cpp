@@ -17,7 +17,7 @@ public:
         for (int i=0; i<arr.size(); i++)
         {
             curCost += arr[i].second;
-            if (curCost >= totalCost/2)
+            if (curCost >= totalCost*1.0/2)
             {
                 k = i;
                 break;
