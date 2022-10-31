@@ -8,5 +8,21 @@
 
 所以本题确切的说，是求每个元素的next smaller element，以及previous smaller or equal element. 另外，特别注意：如果一个数没有next smaller element，那么意味着它的左边界是可以到n；如果一个数没有prev smaller/equal element，那么意味着它的左边界是可以到-1.
 
+Update: 事实上，`next smaller element`和`previous smaller or equal element`可以one-pass同时实现。
+```cpp
+  for (int i=0; i<n; i++)
+  {
+      while (!Stack.empty() && arr[Stack.top()] > arr[i])
+      {
+          nextSmaller[Stack.top()] = i;
+          Stack.pop();
+      }
+
+      if (!Stack.empty())
+          prevSmaller[i] = Stack.top();
+      Stack.push(i);
+  }
+```
+
 
 [Leetcode Link](https://leetcode.com/problems/sum-of-subarray-minimums)
