@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int getSum(long long x)
+    int DigitSum(long long x)
     {
         int sum = 0;
         while (x>0)
@@ -13,13 +13,11 @@ public:
     
     long long makeIntegerBeautiful(long long n, int target) 
     {
-        int len = to_string(n).size();
-        string ret;
-        
+        string ret;        
         int carry = 0;
-        for (int i=0; i<len; i++)
+        while (n > 0)
         {
-            if (getSum(n) <= target) break;
+            if (DigitSum(n) <= target) break;
 
             int cur = n%10;
             int d;            
