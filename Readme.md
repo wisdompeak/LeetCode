@@ -237,6 +237,7 @@
 [2277.Closest-Node-to-Path-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2277.Closest-Node-to-Path-in-Tree) (H-)    
 [2313.Minimum-Flips-in-Binary-Tree-to-Get-Result](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2313.Minimum-Flips-in-Binary-Tree-to-Get-Result) (H)      
 [2322.Minimum-Score-After-Removals-on-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2322.Minimum-Score-After-Removals-on-a-Tree) (H-)     
+[2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries) (M+)    
 * ``Path in a tree``    
 [543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
 [124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M)   
