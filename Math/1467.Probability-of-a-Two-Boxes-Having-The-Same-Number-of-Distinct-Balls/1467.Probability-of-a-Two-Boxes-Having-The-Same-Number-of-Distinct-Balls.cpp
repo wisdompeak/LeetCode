@@ -23,19 +23,16 @@ public:
         return good*1.0/all;
     }
     
-    void dfs(int level, vector<int>&set1, vector<int>&set2)
+    void dfs(int k, vector<int>&set1, vector<int>&set2)
     {
-        if (level == balls.size())
-        {
-            int tot1 = accumulate(set1.begin(), set1.end(), 0);
-            int tot2 = accumulate(set2.begin(), set2.end(), 0);            
-            if (tot1!=tot2) return;
+        if (k == balls.size())
+        {          
+            if (accumulate(set1.begin(), set1.end(), 0) != accumulate(set2.begin(), set2.end(), 0))
+                return;
             
             long long p = 1;
             for (int i=0; i<balls.size(); i++)
                 p *= C[balls[i]][set1[i]];
-            for (int i=0; i<balls.size(); i++)
-                p *= C[balls[i]-set1[i]][set2[i]];
             
             all += p;
             
@@ -49,13 +46,13 @@ public:
             return ;
         }
         
-        for (int i=0; i<=balls[level]; i++)
+        for (int i=0; i<=balls[k]; i++)
         {
-            set1[level] += i;
-            set2[level] += balls[level]-i;
-            dfs(level+1, set1, set2);
-            set1[level] -= i;
-            set2[level] -= balls[level]-i;
+            set1[k] += i;
+            set2[k] += balls[k]-i;
+            dfs(k+1, set1, set2);
+            set1[k] -= i;
+            set2[k] -= balls[k]-i;
         }
     }
 };
