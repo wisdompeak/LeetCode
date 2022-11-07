@@ -1,58 +1,56 @@
 class Solution {
 public:
-    vector<string> wordsAbbreviation(vector<string>& dict) 
-    {         
-        int n = dict.size();
+    vector<string> wordsAbbreviation(vector<string>& words) 
+    {
+        int n = words.size();
         vector<string>rets(n);
-        unordered_set<int>Set;
+        
+        vector<int>Set;
         for (int i=0; i<n; i++)
-            Set.insert(i);
+            Set.push_back(i);
         
         int abbrNum = 1;
         while (1)
         {
-            unordered_map<string,vector<int>>Map;
-            for (auto idx : Set)
+            unordered_map<string, vector<int>> Map;
+            
+            for (int idx: Set)
             {
-                string abbr=getAbbr(dict[idx], abbrNum);
+                string abbr = getAbbr(words[idx], abbrNum);
                 Map[abbr].push_back(idx);
             }
             Set.clear();
             
-            for (auto& [str, indices]:Map)
+            for (auto& [abbr, indices]: Map)
             {
-                if (indices.size()>1)
+                if (indices.size() > 1)
                 {
                     for (int idx: indices)
-                        Set.insert(idx);
-                }
+                        Set.push_back(idx);
+                }                    
                 else
-                {
-                    rets[indices[0]] = str;
-                }
+                    rets[indices[0]] = abbr;
             }
             
-            if (Set.size()==0) break;
-            abbrNum++;
+            abbrNum += 1;
+            if (Set.size() == 0)
+                break;            
         }
         
         return rets;
-        
     }
     
     string getAbbr(string s, int abbrNum)
-    {
+    {                
+        if (s.size() < 3) return s;            
+     
         string t;
-        if (s.size()<=2) 
-        {
-            t=s;
-            return t;
-        }
+        t = s.substr(0, abbrNum);
+        t += to_string(s.size() - abbrNum - 1);
+        t += s.back();
         
-        t=s.substr(0, abbrNum);
-        t+=to_string(s.size()-abbrNum-1);
-        t+=s.back();
-        if (t.size()==s.size()) t=s;
-        return t;
+        if (t.size() == s.size()) return s;
+        
+        return t;        
     }
 };
