@@ -863,8 +863,7 @@
 [388.Longest-Absolute-File-Path](https://github.com/wisdompeak/LeetCode/tree/master/String/388.Longest-Absolute-File-Path) (M+)    
 [418.Sentence-Screen-Fitting](https://github.com/wisdompeak/LeetCode/tree/master/String/418.Sentence-Screen-Fitting) (M+)   
 [423.Reconstruct-Original-Digits-from-English](https://github.com/wisdompeak/LeetCode/tree/master/Others/423.Reconstruct-Original-Digits-from-English) (H-)   
-[527.Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/527.Word-Abbreviation) (M+)   
-[556.Next Greater Element III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (H-)   
+[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (H-)   
 616.Add-Bold-Tag-in-String (M)    
 [467.Unique-Substrings-in-Wraparound-String](https://github.com/wisdompeak/LeetCode/tree/master/String/467.Unique-Substrings-in-Wraparound-String) (H-)   
 [564.Find-the-Closest-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/String/564.Find-the-Closest-Palindrome) (H)   
@@ -878,6 +877,7 @@
 * ``Abbreviation``    
 [408.Valid-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/408.Valid-Word-Abbreviation) (M)   
 [411.Minimum-Unique-Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/411.Minimum-Unique-Word-Abbreviation) (H)  
+[527.Word-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/527.Word-Abbreviation) (M+)   
 [2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2060.Check-if-an-Original-String-Exists-Given-Two-Encoded-Strings) (H)     
 * ``Rolling Hash``    
 [1044.Longest-Duplicate-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/1044.Longest-Duplicate-Substring) (H)    
