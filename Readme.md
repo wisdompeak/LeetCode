@@ -129,6 +129,7 @@
 [793.Preimage-Size-of-Factorial-Zeroes-Function](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/793.Preimage-Size-of-Factorial-Zeroes-Function) (H-)   
 [1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
 [1539.Kth-Missing-Positive-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1539.Kth-Missing-Positive-Number) (H-)  
+[2387.Median-of-a-Row-Wise-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2387.Median-of-a-Row-Wise-Sorted-Matrix) (H-)    
 
 #### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
