@@ -954,6 +954,7 @@
 [133.Clone-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/133.Clone-Graph) (M+)  
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (H-)    
 [337.House-Robber-III](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/337.House-Robber-III) (M+)   
+[2378.Choose-Edges-to-Maximize-Score-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2378.Choose-Edges-to-Maximize-Score-in-a-Tree) (H-)     
 [390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
 [395.Longest-Substring-with-At-Least-K-Repeating-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/395.Longest-Substring-with-At-Least-K-Repeating-Characters) (H)    
 [397.Integer-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/397.Integer-Replacement) (M+)    
