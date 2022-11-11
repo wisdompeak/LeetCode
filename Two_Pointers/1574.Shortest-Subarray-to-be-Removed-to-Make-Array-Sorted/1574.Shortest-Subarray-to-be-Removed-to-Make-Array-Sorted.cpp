@@ -8,7 +8,7 @@ public:
         int j = n-1;
         while (j-1>=0 && arr[j-1]<=arr[j])
             j--;
-        ret = min(ret, j);        
+        ret = j;        
         if (ret==0) return 0;
         
         for (int i=0; i<n; i++)
