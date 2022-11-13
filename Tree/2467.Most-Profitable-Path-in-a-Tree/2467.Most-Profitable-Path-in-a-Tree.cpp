@@ -36,15 +36,15 @@ public:
             return;            
         }
         
-        int near = INT_MAX/2;
+        int toBob = INT_MAX/2;
         for (int nxt: next[cur])
         {
             if (nxt==parent) continue;
             dfs(nxt, cur, step+1);
-            near = min(near, b[nxt]);
+            toBob = min(toBob, b[nxt]+1);
         }
         
-        b[cur] = min(near+1, INT_MAX/2);
+        b[cur] = toBob;
         
         return;
     }
