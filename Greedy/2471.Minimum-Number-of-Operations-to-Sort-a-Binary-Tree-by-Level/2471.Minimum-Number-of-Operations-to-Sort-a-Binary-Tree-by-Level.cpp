@@ -19,18 +19,19 @@ public:
         int count = 0;
         for (int t=0; t<=maxDepth; t++)
         {            
-            auto sorted = level[t];
+            auto& nums = level[t];
+            auto sorted = nums;
             sort(sorted.begin(), sorted.end());
             unordered_map<int,int>rank;
             for (int i=0; i<sorted.size(); i++)
                 rank[sorted[i]] = i;
                         
-            int n = level[t].size();
+            int n = nums.size();
             for (int i=0; i<n; i++)
             {
-                while (rank[level[t][i]] != i)
+                while (rank[nums[i]] != i)
                 {
-                    swap(level[t][i], level[t][rank[level[t][i]]]);
+                    swap(nums[i], level[t][rank[nums[i]]]);
                     count++;
                 }                    
             }            
