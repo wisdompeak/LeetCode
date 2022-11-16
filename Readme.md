@@ -653,6 +653,7 @@
 [2222.Number-of-Ways-to-Select-Buildings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2222.Number-of-Ways-to-Select-Buildings) (M+)    
 [2312.Selling-Pieces-of-Wood](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2312.Selling-Pieces-of-Wood) (M+)    
 [2338.Count-the-Number-of-Ideal-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2338.Count-the-Number-of-Ideal-Arrays) (H)      
+[2431.Maximize-Total-Tastiness-of-Purchased-Fruits](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2431.Maximize-Total-Tastiness-of-Purchased-Fruits) (M+)     
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
