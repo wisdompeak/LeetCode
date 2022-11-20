@@ -3,18 +3,20 @@ public:
     int findSubstringInWraproundString(string p) 
     {
         unordered_map<char,int>Map;
+        
         for (int i=0; i<p.size(); i++)
         {
-            int j=i;
-            while (j+1<p.size() && (p[j+1]==p[j]+1 || p[j]=='z' && p[j+1]=='a'))
-                j++;
-            if (j-i+1>Map[p[i]])
-                Map[p[i]]=j-i+1;            
+            int i0=i;
+            while (i+1<p.size() && (p[i+1]==p[i]+1 || p[i]=='z' && p[i+1]=='a'))
+                i++;
+            for (int k=i0; k<=i; k++)            
+                Map[p[k]]=max(Map[p[k]],i-k+1);            
         }
         
-        int result=0;
+        int count=0;        
         for (auto a:Map)
-            result+=a.second;
-        return result;
+            count+=a.second;
+        
+        return count;
     }
 };
