@@ -17,6 +17,6 @@ public:
             last[s[i]-'a'] = i;
         }
 
-        return dp[n] - 1;
+        return ((dp[n] + M )- 1) % M;        
     }
 };
