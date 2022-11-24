@@ -700,7 +700,6 @@
 [2188.Minimum-Time-to-Finish-the-Race](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2188.Minimum-Time-to-Finish-the-Race) (H-)    
 [2209.Minimum-White-Tiles-After-Covering-With-Carpets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2209.Minimum-White-Tiles-After-Covering-With-Carpets) (M+)     
 [2430.Maximum-Deletions-on-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2430.Maximum-Deletions-on-a-String) (M+)     
-[2478.Number-of-Beautiful-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2478.Number-of-Beautiful-Partitions) (H-)      
 * ``走迷宫型``   
 [120.Triangle](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/120.Triangle) (E)  
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
@@ -746,6 +745,7 @@
 [1977.Number-of-Ways-to-Separate-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1977.Number-of-Ways-to-Separate-Numbers) (H)     
 [2463.Minimum-Total-Distance-Traveled](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2463.Minimum-Total-Distance-Traveled) (M+)     
 [2472.Maximum-Number-of-Non-overlapping-Palindrome-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2472.Maximum-Number-of-Non-overlapping-Palindrome-Substrings) (M+)    
+[2478.Number-of-Beautiful-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2478.Number-of-Beautiful-Partitions) (H-)      
 * ``区间型 II``   
 [131.Palindrome-Partitioning](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/131.Palindrome-Partitioning) (M+)  
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)   
