@@ -97,6 +97,6 @@ int main()
     for (auto& query: queries)
     {
         int start = query[0], end = query[1];
-        ret[i] = root->updateRange(start, end); // get the range sum over [start, end]
+        ret[i] = root->queryRange(start, end); // get the range sum over [start, end]
     }
 }
