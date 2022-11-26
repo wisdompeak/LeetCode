@@ -3,7 +3,7 @@
 #### My LeetCode Daily Problem & Contest Group: [See rules and score board here](https://wisdompeak.github.io/lc-score-board/)
 (If you are interested in joining this group, ping me guan.huifeng@gmail.com)
 
-### LeetCode难题代码和算法要点分析https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2484.Count-Palindromic-Subsequences
+### LeetCode难题代码和算法要点分析
 #### 目前分类目录
 #### [Two Pointers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers)
 [011.Container-With-Most-Water](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/011.Container-With-Most-Water)	(M+)  
