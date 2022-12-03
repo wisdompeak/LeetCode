@@ -1,19 +1,17 @@
 class Solution {
 public:
-    int subarraysDivByK(vector<int>& A, int K) 
-    {
+    int subarraysDivByK(vector<int>& nums, int k) {
         unordered_map<int,int>Map;
-
         Map[0] = 1;
-        int presum = 0;
-        int ret = 0;
-        for (int i=0; i<A.size(); i++)
-        {
-            presum += A[i];
-            int r = presum > 0 ? presum%K : (presum%K+K)%K;
-            ret += Map[r];
+        
+        int r = 0;
+        int count = 0;
+        for (int i=0; i<nums.size(); i++)
+        {            
+            r = ((r + nums[i]) % k + k) % k;
+            count += Map[r];
             Map[r]++;
         }
-        return ret;
+        return count;
     }
 };
