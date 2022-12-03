@@ -1,35 +1,35 @@
 class Solution {
-public:
-    string minWindow(string s, string t) 
-    {
-        unordered_map<char,int>Table;
-        for (int i=0; i<t.size(); i++)
-            Table[t[i]]++;
-        int M = Table.size();
-        
-        unordered_map<char,int>Map;
-        int i=0;
-        int Len = INT_MAX;
-        string result;
-        int count = 0;
-        for (int j=0; j<s.size(); j++)
-        {
-            Map[s[j]]++;
-            if (Map[s[j]]==Table[s[j]])
-                count++;
-            while (count==M)
-            {
-                if (Len>j-i+1)
-                {
-                    Len = j-i+1;
-                    result = s.substr(i,Len);
-                }
-                Map[s[i]]--;
-                if (Map[s[i]]==Table[s[i]]-1)
-                    count--;
-                i++;
+    public :
+        string minWindow(string s, string t) {
+            unordered_map<char, int > mp ; 
+            for(auto i : t){
+                mp[i]++; 
             }
+            int i = 0 ;
+            int j = 0 ; 
+            int count = mp.size(); 
+            int len = INT_MAX ; 
+            int ansStart = 0 ; 
+            string ans = ""; 
+            while ( j <s.size()){
+                mp[s[j]]--; 
+                if(mp[s[j]]==0){
+                    count--; 
+                }
+                while(count==0){
+                    if( len > j -i +1){
+                        len = j-i+1; 
+                        ansStart = i ;  
+                    }
+                    mp[s[i]]++; 
+                    if ( mp[s[i]]>0){
+                        count++; 
+                    }
+                    i++; 
+                }
+                j++; 
+            }
+            if ( len == INT_MAX) return ""; 
+            return s.substr(ansStart , len); 
         }
-        return result;
-    }
 };
