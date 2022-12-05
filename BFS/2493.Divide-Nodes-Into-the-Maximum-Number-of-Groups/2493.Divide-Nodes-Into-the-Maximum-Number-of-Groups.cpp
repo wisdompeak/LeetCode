@@ -42,7 +42,7 @@ public:
             int ans = 0;
             for (int start: nodes)
             {                
-                unordered_map<int,int>level;
+                vector<int>level(505);
                 level[start] = 1;
                 queue<pair<int,int>>q;
                 q.push({start, 1});
@@ -55,7 +55,7 @@ public:
                                         
                     for (int nxt: next[cur])
                     {
-                        if (level.find(nxt)==level.end())
+                        if (level[nxt]==0)
                         {
                             level[nxt] = d+1;
                             q.push({nxt, d+1});
@@ -65,9 +65,11 @@ public:
                     }
                 }                
             }
+            
             ret += ans;
         }
         
-        return ret;        
+        return ret;
+        
     }
 };
