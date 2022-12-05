@@ -1,5 +1,5 @@
 class Solution {
-    vector<int>next [505];
+    vector<int>next[505];
 public:
     int magnificentSets(int n, vector<vector<int>>& edges) 
     {
@@ -9,47 +9,55 @@ public:
             next[a].push_back(b);
             next[b].push_back(a);
         }
-                
+        
         unordered_map<int,int>Map;
+        
         for (int start=1; start<=n; start++)
-        {            
-            int maxDepth = 0;
+        {
+            int d = 0;
             int smallestId = INT_MAX;
             vector<int>level(505);
-
-            queue<pair<int,int>>q;
-            q.push({start,1});
-            level[start] = 1;            
-
+            
+            queue<int>q; 
+            q.push(start);
+            level[start] = 1;
+            
             while (!q.empty())
             {
-                auto [cur, d] = q.front();
-                q.pop();
-                maxDepth = max(maxDepth, d);
-                smallestId = min(smallestId, cur);
-
-                for (int nxt: next[cur])
+                d++;
+                int len = q.size();                
+                while (len--)
                 {
-                    if (level[nxt] == 0)
+                    int cur = q.front();
+                    q.pop();                                        
+                    smallestId = min(smallestId, cur);
+
+                    for (int nxt: next[cur])
                     {
-                        level[nxt] = d+1;
-                        q.push({nxt, d+1});
-                    }
-                    else if (level[nxt] == d)
-                    {
-                        return -1;
-                    }
-                }                
+                        if (level[nxt] == 0)
+                        {
+                            level[nxt] = d+1;
+                            q.push(nxt);
+                        }
+                        else if (level[nxt] == d)
+                        {
+                            return -1;
+                        }
+                    }                    
+                }
             }
             
-            Map[smallestId] = max(Map[smallestId], maxDepth);            
-        }            
+            Map[smallestId] = max(Map[smallestId], d);
+        }
         
         int ret = 0;
-        for (auto [k,v]: Map)
+        for (auto [k, v]: Map)
             ret += v;
         
-        return ret;
-        
+        return ret;        
     }
 };
+
+
+
+    
