@@ -941,6 +941,7 @@
 [2076.Process-Restricted-Friend-Requests](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/2076.Process-Restricted-Friend-Requests) (H-)    
 [2092.Find-All-People-With-Secret](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/2092.Find-All-People-With-Secret) (H-)      
 [2157.Groups-of-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/2157.Groups-of-Strings) (H)      
+[2492.Minimum-Score-of-a-Path-Between-Two-Cities](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/2492.Minimum-Score-of-a-Path-Between-Two-Cities) (M)    
 * ``Union in an order``    
 [803.Bricks-Falling-When-Hit](https://github.com/wisdompeak/LeetCode/tree/master/DFS/803.Bricks-Falling-When-Hit) (H)   
 [1970.Last-Day-Where-You-Can-Still-Cross](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1970.Last-Day-Where-You-Can-Still-Cross) (H-)    
