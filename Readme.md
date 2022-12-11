@@ -1263,6 +1263,7 @@
 [2122.Recover-the-Original-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2122.Recover-the-Original-Array) (H-)      
 [1982.Find-Array-Given-Subset-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1982.Find-Array-Given-Subset-Sums) (H)      
 [2202.Maximize-the-Topmost-Element-After-K-Moves](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (H)     
+[2498.Frog-Jump-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2498.Frog-Jump-II) (H)     
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
