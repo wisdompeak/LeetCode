@@ -242,6 +242,7 @@
 [2322.Minimum-Score-After-Removals-on-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2322.Minimum-Score-After-Removals-on-a-Tree) (H-)     
 [2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries) (M+)    
 [2467.Most-Profitable-Path-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2467.Most-Profitable-Path-in-a-Tree) (M+)      
+[2445.Number-of-Nodes-With-Value-One](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2445.Number-of-Nodes-With-Value-One) (M+)      
 * ``Path in a tree``    
 [543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
 [124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M)   
