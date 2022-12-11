@@ -547,9 +547,10 @@
 [2392.Build-a-Matrix-With-Conditions](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2392.Build-a-Matrix-With-Conditions) (M+)    
 [2440.Create-Components-With-Same-Value](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2440.Create-Components-With-Same-Value) (H-)    
 * ``Dijkstra (BFS+PQ)``   
-[743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H)    
+[743.Network-Delay-Time](https://github.com/wisdompeak/LeetCode/tree/master/BFS/743.Network-Delay-Time) (H-)    
 [407.Trapping-Rain-Water-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/407.Trapping-Rain-Water-II) (H)      
 [778.Swim-in-Rising-Water](https://github.com/wisdompeak/LeetCode/tree/master/BFS/778.Swim-in-Rising-Water) (H)    
+[2503.Maximum-Number-of-Points-From-Grid-Queries](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2503.Maximum-Number-of-Points-From-Grid-Queries) (H-)    
 [505.The-Maze-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/505.The-Maze-II) (H-)  
 [499.The-Maze-III](https://github.com/wisdompeak/LeetCode/tree/master/BFS/499.The-Maze-III) (H)    
 [787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H)    
