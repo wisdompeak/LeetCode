@@ -1264,6 +1264,7 @@
 [1982.Find-Array-Given-Subset-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1982.Find-Array-Given-Subset-Sums) (H)      
 [2202.Maximize-the-Topmost-Element-After-K-Moves](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (H)     
 [2498.Frog-Jump-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2498.Frog-Jump-II) (H)     
+[2499.minimum-total-cost-to-make-arrays-unequal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2499.minimum-total-cost-to-make-arrays-unequal) (H)    
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
