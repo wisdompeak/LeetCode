@@ -25,9 +25,7 @@ public:
         for (auto& [val,freq]:count)
             if (freq==maxCount)
                 maxVal = val;
-       
-        if (maxCount > n/2) return -1;
-        
+               
         if (maxCount <= total-maxCount)
             return ret;
 
