@@ -7,3 +7,5 @@
 最终我们将每台机器被指派的任务累加起来找到最大值即可。
 
 时间复杂度分析：外层的循环是o(N)。内层对于free而言，每层循环有固定一次的查找、删除；对于busy而言，有固定一次的弹出。考虑到free和busy最长是K，所以最终时间复杂度大概是```O(N*logK)```
+
+[Leetcode Link](https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/)
