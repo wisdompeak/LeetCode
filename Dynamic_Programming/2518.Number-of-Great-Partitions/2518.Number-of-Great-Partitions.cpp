@@ -4,26 +4,32 @@ class Solution {
     LL M = 1e9+7;
 public:
     int countPartitions(vector<int>& nums, int k) 
-    {
+    {        
+        if (accumulate(nums.begin(), nums.end(), 0LL) < k*2) 
+            return 0;
+        
         int n = nums.size();
-        
-        LL total = accumulate(nums.begin(), nums.end(), 0LL);
-        if (total < k*2) return 0;
-        
+        nums.insert(nums.begin(), 0);
+                
         dp[0][0] = 1;
-        dp[0][min(k, nums[0])] = 1;
         
-        for (int i=0; i<n-1; i++)
-            for (int s = 0; s<=k; s++)
+        for (int i=1; i<=n; i++)
+            for (int s = 0; s<k; s++)
             {                
-                dp[i+1][s] = (dp[i+1][s] + dp[i][s]) % M;                
-                dp[i+1][min(k, s+nums[i+1])] = (dp[i+1][min(k, s+nums[i+1])] + dp[i][s]) % M;             
+                dp[i][s] += dp[i-1][s];
+                if (s>=nums[i])
+                    dp[i][s] += dp[i-1][s-nums[i]];
+                dp[i][s] %= M;
             }
         
-        LL d = 0;
-        for (int s=0; s<k; s++)
-            d = (d+dp[n-1][s]) % M;
+        LL total = 1;
+        for (int i=1; i<=n; i++)
+            total = total * 2 % M;
         
-        return (dp[n-1][k] - d + M) % M;        
+        LL invalid = 0;
+        for (int s=0; s<k; s++)
+            invalid = (invalid + dp[n][s]) % M;
+        
+        return (total - invalid - invalid + M) % M;        
     }
 };
