@@ -1,28 +1,27 @@
 class Solution {
+    int dp[25][2005];
 public:
     int findTargetSumWays(vector<int>& nums, int S) 
     {
         int sum = accumulate(nums.begin(), nums.end(), 0);
         if (S>sum || S<-sum) return false;
         
-        int offset = sum;        
-        vector<int>dp(2*offset+1);
-        dp[0+offset] = 1;
+        int n = nums.size();
+        nums.insert(nums.begin(), 0);
+
+        int offset = 1000;                
+        dp[0][offset] = 1;
         
-        for (auto x: nums)
-        {
-            auto temp = dp;
-            for (int i=-offset; i<=offset; i++)
+        for (int i=1; i<=n; i++)
+            for (int s = -1000; s<=1000; s++)
             {
-                dp[i+offset] = 0;
-                if (i-x>=-offset)
-                    dp[i+offset] += temp[i-x+offset];
-                if (i+x<=offset)
-                    dp[i+offset] += temp[i+x+offset];
-                //cout<<x<<" "<<i<<" "<<dp[i+offset]<<endl;
+                if (s-nums[i]<=1000 && s-nums[i]>=-1000)
+                    dp[i][s+offset] += dp[i-1][s-nums[i]+offset];
+
+                if (s+nums[i]<=1000 && s+nums[i]>=-1000)
+                    dp[i][s+offset] += dp[i-1][s+nums[i]+offset];
             }
-        }
         
-        return dp[S+offset];
+        return dp[n][S+offset];
     }
 };
