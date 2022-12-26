@@ -730,6 +730,7 @@
 [1449.Form-Largest-Integer-With-Digits-That-Add-up-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1449.Form-Largest-Integer-With-Digits-That-Add-up-to-Target) (H-)  
 [1981.Minimize-the-Difference-Between-Target-and-Chosen-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1981.Minimize-the-Difference-Between-Target-and-Chosen-Elements) (M+)    
 [2291.Maximum-Profit-From-Trading-Stocks](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2291.Maximum-Profit-From-Trading-Stocks) (M)     
+[2518.Number-of-Great-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2518.Number-of-Great-Partitions) (H-)      
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
