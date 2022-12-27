@@ -8,7 +8,7 @@
 ```cpp
 for (int i=0; i<n; i++) // 遍历物品
   for (int s= sum/2 to 0) // 遍历容量
-    if (dp[i-1][s-x] = true)
+    if (dp[i-1][s-nums[i]] = true)
       dp[s] = true   // 如果考察x之前，已经能够凑出s-x，那么加上x这个数字就一定能凑出和为x的subset。
 ``` 
 
@@ -17,6 +17,6 @@ for (int i=0; i<n; i++) // 遍历物品
 for (int i=0; i<n; i++) // 遍历物品
   for (int s= sum/2 to 0) // 遍历容量
     if (dp[i][s] = true)
-      dp[i+1][s+x] = true   // 如果考察x之前，已经能够凑出s，那么加上x这个数字就一定能凑出和为s+x的subset。
+      dp[i+1][s+nums[i]] = true   // 如果考察x之前，已经能够凑出s，那么加上x这个数字就一定能凑出和为s+x的subset。
 ``` 
 
