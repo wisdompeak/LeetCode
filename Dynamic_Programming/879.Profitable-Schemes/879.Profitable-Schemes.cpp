@@ -1,40 +1,34 @@
 class Solution {
+    int dp[105][105][105];
+    int M = 1e9+7;
 public:
-    int profitableSchemes(int G, int P, vector<int>& group, vector<int>& profit) 
+    int profitableSchemes(int n, int minProfit, vector<int>& group, vector<int>& profit) 
     {
-        auto dp = vector<vector<int>>(G+1, vector<int>(P+1,0));
-        int M = 1e9+7;
+        dp[0][0][0] = 1;
+
+        int m = group.size();                
+        group.insert(group.begin(), 0);
+        profit.insert(profit.begin(), 0);        
         
-        dp[0][0] = 1;
-        
-        auto dp_new = dp;
-        
-        for (int k=0; k<group.size(); k++)
-        {
-            int x = group[k];
-            int y = profit[k];
-            
-            dp_new = dp;
-            
-            for (int i = 0; i <= G; i++)
-                for (int j = 0; j <= P; j++)
+        for (int i=0; i<m; i++)
+            for (int j = 0; j <= n; j++)
+                for (int p = 0; p <= minProfit; p++)
                 {
-                    if (i+x<=G)
+                    dp[i+1][j][p] += dp[i][j][p];
+                    dp[i+1][j][p] %= M;
+
+                    if (j+group[i+1] <= n)
                     {
-                        int pp = min(j+y,P);
-                        
-                        dp_new[i+x][pp] += dp[i][j];
-                        dp_new[i+x][pp] %= M;
-                    }
+                        dp[i+1][j+group[i+1]][min(minProfit, p+profit[i+1])] += dp[i][j][p];
+                        dp[i+1][j+group[i+1]][min(minProfit, p+profit[i+1])] %= M;
+                    }                        
                 }
-            
-            dp = dp_new;
-        }
         
         int ret = 0;
-        for (int i = 0; i <= G; i++)
-            ret = (ret+dp[i][P])%M;
+        for (int j = 0; j <= n; j++)                
+            ret = (ret + dp[m][j][minProfit]) % M;
         
         return ret;
+        
     }
 };
