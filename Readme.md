@@ -47,7 +47,7 @@
 [2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2106.Maximum-Fruits-Harvested-After-at-Most-K-Steps) (H)     
 [2401.Longest-Nice-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2401.Longest-Nice-Subarray) (H-)    
 [2411.Smallest-Subarrays-With-Maximum-Bitwise-OR](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2411.Smallest-Subarrays-With-Maximum-Bitwise-OR) (H-)    
-[2516.Take-K-of-Each-Character-From-Left-and-Right](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2516.Take-K-of-Each-Character-From-Left-and-Right) (H-)    
+[2516.Take-K-of-Each-Character-From-Left-and-Right](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2516.Take-K-of-Each-Character-From-Left-and-Right) (M+)    
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
