@@ -1,24 +1,23 @@
 class Solution {
+    int dp[205][20005];
 public:
     bool canPartition(vector<int>& nums) 
     {
-        int sum = accumulate(nums.begin(),nums.end(),0);
+        int sum = accumulate(nums.begin(), nums.end(), 0);
         if (sum%2!=0) return false;
-        
-        unordered_set<int>dp;
-        dp.insert(0);
 
-        for (auto x: nums)
-        {
-            vector<int>temp;
-            for (auto s: dp)
+        int n = nums.size();
+        nums.insert(nums.begin(), 0);
+
+        dp[0][0] = 1;
+        for (int i=1; i<=n; i++)
+            for (int s = 0; s<=sum/2; s++)
             {
-                if (s+x==sum/2) return true;
-                temp.push_back(s+x);
+                dp[i][s] |= dp[i-1][s];
+                if (s>=nums[i])
+                    dp[i][s] |= dp[i-1][s-nums[i]];
             }
-            for (auto a: temp)
-                dp.insert(a);
-        }
-        return false;
+
+        return dp[n][sum/2];
     }
 };
