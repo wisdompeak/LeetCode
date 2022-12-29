@@ -3,7 +3,7 @@ class Solution {
 public:
     int minimizeSet(int divisor1, int divisor2, int uniqueCnt1, int uniqueCnt2) 
     {
-        LL left = 1, right = LLONG_MAX/2;
+        LL left = 1, right = INT_MAX;
         while (left < right)
         {
             LL mid = left + (right-left)/2;
