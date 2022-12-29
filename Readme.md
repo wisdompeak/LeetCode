@@ -277,6 +277,7 @@
 [1650.Lowest-Common-Ancestor-of-a-Binary-Tree-III](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1650.Lowest-Common-Ancestor-of-a-Binary-Tree-III) (M)     
 [1740.Find-Distance-in-a-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1740.Find-Distance-in-a-Binary-Tree) (H)  
 [2096.Step-By-Step-Directions-From-a-Binary-Tree-Node-to-Another](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2096.Step-By-Step-Directions-From-a-Binary-Tree-Node-to-Another) (M+)    
+[2509.Cycle-Length-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2509.Cycle-Length-Queries-in-a-Tree) (M)    
 * ``N-ary Tree``    
 [428.Serialize-and-Deserialize-N-ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/428.Serialize-and-Deserialize-N-ary-Tree) (H)  
 [431.Encode-N-ary-Tree-to-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/431.Encode-N-ary-Tree-to-Binary-Tree) (H-)  
