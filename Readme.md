@@ -849,6 +849,7 @@
 [957.Prison-Cells-After-N-Days](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/957.Prison-Cells-After-N-Days) (H)   
 1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)  
 [1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target) (H-)  
+[2505.Bitwise-OR-of-All-Subsequence-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2505.Bitwise-OR-of-All-Subsequence-Sums) (H)     
 * ``XOR``   
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
