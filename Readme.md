@@ -1104,6 +1104,7 @@
 [1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony](https://github.com/wisdompeak/LeetCode/tree/master/Math/1916.Count-Ways-to-Build-Rooms-in-an-Ant-Colony) (H)  
 [2221.Find-Triangular-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Math/2221.Find-Triangular-Sum-of-an-Array) (M)     
 [2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Math/2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps) (M+)     
+[2514.Count-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Math/2514.Count-Anagrams) (H-)     
 * ``Numerical Theory``   
 [204.Count-Primes](https://github.com/wisdompeak/LeetCode/tree/master/Math/204.Count-Primes) (M)    
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
