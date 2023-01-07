@@ -860,6 +860,7 @@
 [1734.Decode-XORed-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1734.Decode-XORed-Permutation) (M+)  
 [1738.Find-Kth-Largest-XOR-Coordinate-Value](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1738.Find-Kth-Largest-XOR-Coordinate-Value) (M+)  
 [1835.Find-XOR-Sum-of-All-Pairs-Bitwise-AND](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1835.Find-XOR-Sum-of-All-Pairs-Bitwise-AND) (M)  
+[2527.Find-Xor-Beauty-of-Array](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2527.Find-Xor-Beauty-of-Array) (H)    
 * ``Bit Mask``   
 [320.Generalized-Abbreviation](https://github.com/wisdompeak/LeetCode/tree/master/String/320.Generalized-Abbreviation) (M)      
 [1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1239.Maximum-Length-of-a-Concatenated-String-with-Unique-Characters) (M+)  
