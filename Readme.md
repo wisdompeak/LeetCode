@@ -118,6 +118,7 @@
 [2439.Minimize-Maximum-of-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2439.Minimize-Maximum-of-Array) (H-)    
 [2517.Maximum-Tastiness-of-Candy-Basket](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2517.Maximum-Tastiness-of-Candy-Basket) (M+)      
 [2513.Minimize-the-Maximum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2513.Minimize-the-Maximum-of-Two-Arrays) (H)     
+[2528.Maximize-the-Minimum-Powered-City](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2528.Maximize-the-Minimum-Powered-City) (H-)      
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
