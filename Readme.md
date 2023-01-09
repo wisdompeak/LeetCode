@@ -1286,6 +1286,7 @@
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
 [2069.Walking-Robot-Simulation-II](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2069.Walking-Robot-Simulation-II) (M+)      
+[2532.Time-to-Cross-a-Bridge](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2532.Time-to-Cross-a-Bridge) (H)     
 
 #### [Others](https://github.com/wisdompeak/LeetCode/tree/master/Others)  
 [007.Reverse-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/007.Reverse-Integer) (M)    
