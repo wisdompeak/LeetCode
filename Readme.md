@@ -714,6 +714,7 @@
 [2209.Minimum-White-Tiles-After-Covering-With-Carpets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2209.Minimum-White-Tiles-After-Covering-With-Carpets) (M+)     
 [2430.Maximum-Deletions-on-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2430.Maximum-Deletions-on-a-String) (M+)     
 [2464.Minimum-Subarrays-in-a-Valid-Split](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2464.Minimum-Subarrays-in-a-Valid-Split) (M)     
+[2522.Partition-String-Into-Substrings-With-Values-at-Most-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2522.Partition-String-Into-Substrings-With-Values-at-Most-K) (M+)      
 * ``走迷宫型``   
 [120.Triangle](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/120.Triangle) (E)  
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
