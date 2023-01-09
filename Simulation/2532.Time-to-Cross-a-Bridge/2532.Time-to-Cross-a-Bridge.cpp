@@ -13,11 +13,19 @@ public:
         priority_queue<PII>rightWait;
         
         int ret = 0;
-        int count = 0;
-        int taken = 0;
+        int crossed = 0;
+        int returned = 0;
 
-        while (count < n)
+        while (returned < n)
         {
+            if (crossed == n)
+            {
+                while (!leftWait.empty()) 
+                    leftWait.pop();
+                while (!leftArrive.empty())
+                    leftArrive.pop();
+            }
+
             while (!leftArrive.empty() && leftArrive.top().first <= nextFree)
             {
                 auto [arriveTime, id] = leftArrive.top();
@@ -44,25 +52,17 @@ public:
                 auto [_, id] = rightWait.top();
                 rightWait.pop();
                 nextFree += time[id][2];
-                leftArrive.push({nextFree+time[id][3], id});                
-
-                count++;
+                leftArrive.push({nextFree+time[id][3], id});
+                returned++;
                 ret = max(ret, nextFree);
             }
-            else if (!leftWait.empty())   // L -> R
+            else if (!leftWait.empty() && crossed < n)   // L -> R
             {
-                if (taken == n) 
-                {
-                    while (!leftWait.empty()) 
-                        leftWait.pop();
-                } else
-                {
-                    auto [_, id] = leftWait.top();
-                    leftWait.pop();
-                    nextFree += time[id][0];
-                    rightArrive.push({nextFree+time[id][1], id});
-                    taken++;
-              }
+                auto [_, id] = leftWait.top();
+                leftWait.pop();
+                nextFree += time[id][0];
+                rightArrive.push({nextFree+time[id][1], id});
+                crossed++;
             }
         }
         
