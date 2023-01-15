@@ -1370,6 +1370,7 @@
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
+[2536.Increment-Submatrices-by-One](https://github.com/wisdompeak/LeetCode/tree/master/Others/2536.Increment-Submatrices-by-One) (H-)     
 * ``Enumeration``   
 [479.Largest-Palindrome-Product](https://github.com/wisdompeak/LeetCode/tree/master/Others/479.Largest-Palindrome-Product) (M+)   
 [866.Prime-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/Others/866.Prime-Palindrome) (H-)   
