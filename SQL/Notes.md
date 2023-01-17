@@ -1,5 +1,5 @@
 #### greatest, least
-在多个列中选择最大/最小的一个
+在同一行的多个列中选择最大/最小的一个
 ```sql
 greatest(columnA, columnB)
 least(columnA, columnB)
