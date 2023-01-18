@@ -22,3 +22,19 @@ left(trans_date, 7) as month
 join UnitsSold on Prices.product_id = UnitsSold.product_id 
     and UnitsSold.purchase_date between Prices.start_date and Prices.end_date  
 ```    
+
+#### 临时表
+```sql
+with Temp1 as
+(
+    select winner_id
+    from Winners
+), Temp2 as
+(
+    select player_id
+    from Players
+)
+
+select
+    Round((select count(*) from Winner) / (select count(*) from Players), 2) AS fraction
+```
