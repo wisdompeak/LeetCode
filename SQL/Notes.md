@@ -10,7 +10,11 @@ least(columnA, columnB)
 ```sql
 purchase_date between Prices.start_date and Prices.end_date
 ```
-
+##### left
+选择一个date数据“2020-19-12”的左七位数字作为month的标记。
+```sql
+left(trans_date, 7) as month
+```
 
 #### Join
 ##### Join Condition 可以有复杂的表达式
