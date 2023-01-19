@@ -38,3 +38,16 @@ with Temp1 as
 select
     Round((select count(*) from Winner) / (select count(*) from Players), 2) AS fraction
 ```
+
+#### 分组最大
+在原表里插入rank存为新表。再在新表里选择rank=1的行。
+```sql
+with temp as 
+(
+    select *, rank() over (partition by student_id order by grade desc, course_id) as rnk
+    from Enrollments
+)
+select student_id, course_id, grade
+from temp
+where rnk = 1
+```
