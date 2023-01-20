@@ -5,6 +5,21 @@ greatest(columnA, columnB)
 least(columnA, columnB)
 ```
 
+#### Union
+```sql
+将两段类型相同的列纵向拼接起来（组成新表）。在第一个select里可以重命名。
+with temp as
+(
+    select user1_id as id
+    from Friendship
+    where user2_id = 1
+    union
+    select user2_id
+    from Friendship
+    where user1_id = 1
+)
+```
+
 #### 日期类型的操作
 ##### between
 ```sql
