@@ -66,3 +66,12 @@ select student_id, course_id, grade
 from temp
 where rnk = 1
 ```
+
+### Join
+#### out join
+不指定`on`的话，会将表A与表B的所有row都两两配对。
+```sql
+select *
+from A
+join B
+```
