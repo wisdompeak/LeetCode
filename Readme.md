@@ -442,6 +442,7 @@
 [1834.Single-Threaded-CPU](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1834.Single-Threaded-CPU) (M)  
 [1851.Minimum-Interval-to-Include-Each-Query](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1851.Minimum-Interval-to-Include-Each-Query) (H)  
 [2406.Divide-Intervals-Into-Minimum-Number-of-Groups](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2406.Divide-Intervals-Into-Minimum-Number-of-Groups) (M+)      
+[2542.Maximum-Subsequence-Score](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2542.Maximum-Subsequence-Score) (M+)    
 * ``Arrangement with Stride``   
 [767.Reorganize-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/767.Reorganize-String) (M+)    
 [1054.Distant-Barcodes](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1054.Distant-Barcodes) (M+)    
