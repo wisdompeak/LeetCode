@@ -39,6 +39,7 @@ join UnitsSold on Prices.product_id = UnitsSold.product_id
 ```    
 
 #### 临时表
+定义临时表
 ```sql
 with Temp1 as
 (
@@ -53,6 +54,17 @@ with Temp1 as
 select
     Round((select count(*) from Winner) / (select count(*) from Players), 2) AS fraction
 ```
+取临时表的某一列
+```sql
+with temp as
+(
+    select count(x) as total
+    from table
+)
+select name, total
+from table, temp
+```
+
 
 #### 分组最大
 在原表里插入rank存为新表。再在新表里选择rank=1的行。
