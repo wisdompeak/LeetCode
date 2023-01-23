@@ -87,3 +87,12 @@ select *
 from A
 join B
 ```
+
+### 遍历双表
+#### 相当于两个for循环遍历两张表里的row，判定相互关系
+```sql
+select distinct c1.seat_id
+from Cinema c1, Cinema c2
+where (c1.seat_id = c2.seat_id - 1 or c1.seat_id = c2.seat_id + 1) and c1.free = 1 and c2.free
+order by c1.seat_id
+```
