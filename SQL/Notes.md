@@ -5,6 +5,10 @@ greatest(columnA, columnB)
 least(columnA, columnB)
 ```
 
+#### ifnull(A, B)
+Output A if A is not null, otherwise B.
+
+
 #### Union
 ```sql
 将两段类型相同的列纵向拼接起来（组成新表）。在第一个select里可以重命名。
