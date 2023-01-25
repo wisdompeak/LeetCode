@@ -37,7 +37,7 @@ left(trans_date, 7) as month
 ##### datediff
 计算两个时间之差（前者减后者）
 ```sql
-datediff(a.visited_on, b.visited_on) between 0 and 6
+join XXX on datediff(a.visited_on, b.visited_on) between 0 and 6
 ```
 
 #### Join
