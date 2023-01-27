@@ -74,8 +74,8 @@ select name, total
 from table, temp
 ```
 
-
-#### 分组最大
+### 窗口函数
+#### 利用rank()求分区间的最大值
 在原表里插入rank存为新表。再在新表里选择rank=1的行。
 ```sql
 with temp as 
@@ -86,6 +86,13 @@ with temp as
 select student_id, course_id, grade
 from temp
 where rnk = 1
+```
+
+#### 利用sum()求分区间的累积前缀
+按天数累积
+```sql
+SELECT gender, day, SUM(score_points) OVER(PARTITION BY gender ORDER BY day) AS total
+FROM Scores
 ```
 
 ### Join
