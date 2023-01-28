@@ -47,8 +47,8 @@ join UnitsSold on Prices.product_id = UnitsSold.product_id
     and UnitsSold.purchase_date between Prices.start_date and Prices.end_date  
 ```    
 
-#### 临时表
-定义临时表
+### 临时表
+#### 定义临时表
 ```sql
 with Temp1 as
 (
@@ -63,7 +63,7 @@ with Temp1 as
 select
     Round((select count(*) from Winner) / (select count(*) from Players), 2) AS fraction
 ```
-取临时表的某一列
+#### 取临时表的某一列
 ```sql
 with temp as
 (
@@ -73,6 +73,7 @@ with temp as
 select name, total
 from table, temp
 ```
+#### 临时表不能嵌套或者建立多于两个
 
 ### 窗口函数
 #### 利用rank()求分区间的最大值
@@ -93,6 +94,16 @@ where rnk = 1
 ```sql
 SELECT gender, day, SUM(score_points) OVER(PARTITION BY gender ORDER BY day) AS total
 FROM Scores
+```
+
+#### 优先操作累积函数，再操作窗口函数
+在下面的代码里，优先考虑group by Orders.product_id, customer_id，group之后每一行就可以定义count(Orders.product_id)，再按照该列对所有行进行rank
+```sql
+select Orders.product_id, product_name, customer_id, 
+    rank() over (partition by customer_id order by count(Orders.product_id) desc) as rnk
+from Orders
+left join Products on Orders.product_id = Products.product_id
+group by Orders.product_id, customer_id  
 ```
 
 ### Join
