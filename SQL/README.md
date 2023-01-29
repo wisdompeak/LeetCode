@@ -96,6 +96,12 @@ SELECT gender, day, SUM(score_points) OVER(PARTITION BY gender ORDER BY day) AS 
 FROM Scores
 ```
 
+#### 各种rank函数
+rank()：正常排名，允许并列。两个第一名的话，则没有第二名。
+dense_rank()：正常排名，允许并列。两个第一名的话，依然有第二名。
+row_number(); 排名不允许有并列。
+
+
 #### 优先操作累积函数，再操作窗口函数
 在下面的代码里，优先考虑group by Orders.product_id, customer_id，group之后每一行就可以定义count(Orders.product_id)，再按照该列对所有行进行rank
 ```sql
