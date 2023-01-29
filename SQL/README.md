@@ -106,6 +106,14 @@ left join Products on Orders.product_id = Products.product_id
 group by Orders.product_id, customer_id  
 ```
 
+#### 窗口函数内排序后用lead求某列的下一行
+对于每个user_id，按时间先后排序visit_data。用`lead(visit_date, 1, '2021-01-01')`可以求出此时表里visit_date的下一行，其中第三个参数表示没有下一行时的默认值。
+```sql
+select lead(visit_date, 1, '2021-01-01') over (partition by user_id order by visit_date) as next
+from UserVisits
+```
+
+
 ### Join
 #### out join
 不指定`on`的话，会将表A与表B的所有row都两两配对。
