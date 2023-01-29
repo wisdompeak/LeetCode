@@ -12,33 +12,42 @@ public:
     int widthOfBinaryTree(TreeNode* root) 
     {
         root->val = 0;
-        deque<TreeNode*>q;
+        vector<TreeNode*>q;
         q.push_back(root);
         int ans = 1;
 
         while (!q.empty())
         {
             int len = q.size();
-            ans = max(ans, q.back()->val - q.front()->val + 1);
+            ans = max(ans, q.back()->val - q[0]->val + 1);            
 
-            int base = q.front()->val;
+            vector<long long>vals;
+            vector<TreeNode*>p;
 
-            while (len--)
-            {            
-                TreeNode* node = q.front();
-                q.pop_front();
-                
+            for (int i=0; i<len; i++)
+            {
+                TreeNode* node = q[i];
                 if (node->left)
                 {
-                    node->left->val = (node->val-base)*2+1;
-                    q.push_back(node->left);
+                    vals.push_back((long long)node->val * 2 + 1);
+                    p.push_back(node->left);
                 }
                 if (node->right)
                 {
-                    node->right->val = (node->val-base)*2+2;
-                    q.push_back(node->right);
+                    vals.push_back((long long)node->val * 2 + 2);
+                    p.push_back(node->right);
                 }
             }
+            
+            if (!p.empty()) 
+            {
+                for (int i=0; i<p.size() ; i++)
+                {
+                    p[i]->val = (int)(vals[i] - vals[0]);
+                }
+            }
+            
+            q = p;
         }
         return ans;
     }
