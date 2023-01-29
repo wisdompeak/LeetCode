@@ -1387,6 +1387,7 @@
 [1714.Sum-Of-Special-Evenly-Spaced-Elements-In-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1714.Sum-Of-Special-Evenly-Spaced-Elements-In-Array) (H)  
 [1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions](https://github.com/wisdompeak/LeetCode/tree/master/Others/1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions) (M+)  
 [2013.Detect-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Others/2013.Detect-Squares) (M+)      
+[2552.Count-Increasing-Quadruplets](https://github.com/wisdompeak/LeetCode/tree/master/Others/2552.Count-Increasing-Quadruplets) (H-)     
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
