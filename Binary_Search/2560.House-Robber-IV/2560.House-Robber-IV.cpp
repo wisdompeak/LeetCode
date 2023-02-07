@@ -7,7 +7,7 @@ public:
         while (left < right)
         {
             int mid = left+(right-left)/2;
-            if (isOK(mid, nums, k))
+            if (atLeastK(mid, nums, k))
                 right = mid;
             else
                 left = mid+1;
@@ -15,7 +15,7 @@ public:
         return left;        
     }
     
-    bool isOK(int cap, vector<int>& nums, int k)
+    bool atLeastK(int cap, vector<int>& nums, int k)
     {
         int n = nums.size();
         dp[0][0] = 0;
