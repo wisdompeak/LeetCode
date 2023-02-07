@@ -73,8 +73,15 @@ with temp as
 select name, total
 from table, temp
 ```
-#### 临时表不能嵌套或者建立多于两个
-
+#### 多个临时表
+```sql
+with temp as
+(...),
+temp2 as
+(...)
+select *
+from temp2
+```
 ### 窗口函数
 #### 利用rank()求分区间的最大值
 在原表里插入rank存为新表。再在新表里选择rank=1的行。
