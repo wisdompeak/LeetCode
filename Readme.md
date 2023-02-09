@@ -1215,6 +1215,7 @@
 * ``Three-pass``   
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H-)  
 [334.Increasing-Triplet-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/334.Increasing-Triplet-Subsequence) (H-)    
+[689.Maximum-Sum-of-3-Non-Overlapping-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/689.Maximum-Sum-of-3-Non-Overlapping-Subarrays) (M+)   
 [907.Sum-of-Subarray-Minimums](https://github.com/wisdompeak/LeetCode/tree/master/Stack/907.Sum-of-Subarray-Minimums) (H)   
 [1525.Number-of-Good-Ways-to-Split-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1525.Number-of-Good-Ways-to-Split-a-String) (M)  
 [1638.Count-Substrings-That-Differ-by-One-Character](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1638.Count-Substrings-That-Differ-by-One-Character) (M+)  
@@ -1308,7 +1309,6 @@
 [311.Sparse-Matrix-Multiplication](https://github.com/wisdompeak/LeetCode/tree/master/Others/311.Sparse-Matrix-Multiplication) (M)  
 168.Excel-Sheet-Column-Title (H)    
 453.Minimum-Moves-to-Equal-Array-Elements (M)   
-689.Maximum-Sum-of-3-Non-Overlapping-Subarrays (M+)   
 [782.Transform-to-Chessboard](https://github.com/wisdompeak/LeetCode/tree/master/Others/782.Transform-to-Chessboard) (H+)    
 [466.Count-The-Repetitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/466.Count-The-Repetitions) (H)   
 [810.Chalkboard-XOR-Game](https://github.com/wisdompeak/LeetCode/tree/master/Others/810.Chalkboard-XOR-Game) (H)   
