@@ -26,7 +26,7 @@ dense_rank()：正常排名，允许并列。两个第一名的话，依然有�
 row_number(); 排名不允许有并列。     
 
 #### 优先操作累积函数，再操作窗口函数
-在下面的代码里，优先考虑group by Orders.product_id, customer_id，group之后每一行就可以定义count(Orders.product_id)，再按照该列对所有行进行rank
+在下面的代码里，优先考虑`group by Orders.product_id, customer_id`，group之后每一行就可以定义count(Orders.product_id)，再依据customer_id的分区分别进行rank
 ```sql
 select Orders.product_id, product_name, customer_id, 
     rank() over (partition by customer_id order by count(Orders.product_id) desc) as rnk
