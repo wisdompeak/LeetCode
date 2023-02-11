@@ -2,6 +2,9 @@
 
 #### year()
 取一个date数据类型的年份
+```sql
+where year(date)=1997
+```
 
 #### between
 ```sql
