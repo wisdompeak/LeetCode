@@ -1194,6 +1194,7 @@
 [2457.Minimum-Addition-to-Make-Integer-Beautiful](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2457.Minimum-Addition-to-Make-Integer-Beautiful) (M)     
 [2546.Apply-Bitwise-Operations-to-Make-Strings-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2546.Apply-Bitwise-Operations-to-Make-Strings-Equal) (M+)     
 [2551.Put-Marbles-in-Bags](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2551.Put-Marbles-in-Bags) (M+)     
+[2561.Rearranging-Fruits](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2561.Rearranging-Fruits) (H-)    
 * ``DI Sequence``   
 [942.DI-String-Match](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/942.DI-String-Match) (M)    
 [484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (M)    
