@@ -1,3 +1,7 @@
+#### the Nth element 
+order by XXX
+limit 1 offset 10
+
 #### greatest, least
 在同一行的多个列中选择最大/最小的一个
 ```sql
@@ -22,22 +26,6 @@ with temp as
     from Friendship
     where user1_id = 1
 )
-```
-
-#### 日期类型的操作
-##### between
-```sql
-purchase_date between Prices.start_date and Prices.end_date
-```
-##### left/right
-选择一个date数据“2020-19-12”的左七位数字作为month的标记。
-```sql
-left(trans_date, 7) as month
-```
-##### datediff
-计算两个时间之差（前者减后者）
-```sql
-join XXX on datediff(a.visited_on, b.visited_on) between 0 and 6
 ```
 
 #### Join
