@@ -18,6 +18,17 @@ where rnk = 1
 select *, count(activity) over (partition by username) as cnt
 ```
 
+#### first_value() / last_value() 取最小值/最大值
+```sql
+select first_value(device_id) over (partition by player_id order by event_date) as device_id
+```
+
+#### 配合distinct实现group by的效果
+```sql
+select distinct player_id, first_value(device_id) over (partition by player_id order by event_date) as device_id
+```
+这样本质上等同于`group by player_id`
+
 #### 利用sum()求分区间的累积前缀
 按天数累积
 ```sql
