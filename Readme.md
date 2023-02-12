@@ -123,7 +123,6 @@
 [2513.Minimize-the-Maximum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2513.Minimize-the-Maximum-of-Two-Arrays) (H)     
 [2528.Maximize-the-Minimum-Powered-City](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2528.Maximize-the-Minimum-Powered-City) (H-)      
 [2560.House-Robber-IV](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2560.House-Robber-IV) (H-)      
-[2564.Substring-XOR-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2564.Substring-XOR-Queries) (H-)    
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
