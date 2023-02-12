@@ -35,6 +35,7 @@ select distinct player_id, first_value(device_id) over (partition by player_id o
 SELECT gender, day, SUM(score_points) OVER(PARTITION BY gender ORDER BY day) AS total
 FROM Scores
 ```
+LC 534, 
 
 #### 各种rank函数
 rank()：正常排名，允许并列。两个第一名的话，则没有第二名。        
