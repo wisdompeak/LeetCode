@@ -1,22 +1,19 @@
-using LL = long long;
 class Solution {
 public:
     vector<vector<int>> substringXorQueries(string s, vector<vector<int>>& queries) 
     {
-        unordered_map<LL,vector<int>>Map;
+        unordered_map<int,vector<int>>Map;
         for (int i=0; i<queries.size(); i++)
-            Map[(LL)queries[i][1]^(LL)queries[i][0]].push_back(i);
+            Map[queries[i][1]^queries[i][0]].push_back(i);
         
-        
-        int m = queries.size();
-        vector<vector<int>>rets(m);
-        for (int i=0; i<m; i++)
+        vector<vector<int>>rets(queries.size());
+        for (int i=0; i<rets.size(); i++)
             rets[i] = {-1, -1};
         
         int n = s.size();
         for (int len=1; len<=31; len++)
         {
-            LL sum = 0;
+            long long sum = 0;
             for (int i=0; i<n; i++)
             {
                 sum = sum*2+(s[i]-'0');
@@ -35,6 +32,6 @@ public:
             }
         }
         
-        return rets;        
+        return rets;
     }
 };
