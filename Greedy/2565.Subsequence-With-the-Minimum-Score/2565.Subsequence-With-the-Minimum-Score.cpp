@@ -49,9 +49,6 @@ public:
         int m = s.size();
         int n = t.size();
         
-        if (len==n) return true;
-        if (len==0) return (left[n-1] < m) && (right[0]>=0);
-        
         if (right[len]>=0) return true;
         if (left[n-len-1] < m) return true;
         
