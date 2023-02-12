@@ -88,7 +88,6 @@
 [1889.Minimum-Space-Wasted-From-Packaging](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1889.Minimum-Space-Wasted-From-Packaging) (H-)  
 [1901.Find-a-Peak-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1901.Find-a-Peak-Element-II) (H)  
 [2563.Count-the-Number-of-Fair-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2563.Count-the-Number-of-Fair-Pairs) (M+)      
-[2564.Substring-XOR-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2564.Substring-XOR-Queries) (H-)    
 * ``Binary Processing``  
 [1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)  
 [1922.Count-Good-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1922.Count-Good-Numbers) (M)  
@@ -123,6 +122,7 @@
 [2513.Minimize-the-Maximum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2513.Minimize-the-Maximum-of-Two-Arrays) (H)     
 [2528.Maximize-the-Minimum-Powered-City](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2528.Maximize-the-Minimum-Powered-City) (H-)      
 [2560.House-Robber-IV](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2560.House-Robber-IV) (H-)      
+[2564.Substring-XOR-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2564.Substring-XOR-Queries) (H-)    
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
