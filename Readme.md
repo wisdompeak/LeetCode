@@ -1230,6 +1230,7 @@
 [2163.Minimum-Difference-in-Sums-After-Removal-of-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2163.Minimum-Difference-in-Sums-After-Removal-of-Elements) (M+)     
 [2167.Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2167.Minimum-Time-to-Remove-All-Cars-Containing-Illegal-Goods) (H-)    
 [2555.Maximize-Win-From-Two-Segments](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2555.Maximize-Win-From-Two-Segments) (M+)     
+[2565.Subsequence-With-the-Minimum-Score](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2565.Subsequence-With-the-Minimum-Score) (H-)     
 * ``State Machine``   
 [524.Longest-Word-in-Dictionary-through-Deleting](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/524.Longest-Word-in-Dictionary-through-Deleting) (M+)  
 [727.Minimum-Window-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/727.Minimum-Window-Subsequence) (H-)    
