@@ -1298,6 +1298,7 @@
 [2202.Maximize-the-Topmost-Element-After-K-Moves](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (H)     
 [2498.Frog-Jump-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2498.Frog-Jump-II) (H)     
 [2499.minimum-total-cost-to-make-arrays-unequal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2499.minimum-total-cost-to-make-arrays-unequal) (H)    
+[2567.Minimum-Score-by-Changing-Two-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2567.Minimum-Score-by-Changing-Two-Elements) (M)    
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
