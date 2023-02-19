@@ -25,6 +25,25 @@ class SegTreeNode
         }        
     }    
     
+    SegTreeNode(int a, int b, vector<int>& val)  // init for range [a,b] with the same-size array val
+    {                 
+        lazy_tag = 0;
+        lazy_val = 0;
+        start = a, end = b;
+        if (a==b)
+        {
+            info = val[a];
+            return;
+        }        
+        int mid = (a+b)/2;
+        if (left==NULL)
+        {
+            left = new SegTreeNode(a, mid, val);
+            right = new SegTreeNode(mid+1, b, val);            
+            info = left->info + right->info;  // check with your own logic
+        }        
+    } 
+    
     void pushDown()
     {
         if (tag==1 && left)
@@ -83,7 +102,7 @@ class SegTreeNode
 
 int main()
 {
-    SegTreeNode* root = new SegTreeNode(0, length-1, 0);
+    SegTreeNode* root = new SegTreeNode(0, length-1, initVals);  // Set the leaf nodes with initVals.
   
     for (auto& update: updates)
     {
