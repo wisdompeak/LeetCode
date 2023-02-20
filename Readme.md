@@ -1172,7 +1172,6 @@
 [1727.Largest-Submatrix-With-Rearrangements](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1727.Largest-Submatrix-With-Rearrangements) (M)  
 [1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1744.Can-You-Eat-Your-Favorite-Candy-on-Your-Favorite-Day) (M)  
 [1788.Maximize-the-Beauty-of-the-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1788.Maximize-the-Beauty-of-the-Garden) (M+)  
-[1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [1818.Minimum-Absolute-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1818.Minimum-Absolute-Sum-Difference) (M+)  
 [1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1850.Minimum-Adjacent-Swaps-to-Reach-the-Kth-Smallest-Number) (M+)  
 [1911.Maximum-Alternating-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1911.Maximum-Alternating-Subsequence-Sum) (M+)  
@@ -1299,7 +1298,8 @@
 [2202.Maximize-the-Topmost-Element-After-K-Moves](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2202.Maximize-the-Topmost-Element-After-K-Moves) (H)     
 [2498.Frog-Jump-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2498.Frog-Jump-II) (H)     
 [2499.minimum-total-cost-to-make-arrays-unequal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2499.minimum-total-cost-to-make-arrays-unequal) (H)    
-[2567.Minimum-Score-by-Changing-Two-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2567.Minimum-Score-by-Changing-Two-Elements) (M)    
+[2567.Minimum-Score-by-Changing-Two-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2567.Minimum-Score-by-Changing-Two-Elements) (M)   
+[1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [2568.Minimum-Impossible-OR](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2568.Minimum-Impossible-OR) (H-)     
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
