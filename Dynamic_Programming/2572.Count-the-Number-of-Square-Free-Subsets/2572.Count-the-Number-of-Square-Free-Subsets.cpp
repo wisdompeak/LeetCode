@@ -28,7 +28,7 @@ public:
                 if (i==n)
                     ret = (ret + dp[i][state]) % M;
             }
-        return ret-1;        
+        return (ret+M-1)%M;        
     }
     
     int helper(int x)
