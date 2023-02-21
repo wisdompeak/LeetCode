@@ -1,6 +1,6 @@
 ### 1987.Number-of-Unique-Good-Subsequences
 
-#### 解法1：
+#### 解法1（deprecated）
 此题和```LC940.Distinct-Subsequences-II```的联系非常紧密。我们可以先用LC940的方法计算所有distinct subsequence的总数。令dp[i]表示前i个字符的前缀里有多少个不同的子序列（包括有先导零的子序列以及空子序列）。核心代码如下：
 ```cpp
 for (int i=1; i<=n; i++)
