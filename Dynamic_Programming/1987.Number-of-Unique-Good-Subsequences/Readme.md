@@ -1,6 +1,6 @@
 ### 1987.Number-of-Unique-Good-Subsequences
 
-#### 解法1（deprecated）
+#### 解法1 (deprecated)
 此题和```LC940.Distinct-Subsequences-II```的联系非常紧密。我们可以先用LC940的方法计算所有distinct subsequence的总数。令dp[i]表示前i个字符的前缀里有多少个不同的子序列（包括有先导零的子序列以及空子序列）。核心代码如下：
 ```cpp
 for (int i=1; i<=n; i++)
@@ -13,7 +13,7 @@ for (int i=1; i<=n; i++)
 
 这里给个直观的解释。首先，从i=m+1开始```+ dp[i-1]*2```这部分，意思是在前面已有的合法子序列的基础上，append s[i] or not，因此所对应的一定都是已经以1开头的子序列。其次```-dp[j-1]```这部分，去重的是形如```x x x s[i]```这样的字符串，其中```x x x```是前j-1个字符所能构建的distinct subsequence. 如果j-1<=m，那么这些dp[j-1]都预置为0，所以去重的部分也不会包括以0开头的子序列。综上所述，每一步所计算的dp[i]都表达的是以1开头的子序列。
 
-#### 解法2：
+#### 解法2 (preferred)
 此题有非常简洁的DP解法。令zero表示截止目前以0结尾的unique子序列的数目，令one表示截止目前以1结尾的unique子序列的数目。那么
 ```cpp
 if (s[i]=='0')
