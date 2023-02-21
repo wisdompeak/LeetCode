@@ -1,5 +1,7 @@
 ### 940.Distinct-Subsequences-II
 
+#### 解法1：(deprecated)
+
 此题是字符串序列的一道经典题。如果第一次做的话，可能会觉得有难度。
 
 尝试构造状态dp[i]，表示截止第i个字符为止，我们能够创建的distinct子序列有多少．对于这个dp[i]的定义，我们并不要求s[i]必须是子序列的一部分。
@@ -34,7 +36,7 @@ XXa   (8)
 
 最终的输出是dp[n]。但是这个数字包含了“空字串”，所以答案需要再减去1.
 
-#### 补充
+##### 补充
 有一个听众问我，为什么去重的操作里，只需要减去dp[j-1]（j是上一个满足S[j]==S[i]的字符的index），而不减去其他的dp[k-1]（k是在j更早之前的某些字符，也满足S[k]==S[i])。这个问题很深刻。
 
 我举个例子：...XXX... (a1) ...YYY... (a2) ...ZZZ... (a3), 其中a1,a2,a3都代表相同的字符a，他们对应的index分别是k,j,i. XXX/YYY/ZZZ表示在各自区间内取的某个subsequence.
@@ -50,6 +52,23 @@ XXX(a1)
 XXX(a3)
 ```
 这是因为```XXX(a1)```本质是和```XXXYYY(a2)```重合的！就最终的subsequence的样子而言，前者就是后者的一部分。我们计算dp[i]时，减去的dp[j-1]，去掉了形如```XXXYYY(a2)```的重复，其实也就已经去掉了形如```XXX(a1)```的重复。所以我们不需要考虑其他在j之前的任何S[k]==S[i]的case。
+
+#### 解法2：(preferred)
+此题和`1987.Number-of-Unique-Good-Subsequences`几乎一样。
+
+我们令dp[c]表示截止到目前，以字母c结尾的unique subsequence的数目。
+
+核心的代码是：
+```cpp
+    for (int i=0; i<n; i++)
+    {       
+        char c = s[i];
+        dp[c] = sum(dp) + 1;
+    }
+```
+从字面上看，计算得到的dp[c]是以s[i]为结尾的unqiue subsequence，看上去和我们对于dp的定义并不一致。但事实上，“以字母c结尾的unique subsequence的数目”，必然等同于“以s[i]为结尾的unique subsequence的数目”。前者的任意一个序列都可以把最终的c安排在s[i]，而后者任意一个序列也必然是属于前者。故两者是一一对应关系。
+
+最终的答案就是`sum{dp[c]}, over c='a','b',...`
 
 
 [Leetcode Link](https://leetcode.com/problems/distinct-subsequences-ii)
