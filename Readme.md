@@ -1303,6 +1303,7 @@
 [1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [2568.Minimum-Impossible-OR](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2568.Minimum-Impossible-OR) (H-)     
 [2571.Minimum-Operations-to-Reduce-an-Integer-to-0](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2571.Minimum-Operations-to-Reduce-an-Integer-to-0) (H-)      
+[2573.Find-the-String-with-LCP](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2573.Find-the-String-with-LCP) (H-)    
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
