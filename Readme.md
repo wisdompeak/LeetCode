@@ -579,6 +579,7 @@
 [2093.Minimum-Cost-to-Reach-City-With-Discounts](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)      
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)     
 [2473.Minimum-Cost-to-Buy-Apples](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2473.Minimum-Cost-to-Buy-Apples) (M)      
+[2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
 * ``Dijkstra (for Bipatite Graph)``   
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
