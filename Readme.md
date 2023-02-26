@@ -1305,6 +1305,7 @@
 [2568.Minimum-Impossible-OR](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2568.Minimum-Impossible-OR) (H-)     
 [2571.Minimum-Operations-to-Reduce-an-Integer-to-0](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2571.Minimum-Operations-to-Reduce-an-Integer-to-0) (H-)      
 [2573.Find-the-String-with-LCP](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2573.Find-the-String-with-LCP) (H-)    
+[2576.Find-the-Maximum-Number-of-Marked-Indices](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2576.Find-the-Maximum-Number-of-Marked-Indices) (H-)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
