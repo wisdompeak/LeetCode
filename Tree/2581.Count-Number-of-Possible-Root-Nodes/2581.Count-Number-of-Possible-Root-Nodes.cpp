@@ -3,8 +3,7 @@ class Solution {
     unordered_set<int>guess[100005];
     int ret = 0;
     int k;
-    int along[100005];
-    int against[100005];
+    int count[100005];
 public:
     int rootCount(vector<vector<int>>& edges, vector<vector<int>>& guesses, int k) 
     {
@@ -21,26 +20,22 @@ public:
         
         dfs(0, -1);
         
-        dfs2(0, -1, along[0]);
+        dfs2(0, -1, count[0]);
         
         return ret;
     }
     
     void dfs(int cur, int parent)
     {
-        int count = 0;
         for (int nxt: next[cur])
         {
             if (nxt==parent) continue;
             
             if (guess[cur].find(nxt)!=guess[cur].end())
-                along[cur] += 1;
-            if (guess[nxt].find(cur)!=guess[nxt].end())
-                against[cur] += 1;
+                count[cur] += 1;
             
             dfs(nxt, cur);
-            along[cur] += along[nxt];
-            against[cur] += against[nxt];
+            count[cur] += count[nxt];
         }
     }
     
