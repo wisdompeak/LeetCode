@@ -1289,6 +1289,7 @@
 [1751.Maximum-Number-of-Events-That-Can-Be-Attended-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1751.Maximum-Number-of-Events-That-Can-Be-Attended-II) (H)  
 [2008.Maximum-Earnings-From-Taxi](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2008.Maximum-Earnings-From-Taxi) (M+)      
 [2054.Two-Best-Non-Overlapping-Events](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2054.Two-Best-Non-Overlapping-Events) (H-)     
+[2580.Count-Ways-to-Group-Overlapping-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2580.Count-Ways-to-Group-Overlapping-Ranges) (M)    
 * ``Constructive Problems``   
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 [667.Beautiful-Arrangement-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/667.Beautiful-Arrangement-II) (M)  
