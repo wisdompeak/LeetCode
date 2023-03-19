@@ -12,19 +12,18 @@ public:
                 
         for (int i=0; i<tasks.size(); i++)
         {
-            int a = tasks[i][0], b = tasks[i][1], d = tasks[i][2];
+            int start = tasks[i][0], end = tasks[i][1], duration = tasks[i][2];
 
-            AI3 temp = {a,0,0};
-            auto iter = lower_bound(arr.begin(), arr.end(), temp);
+            auto iter = lower_bound(arr.begin(), arr.end(), AI3({start,0,0}));
             iter = iter-1;
-            int already = 0;
-            if ((*iter)[1] < a)
-                already = arr.back()[2] - (*iter)[2];
+            int overlap = 0;
+            if ((*iter)[1] < start)
+                overlap = arr.back()[2] - (*iter)[2];
             else
-                already = arr.back()[2] - (*iter)[2] + abs((*iter)[1] - a + 1) ;
+                overlap = arr.back()[2] - (*iter)[2] + abs((*iter)[1] - start + 1) ;
                 
-            int diff = d - already;
-            int cur = b;
+            int diff = duration - overlap;
+            int cur = end;
             while (diff > 0)
             {                
                 if (abs(arr.back()[1] - cur) < diff)
@@ -35,7 +34,7 @@ public:
                 }
                 else
                 {
-                    arr.push_back({cur-diff+1, b, arr.back()[2]+b-(cur-diff)});
+                    arr.push_back({cur-diff+1, end, arr.back()[2]+end-(cur-diff)});
                     diff = 0;
                 }                
             }            
