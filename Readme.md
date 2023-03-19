@@ -180,6 +180,7 @@
 [2025.Maximum-Number-of-Ways-to-Partition-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2025.Maximum-Number-of-Ways-to-Partition-an-Array) (H)      
 [2488.Count-Subarrays-With-Median-K](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2488.Count-Subarrays-With-Median-K) (H-)      
 [2489.Number-of-Substrings-With-Fixed-Ratio](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2489.Number-of-Substrings-With-Fixed-Ratio) (H-)    
+[2588.Count-the-Number-of-Beautiful-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2588.Count-the-Number-of-Beautiful-Subarrays) (M+)      
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Heap/220.Contains-Duplicate-III) (M)  
