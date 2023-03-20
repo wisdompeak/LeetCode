@@ -1359,6 +1359,7 @@
 [2359.Find-Closest-Node-to-Given-Two-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2359.Find-Closest-Node-to-Given-Two-Nodes) (M)     
 [2380.Time-Needed-to-Rearrange-a-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Others/2380.Time-Needed-to-Rearrange-a-Binary-String) (H)      
 [2453.Destroy-Sequential-Targets](https://github.com/wisdompeak/LeetCode/tree/master/Others/2453.Destroy-Sequential-Targets) (M)    
+[2591.Distribute-Money-to-Maximum-Children](https://github.com/wisdompeak/LeetCode/tree/master/Others/2591.Distribute-Money-to-Maximum-Children) (M+)     
 * ``结论转移``   
 [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array) (M)     
 [2121.Intervals-Between-Identical-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/2121.Intervals-Between-Identical-Elements) (M)     
