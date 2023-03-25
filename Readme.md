@@ -682,6 +682,7 @@
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
+[2597.The-Number-of-Beautiful-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2597.The-Number-of-Beautiful-Subsets) (H)      
 [2320.Count-Number-of-Ways-to-Place-Houses](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2320.Count-Number-of-Ways-to-Place-Houses) (M+)      
 [1388.Pizza-With-3n-Slices](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1388.Pizza-With-3n-Slices) (H-)   
 [276.Paint-Fence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/276.Paint-Fence) (H-)    
