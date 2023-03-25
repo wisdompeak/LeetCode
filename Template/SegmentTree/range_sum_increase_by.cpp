@@ -30,8 +30,8 @@ class SegTreeNode
     
     SegTreeNode(int a, int b, vector<int>& val)  // init for range [a,b] with the same-size array val
     {                 
-        lazy_tag = 0;
-        lazy_val = 0;
+        tag = 0;
+        delta = 0;
         start = a, end = b;
         if (a==b)
         {
