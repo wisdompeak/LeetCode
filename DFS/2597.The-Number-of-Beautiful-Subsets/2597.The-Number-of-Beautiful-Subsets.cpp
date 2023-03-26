@@ -2,7 +2,6 @@ class Solution {
 public:
     int beautifulSubsets(vector<int>& nums, int k) 
     {
-        sort(nums.begin(), nums.end());
         return dfs(0, 0, nums, k) - 1;
     }
 
@@ -13,7 +12,7 @@ public:
         int flag = 1;
         for (int i=0; i<cur; i++)
         {
-            if ((state>>i)&1 && nums[i]+k==nums[cur])
+            if ((state>>i)&1 && (nums[i]+k==nums[cur] || nums[i]-k==nums[cur]))
             {
                 flag = 0;
                 break;
