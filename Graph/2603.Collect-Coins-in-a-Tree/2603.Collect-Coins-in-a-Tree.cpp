@@ -29,8 +29,7 @@ public:
             while (len--)
             {
                 int cur = q.front();                
-                q.pop();                
-                if (deleted[cur]) continue;
+                q.pop();                                
                 deleted[cur] = 1;
                 for (int nxt: next[cur])
                 {
