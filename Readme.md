@@ -125,6 +125,7 @@
 [2557.Maximum-Number-of-Integers-to-Choose-From-a-Range-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2557.Maximum-Number-of-Integers-to-Choose-From-a-Range-II) (H-)    
 [2560.House-Robber-IV](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2560.House-Robber-IV) (H-)      
 [2594.Minimum-Time-to-Repair-Cars](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2594.Minimum-Time-to-Repair-Cars) (M)    
+[2604.Minimum-Time-to-Eat-All-Grains](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2604.Minimum-Time-to-Eat-All-Grains) (H-)      
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
