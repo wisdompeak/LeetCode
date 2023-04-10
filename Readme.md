@@ -424,7 +424,6 @@
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
 [373.Find-K-Pairs-with-Smallest-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/373.Find-K-Pairs-with-Smallest-Sums) (H-)   
-[774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 [871.Minimum-Number-of-Refueling-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/871.Minimum-Number-of-Refueling-Stops) (H-)   
 [1057.Campus-Bikes](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1057.Campus-Bikes) (H-)  
 [1167.Minimum-Cost-to-Connect-Sticks](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1167.Minimum-Cost-to-Connect-Sticks) (H-)  
@@ -434,6 +433,10 @@
 [1792.Maximum-Average-Pass-Ratio](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1792.Maximum-Average-Pass-Ratio) (M+)  
 [2263.Make-Array-Non-decreasing-or-Non-increasing](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2263.Make-Array-Non-decreasing-or-Non-increasing) (H)      
 [2386.Find-the-K-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2386.Find-the-K-Sum-of-an-Array) (H+)    
+* ``反悔贪心``   
+[630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/630.Course-Schedule-III) (H)   
+[774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
+[2599.Make-the-Prefix-Sum-Non-negative](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2599.Make-the-Prefix-Sum-Non-negative) (H-)    
 * ``Dual PQ``   
 [1801.Number-of-Orders-in-the-Backlog](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1801.Number-of-Orders-in-the-Backlog) (M)  
 [1882.Process-Tasks-Using-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1882.Process-Tasks-Using-Servers) (H)  
@@ -443,7 +446,6 @@
 * ``Sort+PQ``   
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Priority_Queue/502.IPO/) （M+）   
-[630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/630.Course-Schedule-III) (H)   
 [857.Minimum-Cost-to-Hire-K-Workers](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/857.Minimum-Cost-to-Hire-K-Workers) (H)    
 [1353.Maximum-Number-of-Events-That-Can-Be-Attended](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1353.Maximum-Number-of-Events-That-Can-Be-Attended) (H-)  
 [1383.Maximum-Performance-of-a-Team](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1383.Maximum-Performance-of-a-Team) (M+)  
