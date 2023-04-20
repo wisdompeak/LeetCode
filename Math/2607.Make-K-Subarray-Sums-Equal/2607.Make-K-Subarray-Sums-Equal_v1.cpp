@@ -9,7 +9,6 @@ public:
         
         for (int i=0; i<k; i++)
         {
-            if (visited[i]==1) continue;
             vector<int>nums;
             int j = i;
             while (visited[j]==0)
