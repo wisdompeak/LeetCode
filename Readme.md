@@ -1050,6 +1050,7 @@
 [2508.Add-Edges-to-Make-Degrees-of-All-Nodes-Even](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2508.Add-Edges-to-Make-Degrees-of-All-Nodes-Even) (H-)      
 [2556.Disconnect-Path-in-a-Binary-Matrix-by-at-Most-One-Flip](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2556.Disconnect-Path-in-a-Binary-Matrix-by-at-Most-One-Flip) (H)      
 [2603.Collect-Coins-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2603.Collect-Coins-in-a-Tree) (H-)    
+[2608.Shortest-Cycle-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2608.Shortest-Cycle-in-a-Graph) (M+)      
 [2642.Design-Graph-With-Shortest-Path-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator) (M+)     
 * ``Hungarian Algorithm``    
 [1820.Maximum-Number-of-Accepted-Invitations](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1820.Maximum-Number-of-Accepted-Invitations) (H)  
