@@ -22,11 +22,15 @@ public:
         int j = 0;
         for (int i=0; i<hens.size(); i++)
         {
-            int t = 0;
+            int t;
             if (grains[j]<hens[i])
             {
                 if (grains[j]<hens[i]-time) return false;
                 t = (hens[i]-grains[j]);
+            }
+            else
+            {
+                t = 0;
             }
 
             while (j<grains.size() && grains[j]<=hens[i])
