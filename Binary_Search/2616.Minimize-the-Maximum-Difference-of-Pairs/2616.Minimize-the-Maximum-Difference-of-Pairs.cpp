@@ -20,17 +20,12 @@ public:
         int n = nums.size();
         int count = 0;
         for (int i=0; i<n; i++)
-        {
-            int j = i;
-            while (j<n && nums[j]-nums[i]<=diff)
-                j++;
-            count += (j-i)/2;
-            if (j-i==1)
-                i = j-1;
-            else if ((j-i)%2==0)
-                i = j-1;
-            else
-                i = j-2;
+        {            
+            if (i+1<n && nums[i+1]-nums[i]<=diff)
+            {
+                count++;
+                i = i+1;
+            }            
         }
         return (count >= p);
     }
