@@ -5,7 +5,7 @@ public:
         multiset<int>Set1;
         multiset<int>Set2;
         vector<int>rets;
-        int count_neg = 0;
+
         for (int i=0; i<nums.size(); i++)
         {
             if (Set1.size() < x)
@@ -18,24 +18,24 @@ public:
                     Set1.erase(Set1.find(v));
                     Set2.insert(v);
                     Set1.insert(nums[i]);
-                } 
-                else 
+                }
+                else
                 {
                     Set2.insert(nums[i]);
                 }
             }
-            
-            if (i>=k-1)
+
+            if (Set1.size() + Set2.size() == k)
             {
                 int v = *Set1.rbegin();
                 rets.push_back(min(v, 0));
-            }            
-            
+            }
+
             if (i>=k-1)
             {
                 int v = nums[i-k+1];
                 auto iter = Set2.find(v);
-                if (iter!=Set2.end()) 
+                if (iter!=Set2.end())
                     Set2.erase(iter);
                 else
                 {
@@ -44,12 +44,11 @@ public:
                     {
                         Set1.insert(*Set2.begin());
                         Set2.erase(Set2.begin());
-                    }
+                    }                    
                 }
-            }            
+            }
         }
-        
+
         return rets;
-        
     }
 };
