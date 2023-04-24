@@ -207,12 +207,12 @@
 [1912.Design-Movie-Rental-System](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1912.Design-Movie-Rental-System) (M+)  
 2034.Stock Price Fluctuation (M)      
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
-[2382.Maximum-Segment-Sum-After-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2382.Maximum-Segment-Sum-After-Removals) (M+)    
 [2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2653.Sliding-Subarray-Beauty) (M+)     
 * ``Maintain intervals``    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 [2213.Longest-Substring-of-One-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2213.Longest-Substring-of-One-Repeating-Character) (H)    
 [2276.Count-Integers-in-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2276.Count-Integers-in-Intervals) (H-)      
+[2382.Maximum-Segment-Sum-After-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2382.Maximum-Segment-Sum-After-Removals) (M+)    
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
