@@ -208,6 +208,7 @@
 2034.Stock Price Fluctuation (M)      
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
 [2382.Maximum-Segment-Sum-After-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2382.Maximum-Segment-Sum-After-Removals) (M+)    
+[2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2653.Sliding-Subarray-Beauty) (M+)     
 * ``Maintain intervals``    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 [2213.Longest-Substring-of-One-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2213.Longest-Substring-of-One-Repeating-Character) (H)    
@@ -444,7 +445,8 @@
 [1882.Process-Tasks-Using-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1882.Process-Tasks-Using-Servers) (H)  
 [1942.The-Number-of-the-Smallest-Unoccupied-Chair](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1942.The-Number-of-the-Smallest-Unoccupied-Chair) (M+)  
 [2102.Sequentially-Ordinal-Rank-Tracker](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2102.Sequentially-Ordinal-Rank-Tracker) (H-)    
-[2402.Meeting-Rooms-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2402.Meeting-Rooms-III) (M+)    
+[2402.Meeting-Rooms-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2402.Meeting-Rooms-III) (M+)   
+[2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2653.Sliding-Subarray-Beauty) (M+)     
 * ``Sort+PQ``   
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
 [502.IPO](https://github.com/wisdompeak/LeetCode/blob/master/Priority_Queue/502.IPO/) （M+）   
