@@ -1045,7 +1045,6 @@
 [753.Cracking-the-Safe](https://github.com/wisdompeak/LeetCode/tree/master/Hash/753.Cracking-the-Safe) (H)   
 [1059.All-Paths-from-Source-Lead-to-Destination](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1059.All-Paths-from-Source-Lead-to-Destination) (H)  
 [1192.Critical-Connections-in-a-Network](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1192.Critical-Connections-in-a-Network) (H)   
-1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance (TBD)    
 1361.Validate-Binary-Tree-Nodes (TBD)   
 [1719.Number-Of-Ways-To-Reconstruct-A-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1719.Number-Of-Ways-To-Reconstruct-A-Tree) (H+)  
 [1761.Minimum-Degree-of-a-Connected-Trio-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1761.Minimum-Degree-of-a-Connected-Trio-in-a-Graph) (M+)  
@@ -1055,6 +1054,8 @@
 [2556.Disconnect-Path-in-a-Binary-Matrix-by-at-Most-One-Flip](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2556.Disconnect-Path-in-a-Binary-Matrix-by-at-Most-One-Flip) (H)      
 [2603.Collect-Coins-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2603.Collect-Coins-in-a-Tree) (H-)    
 [2608.Shortest-Cycle-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2608.Shortest-Cycle-in-a-Graph) (M+)      
+* ``Floyd``  
+[1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance) (M)      
 [2642.Design-Graph-With-Shortest-Path-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator) (M+)     
 * ``Hungarian Algorithm``    
 [1820.Maximum-Number-of-Accepted-Invitations](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1820.Maximum-Number-of-Accepted-Invitations) (H)  
