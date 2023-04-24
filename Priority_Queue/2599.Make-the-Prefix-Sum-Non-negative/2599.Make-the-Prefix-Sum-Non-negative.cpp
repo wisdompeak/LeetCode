@@ -1,33 +1,30 @@
-using LL = long long;
 class Solution {
 public:
     int makePrefSumNonNegative(vector<int>& nums) 
     {
+        priority_queue<int>pq;
+        long long sum = 0;
         int ret = 0;
-        LL sum = 0;
-        priority_queue<LL>pq;
+        
         for (int x: nums)
         {
-            if (x>=0) 
+            if (x >= 0)
+                sum += x;
+            else if (sum + x >=0)
             {
-                sum +=x;
-            }
-            else if (sum + x >= 0)
-            {
-                sum +=x;
+                sum += x;
                 pq.push(abs(x));
             }
-            else 
+            else
             {
-                if (!pq.empty() && pq.top() > abs(x))
-                {
-                    sum = sum + x + pq.top() ;
-                    pq.pop();
-                    pq.push(abs(x));
-                } 
+                pq.push(abs(x));
+                sum += x;
+                int y = pq.top();
+                pq.pop();
+                sum += y;
                 ret++;
             }
         }
-        return ret;
+        return ret;        
     }
 };
