@@ -11,28 +11,22 @@ public:
             if (x>=0) 
             {
                 sum +=x;
-                continue;
             }
-
-            if (sum+x < 0)
-            {
-                if (!pq.empty() && pq.top() > abs(x))
-                {
-                    sum = sum + pq.top() + x;
-                    pq.pop();
-                    pq.push(abs(x));
-                    ret++;
-                } 
-                else 
-                {
-                    ret++;
-                }
-            }
-            else
+            else if (sum + x >= 0)
             {
                 sum +=x;
                 pq.push(abs(x));
-            }                
+            }
+            else 
+            {
+                if (!pq.empty() && pq.top() > abs(x))
+                {
+                    sum = sum + x + pq.top() ;
+                    pq.pop();
+                    pq.push(abs(x));
+                } 
+                ret++;
+            }
         }
         return ret;
     }
