@@ -6,11 +6,16 @@ public:
     {
         map<LL, LL>dist;
 
-        specialRoads.push_back({start[0], start[1], target[0], target[1], abs(start[0]-target[0])+abs(start[1]-target[1])});
-
         priority_queue<PLL, vector<PLL>, greater<>>pq;
         pq.push({0, encode(start[0], start[1])});
+        for (auto& road: specialRoads)
+        {            
+            int x2 = road[2], y2 = road[3];                        
+            LL pos2 = encode(x2,y2);
+            pq.push({abs(start[0]-x2)+abs(start[1]-y2), pos2});
+        }
 
+        LL ret = INT_MAX;
         while (!pq.empty())
         {
             auto [len, pos] = pq.top();
@@ -19,7 +24,7 @@ public:
             dist[pos] = len;
             auto [x,y] = decode(pos);
 
-            if (x==target[0] && y==target[1]) return len;
+            ret = min(ret, len+abs(x-target[0])+abs(y-target[1]));
 
             for (auto& road: specialRoads)
             {
@@ -28,17 +33,13 @@ public:
                 int cost = road[4];
                 LL pos1 = encode(x1,y1);
                 LL pos2 = encode(x2,y2);
-              
+
                 if (dist.find(pos2)==dist.end())
-                {
-                    int d1 = abs(x-x1)+abs(y-y1) + cost;
-                    int d2 = abs(x-x2)+abs(y-y2);
-                    pq.push({len+min(d1,d2), pos2});
-                }
+                    pq.push({len + abs(x-x1)+abs(y-y1) + cost, pos2});
             }
         }
 
-        return -1;
+        return ret;
     }
 
     LL encode(LL x, LL y) {return (x<<32) + y;}
