@@ -33,8 +33,8 @@ public:
                     } else { // a up-side-down triangle cell. Its up neighbour must have not been filled.                        
                         if (val[i][j+delta]==0) {
                             // Noramlly, the next row neighbour must have not been filled. 
-                            // The exception is the case when (i,j) is already the edge, or the next row neighbour is filled by the previous row.
-                            // favor upper cell, as its next neighbour must be filled in the next round.
+                            // The exception is the case when the next row neighbour is filled by the previous row.
+                            // Favor upper cell, as its next neighbour must be filled in the next round.
                             val[i-1][j-1] = 1;
                             rets.push_back({i-1, j-1});
                         }
