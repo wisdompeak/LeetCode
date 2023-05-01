@@ -24,15 +24,17 @@ public:
             while (j != end) 
             {
                 if (val[i][j]==0){
-                    if (j%2 == 1) {  // a normal triangle cell. Its bottom neighbour must have been filled.                        
-                        if (val[i][j-1] || val[i][j+1]) {
-                        } else {  // favor next row cell, as its previous row neighbour must be filled in the next round.
+                    if (j%2 == 1) {  // a normal triangle cell. Its bottom neighbour must have been filled.
+                        if (val[i][j-delta]==0) {
+                            // Noramlly, the previous row neighbour must have been filled. The exception is the case when (i,j) is already the edge.
                             val[i][j+delta] = 1;
                             rets.push_back({i, j+delta});
                         }
                     } else { // a up-side-down triangle cell. Its up neighbour must have not been filled.                        
-                        if (val[i][j-1] && val[i][j + 1]) {
-                        } else { // favor upper cell, as its next neighbour must be filled in the next round.
+                        if (val[i][j+delta]==0) {
+                            // Noramlly, the next row neighbour must have not been filled. 
+                            // The exception is the case when (i,j) is already the edge, or the next row neighbour is filled by the previous row.
+                            // favor upper cell, as its next neighbour must be filled in the next round.
                             val[i-1][j-1] = 1;
                             rets.push_back({i-1, j-1});
                         }
