@@ -2,24 +2,25 @@ class Solution {
 public:
     vector<int> lexicalOrder(int n) 
     {
-        int current=1;
-        vector<int>results(n);
+        vector<int>rets = {1};
+        int i=1;
         
-        for (int i=0; i<n; i++)
+        while (rets.size()<n)
         {
-            results[i]=current;
-            
-            if (current*10<=n)
-                current=current*10;
-            else
+            if (i*10<=n)
             {
-                if (current+1>n) 
-                    current=current/10;
-                current++;
-                while (current % 10==0)
-                    current/=10;
+                i=i*10;
             }
-        }
-        return results;
+            else 
+            {
+                while (i+1>n || (i%10==9))                
+                    i = i/10;                    
+                i+=1;
+            }         
+            
+            rets.push_back(i);
+         }
+        
+        return rets;
     }
 };
