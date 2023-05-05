@@ -1011,7 +1011,6 @@
 [390.Elimination-Game](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/390.Elimination-Game) (H)    
 [395.Longest-Substring-with-At-Least-K-Repeating-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/395.Longest-Substring-with-At-Least-K-Repeating-Characters) (H)    
 [397.Integer-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/397.Integer-Replacement) (M+)    
-[440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/440.K-th-Smallest-in-Lexicographical-Order) (H-)    
 [761.Special-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/761.Special-Binary-String) (H)   
 779.K-th-Symbol-in-Grammar (M)    
 [780.Reaching-Points](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/780.Reaching-Points) (H-)    
@@ -1451,6 +1450,7 @@
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 * ``数位计算``   
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
+[440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/440.K-th-Smallest-in-Lexicographical-Order) (H-)    
 [1067.Digit-Count-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Others/1067.Digit-Count-in-Range) (H)   
 [357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
 [2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
