@@ -1040,7 +1040,7 @@
 [440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Others/440.K-th-Smallest-in-Lexicographical-Order) (H-)    
 [1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n) (H-)  
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
-1545. Find Kth Bit in Nth Binary String (TBD)  
+1545.Find-Kth-Bit-in-Nth-Binary-String (TBD)  
 [2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
 
 #### [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/)
