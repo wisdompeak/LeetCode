@@ -1022,7 +1022,6 @@
 [1088.Confusing-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1088.Confusing-Number-II) (H)   
 [1199.Minimum-Time-to-Build-Blocks](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1199.Minimum-Time-to-Build-Blocks) (H+)  
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
-[1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n) (H-)  
 1545. Find Kth Bit in Nth Binary String (TBD)  
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 [1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero) (H)  
@@ -1451,6 +1450,7 @@
 * ``数位计算``   
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
 [440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Others/440.K-th-Smallest-in-Lexicographical-Order) (H-)    
+[1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n) (H-)  
 [1067.Digit-Count-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Others/1067.Digit-Count-in-Range) (H)   
 [357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
 [2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
