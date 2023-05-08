@@ -1454,8 +1454,6 @@
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 * ``数位计算``   
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
-[440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Others/440.K-th-Smallest-in-Lexicographical-Order) (H-)    
-[1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n) (H-)  
 [1067.Digit-Count-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Others/1067.Digit-Count-in-Range) (H)   
 [357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
