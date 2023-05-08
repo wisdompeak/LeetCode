@@ -25,7 +25,7 @@ int FindKthNumberBeginWith(prefix,k)
 }
 ```
 
-此外我们需要辅助函数`TotalNumbersBeginWith(prefix, n)`，计算所有以prefix为前缀的、不大于n的元素的数量。对此，我们只需要枚举前缀后面还需要加几位即可。加一位，就有0~9这些可能；加两位，就有00~99这些可能；直至位数加长到m，发现`prefix+999...999`超过了n，那么就不再尝试加长了。
+此外我们需要辅助函数`TotalNumbersBeginWith(prefix, n)`，计算所有以prefix为前缀的、不大于n的元素的数量。对此，我们只需要枚举前缀后面还需要加几位即可。加一位，就有`0~9`这些可能；加两位，就有`00~99`这些可能；直至位数加长到m，发现`prefix+999...999`超过了n，那么就不再尝试加长了。
 
 
 [Leetcode Link](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order)
