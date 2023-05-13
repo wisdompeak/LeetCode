@@ -1398,6 +1398,7 @@
 [2281.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/2281.Sum-of-Total-Strength-of-Wizards) (H)    
 [2302.Count-Subarrays-With-Score-Less-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Others/2302.Count-Subarrays-With-Score-Less-Than-K) (H-)      
 [2444.Count-Subarrays-With-Fixed-Bounds](https://github.com/wisdompeak/LeetCode/tree/master/Others/2444.Count-Subarrays-With-Fixed-Bounds) (M+)    
+[2681.Power-of-Heroes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2681.Power-of-Heroes) (H-)    
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
@@ -1439,7 +1440,6 @@
 [1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions](https://github.com/wisdompeak/LeetCode/tree/master/Others/1737.Change-Minimum-Characters-to-Satisfy-One-of-Three-Conditions) (M+)  
 [2013.Detect-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Others/2013.Detect-Squares) (M+)      
 [2552.Count-Increasing-Quadruplets](https://github.com/wisdompeak/LeetCode/tree/master/Others/2552.Count-Increasing-Quadruplets) (H-)     
-[2681.Power-of-Heroes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2681.Power-of-Heroes) (H-)    
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
