@@ -1157,7 +1157,7 @@
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 [031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
-[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (M)   
+[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/556.Next-Greater-Element-III) (M)   
 [055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (M)    
 [134.Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/134.Gas-Station) (H)    
