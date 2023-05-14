@@ -1156,8 +1156,6 @@
 [2654.Minimum-Number-of-Operations-to-Make-All-Array-Elements-Equal-to-1](https://github.com/wisdompeak/LeetCode/tree/master/Math/2654.Minimum-Number-of-Operations-to-Make-All-Array-Elements-Equal-to-1) (M)    
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
-[031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
-[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/556.Next-Greater-Element-III) (M)   
 [055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (M)    
 [134.Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/134.Gas-Station) (H)    
@@ -1228,6 +1226,10 @@
 [2551.Put-Marbles-in-Bags](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2551.Put-Marbles-in-Bags) (M+)     
 [2561.Rearranging-Fruits](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2561.Rearranging-Fruits) (H-)    
 [2598.Smallest-Missing-Non-negative-Integer-After-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2598.Smallest-Missing-Non-negative-Integer-After-Operations) (M)     
+* ``Lexicographical Sequence``  
+[031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
+[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/556.Next-Greater-Element-III) (M)   
+[2663.Lexicographically-Smallest-Beautiful-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2663.Lexicographically-Smallest-Beautiful-String) (H-)     
 * ``DI Sequence``   
 [942.DI-String-Match](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/942.DI-String-Match) (M)    
 [484.Find-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/484.Find-Permutation) (M)    
