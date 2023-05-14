@@ -918,7 +918,6 @@
 [388.Longest-Absolute-File-Path](https://github.com/wisdompeak/LeetCode/tree/master/String/388.Longest-Absolute-File-Path) (M+)    
 [418.Sentence-Screen-Fitting](https://github.com/wisdompeak/LeetCode/tree/master/String/418.Sentence-Screen-Fitting) (M+)   
 [423.Reconstruct-Original-Digits-from-English](https://github.com/wisdompeak/LeetCode/tree/master/Others/423.Reconstruct-Original-Digits-from-English) (H-)   
-[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (H-)   
 616.Add-Bold-Tag-in-String (M)    
 [467.Unique-Substrings-in-Wraparound-String](https://github.com/wisdompeak/LeetCode/tree/master/String/467.Unique-Substrings-in-Wraparound-String) (H-)   
 [564.Find-the-Closest-Palindrome](https://github.com/wisdompeak/LeetCode/tree/master/String/564.Find-the-Closest-Palindrome) (H)   
@@ -1157,7 +1156,8 @@
 [2654.Minimum-Number-of-Operations-to-Make-All-Array-Elements-Equal-to-1](https://github.com/wisdompeak/LeetCode/tree/master/Math/2654.Minimum-Number-of-Operations-to-Make-All-Array-Elements-Equal-to-1) (M)    
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
-[031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M+)     
+[031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
+[556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/String/556.Next-Greater-Element-III) (M)   
 [055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
 [045.Jump-Game-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/045.Jump-Game-II) (M)    
 [134.Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/134.Gas-Station) (H)    
