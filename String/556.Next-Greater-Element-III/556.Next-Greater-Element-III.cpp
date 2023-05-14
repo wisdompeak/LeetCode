@@ -2,42 +2,33 @@ class Solution {
 public:
     int nextGreaterElement(int n) 
     {
-        if (n==0) return -1;
-        
-        vector<int>num;
-        while (n>0)
+        vector<int>digits;        
+        while(n>0)
         {
-            num.push_back(n%10);
+            digits.push_back(n%10);
             n=n/10;
         }
+        int m = digits.size();
+
+        reverse(digits.begin(), digits.end());
+
+        int i = m-1;
+        while (i>=1 && digits[i-1] >= digits[i])
+            i--;
+        if (i==0) return -1;
+
+        i--;
+        int j = m-1;
+        while (digits[j] <= digits[i])
+            j--;
+        swap(digits[i], digits[j]);
+        sort(digits.begin()+i+1, digits.end());
         
-        vector<int>p;
-        p.push_back(num[0]);
-        int i=1;
-        while (i<num.size() && num[i]>=num[i-1])
-        {
-            p.push_back(num[i]);
-            i++;
-        }
-        if (i==num.size()) return -1; // all the digits are descending
+        long long ret=0;
+        for (int i=0; i<m; i++)
+            ret = ret*10+digits[i];
         
-        int j=0;
-        while (p[j]<=num[i]) j++;
-        swap(num[i],p[j]);
-        
-        sort(p.begin(),p.end());
-        reverse(p.begin(),p.end());
-        
-        for (int k=0; k<p.size(); k++)
-            num[k]=p[k];
-        
-        long long result=0;
-        for (int i=num.size()-1; i>=0; i--)        
-            result = result*10+num[i];
-        
-        if (result>INT_MAX) 
-            return -1;
-        else
-            return result;                
+        if (ret>INT_MAX) return -1;
+        else return ret;        
     }
 };
