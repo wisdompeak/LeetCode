@@ -321,6 +321,7 @@
 [1649.Create-Sorted-Array-through-Instructions](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/1649.Create-Sorted-Array-through-Instructions) (H)  
 [2031.Count-Subarrays-With-More-Ones-Than-Zeros](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2031.Count-Subarrays-With-More-Ones-Than-Zeros) (H)    
 [2179.Count-Good-Triplets-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2179.Count-Good-Triplets-in-an-Array) (H)      
+[2659.Make-Array-Empty](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2659.Make-Array-Empty) (H)      
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (M+)   
