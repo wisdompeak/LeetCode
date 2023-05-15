@@ -41,7 +41,7 @@ class BIT{
 };
 
 int main()
-    {
+{
     int N = 100000;
     BIT bit;
     bit.init(N);
@@ -50,6 +50,6 @@ int main()
 
     for (int i=1; i<nums.size(); i++) {
         bit.updateDelta(i, nums[i]);
-        cout << bit.sumRange(1,i);
+        // cout << bit.sumRange(1,i);
     }
 }
