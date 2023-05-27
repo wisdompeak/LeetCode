@@ -997,6 +997,7 @@
 [952.Largest-Component-Size-by-Common-Factor](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/952.Largest-Component-Size-by-Common-Factor) (H)   
 [1627.Graph-Connectivity-With-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1627.Graph-Connectivity-With-Threshold) (M+)  
 [1998.GCD-Sort-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1998.GCD-Sort-of-an-Array) (H-)      
+[2709.Greatest-Common-Divisor-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/2709.Greatest-Common-Divisor-Traversal) (H-)      
 * ``MST``    
 [1135.Connecting-Cities-With-Minimum-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1135.Connecting-Cities-With-Minimum-Cost)　(M+)   
 [1168.Optimize-Water-Distribution-in-a-Village](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1168.Optimize-Water-Distribution-in-a-Village) (H-)   
