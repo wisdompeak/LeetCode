@@ -689,6 +689,7 @@
 [2338.Count-the-Number-of-Ideal-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2338.Count-the-Number-of-Ideal-Arrays) (H)      
 [2431.Maximize-Total-Tastiness-of-Purchased-Fruits](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2431.Maximize-Total-Tastiness-of-Purchased-Fruits) (M+)     
 [2484.Count-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2484.Count-Palindromic-Subsequences) (H-)      
+[2713.Maximum-Strictly-Inreasing-Cells-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2713.Maximum-Strictly-Inreasing-Cells-in-a-Matrix) (H-)     
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
