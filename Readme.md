@@ -1062,6 +1062,7 @@
 [2556.Disconnect-Path-in-a-Binary-Matrix-by-at-Most-One-Flip](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2556.Disconnect-Path-in-a-Binary-Matrix-by-at-Most-One-Flip) (H)      
 [2603.Collect-Coins-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2603.Collect-Coins-in-a-Tree) (H-)    
 [2608.Shortest-Cycle-in-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2608.Shortest-Cycle-in-a-Graph) (M+)      
+[2699.Modify-Graph-Edge-Weights](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2699.Modify-Graph-Edge-Weights) (H)    
 * ``Floyd``  
 [1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance) (M)      
 [2642.Design-Graph-With-Shortest-Path-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator) (M+)     
