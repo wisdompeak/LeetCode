@@ -20,7 +20,8 @@ public:
         int count = 0;
         for (int i=0; i<nums.size(); i++)
         {
-            count += ceil(fmax(0.0, nums[i] - k*1.0*y)*1.0/(x-y));
+            if (nums[i] < k*1.0*y) continue;
+            count += ceil((nums[i] - k*1.0*y)/(x-y));
             if (count > k) return false;
         }
         return true;
