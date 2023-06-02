@@ -591,6 +591,7 @@
 [1810.Minimum-Path-Cost-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1810.Minimum-Path-Cost-in-a-Hidden-Grid) (M+)  
 [1976.Number-of-Ways-to-Arrive-at-Destination](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1976.Number-of-Ways-to-Arrive-at-Destination) (M+)    
 [2093.Minimum-Cost-to-Reach-City-With-Discounts](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2093.Minimum-Cost-to-Reach-City-With-Discounts) (H-)      
+[2714.Find-Shortest-Path-with-K-Hops](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2714.Find-Shortest-Path-with-K-Hops) (M+)    
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)     
 [2473.Minimum-Cost-to-Buy-Apples](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2473.Minimum-Cost-to-Buy-Apples) (M)      
 [2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
