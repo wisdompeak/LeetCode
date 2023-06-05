@@ -4,7 +4,7 @@ class Solution {
 public:
     int count(string num1, string num2, int min_sum, int max_sum) 
     {
-        LL ret = (ValidNumbersNoGreaterThan(num2, max_sum)-ValidNumbersNoGreaterThan(num2, min_sum-1)) - (ValidNumbersNoGreaterThan(num1, max_sum)-ValidNumbersNoGreaterThan(num1, min_sum-1));
+        LL ret = (CountNoGreaterThan(num2, max_sum)-CountNoGreaterThan(num2, min_sum-1)) - (CountNoGreaterThan(num1, max_sum)-CountNoGreaterThan(num1, min_sum-1));
         
         int digitSum = getDigitSum(num1);
         if (digitSum>=min_sum && digitSum<=max_sum) ret = (ret+1) % M;
@@ -19,16 +19,16 @@ public:
     }
     
     
-    LL ValidNumbersNoGreaterThan(string num, int max_sum)
+    LL CountNoGreaterThan(string num, int max_sum)
     {        
-        vector<vector<int>>memo(25, vector<int>(405, -1));        
-        return dfs(num, max_sum, 0, 0, memo, true);
+        vector<vector<vector<int>>>memo(2, vector<vector<int>>(25, vector<int>(405, -1)));        
+        return dfs(num, max_sum, 0, 0, true, memo);
     }
     
-    LL dfs(string num, int max_sum, int i, int sum, vector<vector<int>>&memo, int isSame)
+    LL dfs(string num, int max_sum, int i, int sum, int isSame, vector<vector<vector<int>>>&memo)
     {
         if (sum > max_sum) return 0;                         
-        if (!isSame && memo[i][sum]!=-1) return memo[i][sum];
+        if (memo[isSame][i][sum]!=-1) return memo[isSame][i][sum];
         if (i==num.size()) return 1; 
                            
         LL ret = 0;
@@ -36,7 +36,7 @@ public:
         {
             for (int k=0; k<=9; k++)
             {
-                ret += dfs(num, max_sum, i+1, sum+k, memo, false);
+                ret += dfs(num, max_sum, i+1, sum+k, false, memo);
                 ret %= M;
             }            
         }
@@ -44,14 +44,14 @@ public:
         {
             for (int k=0; k<num[i]-'0'; k++)
             {
-                ret += dfs(num, max_sum, i+1, sum+k, memo, false);
+                ret += dfs(num, max_sum, i+1, sum+k, false, memo);
                 ret %= M;
             }            
-            ret += dfs(num, max_sum, i+1, sum+(num[i]-'0'), memo, true);
+            ret += dfs(num, max_sum, i+1, sum+(num[i]-'0'), true, memo);
             ret %= M;
         }
         
-        if (!isSame) memo[i][sum] = ret;
+        memo[isSame][i][sum] = ret;
         return ret;
     }
     
