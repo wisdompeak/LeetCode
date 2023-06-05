@@ -1049,6 +1049,7 @@
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 1545.Find-Kth-Bit-in-Nth-Binary-String (TBD)  
 [2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
+[2719.Count-of-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2719.Count-of-Integers) (H)    
 
 #### [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/)
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
