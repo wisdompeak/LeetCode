@@ -209,6 +209,7 @@
 [1912.Design-Movie-Rental-System](https://github.com/wisdompeak/LeetCode/tree/master/Heap/1912.Design-Movie-Rental-System) (M+)  
 2034.Stock Price Fluctuation (M)      
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
+[2612.Minimum-Reverse-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2612.Minimum-Reverse-Operations) (H)      
 [2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2653.Sliding-Subarray-Beauty) (M+)     
 * ``Maintain intervals``    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
