@@ -1398,6 +1398,9 @@
 [2591.Distribute-Money-to-Maximum-Children](https://github.com/wisdompeak/LeetCode/tree/master/Others/2591.Distribute-Money-to-Maximum-Children) (M+)     
 [2647.Color-the-Triangle-Red](https://github.com/wisdompeak/LeetCode/tree/master/Others/2647.Color-the-Triangle-Red) (H)      
 [2718.Sum-of-Matrix-After-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/2718.Sum-of-Matrix-After-Queries) (M+)    
+* ``Physics``   
+1503. Last Moment Before All Ants Fall Out of a Plank (M)      
+[2731.Movement-of-Robots](https://github.com/wisdompeak/LeetCode/tree/master/Others/2731.Movement-of-Robots) (M+)     
 * ``结论转移``   
 [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array) (M)     
 [2121.Intervals-Between-Identical-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/2121.Intervals-Between-Identical-Elements) (M)     
