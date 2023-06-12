@@ -10,11 +10,19 @@ public:
             for (int j=0; j<=target; j++)
                 for (int k=0; k<=n; k++)
                     dp[i][j][k] = INT_MAX/2;
+                
+        if (houses[1]!=0)
+        {
+            dp[1][1][houses[1]] = 0;
+        }
+        else
+        {
+            for (int k=1; k<=n; k++)
+                dp[1][1][k] = cost[1][k-1];
 
-        for (int k=0; k<=n; k++)
-            dp[0][0][k] = 0;
+        }
 
-        for (int i=1; i<=m; i++)
+        for (int i=2; i<=m; i++)
         {
             if (houses[i]!=0)
             {       
@@ -28,10 +36,11 @@ public:
                         else
                             dp[i][j][k] = min(dp[i][j][k], dp[i-1][j-1][kk]);
                     }
+                    
                 }
             }
             else
-            {
+            {                
                 for (int j=1; j<=target; j++)
                 {
                     vector<pair<int,int>>temp;
