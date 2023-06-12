@@ -19,7 +19,6 @@ public:
         {
             for (int k=1; k<=n; k++)
                 dp[1][1][k] = cost[1][k-1];
-
         }
 
         for (int i=2; i<=m; i++)
