@@ -23,13 +23,14 @@ public:
             
             while (iter!=Map.end() && iter->first <= x)
             {
-                auto iter2 = iter->second.begin();                
-                while (iter2 != iter->second.end() && iter2->first <= y)
+                set<pair<int,int>>& s = iter->second;
+                auto iter2 = s.begin();                
+                while (iter2 != s.end() && iter2->first <= y)
                 {
                     rets[iter2->second] = val;
-                    iter->second.erase(iter2++);
+                    s.erase(iter2++);
                 }
-                if (iter->second.empty())
+                if (s.empty())
                     Map.erase(iter++);
                 else
                     iter++;
@@ -37,6 +38,5 @@ public:
         }
         
         return rets;
-        
     }
 };
