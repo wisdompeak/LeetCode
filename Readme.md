@@ -212,6 +212,7 @@
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
 [2612.Minimum-Reverse-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2612.Minimum-Reverse-Operations) (H)      
 [2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2653.Sliding-Subarray-Beauty) (M+)     
+[2736.Maximum-Sum-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2736.Maximum-Sum-Queries) (H)     
 * ``Maintain intervals``    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 [2213.Longest-Substring-of-One-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2213.Longest-Substring-of-One-Repeating-Character) (H)    
