@@ -3,7 +3,6 @@ public:
     int carFleet(int target, vector<int>& position, vector<int>& speed) 
     {                
         int N= position.size();
-        if (N==0) return 0;
         
         vector<pair<int,int>>q;
         for (int i=0; i<N; i++)
