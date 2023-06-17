@@ -23,7 +23,10 @@ public:
 
         int ret = INT_MAX;
         for (int k=0; k<=n; k++)
-            if (dp[n][k]!=INT_MAX) ret = min(ret, k);
+            if (dp[n][k]!=INT_MAX) {
+                ret = k;
+                break;
+            }
 
         return ret == INT_MAX ? -1: ret;
     }
