@@ -1,23 +1,23 @@
 class Solution {
-    static bool cmp(pair<int,int>a, pair<int,int>b)
+    static bool cmp(vector<int>&a, vector<int>&b)
     {
-        return a.second<b.second;
+        return a[1] < b[1];
     }
+    
 public:
-    int findMinArrowShots(vector<pair<int, int>>& points) 
+    int findMinArrowShots(vector<vector<int>>& points) 
     {
-        sort(points.begin(),points.end(),cmp);
-        
-        int j=0;
-        int count=0;
-        while (j<points.size())
-        {            
-            int right=points[j].second;
-            while (j<points.size() && points[j].first<=right)
-                j++;
+        sort(points.begin(), points.end(), cmp);
+        int i = 0;
+        int count = 0;
+        while (i<points.size())
+        {
             count++;
+            int j = i+1;
+            while (j<points.size() && points[j][0]<=points[i][1])
+                j++;
+            i = j;
         }
-        
-        return count;
+        return count;        
     }
 };
