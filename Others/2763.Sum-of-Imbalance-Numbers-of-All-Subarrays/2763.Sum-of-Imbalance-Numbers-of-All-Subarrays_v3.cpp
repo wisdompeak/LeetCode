@@ -48,7 +48,7 @@ public:
             int c = i - max(prevInvalid[i], prevLargerThanOne[i]);
             int d = min(afterInvalid[i], afterLargerThanOne[i]) - i;
 
-            ret += max(0, a*b - c*d);
+            ret += a*b - c*d;
         }
         
         return ret;        
