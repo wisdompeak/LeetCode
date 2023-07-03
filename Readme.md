@@ -1422,7 +1422,8 @@
 [2281.Sum-of-Total-Strength-of-Wizards](https://github.com/wisdompeak/LeetCode/tree/master/Others/2281.Sum-of-Total-Strength-of-Wizards) (H)    
 [2302.Count-Subarrays-With-Score-Less-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Others/2302.Count-Subarrays-With-Score-Less-Than-K) (H-)      
 [2444.Count-Subarrays-With-Fixed-Bounds](https://github.com/wisdompeak/LeetCode/tree/master/Others/2444.Count-Subarrays-With-Fixed-Bounds) (M+)    
-[2681.Power-of-Heroes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2681.Power-of-Heroes) (H-)    
+[2681.Power-of-Heroes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2681.Power-of-Heroes) (H-)
+[2763.Sum-of-Imbalance-Numbers-of-All-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Others/2763.Sum-of-Imbalance-Numbers-of-All-Subarrays) (H-)      
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
