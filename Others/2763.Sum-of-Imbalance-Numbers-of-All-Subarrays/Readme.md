@@ -20,7 +20,7 @@
 
 所以`a*b-c*d`就是nums[i]可以贡献的subarray的个数，使得它在这些subarray里面贡献的是一个合法的index.
 
-特别注意，之前计算的prevLargerThanOne不能往前超越prevInvalid；同理afterLargerThanOne不能往前超越afterInvalid.
+特别注意，之前计算的prevLargerThanOne不能往前超越prevInvalid；同理afterLargerThanOne不能往后超越afterInvalid，这是因为`c*d`的计数前提依然是valid（即不能有与nums[i]相同数值或者相同数值+1的元素存在）。
 
 #### 解法3：
 上述的解法2是`o(N^2)`的复杂度。运用预处理可以进一步优化到o(N)。
