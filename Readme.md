@@ -349,7 +349,7 @@
 [460.LFU Cache](https://github.com/wisdompeak/LeetCode/tree/master/Design/460.LFU-Cache) (H)    
 [432.All-O-one-Data-Structure](https://github.com/wisdompeak/LeetCode/tree/master/Design/432.All-O-one-Data-Structure) (H)    
 [2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
-[2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)
+[2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)      
 [2751.Robot-Collisions](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2751.Robot-Collisions) (M+)      
 
 #### [Stack](https://github.com/wisdompeak/LeetCode/tree/master/Stack)
