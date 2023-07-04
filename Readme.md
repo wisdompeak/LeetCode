@@ -1354,7 +1354,7 @@
 [2576.Find-the-Maximum-Number-of-Marked-Indices](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2576.Find-the-Maximum-Number-of-Marked-Indices) (H-)      
 [2712.Minimum-Cost-to-Make-All-Characters-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2712.Minimum-Cost-to-Make-All-Characters-Equal) (H-)      
 [2732.Find-a-Good-Subset-of-the-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2732.Find-a-Good-Subset-of-the-Matrix) (H)      
-[2749.Minimum-Operations-to-Make-the-Integer-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2749.Minimum-Operations-to-Make-the-Integer-Zero) (H)
+[2749.Minimum-Operations-to-Make-the-Integer-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2749.Minimum-Operations-to-Make-the-Integer-Zero) (H)      
 [2745.Construct-the-Longest-New-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2745.Construct-the-Longest-New-String) (H-)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
