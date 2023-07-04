@@ -1353,7 +1353,8 @@
 [2573.Find-the-String-with-LCP](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2573.Find-the-String-with-LCP) (H-)    
 [2576.Find-the-Maximum-Number-of-Marked-Indices](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2576.Find-the-Maximum-Number-of-Marked-Indices) (H-)      
 [2712.Minimum-Cost-to-Make-All-Characters-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2712.Minimum-Cost-to-Make-All-Characters-Equal) (H-)      
-[2732.Find-a-Good-Subset-of-the-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2732.Find-a-Good-Subset-of-the-Matrix) (H)      
+[2732.Find-a-Good-Subset-of-the-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2732.Find-a-Good-Subset-of-the-Matrix) (H)
+[2749.Minimum-Operations-to-Make-the-Integer-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2749.Minimum-Operations-to-Make-the-Integer-Zero) (H)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
