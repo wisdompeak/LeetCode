@@ -1358,6 +1358,7 @@
 [2732.Find-a-Good-Subset-of-the-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2732.Find-a-Good-Subset-of-the-Matrix) (H)      
 [2749.Minimum-Operations-to-Make-the-Integer-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2749.Minimum-Operations-to-Make-the-Integer-Zero) (H)      
 [2745.Construct-the-Longest-New-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2745.Construct-the-Longest-New-String) (H-)      
+[2753.Count-Houses-in-a-Circular-Street-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2753.Count-Houses-in-a-Circular-Street-II) (H-)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
