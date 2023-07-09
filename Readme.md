@@ -1456,7 +1456,8 @@
 [2327.Number-of-People-Aware-of-a-Secret](https://github.com/wisdompeak/LeetCode/tree/master/Others/2327.Number-of-People-Aware-of-a-Secret) (H-)     
 [2381.Shifting-Letters-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/2381.Shifting-Letters-II) (M)      
 [2584.Split-the-Array-to-Make-Coprime-Products](https://github.com/wisdompeak/LeetCode/tree/master/Others/2584.Split-the-Array-to-Make-Coprime-Products) (H)     
-[2617.Minimum-Number-of-Visited-Cells-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2617.Minimum-Number-of-Visited-Cells-in-a-Grid) (H)    
+[2617.Minimum-Number-of-Visited-Cells-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2617.Minimum-Number-of-Visited-Cells-in-a-Grid) (H)      
+[2772.Apply-Operations-to-Make-All-Array-Elements-Equal-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Others/2772.Apply-Operations-to-Make-All-Array-Elements-Equal-to-Zero) (H-)      
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
