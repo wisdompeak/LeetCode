@@ -873,7 +873,7 @@
 [903.Valid-Permutations-for-DI-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/903.Valid-Permutations-for-DI-Sequence) (H)   
 [1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible](https://github.com/wisdompeak/LeetCode/tree/master/Math/1866.Number-of-Ways-to-Rearrange-Sticks-With-K-Sticks-Visible) (H)  
 * ``Infer future from current``   
-[2044.Count-Number-of-Maximum-Bitwise-OR-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2044.Count-Number-of-Maximum-Bitwise-OR-Subsets) (M)
+[2044.Count-Number-of-Maximum-Bitwise-OR-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2044.Count-Number-of-Maximum-Bitwise-OR-Subsets) (M)      
 [2742.Painting-the-Walls](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2742.Painting-the-Walls) (H)      
 * ``maximum subarray``   
 [053.Maximum-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/053.Maximum-Subarray) (E+)  
