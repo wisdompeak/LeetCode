@@ -369,7 +369,8 @@
 [1586.Binary-Search-Tree-Iterator-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1586.Binary-Search-Tree-Iterator-II) (H)  
 [2197.Replace-Non-Coprime-Numbers-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2197.Replace-Non-Coprime-Numbers-in-Array) (H-)     
 [2296.Design-a-Text-Editor](https://github.com/wisdompeak/LeetCode/tree/master/Design/2296.Design-a-Text-Editor) (M+)      
-[2751.Robot-Collisions](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2751.Robot-Collisions) (M+)      
+[2751.Robot-Collisions](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2751.Robot-Collisions) (M+)    
+[2764.is-Array-a-Preorder-of-Some-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2764.is-Array-a-Preorder-of-Some-Binary-Tree) (M+)      
 * ``monotonic stack: next greater / smaller``    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
