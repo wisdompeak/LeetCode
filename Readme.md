@@ -701,6 +701,7 @@
 [2431.Maximize-Total-Tastiness-of-Purchased-Fruits](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2431.Maximize-Total-Tastiness-of-Purchased-Fruits) (M+)     
 [2484.Count-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2484.Count-Palindromic-Subsequences) (H-)      
 [2713.Maximum-Strictly-Inreasing-Cells-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2713.Maximum-Strictly-Inreasing-Cells-in-a-Matrix) (H-)     
+[2787.Ways-to-Express-an-Integer-as-Sum-of-Powers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2787.Ways-to-Express-an-Integer-as-Sum-of-Powers) (M+)      
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
