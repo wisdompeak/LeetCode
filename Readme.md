@@ -733,7 +733,8 @@
 [2036.Maximum-Alternating-Subarray-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2036.Maximum-Alternating-Subarray-Sum) (M+)     
 [2143.Choose-Numbers-From-Two-Arrays-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2143.Choose-Numbers-From-Two-Arrays-in-Range) (H)    
 [2318.Number-of-Distinct-Roll-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2318.Number-of-Distinct-Roll-Sequences) (H-)      
-[2361.Minimum-Costs-Using-the-Train-Line](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2361.Minimum-Costs-Using-the-Train-Line) (M+)    
+[2361.Minimum-Costs-Using-the-Train-Line](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2361.Minimum-Costs-Using-the-Train-Line) (M+)
+[2786.Visit-Array-Positions-to-Maximize-Score](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2786.Visit-Array-Positions-to-Maximize-Score) (M)      
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
 [300.Longest-Increasing-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/300.Longest-Increasing-Subsequence) (M+)   
