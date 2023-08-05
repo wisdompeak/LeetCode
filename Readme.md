@@ -702,6 +702,7 @@
 [2484.Count-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2484.Count-Palindromic-Subsequences) (H-)      
 [2713.Maximum-Strictly-Inreasing-Cells-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2713.Maximum-Strictly-Inreasing-Cells-in-a-Matrix) (H-)     
 [2787.Ways-to-Express-an-Integer-as-Sum-of-Powers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2787.Ways-to-Express-an-Integer-as-Sum-of-Powers) (M+)      
+[2809.Minimum-Time-to-Make-Array-Sum-At-Most-x](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2809.Minimum-Time-to-Make-Array-Sum-At-Most-x) (H)      
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
@@ -781,7 +782,6 @@
 [2291.Maximum-Profit-From-Trading-Stocks](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2291.Maximum-Profit-From-Trading-Stocks) (M)     
 [2518.Number-of-Great-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2518.Number-of-Great-Partitions) (H-)      
 [2585.Number-of-Ways-to-Earn-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2585.Number-of-Ways-to-Earn-Points) (M)      
-[2809.Minimum-Time-to-Make-Array-Sum-At-Most-x](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2809.Minimum-Time-to-Make-Array-Sum-At-Most-x) (H)      
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
