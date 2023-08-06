@@ -1416,6 +1416,7 @@
 [2647.Color-the-Triangle-Red](https://github.com/wisdompeak/LeetCode/tree/master/Others/2647.Color-the-Triangle-Red) (H)      
 [2718.Sum-of-Matrix-After-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/2718.Sum-of-Matrix-After-Queries) (M+)    
 [2808.Minimum-Seconds-to-Equalize-a-Circular-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2808.Minimum-Seconds-to-Equalize-a-Circular-Array) (M+)     
+[2811.Check-if-it-is-Possible-to-Split-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2811.Check-if-it-is-Possible-to-Split-Array) (M+)      
 * ``Collision``   
 [853.Car-Fleet](https://github.com/wisdompeak/LeetCode/tree/master/Others/853.Car-Fleet) (M)      
 [1503.Last-Moment-Before-All-Ants-Fall-Out-of-a-Plank](https://github.com/wisdompeak/LeetCode/tree/master/Others/1503.Last-Moment-Before-All-Ants-Fall-Out-of-a-Plank) (M)      
