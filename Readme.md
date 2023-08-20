@@ -1066,6 +1066,7 @@
 1545.Find-Kth-Bit-in-Nth-Binary-String (TBD)  
 [2376.Count-Special-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Others/2376.Count-Special-Integers) (M+)     
 [2719.Count-of-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2719.Count-of-Integers) (H)      
+[2801.Count-Stepping-Numbers-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2801.Count-Stepping-Numbers-in-Range) (H)      
 [2827.Number-of-Beautiful-Integers-in-the-Range](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2827.Number-of-Beautiful-Integers-in-the-Range) (H)      
 
 #### [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/)
