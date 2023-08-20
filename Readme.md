@@ -52,6 +52,7 @@
 [2564.Substring-XOR-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2564.Substring-XOR-Queries) (H-)    
 [2730.Find-the-Longest-Semi-Repetitive-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2730.Find-the-Longest-Semi-Repetitive-Substring) (M+)      
 [2747.Count-Zero-Request-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2747.Count-Zero-Request-Servers) (H-)      
+[2831.Find-the-Longest-Equal-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2831.Find-the-Longest-Equal-Subarray) (M)      
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
