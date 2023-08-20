@@ -736,7 +736,7 @@
 [2036.Maximum-Alternating-Subarray-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2036.Maximum-Alternating-Subarray-Sum) (M+)     
 [2143.Choose-Numbers-From-Two-Arrays-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2143.Choose-Numbers-From-Two-Arrays-in-Range) (H)    
 [2318.Number-of-Distinct-Roll-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2318.Number-of-Distinct-Roll-Sequences) (H-)      
-[2361.Minimum-Costs-Using-the-Train-Line](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2361.Minimum-Costs-Using-the-Train-Line) (M+)
+[2361.Minimum-Costs-Using-the-Train-Line](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2361.Minimum-Costs-Using-the-Train-Line) (M+)      
 [2786.Visit-Array-Positions-to-Maximize-Score](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2786.Visit-Array-Positions-to-Maximize-Score) (M)      
 * ``基本型 II``   
 [368.Largest-Divisible-Subset](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/368.Largest-Divisible-Subset) (M+)   
@@ -756,7 +756,11 @@
 [2209.Minimum-White-Tiles-After-Covering-With-Carpets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2209.Minimum-White-Tiles-After-Covering-With-Carpets) (M+)     
 [2430.Maximum-Deletions-on-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2430.Maximum-Deletions-on-a-String) (M+)     
 [2464.Minimum-Subarrays-in-a-Valid-Split](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2464.Minimum-Subarrays-in-a-Valid-Split) (M)     
-[2522.Partition-String-Into-Substrings-With-Values-at-Most-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2522.Partition-String-Into-Substrings-With-Values-at-Most-K) (M+)      
+[2522.Partition-String-Into-Substrings-With-Values-at-Most-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2522.Partition-String-Into-Substrings-With-Values-at-Most-K) (M+)
+    * `Interval`      
+   [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
+   [1751.Maximum-Number-of-Events-That-Can-Be-Attended-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1751.Maximum-Number-of-Events-That-Can-Be-Attended-II) (H)  
+   [2008.Maximum-Earnings-From-Taxi](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2008.Maximum-Earnings-From-Taxi) (M+)      
 * ``走迷宫型``   
 [120.Triangle](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/120.Triangle) (E)  
 [174.Dungeon-Game](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/174.Dungeon-Game) (H-)    
@@ -1342,9 +1346,6 @@
 [1272.Remove-Interval](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1272.Remove-Interval) (M+)  
 [1288.Remove-Covered-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1288.Remove-Covered-Intervals) (M+)  
 [1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden) (M+)   
-[1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
-[1751.Maximum-Number-of-Events-That-Can-Be-Attended-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1751.Maximum-Number-of-Events-That-Can-Be-Attended-II) (H)  
-[2008.Maximum-Earnings-From-Taxi](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2008.Maximum-Earnings-From-Taxi) (M+)      
 [2054.Two-Best-Non-Overlapping-Events](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2054.Two-Best-Non-Overlapping-Events) (H-)     
 [2580.Count-Ways-to-Group-Overlapping-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2580.Count-Ways-to-Group-Overlapping-Ranges) (M)    
 [2589.Minimum-Time-to-Complete-All-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2589.Minimum-Time-to-Complete-All-Tasks) (H)      
