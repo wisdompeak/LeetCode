@@ -47,7 +47,6 @@ public:
             for (int t=j-1; t>=i; t--)
                 count[t]+=1;
             ret += j-i;
-            count[i] -= 1;            
         }
         
         return ret;
