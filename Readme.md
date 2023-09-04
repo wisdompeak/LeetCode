@@ -96,6 +96,7 @@
 * ``Binary Lifting``  
 [1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)      
 [2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game) (H)      
+[2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree) (H)      
 * ``Binary Search by Value``  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H-)  
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
