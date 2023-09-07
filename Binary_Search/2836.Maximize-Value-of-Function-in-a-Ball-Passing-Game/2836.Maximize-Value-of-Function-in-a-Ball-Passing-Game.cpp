@@ -1,18 +1,12 @@
 using LL = long long;
 class Solution {
-    int pos[100005][35];
     LL dp[100005][35];
+    int pos[100005][35];
 public:
     long long getMaxFunctionValue(vector<int>& receiver, long long k) 
     {
         int n = receiver.size();
-        int M = 0;
-        LL K = k;
-        while (K>0)
-        {
-            M++;
-            K/=2;
-        }
+        int M = ceil(log(k)/log(2));
 
         for (int i=0; i<n; i++)
         {
@@ -20,34 +14,31 @@ public:
             dp[i][0] = receiver[i];
         }
 
-        
-        for (int k=1; k<M; k++)
-        {
+        for (int j=1; j<=M; j++)
             for (int i=0; i<n; i++)
             {
-                pos[i][k] = pos[pos[i][k-1]][k-1];
-                dp[i][k] = dp[i][k-1] + dp[pos[i][k-1]][k-1];
+                pos[i][j] = pos[pos[i][j-1]][j-1];
+                dp[i][j] = dp[i][j-1] + dp[pos[i][j-1]][j-1];
             }
-        }
 
         vector<int>bits;
-        for (int i=0; i<M; i++)
+        for (int i=0; i<=M; i++)
         {
             if ((k>>i)&1)
                 bits.push_back(i);
         }
-        
+
         LL ret = 0;
         for (int i=0; i<n; i++)
         {
-            LL ans = i;
+            LL val = i;
             int cur = i;
             for (int j: bits)
             {
-                ans += dp[cur][j];
+                val += dp[cur][j];
                 cur = pos[cur][j];
             }
-            ret = max(ret, ans);                
+            ret = max(ret, val);
         }
 
         return ret;
