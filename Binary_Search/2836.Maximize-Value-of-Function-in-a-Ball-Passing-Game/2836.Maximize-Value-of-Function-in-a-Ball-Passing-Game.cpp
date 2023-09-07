@@ -1,12 +1,12 @@
 using LL = long long;
 class Solution {
-    LL dp[100005][35];
-    int pos[100005][35];
 public:
     long long getMaxFunctionValue(vector<int>& receiver, long long k) 
     {
         int n = receiver.size();
         int M = ceil(log(k)/log(2));
+        vector<vector<LL>>dp(n+1, vector<LL>(M+1));
+        vector<vector<int>>pos(n+1, vector<int>(M+1));
 
         for (int i=0; i<n; i++)
         {
