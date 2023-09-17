@@ -1522,6 +1522,7 @@
 
 #### [Thinking](https://github.com/wisdompeak/LeetCode/tree/master/Thinking)  
 [2860.Happy-Students](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2860.Happy-Students) (M+)      
+[2862.Maximum-Element-Sum-of-a-Complete-Subset-of-Indices](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2862.Maximum-Element-Sum-of-a-Complete-Subset-of-Indices) (H-)      
 
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
