@@ -1519,6 +1519,10 @@
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 [2417.Closest-Fair-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/2417.Closest-Fair-Integer) (H-)      
 
+#### [Thinking](https://github.com/wisdompeak/LeetCode/tree/master/Thinking)  
+[2860.Happy-Students](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2860.Happy-Students) (M+)      
+
+
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
 [LCP24.数字游戏](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP24.%E6%95%B0%E5%AD%97%E6%B8%B8%E6%88%8F)  
