@@ -910,6 +910,7 @@
 [1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target) (H-)  
 [2505.Bitwise-OR-of-All-Subsequence-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2505.Bitwise-OR-of-All-Subsequence-Sums) (H)     
 [2680.Maximum-OR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2680.Maximum-OR) (M+)    
+[2802.Find-The-K-th-Lucky-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2802.Find-The-K-th-Lucky-Number) (M+)      
 * ``XOR``   
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
