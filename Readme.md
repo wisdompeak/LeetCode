@@ -1266,7 +1266,8 @@
 [2813.Maximum-Elegance-of-a-K-Length-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2813.Maximum-Elegance-of-a-K-Length-Subsequence) (H-)      
 [2835.Minimum-Operations-to-Form-Subsequence-With-Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2835.Minimum-Operations-to-Form-Subsequence-With-Target-Sum) (M+)      
 * Boyer-Moore Majority Voting      
-[229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)   
+[229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
+[2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
 * ``Lexicographical Sequence``  
 [031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
 [556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/556.Next-Greater-Element-III) (M)   
