@@ -20,3 +20,12 @@ else
 最终的答案就是初始调用的`words[0].size() + dfs(1, words[0][0], words[0].back())`，因为对于words[0]我们只有唯一的构造形式。
 
 另外，我们必然要用记忆化来避免相同参数的dfs重复调用。
+
+更新：为了过更严格的case，需要再加一个优化的技巧
+```cpp
+if (start==a && end==b)
+{
+    // it does not matter we put words[i] at the beginning or at the end;
+    ret = len - (a==b) + dfs(i+1, start, end, words);
+}
+```
