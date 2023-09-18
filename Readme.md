@@ -1265,7 +1265,7 @@
 [2598.Smallest-Missing-Non-negative-Integer-After-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2598.Smallest-Missing-Non-negative-Integer-After-Operations) (M)     
 [2813.Maximum-Elegance-of-a-K-Length-Subsequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2813.Maximum-Elegance-of-a-K-Length-Subsequence) (H-)      
 [2835.Minimum-Operations-to-Form-Subsequence-With-Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2835.Minimum-Operations-to-Form-Subsequence-With-Target-Sum) (M+)      
-* ``Boyer-Moore Majority Voting      
+* Boyer-Moore Majority Voting      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)   
 * ``Lexicographical Sequence``  
 [031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
