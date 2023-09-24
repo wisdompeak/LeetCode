@@ -378,7 +378,6 @@
 [2764.is-Array-a-Preorder-of-Some-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2764.is-Array-a-Preorder-of-Some-Binary-Tree) (M+)      
 * ``monotonic stack: next greater / smaller``    
 [042.Trapping-Rain-Water](https://github.com/wisdompeak/LeetCode/tree/master/Others/042.Trapping-Rain-Water) (H)  
-[2334.Subarray-With-Elements-Greater-Than-Varying-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2334.Subarray-With-Elements-Greater-Than-Varying-Threshold) (M+)    
 [255.Verify-Preorder-Sequence-in-Binary-Search-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/255.Verify-Preorder-Sequence-in-Binary-Search-Tree) (H)    
 [496.Next-Greater-Element-I](https://github.com/wisdompeak/LeetCode/tree/master/Stack/496.Next-Greater-Element-I) (H-)    
 [503.Next-Greater-Element-II](https://github.com/wisdompeak/LeetCode/blob/master/Stack/503.Next-Greater-Element-II) (H-)    
@@ -397,7 +396,8 @@
 [2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String) (H-)     
 [2454.Next-Greater-Element-IV](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2454.Next-Greater-Element-IV) (H-)
 * ``monotonic stack: other usages``      
-[084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
+[084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
+[2334.Subarray-With-Elements-Greater-Than-Varying-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2334.Subarray-With-Elements-Greater-Than-Varying-Threshold) (M+)    
 [085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H-)    
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
 [962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
