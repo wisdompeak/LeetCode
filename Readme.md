@@ -396,7 +396,7 @@
 [1966.Binary-Searchable-Numbers-in-an-Unsorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1966.Binary-Searchable-Numbers-in-an-Unsorted-Array) (M+)      
 [2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String) (H-)     
 [2454.Next-Greater-Element-IV](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2454.Next-Greater-Element-IV) (H-)
-* ``monotonic stack: other usages``
+* ``monotonic stack: other usages``      
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)   
 [085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H-)    
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)    
@@ -405,7 +405,7 @@
 [1944.Number-of-Visible-People-in-a-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1944.Number-of-Visible-People-in-a-Queue) (H)  
 [2282.Number-of-People-That-Can-Be-Seen-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2282.Number-of-People-That-Can-Be-Seen-in-a-Grid) (H)    
 [2289.Steps-to-Make-Array-Non-decreasing](https://github.com/wisdompeak/LeetCode/tree/master/Design/2289.Steps-to-Make-Array-Non-decreasing) (H)      
-[2355.Maximum-Number-of-Books-You-Can-Take](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2355.Maximum-Number-of-Books-You-Can-Take) (H)
+[2355.Maximum-Number-of-Books-You-Can-Take](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2355.Maximum-Number-of-Books-You-Can-Take) (H)      
 [2866.Beautiful-Towers-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2866.Beautiful-Towers-II) (H)      
 * ``form smallest sequence``    
 [402.Remove-K-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Stack/402.Remove-K-Digits) (H-)    
