@@ -504,6 +504,7 @@
 [2014.Longest-Subsequence-Repeated-k-Times](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2014.Longest-Subsequence-Repeated-k-Times) (H)     
 [2056.Number-of-Valid-Move-Combinations-On-Chessboard](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2056.Number-of-Valid-Move-Combinations-On-Chessboard) (H)    
 [2065.Maximum-Path-Quality-of-a-Graph](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2065.Maximum-Path-Quality-of-a-Graph) (M)      
+[2850.Minimum-Moves-to-Spread-Stones-Over-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2850.Minimum-Moves-to-Spread-Stones-Over-Grid) (M)      
 * ``search in an array``    
 [090.Subsets-II](https://github.com/wisdompeak/LeetCode/tree/master/DFS/090.Subsets-II) (M+)  
 [301.Remove-Invalid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/DFS/301.Remove-Invalid-Parentheses) (H)   
