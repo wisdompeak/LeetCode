@@ -2,36 +2,30 @@ class Solution {
 public:
     int numSubmat(vector<vector<int>>& mat) 
     {
-        int M=mat.size();
-        if (M==0) return 0;
-        int N=mat[0].size();                
-        int ret = 0;        
-        for (int i=0; i<M; i++)
+        int m = mat.size(), n = mat[0].size();
+        vector<int>nums(n+1, 0);    
+        int ret = 0;    
+        for (int i=0; i<m; i++)
         {
-            auto q= vector<int>(N,0);            
-            for (int k=i; k<M; k++)
+            for (int j=0; j<n; j++)
+                nums[j+1] = (mat[i][j]==1 ? (nums[j+1]+1) : 0);
+            stack<int>stk;       
+            stk.push(0);     
+            int sum = 0;
+            for (int j=1; j<=n; j++)
             {
-                for (int j=0; j<N; j++)
+                while (!stk.empty() && nums[stk.top()] > nums[j])
                 {
-                    if (mat[k][j]==0)
-                        q[j]=0;
-                    else    
-                        q[j]=q[j]+1;
+                    int p1 = stk.top();
+                    stk.pop();
+                    int p2 = stk.top();
+                    sum -= (p1-p2) * (nums[p1] - nums[j]);
                 }
-                int h = k-i+1;
-                for (int a = 0; a<N; a++)
-                {
-                    if (q[a]!=h) continue;
-                    int b = a;
-                    while (b<N && q[b]==h)
-                        b++;
-                    int L = b-a;
-                    ret += (1+L)*L/2;
-                    a = b-1;
-                }
-            }
-            
-        }        
+                stk.push(j);
+                sum += nums[j];
+                ret += sum;
+            }            
+        }
         return ret;        
     }
 };
