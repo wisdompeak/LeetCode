@@ -403,7 +403,7 @@
 [2334.Subarray-With-Elements-Greater-Than-Varying-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2334.Subarray-With-Elements-Greater-Than-Varying-Threshold) (M+)    
 [085.Maximal-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Stack/085.Maximal-Rectangle) (H-)    
 [2866.Beautiful-Towers-II](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2866.Beautiful-Towers-II) (H)      
-[1504.Count-Submatrices-With-All-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1504.Count-Submatrices-With-All-Ones) (H)      
+[1504.Count-Submatrices-With-All-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1504.Count-Submatrices-With-All-Ones) (H)      
 [221.Maximal-Square](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/221.Maximal-Square) (H-)      
 [962.Maximum-Width-Ramp](https://github.com/wisdompeak/LeetCode/tree/master/Stack/962.Maximum-Width-Ramp) (H)    
 [1944.Number-of-Visible-People-in-a-Queue](https://github.com/wisdompeak/LeetCode/tree/master/Stack/1944.Number-of-Visible-People-in-a-Queue) (H)  
