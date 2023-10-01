@@ -21,8 +21,7 @@ public:
         
         for (int i=0; i<2*n; i++)
         {                                         
-            LL r = ((target-presum[i])%total+total)%total;
-            if (r!=0) r = total - r;
+            LL r = ((presum[i] - target)%total+total)%total;            
             
             if (Map.find(r)!=Map.end())
             {
