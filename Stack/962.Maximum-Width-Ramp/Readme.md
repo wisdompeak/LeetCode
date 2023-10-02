@@ -20,5 +20,7 @@
 ```                
 绝妙的下一步是：从后往前依次考察A，对于每个A[i]，我们从栈尾依次弹出元素直至遇到一个恰好小于等于A[i]的索引j，那么(j,i)就是关乎A[i]我们能得到的最宽的配对。至于那些已经弹出栈的元素，其实丢了就丢了，并不会对答案有更多的贡献。比如说，j+1和i-1即使配对成功，也不能超越(j,i)的宽度。这样将A从后往前扫一遍，就能找到最宽的配对。
 
+类似的题有 `2863. Maximum Length of Semi-Decreasing Subarrays`
+
 
 [Leetcode Link](https://leetcode.com/problems/maximum-width-ramp)
