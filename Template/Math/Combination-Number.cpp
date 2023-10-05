@@ -57,10 +57,3 @@ LL comb(LL m, LL n)
     
     return a * inv_b % M;
 }
-
-int ComputeComb(LL m, LL n) 
-{
-    factorial = GetFactorial(n);        
-    return comb(m, n);
-}
-
