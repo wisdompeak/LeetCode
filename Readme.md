@@ -1280,7 +1280,8 @@
 [2835.Minimum-Operations-to-Form-Subsequence-With-Target-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2835.Minimum-Operations-to-Form-Subsequence-With-Target-Sum) (M+)      
 [2871.Split-Array-Into-Maximum-Number-of-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2871.Split-Array-Into-Maximum-Number-of-Subarrays) (M+)      
 [2868.The-Wording-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2868.The-Wording-Game) (M)      
-* Boyer-Moore Majority Voting      
+[2897.Apply-Operations-on-Array-to-Maximize-Sum-of-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2897.Apply-Operations-on-Array-to-Maximize-Sum-of-Squares) (M+)      
+* ``Boyer-Moore Majority Voting``
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
 [2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
 * ``Lexicographical Sequence``  
