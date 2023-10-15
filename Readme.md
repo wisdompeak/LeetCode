@@ -804,6 +804,7 @@
 [2291.Maximum-Profit-From-Trading-Stocks](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2291.Maximum-Profit-From-Trading-Stocks) (M)     
 [2518.Number-of-Great-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2518.Number-of-Great-Partitions) (H-)      
 [2585.Number-of-Ways-to-Earn-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2585.Number-of-Ways-to-Earn-Points) (M)      
+[2902.Count-of-Sub-Multisets-With-Bounded-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2902.Count-of-Sub-Multisets-With-Bounded-Sum) (H)      
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
