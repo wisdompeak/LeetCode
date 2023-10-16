@@ -5,7 +5,7 @@ public:
         sort(hens.begin(), hens.end());
         sort(grains.begin(), grains.end());
 
-        int left = 0, right = INT_MAX/2;
+        int left = 0, right = INT_MAX;
         while (left < right)
         {
             int mid = left + (right-left)/2;
