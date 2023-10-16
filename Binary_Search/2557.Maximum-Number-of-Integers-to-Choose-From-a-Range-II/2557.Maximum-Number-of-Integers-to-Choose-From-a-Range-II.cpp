@@ -3,6 +3,7 @@ class Solution {
 public:
     int maxCount(vector<int>& banned, int n, long long maxSum) 
     {
+        banned.erase(std::unique(banned.begin(), banned.end()),banned.end());
         sort(banned.begin(), banned.end());
 
         presum.resize(banned.size());
