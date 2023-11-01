@@ -1453,7 +1453,7 @@
 [2808.Minimum-Seconds-to-Equalize-a-Circular-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2808.Minimum-Seconds-to-Equalize-a-Circular-Array) (M+)     
 [2811.Check-if-it-is-Possible-to-Split-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2811.Check-if-it-is-Possible-to-Split-Array) (M+)      
 [2857.Count-Pairs-of-Points-With-Distance-k](https://github.com/wisdompeak/LeetCode/tree/master/Others/2857.Count-Pairs-of-Points-With-Distance-k) (M+)      
-* ``公式变形``
+* ``公式变形``      
 [2898.Maximum-Linear-Stock-Score](https://github.com/wisdompeak/LeetCode/tree/master/Others/2898.Maximum-Linear-Stock-Score) (M)      
 * ``Collision``   
 [853.Car-Fleet](https://github.com/wisdompeak/LeetCode/tree/master/Others/853.Car-Fleet) (M)      
