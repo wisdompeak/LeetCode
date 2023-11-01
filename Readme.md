@@ -1084,7 +1084,7 @@
 [1563.Stone-Game-V](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1563.Stone-Game-V) (H-)  
 [2029.Stone-Game-IX](https://github.com/wisdompeak/LeetCode/tree/master/Others/2029.Stone-Game-IX) (H)      
 * ``Digit counting & finding``    
-[440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Others/440.K-th-Smallest-in-Lexicographical-Order) (H-)
+[440.K-th-Smallest-in-Lexicographical-Order](https://github.com/wisdompeak/LeetCode/tree/master/Others/440.K-th-Smallest-in-Lexicographical-Order) (H-)      
 [1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 [1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1415.The-k-th-Lexicographical-String-of-All-Happy-Strings-of-Length-n) (H-)  
 1545.Find-Kth-Bit-in-Nth-Binary-String (TBD)  
@@ -1453,6 +1453,8 @@
 [2808.Minimum-Seconds-to-Equalize-a-Circular-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2808.Minimum-Seconds-to-Equalize-a-Circular-Array) (M+)     
 [2811.Check-if-it-is-Possible-to-Split-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2811.Check-if-it-is-Possible-to-Split-Array) (M+)      
 [2857.Count-Pairs-of-Points-With-Distance-k](https://github.com/wisdompeak/LeetCode/tree/master/Others/2857.Count-Pairs-of-Points-With-Distance-k) (M+)      
+* ``公式变形``
+[2898.Maximum-Linear-Stock-Score](https://github.com/wisdompeak/LeetCode/tree/master/Others/2898.Maximum-Linear-Stock-Score) (M)      
 * ``Collision``   
 [853.Car-Fleet](https://github.com/wisdompeak/LeetCode/tree/master/Others/853.Car-Fleet) (M)      
 [1503.Last-Moment-Before-All-Ants-Fall-Out-of-a-Plank](https://github.com/wisdompeak/LeetCode/tree/master/Others/1503.Last-Moment-Before-All-Ants-Fall-Out-of-a-Plank) (M)      
@@ -1533,11 +1535,10 @@
 [347.Top-K-Frequent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/347.Top-K-Frequent-Elements) (M+)  
 [973.K-Closest-Points-to-Origin](https://github.com/wisdompeak/LeetCode/tree/master/Others/973.K-Closest-Points-to-Origin) (M)      
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
-* ``数位计算``   
+* ``Digit counting``   
 [233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
 [1067.Digit-Count-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Others/1067.Digit-Count-in-Range) (H)   
 [357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
-[1012.Numbers-With-Repeated-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Math/1012.Numbers-With-Repeated-Digits) (H-)    
 [2417.Closest-Fair-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/2417.Closest-Fair-Integer) (H-)      
 
 #### [Thinking](https://github.com/wisdompeak/LeetCode/tree/master/Thinking)  
