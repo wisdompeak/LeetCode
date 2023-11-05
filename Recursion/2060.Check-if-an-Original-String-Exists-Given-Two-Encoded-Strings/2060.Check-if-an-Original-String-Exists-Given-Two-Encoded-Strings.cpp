@@ -78,9 +78,12 @@ public:
             return dfs(t1, i+1, 0, t2, j, num2-1);
         }
         else
-        {            
-            visited.insert(hash);
-            if (t1[i]!=t2[j]) return false;
+        {                        
+            if (t1[i]!=t2[j]) 
+            {
+                visited.insert(hash);
+                return false;
+            }
             return dfs(t1, i+1, 0, t2, j+1, 0);
         }
     }
