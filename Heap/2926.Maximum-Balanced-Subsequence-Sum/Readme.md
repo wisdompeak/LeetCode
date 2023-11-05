@@ -3,14 +3,14 @@
 很明显，变形一下式子就有```nums[i_j] - i_j >= nums[i_(j-1)] - i_(j-1)```. 我们令新数组`arr[i] = nums[i]-i`，我们就是想要在arr里面找一个递增的subsequence，记做{k}，使得这个subsequence对应的 {nums[k]} 的和能够最大。
 
 很容易看出可以用o(N^2)的dp来做。令dp[i]表示以i为结尾的递增subsequence的最大nums之和。那么就有
-```
+```cpp
 for (int i=0; i<n; i++)
   for (int j=0; j<i; j++)
     if (arr[j] < arr[i])
       dp[i] = max(dp[i], dp[j] + nums[i]);
 ```
 接下来考虑如何降低时间复杂度。我们看到第二个循环的效率不是很高，这个遍历里面满足if条件的位置j是不固定的。我们设想如果i之前的dp已经按照arr的数值放入一个有序容器中，我们就只需要遍历dp的某个前缀即可. 于是我们重新定义dp[x]表示以数值x为结尾的的递增subsequence的最大nums之和，并且dp是按照x从小到大排序的容器。
-```
+```cpp
 for (int i=0; i<n; i++)
 {
   int x = arr[i];
