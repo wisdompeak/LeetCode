@@ -14,7 +14,7 @@ for (int i=0; i<n; i++)
 for (int i=0; i<n; i++)
 {
   int x = arr[i];
-  for (int y: sorted_arr[0:i-1] & y < x)    
+  for (int y: sorted(arr[0:i-1]) & y < x)    
       dp[x] = max{dp[y]} + nums[i];
 }  
 ```
