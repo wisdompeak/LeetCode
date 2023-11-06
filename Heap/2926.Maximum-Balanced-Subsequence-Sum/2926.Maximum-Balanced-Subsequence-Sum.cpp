@@ -30,11 +30,7 @@ public:
             iter = dp.find(x);
             iter = next(iter);
             while (iter!=dp.end() && iter->second <= dp[x])
-            {
-                int y = iter->first;
-                iter = next(iter);
-                dp.erase(y);
-            }            
+                iter = dp.erase(iter);           
         }
         
         return ret;        
