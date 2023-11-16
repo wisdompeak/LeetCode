@@ -29,5 +29,7 @@ diff[(i-A[i]+1+N)%N] -= 1;
 diff[i+1] += 1;
 ```
 
+PS：这里取模是没有道理也没有意义的。既然已知移动>=N次会重复之前的结果，我们只需要开长度为N+1的diff数组即可（多留一个是为了在某些情况下设置“下降沿”的时候保证diff不越界，本身diff[N]的数值并不会用到）。至于为什么取模之后能AC，是因为题目问的是最大score所对应的rotation index k，随意乱写任何值的diff[0]都不会改变sum的变化趋势，也就不会影响对最优k的判定。
+
 
 [Leetcode Link](https://leetcode.com/problems/smallest-rotation-with-highest-score)
