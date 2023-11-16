@@ -3,20 +3,20 @@ public:
     int bestRotation(vector<int>& A) 
     {
         int N = A.size();
-        vector<int>diff(N,0);
+        vector<int>diff(N+1,0);
         for (int i=0; i<N; i++)
         {
             if (A[i]<=i)
             {
                 diff[0] += 1;
-                diff[(i-A[i]+1)%N]-=1;
-                diff[(i+1)%N]+=1;
+                diff[i-A[i]+1]-=1;
+                diff[i+1]+=1;
             }
             else
             {
                 diff[0] += 0;
-                diff[(i+1)%N] +=1;
-                diff[(i+1 + N-A[i]) % N] -= 1;
+                diff[i+1] +=1;
+                diff[i+1 + N-A[i]] -= 1;
             }            
         }
         
