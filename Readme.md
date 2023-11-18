@@ -461,6 +461,7 @@
 [1792.Maximum-Average-Pass-Ratio](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1792.Maximum-Average-Pass-Ratio) (M+)  
 [2263.Make-Array-Non-decreasing-or-Non-increasing](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2263.Make-Array-Non-decreasing-or-Non-increasing) (H)      
 [2386.Find-the-K-Sum-of-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2386.Find-the-K-Sum-of-an-Array) (H+)    
+[2931.Maximum-Spending-After-Buying-Items](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2931.Maximum-Spending-After-Buying-Items) (M)      
 * ``反悔贪心``   
 [630.Course-Schedule-III](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/630.Course-Schedule-III) (H)   
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
