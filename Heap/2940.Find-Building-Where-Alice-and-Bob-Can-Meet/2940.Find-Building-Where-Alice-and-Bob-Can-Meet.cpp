@@ -20,7 +20,7 @@ public:
         for (auto& query: queries)
         {
             int a = query[0], b = query[1], idx = query[2];
-            while (i>=max(a,b))
+            while (i>=b)
             {
                 while (!Map.empty() && heights[i] >= (Map.begin()->first))
                     Map.erase(Map.begin());
