@@ -194,7 +194,7 @@
 [2489.Number-of-Substrings-With-Fixed-Ratio](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2489.Number-of-Substrings-With-Fixed-Ratio) (H-)    
 [2588.Count-the-Number-of-Beautiful-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2588.Count-the-Number-of-Beautiful-Subarrays) (M+)      
 [2845.Count-of-Interesting-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2845.Count-of-Interesting-Subarrays) (M+)      
-[2875.Minimum-Size-Subarray-in-Infinite-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2875.Minimum-Size-Subarray-in-Infinite-Array) (H-)      
+[2875.Minimum-Size-Subarray-in-Infinite-Array](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2875.Minimum-Size-Subarray-in-Infinite-Array) (H-) 
 
 #### [Heap](https://github.com/wisdompeak/LeetCode/tree/master/Heap)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Heap/220.Contains-Duplicate-III) (M)  
@@ -221,12 +221,14 @@
 [2612.Minimum-Reverse-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2612.Minimum-Reverse-Operations) (H)      
 [2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2653.Sliding-Subarray-Beauty) (M+)     
 [2736.Maximum-Sum-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2736.Maximum-Sum-Queries) (H)     
-[2926.Maximum-Balanced-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2926.Maximum-Balanced-Subsequence-Sum) (H)      
 * ``Maintain intervals``    
 [715.Range-Module](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/715.Range-Module) (H)    
 [2213.Longest-Substring-of-One-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2213.Longest-Substring-of-One-Repeating-Character) (H)    
 [2276.Count-Integers-in-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2276.Count-Integers-in-Intervals) (H-)      
 [2382.Maximum-Segment-Sum-After-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2382.Maximum-Segment-Sum-After-Removals) (M+)    
+* ``Monotonic Heap``    
+[2940.Find-Building-Where-Alice-and-Bob-Can-Meet](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2940.Find-Building-Where-Alice-and-Bob-Can-Meet) (H)      
+[2926.Maximum-Balanced-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2926.Maximum-Balanced-Subsequence-Sum) (H)
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
