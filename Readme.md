@@ -1551,7 +1551,7 @@
 #### [Thinking](https://github.com/wisdompeak/LeetCode/tree/master/Thinking)  
 [2860.Happy-Students](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2860.Happy-Students) (M+)      
 [2862.Maximum-Element-Sum-of-a-Complete-Subset-of-Indices](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2862.Maximum-Element-Sum-of-a-Complete-Subset-of-Indices) (H-)      
-
+[2939.Maximum-Xor-Product](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2939.Maximum-Xor-Product) (H-)      
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
