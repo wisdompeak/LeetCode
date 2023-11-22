@@ -80,7 +80,7 @@ class SegTreeNode
     {
         if (b < start || a > end )
         {
-            return INT_MIN;  // check with your own logic
+            return INT_MIN/2;  // check with your own logic
         }
         if (a <= start && end <=b)
         {
