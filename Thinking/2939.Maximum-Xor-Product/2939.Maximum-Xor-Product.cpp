@@ -27,7 +27,7 @@ public:
                     {
                         a = a - (bit1<<k) + (1LL<<k);
                         b = b - (bit2<<k);
-                        flag = 1-flag;
+                        flag = 1;
                     }
                     else
                     {
