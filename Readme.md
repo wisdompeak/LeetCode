@@ -1205,6 +1205,7 @@
 [2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps](https://github.com/wisdompeak/LeetCode/tree/master/Math/2400.Number-of-Ways-to-Reach-a-Position-After-Exactly-k-Steps) (M+)     
 [2514.Count-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Math/2514.Count-Anagrams) (H-)      
 [2539.Count-the-Number-of-Good-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/2539.Count-the-Number-of-Good-Subsequences) (H-)      
+[2930.Number-of-Strings-Which-Can-Be-Rearranged-to-Contain-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Math/2930.Number-of-Strings-Which-Can-Be-Rearranged-to-Contain-Substring) (H-)      
 * ``Numerical Theory``   
 [204.Count-Primes](https://github.com/wisdompeak/LeetCode/tree/master/Math/204.Count-Primes) (M)    
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
