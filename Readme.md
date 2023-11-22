@@ -228,7 +228,8 @@
 [2382.Maximum-Segment-Sum-After-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2382.Maximum-Segment-Sum-After-Removals) (M+)    
 * ``Monotonic Heap``    
 [2940.Find-Building-Where-Alice-and-Bob-Can-Meet](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2940.Find-Building-Where-Alice-and-Bob-Can-Meet) (H)      
-[2926.Maximum-Balanced-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2926.Maximum-Balanced-Subsequence-Sum) (H)
+[2926.Maximum-Balanced-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2926.Maximum-Balanced-Subsequence-Sum) (H)      
+[2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I) (H)      
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
@@ -334,6 +335,7 @@
 [2286.Booking-Concert-Tickets-in-Groups](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2286.Booking-Concert-Tickets-in-Groups) (H-)    
 [2407.Longest-Increasing-Subsequence-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2407.Longest-Increasing-Subsequence-II) (H-)     
 [2569.Handling-Sum-Queries-After-Update](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2569.Handling-Sum-Queries-After-Update) (H)     
+[2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I) (H)      
 
 #### [Binary Index Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
