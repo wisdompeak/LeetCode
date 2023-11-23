@@ -18,7 +18,8 @@ public:
             if (profits[i] <= left[i])
                 continue;
             Map[prices[i]] = profits[i];
-            iter = next(Map.find(prices[i]));
+            
+            iter = Map.upper_bound(prices[i]);
             while (iter!=Map.end() && iter->second <= profits[i])
                 iter = Map.erase(iter);
         }
@@ -36,9 +37,9 @@ public:
                 continue;
             if (profits[i] <= right[i])
                 continue;
-            Map[prices[i]] = profits[i];            
-            iter = Map.find(prices[i]);
-            
+            Map[prices[i]] = profits[i];   
+
+            iter = Map.find(prices[i]);            
             map<int,int>::reverse_iterator rit(iter);
             // Note rit is actually at a one-position diff before iter.       
             vector<int>to_delete;
