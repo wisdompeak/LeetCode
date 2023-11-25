@@ -2,14 +2,13 @@ class Solution {
 public:
     int minGroupsForValidAssignment(vector<int>& nums) 
     {
-        int n = nums.size();
-        int m = 0;
-        unordered_map<int,int>Map;
-        for (int x: nums)
-        {
-            Map[x]++;
-            m = max(m, Map[x]);
-        }
+        int n = nums.size();        
+        unordered_map<int,int>Map;        
+        for (int x: nums) Map[x]++;
+
+        int m = INT_MAX;
+        for (auto [_, x]: Map) 
+            m = min(m, x);
                             
         for (int k=m; k>=1; k--)                
         {
