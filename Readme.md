@@ -1462,7 +1462,6 @@
 [2718.Sum-of-Matrix-After-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/2718.Sum-of-Matrix-After-Queries) (M+)    
 [2808.Minimum-Seconds-to-Equalize-a-Circular-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2808.Minimum-Seconds-to-Equalize-a-Circular-Array) (M+)     
 [2811.Check-if-it-is-Possible-to-Split-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2811.Check-if-it-is-Possible-to-Split-Array) (M+)      
-[2857.Count-Pairs-of-Points-With-Distance-k](https://github.com/wisdompeak/LeetCode/tree/master/Others/2857.Count-Pairs-of-Points-With-Distance-k) (M+)      
 * ``公式变形``      
 [2898.Maximum-Linear-Stock-Score](https://github.com/wisdompeak/LeetCode/tree/master/Others/2898.Maximum-Linear-Stock-Score) (M)      
 * ``Collision``   
@@ -1530,6 +1529,7 @@
 [2013.Detect-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Others/2013.Detect-Squares) (M+)      
 [2552.Count-Increasing-Quadruplets](https://github.com/wisdompeak/LeetCode/tree/master/Others/2552.Count-Increasing-Quadruplets) (H-)      
 [2768.Number-of-Black-Blocks](https://github.com/wisdompeak/LeetCode/tree/master/Others/2768.Number-of-Black-Blocks) (M+)      
+[2857.Count-Pairs-of-Points-With-Distance-k](https://github.com/wisdompeak/LeetCode/tree/master/Others/2857.Count-Pairs-of-Points-With-Distance-k) (M+)      
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
