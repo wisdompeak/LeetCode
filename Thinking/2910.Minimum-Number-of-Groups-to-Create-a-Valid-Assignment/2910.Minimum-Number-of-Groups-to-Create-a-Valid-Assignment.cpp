@@ -10,14 +10,16 @@ public:
         for (auto [_, x]: Map) 
             m = min(m, x);
                             
-        for (int k=m; k>=1; k--)                
+        for (int k=m+1; k>=1; k--)                
         {
             int count = 0;
             for (auto [_, x]: Map)
             {
-                if (x % k <= x/k)
+                int q = x / k;
+                int r = x % k;
+                if (r==0 || k-r <= q+1)
                 {
-                    count += ceil(x*1.0/(k+1));
+                    count += ceil(x*1.0 / k);
                 }
                 else
                 {
