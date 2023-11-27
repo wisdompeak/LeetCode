@@ -230,6 +230,7 @@
 [2940.Find-Building-Where-Alice-and-Bob-Can-Meet](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2940.Find-Building-Where-Alice-and-Bob-Can-Meet) (H)      
 [2926.Maximum-Balanced-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2926.Maximum-Balanced-Subsequence-Sum) (H)      
 [2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I) (H)      
+[2945.Find-Maximum-Non-decreasing-Array-Length](https://github.com/wisdompeak/LeetCode/tree/master/Heap/2945.Find-Maximum-Non-decreasing-Array-Length) (H)      
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
