@@ -42,17 +42,17 @@ public:
                 m *= pow(p, count/2);
         }
         m*=2;
-        cout<<m<<endl;
 
         int n = s.size();
+        s.insert(s.begin(), '#');
         int ret = 0;
         
         map<int, unordered_map<int,int>>Map;
-        Map[0][(-1+m)%m]=1;
+        Map[0][0]=1;
         
         int count = 0;
         
-        for (int i=0; i<n; i++)
+        for (int i=1; i<=n; i++)
         {
             if (Set.find(s[i])!=Set.end())
                 count++;
@@ -66,10 +66,5 @@ public:
         }
         
         return ret;        
-    }
-    
-    bool check(char ch)
-    {
-        return Set.find(ch)!=Set.end();
     }
 };
