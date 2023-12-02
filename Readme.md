@@ -278,7 +278,8 @@
 [2313.Minimum-Flips-in-Binary-Tree-to-Get-Result](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2313.Minimum-Flips-in-Binary-Tree-to-Get-Result) (H)
 [2467.Most-Profitable-Path-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2467.Most-Profitable-Path-in-a-Tree) (M+)      
 [2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries) (M+)    
-[2646.Minimize-the-Total-Price-of-the-Trips](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2646.Minimize-the-Total-Price-of-the-Trips) (M+)     
+[2646.Minimize-the-Total-Price-of-the-Trips](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2646.Minimize-the-Total-Price-of-the-Trips) (M+)      
+[2920.Maximum-Points-After-Collecting-Coins-From-All-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2920.Maximum-Points-After-Collecting-Coins-From-All-Nodes) (H-)      
 [2925.Maximum-Score-After-Applying-Operations-on-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2925.Maximum-Score-After-Applying-Operations-on-a-Tree) (M)      
 * ``Path in a tree``    
 [543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
