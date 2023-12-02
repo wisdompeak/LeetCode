@@ -45,7 +45,7 @@ public:
             dp[i][1] = range[0][i];
         
         for (int i=0; i<n; i++)        
-            for (int p=2; p<=n; p++)
+            for (int p=2; p<=k; p++)
             {
                 dp[i][p] = INT_MAX/2;        
                 for (int j=0; j<i; j++)
