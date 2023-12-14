@@ -630,7 +630,6 @@
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)     
 [2473.Minimum-Cost-to-Buy-Apples](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2473.Minimum-Cost-to-Buy-Apples) (M)      
 [2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
-[2662.Minimum-Cost-of-a-Path-With-Special-Roads](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2662.Minimum-Cost-of-a-Path-With-Special-Roads) (H-)      
 * ``Dijkstra (for Bipatite Graph)``   
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
@@ -1124,6 +1123,9 @@
 [2699.Modify-Graph-Edge-Weights](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2699.Modify-Graph-Edge-Weights) (H)    
 [2791.Count-Paths-That-Can-Form-a-Palindrome-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2791.Count-Paths-That-Can-Form-a-Palindrome-in-a-Tree) (H)      
 [2876.Count-Visited-Nodes-in-a-Directed-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2876.Count-Visited-Nodes-in-a-Directed-Graph) (M+)      
+* ``Dijkstra``  
+[2662.Minimum-Cost-of-a-Path-With-Special-Roads](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2662.Minimum-Cost-of-a-Path-With-Special-Roads) (H-)      
+[2959.Number-of-Possible-Sets-of-Closing-Branches](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2959.Number-of-Possible-Sets-of-Closing-Branches) (M+)      
 * ``Floyd``  
 [1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance) (M)      
 [2642.Design-Graph-With-Shortest-Path-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator) (M+)      
