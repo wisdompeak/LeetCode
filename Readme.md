@@ -53,7 +53,7 @@
 [2730.Find-the-Longest-Semi-Repetitive-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2730.Find-the-Longest-Semi-Repetitive-Substring) (M+)      
 [2747.Count-Zero-Request-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2747.Count-Zero-Request-Servers) (H-)      
 [2831.Find-the-Longest-Equal-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2831.Find-the-Longest-Equal-Subarray) (M)      
-[2957.Remove-Adjacent-Almost-Equal-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2957.Remove-Adjacent-Almost-Equal-Characters) (M)      
+[2958.Length-of-Longest-Subarray-With-at-Most-K-Frequency](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2958.Length-of-Longest-Subarray-With-at-Most-K-Frequency) (M)      
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
