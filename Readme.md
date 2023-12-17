@@ -1172,7 +1172,7 @@
 [1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)    
 1515.Best Position for a Service Centre (TBD)  
 [1956.Minimum-Time-For-K-Virus-Variants-to-Spread](https://github.com/wisdompeak/LeetCode/tree/master/Math/1956.Minimum-Time-For-K-Virus-Variants-to-Spread) (H+)     
-* ``Median``   
+* ``Median Theorem``   
 [462.Minimum-Moves-to-Equal-Array-Elements-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/462.Minimum-Moves-to-Equal-Array-Elements-II) (M-)    
 [1703.Minimum-Adjacent-Swaps-for-K-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/1703.Minimum-Adjacent-Swaps-for-K-Consecutive-Ones) (H)  
 [2033.Minimum-Operations-to-Make-a-Uni-Value-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Math/2033.Minimum-Operations-to-Make-a-Uni-Value-Grid) (M+)      
