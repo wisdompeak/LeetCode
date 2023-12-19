@@ -1180,6 +1180,7 @@
 [2448.Minimum-Cost-to-Make-Array-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Math/2448.Minimum-Cost-to-Make-Array-Equal) (H-)     
 [2607.Make-K-Subarray-Sums-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Math/2607.Make-K-Subarray-Sums-Equal) (M+)      
 [1838.Frequency-of-the-Most-Frequent-Element](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1838.Frequency-of-the-Most-Frequent-Element) (H-)      
+[2967.Minimum-Cost-to-Make-Array-Equalindromic](https://github.com/wisdompeak/LeetCode/tree/master/Math/2967.Minimum-Cost-to-Make-Array-Equalindromic) (H-)      
 [2968.Apply-Operations-to-Maximize-Frequency-Score](https://github.com/wisdompeak/LeetCode/tree/master/Math/2968.Apply-Operations-to-Maximize-Frequency-Score) (H-)      
 * ``Geometry``   
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
