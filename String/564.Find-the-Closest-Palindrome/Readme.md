@@ -1,7 +1,5 @@
 ### 564.Find-the-Closest-Palindrome
 
-这是一道比较难的题目。
-
 看到题目最直观的想法是，想要尽量接近原数，那就保持高位不变，将数字的前半部分翻转后拼接到后半部分，比如说12345，那么我们就找12321，它必然是回文数。
 
 但是这样的策略找到不一定是离原数最接近的。比如12399，如果我们选择直接翻转，12321就不是最优解，最优解应该是12421. 再比如19200,直接翻转的19291不是最优解，最优解是19191. 总之，直接翻转的策略，我们无法确定得到的是next greater palindrome，还是next smaller palindrome。而closest palindrome可能是两者的任意一个。于是这道题其实就转换成了分别求next greater palindrome和next smaller palindrome的问题。
