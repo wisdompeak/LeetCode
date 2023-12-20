@@ -1413,7 +1413,6 @@
 [2498.Frog-Jump-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2498.Frog-Jump-II) (H)     
 [2499.minimum-total-cost-to-make-arrays-unequal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2499.minimum-total-cost-to-make-arrays-unequal) (H)    
 [2567.Minimum-Score-by-Changing-Two-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2567.Minimum-Score-by-Changing-Two-Elements) (M)   
-[1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [2568.Minimum-Impossible-OR](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2568.Minimum-Impossible-OR) (H-)     
 [2571.Minimum-Operations-to-Reduce-an-Integer-to-0](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2571.Minimum-Operations-to-Reduce-an-Integer-to-0) (H-)      
 [2573.Find-the-String-with-LCP](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2573.Find-the-String-with-LCP) (H-)    
@@ -1571,6 +1570,8 @@
 [2910.Minimum-Number-of-Groups-to-Create-a-Valid-Assignment](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2910.Minimum-Number-of-Groups-to-Create-a-Valid-Assignment) (H-)      
 [2939.Maximum-Xor-Product](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2939.Maximum-Xor-Product) (H-)      
 [2957.Remove-Adjacent-Almost-Equal-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2957.Remove-Adjacent-Almost-Equal-Characters) (M)      
+[1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
+[2952.Minimum-Number-of-Coins-to-be-Added](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2952.Minimum-Number-of-Coins-to-be-Added) (H-)      
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
