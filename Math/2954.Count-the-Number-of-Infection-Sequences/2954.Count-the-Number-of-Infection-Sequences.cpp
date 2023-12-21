@@ -2,56 +2,39 @@ using LL = long long;
 class Solution {
     LL power[100005];
     LL fact[100005];
-    LL M = 1e9+7;
     LL mod = 1e9+7;
 public:
     int numberOfSequence(int n, vector<int>& sick) 
     {
         power[0] = 1;
         for (int i=1; i<=n; i++)
-            power[i] = power[i-1]*2 % M;
+            power[i] = power[i-1]*2 % mod;
         
         fact[0] = 1;
         for (int i=1; i<=n; i++)
-            fact[i] = fact[i-1]*i % M;
+            fact[i] = fact[i-1]*i % mod;
         
         vector<int>groups;
         for (int i=0; i<sick.size(); i++)
         {
             if (i==0)
-            {
-                if (sick[0]!=0)
-                    groups.push_back(sick[i]);
-            }                
+                groups.push_back(sick[i]);
             else 
-            {
-                if (sick[i]-sick[i-1]-1>0)
-                    groups.push_back(sick[i]-sick[i-1]-1);                
-            }
-                
+                groups.push_back(sick[i]-sick[i-1]-1);                                
         }
-        if (sick.back()!=n-1)
-            groups.push_back(n-1-sick.back());
-        
-        // for (int x: groups) cout<<x<<" "; cout<<endl;
+        groups.push_back(n-1-sick.back());
         
         int total = accumulate(groups.begin(), groups.end(), 0);
         
         LL ret = fact[total];
-        for (int x: groups)
-        {
-            // cout<<fact[x]<<endl;
-            ret = ret * inv(fact[x]) % M;
-        }
-        
-        // cout<<ret<<endl;
-            
-        
+        for (int x: groups) 
+            ret = ret * inv(fact[x]) % mod;
+                
         for (int i=1; i<sick.size(); i++)
         {
             int x = sick[i]-sick[i-1]-1;
             if (x>0)
-                ret = ret * power[x-1] % M;
+                ret = ret * power[x-1] % mod;
         }
         
         return ret;
