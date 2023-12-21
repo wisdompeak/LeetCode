@@ -15,7 +15,31 @@ public:
         return ret;        
     }
     
-    bool check(vector<int>& freq, int k)
+    int helper(string s, int k)
+    {
+        int count = 0;
+        set<char>Set(s.begin(), s.end());
+        for (int T = 1; T <= Set.size(); T++) 
+        {
+            int len = T * k;            
+            vector<int>freq(26,0);
+            int j = 0;
+            for (int i=0; i+len-1<s.size(); i++)
+            {
+                while (j<=i+len-1)
+                {
+                    freq[s[j]-'a']++;
+                    j++;
+                }                    
+                if (check(freq, k)) count++;
+                freq[s[i]-'a']--;
+            }
+        }
+        
+        return count;
+    }
+
+        bool check(vector<int>& freq, int k)
     {
         for (int x: freq)
         {
@@ -23,32 +47,5 @@ public:
                 return false;        
         }
         return true;
-    }
-
-    int helper(string s, int k)
-    {
-        int count = 0;
-        set<char>Set(s.begin(), s.end());
-        for (int T = 1; T <= Set.size(); T++) 
-        {
-            int length = T * k;            
-            vector<int>freq(26,0);
-            int start = 0;
-            int end = start + length - 1;
-            for (int i = start; i <= min(end, (int)s.size() - 1); i++) 
-            {                
-                freq[s[i]-'a']++;
-            }
-            while (end < s.size()) 
-            {
-                if (check(freq, k)) count++;
-                freq[s[start]-'a']--;
-                start++;
-                end++;
-                if (end < s.size()) freq[s[end]-'a']++;
-            }
-        }
-        
-        return count;
     }
 };
