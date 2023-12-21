@@ -1242,7 +1242,6 @@
 [665.Non-decreasing-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/665.Non-decreasing-Array) (H)   
 670.Maximum-Swap (M+)   
 649.Dota2-Senate (H)    
-[330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 [683.K-Empty-Slots](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/683.K-Empty-Slots)　(H)   
 [517.Super-Washing-Machines](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/517.Super-Washing-Machines) (H)    
 870.Advantage-Shuffle (M)   
@@ -1570,6 +1569,7 @@
 [2910.Minimum-Number-of-Groups-to-Create-a-Valid-Assignment](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2910.Minimum-Number-of-Groups-to-Create-a-Valid-Assignment) (H-)      
 [2939.Maximum-Xor-Product](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2939.Maximum-Xor-Product) (H-)      
 [2957.Remove-Adjacent-Almost-Equal-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2957.Remove-Adjacent-Almost-Equal-Characters) (M)      
+[330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 [1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [2952.Minimum-Number-of-Coins-to-be-Added](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2952.Minimum-Number-of-Coins-to-be-Added) (H-)      
 
