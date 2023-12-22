@@ -1128,7 +1128,6 @@
 * ``Dijkstra``  
 [2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
 [2662.Minimum-Cost-of-a-Path-With-Special-Roads](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2662.Minimum-Cost-of-a-Path-With-Special-Roads) (H-)      
-[2959.Number-of-Possible-Sets-of-Closing-Branches](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2959.Number-of-Possible-Sets-of-Closing-Branches) (M+)      
 * ``Floyd``  
 [1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance) (M)      
 [2642.Design-Graph-With-Shortest-Path-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator) (M+)      
