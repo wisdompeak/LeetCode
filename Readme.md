@@ -656,6 +656,7 @@
 1032. Stream of Characters (TBD)  
 [1858.Longest-Word-With-All-Prefixes](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1858.Longest-Word-With-All-Prefixes) (M)  
 [2416.Sum-of-Prefix-Scores-of-Strings](https://github.com/wisdompeak/LeetCode/tree/master/Trie/2416.Sum-of-Prefix-Scores-of-Strings) (M)     
+[2977.Minimum-Cost-to-Convert-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Trie/2977.Minimum-Cost-to-Convert-String-II) (H)      
 * ``Trie and XOR``   
 [421.Maximum-XOR-of-Two-Numbers-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/421.Maximum-XOR-of-Two-Numbers-in-an-Array) (H-)    
 [1707.Maximum-XOR-With-an-Element-From-Array](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1707.Maximum-XOR-With-an-Element-From-Array) (H-)  
