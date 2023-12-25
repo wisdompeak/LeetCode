@@ -285,6 +285,7 @@
 [2646.Minimize-the-Total-Price-of-the-Trips](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2646.Minimize-the-Total-Price-of-the-Trips) (M+)      
 [2920.Maximum-Points-After-Collecting-Coins-From-All-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2920.Maximum-Points-After-Collecting-Coins-From-All-Nodes) (H-)      
 [2925.Maximum-Score-After-Applying-Operations-on-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2925.Maximum-Score-After-Applying-Operations-on-a-Tree) (M)      
+[2973.Find-Number-of-Coins-to-Place-in-Tree-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2973.Find-Number-of-Coins-to-Place-in-Tree-Nodes) (H-)      
 * ``Path in a tree``    
 [543.Diameter-of-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/543.Diameter-of-Binary-Tree) (M)    
 [124.Binary-Tree-Maximum-Path-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/124.Binary-Tree-Maximum-Path-Sum) (M)   
