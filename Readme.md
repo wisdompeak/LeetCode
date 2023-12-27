@@ -97,6 +97,7 @@
 [1901.Find-a-Peak-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1901.Find-a-Peak-Element-II) (H)  
 [2563.Count-the-Number-of-Fair-Pairs](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2563.Count-the-Number-of-Fair-Pairs) (M+)     
 [2819.Minimum-Relative-Loss-After-Buying-Chocolates](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2819.Minimum-Relative-Loss-After-Buying-Chocolates) (H)      
+[2972.Count-the-Number-of-Incremovable-Subarrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2972.Count-the-Number-of-Incremovable-Subarrays-II) (H-)      
 * ``Binary Lifting``  
 [1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)      
 [2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game) (H)      
