@@ -739,6 +739,7 @@
 [2826.Sorting-Three-Groups](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2826.Sorting-Three-Groups) (M)      
 [2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
 [2896.Apply-Operations-to-Make-Two-Strings-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2896.Apply-Operations-to-Make-Two-Strings-Equal) (H)      
+[2979.Most-Expensive-Item-That-Can-Not-Be-Bought](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2979.Most-Expensive-Item-That-Can-Not-Be-Bought) (M+)      
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
