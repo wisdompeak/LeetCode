@@ -1,6 +1,6 @@
 ### 2916.Subarrays-Distinct-Element-Sum-of-Squares-II
 
-我们声明建立一个线段树，在i时刻，线段树每个叶子节点j表示区间[j:i]里distinct number的个数，记做count[j]。注意，我们遍历时刻i=0,1,2...n-1，其中n就是nums的元素个数。当j>i时，区间实际不存在，故记做count[j]=0.
+我们声明建立一个线段树，在`i`时刻，线段树每个叶子节点`j`表示区间[j:i]里distinct number的个数。注意，我们遍历时刻`i=0,1,2...n-1`，其中n就是nums的元素个数。当j>i时，区间实际不存在，故标记0.
 
 我们令square[i]表示所有以i为结尾的区间的square of distinct number的和。
 
