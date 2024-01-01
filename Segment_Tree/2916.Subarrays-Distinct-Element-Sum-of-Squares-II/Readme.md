@@ -9,7 +9,7 @@
 2. 对于`j=k+1,k+2,...,i-1`而言，`count[j:i] = count[j:i-1]+1，两边平方一下就得到`square[j:i] = square[j:i-1] + 2*count[j:i-1] + 1`.
 将两部分相加得到
 ```
-sum{square[j:i]} = sum{square[j:i-1]} (for j=0,1,2,...i-1) + 2 * sum{count[j:i-1]} + (i-1-k)`,  j=k+1,...i-1
+sum{square[j:i]} = sum{square[j:i-1]} (for j=0,1,2,...i-1) + 2 * sum{count[j:i-1]} + (i-1-k) (for j=k+1,...i-1)
 ```
 可见`sum{square[j:i]}`与`sum{square[j:i-1]}`之间存在递推关系。其中相差的部分`sum{count[j:i-1]}`就是之前定义的线段树中在t=i-1时刻，叶子节点区间[k+1, i-1]的元素之和。
 
