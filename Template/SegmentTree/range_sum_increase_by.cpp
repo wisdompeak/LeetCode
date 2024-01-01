@@ -1,4 +1,5 @@
 using LL = long long;
+LL M = 1e9+7;
 class SegTreeNode
 {
     public:
@@ -51,7 +52,9 @@ class SegTreeNode
     {
         if (tag==1 && left)
         {
+            left->info += delta * (left->end - left->start + 1);            
             left->delta += delta;
+            right->info += delta * (right->end - right->start + 1);
             right->delta += delta;
             left->tag = 1;
             right->tag = 1;
@@ -66,21 +69,24 @@ class SegTreeNode
             return;        
         if (a <= start && end <=b)  // completely covered within [a,b]
         {
+            info += val * (end-start+1);
             delta += val;
             tag = 1;
             return;
         }
 
         if (left)
-        {
-            pushDown();        
-            left->updateRangeBy(a, b, val);
-            right->updateRangeBy(a, b, val);
+        {            
+            pushDown();
+            left->updateRangeBy(a, b, val+delta);
+            right->updateRangeBy(a, b, val+delta);
+            delta = 0;
+            tag = 0;
             info = left->info + right->info;  // write your own logic            
         }        
     }
     
-    LL queryRange(int a, int b)     // query the maximum value within range [a,b]
+    LL queryRange(int a, int b)     // query the sum within range [a,b]
     {
         if (b < start || a > end )
         {
@@ -88,8 +94,8 @@ class SegTreeNode
         }
         if (a <= start && end <=b)
         {
-            return info + delta*(end-start+1);  // check with your own logic
-        }          
+            return info;  // check with your own logic
+        }
         
         if (left)
         {
