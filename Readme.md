@@ -1114,6 +1114,7 @@
 [2719.Count-of-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2719.Count-of-Integers) (H)      
 [2801.Count-Stepping-Numbers-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2801.Count-Stepping-Numbers-in-Range) (H)      
 [2827.Number-of-Beautiful-Integers-in-the-Range](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2827.Number-of-Beautiful-Integers-in-the-Range) (H)      
+[2999.Count-the-Number-of-Powerful-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2999.Count-the-Number-of-Powerful-Integers) (H-)      
 
 #### [Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/)
 [332.Reconstruct-Itinerary](https://github.com/wisdompeak/LeetCode/tree/master/DFS/332.Reconstruct-Itinerary) (H)   
