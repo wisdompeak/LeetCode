@@ -1093,6 +1093,7 @@
 [1274.Number-of-Ships-in-a-Rectangle](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1274.Number-of-Ships-in-a-Rectangle) (M)   
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 [1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero) (H)  
+[2998.Minimum-Number-of-Operations-to-Make-X-and-Y-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2998.Minimum-Number-of-Operations-to-Make-X-and-Y-Equal) (M+)      
 * ``Evaluate Expressions``    
 [241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (M+)    
 [2019.The-Score-of-Students-Solving-Math-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2019.The-Score-of-Students-Solving-Math-Expression) (H-)    
