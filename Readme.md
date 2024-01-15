@@ -1018,7 +1018,8 @@
 1397.Find All Good Strings (TBD)  
 [1764.Form-Array-by-Concatenating-Subarrays-of-Another-Array](https://github.com/wisdompeak/LeetCode/tree/master/String/1764.Form-Array-by-Concatenating-Subarrays-of-Another-Array) (H)  
 [2301.Match-Substring-After-Replacement](https://github.com/wisdompeak/LeetCode/tree/master/String/2301.Match-Substring-After-Replacement) (H-)      
-[2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)     
+[2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
+[3008.Find-Beautiful-Indices-in-the-Given-Array-II](https://github.com/wisdompeak/LeetCode/tree/master/String/3008.Find-Beautiful-Indices-in-the-Given-Array-II) (H-)      
 * ``Manacher``   
 [005.Longest-Palindromic-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/005.Longest-Palindromic-Substring) (H)  
 [214.Shortest-Palindrome](https://github.com/wisdompeak/LeetCode/blob/master/String/214.Shortest-Palindrome) (H)  
