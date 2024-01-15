@@ -1568,7 +1568,8 @@
 [973.K-Closest-Points-to-Origin](https://github.com/wisdompeak/LeetCode/tree/master/Others/973.K-Closest-Points-to-Origin) (M)      
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 * ``Digit counting``   
-[233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)   
+[233.Number-of-Digit-One](https://github.com/wisdompeak/LeetCode/tree/master/Math/233.Number-of-Digit-One) (H-)      
+[3007.Maximum-Number-That-Sum-of-the-Prices-Is-Less-Than-or-Equal-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Others/3007.Maximum-Number-That-Sum-of-the-Prices-Is-Less-Than-or-Equal-to-K) (H)      
 [1067.Digit-Count-in-Range](https://github.com/wisdompeak/LeetCode/tree/master/Others/1067.Digit-Count-in-Range) (H)   
 [357.Count-Numbers-with-Unique-Digits](https://github.com/wisdompeak/LeetCode/tree/master/Others/357.Count-Numbers-with-Unique-Digits) (M)     
 [2417.Closest-Fair-Integer](https://github.com/wisdompeak/LeetCode/tree/master/Others/2417.Closest-Fair-Integer) (H-)      
