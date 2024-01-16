@@ -1412,7 +1412,7 @@
 [1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1326.Minimum-Number-of-Taps-to-Open-to-Water-a-Garden) (M+)   
 [2054.Two-Best-Non-Overlapping-Events](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2054.Two-Best-Non-Overlapping-Events) (H-)     
 [2580.Count-Ways-to-Group-Overlapping-Ranges](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2580.Count-Ways-to-Group-Overlapping-Ranges) (M)    
-[2589.Minimum-Time-to-Complete-All-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2589.Minimum-Time-to-Complete-All-Tasks) (H)
+[2589.Minimum-Time-to-Complete-All-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2589.Minimum-Time-to-Complete-All-Tasks) (H)      
 [2983.Palindrome-Rearrangement-Queries](https://github.com/wisdompeak/LeetCode/new/master/Greedy/2983.Palindrome-Rearrangement-Queries) (H+)      
 * ``Constructive Problems``   
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
