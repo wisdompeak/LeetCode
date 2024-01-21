@@ -1136,6 +1136,7 @@
 [2699.Modify-Graph-Edge-Weights](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2699.Modify-Graph-Edge-Weights) (H)    
 [2791.Count-Paths-That-Can-Form-a-Palindrome-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2791.Count-Paths-That-Can-Form-a-Palindrome-in-a-Tree) (H)      
 [2876.Count-Visited-Nodes-in-a-Directed-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2876.Count-Visited-Nodes-in-a-Directed-Graph) (M+)      
+[3017.Count-the-Number-of-Houses-at-a-Certain-Distance-II](https://github.com/wisdompeak/LeetCode/tree/master/Graph/3017.Count-the-Number-of-Houses-at-a-Certain-Distance-II) (H)      
 * ``Dijkstra``  
 [2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
 [2662.Minimum-Cost-of-a-Path-With-Special-Roads](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2662.Minimum-Cost-of-a-Path-With-Special-Roads) (H-)      
