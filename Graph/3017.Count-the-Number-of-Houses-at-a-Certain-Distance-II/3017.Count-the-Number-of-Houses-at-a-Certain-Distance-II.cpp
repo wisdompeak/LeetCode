@@ -17,20 +17,20 @@ public:
         }
         
         LL ret = 0;
-        int d = y-x-1;
+        int d = y-x+1;
         
         helper0(x-1); //AA                
         helper0(n-y); //BB
         
         helper1(x-1, n-y); //AB
-        helper2(x, (d+1)/2, d/2+1);  //AC
-        
-        helper2(n-y+1, (d+1)/2, d/2+1);  //BC
+
+        helper2(x-1, (d-1)/2, (d-1)-(d-1)/2);  //AC
+        helper2(n-y, (d-1)/2, (d-1)-(d-1)/2);  //BC
         
         for (int t=1; t<=n; t++)
             rets[t] *= 2;
         
-        helper3(d+2); // CC        
+        helper3(d); // CC        
         
         for (int t=1; t<=n; t++)
             ans.push_back(rets[t]);
@@ -56,27 +56,27 @@ public:
             LL end = min(a+2+b-t, a);
             rets[t] += max(0LL, end-start+1);    
         }
-    }
-    
+    }    
+
     void helper2(LL a, LL b, LL c)
     {
         for (int t=1; t<=n; t++)
         {
-            LL start = max(a+1-t, 1ll);
-            LL end = min(a+b-t, a-1);          
+            LL start = max(a+2-t, 1ll);
+            LL end = min(a+1+b-t, a);          
             rets[t] += max(0LL, end-start+1);
         }
         
         for (int t=1; t<=n; t++)
         {
-            LL start = max(a+1-t, 1ll);
-            LL end = min(a+c-t, a-1);          
+            LL start = max(a+2-t, 1ll);
+            LL end = min(a+1+c-t, a);          
             rets[t] += max(0LL, end-start+1);
         }
         
         for (int t=1; t<=n; t++)
         {
-            if (a-1>=t)
+            if (a>=t)
                 rets[t] += 1;            
         }
         
