@@ -1,95 +1,96 @@
 using LL = long long;
 class Solution {
-    LL rets[100005];
+    LL count[100005];
     int n;
 public:
     vector<long long> countOfPairs(int n, int x, int y) 
     {
-        if (x>y) return countOfPairs(n,y,x);
-        vector<LL>ans;
+        if (x>y) return countOfPairs(n, y, x);
         this->n = n;
-                
-        if (x==y || abs(x-y)==1)
+
+        vector<LL>rets;
+
+        if (abs(x-y)<=1)
         {
             for (int t=1; t<=n; t++)
-                ans.push_back((n-t)*2);
-            return ans;            
+                rets.push_back((n-t)*2);
+            return rets;            
         }
-        
-        LL ret = 0;
+
+        f1(x-1);
+        f1(n-y);
+
+        cout<<"OK"<<endl;
+
+        f2(x-1, n-y);
+        cout<<"OK"<<endl;
+
         int d = y-x+1;
-        
-        helper0(x-1); //AA                
-        helper0(n-y); //BB
-        
-        helper1(x-1, n-y); //AB
+        f3(x-1, (d-1)/2, (d-1)-(d-1)/2);
+        f3(n-y, (d-1)/2, (d-1)-(d-1)/2);
+        cout<<"OK"<<endl;
 
-        helper2(x-1, (d-1)/2, (d-1)-(d-1)/2);  //AC
-        helper2(n-y, (d-1)/2, (d-1)-(d-1)/2);  //BC
-        
         for (int t=1; t<=n; t++)
-            rets[t] *= 2;
-        
-        helper3(d); // CC        
-        
-        for (int t=1; t<=n; t++)
-            ans.push_back(rets[t]);
-        return ans;
-    }
-    
-    void helper0(LL a)
-    {
-        for (int t=1; t<=n; t++)
-        {
-            LL start = 1;
-            LL end = a-t;          
-            rets[t] += max(0LL, end-start+1);
-        }
-        
-    }
-    
-    void helper1(LL a, LL b)
-    {
-        for (int t=1; t<=n; t++)
-        {
-            LL start = max(a+3-t, 1ll);
-            LL end = min(a+2+b-t, a);
-            rets[t] += max(0LL, end-start+1);    
-        }
-    }    
+            count[t] *= 2;
+        cout<<"OK1"<<endl;
 
-    void helper2(LL a, LL b, LL c)
-    {
-        for (int t=1; t<=n; t++)
-        {
-            LL start = max(a+2-t, 1ll);
-            LL end = min(a+1+b-t, a);          
-            rets[t] += max(0LL, end-start+1);
-        }
+        f4(d);
+        cout<<"OK2"<<endl;
         
         for (int t=1; t<=n; t++)
-        {
-            LL start = max(a+2-t, 1ll);
-            LL end = min(a+1+c-t, a);          
-            rets[t] += max(0LL, end-start+1);
-        }
-        
-        for (int t=1; t<=n; t++)
-        {
-            if (a>=t)
-                rets[t] += 1;            
-        }
-        
+            rets.push_back(count[t]);
+
+        return rets;
     }
-    
-    void helper3(LL d)
+
+    void f1(LL a)
     {
         for (int t=1; t<=n; t++)
         {
-            if (2*t<d)
-                rets[t] += d*2;
-            else if (2*t==d)
-                rets[t] += d;
+            LL lower = 1;
+            LL upper = a-t;
+            count[t] += max(0LL, upper-lower+1);
+        }             
+    }
+
+    void f2(LL a, LL b)
+    {
+        for (int t=1; t<=n; t++)
+        {
+            LL lower = max(1LL, a+3-t);
+            LL upper = min(a, a+2+b-t);
+            count[t] += max(0LL, upper-lower+1);
+        }             
+    }
+
+    void f3(LL a, LL p, LL q)
+    {
+        for (int t=1; t<=n; t++)
+        {
+            LL lower = max(1LL, a+2-t);
+            LL upper = min(a, a+1+p-t);
+            count[t] += max(0LL, upper-lower+1);
+        } 
+        for (int t=1; t<=n; t++)
+        {
+            LL lower = max(1LL, a+2-t);
+            LL upper = min(a, a+1+q-t);
+            count[t] += max(0LL, upper-lower+1);
+        }  
+        for (int t=1; t<=n; t++)
+        {
+            if (a>=t) count[t] += 1;
+        }    
+    }
+
+    void f4(LL d)
+    {
+        for (int t=1; t<=n; t++)
+        {
+            if (t < d-t)
+                count[t] += d*2;
+            else if (t == d-t)
+                count[t] += d;
         }
     }
 };
