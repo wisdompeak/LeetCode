@@ -204,7 +204,6 @@
 
 #### [Sorted Container](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/220.Contains-Duplicate-III) (M)  
-[295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/295.Find-Median-from-Data-Stream)  (M)   
 [363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
 [352.Data-Stream-as-Disjoint-Intervals](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/352.Data-Stream-as-Disjoint-Intervals) (H)    
 [480.Sliding-Window-Median](https://github.com/wisdompeak/LeetCode/blob/master/Sorted_Container/480.Sliding-Window-Median) (H)    
@@ -226,6 +225,7 @@
 [2612.Minimum-Reverse-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2612.Minimum-Reverse-Operations) (H)      
 [2736.Maximum-Sum-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2736.Maximum-Sum-Queries) (H)     
 * ``Dual Multiset``      
+[295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/295.Find-Median-from-Data-Stream)  (M)   
 [1825.Finding-MK-Average](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1825.Finding-MK-Average) (H)  
 [2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2653.Sliding-Subarray-Beauty) (M+)     
 [3013.Divide-an-Array-Into-Subarrays-With-Minimum-Cost-II](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/3013.Divide-an-Array-Into-Subarrays-With-Minimum-Cost-II) (H-)      
