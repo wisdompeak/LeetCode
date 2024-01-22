@@ -219,14 +219,14 @@
 [1488.Avoid-Flood-in-The-City](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1488.Avoid-Flood-in-The-City) (H-)  
 [1606.Find-Servers-That-Handled-Most-Number-of-Requests](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1606.Find-Servers-That-Handled-Most-Number-of-Requests) (M)  
 1797.Design Authentication Manager (M)  
-[1825.Finding-MK-Average](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1825.Finding-MK-Average) (H)  
 [1847.Closest-Room](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1847.Closest-Room) (M+)  
 [1912.Design-Movie-Rental-System](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1912.Design-Movie-Rental-System) (M+)  
 2034.Stock Price Fluctuation (M)      
 [2071.Maximum-Number-of-Tasks-You-Can-Assign](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2071.Maximum-Number-of-Tasks-You-Can-Assign) (H)      
 [2612.Minimum-Reverse-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2612.Minimum-Reverse-Operations) (H)      
 [2736.Maximum-Sum-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2736.Maximum-Sum-Queries) (H)     
-* ``Dual Container``    
+* ``Dual Multiset``      
+[1825.Finding-MK-Average](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/1825.Finding-MK-Average) (H)  
 [2653.Sliding-Subarray-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2653.Sliding-Subarray-Beauty) (M+)     
 [3013.Divide-an-Array-Into-Subarrays-With-Minimum-Cost-II](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/3013.Divide-an-Array-Into-Subarrays-With-Minimum-Cost-II) (H-)      
 * ``Maintain intervals``    
