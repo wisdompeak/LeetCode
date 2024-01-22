@@ -202,7 +202,7 @@
 [2949.Count-Beautiful-Substrings-II](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2949.Count-Beautiful-Substrings-II) (H-)      
 [2950.Number-of-Divisible-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2950.Number-of-Divisible-Substrings) (H-)      
 
-#### [Sorted Container](https://github.com/wisdompeak/LeetCode/tree/master/sorted_container)
+#### [Sorted Container](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/220.Contains-Duplicate-III) (M)  
 [295.Find-Median-from-Data-Stream](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/295.Find-Median-from-Data-Stream)  (M)   
 [363.Max-Sum-of-Rectangle-No-Larger-Than-K](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/363.Max-Sum-of-Rectangle-No-Larger-Than-K) (H)  
