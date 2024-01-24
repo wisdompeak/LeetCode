@@ -1438,6 +1438,7 @@
 [2749.Minimum-Operations-to-Make-the-Integer-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2749.Minimum-Operations-to-Make-the-Integer-Zero) (H)      
 [2745.Construct-the-Longest-New-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2745.Construct-the-Longest-New-String) (H-)      
 [2753.Count-Houses-in-a-Circular-Street-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2753.Count-Houses-in-a-Circular-Street-II) (H-)      
+[3012.Minimize-Length-of-Array-Using-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3012.Minimize-Length-of-Array-Using-Operations) (H-)      
 
 #### [Simulation](https://github.com/wisdompeak/LeetCode/tree/master/Simulation)  
 [2061.Number-of-Spaces-Cleaning-Robot-Cleaned](https://github.com/wisdompeak/LeetCode/tree/master/Simulation/2061.Number-of-Spaces-Cleaning-Robot-Cleaned) (M)    
