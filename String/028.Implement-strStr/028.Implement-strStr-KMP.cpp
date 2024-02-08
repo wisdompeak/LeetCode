@@ -18,7 +18,7 @@ public:
         for (int i=1; i<n; i++)
         {
             int j = dp[i-1];
-            while (j>0 && haystack[i]!=needle[j])
+            while (j>0 && (j==needle.size() || haystack[i]!=needle[j]))
                 j = suf[j-1];
             dp[i] = j + (haystack[i]==needle[j]);
             if (dp[i]==needle.size())
