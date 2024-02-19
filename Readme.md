@@ -1549,6 +1549,7 @@
 [2617.Minimum-Number-of-Visited-Cells-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2617.Minimum-Number-of-Visited-Cells-in-a-Grid) (H)      
 [2772.Apply-Operations-to-Make-All-Array-Elements-Equal-to-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Others/2772.Apply-Operations-to-Make-All-Array-Elements-Equal-to-Zero) (H-)      
 [2963.Count-the-Number-of-Good-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/2963.Count-the-Number-of-Good-Partitions) (H-)      
+[3009.Maximum-Number-of-Intersections-on-the-Chart](https://github.com/wisdompeak/LeetCode/tree/master/Others/3009.Maximum-Number-of-Intersections-on-the-Chart) (H)      
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
