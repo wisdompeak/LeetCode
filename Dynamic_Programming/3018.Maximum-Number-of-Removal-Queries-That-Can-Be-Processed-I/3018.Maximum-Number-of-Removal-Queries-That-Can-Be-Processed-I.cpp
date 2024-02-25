@@ -15,25 +15,26 @@ public:
                 {
                     int t = dp[i-1][j];                    
                     if (t<queries.size() && nums[i-1] >= queries[t])
-                        dp[i][j] = max(dp[i][j], dp[i-1][j] + 1);
+                        dp[i][j] = max(dp[i][j], t + 1);
                     else
-                        dp[i][j] = max(dp[i][j], dp[i-1][j]);
+                        dp[i][j] = max(dp[i][j], t);
                 }
                 if (j+1<n)
                 {
                     int t = dp[i][j+1];
                     if (t<queries.size() && nums[j+1] >= queries[t])
-                        dp[i][j] = max(dp[i][j], dp[i][j+1] + 1);
+                        dp[i][j] = max(dp[i][j], t + 1);
                     else
-                        dp[i][j] = max(dp[i][j], dp[i][j+1]);
-                }              
-                ret = max(ret, dp[i][j]);
+                        dp[i][j] = max(dp[i][j], t);
+                }                              
             }
 
         for (int i=0; i<n; i++)
         {
             if (dp[i][i]<queries.size() && nums[i]>=queries[dp[i][i]])
-                ret = max(ret, dp[i][i]+1);           
+                ret = max(ret, dp[i][i]+1);  
+            else
+                ret = max(ret, dp[i][i]);
         }
         return ret;
     }
