@@ -141,6 +141,7 @@
 [2702.Minimum-Operations-to-Make-Numbers-Non-positive](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2702.Minimum-Operations-to-Make-Numbers-Non-positive) (H-)      
 [2861.Maximum-Number-of-Alloys](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2861.Maximum-Number-of-Alloys) (M+)      
 [3048.Earliest-Second-to-Mark-Indices-I](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3048.Earliest-Second-to-Mark-Indices-I) (M+)      
+[3049.Earliest-Second-to-Mark-Indices-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3049.Earliest-Second-to-Mark-Indices-II) (H)      
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
