@@ -350,6 +350,7 @@
 [2569.Handling-Sum-Queries-After-Update](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2569.Handling-Sum-Queries-After-Update) (H)     
 [2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I) (H)      
 [2916.Subarrays-Distinct-Element-Sum-of-Squares-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2916.Subarrays-Distinct-Element-Sum-of-Squares-II) (H+)      
+[3072.Distribute-Elements-Into-Two-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3072.Distribute-Elements-Into-Two-Arrays-II) (H-)      
 
 #### [Binary Index Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
