@@ -856,6 +856,7 @@
 [2478.Number-of-Beautiful-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2478.Number-of-Beautiful-Partitions) (H-)      
 [2547.Minimum-Cost-to-Split-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2547.Minimum-Cost-to-Split-an-Array) (M)      
 [2911.Minimum-Changes-to-Make-K-Semi-palindromes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2911.Minimum-Changes-to-Make-K-Semi-palindromes) (H-)      
+[3077.Maximum-Strength-of-K-Disjoint-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3077.Maximum-Strength-of-K-Disjoint-Subarrays) (M+)      
 * ``区间型 II``   
 [131.Palindrome-Partitioning](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/131.Palindrome-Partitioning) (M+)  
 [312.Burst-Balloons](https://github.com/wisdompeak/LeetCode/tree/master/DFS/312.Burst-Balloons) (H-)   
