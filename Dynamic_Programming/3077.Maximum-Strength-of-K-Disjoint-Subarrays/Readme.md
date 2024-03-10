@@ -10,7 +10,7 @@ dp[i][j][0] = max(dp[i-1][j][0], dp[i-1][j][1]);
 ```
 对于dp[i][j][1]，我们需要考虑nums[i]是否是接在nums[i-1]后面属于同一个subarray，还是自己新成立一个subarray。如果是前者，我们考虑的前驱状态是dp[i-1][j][1]; 如果是后者，我们考虑的前驱状态是dp[i-1][j-1][x]
 ```
-dp[i][j][1] = max(dp[i-1][j][1], max(dp[i-1][j-1][0], dp[i-1][j-1][1])) - (LL)nums[i]*(k+1-j);                                        
+dp[i][j][1] = max(dp[i-1][j][1], max(dp[i-1][j-1][0], dp[i-1][j-1][1])) - (LL)nums[i]*(k+1-j);   
 ```
 最终返回的答案是`max(dp[n][k][0], dp[n][k][1])`.
 
