@@ -849,7 +849,7 @@
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H)   
 [813.Largest-Sum-of-Averages](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/813.Largest-Sum-of-Averages) (H-)   
 [1278.Palindrome-Partitioning-III](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1278.Palindrome-Partitioning-III) (H)   
-[1335.Minimum-Difficulty-of-a-Job-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1335.Minimum-Difficulty-of-a-Job-Schedule) (M+)   
+[1335.Minimum-Difficulty-of-a-Job-Schedule](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1335.Minimum-Difficulty-of-a-Job-Schedule) (M+)         
 [1478.Allocate-Mailboxes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1478.Allocate-Mailboxes) (H)   
 [1977.Number-of-Ways-to-Separate-Numbers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1977.Number-of-Ways-to-Separate-Numbers) (H)     
 [2463.Minimum-Total-Distance-Traveled](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2463.Minimum-Total-Distance-Traveled) (M+)     
