@@ -1196,12 +1196,13 @@
 [2128.Remove-All-Ones-With-Row-and-Column-Flips](https://github.com/wisdompeak/LeetCode/tree/master/Math/2128.Remove-All-Ones-With-Row-and-Column-Flips) (M+)     
 [2217.Find-Palindrome-With-Fixed-Length](https://github.com/wisdompeak/LeetCode/tree/master/Math/2217.Find-Palindrome-With-Fixed-Length) (M+)      
 * ``Distances``   
-[296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)      
 [1478.Allocate-Mailboxes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1478.Allocate-Mailboxes) (H)   
-[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)    
+[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)
+[3102.Minimize-Manhattan-Distances](https://github.com/wisdompeak/LeetCode/tree/master/Math/3102.Minimize-Manhattan-Distances) (H)      
 1515.Best Position for a Service Centre (TBD)  
 [1956.Minimum-Time-For-K-Virus-Variants-to-Spread](https://github.com/wisdompeak/LeetCode/tree/master/Math/1956.Minimum-Time-For-K-Virus-Variants-to-Spread) (H+)     
 * ``Median Theorem``   
+[296.Best-Meeting-Point](https://github.com/wisdompeak/LeetCode/tree/master/Math/296.Best-Meeting-Point) (M+)      
 [462.Minimum-Moves-to-Equal-Array-Elements-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/462.Minimum-Moves-to-Equal-Array-Elements-II) (M-)    
 [1703.Minimum-Adjacent-Swaps-for-K-Consecutive-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/1703.Minimum-Adjacent-Swaps-for-K-Consecutive-Ones) (H)  
 [2033.Minimum-Operations-to-Make-a-Uni-Value-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Math/2033.Minimum-Operations-to-Make-a-Uni-Value-Grid) (M+)      
