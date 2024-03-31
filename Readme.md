@@ -1197,7 +1197,7 @@
 [2217.Find-Palindrome-With-Fixed-Length](https://github.com/wisdompeak/LeetCode/tree/master/Math/2217.Find-Palindrome-With-Fixed-Length) (M+)      
 * ``Distances``   
 [1478.Allocate-Mailboxes](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1478.Allocate-Mailboxes) (H)   
-[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)
+[1131.Maximum-of-Absolute-Value-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Math/1131.Maximum-of-Absolute-Value-Expression) (H)      
 [3102.Minimize-Manhattan-Distances](https://github.com/wisdompeak/LeetCode/tree/master/Math/3102.Minimize-Manhattan-Distances) (H)      
 1515.Best Position for a Service Centre (TBD)  
 [1956.Minimum-Time-For-K-Virus-Variants-to-Spread](https://github.com/wisdompeak/LeetCode/tree/master/Math/1956.Minimum-Time-For-K-Virus-Variants-to-Spread) (H+)     
