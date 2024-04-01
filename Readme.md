@@ -56,7 +56,6 @@
 [2953.Count-Complete-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2953.Count-Complete-Substrings) (H)      
 [2958.Length-of-Longest-Subarray-With-at-Most-K-Frequency](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2958.Length-of-Longest-Subarray-With-at-Most-K-Frequency) (M)      
 [2968.Apply-Operations-to-Maximize-Frequency-Score](https://github.com/wisdompeak/LeetCode/tree/master/Math/2968.Apply-Operations-to-Maximize-Frequency-Score) (H-)      
-[3086.Minimum-Moves-to-Pick-K-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/3086.Minimum-Moves-to-Pick-K-Ones) (H)      
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
@@ -1520,7 +1519,8 @@
 * ``结论转移``   
 [1685.Sum-of-Absolute-Differences-in-a-Sorted-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/1685.Sum-of-Absolute-Differences-in-a-Sorted-Array) (M)     
 [2121.Intervals-Between-Identical-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Others/2121.Intervals-Between-Identical-Elements) (M)     
-[2615.Sum-of-Distances](https://github.com/wisdompeak/LeetCode/tree/master/Others/2615.Sum-of-Distances) (M+)     
+[2615.Sum-of-Distances](https://github.com/wisdompeak/LeetCode/tree/master/Others/2615.Sum-of-Distances) (M+)      
+[3086.Minimum-Moves-to-Pick-K-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/3086.Minimum-Moves-to-Pick-K-Ones) (H)      
 * ``Count Subarray by Element``   
 [828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/828.Count-Unique-Characters-of-All-Substrings-of-a-Given-String) (H-)    
 [907.Sum-of-Subarray-Minimums](https://github.com/wisdompeak/LeetCode/tree/master/Stack/907.Sum-of-Subarray-Minimums) (H-)   
