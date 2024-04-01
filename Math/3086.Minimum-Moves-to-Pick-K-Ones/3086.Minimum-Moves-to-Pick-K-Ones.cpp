@@ -15,22 +15,18 @@ public:
         LL ret = LLONG_MAX;                
         
         maxChanges = min(k, maxChanges);
+                
+        if (k-maxChanges <= m && maxChanges>=0)
+            ret = min(ret, helper(arr, k-maxChanges) +  maxChanges*2);
         
-        int task = min(m, k-maxChanges);
-        if (maxChanges >= k-task)
-            ret = min(ret, helper(arr, task) +  (k-task)*2);
-        
-        task = min(m, k-maxChanges+1);
-        if (maxChanges >= k-task && k-task>=0)
-            ret = min(ret, helper(arr, task) + (k-task)*2);
+        if (k-maxChanges+1 <= m && maxChanges-1>=0)
+            ret = min(ret, helper(arr, k-maxChanges+1) + (maxChanges-1)*2);
                     
-        task = min(m, k-maxChanges+2);
-        if (maxChanges >= k-task && k-task>=0)
-            ret = min(ret, helper(arr, task) + (k-task)*2);
+        if (k-maxChanges+2 <= m && maxChanges-2>=0)
+            ret = min(ret, helper(arr, k-maxChanges+2) + (maxChanges-2)*2);
         
-        task = min(m, k-maxChanges+3);
-        if (maxChanges >= k-task && k-task>=0)
-            ret = min(ret, helper(arr, task) + (k-task)*2);
+        if (k-maxChanges+3 <= m && maxChanges-3>=0)
+            ret = min(ret, helper(arr, k-maxChanges+3) + (maxChanges-3)*2);
         
         return ret;
     }
@@ -46,10 +42,10 @@ public:
         sum += abs(arr[i]-arr[k/2]);
         
         LL ret = sum;
-        for (int i=1; i+k-1<m; i++)
+        for (int i=0; i+k<m; i++)
         {            
-            int d = arr[i+k/2]-arr[i+k/2-1];
-            sum = sum - (k - k/2 -1)*d + (k/2 + 1)*d - abs(arr[i+k/2]-arr[i-1]) + abs(arr[i+k-1]-arr[i+k/2]);
+            int d = arr[i+k/2+1]-arr[i+k/2];
+            sum = sum + (k/2 + 1)*d - (k - (k/2+1))*d - abs(arr[i+k/2+1]-arr[i]) + abs(arr[i+k/2+1]-arr[i+k]);
             ret = min(ret, sum);
         }
         
