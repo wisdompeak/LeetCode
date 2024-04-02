@@ -38,7 +38,7 @@ public:
         int m = arr.size();
         
         LL sum = 0;
-        for (int i=0; i<min(m,k); i++)
+        for (int i=0; i<k; i++)
         sum += abs(arr[i]-arr[k/2]);
         
         LL ret = sum;
