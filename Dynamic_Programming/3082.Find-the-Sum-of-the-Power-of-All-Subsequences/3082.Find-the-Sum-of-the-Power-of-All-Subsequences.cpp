@@ -8,8 +8,7 @@ public:
         int n = nums.size();
         nums.insert(nums.begin(), 0);
         
-        for (int i=0; i<=n; i++)
-            dp[i][0][0] = 1;
+        dp[0][0][0] = 1;
         
         for (int i=1; i<=n; i++)
             for (int s=0; s<=k; s++)
