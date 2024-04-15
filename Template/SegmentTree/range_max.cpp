@@ -40,7 +40,7 @@ class SegTreeNode
         {
             left = new SegTreeNode(a, mid, val);
             right = new SegTreeNode(mid+1, b, val);            
-            info = left->info + right->info;  // check with your own logic
+            info = max(left->info, right->info);  // check with your own logic
         }        
     } 
     
