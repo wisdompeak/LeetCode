@@ -20,7 +20,7 @@ public:
         for (int i=0; i<n; i++)
         {
             Map[nums[i]].push_back(i);
-            auto iter = lower_bound(Map[nums[i]].begin(), Map[nums[i]].end(), prevGreater[i]);                        
+            auto iter = upper_bound(Map[nums[i]].begin(), Map[nums[i]].end(), prevGreater[i]);                        
             ret += Map[nums[i]].end() - iter;
         }
         
