@@ -1156,8 +1156,8 @@
 [2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
 [2662.Minimum-Cost-of-a-Path-With-Special-Roads](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2662.Minimum-Cost-of-a-Path-With-Special-Roads) (H-)      
 [2699.Modify-Graph-Edge-Weights](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2699.Modify-Graph-Edge-Weights) (H)    
-[3112.Minimum-Time-to-Visit-Disappearing-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Graph/3112.Minimum-Time-to-Visit-Disappearing-Nodes) (M)
-[3123.Find-Edges-in-Shortest-Paths])(https://github.com/wisdompeak/LeetCode/tree/master/Graph/3123.Find-Edges-in-Shortest-Paths) (H-)      
+[3112.Minimum-Time-to-Visit-Disappearing-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/Graph/3112.Minimum-Time-to-Visit-Disappearing-Nodes) (M)      
+[3123.Find-Edges-in-Shortest-Paths](https://github.com/wisdompeak/LeetCode/tree/master/Graph/3123.Find-Edges-in-Shortest-Paths) (H-)      
 * ``Floyd``  
 [1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance](https://github.com/wisdompeak/LeetCode/tree/master/Graph/1334.Find-the-City-With-the-Smallest-Number-of-Neighbors-at-a-Threshold-Distance) (M)      
 [2642.Design-Graph-With-Shortest-Path-Calculator](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2642.Design-Graph-With-Shortest-Path-Calculator) (M+)      
