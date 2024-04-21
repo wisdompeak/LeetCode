@@ -34,8 +34,6 @@ public:
                     ret = max(dist1[i], dist2[i]);
                     ans = i;
                 }
-                else if (max(dist1[i], dist2[i]) == ret)                
-                    ans = min(ans, i);
             }
         }
         if (ret!=INT_MAX)
