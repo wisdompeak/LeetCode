@@ -33,7 +33,6 @@ public:
             }
         }
         
-        while (!pq.empty()) pq.pop();        
         pq.push({0, n-1});        
         vector<int>d2(n, INT_MAX/3);
         while (!pq.empty()) 
