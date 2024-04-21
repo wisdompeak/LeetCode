@@ -157,7 +157,8 @@
 [793.Preimage-Size-of-Factorial-Zeroes-Function](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/793.Preimage-Size-of-Factorial-Zeroes-Function) (H-)   
 [1201.Ugly-Number-III](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1201.Ugly-Number-III) (H-)    
 [1539.Kth-Missing-Positive-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1539.Kth-Missing-Positive-Number) (H-)  
-[2387.Median-of-a-Row-Wise-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2387.Median-of-a-Row-Wise-Sorted-Matrix) (H-)    
+[2387.Median-of-a-Row-Wise-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2387.Median-of-a-Row-Wise-Sorted-Matrix) (H-)      
+[3116.Kth-Smallest-Amount-With-Single-Denomination-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3116.Kth-Smallest-Amount-With-Single-Denomination-Combination) (H)      
 
 #### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
@@ -977,7 +978,8 @@
 [1774.Closest-Dessert-Cost](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1774.Closest-Dessert-Cost) (M)  
 [2002.Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2002.Maximum-Product-of-the-Length-of-Two-Palindromic-Subsequences) (M)          
 [2151.Maximum-Good-People-Based-on-Statements](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2151.Maximum-Good-People-Based-on-Statements) (M+)      
-[2397.Maximum-Rows-Covered-by-Columns](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2397.Maximum-Rows-Covered-by-Columns) (M)     
+[2397.Maximum-Rows-Covered-by-Columns](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2397.Maximum-Rows-Covered-by-Columns) (M)      
+[3116.Kth-Smallest-Amount-With-Single-Denomination-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3116.Kth-Smallest-Amount-With-Single-Denomination-Combination) (H)      
     * ``Meet in the Middle``       
     [1755.Closest-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1755.Closest-Subsequence-Sum) (H)  
     [2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference) (H)     
