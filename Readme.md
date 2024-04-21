@@ -633,7 +633,6 @@
 [2503.Maximum-Number-of-Points-From-Grid-Queries](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2503.Maximum-Number-of-Points-From-Grid-Queries) (H-)    
 [505.The-Maze-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/505.The-Maze-II) (H-)  
 [499.The-Maze-III](https://github.com/wisdompeak/LeetCode/tree/master/BFS/499.The-Maze-III) (H)    
-[787.CSorted_Containerest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.CSorted_Containerest-Flights-Within-K-Stops) (H)    
 [882.Reachable-Nodes-In-Subdivided-Graph](https://github.com/wisdompeak/LeetCode/tree/master/BFS/882.Reachable-Nodes-In-Subdivided-Graph ) (H)  
 [1102.Path-With-Maximum-Minimum-Value](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1102.Path-With-Maximum-Minimum-Value) (H-)   
 [1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1368.Minimum-Cost-to-Make-at-Least-One-Valid-Path-in-a-Grid) (H)  
@@ -1152,7 +1151,8 @@
 [2791.Count-Paths-That-Can-Form-a-Palindrome-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2791.Count-Paths-That-Can-Form-a-Palindrome-in-a-Tree) (H)      
 [2876.Count-Visited-Nodes-in-a-Directed-Graph](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2876.Count-Visited-Nodes-in-a-Directed-Graph) (M+)      
 [3017.Count-the-Number-of-Houses-at-a-Certain-Distance-II](https://github.com/wisdompeak/LeetCode/tree/master/Graph/3017.Count-the-Number-of-Houses-at-a-Certain-Distance-II) (H)      
-* ``Dijkstra``  
+* ``Dijkstra``
+[787.Cheapest-Flights-Within-K-Stops](https://github.com/wisdompeak/LeetCode/tree/master/Graph/787.Cheapest-Flights-Within-K-Stops) (H)      
 [2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2577.Minimum-Time-to-Visit-a-Cell-In-a-Grid) (H-)      
 [2662.Minimum-Cost-of-a-Path-With-Special-Roads](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2662.Minimum-Cost-of-a-Path-With-Special-Roads) (H-)      
 [2699.Modify-Graph-Edge-Weights](https://github.com/wisdompeak/LeetCode/tree/master/Graph/2699.Modify-Graph-Edge-Weights) (H)    
