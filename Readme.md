@@ -959,6 +959,7 @@
 [2680.Maximum-OR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2680.Maximum-OR) (M+)    
 [2802.Find-The-K-th-Lucky-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2802.Find-The-K-th-Lucky-Number) (M+)      
 [2992.Number-of-Self-Divisible-Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2992.Number-of-Self-Divisible-Permutations) (M+)      
+[3133.Minimum-Array-End](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3133.Minimum-Array-End) (M+)      
 * ``XOR``   
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
