@@ -61,7 +61,8 @@
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
 [159.Longest-Substring-with-At-Most-Two-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/159.Longest-Substring-with-At-Most-Two-Distinct-Characters)(H-)    
 [340.Longest-Substring-with-At-Most-K-Distinct-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/340.Longest-Substring-with-At-Most-K-Distinct-Characters) (H)    
-[992.Subarrays-with-K-Different-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/992.Subarrays-with-K-Different-Integers) (H-)    
+[992.Subarrays-with-K-Different-Integers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/992.Subarrays-with-K-Different-Integers) (H-)      
+[3134.Find-the-Median-of-the-Uniqueness-Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3134.Find-the-Median-of-the-Uniqueness-Array) (H-)      
 [2461.Maximum-Sum-of-Distinct-Subarrays-With-Length-K](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2461.Maximum-Sum-of-Distinct-Subarrays-With-Length-K) (M)    
 [2537.Count-the-Number-of-Good-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2537.Count-the-Number-of-Good-Subarrays) (M+)     
 * ``Two pointers for two sequences``    
@@ -159,6 +160,7 @@
 [1539.Kth-Missing-Positive-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1539.Kth-Missing-Positive-Number) (H-)  
 [2387.Median-of-a-Row-Wise-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2387.Median-of-a-Row-Wise-Sorted-Matrix) (H-)      
 [3116.Kth-Smallest-Amount-With-Single-Denomination-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3116.Kth-Smallest-Amount-With-Single-Denomination-Combination) (H)      
+[3134.Find-the-Median-of-the-Uniqueness-Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3134.Find-the-Median-of-the-Uniqueness-Array) (H-)      
 
 #### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
 [049.Group-Anagrams](https://github.com/wisdompeak/LeetCode/tree/master/Hash/049.Group-Anagrams) (M+)    
