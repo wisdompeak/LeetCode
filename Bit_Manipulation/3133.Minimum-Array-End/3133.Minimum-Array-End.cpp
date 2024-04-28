@@ -4,10 +4,10 @@ public:
     long long minEnd(int n, int x) 
     {
         LL m = n-1;
-        vector<int>arr;
+        vector<int>num;
         while (m>0)
         {
-            arr.push_back(m%2);
+            num.push_back(m%2);
             m/=2;
         }
         
@@ -22,15 +22,15 @@ public:
         for (int i=0; i<bits.size(); i++)
         {
             if (bits[i]==1) continue;
-            if (j<arr.size()) 
+            if (j<num.size()) 
             {
-                bits[i] = arr[j];
+                bits[i] = num[j];
                 j++;
             }            
         }
-        while (j<arr.size())
+        while (j<num.size())
         {
-            bits.push_back(arr[j]);
+            bits.push_back(num[j]);
             j++;
         }
         
