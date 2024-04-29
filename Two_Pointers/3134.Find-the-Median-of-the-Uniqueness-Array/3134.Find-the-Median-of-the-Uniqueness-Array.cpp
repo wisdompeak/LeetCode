@@ -3,24 +3,19 @@ class Solution {
 public:
     int medianOfUniquenessArray(vector<int>& nums) 
     {
-        int n = nums.size();
+        LL n = nums.size();
+        LL total = n*(n-1)/2+n;
+        LL half = (total+1)/2;
         int left = 1, right = n;
         while (left < right)
         {
             int mid = left + (right-left)/2;
-            if (isOK(nums, mid))
+            if (atMostK(nums, mid)>=half)
                 right = mid;
             else
                 left = mid+1;
         }
         return left;        
-    }
-    
-    bool isOK(vector<int>&nums, int k)
-    {
-        LL n = nums.size();
-        LL total = n*(n-1)/2+n;                
-        return atMostK(nums, k) >= (total+1)/2;
     }
     
     LL atMostK(vector<int>& A, int K)
