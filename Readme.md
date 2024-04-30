@@ -946,6 +946,8 @@
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)  
 [2272.Substring-With-Largest-Variance](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2272.Substring-With-Largest-Variance) (H-)    
 [2321.Maximum-Score-Of-Spliced-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2321.Maximum-Score-Of-Spliced-Array) (H-)      
+* ``前缀和辅助``   
+[3130.Find-All-Possible-Stable-Binary-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3130.Find-All-Possible-Stable-Binary-Arrays-II) (H)      
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
