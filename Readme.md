@@ -1351,7 +1351,7 @@
 * ``Boyer-Moore Majority Voting``      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
 [2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
-[3139.Minimum-Cost-to-Equalize-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/3139.Minimum-Cost-to-Equalize-Array) (H)      
+[3139.Minimum-Cost-to-Equalize-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3139.Minimum-Cost-to-Equalize-Array) (H)      
 * ``Lexicographical Sequence``  
 [031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
 [556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/556.Next-Greater-Element-III) (M)   
