@@ -355,7 +355,8 @@
 [2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I) (H)      
 [2916.Subarrays-Distinct-Element-Sum-of-Squares-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2916.Subarrays-Distinct-Element-Sum-of-Squares-II) (H+)      
 [3072.Distribute-Elements-Into-Two-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3072.Distribute-Elements-Into-Two-Arrays-II) (H-)     
-[3161.Block-Placement-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3161.Block-Placement-Queries) (H)      
+[3161.Block-Placement-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3161.Block-Placement-Queries) (H)     
+[3165.Maximum-Sum-of-Subsequence-With-Non-adjacent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3165.Maximum-Sum-of-Subsequence-With-Non-adjacent-Elements) (H)      
 
 #### [Binary Index Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
