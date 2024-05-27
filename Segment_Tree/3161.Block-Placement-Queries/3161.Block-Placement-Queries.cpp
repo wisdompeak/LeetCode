@@ -105,44 +105,45 @@ class Solution {
 public:
     vector<bool> getResults(vector<vector<int>>& queries) 
     {
+        int n = min(50000, (int)queries.size()*3) + 5;
+        SegTreeNode* root = new SegTreeNode(0, n, 0);
+
         set<int>Set;
-        int n = min(50000, (int)queries.size()*3)+5;
-        SegTreeNode* root = new SegTreeNode(0, n, 0);  // Set the leaf nodes with initVals.
-        vector<bool>rets;
-                
         Set.insert(0);
-        
-        for (auto q: queries)
+
+        vector<bool>rets;
+
+        for (auto q:queries)
         {
             if (q[0]==1)
             {
-                int x = q[1];                
+                int x = q[1];
                 Set.insert(x);
-                auto iter = Set.lower_bound(x);
-                int a = *prev(iter);                
-                root->updateRange(x, x, x-a);
-                                
+                auto iter = Set.find(x);
+                int a = *prev(iter);
+                root->updateRange(x,x,x-a);
+
                 if (next(iter)!=Set.end())
                 {
                     int b = *next(iter);
-                    root->updateRange(b, b, b-x);
+                    root->updateRange(b,b,b-x);
                 }
             }
             else
             {
                 int x = q[1], sz = q[2];
                 int len = root->queryRange(0, x);
-                
+
                 if (Set.find(x)==Set.end())
                 {
                     auto iter = Set.lower_bound(x);
-                    int a = *prev(iter);
+                    int  a = *prev(iter);
                     len = max(len, x-a);
-                }                
-                rets.push_back(len >= sz);                
-            }            
+                }
+                rets.push_back(len >= sz);
+            }
         }
         
-        return rets;        
+        return rets;
     }
 };
