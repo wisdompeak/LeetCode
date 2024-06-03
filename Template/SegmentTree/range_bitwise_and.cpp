@@ -1,107 +1,68 @@
-using LL = long long;
-class SegTreeNode
-{
-    public:
-    SegTreeNode* left = NULL;
-    SegTreeNode* right = NULL;
-    int start, end;
-    LL info;  // the sum value over the range
-    bool lazy_tag; 
-    LL lazy_val;
-        
-    SegTreeNode(int a, int b, int val)  // init for range [a,b] with val
-    {                 
-        lazy_tag = 0;
-        lazy_val = 0;
-        start = a, end = b;
-        if (a==b)
-        {
-            info = val;
-            return;
-        }        
-        int mid = (a+b)/2;
-        if (left==NULL)
-        {
-            left = new SegTreeNode(a, mid, val);
-            right = new SegTreeNode(mid+1, b, val);            
-            info = left->info & right->info;  // check with your own logic
-        }        
-    }    
+class SegmentTree {
+private:
+    vector<int> tree;
+    int n;
     
-    SegTreeNode(int a, int b, vector<int>& val)  // init for range [a,b] with the same-size array val
-    {                 
-        lazy_tag = 0;
-        lazy_val = 0;
-        start = a, end = b;
-        if (a==b)
-        {
-            info = val[a];
-            return;
-        }        
-        int mid = (a+b)/2;
-        if (left==NULL)
-        {
-            left = new SegTreeNode(a, mid, val);
-            right = new SegTreeNode(mid+1, b, val);            
-            info = left->info & right->info;  // check with your own logic
-        }        
-    }
-    
-    void updateRange(int a, int b, int val)     // set range [a,b] with val
-    {        
-        if (b < start || a > end ) // not covered by [a,b] at all
-            return;        
-        if (a <= start && end <=b)  // completely covered within [a,b]
-        {
-            info = val;
-            lazy_tag = 1;
-            lazy_val = val;
-            return;
-        }
-
-        if (left)
-        {
-            left->updateRange(a, b, val);
-            right->updateRange(a, b, val);
-            info = left->info & right->info;  // write your own logic            
-        }        
-    }
-    
-    LL queryRange(int a, int b)     // query the sum over range [a,b]
+    void build(vector<int>& nums, int node, int start, int end) 
     {
-        if (b < start || a > end )
-        {
-            return INT_MAX;  // check with your own logic
+        if (start == end) {
+            tree[node] = nums[start];
+        } else {
+            int mid = (start + end) / 2;
+            build(nums, 2 * node, start, mid);
+            build(nums, 2 * node + 1, mid + 1, end);
+            tree[node] = tree[2 * node] & tree[2 * node + 1];
         }
-        if (a <= start && end <=b)
-        {
-            return info;  // check with your own logic
-        }          
-        
-        if (left)
-        {
-            LL ret = left->queryRange(a, b) & right->queryRange(a, b);        
-            info = left->info & right->info; 
-            return ret;
+    }
+    
+    void update(int node, int start, int end, int L, int R, int val) 
+    {
+        if (R < start || end < L) {
+            return;
         }
-        
-        return info;   // should not reach here
-    }  
+        if (L <= start && end <= R) {
+            tree[node] = val;
+            return;
+        }
+        int mid = (start + end) / 2;
+        update(2 * node, start, mid, L, R, val);
+        update(2 * node + 1, mid + 1, end, L, R, val);
+        tree[node] = tree[2 * node] & tree[2 * node + 1];
+    }
+
+    int query(int node, int start, int end, int L, int R) 
+    {
+        if (R < start || end < L) {
+            return INT_MAX; // Identity for AND operation (all bits set)
+        }
+        if (L <= start && end <= R) {
+            return tree[node];
+        }
+        int mid = (start + end) / 2;
+        int leftAnd = query(2 * node, start, mid, L, R);
+        int rightAnd = query(2 * node + 1, mid + 1, end, L, R);
+        return leftAnd & rightAnd;
+    }
+
+public:
+    SegmentTree(vector<int>& nums) {
+        n = nums.size();
+        tree.resize(4 * n, 0);
+        build(nums, 1, 0, n - 1);
+    }
+
+    void rangeUpdate(int L, int R, int val) {
+        update(1, 0, n - 1, L, R, val);
+    }
+
+    int rangeAnd(int L, int R) {
+        return query(1, 0, n - 1, L, R);
+    }
 };
 
 int main()
 {
-    SegTreeNode* root = new SegTreeNode(0, length-1, initVals);  // Set the leaf nodes with initVals.
-  
-    for (auto& update: updates)
-    {
-        int start = update[0], end = update[1], val = update[2];
-        root->updateRange(start, end ,val); // set the range [start, end] with val 
-    }
-  
-    for (auto& query: queries)
-    {
-        int start = query[0], end = query[1];
-        ret[i] = root->queryRange(start, end); // get the range bitwise-and sum over [start, end]
-    }
+    int n = nums.size();
+    SegmentTree segTree(nums);    
+    int ret = segTree.rangeAnd(a, b);
 }
