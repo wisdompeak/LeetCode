@@ -3,7 +3,8 @@ private:
     vector<int> tree;
     int n;
     
-    void build(vector<int>& nums, int node, int start, int end) {
+    void build(vector<int>& nums, int node, int start, int end) 
+    {
         if (start == end) {
             tree[node] = nums[start];
         } else {
@@ -13,8 +14,24 @@ private:
             tree[node] = tree[2 * node] & tree[2 * node + 1];
         }
     }
+    
+    void update(int node, int start, int end, int L, int R, int val) 
+    {
+        if (R < start || end < L) {
+            return;
+        }
+        if (L <= start && end <= R) {
+            tree[node] = val;
+            return;
+        }
+        int mid = (start + end) / 2;
+        update(2 * node, start, mid, L, R, val);
+        update(2 * node + 1, mid + 1, end, L, R, val);
+        tree[node] = tree[2 * node] & tree[2 * node + 1];
+    }
 
-    int query(int node, int start, int end, int L, int R) {
+    int query(int node, int start, int end, int L, int R) 
+    {
         if (R < start || end < L) {
             return INT_MAX; // Identity for AND operation (all bits set)
         }
@@ -32,6 +49,10 @@ public:
         n = nums.size();
         tree.resize(4 * n, 0);
         build(nums, 1, 0, n - 1);
+    }
+
+    void rangeUpdate(int L, int R, int val) {
+        update(1, 0, n - 1, L, R, val);
     }
 
     int rangeAnd(int L, int R) {
