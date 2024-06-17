@@ -951,6 +951,8 @@
 [2321.Maximum-Score-Of-Spliced-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2321.Maximum-Score-Of-Spliced-Array) (H-)      
 * ``前缀和辅助``   
 [3130.Find-All-Possible-Stable-Binary-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3130.Find-All-Possible-Stable-Binary-Arrays-II) (H)      
+* ``遍历优化``   
+[3177.Find-the-Maximum-Length-of-a-Good-Subsequence-II)](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3177.Find-the-Maximum-Length-of-a-Good-Subsequence-II)) (H)      
 
 #### [Bit Manipulation](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation)
 [137.Single-Number-II](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/137.Single-Number-II) (H-)   
