@@ -1228,7 +1228,6 @@
 [2967.Minimum-Cost-to-Make-Array-Equalindromic](https://github.com/wisdompeak/LeetCode/tree/master/Math/2967.Minimum-Cost-to-Make-Array-Equalindromic) (H-)      
 [2968.Apply-Operations-to-Maximize-Frequency-Score](https://github.com/wisdompeak/LeetCode/tree/master/Math/2968.Apply-Operations-to-Maximize-Frequency-Score) (H-)      
 [3086.Minimum-Moves-to-Pick-K-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/3086.Minimum-Moves-to-Pick-K-Ones) (H)      
-[3197.Find-the-Minimum-Area-to-Cover-All-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3197.Find-the-Minimum-Area-to-Cover-All-Ones-II) (H-)      
 * ``Geometry``   
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
 [335.Self-Crossing](https://github.com/wisdompeak/LeetCode/tree/master/Math/335.Self-Crossing) (H)    
@@ -1239,7 +1238,8 @@
 [1401.Circle-and-Rectangle-Overlapping](https://github.com/wisdompeak/LeetCode/tree/master/Math/1401.Circle-and-Rectangle-Overlapping) (H)    
 [1453.Maximum-Number-of-Darts-Inside-of-a-Circular-Dartboard](https://github.com/wisdompeak/LeetCode/tree/master/Math/1453.Maximum-Number-of-Darts-Inside-of-a-Circular-Dartboard) (H)    
 [1610.Maximum-Number-of-Visible-Points](https://github.com/wisdompeak/LeetCode/tree/master/Math/1610.Maximum-Number-of-Visible-Points) (H)  
-[2280.Minimum-Lines-to-Represent-a-Line-Chart](https://github.com/wisdompeak/LeetCode/tree/master/Math/2280.Minimum-Lines-to-Represent-a-Line-Chart) (M)    
+[2280.Minimum-Lines-to-Represent-a-Line-Chart](https://github.com/wisdompeak/LeetCode/tree/master/Math/2280.Minimum-Lines-to-Represent-a-Line-Chart) (M)      
+[3197.Find-the-Minimum-Area-to-Cover-All-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3197.Find-the-Minimum-Area-to-Cover-All-Ones-II) (H-)      
 * ``Random Pick``   
 [382.Linked-List-Random-Node](https://github.com/wisdompeak/LeetCode/tree/master/Math/382.Linked-List-Random-Node) (H)   
 [470.Implement-Rand10()-Using-Rand7()](https://github.com/wisdompeak/LeetCode/tree/master/Math/470.Implement-Rand10--Using-Rand7) (M+)   
