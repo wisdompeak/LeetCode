@@ -1228,6 +1228,7 @@
 [2967.Minimum-Cost-to-Make-Array-Equalindromic](https://github.com/wisdompeak/LeetCode/tree/master/Math/2967.Minimum-Cost-to-Make-Array-Equalindromic) (H-)      
 [2968.Apply-Operations-to-Maximize-Frequency-Score](https://github.com/wisdompeak/LeetCode/tree/master/Math/2968.Apply-Operations-to-Maximize-Frequency-Score) (H-)      
 [3086.Minimum-Moves-to-Pick-K-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Math/3086.Minimum-Moves-to-Pick-K-Ones) (H)      
+[3197.Find-the-Minimum-Area-to-Cover-All-Ones-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3197.Find-the-Minimum-Area-to-Cover-All-Ones-II) (H-)      
 * ``Geometry``   
 [223.Rectangle-Area](https://github.com/wisdompeak/LeetCode/tree/master/Math/223.Rectangle-Area) (M+)   
 [335.Self-Crossing](https://github.com/wisdompeak/LeetCode/tree/master/Math/335.Self-Crossing) (H)    
