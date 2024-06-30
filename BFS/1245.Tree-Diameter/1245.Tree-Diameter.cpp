@@ -1,25 +1,23 @@
 class Solution {
-    vector<vector<int>>adj;
-    int V;
 public:
     int treeDiameter(vector<vector<int>>& edges) 
     {
-        V = edges.size()+1;
-        adj.resize(V);
-        for (auto edge:edges)
+        int n = edges.size()+1;
+        vector<vector<int>>next(n);
+        for (auto edge: edges)
         {
-            adj[edge[0]].push_back(edge[1]);
-            adj[edge[1]].push_back(edge[0]);
+            next[edge[0]].push_back(edge[1]);
+            next[edge[1]].push_back(edge[0]);
         }
-        
-        auto t1 = bfs(0); 
-        auto t2 = bfs(t1.first); 
+        auto t1 = bfs(next, 0);
+        auto t2 = bfs(next, t1.first);
         return t2.second;        
     }
-        
-    pair<int, int> bfs(int u) 
+
+    pair<int, int> bfs(vector<vector<int>>&next, int u) 
     { 
-        vector<int>dis(V, -1);
+        int n = next.size();
+        vector<int>dis(n, -1);
         queue<int> q; 
         q.push(u); 
       
@@ -30,7 +28,7 @@ public:
             int t = q.front();       
             q.pop(); 
             
-            for (auto it = adj[t].begin(); it != adj[t].end(); it++) 
+            for (auto it = next[t].begin(); it != next[t].end(); it++) 
             { 
                 int v = *it; 
                 if (dis[v] == -1) 
@@ -42,9 +40,9 @@ public:
         } 
   
         int maxDis = 0; 
-        int nodeIdx; 
+        int nodeIdx = 0; 
           
-        for (int i = 0; i < V; i++) 
+        for (int i = 0; i < n; i++) 
         { 
             if (dis[i] > maxDis) 
             { 
@@ -53,5 +51,5 @@ public:
             } 
         } 
         return make_pair(nodeIdx, maxDis); 
-    }     
+    } 
 };
