@@ -302,7 +302,8 @@
 [1522.Diameter-of-N-Ary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/1522.Diameter-of-N-Ary-Tree) (M)     
 [2049.Count-Nodes-With-the-Highest-Score](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2049.Count-Nodes-With-the-Highest-Score) (M+)    
 [2246.Longest-Path-With-Different-Adjacent-Characters](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2246.Longest-Path-With-Different-Adjacent-Characters) (M+)     
-[2538.Difference-Between-Maximum-and-Minimum-Price-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2538.Difference-Between-Maximum-and-Minimum-Price-Sum) (H)    
+[2538.Difference-Between-Maximum-and-Minimum-Price-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2538.Difference-Between-Maximum-and-Minimum-Price-Sum) (H)      
+[3203.Find-Minimum-Diameter-After-Merging-Two-Trees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/3203.Find-Minimum-Diameter-After-Merging-Two-Trees) (H-)      
 * ``Serialization & Hashing``    
 [297.Serialize-and-Deserialize-Binary-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/297.Serialize-and-Deserialize-Binary-Tree) （H-）  
 [652.Find-Duplicate-Subtrees](https://github.com/wisdompeak/LeetCode/tree/master/Tree/652.Find-Duplicate-Subtrees) (H)   
