@@ -811,7 +811,8 @@
 [2209.Minimum-White-Tiles-After-Covering-With-Carpets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2209.Minimum-White-Tiles-After-Covering-With-Carpets) (M+)     
 [2430.Maximum-Deletions-on-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2430.Maximum-Deletions-on-a-String) (M+)     
 [2464.Minimum-Subarrays-in-a-Valid-Split](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2464.Minimum-Subarrays-in-a-Valid-Split) (M)     
-[2522.Partition-String-Into-Substrings-With-Values-at-Most-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2522.Partition-String-Into-Substrings-With-Values-at-Most-K) (M+)
+[2522.Partition-String-Into-Substrings-With-Values-at-Most-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2522.Partition-String-Into-Substrings-With-Values-at-Most-K) (M+)      
+[3202.Find-the-Maximum-Length-of-Valid-Subsequence-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3202.Find-the-Maximum-Length-of-Valid-Subsequence-II) (M)      
     * `Interval`      
    [1235.Maximum-Profit-in-Job-Scheduling](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1235.Maximum-Profit-in-Job-Scheduling) (H-)   
    [1751.Maximum-Number-of-Events-That-Can-Be-Attended-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1751.Maximum-Number-of-Events-That-Can-Be-Attended-II) (H)  
