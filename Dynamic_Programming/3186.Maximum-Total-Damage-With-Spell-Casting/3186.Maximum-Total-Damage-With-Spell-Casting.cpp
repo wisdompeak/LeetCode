@@ -1,37 +1,34 @@
-using LL = long long;
 class Solution {
 public:
     long long maximumTotalDamage(vector<int>& power) 
     {
-        map<LL,LL>p;
+        map<int, long long>Map;
         for (int x: power)
-            p[x]++;
-        
-        vector<pair<LL,LL>>arr(p.begin(), p.end());
-        
-        vector<LL>dp(arr.size());
-        
-        LL ret = 0;        
-        for (int i=0; i<arr.size(); i++)
-        {
-            auto [x, count] = arr[i];
-            
-            LL ans = x*count;
-            
-            if (i>=1) ans = max(ans, dp[i-1]);
-            
-            if (i>=1 && arr[i-1].first<x-2)
-                ans = max(ans, dp[i-1] + x*count);
-            else if (i>=2 && arr[i-2].first<x-2)
-                ans = max(ans, dp[i-2] + x*count);
-            else if (i>=3 && arr[i-3].first<x-2)
-                ans = max(ans, dp[i-3] + x*count);
-            
-            dp[i] = ans;
+            Map[x]++;
 
-            ret = max(ret, ans);
+        vector<pair<int, int>>spell(Map.begin(), Map.end());
+
+        vector<long long>dp(spell.size());
+
+        for (int i=0; i<spell.size(); i++)
+        {
+            auto [p, count] = spell[i];
+            
+            // do not pick the i-th spell
+            dp[i] = (long long)p*count;
+
+            // only pick the i-th spell
+            if (i>=1) dp[i] = max(dp[i], dp[i-1]);
+
+            // pick the i-th spell along with previous ones
+            if (i>=1 && p - spell[i-1].first > 2)
+                dp[i] = max(dp[i], dp[i-1] + p * count);
+            else if (i>=2 && p - spell[i-2].first > 2)
+                dp[i] = max(dp[i], dp[i-2] + p * count);
+            else if (i>=3)
+                dp[i] = max(dp[i], dp[i-3] + p * count);
         }
-        
-        return ret;        
+
+        return dp[spell.size()-1];        
     }
 };
