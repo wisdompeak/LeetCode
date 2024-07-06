@@ -108,14 +108,14 @@ public:
     vector<int> countOfPeaks(vector<int>& nums, vector<vector<int>>& queries) 
     {
         int n = nums.size();
-        vector<int>vals(n, 0);
+        vector<int>peaks(n, 0);
         for (int i=1; i<n-1; i++)
         {
             if (nums[i]>nums[i-1] && nums[i]>nums[i+1])
-                vals[i] = 1;
+                peaks[i] = 1;
         }
         
-        SegTreeNode* root = new SegTreeNode(0, n-1, vals); 
+        SegTreeNode* root = new SegTreeNode(0, n-1, peaks); 
         
         vector<int>rets;
         for (auto query: queries)
@@ -129,20 +129,20 @@ public:
             {
                 int i = query[1];
                 nums[i] = query[2];
-                if (i>=1 && i<n-1) check(root, i, nums, vals);
-                if (i-1>=1 && i-1<n-1) check(root, i-1, nums, vals);
-                if (i+1>=1 && i+1<n-1) check(root, i+1, nums, vals);                
+                if (i>=1 && i<n-1) check(root, i, nums, peaks);
+                if (i-1>=1 && i-1<n-1) check(root, i-1, nums, peaks);
+                if (i+1>=1 && i+1<n-1) check(root, i+1, nums, peaks);                
             }                
         }
         
         return rets;      
     }
 
-    void check(SegTreeNode* root, int i, vector<int>&nums, vector<int>&vals)
+    void check(SegTreeNode* root, int i, vector<int>&nums, vector<int>&peaks)
     {
         int v = nums[i]>nums[i-1] && nums[i]>nums[i+1];
-        if (v==vals[i]) return;
-        vals[i] = v;
+        if (v==peaks[i]) return;
+        peaks[i] = v;
         root->updateRange(i,i,v);
     }
 };
