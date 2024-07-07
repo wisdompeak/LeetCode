@@ -975,7 +975,7 @@
 [3133.Minimum-Array-End](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3133.Minimum-Array-End) (M+)      
 * ``Prefix Hashing``   
 [1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target) (H-)      
-[3171.Find-Subarray-With-Bitwise-AND-Closest-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3171.Find-Subarray-With-Bitwise-AND-Closest-to-K) (H)      
+[3171.Find-Subarray-With-Bitwise-OR-Closest-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3171.Find-Subarray-With-Bitwise-AND-Closest-to-K) (H)      
 [3209.Number-of-Subarrays-With-AND-Value-of-K](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3209.Number-of-Subarrays-With-AND-Value-of-K) (M+)      
 * ``XOR``   
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
