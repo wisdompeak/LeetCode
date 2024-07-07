@@ -358,7 +358,6 @@
 [3072.Distribute-Elements-Into-Two-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3072.Distribute-Elements-Into-Two-Arrays-II) (H-)     
 [3161.Block-Placement-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3161.Block-Placement-Queries) (H)     
 [3165.Maximum-Sum-of-Subsequence-With-Non-adjacent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3165.Maximum-Sum-of-Subsequence-With-Non-adjacent-Elements) (H)      
-[3171.Find-Subarray-With-Bitwise-AND-Closest-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3171.Find-Subarray-With-Bitwise-AND-Closest-to-K) (H)      
 [3187.Peaks-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3187.Peaks-in-Array) (M+)      
 
 #### [Binary Index Tree]
@@ -969,12 +968,15 @@
 [898.Bitwise-ORs-of-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/898.Bitwise-ORs-of-Subarrays) (H-)     
 [957.Prison-Cells-After-N-Days](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/957.Prison-Cells-After-N-Days) (H)   
 1461.Check-If-a-String-Contains-All-Binary-Codes-of-Size-K (TBD)  
-[1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target) (H-)  
 [2505.Bitwise-OR-of-All-Subsequence-Sums](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2505.Bitwise-OR-of-All-Subsequence-Sums) (H)     
 [2680.Maximum-OR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2680.Maximum-OR) (M+)    
 [2802.Find-The-K-th-Lucky-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2802.Find-The-K-th-Lucky-Number) (M+)      
 [2992.Number-of-Self-Divisible-Permutations](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2992.Number-of-Self-Divisible-Permutations) (M+)      
 [3133.Minimum-Array-End](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3133.Minimum-Array-End) (M+)      
+* ``Prefix Hashing``   
+[1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1521.Find-a-Value-of-a-Mysterious-Function-Closest-to-Target) (H-)
+[3171.Find-Subarray-With-Bitwise-AND-Closest-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3171.Find-Subarray-With-Bitwise-AND-Closest-to-K) (H)      
+[3209.Number-of-Subarrays-With-AND-Value-of-K](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3209.Number-of-Subarrays-With-AND-Value-of-K) (M+)      
 * ``XOR``   
 [136.Single-Number](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/136.Single-Number) (M)   
 [268.Missing-Number](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/268.Missing-Number) (H-)  
