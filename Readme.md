@@ -1363,7 +1363,8 @@
 [2871.Split-Array-Into-Maximum-Number-of-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2871.Split-Array-Into-Maximum-Number-of-Subarrays) (M+)      
 [2868.The-Wording-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2868.The-Wording-Game) (M)      
 [2897.Apply-Operations-on-Array-to-Maximize-Sum-of-Squares](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2897.Apply-Operations-on-Array-to-Maximize-Sum-of-Squares) (M+)     
-[3022.Minimize-OR-of-Remaining-Elements-Using-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3022.Minimize-OR-of-Remaining-Elements-Using-Operations) (H)      
+[3022.Minimize-OR-of-Remaining-Elements-Using-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3022.Minimize-OR-of-Remaining-Elements-Using-Operations) (H)        
+[3219.Minimum-Cost-for-Cutting-Cake-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3219.Minimum-Cost-for-Cutting-Cake-II) (H)      
 * ``Boyer-Moore Majority Voting``      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
 [2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
