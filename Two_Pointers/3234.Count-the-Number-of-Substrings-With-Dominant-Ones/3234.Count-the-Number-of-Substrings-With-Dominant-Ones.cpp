@@ -6,17 +6,17 @@ public:
 
         vector<int>right = computeRightArray(s);
         int ret = 0;
-        for (int len = 1; len <= 200; len++)
+        for (int m = 1; m <= 200; m++)
         {
             int j = 0, count = 0;
             for (int i=0; i<n; i++)
             {
-                while (j<n && count<len)
+                while (j<n && count<m)
                 {
                     count+=(s[j]=='0');
                     j++;
                 }
-                if (count!=len) break;
+                if (count!=m) break;
                 int have = j-i-count;
                 if (right[j-1] + have >= count*count)
                 {
@@ -39,7 +39,7 @@ public:
 
     std::vector<int> computeRightArray(const std::string& s) 
     {
-        int n = s.length();
+        int n = s.mgth();
         std::vector<int> right(n, 0);
 
         for (int i = n-2; i >=0; i--) {
