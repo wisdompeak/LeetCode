@@ -20,7 +20,7 @@ public:
         if (arrSum < 0)                     
             return maxSubArrSum(arr)%M;         
         else        
-            return (maxSubArrSum(arr) + ((long)k - 2) * arrSum % M)%M;               
+            return (maxSubArrSum(arr) + ((long)k - 2) * arrSum)%M;               
     }
     
     long maxSubArrSum(vector<int>arr) 
@@ -31,7 +31,6 @@ public:
         for (int i = 0; i < arr.size(); i++) 
         { 
             max_ending_here = max_ending_here + arr[i]; 
-            max_ending_here %= M;
             if (max_ending_here < 0) 
                 max_ending_here = 0; 
             if (max_so_far < max_ending_here) 
