@@ -17,6 +17,6 @@ public:
                 dp[i][j] = max(nums[i]+ ((i+2>j)?0:dp[i+2][j]), dp[i+1][j]);
             }
         
-        return max(nums[0]+((2>n-2)?0:dp[2][n-2]), dp[1][n-1]);
+        return std::max(dp[0][n-2], dp[1][n-1]);
     }
 };
