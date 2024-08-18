@@ -360,6 +360,7 @@
 [3161.Block-Placement-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3161.Block-Placement-Queries) (H)     
 [3165.Maximum-Sum-of-Subsequence-With-Non-adjacent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3165.Maximum-Sum-of-Subsequence-With-Non-adjacent-Elements) (H)      
 [3187.Peaks-in-Array](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3187.Peaks-in-Array) (M+)      
+[3261.Count-Substrings-That-Satisfy-20K-Constraint-II](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/3261.Count-Substrings-That-Satisfy-K-Constraint-II) (H-)      
 
 #### [Binary Index Tree]
 [307.Range-Sum-Query-Mutable](https://github.com/wisdompeak/LeetCode/blob/master/Segment_Tree/307.Range-Sum-Query-Mutable/) (M)   
