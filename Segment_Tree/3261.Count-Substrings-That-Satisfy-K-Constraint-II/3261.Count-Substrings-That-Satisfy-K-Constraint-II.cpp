@@ -115,7 +115,7 @@ public:
     vector<long long> countKConstraintSubstrings(string s, int k, vector<vector<int>>& queries) 
     {
         int n = s.size();
-        vector<int>len(n);
+        vector<int>end(n);
         int j = 0;
         int count0=0, count1=0;
         for (int i=0; i<n; i++)
@@ -126,7 +126,7 @@ public:
                 count1+= (s[j]=='1');                
                 j++;                
             }
-            len[i]=j-1;
+            end[i]=j-1;
             count0 -= (s[i]=='0');
             count1 -= (s[i]=='1');
         }
@@ -145,7 +145,7 @@ public:
             int a = q[0], b = q[1], idx=q[2];
             while (i>=a)
             {
-                root->updateRangeBy(i, len[i], 1);
+                root->updateRangeBy(i, end[i], 1);
                 i--;
             }
             rets[idx] = root->queryRange(a,b);            
