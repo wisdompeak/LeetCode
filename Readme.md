@@ -56,7 +56,8 @@
 [2953.Count-Complete-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2953.Count-Complete-Substrings) (H)      
 [2958.Length-of-Longest-Subarray-With-at-Most-K-Frequency](https://github.com/wisdompeak/LeetCode/blob/master/Two_Pointers/2958.Length-of-Longest-Subarray-With-at-Most-K-Frequency) (M)      
 [2968.Apply-Operations-to-Maximize-Frequency-Score](https://github.com/wisdompeak/LeetCode/tree/master/Math/2968.Apply-Operations-to-Maximize-Frequency-Score) (H-)      
-[3234.Count-the-Number-of-Substrings-With-Dominant-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3234.Count-the-Number-of-Substrings-With-Dominant-Ones) (H-)      
+[3234.Count-the-Number-of-Substrings-With-Dominant-Ones](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3234.Count-the-Number-of-Substrings-With-Dominant-Ones) (H-)
+[3298.Count-Substrings-That-Can-Be-Rearranged-to-Contain-a-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3298.Count-Substrings-That-Can-Be-Rearranged-to-Contain-a-String-II) (M+)      
 * ``Sliding window : Distinct Characters``    
 [076.Minimum-Window-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/076.Minimum-Window-Substring) (M+)    
 [003.Longest-Substring-Without-Repeating-Character](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/003.Longest%20Substring%20Without%20Repeating%20Characters) (E+)  
