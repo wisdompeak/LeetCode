@@ -147,6 +147,7 @@
 [3048.Earliest-Second-to-Mark-Indices-I](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3048.Earliest-Second-to-Mark-Indices-I) (M+)      
 [3049.Earliest-Second-to-Mark-Indices-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3049.Earliest-Second-to-Mark-Indices-II) (H)      
 [3097.Shortest-Subarray-With-OR-at-Least-K-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3097.Shortest-Subarray-With-OR-at-Least-K-II) (M)      
+[3399.Smallest-Substring-With-Identical-Characters-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3399.Smallest-Substring-With-Identical-Characters-II) (H-)      
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
