@@ -61,31 +61,31 @@ LL comb(LL m, LL n)
 
 /*********************************/
 // Version 4: Compute C(m,n) on demand with module M
-long long quickMul(long long x, long long N) 
+const LL MOD = 1e9 + 7;
+vector<LL> factorial;
+vector<LL> GetFactorial(LL N)
 {
-    if (N <= 0) {
-        return 1;
-    }
-    LL y = quickMul(x, N / 2) % MOD;
-    return N % 2 == 0 ? (y * y % MOD) : (y * y % MOD * x % MOD);
-}
-    
-void precompute(int n, vector<long long>& fact, vector<long long>& inv_fact) 
-{
-    fact[0] = inv_fact[0] = 1;
-    for (int i = 1; i <= n; ++i) 
-    {
-        fact[i] = fact[i - 1] * i % MOD;
-    }
-    inv_fact[n] = quickMul(fact[n], MOD - 2);
-    for (int i = n - 1; i >= 1; --i) 
-    {
-        inv_fact[i] = inv_fact[i + 1] * (i + 1) % MOD;
-    }
+    vector<LL>rets(N+1);
+    rets[0] = 1;
+    for (int i=1; i<=N; i++)
+        rets[i] = rets[i-1] * i % MOD;
+    return rets;
 }
 
-long long comb(int n, int k, const vector<long long>& fact, const vector<long long>& inv_fact) 
+long long quickPow(long long x, long long N) {
+    if (N == 0) {
+        return 1;
+    }
+    LL y = quickPow(x, N / 2) % MOD;
+    return N % 2 == 0 ? (y * y % MOD) : (y * y % MOD * x % MOD);
+}
+
+LL comb(LL m, LL n)
 {
-    if (k > n || k < 0) return 0;
-    return fact[n] * inv_fact[k] % MOD * inv_fact[n - k] % MOD;
+    if (n>m) return 0;
+    LL a = factorial[m];
+    LL b = factorial[n] * factorial[m-n] % MOD;
+    LL inv_b = quickPow(b, (MOD-2));
+
+    return a * inv_b % MOD;
 }
