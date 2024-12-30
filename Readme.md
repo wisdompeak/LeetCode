@@ -1288,6 +1288,7 @@
 [2930.Number-of-Strings-Which-Can-Be-Rearranged-to-Contain-Substring](https://github.com/wisdompeak/LeetCode/tree/master/Math/2930.Number-of-Strings-Which-Can-Be-Rearranged-to-Contain-Substring) (H-)      
 [2954.Count-the-Number-of-Infection-Sequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/2954.Count-the-Number-of-Infection-Sequences) (H)      
 [3395.Subsequences-with-a-Unique-Middle-Mode-I](https://github.com/wisdompeak/LeetCode/tree/master/Math/3395.Subsequences-with-a-Unique-Middle-Mode-I) (H)      
+[3405.Count-the-Number-of-Arrays-with-K-Matching-Adjacent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Math/3405.Count-the-Number-of-Arrays-with-K-Matching-Adjacent-Elements) (H-)   
 * ``Numerical Theory``   
 [204.Count-Primes](https://github.com/wisdompeak/LeetCode/tree/master/Math/204.Count-Primes) (M)    
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
