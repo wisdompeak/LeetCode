@@ -1,50 +1,41 @@
 #include<bits/stdc++.h>
 #define LL long long
 using namespace std;
-const LL N = 1e6+7, mod = 998244353;
+const LL N = 1e6+7, MOD = 998244353;
 
 /*********************************/
 // Linear method to compute inv[i]
-void main() 
+vector<LL>compute_inv(int n)
 {    
-    LL inv[N];
+    vector<int>inv(n+1);
     inv[1] = 1;
-    for(int i=2; i<N; ++i)
-        inv[i]=(mod-mod/i) * inv[mod%i] % mod;
-    
-    // ret *= inv[n] % mod;   // ret = (ret / n) % mod;    
+    for(int i=2; i<n; ++i)
+        inv[i]=(MOD-MOD/i) * inv[MOD%i] % MOD;
 }
 
 /*********************************/
 // Qucik Pow Method, based on Fermat's little theorem
 
-LL quickPow(int x, int y) 
+long long quickPow(long long x, long long N) 
 {
-    LL ret = 1;
-    LL cur = x;
-    while (y) 
-    {
-        if (y & 1) 
-        {
-            ret = (LL)ret * cur % mod;
-        }
-        cur = (LL)cur * cur % mod;
-        y >>= 1;
+    if (N <= 0) {
+        return 1;
     }
-    return ret;
+    LL y = quickPow(x, N / 2) % MOD;
+    return N % 2 == 0 ? (y * y % MOD) : (y * y % MOD * x % MOD);
 }
 
-LL inv(LL x) 
+long long inv(LL x) 
 {
-    return quickPow(x, mod - 2);
+    return quickPow(x, MOD - 2);
 }
 
 /*****************************/
 
-LL inv(int x) 
+long long compute_inv(int x) 
 {
     LL s = 1;
-    for (; x > 1; x = mod%x)
-      s = s*(mod-mod/x)%mod;
+    for (; x > 1; x = MOD%x)
+      s = s*(MOD-MOD/x)%MOD;
     return s;
 }
