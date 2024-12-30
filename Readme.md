@@ -1622,6 +1622,7 @@
 [2552.Count-Increasing-Quadruplets](https://github.com/wisdompeak/LeetCode/tree/master/Others/2552.Count-Increasing-Quadruplets) (H-)      
 [2768.Number-of-Black-Blocks](https://github.com/wisdompeak/LeetCode/tree/master/Others/2768.Number-of-Black-Blocks) (M+)      
 [2857.Count-Pairs-of-Points-With-Distance-k](https://github.com/wisdompeak/LeetCode/tree/master/Others/2857.Count-Pairs-of-Points-With-Distance-k) (M+)      
+[3404.Count-Special-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Others/3404.Count-Special-Subsequences) (H)      
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
