@@ -1050,7 +1050,7 @@
 [2223.Sum-of-Scores-of-Built-Strings](https://github.com/wisdompeak/LeetCode/tree/master/String/2223.Sum-of-Scores-of-Built-Strings) (H-)    
 [2261.K-Divisible-Elements-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/String/2261.K-Divisible-Elements-Subarrays) (H-)      
 [2781.Length-of-the-Longest-Valid-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/2781.Length-of-the-Longest-Valid-Substring) (H-)      
-[3388.Count-Beautiful-Splits-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/String/3388.Count-Beautiful-Splits-in-an-Array) (H-)      
+[3388.Count-Beautiful-Splits-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/String/3388.Count-Beautiful-Splits-in-an-Array) (H-)   
 * ``KMP``   
 [1392.Longest-Happy-Prefix](https://github.com/wisdompeak/LeetCode/tree/master/String/1392.Longest-Happy-Prefix) (H)    
 [028.Implement-strStr](https://github.com/wisdompeak/LeetCode/tree/master/String/028.Implement-strStr) (H)    
@@ -1474,6 +1474,7 @@
 [2589.Minimum-Time-to-Complete-All-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2589.Minimum-Time-to-Complete-All-Tasks) (H)      
 [2983.Palindrome-Rearrangement-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2983.Palindrome-Rearrangement-Queries) (H+)      
 [2781.Length-of-the-Longest-Valid-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/2781.Length-of-the-Longest-Valid-Substring) (H-)      
+[3394.Check-if-Grid-can-be-Cut-into-Sections](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3394.Check-if-Grid-can-be-Cut-into-Sections) (M)      
 * ``Constructive Problems``   
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 [667.Beautiful-Arrangement-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/667.Beautiful-Arrangement-II) (M)  
