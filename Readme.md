@@ -1549,6 +1549,7 @@
 [2808.Minimum-Seconds-to-Equalize-a-Circular-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2808.Minimum-Seconds-to-Equalize-a-Circular-Array) (M+)     
 [2811.Check-if-it-is-Possible-to-Split-Array](https://github.com/wisdompeak/LeetCode/tree/master/Others/2811.Check-if-it-is-Possible-to-Split-Array) (M+)      
 [3068.Find-the-Maximum-Sum-of-Node-Values](https://github.com/wisdompeak/LeetCode/tree/master/Others/3068.Find-the-Maximum-Sum-of-Node-Values) (M+)      
+[3400.Maximum-Number-of-Matching-Indices-After-Right-Shifts](https://github.com/wisdompeak/LeetCode/tree/master/Others/3400.Maximum-Number-of-Matching-Indices-After-Right-Shifts) (M+)      
 * ``公式变形``      
 [2898.Maximum-Linear-Stock-Score](https://github.com/wisdompeak/LeetCode/tree/master/Others/2898.Maximum-Linear-Stock-Score) (M)      
 * ``Collision``   
