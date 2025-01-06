@@ -1353,7 +1353,6 @@
 [2216.Minimum-Deletions-to-Make-Array-Beautiful](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2216.Minimum-Deletions-to-Make-Array-Beautiful) (M+)      
 [2242.Maximum-Score-of-a-Node-Sequence](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2242.Maximum-Score-of-a-Node-Sequence) (M+)      
 [2257.Count-Unguarded-Cells-in-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2257.Count-Unguarded-Cells-in-the-Grid) (M+)    
-[2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)    
 [2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2275.Largest-Combination-With-Bitwise-AND-Greater-Than-Zero) (M+)    
 [2306.Naming-a-Company](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2306.Naming-a-Company) (H-)     
 [2311.Longest-Binary-Subsequence-Less-Than-or-Equal-to-K](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2311.Longest-Binary-Subsequence-Less-Than-or-Equal-to-K) (H-)    
@@ -1474,7 +1473,9 @@
 [2589.Minimum-Time-to-Complete-All-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2589.Minimum-Time-to-Complete-All-Tasks) (H)      
 [2983.Palindrome-Rearrangement-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2983.Palindrome-Rearrangement-Queries) (H+)      
 [2781.Length-of-the-Longest-Valid-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/2781.Length-of-the-Longest-Valid-Substring) (H-)      
-[3394.Check-if-Grid-can-be-Cut-into-Sections](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3394.Check-if-Grid-can-be-Cut-into-Sections) (M)      
+[3394.Check-if-Grid-can-be-Cut-into-Sections](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3394.Check-if-Grid-can-be-Cut-into-Sections) (M)   
+[2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)    
+[3413.Maximum-Coins-From-K-Consecutive-Bags](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3413.Maximum-Coins-From-K-Consecutive-Bags) (H-)      
 * ``Constructive Problems``   
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 [667.Beautiful-Arrangement-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/667.Beautiful-Arrangement-II) (M)  
