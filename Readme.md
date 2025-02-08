@@ -1580,6 +1580,7 @@
 [2681.Power-of-Heroes](https://github.com/wisdompeak/LeetCode/tree/master/Others/2681.Power-of-Heroes) (H-)      
 [2763.Sum-of-Imbalance-Numbers-of-All-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Others/2763.Sum-of-Imbalance-Numbers-of-All-Subarrays) (H-)      
 [2818.Apply-Operations-to-Maximize-Score](https://github.com/wisdompeak/LeetCode/tree/master/Others/2818.Apply-Operations-to-Maximize-Score) (H-)      
+[3428.Maximum-and-Minimum-Sums-of-at-Most-Size-K-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/3428.Maximum-and-Minimum-Sums-of-at-Most-Size-K-Subsequences) (M+)      
 * ``扫描线 / 差分数组``   
 [252.Meeting-Rooms](https://github.com/wisdompeak/LeetCode/tree/master/Others/252.Meeting-Rooms) (M)  
 [253.Meeting-Rooms-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/253.Meeting-Rooms-II) (M+)    
