@@ -11,7 +11,7 @@ public:
         if (j==9) return DFS(board, i+1, 0);
         if (board[i][j]!='.') return DFS(board, i, j+1);
         
-        for (int k='1'; k<='9'; k++)
+        for (char k='1'; k<='9'; k++)
         {            
             if (!isValid(board, i, j, k)) continue;
             board[i][j]=k;
