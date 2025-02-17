@@ -1480,6 +1480,7 @@
 [3394.Check-if-Grid-can-be-Cut-into-Sections](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3394.Check-if-Grid-can-be-Cut-into-Sections) (M)   
 [2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)    
 [3413.Maximum-Coins-From-K-Consecutive-Bags](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3413.Maximum-Coins-From-K-Consecutive-Bags) (H-)      
+[3458.Select-K-Disjoint-Special-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3458.Select-K-Disjoint-Special-Substrings) (H-)      
 * ``Constructive Problems``   
 [324.Wiggle-Sort-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/324.Wiggle-Sort-II) (H)    
 [667.Beautiful-Arrangement-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/667.Beautiful-Arrangement-II) (M)  
