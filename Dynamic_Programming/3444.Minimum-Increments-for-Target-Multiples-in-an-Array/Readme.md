@@ -7,5 +7,3 @@
 2. nums[i]是state里某些元素的（公）倍数。于是我们需要枚举state里的子集subset，就有`dp[i][state]=dp[i-1][state-subset]+cost(nums[i], targets[subset]`。这里的cost，显然就是将nums[i]增加至targets[subset]所对应的最小公倍数即可。
 
 最终答案就是dp[n][(1<<m)-1]，表示将nums的所有元素考察完之后，实现覆盖了targets里所有元素的倍数，所对应的最小代价。
-
-有个细节就是计算targets[subset]的最小公倍数时可能会整型溢出，可以将这部分跳过。这是因为targets的元素不超过1e4，那么我们所需要操作的代价最多也只需要4*1e4，就可以保证在nums里构造出targets里每个元素的倍数。
