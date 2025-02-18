@@ -1479,7 +1479,7 @@
 [2781.Length-of-the-Longest-Valid-Substring](https://github.com/wisdompeak/LeetCode/tree/master/String/2781.Length-of-the-Longest-Valid-Substring) (H-)      
 [3394.Check-if-Grid-can-be-Cut-into-Sections](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3394.Check-if-Grid-can-be-Cut-into-Sections) (M)   
 [2271.Maximum-White-Tiles-Covered-by-a-Carpet](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2271.Maximum-White-Tiles-Covered-by-a-Carpet) (M+)       
-[3413.Maximum-Coins-From-K-Consecutive-Bags](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3413.Maximum-Coins-From-K-Consecutive-Bags) (H-)
+[3413.Maximum-Coins-From-K-Consecutive-Bags](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3413.Maximum-Coins-From-K-Consecutive-Bags) (H-)      
 3104.Find Longest Self-Contained Substring (TBD)      
 [1520.Maximum-Number-of-Non-Overlapping-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1520.Maximum-Number-of-Non-Overlapping-Substrings) (H-)  
 [3458.Select-K-Disjoint-Special-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3458.Select-K-Disjoint-Special-Substrings) (H-)      
