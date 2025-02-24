@@ -13,10 +13,11 @@ where inv(b) = b^(p-2) and b cannot be divided by p.
 ```
 这里的p非常小，分别是2和5，很容易被组合数计算表达式的分母整除。
 
-因此此题涉及到了一个非常专业的知识点，Lucas定理。见https://oi-wiki.org/math/number-theory/lucas/
+因此此题涉及到了一个生僻的知识点，Lucas定理。见https://oi-wiki.org/math/number-theory/lucas/
 ```
 long long Lucas(long long n, long long m, long long p) {
   if (m == 0) return 1;
   return (C(n % p, m % p, p) * Lucas(n / p, m / p, p)) % p;
 }
 ```
+用这个函数，我们就直接求得了`C(n,i)%p`的值，再作为nums[i]的系数带入计算。
