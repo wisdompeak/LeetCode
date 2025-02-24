@@ -7,4 +7,4 @@
 4. 在Trie树中找指定的前缀（不需要找到叶子节点）
 
 
-[Leetcode Link](https://leetcode.com/problems/implement-trie--prefix-tree)
+[Leetcode Link](https://leetcode.com/problems/implement-trie-prefix-tree)
