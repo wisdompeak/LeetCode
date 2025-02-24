@@ -1294,6 +1294,7 @@
 [3395.Subsequences-with-a-Unique-Middle-Mode-I](https://github.com/wisdompeak/LeetCode/tree/master/Math/3395.Subsequences-with-a-Unique-Middle-Mode-I) (H)      
 [3405.Count-the-Number-of-Arrays-with-K-Matching-Adjacent-Elements](https://github.com/wisdompeak/LeetCode/tree/master/Math/3405.Count-the-Number-of-Arrays-with-K-Matching-Adjacent-Elements) (H-)      
 [3428.Maximum-and-Minimum-Sums-of-at-Most-Size-K-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/3428.Maximum-and-Minimum-Sums-of-at-Most-Size-K-Subsequences) (M+)      
+[3463.Check-If-Digits-Are-Equal-in-String-After-Operations-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3463.Check-If-Digits-Are-Equal-in-String-After-Operations-II) (H+)      
 * ``Numerical Theory``   
 [204.Count-Primes](https://github.com/wisdompeak/LeetCode/tree/master/Math/204.Count-Primes) (M)    
 [343.Integer-Break](https://github.com/wisdompeak/LeetCode/tree/master/Math/343.Integer-Break) (H-)    
