@@ -9,3 +9,12 @@
 由此，我们一旦做出了pos位置上的鞠策，在往后递归的时候，也需要相应更新isTight和isLeadingZero这两个状态。
 
 递归需要记忆化的支持。本题记忆化的状态就是递归函数的参数：pos, sum, product, isTight, isLeadingZero。我们可以用tuple作为key，加上有序map来存储访问过的状态。
+
+有人会问product的个数会不会很大？事实上9个digit想乘，可以得到的不同的乘积并不大。
+```
+st = {1}  # 空集的乘积（乘法单位元）
+for _ in range(9):  # 9 个数相乘
+    st = set(x * d for x in st for d in range(10))  # 每个数从 0 到 9
+print(len(st))  # 3026
+```
+总的记忆化状态数目最多`9*81*3000*2*2=8748000`，恰好可以接受。
