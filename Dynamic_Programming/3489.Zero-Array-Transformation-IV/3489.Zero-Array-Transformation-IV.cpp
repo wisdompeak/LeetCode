@@ -1,56 +1,38 @@
 class Solution {
+    int dp[10][1005];
 public:
+    bool isOK(vector<int>& nums)
+    {
+        int flag = 1;
+        for (int i=0; i<nums.size(); i++)
+        {
+            if (dp[i][nums[i]]==false)
+            {
+                flag = 0;
+                break;
+            }
+        }
+        return flag;
+    }
+    
     int minZeroArray(vector<int>& nums, vector<vector<int>>& queries) 
     {
-        int n = nums.size();
-        int left = 0, right = queries.size();
-        while (left < right)
+        for (int i=0; i<nums.size(); i++)
+            dp[i][0] = true;
+        
+        if (isOK(nums)) return 0;
+        
+        for (int k=0; k<queries.size(); k++)
         {
-            int mid = left+(right-left)/2;
-            if (isOK(nums, queries, mid))
-                right = mid;
-            else
-                left = mid+1;
-        }
-        if (isOK(nums,queries, left)) return left;
-        else return -1;        
-    }
-    
-    bool isOK(vector<int>& nums, vector<vector<int>>& queries, int t)
-    {
-        int n = nums.size();
-        vector<vector<int>>diff(n+1);
-        for (int i=0; i<t; i++)
-        {
-            int l = queries[i][0], r = queries[i][1], v = queries[i][2];
-            diff[l].push_back(v);
-            diff[r+1].push_back(-v);
-        }
-        multiset<int>Set;
-        for (int i=0; i<n; i++)
-        {
-            for (int x: diff[i])
+            int a = queries[k][0], b = queries[k][1], d = queries[k][2];
+            for (int i=a; i<=b; i++)
             {
-                if (x>0) Set.insert(x);
-                else Set.erase(Set.lower_bound(-x));
-            }
-            if (!subsetSum(Set, nums[i]))
-                return false;
+                for (int v=1000; v>=0; v--)
+                    if (v>=d) dp[i][v] = (dp[i][v] || dp[i][v-d]);                
+            }            
+            
+            if (isOK(nums)) return k+1;
         }
-        return true;
-    }
-    
-    bool subsetSum(multiset<int>& nums, int target) 
-    {
-        vector<bool> dp(target + 1, false);
-        dp[0] = true; 
-        for (int num : nums) 
-        {
-            for (int j = target; j >= num; j--) {
-                if (dp[j - num])
-                    dp[j] = true;
-            }
-        }
-        return dp[target];
+        return -1;
     }
 };
