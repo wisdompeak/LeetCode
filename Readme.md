@@ -857,6 +857,7 @@
 [2518.Number-of-Great-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2518.Number-of-Great-Partitions) (H-)      
 [2585.Number-of-Ways-to-Earn-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2585.Number-of-Ways-to-Earn-Points) (M)      
 [2902.Count-of-Sub-Multisets-With-Bounded-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2902.Count-of-Sub-Multisets-With-Bounded-Sum) (H)      
+[3489.Zero-Array-Transformation-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3489.Zero-Array-Transformation-IV) (H-)      
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
@@ -1620,7 +1621,6 @@
 [2963.Count-the-Number-of-Good-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/2963.Count-the-Number-of-Good-Partitions) (H-)      
 [3009.Maximum-Number-of-Intersections-on-the-Chart](https://github.com/wisdompeak/LeetCode/tree/master/Others/3009.Maximum-Number-of-Intersections-on-the-Chart) (H)      
 [3169.Count-Days-Without-Meetings](https://github.com/wisdompeak/LeetCode/tree/master/Others/3169.Count-Days-Without-Meetings) (M)      
-[3489.Zero-Array-Transformation-IV](https://github.com/wisdompeak/LeetCode/tree/master/Others/3489.Zero-Array-Transformation-IV) (H)      
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
