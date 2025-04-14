@@ -14,6 +14,31 @@ for (int i = 0; i <= n; ++i)
 }  
 
 /*********************************/
+//  Version 1.5: compute all C(n,m) saved in comb with maximum space capability
+int comb[5001][2501];  
+int getComb(int m, int n)
+{
+    if (m<n) return 0;
+    if (n<=(m+1)/2)
+        return comb[m][n];
+    else
+        return comb[m][m-n];
+}
+void precompute(int n)
+{        
+    for (int i = 0; i <= n; ++i) 
+    {
+        comb[i][0] = 1;
+        if (i==0) continue;
+        for (int j = 1; j <= (i+1)/2; ++j) 
+        {
+            comb[i][j] = getComb(i-1, j-1) + getComb(i-1,j);
+            comb[i][j] = min(comb[i][j], INT_MAX/2);
+        }
+    }
+}
+
+/*********************************/
 // Version 2: Compute C(n,m) on demand based on definition
 long long help(int n, int m)
 {
