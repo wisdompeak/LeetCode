@@ -9,7 +9,7 @@ public:
             for (int j=0; j<=N; j++)
                 for (int x=0; x<=N; x++)
                     dp[i][j][x] = INT_MIN;
-        
+        dp[1][1][1] = grid[0][0];
         for (int i=1; i<=N; i++)
             for (int j=1; j<=N; j++)
                 for (int x=1; x<=N; x++)
@@ -17,11 +17,7 @@ public:
                     int y = i+j-x;
                     if (y<1||y>N) continue;
                     if (grid[i-1][j-1]==-1||grid[x-1][y-1]==-1) continue;
-                    if (i==1&&j==1&&x==1)
-                    {
-                        dp[i][j][x] = grid[0][0];
-                        continue;
-                    }
+                    if (i==1&&j==1&&x==1) continue;
 
                     dp[i][j][x] = max(dp[i][j][x], dp[i-1][j][x-1]);
                     dp[i][j][x] = max(dp[i][j][x], dp[i][j-1][x-1]);
