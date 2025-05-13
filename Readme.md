@@ -961,6 +961,7 @@
 * ``Infer future from current``   
 [2044.Count-Number-of-Maximum-Bitwise-OR-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2044.Count-Number-of-Maximum-Bitwise-OR-Subsets) (M)      
 [2742.Painting-the-Walls](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2742.Painting-the-Walls) (H)      
+[3538.Merge-Operations-for-Minimum-Travel-Time](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3538.Merge-Operations-for-Minimum-Travel-Time) (H)      
 * ``maximum subarray``   
 [053.Maximum-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/053.Maximum-Subarray) (E+)  
 [152.Maximum-Product-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/152.Maximum-Product-Subarray) (M+)  
