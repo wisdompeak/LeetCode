@@ -613,7 +613,8 @@
 [2258.Escape-the-Spreading-Fire](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2258.Escape-the-Spreading-Fire) (H+)     
 [2290.Minimum-Obstacle-Removal-to-Reach-Corner](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2290.Minimum-Obstacle-Removal-to-Reach-Corner) (M+)     
 [2493.Divide-Nodes-Into-the-Maximum-Number-of-Groups](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2493.Divide-Nodes-Into-the-Maximum-Number-of-Groups) (H-)     
-[2812.Find-the-Safest-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2812.Find-the-Safest-Path-in-a-Grid) (M+)      
+[2812.Find-the-Safest-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2812.Find-the-Safest-Path-in-a-Grid) (M+)         
+[3552.Grid-Teleportation-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/BFS/3552.Grid-Teleportation-Traversal) (H-)      
 * ``Multi State``   
 [847.Shortest-Path-Visiting-All-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/847.Shortest-Path-Visiting-All-Nodes) (H-)  
 [864.Shortest-Path-to-Get-All-Keys](https://github.com/wisdompeak/LeetCode/tree/master/BFS/864.Shortest-Path-to-Get-All-Keys) (H-)   
@@ -1460,7 +1461,8 @@
 [448.Find-All-Numbers-Disappeared-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/448.Find-All-Numbers-Disappeared-in-an-Array) (M)   
 [645.Set-Mismatch](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/645.Set-Mismatch) (M)    
 [2471.Minimum-Number-of-Operations-to-Sort-a-Binary-Tree-by-Level](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2471.Minimum-Number-of-Operations-to-Sort-a-Binary-Tree-by-Level) (M+)      
-[2459.Sort-Array-by-Moving-Items-to-Empty-Space](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2459.Sort-Array-by-Moving-Items-to-Empty-Space) (H)    
+[2459.Sort-Array-by-Moving-Items-to-Empty-Space](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2459.Sort-Array-by-Moving-Items-to-Empty-Space) (H)      
+[3551.Minimum-Swaps-to-Sort-by-Digit-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3551.Minimum-Swaps-to-Sort-by-Digit-Sum) (M)      
 * ``Parenthesis``   
 [032.Longest-Valid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Stack/032.Longest-Valid-Parentheses) (H)   
 [921.Minimum-Add-to-Make-Parentheses-Valid](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/921.Minimum-Add-to-Make-Parentheses-Valid) (M+)  
