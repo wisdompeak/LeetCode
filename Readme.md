@@ -4,7 +4,7 @@
 (If you are interested in joining this group, ping me guan.huifeng@gmail.com)
 
 ### LeetCode难题代码和算法要点分析
-#### 目前分类目录
+#### 目前分类目录https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II
 #### [Two Pointers](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers)
 [011.Container-With-Most-Water](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/011.Container-With-Most-Water)	(M+)  
 [015.3Sum](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/015.3Sum)  (M)  
@@ -107,6 +107,7 @@
 [2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game) (H)      
 [2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree) (H)      
 [2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
+[3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II) (H)      
 * ``Binary Search by Value``  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H-)  
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
