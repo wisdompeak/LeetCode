@@ -485,6 +485,7 @@
 [2398.Maximum-Number-of-Robots-Within-Budget](https://github.com/wisdompeak/LeetCode/tree/master/Deque/2398.Maximum-Number-of-Robots-Within-Budget) (H-)    
 [2762.Continuous-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Deque/2762.Continuous-Subarrays) (M+)      
 [2969.Minimum-Number-of-Coins-for-Fruits-II](https://github.com/wisdompeak/LeetCode/tree/master/Deque/2969.Minimum-Number-of-Coins-for-Fruits-II) (H-)      
+[3578.Count-Partitions-With-Max-Min-Difference-at-Most-K](https://github.com/wisdompeak/LeetCode/tree/master/Deque/3578.Count-Partitions-With-Max-Min-Difference-at-Most-K) (H-)      
 
 #### [Priority Queue](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue)
 [004.Median-of-Two-Sorted-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/004.Median-of-Two-Sorted-Arrays)	(H)  
