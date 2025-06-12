@@ -1,4 +1,4 @@
-3579.Minimum-Steps-to-Convert-String-with-Operations
+### 3579.Minimum-Steps-to-Convert-String-with-Operations
 
 对于区间的问题，我们会思考用区间型的DP是否可行。我们自然会令dp[i]表示针对前i个元素，变换成功所需要的最少操作次数。接下来就是要考虑最后一个区间的位置起点j。因为本题里字符串的长度只有100，我们可以考虑遍历起点j。这样问题就转化为对于区间[j:i]，变化成功所需要的最少操作次数，这样就有`dp[i]=dp[j-1]+helper(j,i)`.
 
