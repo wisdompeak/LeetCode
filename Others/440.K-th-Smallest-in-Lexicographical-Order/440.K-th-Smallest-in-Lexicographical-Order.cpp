@@ -33,7 +33,7 @@ public:
         while (1)
         {
             long lower = prefix * exp;
-            long upper = prefix * exp + exp + 1;
+            long upper = prefix * exp + exp - 1;
             if (lower > n) break;
             if (lower <= n && upper >= n)
             {
