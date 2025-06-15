@@ -108,6 +108,7 @@
 [2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree) (H)      
 [2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
 [3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II) (H)      
+[3585.Find-Weighted-Median-Node-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3585.Find-Weighted-Median-Node-in-Tree) (H)      
 * ``Binary Search by Value``  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H-)  
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
