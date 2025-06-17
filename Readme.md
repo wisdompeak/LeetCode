@@ -107,6 +107,7 @@
 [2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game) (H)      
 [2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree) (H)      
 [2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
+[3534.Path-Existence-Queries-in-a-Graph-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3534.Path-Existence-Queries-in-a-Graph-II) (H)      
 [3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II) (H)      
 [3585.Find-Weighted-Median-Node-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3585.Find-Weighted-Median-Node-in-Tree) (H)      
 * ``Binary Search by Value``  
