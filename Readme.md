@@ -104,6 +104,7 @@
 [2972.Count-the-Number-of-Incremovable-Subarrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2972.Count-the-Number-of-Incremovable-Subarrays-II) (H-)      
 * ``Binary Lifting``  
 [1483.Kth-Ancestor-of-a-Tree-Node](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1483.Kth-Ancestor-of-a-Tree-Node) (H)      
+[2277.Closest-Node-to-Path-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2277.Closest-Node-to-Path-in-Tree) (H)      
 [2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game) (H)      
 [2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree) (H)      
 [2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
@@ -296,7 +297,6 @@
 [2445.Number-of-Nodes-With-Value-One](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2445.Number-of-Nodes-With-Value-One) (M+)    
 * ``Regular DFS``      
 [2322.Minimum-Score-After-Removals-on-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2322.Minimum-Score-After-Removals-on-a-Tree) (H-)     
-[2277.Closest-Node-to-Path-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2277.Closest-Node-to-Path-in-Tree) (H-)    
 [2313.Minimum-Flips-in-Binary-Tree-to-Get-Result](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2313.Minimum-Flips-in-Binary-Tree-to-Get-Result) (H)
 [2467.Most-Profitable-Path-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2467.Most-Profitable-Path-in-a-Tree) (M+)      
 [2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2458.Height-of-Binary-Tree-After-Subtree-Removal-Queries) (M+)    
