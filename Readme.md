@@ -864,6 +864,7 @@
 [2585.Number-of-Ways-to-Earn-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2585.Number-of-Ways-to-Earn-Points) (M)      
 [2902.Count-of-Sub-Multisets-With-Bounded-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2902.Count-of-Sub-Multisets-With-Bounded-Sum) (H)      
 [3489.Zero-Array-Transformation-IV](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3489.Zero-Array-Transformation-IV) (H-)      
+[3592.Inverse-Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3592.Inverse-Coin-Change) (H)      
 * ``键盘型``  
 [650.2-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/blob/master/Dynamic_Programming/650.2-Keys-Keyboard) (M+)   
 [651.4-Keys-Keyboard](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/651.4-Keys-Keyboard) (M+)    
