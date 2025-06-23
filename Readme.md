@@ -667,6 +667,7 @@
 [2714.Find-Shortest-Path-with-K-Hops](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2714.Find-Shortest-Path-with-K-Hops) (M+)    
 [2203.Minimum-Weighted-Subgraph-With-the-Required-Paths](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2203.Minimum-Weighted-Subgraph-With-the-Required-Paths) (H-)     
 [2473.Minimum-Cost-to-Buy-Apples](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2473.Minimum-Cost-to-Buy-Apples) (M)      
+[3594.Minimum-Time-to-Transport-All-Individuals](https://github.com/wisdompeak/LeetCode/tree/master/BFS/3594.Minimum-Time-to-Transport-All-Individuals) (H)      
 * ``Dijkstra (for Bipatite Graph)``   
 [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
 [1879.Minimum-XOR-Sum-of-Two-Arrays](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1879.Minimum-XOR-Sum-of-Two-Arrays) (H)  
