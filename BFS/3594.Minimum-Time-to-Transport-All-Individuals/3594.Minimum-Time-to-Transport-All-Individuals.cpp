@@ -30,7 +30,7 @@ public:
                 double crossTime = mx*mul[stage];
 
                 int stage2 = (stage + int(floor(crossTime)))%m;
-                int mask2 = mask | sub;
+                int mask2 = mask + sub;
 
                 if (mask2 == END) {
                     if (d0+crossTime < dist[END][stage2]) {
@@ -52,6 +52,7 @@ public:
                 }
             }            
         }
+
         return -1;
     }
 };
