@@ -153,6 +153,7 @@
 [3097.Shortest-Subarray-With-OR-at-Least-K-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3097.Shortest-Subarray-With-OR-at-Least-K-II) (M)      
 [3399.Smallest-Substring-With-Identical-Characters-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3399.Smallest-Substring-With-Identical-Characters-II) (H-)      
 [3449.Maximize-the-Minimum-Game-Score](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3449.Maximize-the-Minimum-Game-Score) (H-)      
+[3464.Maximize-the-Distance-Between-Points-on-a-Square](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3464.Maximize-the-Distance-Between-Points-on-a-Square) (H)      
     * ``Find K-th Element``       
 [215.Kth-Largest-Element-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/215.Kth-Largest-Element-in-an-Array) (M)   
 [287.Find-the-Duplicate-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/287.Find-the-Duplicate-Number) (H-)   
