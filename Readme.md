@@ -1132,7 +1132,8 @@
 [1168.Optimize-Water-Distribution-in-a-Village](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1168.Optimize-Water-Distribution-in-a-Village) (H-)   
 [1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1489.Find-Critical-and-Pseudo-Critical-Edges-in-Minimum-Spanning-Tree) (H)   
 [1579.Remove-Max-Number-of-Edges-to-Keep-Graph-Fully-Traversable](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1579.Remove-Max-Number-of-Edges-to-Keep-Graph-Fully-Traversable) (H-)  
-[1584.Min-Cost-to-Connect-All-Points](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1584.Min-Cost-to-Connect-All-Points) (H-)  
+[1584.Min-Cost-to-Connect-All-Points](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/1584.Min-Cost-to-Connect-All-Points) (H-)      
+[3600.Maximize-Spanning-Tree-Stability-with-Upgrades](https://github.com/wisdompeak/LeetCode/tree/master/Union_Find/3600.Maximize-Spanning-Tree-Stability-with-Upgrades) (H)      
 
 #### [Recursion](https://github.com/wisdompeak/LeetCode/tree/master/Recursion)
 [087.Scramble-String](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/087.Scramble-String) (H-)  
