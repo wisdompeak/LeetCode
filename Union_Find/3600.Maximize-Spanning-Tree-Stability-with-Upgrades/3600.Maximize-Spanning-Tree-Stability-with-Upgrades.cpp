@@ -17,38 +17,37 @@ public:
             return true;
         }
     };
-    
+
     bool isOK(int T, int n, vector<vector<int>>& edges, int k) {
         DSU dsu(n);
         int count = 0;
         int upgrade = 0;
-
-        vector<vector<int>>arr; // cost, u, v
+        
+        vector<vector<int>>candidates; // upgrade, u,v
         for (auto& e: edges) {
             int u = e[0], v = e[1], s = e[2], must = e[3];
             if (must) {
                 if (s<T) return false;
                 dsu.unite(u,v);
-                ++count;
+                count++;
             } else {
-                if (s >= T) 
-                    arr.push_back({0, u, v});
+                if (s>=T)
+                    candidates.push_back({0, u, v});
                 else if (2*s>=T)
-                    arr.push_back({1, u, v});                    
+                    candidates.push_back({1, u, v});
             }
         }
 
-        sort(arr.begin(), arr.end());
+        sort(candidates.begin(), candidates.end());
 
-        for (auto& p: arr) {
-            int u = p[1], v = p[2];
+        for (auto& cand: candidates) {
+            int u = cand[1], v = cand[2];
             if (count==n-1) break;
             if (dsu.find(u)!=dsu.find(v)) {
                 dsu.unite(u,v);
                 count++;
-                upgrade += p[0];
-                if (upgrade > k)
-                    return false;
+                upgrade += cand[0];
+                if (upgrade > k) return false;
             }
         }
 
@@ -56,25 +55,21 @@ public:
             if (dsu.find(i)!=dsu.find(0))
                 return false;
 
-        return count == n-1;
+        return count==n-1;
     }
-    
+
     int maxStability(int n, vector<vector<int>>& edges, int k) {
-        int lo = 0, hi = 0;
-        for (auto &e:edges) {
-            hi = max(hi, e[2]);
-        }
-        hi*=2;
-      
-        while (lo<hi) {
+        int lo = 1, hi = 1e5*2;
+        while (lo < hi) {
             int mid = hi-(hi-lo)/2;
-            if (isOK(mid, n, edges, k)) {
+            if (isOK(mid, n, edges, k))
                 lo = mid;
-            } else {
+            else
                 hi = mid-1;
-            }
         }
-        if (isOK(lo, n, edges, k)) return lo;
-        else return -1;
+        if (isOK(lo, n, edges, k))
+            return lo;
+        else
+            return -1;        
     }
 };
