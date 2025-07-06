@@ -1687,6 +1687,7 @@
 [330.Patching-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/330.Patching-Array) (H)   
 [1798.Maximum-Number-of-Consecutive-Values-You-Can-Make](https://github.com/wisdompeak/LeetCode/blob/master/Greedy/1798.Maximum-Number-of-Consecutive-Values-You-Can-Make) (H-)  
 [2952.Minimum-Number-of-Coins-to-be-Added](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2952.Minimum-Number-of-Coins-to-be-Added) (H-)      
+[3609.Minimum-Moves-to-Reach-Target-in-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/3609.Minimum-Moves-to-Reach-Target-in-Grid) (H)      
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
