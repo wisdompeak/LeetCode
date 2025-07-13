@@ -585,6 +585,7 @@
 [2741.Special-Permutations](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2741.Special-Permutations) (M+)      
 [2746.Decremental-String-Concatenation](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2746.Decremental-String-Concatenation) (H-)      
 [3213.Construct-String-with-Minimum-Cost](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3213.Construct-String-with-Minimum-Cost) (H-)      
+[3615.Longest-Palindromic-Path-in-Graph](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3615.Longest-Palindromic-Path-in-Graph) (H-)      
 * ``hidden matrix``    
 [489.Robot-Room-Cleaner](https://github.com/wisdompeak/LeetCode/blob/master/DFS/489.Robot-Room-Cleaner) (H)   
 [1778.Shortest-Path-in-a-Hidden-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/1778.Shortest-Path-in-a-Hidden-Grid) (H-)  
