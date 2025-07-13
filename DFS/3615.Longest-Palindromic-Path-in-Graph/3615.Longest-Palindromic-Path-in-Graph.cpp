@@ -13,7 +13,7 @@ public:
                 if (mask&(1<<v2)) continue;
                 if (label[u2]!=label[v2]) continue;
                 int newMask = mask | (1<<u2) | (1<<v2);
-                ret = max(ret, 1+dfs(u2,v2, newMask));
+                ret = max(ret, 2+dfs(u2,v2, newMask));
             }            
         }
         memo[u][v][mask] = ret;
@@ -28,18 +28,16 @@ public:
         memset(memo, -1, sizeof(memo));
 
         int ret = 1;
-        for (int u=0; u<n; u++) {
-            int mask = 1<<u;
-            int pairs = dfs(u, u, mask);
-            ret = max(ret, 1+2*pairs);
+        for (int u=0; u<n; u++) {            
+            int mask = 1<<u;            
+            ret = max(ret, 1+dfs(u,u, mask));
         }
 
         for (int u=0; u<n; u++) 
             for (int v: adj[u]) {
-                if (u<v && label[u]==label[v]) {
+                if (u<v && label[u]==label[v]) {                    
                     int mask = (1<<u) | (1<<v);
-                    int pairs = dfs(u,v, mask);
-                    ret = max(ret, 2+2*pairs);
+                    ret = max(ret, 2+dfs(u,v, mask));
                 }
             }
 
