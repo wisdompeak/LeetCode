@@ -5,39 +5,37 @@ public:
         k++;
         int n = s.size();
         s = "#"+s;
-        vector<ll>len(n+1);
-        const ll INF = 1e15+5;
 
+        vector<ll>len(n+1);
         for (int i=1; i<=n; i++) {
             char c = s[i];
-            ll prev = len[i-1];
-            ll now = prev;
-            if ('a'<=c && c<='z')
-                now = prev+1;
-            else if (c == '*')
-                now = prev>0 ? (prev-1): 0;
-            else if (c=='#')
-                now = prev*2;
-            else if (c=='%')
-                now = prev;
-            len[i] = min(now, INF);                   
+            if ('a'<=c && c<='z') {
+                len[i] = len[i-1]+1;
+            } else if (c=='*') {
+                len[i] = len[i-1]==0? 0: len[i-1]-1;
+            } else if (c=='#') {
+                len[i] = len[i-1] * 2;
+            } else if (c=='%') {
+                len[i] = len[i-1];
+            }
         }
-        if (k==0 || k>(ll)len[n]) return '.';
+        if (k>len[n] || k==0) return '.';
 
-        for (int i=n; i>=1; i--) {
-            char c = s[i];
-            ll before = len[i-1];
-            ll after = len[i];
+        for (int t=n; t>=1; t--) {
+            char c = s[t];
+            ll before = len[t-1];
+            ll after = len[t];
+
             if ('a'<=c && c<='z') {
                 if (k==after)
                     return c;
             } else if (c=='*') {
-                
+                k = k;
             } else if (c=='#') {
-                if (k>before)
-                    k-=before;
-            } else if ( c=='%') {
-                k = before-k+1;
+                if (k> before)
+                    k = k-before;
+            } else if (c=='%') {
+                k = before+1-k;
             }
         }
 
