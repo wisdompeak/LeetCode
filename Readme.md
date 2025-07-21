@@ -378,6 +378,7 @@
 [2031.Count-Subarrays-With-More-Ones-Than-Zeros](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2031.Count-Subarrays-With-More-Ones-Than-Zeros) (H)    
 [2179.Count-Good-Triplets-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2179.Count-Good-Triplets-in-an-Array) (H)      
 [2659.Make-Array-Empty](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/2659.Make-Array-Empty) (H)      
+[3624.Number-of-Integers-With-Popcount-Depth-Equal-to-K-II](https://github.com/wisdompeak/LeetCode/tree/master/Segment_Tree/3624.Number-of-Integers-With-Popcount-Depth-Equal-to-K-II) (H-)      
 
 #### [Design](https://github.com/wisdompeak/LeetCode/tree/master/Design)
 [380.Insert-Delete-GetRandom-O(1)](https://github.com/wisdompeak/LeetCode/tree/master/Design/380.Insert-Delete-GetRandom-O-1/)  (M+)   
