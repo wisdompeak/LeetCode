@@ -55,10 +55,10 @@ public:
     
     vector<int> popcountDepth(vector<long long>& nums, vector<vector<long long>>& queries) {
         int N = nums.size()+1;
-        vector<BIT> bit_arr (6);
-        for (int i=0; i<=5; i++)
+        vector<BIT> bit_arr (5);
+        for (int i=0; i<=4; i++)
             bit_arr[i].init(N);
-                
+            
         for (int i=0; i<nums.size(); i++) {
             int depth = getDepth(nums[i]);
             bit_arr[depth].updateDelta(i+1, 1);
@@ -75,7 +75,10 @@ public:
                 nums[idx] = val;
             } else {
                 int l = q[1], r = q[2], k = q[3];                
-                rets.push_back(bit_arr[k].sumRange(l+1,r+1));
+                if (k>=5)
+                    rets.push_back(0);
+                else
+                    rets.push_back(bit_arr[k].sumRange(l+1,r+1));
             }
         }
 
