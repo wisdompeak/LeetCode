@@ -1660,6 +1660,7 @@
 [2857.Count-Pairs-of-Points-With-Distance-k](https://github.com/wisdompeak/LeetCode/tree/master/Others/2857.Count-Pairs-of-Points-With-Distance-k) (M+)      
 [3404.Count-Special-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Others/3404.Count-Special-Subsequences) (H)      
 [3447.Assign-Elements-to-Groups-with-Constraints](https://github.com/wisdompeak/LeetCode/tree/master/Others/3447.Assign-Elements-to-Groups-with-Constraints) (M+)      
+[3628.Maximum-Number-of-Subsequences-After-One-Inserting](https://github.com/wisdompeak/LeetCode/tree/master/Others/3628.Maximum-Number-of-Subsequences-After-One-Inserting) (H-)          
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
