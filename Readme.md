@@ -68,6 +68,7 @@
 [2537.Count-the-Number-of-Good-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/2537.Count-the-Number-of-Good-Subarrays) (M+)     
 [3298.Count-Substrings-That-Can-Be-Rearranged-to-Contain-a-String-II](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3298.Count-Substrings-That-Can-Be-Rearranged-to-Contain-a-String-II) (M+)      
 [3306.Count-of-Substrings-Containing-Every-Vowel-and-K-Consonants-II](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3306.Count-of-Substrings-Containing-Every-Vowel-and-K-Consonants-II) (H-)      
+[3641.Longest-Semi-Repeating-Subarray](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3641.Longest-Semi-Repeating-Subarray) (H-)      
 * ``Two pointers for two sequences``    
 [986.Interval-List-Intersections](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/986.Interval-List-Intersections) (M)  
 [1229.Meeting-Scheduler](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/1229.Meeting-Scheduler) (M+)  
