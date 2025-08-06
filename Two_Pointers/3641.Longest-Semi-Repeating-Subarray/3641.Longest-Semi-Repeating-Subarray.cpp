@@ -7,9 +7,8 @@ public:
         int j = -1;
         int ret = 0;
         for (int i=0; i<n; i++) {
-            while (j+1<n && count<=k) {                
-                j++;
-                Map[nums[j]]++;
+            while (j+1<n && count<=k) {                                
+                Map[nums[++j]]++;
                 if (Map[nums[j]]==2)
                     count++;                
             }       
