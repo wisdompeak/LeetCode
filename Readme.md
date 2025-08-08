@@ -709,6 +709,7 @@
 [1938.Maximum-Genetic-Difference-Query](https://github.com/wisdompeak/LeetCode/tree/master/Trie/1938.Maximum-Genetic-Difference-Query) (H)  
 [2479.Maximum-XOR-of-Two-Non-Overlapping-Subtrees](https://github.com/wisdompeak/LeetCode/tree/master/Trie/2479.Maximum-XOR-of-Two-Non-Overlapping-Subtrees) (H)      
 [2935.Maximum-Strong-Pair-XOR-II](https://github.com/wisdompeak/LeetCode/tree/master/Trie/2935.Maximum-Strong-Pair-XOR-II) (H)      
+[3632.Subarrays-with-XOR-at-Least-K](https://github.com/wisdompeak/LeetCode/tree/master/Trie/3632.Subarrays-with-XOR-at-Least-K) (H)      
 
 #### [Linked List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List)
 [061.Rotate-List](https://github.com/wisdompeak/LeetCode/tree/master/Linked_List/061.Rotate-List) (M)  
