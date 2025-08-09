@@ -28,6 +28,8 @@ public:
             int x = arr[i].first, y = arr[i].second;
             if (x-1<0) continue;
             if (y+1>=n) continue;
+            if(nums[x-1]>=nums[x]) continue;
+            if(nums[y+1]<=nums[y]) continue;
             
             ll sum = nums[x-1];
             ll maxSum1 = nums[x-1];
