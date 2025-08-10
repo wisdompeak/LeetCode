@@ -513,6 +513,7 @@
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
 [2599.Make-the-Prefix-Sum-Non-negative](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2599.Make-the-Prefix-Sum-Non-negative) (H-)      
 [3049.Earliest-Second-to-Mark-Indices-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3049.Earliest-Second-to-Mark-Indices-II) (H)      
+[3649.Maximum-Total-from-Optimal-Activation-Order](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/3649.Maximum-Total-from-Optimal-Activation-Order) (H-)      
 * ``Dual PQ``   
 [1801.Number-of-Orders-in-the-Backlog](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1801.Number-of-Orders-in-the-Backlog) (M)  
 [1882.Process-Tasks-Using-Servers](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1882.Process-Tasks-Using-Servers) (H)  
