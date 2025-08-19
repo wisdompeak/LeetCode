@@ -1648,6 +1648,7 @@
 [2963.Count-the-Number-of-Good-Partitions](https://github.com/wisdompeak/LeetCode/tree/master/Others/2963.Count-the-Number-of-Good-Partitions) (H-)      
 [3009.Maximum-Number-of-Intersections-on-the-Chart](https://github.com/wisdompeak/LeetCode/tree/master/Others/3009.Maximum-Number-of-Intersections-on-the-Chart) (H)      
 [3169.Count-Days-Without-Meetings](https://github.com/wisdompeak/LeetCode/tree/master/Others/3169.Count-Days-Without-Meetings) (M)      
+[3655.XOR-After-Range-Multiplication-Queries-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/3655.XOR-After-Range-Multiplication-Queries-II) (H+)      
 * ``二维差分``   
 [850.Rectangle-Area-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/850.Rectangle-Area-II) (H)   
 [2132.Stamping-the-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/2132.Stamping-the-Grid) (H)    
