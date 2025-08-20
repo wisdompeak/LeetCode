@@ -8,7 +8,7 @@
 
 但事实上本题里并不是整个区间统一倍增，而是间隔地倍增，怎么处理呢？由此我们发现，倍增的累加是间隔k发生的，故multiplier[i]只与multiplier[i-k]相关。由此我们知道更新的公式其实是`multiplier[i] = multiplier[i-k]*diff[i]`. 
 
-特别注意，每一轮的multiplier需要再累加到一起。即`total_multiplier[i] *= this_round_multiplier[i]`, 最终有`nums[i] *= total_multiplier[i]`.
+特别注意，每一轮的multiplier需要再累加到一起。即`total_multiplier[i] *= multiplier[i]`, 最终有`nums[i] *= total_multiplier[i]`.
 
 综上，对于k很小的时候，相同k的queries可以处理成同一组diff数组，然后根据diff更新multiplier数组。时间复杂度就是k*(q+n). 
 
