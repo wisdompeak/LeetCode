@@ -1,6 +1,7 @@
 using ll = long long;
+ll M = 1e9+7;
+ll MOD = 1e9+7;
 class Solution {
-    int MOD = 1e9+7;
 public:
     long long quickPow(long long x, long long N) 
     {
@@ -15,48 +16,54 @@ public:
     {
         return quickPow(x, MOD - 2);
     }
-    
+
     int xorAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
         int n = nums.size();
-        const int B = 400;
+        vector<ll>m(n, 1);
 
-        vector<ll>multipliers(n,1);
+        int B = 320;
 
         vector<vector<int>>small_k_queries[B+1];
 
         for (auto q: queries) {
             int l = q[0], r = q[1], k = q[2], v = q[3];
             if (k>B) {
-                for (int i=l; i<=r; i+=k)
-                    multipliers[i] = (multipliers[i]*v) % MOD;
+                for (int i=l; i<=r; i+=k) {
+                    m[i] = m[i] * v % M;
+                }
             } else {
                 small_k_queries[k].push_back(q);
             }
         }
 
         for (int k=1; k<=B; k++) {
-            if (small_k_queries[k].empty())
-                continue;
-            vector<ll>diff(n+1,1);
-            for (auto& q: small_k_queries[k]) {
-                int l = q[0], r = q[1], v = q[3];
-                r = (r-l)/k*k+l;
-                diff[l] = (diff[l]*v)%MOD;
-                if (r+k<n+1) diff[r+k] = diff[r+k] * inv(v) % MOD;                
+            if (small_k_queries[k].empty()) continue;
+            vector<ll>diff(n+1, 1);
+            for (auto&q: small_k_queries[k]) {
+                int l = q[0], r = q[1], k = q[2], v = q[3];
+                r = (r-l)/k*k + l;
+                diff[l] = diff[l] * v % M;
+                if (r+k<=n) diff[r+k] = diff[r+k] * inv(v) % M;
+            }
+
+            vector<ll>this_round_m(n+1, 1);
+            for (int i=0; i<n; i++) {
+                this_round_m[i] = (i>=k?this_round_m[i-k]:1) * diff[i] % M;
             }
 
             for (int i=0; i<n; i++) {
-                if (i>=k) 
-                    diff[i] = diff[i]*diff[i-k] % MOD;
-                m[i] = m[i] * diff[i] % MOD;
+                m[i] = m[i] * this_round_m[i] % MOD;
             }
+                
         }
 
         int ret = 0;
-        for(int i=0; i<n; i++) {
-            ll val = (ll)nums[i]*multipliers[i]%MOD;
+        for (int i=0; i<n; i++) {
+            ll val = (ll)nums[i] * m[i] % M;
             ret ^= (int)val;
         }
+
         return ret;
     }
 };
+
