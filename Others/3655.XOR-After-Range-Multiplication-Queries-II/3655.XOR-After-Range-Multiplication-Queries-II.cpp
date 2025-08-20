@@ -2,21 +2,18 @@ using ll = long long;
 class Solution {
     int MOD = 1e9+7;
 public:
-    long long power(long long base, long long exp) {
-        long long res = 1;
-        const int MOD = 1e9 + 7;
-        base %= MOD;
-        while (exp > 0) {
-            if (exp % 2 == 1) res = (res * base) % MOD;
-            base = (base * base) % MOD;
-            exp /= 2;
+    long long quickPow(long long x, long long N) 
+    {
+        if (N <= 0) {
+            return 1;
         }
-        return res;
+        long long y = quickPow(x, N / 2) % MOD;
+        return N % 2 == 0 ? (y * y % MOD) : (y * y % MOD * x % MOD);
     }
-    
-    long long modInverse(long long n) {
-        const int MOD = 1e9 + 7;
-        return power(n, MOD - 2);
+
+    long long inv(long long x) 
+    {
+        return quickPow(x, MOD - 2);
     }
     
     int xorAfterQueries(vector<int>& nums, vector<vector<int>>& queries) {
@@ -45,7 +42,7 @@ public:
                 int l = q[0], r = q[1], v = q[3];
                 r = (r-l)/k*k+l;
                 diff[l] = (diff[l]*v)%MOD;
-                if (r+k<n+1) diff[r+k] = diff[r+k] * modInverse(v) % MOD;                
+                if (r+k<n+1) diff[r+k] = diff[r+k] * inv(v) % MOD;                
             }
 
             for (int i=k; i<n; i++) 
