@@ -45,11 +45,11 @@ public:
                 if (r+k<n+1) diff[r+k] = diff[r+k] * inv(v) % MOD;                
             }
 
-            for (int i=k; i<n; i++) 
-                diff[i] = diff[i]*diff[i-k] % MOD;
-
-            for (int i=0; i<n; i++)
-                multipliers[i] = multipliers[i] * diff[i] % MOD;
+            for (int i=0; i<n; i++) {
+                if (i>=k) 
+                    diff[i] = diff[i]*diff[i-k] % MOD;
+                m[i] = m[i] * diff[i] % MOD;
+            }
         }
 
         int ret = 0;
