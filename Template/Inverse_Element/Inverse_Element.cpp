@@ -21,11 +21,11 @@ long long quickPow(long long x, long long N)
     if (N <= 0) {
         return 1;
     }
-    LL y = quickPow(x, N / 2) % MOD;
+    long long y = quickPow(x, N / 2) % MOD;
     return N % 2 == 0 ? (y * y % MOD) : (y * y % MOD * x % MOD);
 }
 
-long long inv(LL x) 
+long long inv(long long x) 
 {
     return quickPow(x, MOD - 2);
 }
