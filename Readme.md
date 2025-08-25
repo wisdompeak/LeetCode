@@ -1704,6 +1704,7 @@
 [2952.Minimum-Number-of-Coins-to-be-Added](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/2952.Minimum-Number-of-Coins-to-be-Added) (H-)      
 [3609.Minimum-Moves-to-Reach-Target-in-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/3609.Minimum-Moves-to-Reach-Target-in-Grid) (H)         
 [3644.Maximum-K-to-Sort-a-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/3644.Maximum-K-to-Sort-a-Permutation) (H)      
+[3660.Jump-Game-IX](https://github.com/wisdompeak/LeetCode/tree/master/Thinking/3660.Jump-Game-IX) (H)      
 
 #### [LeetCode Cup](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP)
 [LCP23.魔术排列](https://github.com/wisdompeak/LeetCode/tree/master/LCCUP/2020Fall/LCP23.%E9%AD%94%E6%9C%AF%E6%8E%92%E5%88%97)  
