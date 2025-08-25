@@ -6,9 +6,6 @@ public:
         vector<int>sufMin(n);
         for (int i=0; i<n; i++)
             preMax[i] = max(i==0?0:preMax[i-1], nums[i]);
-
-        for (int x: preMax) cout<<x<<" "; cout<<endl;
-
         for (int i=n-1; i>=0; i--)
             sufMin[i] = min((i==n-1)?INT_MAX:sufMin[i+1], nums[i]);
 
