@@ -174,6 +174,7 @@
 [1539.Kth-Missing-Positive-Number](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/1539.Kth-Missing-Positive-Number) (H-)  
 [2387.Median-of-a-Row-Wise-Sorted-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2387.Median-of-a-Row-Wise-Sorted-Matrix) (H-)      
 [3116.Kth-Smallest-Amount-With-Single-Denomination-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3116.Kth-Smallest-Amount-With-Single-Denomination-Combination) (H)      
+[3670.Maximum-Product-of-Two-Integers-With-No-Common-Bits](https://github.com/wisdompeak/LeetCode/tree/master/Trie/3670.Maximum-Product-of-Two-Integers-With-No-Common-Bits) (H)      
 [3134.Find-the-Median-of-the-Uniqueness-Array](https://github.com/wisdompeak/LeetCode/tree/master/Two_Pointers/3134.Find-the-Median-of-the-Uniqueness-Array) (H-)      
 
 #### [Hash Map](https://github.com/wisdompeak/LeetCode/tree/master/Hash)
