@@ -27,18 +27,17 @@ public:
         }
         if (i==31) return 0;
         
-        int b = ((x>>(30-i))&1);
-        
+        int b = ((x>>(30-i))&1);        
         if (b==1) {
             int ans = dfs(node->next[0], i+1, x);
             if (ans!=-1) return ans;
             else return -1;
         }            
         else {
-            int ans1 = dfs(node->next[1], i+1, x);
-            int ans2 = dfs(node->next[0], i+1, x);
+            int ans1 = dfs(node->next[1], i+1, x);            
             if (ans1!=-1) 
                 return (1<<(30-i))+ans1;
+            int ans2 = dfs(node->next[0], i+1, x);
             if (ans2!=-1)
                 return ans2;
             return -1;
