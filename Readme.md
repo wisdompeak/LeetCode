@@ -580,6 +580,7 @@
 [2305.Fair-Distribution-of-Cookies](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2305.Fair-Distribution-of-Cookies) (H-)     
 [2597.The-Number-of-Beautiful-Subsets](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2597.The-Number-of-Beautiful-Subsets) (M+)      
 [2842.Count-K-Subsequences-of-a-String-With-Maximum-Beauty](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2842.Count-K-Subsequences-of-a-String-With-Maximum-Beauty) (M+)      
+[3669.Balanced-K-Factor-Decomposition](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3669.Balanced-K-Factor-Decomposition) (M)      
 * ``memorization``    
 [329.Longest-Increasing-Path-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/DFS/329.Longest-Increasing-Path-in-a-Matrix) (M)  
 [2328.Number-of-Increasing-Paths-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2328.Number-of-Increasing-Paths-in-a-Grid) (M)     
