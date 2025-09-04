@@ -75,12 +75,17 @@ public:
             }
         }
 
-        long long ret = 0;
+        vector<long long>ret(mx+1);        
         for (int g=mx; g>=1; g--) {
+            ret[g] = seq[g];
             for (int j=g*2; j<=mx; j+=g)
-                seq[g] = (seq[g]-seq[j]+MOD) % MOD;
-            ret = (ret + g*seq[g]) % MOD;
+                ret[g] = (ret[g]-ret[j]+MOD) % MOD;            
         }
-        return ret;
+
+        long long ans = 0;
+        for (int g=mx; g>=1; g--) {
+            ans = (ans + g*ret[g]) % MOD;
+        }
+        return ans;       
     }
 };
