@@ -1,0 +1,17 @@
+class Solution(object):
+    def makeTheIntegerZero(self,num1,num2):
+        x = num1
+        y = num2
+        k = 1
+
+        while True:
+            x = x - y
+            if x < k:
+                return -1
+            
+            if bin(x).count('1') <= k:
+                return k
+
+            k = k + 1
+
+# I hope this can help anyone whos resolving this huge problem on python ;)
