@@ -450,6 +450,7 @@
 [2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2434.Using-a-Robot-to-Print-the-Lexicographically-Smallest-String) (H-)     
 [2454.Next-Greater-Element-IV](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2454.Next-Greater-Element-IV) (H-)      
 [3113.Find-the-Number-of-Subarrays-Where-Boundary-Elements-Are-Maximum](https://github.com/wisdompeak/LeetCode/tree/master/Stack/3113.Find-the-Number-of-Subarrays-Where-Boundary-Elements-Are-Maximum) (M)      
+[3676.Count-Bowl-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Stack/3676.Count-Bowl-Subarrays) (M+)      
 * ``monotonic stack: other usages``      
 [084.Largest-Rectangle-in-Histogram](https://github.com/wisdompeak/LeetCode/tree/master/Stack/084.Largest-Rectangle-in-Histogram) (H)      
 [2334.Subarray-With-Elements-Greater-Than-Varying-Threshold](https://github.com/wisdompeak/LeetCode/tree/master/Stack/2334.Subarray-With-Elements-Greater-Than-Varying-Threshold) (M+)    
