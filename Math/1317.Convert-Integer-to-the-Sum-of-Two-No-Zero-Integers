@@ -1,1 +1,13 @@
+def getNoZeroIntegers(n):
+    a = 1
+    b = n - a
 
+    while '0' in str(a) or '0' in str(b):
+        a += 1
+        b = n - a
+        if a > n:
+            return None, None
+    return [a, b]
+
+n = 11
+print(getNoZeroIntegers(n))
