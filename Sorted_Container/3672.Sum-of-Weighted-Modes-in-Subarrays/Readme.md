@@ -23,7 +23,7 @@ freq2val[f+1].insert(x);
 freq2val[f].erase(x);
 if (freq2val[f].empty())
     freq2val.erase(f);
-// 再加入{x,f+1}
+// 再加入{x,f-1}
 val2freq[x] = f-1;
 if (f!=1)
     freq2val[f-1].insert(x);
