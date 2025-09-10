@@ -262,6 +262,7 @@
 [2926.Maximum-Balanced-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2926.Maximum-Balanced-Subsequence-Sum) (H)      
 [2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2907.Maximum-Profitable-Triplets-With-Increasing-Prices-I) (H)      
 [2945.Find-Maximum-Non-decreasing-Array-Length](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/2945.Find-Maximum-Non-decreasing-Array-Length) (H)      
+[3672.Sum-of-Weighted-Modes-in-Subarrays](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/3672.Sum-of-Weighted-Modes-in-Subarrays) (M+)      
 
 #### [Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree)
 [144.Binary-Tree-Preorder-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/Tree/144.Binary-Tree-Preorder-Traversal) (M+)   
