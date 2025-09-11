@@ -868,7 +868,8 @@
 [1301.Number-of-Paths-with-Max-Score](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1301.Number-of-Paths-with-Max-Score) (M+)   
 [1594.Maximum-Non-Negative-Product-in-a-Matrix](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1594.Maximum-Non-Negative-Product-in-a-Matrix) (M)  
 [2267.Check-if-There-Is-a-Valid-Parentheses-String-Path](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2267.Check-if-There-Is-a-Valid-Parentheses-String-Path) (H-)    
-[2435.Paths-in-Matrix-Whose-Sum-Is-Divisible-by-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2435.Paths-in-Matrix-Whose-Sum-Is-Divisible-by-K) (M)     
+[2435.Paths-in-Matrix-Whose-Sum-Is-Divisible-by-K](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2435.Paths-in-Matrix-Whose-Sum-Is-Divisible-by-K) (M)      
+[3665.Twisted-Mirror-Path-Count](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3665.Twisted-Mirror-Path-Count) (M)      
 * ``背包型``  
 [322.Coin-Change](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/322.Coin-Change) (M)   
 [416.Partition-Equal-Subset-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/416.Partition-Equal-Subset-Sum) (M+)  
