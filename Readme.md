@@ -1344,6 +1344,8 @@
 [2543.Check-if-Point-Is-Reachable](https://github.com/wisdompeak/LeetCode/tree/master/Math/2543.Check-if-Point-Is-Reachable) (H)    
 [2654.Minimum-Number-of-Operations-to-Make-All-Array-Elements-Equal-to-1](https://github.com/wisdompeak/LeetCode/tree/master/Math/2654.Minimum-Number-of-Operations-to-Make-All-Array-Elements-Equal-to-1) (M)      
 [3164.Find-the-Number-of-Good-Pairs-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3164.Find-the-Number-of-Good-Pairs-II) (M+)      
+* ``Linear Basis``   
+[3681.Maximum-XOR-of-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/3681.Maximum-XOR-of-Subsequences) (H)      
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
 [055.Jump-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/055.Jump-Game) (E+)  
