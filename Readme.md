@@ -114,6 +114,8 @@
 [3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II) (H)      
 [3559.Number-of-Ways-to-Assign-Edge-Weights-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3559.Number-of-Ways-to-Assign-Edge-Weights-II) (H-)      
 [3585.Find-Weighted-Median-Node-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3585.Find-Weighted-Median-Node-in-Tree) (H)      
+* ``RMQ / Sparse Table``  
+[3691.Maximum-Total-Subarray-Value-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3691.Maximum-Total-Subarray-Value-II) (H)      
 * ``Binary Search by Value``  
 [410.Split-Array-Largest-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/410.Split-Array-Largest-Sum) (H-)  
 [774.Minimize-Max-Distance-to-Gas-Station](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/774.Minimize-Max-Distance-to-Gas-Station) (H)    
