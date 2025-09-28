@@ -1348,7 +1348,7 @@
 [3164.Find-the-Number-of-Good-Pairs-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3164.Find-the-Number-of-Good-Pairs-II) (M+)      
 * ``Linear Basis``   
 [3681.Maximum-XOR-of-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/3681.Maximum-XOR-of-Subsequences) (H)      
-* ``Matrix Power``
+* ``Matrix Power``      
 [2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
 [3700.Number-of-ZigZag-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3700.Number-of-ZigZag-Arrays-II) (H)      
 
