@@ -109,7 +109,6 @@
 [2277.Closest-Node-to-Path-in-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Tree/2277.Closest-Node-to-Path-in-Tree) (H)      
 [2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2836.Maximize-Value-of-Function-in-a-Ball-Passing-Game) (H)      
 [2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/2846.Minimum-Edge-Weight-Equilibrium-Queries-in-a-Tree) (H)      
-[2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
 [3534.Path-Existence-Queries-in-a-Graph-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3534.Path-Existence-Queries-in-a-Graph-II) (H)      
 [3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3553.Minimum-Weighted-Subgraph-With-the-Required-Paths-II) (H)      
 [3559.Number-of-Ways-to-Assign-Edge-Weights-II](https://github.com/wisdompeak/LeetCode/tree/master/Binary_Search/3559.Number-of-Ways-to-Assign-Edge-Weights-II) (H-)      
@@ -1349,7 +1348,8 @@
 [3164.Find-the-Number-of-Good-Pairs-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3164.Find-the-Number-of-Good-Pairs-II) (M+)      
 * ``Linear Basis``   
 [3681.Maximum-XOR-of-Subsequences](https://github.com/wisdompeak/LeetCode/tree/master/Math/3681.Maximum-XOR-of-Subsequences) (H)      
-* ``Matrix Power``   
+* ``Matrix Power``
+[2851.String-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2851.String-Transformation) (H+)      
 [3700.Number-of-ZigZag-Arrays-II](https://github.com/wisdompeak/LeetCode/tree/master/Math/3700.Number-of-ZigZag-Arrays-II) (H)      
 
 #### [Greedy](https://github.com/wisdompeak/LeetCode/tree/master/Greedy)
