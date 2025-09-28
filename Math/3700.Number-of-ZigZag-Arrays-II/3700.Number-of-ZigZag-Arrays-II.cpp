@@ -64,7 +64,7 @@ public:
         int K = 2*m;
         vector<vector<ll>>T(K, vector<ll>(K,0));
 
-        for (int i=0; i<m; i++) 
+        for (int i=1; i<m; i++) 
             for (int j=0; j<i; j++)
                 T[i][m+j] = 1;      
 
