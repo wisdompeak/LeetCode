@@ -798,6 +798,7 @@
 [3098.Find-the-Sum-of-Subsequence-Powers](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3098.Find-the-Sum-of-Subsequence-Powers) (H)      
 [3389.Minimum-Operations-to-Make-Character-Frequencies-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3389.Minimum-Operations-to-Make-Character-Frequencies-Equal) (H)      
 [3654.Minimum-Sum-After-Divisible-Sum-Deletions](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3654.Minimum-Sum-After-Divisible-Sum-Deletions) (H)      
+[3699.Number-of-ZigZag-Arrays-I](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3699.Number-of-ZigZag-Arrays-I) (M)      
 * ``基本型 I``   
 [198.House-Robber](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/198.House-Robber) (E)   
 [213.House-Robber-II](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/213.House-Robber-II) (M+)    
