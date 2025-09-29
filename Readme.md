@@ -636,6 +636,7 @@
 [2812.Find-the-Safest-Path-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/BFS/2812.Find-the-Safest-Path-in-a-Grid) (M+)         
 [3552.Grid-Teleportation-Traversal](https://github.com/wisdompeak/LeetCode/tree/master/BFS/3552.Grid-Teleportation-Traversal) (H-)      
 [3629.Minimum-Jumps-to-Reach-End-via-Prime-Teleportation](https://github.com/wisdompeak/LeetCode/tree/master/BFS/3629.Minimum-Jumps-to-Reach-End-via-Prime-Teleportation) (M+)      
+[3690.Split-and-Merge-Array-Transformation](https://github.com/wisdompeak/LeetCode/tree/master/BFS/3690.Split-and-Merge-Array-Transformation) (M)      
 * ``Multi State``   
 [847.Shortest-Path-Visiting-All-Nodes](https://github.com/wisdompeak/LeetCode/tree/master/BFS/847.Shortest-Path-Visiting-All-Nodes) (H-)  
 [864.Shortest-Path-to-Get-All-Keys](https://github.com/wisdompeak/LeetCode/tree/master/BFS/864.Shortest-Path-to-Get-All-Keys) (H-)   
