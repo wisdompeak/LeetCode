@@ -1427,6 +1427,7 @@
 [3022.Minimize-OR-of-Remaining-Elements-Using-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3022.Minimize-OR-of-Remaining-Elements-Using-Operations) (H)        
 [3219.Minimum-Cost-for-Cutting-Cake-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3219.Minimum-Cost-for-Cutting-Cake-II) (H)      
 [3635.Earliest-Finish-Time-for-Land-and-Water-Rides-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3635.Earliest-Finish-Time-for-Land-and-Water-Rides-II) (H-)      
+[3696.Maximum-Distance-Between-Unequal-Words-in-Array-I](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3696.Maximum-Distance-Between-Unequal-Words-in-Array-I) (M)      
 * ``Boyer-Moore Majority Voting``      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
 [2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
