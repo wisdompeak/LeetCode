@@ -21,12 +21,8 @@ public:
             if(endA==1 && i!=0) continue;            
             if(endA==0 && i==0) continue;            
             vector<int>A;
-            if (endA) A.push_back(1);
-            else {
-                A.push_back(0);
-                if (i!=0) A.push_back(1);
-            }
-
+            if (endA) A = {1};
+            else A = {0,1};
             
             for (int j=0; j<=9; j++) {
                 if (endB==1 && j!=0) continue;
@@ -36,11 +32,8 @@ public:
                 int ncarry = (sum>=10)?1:0;
 
                 vector<int>B;
-                if (endB) B.push_back(1);
-                else {
-                    B.push_back(0);
-                    if (j!=0) B.push_back(1);
-                }
+                if (endB) B = {1};
+                else B = {0,1};
 
                 for (int nxt_enda: A)
                     for (int nxt_endb: B)                                                    
