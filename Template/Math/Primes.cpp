@@ -22,7 +22,7 @@ vector<int>Eratosthenes(int n)
 }
 
 // Find the smallest prime factor for each element
-vector<int>spf(int N) {
+vector<int>ComputeSpf(int N) {
     vector<int>spf(N+1);
     for (int i = 0; i <= N; ++i) spf[i] = i;
     for (int i = 2; i * i <= maxA; ++i) {
