@@ -225,6 +225,7 @@
 [2949.Count-Beautiful-Substrings-II](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2949.Count-Beautiful-Substrings-II) (H-)      
 [2950.Number-of-Divisible-Substrings](https://github.com/wisdompeak/LeetCode/tree/master/Hash/2950.Number-of-Divisible-Substrings) (H-)      
 [3448.Count-Substrings-Divisible-By-Last-Digit](https://github.com/wisdompeak/LeetCode/tree/master/Hash/3448.Count-Substrings-Divisible-By-Last-Digit) (H-)      
+[3714.Longest-Balanced-Substring-II](https://github.com/wisdompeak/LeetCode/tree/master/Hash/3714.Longest-Balanced-Substring-II) (H-)      
 
 #### [Sorted Container](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container)
 [220.Contains-Duplicate-III](https://github.com/wisdompeak/LeetCode/tree/master/Sorted_Container/220.Contains-Duplicate-III) (M)  
