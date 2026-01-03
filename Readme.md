@@ -549,7 +549,6 @@
 [984.String-Without-AAA-or-BBB](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/984.String-Without-AAA-or-BBB) (M+)    
 [1405.Longest-Happy-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/1405.Longest-Happy-String) (H-)   
 [1953.Maximum-Number-of-Weeks-for-Which-You-Can-Work](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/1953.Maximum-Number-of-Weeks-for-Which-You-Can-Work) (M+)      
-[2335.Minimum-Amount-of-Time-to-Fill-Cups](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2335.Minimum-Amount-of-Time-to-Fill-Cups) (M+)    
 
 #### [DFS](https://github.com/wisdompeak/LeetCode/tree/master/DFS)
 [037.Sudoku-Solver](https://github.com/wisdompeak/LeetCode/tree/master/DFS/037.Sudoku-Solver) (M+)    
@@ -1435,6 +1434,7 @@
 [3696.Maximum-Distance-Between-Unequal-Words-in-Array-I](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3696.Maximum-Distance-Between-Unequal-Words-in-Array-I) (M)      
 * ``Boyer-Moore Majority Voting``      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
+[2335.Minimum-Amount-of-Time-to-Fill-Cups](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2335.Minimum-Amount-of-Time-to-Fill-Cups) (M+)    
 [2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
 [3139.Minimum-Cost-to-Equalize-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3139.Minimum-Cost-to-Equalize-Array) (H)      
 [3495.Minimum-Operations-to-Make-Array-Elements-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3495.Minimum-Operations-to-Make-Array-Elements-Zero) (H)      
