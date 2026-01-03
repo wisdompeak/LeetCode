@@ -12,9 +12,10 @@ public:
         }
                 
         ll B = log(b+1)/log(4);
-        if (B*2<=total) return (total+1)/2;
-        ll A = total - B;        
-        return A + (B-A+1)/2;
+        if (B*2<=total) 
+            return (total+1)/2;        
+        else
+            return B;
     }
 
     
