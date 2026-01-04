@@ -1438,6 +1438,7 @@
 [2856.Minimum-Array-Length-After-Pair-Removals](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/2856.Minimum-Array-Length-After-Pair-Removals) (M)      
 [3139.Minimum-Cost-to-Equalize-Array](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3139.Minimum-Cost-to-Equalize-Array) (H)      
 [3495.Minimum-Operations-to-Make-Array-Elements-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3495.Minimum-Operations-to-Make-Array-Elements-Zero) (H)      
+[3664.Two-Letter-Card-Game](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3664.Two-Letter-Card-Game) (H)      
 * ``Lexicographical Sequence``  
 [031.Next-Permutation](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/031.Next-Permutation) (M)   
 [556.Next-Greater-Element-III](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/556.Next-Greater-Element-III) (M)   
