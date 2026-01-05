@@ -979,6 +979,7 @@
     [1986.Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1986.Minimum-Number-of-Work-Sessions-to-Finish-the-Tasks) (M+)     
     [2152.Minimum-Number-of-Lines-to-Cover-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/2152.Minimum-Number-of-Lines-to-Cover-Points) (H-)      
     [3444.Minimum-Increments-for-Target-Multiples-in-an-Array](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3444.Minimum-Increments-for-Target-Multiples-in-an-Array) (H-)      
+    [3801.Minimum-Cost-to-Merge-Sorted-Lists](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/3801.Minimum-Cost-to-Merge-Sorted-Lists) (H-)      
     * ``带权二分图``   
    [1066.Campus-Bikes-II](https://github.com/wisdompeak/LeetCode/tree/master/BFS/1066.Campus-Bikes-II) (H+)    
    [1595.Minimum-Cost-to-Connect-Two-Groups-of-Points](https://github.com/wisdompeak/LeetCode/tree/master/Dynamic_Programming/1595.Minimum-Cost-to-Connect-Two-Groups-of-Points) (H)  
