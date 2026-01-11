@@ -1434,6 +1434,7 @@
 [3635.Earliest-Finish-Time-for-Land-and-Water-Rides-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3635.Earliest-Finish-Time-for-Land-and-Water-Rides-II) (H-)      
 [3696.Maximum-Distance-Between-Unequal-Words-in-Array-I](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3696.Maximum-Distance-Between-Unequal-Words-in-Array-I) (M)         
 [3800.Minimum-Cost-to-Make-Two-Binary-Strings-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3800.Minimum-Cost-to-Make-Two-Binary-Strings-Equal) (M+)      
+[3806.Maximum-Bitwise-AND-After-Increment-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3806.Maximum-Bitwise-AND-After-Increment-Operations) (H-)      
 * ``Boyer-Moore Majority Voting``      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
 [2335.Minimum-Amount-of-Time-to-Fill-Cups](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2335.Minimum-Amount-of-Time-to-Fill-Cups) (M+)    
