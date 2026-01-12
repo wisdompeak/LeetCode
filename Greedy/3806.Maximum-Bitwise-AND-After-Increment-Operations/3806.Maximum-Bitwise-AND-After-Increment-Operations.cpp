@@ -4,19 +4,20 @@ public:
         int n = nums.size();
         int ret = 0;
         for (int b=30; b>=0; b--) {
-            int candidate = ret | (1<<b);
+            int target = ret | (1<<b);
             vector<long long>costs;
             for (int i=0; i<n; i++) {
                 long long num = nums[i];
+                long long delta = 0;
                 for (int p=30; p>=0; p--) {
-                    if (((candidate>>p)&1) && (((num>>p)&1)==0)) {
+                    if (((target>>p)&1) && (((num>>p)&1)==0)) {
                         long long mask = (1LL<<(p+1)) - 1;
                         long long r = num & mask;
-                        long long delta = (1LL<<p)-r;
-                        num += delta;
+                        delta = (target & mask)-(num & mask);                        
+                        break;                        
                     }                    
                 }
-                costs.push_back(num-nums[i]);
+                costs.push_back(delta);
             }
 
             sort(costs.begin(), costs.end());
@@ -26,7 +27,7 @@ public:
                 if (sum > k) break;
             }
             if (sum <= k ) {
-                ret = candidate;
+                ret = target;
             }            
         }
         return ret;
