@@ -574,6 +574,7 @@
 [2850.Minimum-Moves-to-Spread-Stones-Over-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2850.Minimum-Moves-to-Spread-Stones-Over-Grid) (M)      
 [3459.Length-of-Longest-V-Shaped-Diagonal-Segment](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3459.Length-of-Longest-V-Shaped-Diagonal-Segment) (M+)         
 [3593.Minimum-Increments-to-Equalize-Leaf-Paths](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3593.Minimum-Increments-to-Equalize-Leaf-Paths) (M+)      
+[3864.Minimum-Cost-to-Partition-a-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3864.Minimum-Cost-to-Partition-a-Binary-String) (M+)      
 * ``search in an array``    
 [090.Subsets-II](https://github.com/wisdompeak/LeetCode/tree/master/DFS/090.Subsets-II) (M+)  
 [301.Remove-Invalid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/DFS/301.Remove-Invalid-Parentheses) (H)   
