@@ -574,7 +574,6 @@
 [2850.Minimum-Moves-to-Spread-Stones-Over-Grid](https://github.com/wisdompeak/LeetCode/tree/master/DFS/2850.Minimum-Moves-to-Spread-Stones-Over-Grid) (M)      
 [3459.Length-of-Longest-V-Shaped-Diagonal-Segment](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3459.Length-of-Longest-V-Shaped-Diagonal-Segment) (M+)         
 [3593.Minimum-Increments-to-Equalize-Leaf-Paths](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3593.Minimum-Increments-to-Equalize-Leaf-Paths) (M+)      
-[3864.Minimum-Cost-to-Partition-a-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/DFS/3864.Minimum-Cost-to-Partition-a-Binary-String) (M+)      
 * ``search in an array``    
 [090.Subsets-II](https://github.com/wisdompeak/LeetCode/tree/master/DFS/090.Subsets-II) (M+)  
 [301.Remove-Invalid-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/DFS/301.Remove-Invalid-Parentheses) (H)   
@@ -1186,6 +1185,7 @@
 [1553.Minimum-Number-of-Days-to-Eat-N-Oranges](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1553.Minimum-Number-of-Days-to-Eat-N-Oranges) (H)  
 [1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/1611.Minimum-One-Bit-Operations-to-Make-Integers-Zero) (H)  
 [2998.Minimum-Number-of-Operations-to-Make-X-and-Y-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2998.Minimum-Number-of-Operations-to-Make-X-and-Y-Equal) (M+)      
+[3864.Minimum-Cost-to-Partition-a-Binary-String](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/3864.Minimum-Cost-to-Partition-a-Binary-String) (M+)      
 * ``Evaluate Expressions``    
 [241.Different-Ways-to-Add-Parentheses](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/241.Different-Ways-to-Add-Parentheses) (M+)    
 [2019.The-Score-of-Students-Solving-Math-Expression](https://github.com/wisdompeak/LeetCode/tree/master/Recursion/2019.The-Score-of-Students-Solving-Math-Expression) (H-)    
