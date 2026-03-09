@@ -1436,6 +1436,7 @@
 [3696.Maximum-Distance-Between-Unequal-Words-in-Array-I](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3696.Maximum-Distance-Between-Unequal-Words-in-Array-I) (M)         
 [3800.Minimum-Cost-to-Make-Two-Binary-Strings-Equal](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3800.Minimum-Cost-to-Make-Two-Binary-Strings-Equal) (M+)      
 [3806.Maximum-Bitwise-AND-After-Increment-Operations](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3806.Maximum-Bitwise-AND-After-Increment-Operations) (H-)      
+[3863.Minimum-Operations-to-Sort-a-String](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/3863.Minimum-Operations-to-Sort-a-String) (M+)      
 * ``Boyer-Moore Majority Voting``      
 [229.Majority-Element-II](https://github.com/wisdompeak/LeetCode/tree/master/Greedy/229.Majority-Element-II) (H)      
 [2335.Minimum-Amount-of-Time-to-Fill-Cups](https://github.com/wisdompeak/LeetCode/tree/master/Priority_Queue/2335.Minimum-Amount-of-Time-to-Fill-Cups) (M+)    
