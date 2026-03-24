@@ -20,8 +20,6 @@ public:
 
     int minRemovals(vector<int>& nums, int target) {
         int  n = nums.size();
-        int total = 0;
-        for (int x: nums) total^=x;
         
         vector<int>left(nums.begin(), nums.begin()+n/2);
         vector<int>right(nums.begin()+n/2, nums.end());
