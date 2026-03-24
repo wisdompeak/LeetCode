@@ -12,7 +12,7 @@ public:
                     cnt++;
                 }
             }
-            if (!Map.count(x) || cnt<Map[x])
+            if (!Map.count(x) || cnt>Map[x])
                 Map[x] = cnt;
         }
         return Map;
@@ -22,8 +22,6 @@ public:
         int  n = nums.size();
         int total = 0;
         for (int x: nums) total^=x;
-
-        int need = total^target;
         
         vector<int>left(nums.begin(), nums.begin()+n/2);
         vector<int>right(nums.begin()+n/2, nums.end());
@@ -31,16 +29,15 @@ public:
         unordered_map<int,int>L = compute(left);
         unordered_map<int,int>R = compute(right);
 
-        int ret = INT_MAX;
+        int ret = -1;
         for (auto [x1, c1]: L) {
-            int x2= need^x1;
+            int x2= target^x1;
             if (R.count(x2)) {
-                ret = min(ret, c1+R[x2]);
+                ret = max(ret, c1+R[x2]);
             }
         }
-        if (ret!=INT_MAX)
-            return ret;
-        else
-            return -1;
+        
+        if (ret==-1) return -1;
+        else return n-ret;        
     }
 };
