@@ -1052,7 +1052,8 @@
 [3116.Kth-Smallest-Amount-With-Single-Denomination-Combination](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3116.Kth-Smallest-Amount-With-Single-Denomination-Combination) (H)      
     * ``Meet in the Middle``       
     [1755.Closest-Subsequence-Sum](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/1755.Closest-Subsequence-Sum) (H)  
-    [2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference) (H)     
+    [2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/2035.Partition-Array-Into-Two-Arrays-to-Minimize-Sum-Difference) (H)   
+    [3877.Minimum-Removals-to-Achieve-Target-XOR](https://github.com/wisdompeak/LeetCode/tree/master/Bit_Manipulation/3877.Minimum-Removals-to-Achieve-Target-XOR) (M+)   
 
 #### [Divide and Conquer](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer)
 [315.Count-of-Smaller-Numbers-After-Self](https://github.com/wisdompeak/LeetCode/tree/master/Divide_Conquer/315.Count-of-Smaller-Numbers-After-Self) (H-)    
