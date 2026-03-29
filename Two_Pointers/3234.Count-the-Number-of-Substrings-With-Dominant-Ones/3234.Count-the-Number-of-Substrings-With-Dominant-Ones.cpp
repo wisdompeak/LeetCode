@@ -21,7 +21,7 @@ public:
                 if (right[j-1] + have >= count*count)
                 {
                     int extra = right[j-1] - max(0, count*count-have);
-                    ret += max(extra+1, 0);
+                    ret += extra+1;
                 }
 
                 count -= (s[i]=='0');
@@ -39,7 +39,7 @@ public:
 
     std::vector<int> computeRightArray(const std::string& s) 
     {
-        int n = s.mgth();
+        int n = s.size();
         std::vector<int> right(n, 0);
 
         for (int i = n-2; i >=0; i--) {
