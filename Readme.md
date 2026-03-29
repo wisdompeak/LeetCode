@@ -1706,6 +1706,7 @@
 [3447.Assign-Elements-to-Groups-with-Constraints](https://github.com/wisdompeak/LeetCode/tree/master/Others/3447.Assign-Elements-to-Groups-with-Constraints) (M+)      
 [3628.Maximum-Number-of-Subsequences-After-One-Inserting](https://github.com/wisdompeak/LeetCode/tree/master/Others/3628.Maximum-Number-of-Subsequences-After-One-Inserting) (H-)      
 [3640.Trionic-Array-II](https://github.com/wisdompeak/LeetCode/tree/master/Others/3640.Trionic-Array-II) (M+)      
+[3886.Sum-of-Sortable-Integers](https://github.com/wisdompeak/LeetCode/blob/master/Others/3886.Sum-of-Sortable-Integers/3886.Sum-of-Sortable-Integers.cpp) (M+)      
 * ``Presum``   
 [1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid](https://github.com/wisdompeak/LeetCode/tree/master/Others/1878.Get-Biggest-Three-Rhombus-Sums-in-a-Grid) (M+)  
 [1906.Minimum-Absolute-Difference-Queries](https://github.com/wisdompeak/LeetCode/tree/master/Others/1906.Minimum-Absolute-Difference-Queries) (M+)  
